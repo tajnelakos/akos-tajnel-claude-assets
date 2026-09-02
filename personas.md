@@ -1,4 +1,4 @@
-# Buyer Personas — Seekridge (fictional)
+# Buyer Personas — Seekridge
 
 Expands the persona list in [`knowledge-base.md`](./knowledge-base.md). Used by prompts/skills that need to tailor tone, structure, or emphasis to who's actually reading — see [`sales-deck-builder`](./sales-deck-builder) and [`sales-call-analysis`](./sales-call-analysis) for where this gets applied.
 

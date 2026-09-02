@@ -1,4 +1,4 @@
-# Competitive Landscape — Seekridge (fictional)
+# Competitive Landscape — Seekridge
 
 Full battlecard reference. The summary table in [`knowledge-base.md`](./knowledge-base.md) is the quick version; this is what [`competitor-monitoring`](./competitor-monitoring) and [`win-loss-analysis`](./win-loss-analysis) draw on for deeper context.
 
