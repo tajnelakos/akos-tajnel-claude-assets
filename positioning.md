@@ -1,6 +1,6 @@
 # Positioning — Seekridge (fictional)
 
-Reference context for [Seekridge](./knowledge-base.md). Used by prompts/skills that generate customer-facing content — see [`sales-deck-builder`](../sales-deck-builder) and [`brand-voice-guidelines`](../brand-voice-guidelines).
+Reference context for [Seekridge](./knowledge-base.md). Used by prompts/skills that generate customer-facing content — see [`sales-deck-builder`](./sales-deck-builder) and [`brand-voice-guidelines`](./brand-voice-guidelines).
 
 ## Strategic narrative
 

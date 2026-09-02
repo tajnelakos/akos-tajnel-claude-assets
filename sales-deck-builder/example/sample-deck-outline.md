@@ -1,6 +1,6 @@
 # Sample output
 
-Fictional deal context and outline for [Seekridge](../../strategy/knowledge-base.md).
+Fictional deal context and outline for [Seekridge](../../knowledge-base.md).
 
 ---
 

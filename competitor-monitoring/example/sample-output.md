@@ -1,6 +1,6 @@
 # Sample output
 
-Fictional. Run against invented signals about [Seekridge](../../strategy/knowledge-base.md)'s fictional competitors — no real company's data.
+Fictional. Run against invented signals about [Seekridge](../../knowledge-base.md)'s fictional competitors — no real company's data.
 
 ---
 
