@@ -1,6 +1,6 @@
 # Before / after
 
-Draft for Seekridge, rewritten per the [voice skill](../claude-skill/SKILL.md).
+Draft for Seekridge, rewritten per the [voice skill](./skill.md).
 
 ---
 
