@@ -17,7 +17,7 @@ The output is intentionally opinionated: it always ends in 2-3 concrete next act
 
 - [`skill.md`](./skill.md) — the Claude Skill definition
 - [`gpt.md`](./gpt.md) — ChatGPT custom GPT version
-- [`win-loss-infographic.svg`](./win-loss-infographic.svg) — sample output, Q1 data for Seekridge' banking segment
+- [`win-loss-infographic.svg`](./win-loss-infographic.svg) — sample output, Q1 data for Seekridge' banking segment ([view live ↗](https://tajnelakos.github.io/seekridge/win-loss-analysis/win-loss-infographic.svg))
 
 ![Win/loss infographic example](./win-loss-infographic.svg)
 
