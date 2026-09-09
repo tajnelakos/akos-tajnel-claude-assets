@@ -1,6 +1,6 @@
 # Call Transcript — Fenwick & Oak Realty
 
-**Date:** June 2026 · **Duration:** ~15 minutes · **Call type:** First discovery call
+**Date:** August 2026 · **Duration:** ~15 minutes · **Call type:** First discovery call
 **Rep:** Marcus Webb (Seekridge) · **Prospect:** Priya Chandra, Broker Team Lead, Fenwick & Oak Realty (independent brokerage, ~25 agents)
 
 ---
