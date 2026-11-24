@@ -1,0 +1,100 @@
+{
+  "manifestVersion": 3,
+  "name": "Seekridge flyers",
+  "namespace": "SeekridgeFlyers",
+  "files": [
+    "assets/Arrows/README.md",
+    "assets/Examples/README.md",
+    "assets/Icons/README.md",
+    "assets/Logos/README.md",
+    "assets/Motifs/README.md",
+    "assets/QR/README.md",
+    "components/Benefit/README.md",
+    "components/ContactBlock/README.md",
+    "components/EvidenceStrip/README.md",
+    "components/FeaturePanel/README.md",
+    "components/FigurePanel/README.md",
+    "components/LayerDiagram/README.md",
+    "components/Logo/README.md",
+    "components/NavyGround/README.md",
+    "components/OnePager/README.md",
+    "components/Postcard/README.md",
+    "components/Step/README.md",
+    "components/Trifold/README.md",
+    "components/bundle.css",
+    "fonts/Archivo-Bold.woff2",
+    "fonts/Archivo-ExtraBold.woff2",
+    "fonts/Archivo-SemiBold.woff2",
+    "fonts/IBMPlexMono-Medium.woff2",
+    "fonts/IBMPlexMono-Regular.woff2",
+    "fonts/IBMPlexSans-Medium.woff2",
+    "fonts/IBMPlexSans-Regular.woff2",
+    "fonts/IBMPlexSans-SemiBold.woff2",
+    "production.md",
+    "tokens.css",
+    "wording.md"
+  ],
+  "libraries": [],
+  "components": [
+    {
+      "name": "OnePager",
+      "group": "Formats",
+      "summary": "The A4 portrait leave-behind (210 × 297 mm): one persona, one page, printed or sent as a PDF after a meeting."
+    },
+    {
+      "name": "Postcard",
+      "group": "Formats",
+      "summary": "The A5 landscape card (210 × 148 mm) for mailings, conference tables and recto flyers. A recto flyer is the front alone, with the `ContactBlock` added at its foot."
+    },
+    {
+      "name": "Trifold",
+      "group": "Formats",
+      "summary": "The A4 roll-fold leaflet (297 × 210 mm, folded to 100 × 210 mm): the main piece for events, branch drops and the post-meeting leave-behind."
+    },
+    {
+      "name": "Logo",
+      "group": "Surfaces",
+      "summary": "The Seekridge lockup and mark with an outlined wordmark and transparent ground, ready for print. Files are in the Logos asset group."
+    },
+    {
+      "name": "NavyGround",
+      "group": "Surfaces",
+      "summary": "Flat Seekridge Navy is the brand's front-of-piece surface: every trifold front and back, every postcard front and recto flyer. Paper carries everything with detail."
+    },
+    {
+      "name": "Benefit",
+      "group": "Content",
+      "summary": "A 9 mm line icon over a two-line outcome, left-aligned, four to a `.pwf-benefits` grid under a \"What changes for your team\" heading."
+    },
+    {
+      "name": "ContactBlock",
+      "group": "Content",
+      "summary": "The close of every piece: a QR code on a square white tile, one action that says what happens after the scan, then the web address and email, each after a line arrow. Replaces the pill-shaped URL button: the brand has no pills."
+    },
+    {
+      "name": "EvidenceStrip",
+      "group": "Content",
+      "summary": "The brand promise on paper: one signal, the customer it points at (by ID), and the data points behind it with how much each counted. Every piece that shows a signal shows this."
+    },
+    {
+      "name": "FeaturePanel",
+      "group": "Content",
+      "summary": "A white panel with a hairline on paper that pairs a line icon, a one-line title and two to four lines of copy or up to four bullets. The pillars of the message house live in these."
+    },
+    {
+      "name": "FigurePanel",
+      "group": "Content",
+      "summary": "Up to three figures in a white panel, stacked (`.pwf-figures`) or in a row (`.pwf-figures--row`). Each figure is `tri-figure` in navy, a `tri-body` label saying what it measures, and a `source` line saying where it came from."
+    },
+    {
+      "name": "LayerDiagram",
+      "group": "Content",
+      "summary": "The flyer version of how a signal is built: three square layer chips on the left, joined by hairlines into one signal box with the gold lot in its corner. It replaces orbiting chips and glowing hero objects: the brand shows the method, not a halo."
+    },
+    {
+      "name": "Step",
+      "group": "Content",
+      "summary": "A numbered sequence: an 8 mm square tile with a two-digit mono number, a one-word title and one or two lines. Stacked (`.pwf-steps`) on a trifold panel, in a row (`.pwf-steps--row`) on the one-pager."
+    }
+  ]
+}
