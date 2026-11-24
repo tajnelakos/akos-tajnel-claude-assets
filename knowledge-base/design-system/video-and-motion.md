@@ -1,6 +1,6 @@
 # Video and motion
 
-Rules for Parcelwise product videos and UI motion: formats, story structure, key frames, captions, the motion language and production. Component: `VideoFrame` in [`components.md`](./components.md).
+Rules for Parcelwise product videos and UI motion: formats, story structure, key frames, captions, the motion language and production. This page is the summary; the full system for film — the film book, 18 components with live previews, product UI references, three reference films and the skill that builds new ones — is [`../video-design-system/`](../video-design-system). Component here: `VideoFrame` in [`components.md`](./components.md).
 
 ## Formats
 
@@ -16,20 +16,20 @@ Rules for Parcelwise product videos and UI motion: formats, story structure, key
 
 1. **Hook (0–5 s):** the persona's situation on a navy title card. "Your customer's fixed rate resets in four months."
 2. **Tension (5–15 s):** what goes wrong today. "By the time anyone notices, they've refinanced elsewhere."
-3. **Method (15–40 s):** the product, as real screen recordings, following the three layers: the customer record, then the property and its value, then the market and rates. The signal appears with its evidence trail and is pushed to the CRM.
+3. **Method (15–40 s):** the product, as panels rebuilt in code from the real screens (never screen-recorded), following the three layers: the customer record, then the property and its value, then the market and rates. The signal appears with its evidence trail and is pushed to the CRM.
 4. **Proof (40–55 s):** one backtest figure with its source line, or one customer outcome (approved, or labelled illustrative).
 5. **Close (last 4–5 s):** end card with the lockup, one line ("Opportunities you can act on — and explain.") and one action ("Run a backtest on your own book").
 
 ## Frames
 
 - **Title card:** navy ground, `parcel-grid` motif bleeding off the right, Archivo 800 at 96–120px in Paper, lockup top-left.
-- **Screen recording:** on Paper, the product in a `surface` frame with a hairline border, cropped to the panel that matters; zoom in on the detail being described.
+- **Product frame:** on Paper, the product rebuilt as a flat `surface` panel with a hairline border, cropped to the part that matters; focus on a detail with corner marks and dimming, never blur.
 - **Lower third:** navy band, 2px gold rule above it, Plex Sans 600 at 40px; at least `canvas-margin-caption` (160px) above the bottom edge.
-- **Captions:** Plex Sans 500 at 44px (master), Paper on a navy band at 90% opacity, 2 lines max, 42 characters a line, sentence case.
+- **Captions:** Plex Sans 500 at 44px (master), left-aligned, Paper on a navy band (ink on a Paper band on Navy frames), 2 lines max, 42 characters a line, sentence case.
 - **Figure card:** one number in Archivo 800 at 240px, the measure under it in Plex Sans, the source in Plex Mono.
 - **End card:** reversed lockup centred on navy, the line, the action, held 3 seconds.
 
-Logo: lockup on the title and end cards; the mark at 48px bottom-right on screen-recording frames, nowhere else.
+Logo: lockup on the title and end cards; the mark at 48px bottom-right on product frames, nowhere else.
 
 ## Motion language
 
@@ -62,7 +62,7 @@ Restrained music under a calm voice-over, or music only with captions carrying t
 ## Before you export
 
 1. One persona, one claim per scene, readable in 3 seconds?
-2. Real product footage, with no real customer names, addresses or data on screen?
+2. Product panels rebuilt from the real screens, with no real customer names, addresses or data on screen?
 3. Captions burnt in, inside the caption margin?
 4. Figures real or labelled illustrative, with a source?
 5. No bounce, spin, stock footage or gradient?
