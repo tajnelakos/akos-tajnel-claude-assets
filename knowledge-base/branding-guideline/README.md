@@ -14,12 +14,16 @@ Two things live here, deliberately not merged: a **skill** that applies the voic
 
 ## Files — the full brand system
 
-- [`brand-guidelines.md`](./brand-guidelines.md) — mission, vision, brand values, tone-by-channel, logo rules, full color palette (HEX/RGB/CMYK), typography, UI/UX visual styles, naming conventions, image and icon style
+- [`brand-guidelines.md`](./brand-guidelines.md) — mission, vision, brand values, tone-by-channel, logo rules, full color palette (HEX/RGB/CMYK) with text-safe status colors and a dark theme, type scale, UI/UX visual styles, spacing and radius, layout, motifs, data visualization, accessibility, naming conventions, image and icon style, writing mechanics, LinkedIn and video rules, and a pre-publish checklist
 - [`logo.svg`](./logo.svg) — primary logo, for light backgrounds
 - [`logo-reversed.svg`](./logo-reversed.svg) — white version, for dark backgrounds
 - [`logo-mark.svg`](./logo-mark.svg) — icon alone
 - [`logo-usage.svg`](./logo-usage.svg) — clear space, minimum size, and misuse reference sheet
 - [`color-palette.svg`](./color-palette.svg) — the palette swatch reference
+
+## Files — the design system
+
+The build-ready version of this brand lives next door in [`../design-system/`](../design-system): tokens (light and dark), component CSS and a live [components page](../design-system/components.html), 15 line icons, 3 parcel-map motifs, and the full rules for writing, LinkedIn carousels, and video. `brand-guidelines.md` summarizes each of those and links to the detail.
 
 ## Current limitations
 

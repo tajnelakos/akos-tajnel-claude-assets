@@ -8,7 +8,7 @@ A working set of prompts, Claude Skills, and custom GPTs for recurring growth/pr
 
 ## Three top-level folders
 
-- **[`knowledge-base/`](./knowledge-base)** — accumulated understanding, not a task tool. Holds the core reference docs (`knowledge-base.md`, `icp.md`, `personas.md`, `positioning.md`, `competitive-landscape.md`, and `branding-guideline/` for voice — read the relevant one first when a task needs customer, competitor, or voice context) plus the analysis work that builds and maintains that understanding (`sales-call-analysis/`, `win-loss-analysis/`, `staleness-detection/`).
+- **[`knowledge-base/`](./knowledge-base)** — accumulated understanding, not a task tool. Holds the core reference docs (`knowledge-base.md`, `icp.md`, `personas.md`, `positioning.md`, `competitive-landscape.md`, `branding-guideline/` for voice and identity, and `design-system/` for anything visual — read the relevant one first when a task needs customer, competitor, or voice context) plus the analysis work that builds and maintains that understanding (`sales-call-analysis/`, `win-loss-analysis/`, `staleness-detection/`).
 - **[`sales-tools/`](./sales-tools)** — what a rep or sales-facing process actually uses: `competitor-monitoring/`, `battlecard/`, `abm-account-brief/`, `icp-buying-signal-monitor/`, `sales-deck-builder/`.
 - **[`marketing-assets/`](./marketing-assets)** — content marketing produces and ships: `personalized-outbound/`, `persona-email-sequence/`, `positioning-compliance/`.
 
@@ -24,6 +24,7 @@ Every folder inside these three holds a flat set of files — `README.md`, `skil
 | "Break down this sales call" / objections, competitor mentions from a transcript | [`sales-call-analysis`](./knowledge-base/sales-call-analysis) |
 | "Why are we winning/losing deals this quarter?" | [`win-loss-analysis`](./knowledge-base/win-loss-analysis) |
 | "Rewrite this draft to match our voice" | [`branding-guideline`](./knowledge-base/branding-guideline) |
+| "Design a slide, page, carousel, or video frame" / "What color, font, or size should this be?" | [`design-system`](./knowledge-base/design-system) (start with its README, then `tokens.css` and `components.md`) |
 | "Is this draft safe to publish?" (pass/fail, no rewrite) | [`positioning-compliance`](./marketing-assets/positioning-compliance) |
 | "Build a deck outline for [meeting/persona]" | [`sales-deck-builder`](./sales-tools/sales-deck-builder) |
 | "Which accounts are showing buying signals right now?" | [`icp-buying-signal-monitor`](./sales-tools/icp-buying-signal-monitor) |
