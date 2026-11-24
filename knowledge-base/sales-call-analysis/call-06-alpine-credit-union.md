@@ -1,7 +1,7 @@
 # Call Transcript — Alpine Credit Union
 
 **Date:** July 2026 · **Duration:** ~20 minutes · **Call type:** Third call, late-stage
-**Rep:** Marcus Webb (Sundial Analytics) · **Prospect:** Heinrich Bauer, Head of Credit Risk, Alpine Credit Union (regional bank, DACH)
+**Rep:** Marcus Webb (Parcelwise) · **Prospect:** Heinrich Bauer, Head of Credit Risk, Alpine Credit Union (regional bank, DACH)
 
 ---
 
@@ -11,7 +11,7 @@
 
 **Marcus:** Say more about that.
 
-**Heinrich:** You're smaller than the vendors we've traditionally used. If Sundial were acquired, or ran into funding trouble, or simply didn't exist in three years, we'd have a dependency on a company that's gone — for a model that decides which members we contact. That's a real board-level question for us, not a formality.
+**Heinrich:** You're smaller than the vendors we've traditionally used. If Parcelwise were acquired, or ran into funding trouble, or simply didn't exist in three years, we'd have a dependency on a company that's gone — for a model that decides which members we contact. That's a real board-level question for us, not a formality.
 
 **Marcus:** It's a legitimate one, and I'd rather engage with the substance than give you a reassurance-shaped non-answer. A few things I can actually offer: contractual data portability terms, so if the relationship ever ended, your historical signals, evidence trails, and audit log export in a usable format, and your member data is deleted on our side under the data-processing agreement — not held hostage. That's something I can commit to in writing, not just say on a call.
 

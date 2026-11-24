@@ -16,7 +16,7 @@ So what: Two of our active bank deals (Meridian Savings, Nordkredit) are mid-neg
 **Announced "regulatory signal explanations" feature, in beta**
 What changed: ValuAI's release notes mention a new feature explaining why a customer was flagged, described as "coming to select customers in beta."
 Confidence: Needs confirmation — beta scope and actual regulatory coverage unclear from release notes alone.
-So what: This has been our clearest differentiation point against ValuAI in credit-risk buyer conversations. Worth having a sales engineer request a demo of the beta (via a non-Sundial contact) before we soften that talking point — right now we don't know if it's a real compliance feature or a feature-importance chart.
+So what: This has been our clearest differentiation point against ValuAI in credit-risk buyer conversations. Worth having a sales engineer request a demo of the beta (via a non-Parcelwise contact) before we soften that talking point — right now we don't know if it's a real compliance feature or a feature-importance chart.
 
 ### Estemate
 **Two G2 reviews this month cite slow support response**

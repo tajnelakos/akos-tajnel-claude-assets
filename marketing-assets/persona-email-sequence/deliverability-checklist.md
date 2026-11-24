@@ -7,7 +7,7 @@ A persona-specific sequence is wasted if it lands in spam — this checklist is 
 - [ ] **SPF record** published for the sending domain, covering every service actually allowed to send as that domain (ESP, CRM, any transactional mailer) — an SPF record that's too narrow silently fails sends from a legitimate but unlisted source.
 - [ ] **DKIM** configured and signing outbound mail — verify with a test send, not just by confirming the DNS record exists; a published record with signing not actually enabled looks correct and fails silently.
 - [ ] **DMARC** published, starting at `p=none` (monitor-only) if this is a new domain or subdomain, moving to `p=quarantine` once a few weeks of reports show no legitimate mail failing alignment.
-- [ ] **Dedicated sending subdomain** for marketing sequences (e.g. `send.sundialanalytics.com`), separate from the primary corporate domain — isolates sequence sending reputation from transactional and corporate mail reputation.
+- [ ] **Dedicated sending subdomain** for marketing sequences (e.g. `send.parcelwise.example`), separate from the primary corporate domain — isolates sequence sending reputation from transactional and corporate mail reputation.
 - [ ] **Warm-up schedule** for a new sending domain or subdomain — start at a small daily volume and ramp over 2-3 weeks rather than sending a full segment on day one; a cold domain sending high volume immediately is a strong spam signal to receiving mailbox providers regardless of content.
 
 ## Before each new sequence or segment
@@ -28,4 +28,4 @@ A persona-specific sequence is wasted if it lands in spam — this checklist is 
 ## Reference
 
 - [`campaign-metrics.csv`](./campaign-metrics.csv) — this repo's own tracked send data, for comparing a live campaign's bounce/unsubscribe rates against a known baseline.
-- CAN-SPAM Act requirements apply to any commercial email to US recipients regardless of where Sundial Analytics is headquartered; GDPR applies to any EU recipient regardless of sender location. Neither is optional based on segment size.
+- CAN-SPAM Act requirements apply to any commercial email to US recipients regardless of where Parcelwise is headquartered; GDPR applies to any EU recipient regardless of sender location. Neither is optional based on segment size.

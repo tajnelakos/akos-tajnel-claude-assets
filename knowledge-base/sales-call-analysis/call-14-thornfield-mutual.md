@@ -1,7 +1,7 @@
 # Call Transcript — Thornfield Mutual
 
 **Date:** August 2026 · **Duration:** ~16 minutes · **Call type:** Second call, procurement-stage
-**Rep:** Marcus Webb (Sundial Analytics) · **Prospect:** Grace Almeida, Head of Home Insurance, Thornfield Mutual (mutual home insurer, Benelux, ~620,000 home policies)
+**Rep:** Marcus Webb (Parcelwise) · **Prospect:** Grace Almeida, Head of Home Insurance, Thornfield Mutual (mutual home insurer, Benelux, ~620,000 home policies)
 
 ---
 

@@ -1,7 +1,7 @@
 # Call Transcript — Meadowbrook Financial
 
 **Date:** August 2026 · **Duration:** ~20 minutes · **Call type:** Third call, formal evaluation
-**Rep:** Anna Kowalski (Sundial Analytics) · **Prospect:** Robert Yankov, VP of Mortgage Lending, Meadowbrook Financial (regional bank); joined by two members of his data team
+**Rep:** Anna Kowalski (Parcelwise) · **Prospect:** Robert Yankov, VP of Mortgage Lending, Meadowbrook Financial (regional bank); joined by two members of his data team
 
 ---
 

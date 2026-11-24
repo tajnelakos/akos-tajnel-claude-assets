@@ -16,7 +16,7 @@ Two constraints are built in on purpose:
 
 - [`weekly-brief-skill.md`](./weekly-brief-skill.md) — the Claude Skill definition
 - [`weekly-brief-gpt.md`](./weekly-brief-gpt.md) — the same logic adapted as a ChatGPT custom GPT
-- [`weekly-brief-example.md`](./weekly-brief-example.md) — a weekly brief run against [Sundial Analytics](../../knowledge-base/knowledge-base.md)'s competitors
+- [`weekly-brief-example.md`](./weekly-brief-example.md) — a weekly brief run against [Parcelwise](../../knowledge-base/knowledge-base.md)'s competitors
 
 ## Files — bi-monthly deep-dive
 

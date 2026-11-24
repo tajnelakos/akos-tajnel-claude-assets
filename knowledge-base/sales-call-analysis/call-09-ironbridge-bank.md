@@ -1,7 +1,7 @@
 # Call Transcript — Ironbridge Bank
 
 **Date:** July 2026 · **Duration:** ~14 minutes · **Call type:** First discovery call
-**Rep:** Anna Kowalski (Sundial Analytics) · **Prospect:** Fredrik Nilsson, Head of Credit Risk, Ironbridge Bank (regional lender)
+**Rep:** Anna Kowalski (Parcelwise) · **Prospect:** Fredrik Nilsson, Head of Credit Risk, Ironbridge Bank (regional lender)
 
 ---
 

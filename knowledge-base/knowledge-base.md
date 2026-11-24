@@ -1,10 +1,10 @@
-# Knowledge Base — Sundial Analytics
+# Knowledge Base — Parcelwise
 
 Master source of truth for every prompt, skill, and example in this repo. Every other knowledge-base file alongside this one is a derived, deeper view of one section of this doc — kept separate so a skill can reference just the piece it needs (voice rules, competitor detail, persona psychology) instead of the whole thing.
 
 ## Company
 
-**Sundial Analytics** — B2B SaaS. An AI data platform that finds new business inside a client's existing customer base. It combines three data layers:
+**Parcelwise** — B2B SaaS. An AI data platform that finds new business inside a client's existing customer base. It combines three data layers:
 
 1. **Property data** — property attributes, automated valuations, energy ratings, renovation potential
 2. **Market data** — prices, listings, interest rates, local market trends

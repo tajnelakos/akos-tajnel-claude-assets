@@ -4,7 +4,7 @@ If you're an AI assistant (Claude, ChatGPT, or otherwise) and someone has just p
 
 ## What this repo is
 
-A working set of prompts, Claude Skills, and custom GPTs for recurring growth/product marketing tasks at a B2B SaaS company, built around one fictional company ([`knowledge-base.md`](./knowledge-base/knowledge-base.md), Sundial Analytics) so the examples are coherent rather than disconnected snippets. Full context: [`README.md`](./README.md).
+A working set of prompts, Claude Skills, and custom GPTs for recurring growth/product marketing tasks at a B2B SaaS company, built around one fictional company ([`knowledge-base.md`](./knowledge-base/knowledge-base.md), Parcelwise) so the examples are coherent rather than disconnected snippets. Full context: [`README.md`](./README.md).
 
 ## Three top-level folders
 

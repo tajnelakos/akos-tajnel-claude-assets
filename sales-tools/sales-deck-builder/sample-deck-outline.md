@@ -1,6 +1,6 @@
 # Sample output
 
-Deal context and outline for [Sundial Analytics](../../knowledge-base/knowledge-base.md).
+Deal context and outline for [Parcelwise](../../knowledge-base/knowledge-base.md).
 
 ---
 
