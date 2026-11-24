@@ -1,0 +1,240 @@
+{
+  "manifestVersion": 3,
+  "name": "Seekridge Video Design System",
+  "namespace": "PWVideo",
+  "files": [
+    "README.md",
+    "skill.md",
+    "example.md",
+    "tokens.json",
+    "tokens.css",
+    "components/bundle.css",
+    "components/film-engine.js",
+    "preview.html",
+    "fonts/Archivo-Bold.woff2",
+    "fonts/Archivo-ExtraBold.woff2",
+    "fonts/Archivo-SemiBold.woff2",
+    "fonts/IBMPlexMono-Medium.woff2",
+    "fonts/IBMPlexMono-Regular.woff2",
+    "fonts/IBMPlexSans-Medium.woff2",
+    "fonts/IBMPlexSans-Regular.woff2",
+    "fonts/IBMPlexSans-SemiBold.woff2",
+    "fonts/OFL.txt",
+    "components/TitleCard/README.md",
+    "components/EndCard/README.md",
+    "components/StatementStage/README.md",
+    "components/Headline/README.md",
+    "components/LowerThird/README.md",
+    "components/Captions/README.md",
+    "components/ChapterRail/README.md",
+    "components/ProductPanel/README.md",
+    "components/SignalCard/README.md",
+    "components/EvidenceTrail/README.md",
+    "components/FocusMarks/README.md",
+    "components/AuditLog/README.md",
+    "components/LayerStack/README.md",
+    "components/FigureCard/README.md",
+    "components/BacktestChart/README.md",
+    "components/ParcelField/README.md",
+    "components/Timeline/README.md",
+    "components/SegmentTriptych/README.md"
+  ],
+  "assetGroups": [
+    {
+      "name": "Logos",
+      "files": [
+        "assets/Logos/seekridge-lockup-reversed.svg",
+        "assets/Logos/seekridge-lockup.svg",
+        "assets/Logos/seekridge-mark-reversed.svg",
+        "assets/Logos/seekridge-mark.svg"
+      ],
+      "readme": "assets/Logos/README.md"
+    },
+    {
+      "name": "Product UI",
+      "files": [
+        "assets/Product UI/01-signals-this-week.png",
+        "assets/Product UI/02-signal-detail.png",
+        "assets/Product UI/03-customer-record.png",
+        "assets/Product UI/04-coverage-map.png",
+        "assets/Product UI/05-crm-sync.png",
+        "assets/Product UI/06-audit-log.png",
+        "assets/Product UI/07-backtest-report.png",
+        "assets/Product UI/08-data-layers.png"
+      ],
+      "readme": "assets/Product UI/README.md"
+    },
+    {
+      "name": "Films",
+      "files": [
+        "assets/Films/statement-evidence-16x9.mp4",
+        "assets/Films/statement-evidence-16x9.srt",
+        "assets/Films/story-fixed-rate-dach-16x9.mp4",
+        "assets/Films/story-fixed-rate-dach-16x9.srt",
+        "assets/Films/walkthrough-evidence-trail-16x9.mp4",
+        "assets/Films/walkthrough-evidence-trail-16x9.srt"
+      ],
+      "readme": "assets/Films/README.md"
+    },
+    {
+      "name": "Stills",
+      "files": [
+        "assets/Stills/contact-sheet-statement.jpg",
+        "assets/Stills/contact-sheet-story.jpg",
+        "assets/Stills/contact-sheet-walkthrough.jpg",
+        "assets/Stills/statement-claim.jpg",
+        "assets/Stills/statement-figure.jpg",
+        "assets/Stills/statement-segments.jpg",
+        "assets/Stills/story-action-crm.jpg",
+        "assets/Stills/story-endcard.jpg",
+        "assets/Stills/story-evidence-trail.jpg",
+        "assets/Stills/story-layerstack.jpg",
+        "assets/Stills/story-proof-figure.jpg",
+        "assets/Stills/story-signalcard.jpg",
+        "assets/Stills/story-tension-timeline.jpg",
+        "assets/Stills/story-titlecard.jpg",
+        "assets/Stills/walkthrough-audit-log.jpg",
+        "assets/Stills/walkthrough-lockup.jpg",
+        "assets/Stills/walkthrough-open.jpg",
+        "assets/Stills/walkthrough-step-export.jpg",
+        "assets/Stills/walkthrough-step-listed.jpg"
+      ],
+      "readme": "assets/Stills/README.md"
+    }
+  ],
+  "films": [
+    "films/README.md",
+    "films/render-film.py",
+    "films/statement-evidence-16x9.html",
+    "films/story-fixed-rate-dach-16x9.html",
+    "films/walkthrough-evidence-trail-16x9.html"
+  ],
+  "components": [
+    {
+      "name": "TitleCard",
+      "group": "Open and close",
+      "summary": "How Signal stories open: the situation as a hook on Navy, the parcel field drawing in, the gold lot filling.",
+      "readme": "components/TitleCard/README.md",
+      "preview": "components/TitleCard/preview.html"
+    },
+    {
+      "name": "EndCard",
+      "group": "Open and close",
+      "summary": "How every film closes: reversed lockup centred, the line, one action, held 3 seconds.",
+      "readme": "components/EndCard/README.md",
+      "preview": "components/EndCard/preview.html"
+    },
+    {
+      "name": "StatementStage",
+      "group": "Open and close",
+      "summary": "The Navy stage for Statement films: one claim in title type over a band of parcel lines.",
+      "readme": "components/StatementStage/README.md",
+      "preview": "components/StatementStage/preview.html"
+    },
+    {
+      "name": "Headline",
+      "group": "Type on ground",
+      "summary": "The left-aligned headline that carries every beat: mono eyebrow, 3 to 8 words a line, up to three highlighted words.",
+      "readme": "components/Headline/README.md",
+      "preview": "components/Headline/preview.html"
+    },
+    {
+      "name": "LowerThird",
+      "group": "Type on ground",
+      "summary": "A navy band with a gold rule that names a role, a team or a data source on screen.",
+      "readme": "components/LowerThird/README.md",
+      "preview": "components/LowerThird/preview.html"
+    },
+    {
+      "name": "Captions",
+      "group": "Sound and captions",
+      "summary": "Burnt-in captions of the voice-over on every cut: Plex Sans 44px on a navy band, left-aligned, 160px above the bottom.",
+      "readme": "components/Captions/README.md",
+      "preview": "components/Captions/preview.html"
+    },
+    {
+      "name": "ChapterRail",
+      "group": "Navigation",
+      "summary": "The Situation · Signal · Evidence · Action rail at the bottom of Signal stories.",
+      "readme": "components/ChapterRail/README.md",
+      "preview": "components/ChapterRail/preview.html"
+    },
+    {
+      "name": "ProductPanel",
+      "group": "Product UI",
+      "summary": "A flat white panel rebuilt from a Seekridge screen: hairline frame that traces in, sunken header, 72px rows.",
+      "readme": "components/ProductPanel/README.md",
+      "preview": "components/ProductPanel/preview.html"
+    },
+    {
+      "name": "SignalCard",
+      "group": "Product UI",
+      "summary": "One signal for one customer: signal name, customer ID, rank this week, and its top two evidence rows.",
+      "readme": "components/SignalCard/README.md",
+      "preview": "components/SignalCard/preview.html"
+    },
+    {
+      "name": "EvidenceTrail",
+      "group": "Product UI",
+      "summary": "The signature component: every data point behind a signal, with its layer, value and weight, the top weight in gold.",
+      "readme": "components/EvidenceTrail/README.md",
+      "preview": "components/EvidenceTrail/preview.html"
+    },
+    {
+      "name": "FocusMarks",
+      "group": "Product UI",
+      "summary": "Four surveyor corner brackets that close on the element a beat is about, while the rest of the panel dims.",
+      "readme": "components/FocusMarks/README.md",
+      "preview": "components/FocusMarks/preview.html"
+    },
+    {
+      "name": "AuditLog",
+      "group": "Product UI",
+      "summary": "The record of what happened to a signal: timestamped mono lines that type in, one per event.",
+      "readme": "components/AuditLog/README.md",
+      "preview": "components/AuditLog/preview.html"
+    },
+    {
+      "name": "LayerStack",
+      "group": "Data",
+      "summary": "The three data layers for one customer, drawn as three bands whose connectors meet in one signal.",
+      "readme": "components/LayerStack/README.md",
+      "preview": "components/LayerStack/preview.html"
+    },
+    {
+      "name": "FigureCard",
+      "group": "Data",
+      "summary": "One number, counting up on Navy, with what it measures and where it came from.",
+      "readme": "components/FigureCard/README.md",
+      "preview": "components/FigureCard/preview.html"
+    },
+    {
+      "name": "BacktestChart",
+      "group": "Data",
+      "summary": "How past signals performed on the client's own book: ten deciles in navy, the top decile in gold, the book average dashed.",
+      "readme": "components/BacktestChart/README.md",
+      "preview": "components/BacktestChart/preview.html"
+    },
+    {
+      "name": "ParcelField",
+      "group": "Data",
+      "summary": "The customer base as a parcel map: thousands of lots drawn in straight lines, the week's signals marked, one in gold.",
+      "readme": "components/ParcelField/README.md",
+      "preview": "components/ParcelField/preview.html"
+    },
+    {
+      "name": "Timeline",
+      "group": "Data",
+      "summary": "A straight track with dated events: solid for what has happened, dashed for what is expected.",
+      "readme": "components/Timeline/README.md",
+      "preview": "components/Timeline/preview.html"
+    },
+    {
+      "name": "SegmentTriptych",
+      "group": "Data",
+      "summary": "Three segments side by side, each a signal with its top evidence: the same grammar for banks, insurers and brokerages.",
+      "readme": "components/SegmentTriptych/README.md",
+      "preview": "components/SegmentTriptych/preview.html"
+    }
+  ]
+}

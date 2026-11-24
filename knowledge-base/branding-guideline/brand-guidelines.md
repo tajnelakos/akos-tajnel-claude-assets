@@ -239,11 +239,11 @@ Full system: [`../linkedin-carousels/`](../linkedin-carousels) (formats, slide C
 
 ### Video and motion
 
-Full rules: [`video-and-motion.md`](../design-system/video-and-motion.md).
+Summary rules: [`video-and-motion.md`](../design-system/video-and-motion.md). The full system for film (formats, beat structures, components, reference films and the skill that builds them): [`../video-design-system/`](../video-design-system).
 
 - **Formats:** 1920 × 1080 master (45–75 s), 1080 × 1350 social cut (30–45 s), 1080 × 1920 vertical (15–30 s); 30 fps; one video per segment and persona.
-- **Structure:** hook (the customer situation) → tension (what goes wrong today) → method (real screen recordings through the three data layers, ending on a signal with its evidence trail) → proof (one backtest figure with its source) → end card (lockup, "Opportunities you can act on — and explain.", one action, held three seconds).
-- **Captions:** always burnt in, IBM Plex Sans 500 at 44px on a Navy band, two lines maximum, at least 160px above the bottom edge.
+- **Structure:** hook (the customer situation) → tension (what goes wrong today) → method (product panels rebuilt in code from the real screens, through the three data layers, ending on a signal with its evidence trail) → proof (one backtest figure with its source) → end card (lockup, "Opportunities you can act on — and explain.", one action, held three seconds).
+- **Captions:** always burnt in, IBM Plex Sans 500 at 44px on a Navy band (a Paper band on Navy frames), left-aligned, two lines maximum, at least 160px above the bottom edge.
 - **Motion language:** straight, exact, no bounce — like a surveyor drawing a plan. Signature move: parcel lines draw in, then the gold lot fills. One easing curve (`cubic-bezier(0.2, 0, 0, 1)`); 150ms for UI feedback, 250ms for panels, 500ms for video text, 800ms for line draws. No spins, 3D flips, glitch effects, or stock footage. UI motion respects `prefers-reduced-motion`.
 
 ---

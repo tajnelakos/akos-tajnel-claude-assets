@@ -53,5 +53,7 @@ This doc is the quick summary. Everything below expands one section of it into t
 - [`competitive-landscape.md`](./competitive-landscape.md) — full battlecards and positioning gaps
 - [`design-system/`](./design-system) — the brand made build-ready: tokens, components, icons, motifs, and the rules for writing, LinkedIn, and video
 - [`linkedin-carousels/`](./linkedin-carousels) — the LinkedIn carousel design system: seven formats and a slide kit, slide tokens and CSS, assets, fonts, wording and caption rules, and a carousel-building skill
+- [`flyer-design-system/`](./flyer-design-system) — Seekridge in print: trifold, postcard and one-pager system with print tokens, components, copy and pre-press rules, and print-ready examples
+- [`video-design-system/`](./video-design-system) — the brand on film: the film book, film tokens and components, product UI references, reference films, and the film-builder skill
 
 Use this file and the ones above as the reference for names, roles, and competitive angles across every skill in this repo.
