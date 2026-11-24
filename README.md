@@ -30,15 +30,15 @@ Everything here is built around **[Sundial Analytics](./knowledge-base/knowledge
 | [`positioning.md`](./knowledge-base/positioning.md) | Strategic narrative, differentiators, value props by segment |
 | [`branding-guideline/`](./knowledge-base/branding-guideline) | Full brand system — mission, values, tone-by-channel, logo files, color palette, typography, naming conventions — plus the rewrite skill that applies the voice rules |
 | [`competitive-landscape.md`](./knowledge-base/competitive-landscape.md) | Full battlecards and positioning gaps |
-| [`sales-call-analysis/`](./knowledge-base/sales-call-analysis) | 15 call transcripts plus a [designed rollup](https://tajnelakos.github.io/sundial-analytics/knowledge-base/sales-call-analysis/call-analysis-summary.html) of objections, competitors, and new findings across them |
-| [`win-loss-analysis/`](./knowledge-base/win-loss-analysis) | Patterns from closed-won/closed-lost deals — a quarterly infographic, plus a [100-record CRM deep dive](https://tajnelakos.github.io/sundial-analytics/knowledge-base/win-loss-analysis/win-loss-detailed-analysis.html) |
+| [`sales-call-analysis/`](./knowledge-base/sales-call-analysis) | 15 call transcripts plus a [designed rollup](https://tajnelakos.github.io/akos-tajnel-claude-assets/knowledge-base/sales-call-analysis/call-analysis-summary.html) of objections, competitors, and new findings across them |
+| [`win-loss-analysis/`](./knowledge-base/win-loss-analysis) | Patterns from closed-won/closed-lost deals — a quarterly infographic, plus a [100-record CRM deep dive](https://tajnelakos.github.io/akos-tajnel-claude-assets/knowledge-base/win-loss-analysis/win-loss-detailed-analysis.html) |
 | [`staleness-detection/`](./knowledge-base/staleness-detection) | Flags specific knowledge-base claims that newer evidence contradicts |
 
 ### `sales-tools/`
 
 | Folder | What it does | Formats |
 |---|---|---|
-| [`competitor-monitoring/`](./sales-tools/competitor-monitoring) | A structured weekly brief, plus a sourced [bi-monthly deep-dive](https://tajnelakos.github.io/sundial-analytics/sales-tools/competitor-monitoring/bi-monthly-report-2026-07-08.html) | Claude Skill, Custom GPT |
+| [`competitor-monitoring/`](./sales-tools/competitor-monitoring) | A structured weekly brief, plus a sourced [bi-monthly deep-dive](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/competitor-monitoring/bi-monthly-report-2026-07-08.html) | Claude Skill, Custom GPT |
 | [`battlecard/`](./sales-tools/battlecard) | A designed, rep-facing HTML battlecard per tracked competitor | Claude Skill |
 | [`abm-account-brief/`](./sales-tools/abm-account-brief) | Synthesizes the whole knowledge base into a one-page brief for a named target account | Claude Skill, Custom GPT |
 | [`icp-buying-signal-monitor/`](./sales-tools/icp-buying-signal-monitor) | Scores raw account signals against ICP criteria into a prioritized watch list | Claude Skill |

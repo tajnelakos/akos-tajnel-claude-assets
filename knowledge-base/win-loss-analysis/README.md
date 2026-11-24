@@ -15,7 +15,7 @@ Two related outputs, for two different needs:
 
 - [`skill.md`](./skill.md) — the Claude Skill definition
 - [`gpt.md`](./gpt.md) — ChatGPT custom GPT version
-- [`win-loss-infographic.svg`](./win-loss-infographic.svg) — sample output, Q1 2026 data for Sundial Analytics' banking segment ([view live ↗](https://tajnelakos.github.io/sundial-analytics/knowledge-base/win-loss-analysis/win-loss-infographic.svg))
+- [`win-loss-infographic.svg`](./win-loss-infographic.svg) — sample output, Q1 2026 data for Sundial Analytics' banking segment ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/knowledge-base/win-loss-analysis/win-loss-infographic.svg))
 
 ![Win/loss infographic example](./win-loss-infographic.svg)
 
@@ -23,7 +23,7 @@ Two related outputs, for two different needs:
 
 - [`skill.md`](./skill.md)'s "Deep-dive mode" section — the same skill file, extended for this mode
 - [`win-loss-crm-export.csv`](./win-loss-crm-export.csv) — 100 fictional closed opportunities, trailing 12 months (Oct 2025–Sep 2026): deal size, sales cycle, lead source, assigned rep, competitor faced, decision driver, product feedback, demo quality, response time. Fifteen of these records are the same accounts documented in [`sales-call-analysis`](../sales-call-analysis), so the qualitative "how the call went" and the quantitative "what closed" are the same underlying deals, not two disconnected data sets.
-- [`win-loss-detailed-analysis.html`](./win-loss-detailed-analysis.html) — the full analysis built from that export ([view live ↗](https://tajnelakos.github.io/sundial-analytics/knowledge-base/win-loss-analysis/win-loss-detailed-analysis.html))
+- [`win-loss-detailed-analysis.html`](./win-loss-detailed-analysis.html) — the full analysis built from that export ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/knowledge-base/win-loss-analysis/win-loss-detailed-analysis.html))
 
 A note on file format: this is a CSV, not a true `.xlsx`/`.xls` binary — this environment doesn't have Python or LibreOffice available to build one properly, and a hand-authored binary spreadsheet file is more likely to arrive corrupted than a clean CSV, which Excel, Sheets, and Salesforce itself all read and write natively anyway.
 

@@ -1,6 +1,6 @@
 # Sample output
 
-The rendered one-pager: [`one-pager-head-of-credit-risk.html`](./one-pager-head-of-credit-risk.html) ([view live ↗](https://tajnelakos.github.io/sundial-analytics/marketing-assets/one-pager-builder/one-pager-head-of-credit-risk.html)).
+The rendered one-pager: [`one-pager-head-of-credit-risk.html`](./one-pager-head-of-credit-risk.html) ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/one-pager-builder/one-pager-head-of-credit-risk.html)).
 
 ---
 

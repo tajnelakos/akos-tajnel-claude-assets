@@ -18,10 +18,10 @@ Card depth matches actual threat level — the High-threat Bricklane Data card i
 
 - [`skill.md`](./skill.md) — the Claude Skill definition
 - [`example.md`](./example.md) — the targeted-update mode: a battlecard section updated from new raw notes, output as a diff against the existing entry rather than a full regeneration
-- [`bricklane-data.html`](./bricklane-data.html) — 🔴 High threat ([view live ↗](https://tajnelakos.github.io/sundial-analytics/sales-tools/battlecard/bricklane-data.html))
-- [`estemate.html`](./estemate.html) — 🟡 Medium threat ([view live ↗](https://tajnelakos.github.io/sundial-analytics/sales-tools/battlecard/estemate.html))
-- [`valuai.html`](./valuai.html) — 🟠 Medium-high threat ([view live ↗](https://tajnelakos.github.io/sundial-analytics/sales-tools/battlecard/valuai.html)) — refreshed this cycle to reflect ValuAI's July 2026 audit-trail GA launch (see [`competitor-monitoring/bi-monthly-report-2026-07-08.md`](../competitor-monitoring/bi-monthly-report-2026-07-08.md))
-- [`propiq.html`](./propiq.html) — ⚪ Low threat ([view live ↗](https://tajnelakos.github.io/sundial-analytics/sales-tools/battlecard/propiq.html)) — deliberately short
+- [`bricklane-data.html`](./bricklane-data.html) — 🔴 High threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/bricklane-data.html))
+- [`estemate.html`](./estemate.html) — 🟡 Medium threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/estemate.html))
+- [`valuai.html`](./valuai.html) — 🟠 Medium-high threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/valuai.html)) — refreshed this cycle to reflect ValuAI's July 2026 audit-trail GA launch (see [`competitor-monitoring/bi-monthly-report-2026-07-08.md`](../competitor-monitoring/bi-monthly-report-2026-07-08.md))
+- [`propiq.html`](./propiq.html) — ⚪ Low threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/propiq.html)) — deliberately short
 
 ## Current limitations
 
