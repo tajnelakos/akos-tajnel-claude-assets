@@ -15,7 +15,7 @@ Two related outputs, for two different needs:
 
 - [`skill.md`](./skill.md) — the Claude Skill definition
 - [`gpt.md`](./gpt.md) — ChatGPT custom GPT version
-- [`win-loss-infographic.svg`](./win-loss-infographic.svg) — sample output, Q1 2026 data for Sundial Analytics' banking segment ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/knowledge-base/win-loss-analysis/win-loss-infographic.svg))
+- [`win-loss-infographic.svg`](./win-loss-infographic.svg) — sample output, Q1 2026 data for Parcelwise's banking segment ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/knowledge-base/win-loss-analysis/win-loss-infographic.svg))
 
 ![Win/loss infographic example](./win-loss-infographic.svg)
 

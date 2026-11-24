@@ -18,7 +18,7 @@ Produce a structured, sourced, comparable-over-time report of what named competi
 ## Instructions
 
 1. **Verify before writing.** Every bullet describing an actual development gets a source. Do not present something as a development if it can't be sourced.
-2. **Keep the vendor-tracking sections neutral and descriptive.** No comparative language ("better than," "weaker than"), no impact/threat/opportunity language, and don't mention Sundial Analytics by name inside these sections. State competitors' own claimed figures as their claims, not as verified fact.
+2. **Keep the vendor-tracking sections neutral and descriptive.** No comparative language ("better than," "weaker than"), no impact/threat/opportunity language, and don't mention Parcelwise by name inside these sections. State competitors' own claimed figures as their claims, not as verified fact.
 3. **Structure each competitor identically**, in this order:
    - **Recent Developments** — funding, acquisitions, expansion, product/feature launches, notable hires, governance changes. Not general content marketing or thought-leadership posts unless they announce an actual company-level change.
    - **Partnerships and Ecosystem Moves** — integrations, data partnerships, distribution deals.
@@ -26,7 +26,7 @@ Produce a structured, sourced, comparable-over-time report of what named competi
 4. **Source every developmental claim** with a short label, not a raw URL (e.g. "Company press release," "Official blog," "Industry news"). If two sources support one claim, include both.
 5. **After the neutral per-competitor sections, add two sections the real-world version of this report deliberately excludes** (see note below):
    - **Market Patterns** — cross-competitor observations only when a genuine pattern spans multiple competitors (e.g. two competitors shifting messaging toward the same claim in the same period). Skip this section entirely if nothing crosses competitor lines this period — a single-competitor observation belongs in that competitor's own section, not here.
-   - **Strategic Signals for Sundial Analytics** — the implications, tied to specific developments above, including what to do next (e.g. flag a stale battlecard claim, revisit a positioning angle). This is the one place recommendations belong.
+   - **Strategic Signals for Parcelwise** — the implications, tied to specific developments above, including what to do next (e.g. flag a stale battlecard claim, revisit a positioning angle). This is the one place recommendations belong.
 6. **No conclusion, no forced recommendation, no filler.** If a section has nothing, say so plainly rather than manufacturing content.
 
 ## A deliberate departure from the real-world version

@@ -6,7 +6,7 @@ Shows the checker when a draft actually clears every rule — the check shouldn'
 
 ## Input
 
-> You can see every comparable used in a Sundial valuation, and how each one was weighted — not just a confidence score. That's the difference when an examiner asks how a number was reached. Our benchmarking methodology is documented and available to technical evaluators on request, so your team can scrutinize it before relying on it in production.
+> You can see every comparable used in a Parcelwise valuation, and how each one was weighted — not just a confidence score. That's the difference when an examiner asks how a number was reached. Our benchmarking methodology is documented and available to technical evaluators on request, so your team can scrutinize it before relying on it in production.
 
 ## Output
 

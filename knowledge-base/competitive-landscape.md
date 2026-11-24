@@ -1,4 +1,4 @@
-# Competitive Landscape — Sundial Analytics
+# Competitive Landscape — Parcelwise
 
 Full battlecard reference. The summary table in [`knowledge-base.md`](./knowledge-base.md) is the quick version; this is what [`competitor-monitoring`](../sales-tools/competitor-monitoring), [`battlecard`](../sales-tools/battlecard), and [`win-loss-analysis`](./win-loss-analysis) draw on for deeper context.
 
@@ -32,13 +32,13 @@ Three real competitors in the bank/lender segment, none with a decisive product 
 
 Illustrative — not a substitute for a live demo comparison.
 
-| | Sundial | Bricklane Data | Estemate | ValuAI |
+| | Parcelwise | Bricklane Data | Estemate | ValuAI |
 |---|---|---|---|---|
 | Comparable-level audit trail | ✅ Yes | ❌ Confidence score only | ⚠️ Partial, dated format | ⚠️ GA since Jul 2026, but reportedly weaker on commercial/mixed-use than residential (see [`call-09-ironbridge-bank.md`](./sales-call-analysis/call-09-ironbridge-bank.md)) |
 | Accuracy methodology disclosed | ✅ Yes | ❌ Not published | ✅ Yes, established track record | ❌ Claimed, not disclosed |
 | On-prem deployment | ❌ No — current gap, see [win-loss data](./win-loss-analysis/win-loss-infographic.svg) | ❌ Cloud only | ✅ Yes (legacy architecture) | ❌ Cloud only |
 | Implementation timeline | Weeks | Fastest — self-serve | Slowest — legacy integration | Medium |
-| Pricing model | Usage-based (per-call) | Usage-based, ~15% below Sundial | Enterprise/negotiated, typically higher | Not publicly disclosed; averaged ~9% below our deal size in Q3 head-to-heads (n=8, see [win-loss deep dive](./win-loss-analysis/win-loss-detailed-analysis.html)) |
+| Pricing model | Usage-based (per-call) | Usage-based, ~15% below Parcelwise | Enterprise/negotiated, typically higher | Not publicly disclosed; averaged ~9% below our deal size in Q3 head-to-heads (n=8, see [win-loss deep dive](./win-loss-analysis/win-loss-detailed-analysis.html)) |
 
 The on-prem gap is real, not a competitor's weakness — flag it early with a prospect that requires it rather than letting it surface late in the deal.
 
@@ -46,8 +46,8 @@ The on-prem gap is real, not a competitor's weakness — flag it early with a pr
 
 | Competitor | Model | Notes |
 |---|---|---|
-| Sundial | Usage-based (per-call API), seat-based for brokerage app | No self-serve tier for the bank/lender product — sales-assisted only |
-| Bricklane Data | Usage-based, ~15% below Sundial | Self-serve signup, no enterprise tier disclosed — built for fast adoption without procurement |
+| Parcelwise | Usage-based (per-call API), seat-based for brokerage app | No self-serve tier for the bank/lender product — sales-assisted only |
+| Bricklane Data | Usage-based, ~15% below Parcelwise | Self-serve signup, no enterprise tier disclosed — built for fast adoption without procurement |
 | Estemate | Enterprise/negotiated only | Multi-year contracts typical, no self-serve option |
 | ValuAI | Not publicly disclosed | Sales-assisted only. The "premium-priced" assumption didn't hold up in Q3 head-to-heads — their average quote came in below our average deal size (see [win-loss deep dive](./win-loss-analysis/win-loss-detailed-analysis.html)); price is now part of their play, not just capability |
 | PropIQ | Seat-based, tiered by team size | Freemium single-seat trial available |

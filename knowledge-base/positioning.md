@@ -1,14 +1,14 @@
-# Positioning — Sundial Analytics
+# Positioning — Parcelwise
 
 Used by prompts/skills that generate customer-facing content — see [`sales-deck-builder`](../sales-tools/sales-deck-builder), [`branding-guideline`](./branding-guideline), and [`abm-account-brief`](../sales-tools/abm-account-brief) (which picks the specific angle below that fits a named account, rather than the general pitch).
 
 ## Market category
 
-Sundial doesn't try to create a new category — "automated valuation model" is an established, understood term, and fighting that understanding would cost more than it earns. The positioning instead claims a **sub-category within it**: not "the AVM," but "the AVM built to be defended," treating explainability as core infrastructure rather than a bolt-on feature. This is a deliberate choice — category creation is expensive and slow, and the market is already primed to ask the right question (see [`competitive-landscape.md`](./competitive-landscape.md)'s Market Patterns, where two competitors independently started reaching for the same "audit-ready" language this period — the sub-category is becoming contested, not proprietary).
+Parcelwise doesn't try to create a new category — "automated valuation model" is an established, understood term, and fighting that understanding would cost more than it earns. The positioning instead claims a **sub-category within it**: not "the AVM," but "the AVM built to be defended," treating explainability as core infrastructure rather than a bolt-on feature. This is a deliberate choice — category creation is expensive and slow, and the market is already primed to ask the right question (see [`competitive-landscape.md`](./competitive-landscape.md)'s Market Patterns, where two competitors independently started reaching for the same "audit-ready" language this period — the sub-category is becoming contested, not proprietary).
 
 ## Competitive alternatives
 
-What a prospect does instead of buying Sundial, in rough order of how often it's the actual alternative:
+What a prospect does instead of buying Parcelwise, in rough order of how often it's the actual alternative:
 
 1. **An existing AVM vendor** (Bricklane Data, Estemate, ValuAI, or occasionally PropIQ in brokerage-adjacent deals) — the most common alternative, see [`competitive-landscape.md`](./competitive-landscape.md) for the full battlecard set.
 2. **Staying with a fully manual valuation process** — more common at smaller Tier 2 accounts or ones without a dedicated risk function (see [`icp.md`](./icp.md)'s Anti-ICP section); the pitch here is about the risk of *no* audit trail, not a better one.
@@ -19,7 +19,7 @@ What a prospect does instead of buying Sundial, in rough order of how often it's
 
 The valuation industry solved for *speed* over the last decade — automated valuation models got fast and cheap. It did not solve for *defensibility*. Regulators and internal risk teams are asking harder questions about how automated decisions are made, and most "AI-powered" valuation tools cannot answer them beyond "the model said so." The institutions that will hold up under scrutiny are the ones that treated explainability as core infrastructure from the start, not a feature bolted on after a compliance complaint.
 
-Sundial's narrative is not "we're more accurate" (most credible vendors in this space are within a defensible accuracy range of each other) — it's **"we're the one you can actually defend."**
+Parcelwise's narrative is not "we're more accurate" (most credible vendors in this space are within a defensible accuracy range of each other) — it's **"we're the one you can actually defend."**
 
 ## Message house
 
@@ -37,7 +37,7 @@ One primary message, three pillars that support it, each with its own proof poin
 
 1. **"Fast and unexplainable is a liability, not a feature."** Speed only has value if the decision survives scrutiny later. A valuation that's 2 seconds faster but can't be explained to an auditor creates risk it doesn't remove.
 2. **"AI-powered" is not a differentiator anymore — everyone claims it.** The differentiator is what happens when a buyer or regulator asks *how*, specifically, a number was reached. Most vendors' answer degrades under that question; this is where the real gap is.
-3. **"Explainability" needs a definition or it's marketing, not a capability.** Sundial defines it concretely: named comparables, weighting logic, and a reproducible audit trail per valuation — not a general claim.
+3. **"Explainability" needs a definition or it's marketing, not a capability.** Parcelwise defines it concretely: named comparables, weighting logic, and a reproducible audit trail per valuation — not a general claim.
 
 ## Differentiators, with proof points
 
@@ -68,8 +68,8 @@ This is the strategic posture behind each competitor's tactical talk track in [`
 
 ## Elevator pitches
 
-- **One sentence:** "Sundial gives lenders a property valuation they can actually defend to a regulator, not just a number."
-- **One paragraph (customer-facing):** "Most valuation tools give you a number and a confidence score. If an examiner asks how that number was reached, 'the model said so' isn't an answer — and increasingly, regulators are asking. Sundial's audit trail shows the specific comparables used and how they were weighted, for every valuation, so your team can explain a decision as confidently as it made it."
+- **One sentence:** "Parcelwise gives lenders a property valuation they can actually defend to a regulator, not just a number."
+- **One paragraph (customer-facing):** "Most valuation tools give you a number and a confidence score. If an examiner asks how that number was reached, 'the model said so' isn't an answer — and increasingly, regulators are asking. Parcelwise's audit trail shows the specific comparables used and how they were weighted, for every valuation, so your team can explain a decision as confidently as it made it."
 - **Internal onboarding version:** "We don't win on being the most accurate AVM — most credible vendors are close enough on raw accuracy that it's not a defensible sole claim. We win by being the one whose decisions survive being questioned, which matters more every year as regulatory scrutiny of automated lending decisions increases."
 
 ## Objections to the positioning itself

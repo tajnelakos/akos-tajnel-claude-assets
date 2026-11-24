@@ -22,13 +22,13 @@ Nordkredit — the same account [`icp-buying-signal-monitor`](../../sales-tools/
 Nordkredit's newly hired Head of Credit Risk inherited an internal audit finding on her first day: the bank's existing valuation tool produced a confidence score and a generic methodology document, not the specific comparables used for an individual property. When an examiner or internal risk committee asked "why this number," the only honest answer was "the model said so" — not something the team wanted to repeat at an upcoming board audit.
 
 ### Solution
-Rather than a prepared demo, Sundial ran a live audit trail on one of Nordkredit's own past valuations, at the prospect's request — showing the actual comparables used and their weighting for that specific property, not a templated walkthrough. Nordkredit had already used this same standard (push past the first demo, ask for a real breakdown) to evaluate and rule out another vendor earlier in its process.
+Rather than a prepared demo, Parcelwise ran a live audit trail on one of Nordkredit's own past valuations, at the prospect's request — showing the actual comparables used and their weighting for that specific property, not a templated walkthrough. Nordkredit had already used this same standard (push past the first demo, ask for a real breakdown) to evaluate and rule out another vendor earlier in its process.
 
 ### Results
 - Closed in 65 days — inside Nordkredit's own Tier 1 typical sales-cycle range (per `icp.md`: 2-4 months)
 - Logged decision driver: "Explainability / audit trail" (win-loss-crm-export.csv, OPP-1001)
 - Logged product feedback: "Standout: comparable-level audit trail" (same record)
-- Won at effective price parity, not on discount — Sundial's ACV (€56,924) closely tracked the competitor's own quoted price (€57,313) for the same deal
+- Won at effective price parity, not on discount — Parcelwise's ACV (€56,924) closely tracked the competitor's own quoted price (€57,313) for the same deal
 
 ### Quote
 No public-use quote available yet. Lena Virtanen's discovery-call comments about the "the model said so" problem are exactly the kind of language a real testimonial should use — but they were said on a sales call, not given as a public statement, so using them here requires her explicit sign-off first, not just because they exist in our call notes.

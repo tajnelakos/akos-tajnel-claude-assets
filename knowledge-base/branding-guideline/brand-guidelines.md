@@ -1,4 +1,4 @@
-# Brand Guidelines — Sundial Analytics
+# Brand Guidelines — Parcelwise
 
 The full brand system: who we are, how we sound, and how we look. For the detailed voice/tone rules a rewrite skill actually applies, see [`skill.md`](./skill.md) — this document covers the fuller identity those rules serve, plus everything visual. See [`positioning.md`](../positioning.md) for the strategic narrative these guidelines express.
 
@@ -12,7 +12,7 @@ Give lenders a property valuation they can actually defend, not just receive.
 
 ### Vision
 
-A market where every automated financial decision — not just Sundial's — can withstand scrutiny, so "the model said so" stops being an acceptable answer anywhere in lending.
+A market where every automated financial decision — not just Parcelwise's — can withstand scrutiny, so "the model said so" stops being an acceptable answer anywhere in lending.
 
 ### Brand values
 
@@ -68,7 +68,7 @@ See [`color-palette.svg`](./color-palette.svg) for the swatch reference. CMYK va
 
 | Role | Name | HEX | RGB | CMYK |
 |---|---|---|---|---|
-| Primary | Sundial Navy | `#1A3A5C` | 26, 58, 92 | 72, 37, 0, 64 |
+| Primary | Parcelwise Navy | `#1A3A5C` | 26, 58, 92 | 72, 37, 0, 64 |
 | Secondary | Meridian Gold | `#C1892E` | 193, 137, 46 | 0, 29, 76, 24 |
 | Neutral | Ink | `#1C1C1A` | 28, 28, 26 | 0, 0, 7, 89 |
 | Neutral | Slate | `#8A8782` | 138, 135, 130 | 0, 2, 6, 46 |
@@ -100,7 +100,7 @@ This is the same type system already used across this repo's designed artifacts 
 
 So the product and marketing site read as one brand, not two:
 
-- **Buttons:** square or minimally rounded corners (2–4px), never full pill-shaped by default. Primary action in Sundial Navy with white text; secondary action outlined, not filled. No gradient fills.
+- **Buttons:** square or minimally rounded corners (2–4px), never full pill-shaped by default. Primary action in Parcelwise Navy with white text; secondary action outlined, not filled. No gradient fills.
 - **Forms:** labels above fields, not placeholder-only. Error state uses Status — critical with a text explanation, never color alone.
 - **Cards:** hairline border (`#E1E0D9`-equivalent) over drop shadows — shadows read as decorative, not this brand's register. Flat, bordered panels over "floating" elevated cards.
 - **Icons:** see Image and Icon Style below — the same line-weight rule applies inside the product UI, not just marketing.
@@ -111,7 +111,7 @@ So the product and marketing site read as one brand, not two:
 
 ### Naming conventions
 
-- **Pricing tiers** (brokerage/seat-based product): **Dawn** (entry), **Meridian** (mid), **Zenith** (enterprise) — a sundial's-day theme, used consistently and only for this purpose (not reused as a generic naming device elsewhere).
+- **Pricing tiers** (brokerage/seat-based product): **Plot** (entry), **Block** (mid), **Estate** (enterprise): a land-scale theme that grows with the customer, used consistently and only for this purpose (not reused as a generic naming device elsewhere).
 - **Feature names:** literal and descriptive, never invented proper nouns or trademarked-sounding names. "Audit Trail," not "TraceIQ™." "Coverage Map," not "SmartArea." This follows directly from the "precision, not hype" brand value — a cute feature name reads as marketing packaging on something that should read as infrastructure.
 - **Product terminology (use consistently):**
 
@@ -128,4 +128,4 @@ So the product and marketing site read as one brand, not two:
 - **No stock photography.** Especially no generic finance-stock clichés (handshakes, skyline photos, people pointing at monitors). This audience recognizes stock photography instantly and it reads as substance-free.
 - **Prefer real product surfaces and data visualization** — an actual (or realistic mock) audit trail screenshot, a real comparable-weighting chart — over any illustration standing in for the product.
 - **Where illustration is needed** (e.g. a concept with no literal screenshot, like "data residency"), use abstract geometric illustration consistent with the logomark's style — flat shapes, no gradients, no 3D renders, no isometric-office-life scenes.
-- **Icon style:** line icons only, 1.5–2px stroke weight, no fills, consistent corner radius. No skeuomorphic, glossy, or 3D icon sets. This matches the logomark's own construction (a simple stroked arc plus a solid geometric mark) — the icon system and the logo should look like they were drawn by the same hand.
+- **Icon style:** line icons only, 1.5–2px stroke weight, no fills, consistent corner radius. No skeuomorphic, glossy, or 3D icon sets. This matches the logomark's own construction (a stroked parcel map plus one solid highlighted lot) — the icon system and the logo should look like they were drawn by the same hand.

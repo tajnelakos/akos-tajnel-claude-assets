@@ -4,12 +4,12 @@ This is a portfolio project, built to show what applied, structured AI usage loo
 
 ## Why a fictional company
 
-The skills, prompts, and knowledge-base structure here are representative of real work; the company they're built around is not. Publishing my actual employer's competitive intelligence, deal data, or brand guidelines wouldn't be appropriate — so everything runs against **Sundial Analytics**, an invented B2B SaaS company (see [`knowledge-base.md`](./knowledge-base/knowledge-base.md)), with invented competitors, personas, deals, and transcripts. No real company, competitor, customer, or employer data appears anywhere in this repo.
+The skills, prompts, and knowledge-base structure here are representative of real work; the company they're built around is not. Publishing my actual employer's competitive intelligence, deal data, or brand guidelines wouldn't be appropriate — so everything runs against **Parcelwise**, an invented B2B SaaS company (see [`knowledge-base.md`](./knowledge-base/knowledge-base.md)), with invented competitors, personas, deals, and transcripts. No real company, competitor, customer, or employer data appears anywhere in this repo.
 
 ## What's real and what isn't
 
 - **Real:** the approach — how each skill is structured, what it deliberately does and doesn't do, the reasoning behind the instructions, the shared knowledge-base architecture, the way the use cases connect to each other.
-- **Not real:** Sundial Analytics itself, its competitors, its customers, every transcript, every deal, every quoted figure.
+- **Not real:** Parcelwise itself, its competitors, its customers, every transcript, every deal, every quoted figure.
 
 Some skills are also shown with details generalized rather than as a finished, ready-to-run internal playbook — the goal is to demonstrate the quality and structure of the thinking, not to hand over a complete production system.
 

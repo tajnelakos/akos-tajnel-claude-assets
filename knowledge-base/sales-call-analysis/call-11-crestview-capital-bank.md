@@ -1,7 +1,7 @@
 # Call Transcript — Crestview Capital Bank
 
 **Date:** August 2026 · **Duration:** ~19 minutes · **Call type:** Second call, technical discovery
-**Rep:** Anna Kowalski (Sundial Analytics) · **Prospect:** Ingrid Solberg, Head of Credit Risk, Crestview Capital Bank (regional lender)
+**Rep:** Anna Kowalski (Parcelwise) · **Prospect:** Ingrid Solberg, Head of Credit Risk, Crestview Capital Bank (regional lender)
 
 ---
 

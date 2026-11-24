@@ -6,7 +6,7 @@ The middle case between [`example.md`](./example.md) (hard fails) and [`example-
 
 ## Input
 
-> Wondering how your team would explain an automated valuation to an examiner? Sundial's audit trail shows the specific comparables used and their weighting for every valuation, so your team can walk through the reasoning afterward instead of just citing a confidence score. Our benchmarking methodology is documented and available for technical evaluators to review.
+> Wondering how your team would explain an automated valuation to an examiner? Parcelwise's audit trail shows the specific comparables used and their weighting for every valuation, so your team can walk through the reasoning afterward instead of just citing a confidence score. Our benchmarking methodology is documented and available for technical evaluators to review.
 
 ## Output
 

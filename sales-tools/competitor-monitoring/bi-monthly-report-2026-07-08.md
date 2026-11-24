@@ -66,7 +66,7 @@ A designed, one-page version of this same report is at [`bi-monthly-report-2026-
 
 ---
 
-## Strategic Signals for Sundial Analytics
+## Strategic Signals for Parcelwise
 
 *(This section, and Market Patterns above, are additions beyond the neutral report format — see the note in [`bi-monthly-report-skill.md`](./bi-monthly-report-skill.md) on why.)*
 

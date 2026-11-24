@@ -1,4 +1,4 @@
-# Ideal Customer Profile — Sundial Analytics
+# Ideal Customer Profile — Parcelwise
 
 Used by prompts/skills that need to reason about fit or in-market signals rather than have it re-explained inline every time. See [`knowledge-base.md`](./knowledge-base.md) for the company overview. Consumed most directly by [`icp-buying-signal-monitor`](../sales-tools/icp-buying-signal-monitor) (scoring incoming signals) and [`abm-account-brief`](../sales-tools/abm-account-brief) (placing a named account in the tiering below).
 
@@ -22,7 +22,7 @@ The tiering below is the quick reference. These are the underlying dimensions it
 | **Segment** | Regional banks & mortgage lenders | National/multi-region lenders | Real estate brokerages |
 | **Loan volume** | €200M–€2B annual origination | €2B+ (longer sales cycle, more procurement layers) | N/A — seat-based, not volume-based |
 | **Geography** | DACH, Benelux | Nordics, wider EU | DACH, Benelux |
-| **Core banking / LOS** | Mid-market systems with open APIs (e.g. modern LOS platforms) | Legacy core banking, heavier integration lift | Any CRM (Sundial's brokerage product is standalone) |
+| **Core banking / LOS** | Mid-market systems with open APIs (e.g. modern LOS platforms) | Legacy core banking, heavier integration lift | Any CRM (Parcelwise's brokerage product is standalone) |
 | **Regulatory posture** | Subject to periodic valuation audits, actively modernizing | Subject to audits, slower to change vendors | Not regulator-facing |
 | **Sales cycle** | 2–4 months | 6–12 months | 3–6 weeks |
 | **Typical buying committee size** | 3–4 people | 5–8 people, often with a separate vendor-risk gate | 1–2 people |

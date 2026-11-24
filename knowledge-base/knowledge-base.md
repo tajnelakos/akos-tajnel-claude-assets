@@ -1,10 +1,10 @@
-# Knowledge Base — Sundial Analytics
+# Knowledge Base — Parcelwise
 
 Master source of truth for every prompt, skill, and example in this repo. Every other knowledge-base file alongside this one is a derived, deeper view of one section of this doc — kept separate so a skill can reference just the piece it needs (voice rules, competitor detail, persona psychology) instead of the whole thing.
 
 ## Company
 
-**Sundial Analytics** — B2B SaaS. Sells automated valuation models (AVMs) and real estate market intelligence, via API and web app, to banks, mortgage lenders, and real estate brokerages across Europe (core markets: DACH, Benelux, Nordics).
+**Parcelwise** — B2B SaaS. Sells automated valuation models (AVMs) and real estate market intelligence, via API and web app, to banks, mortgage lenders, and real estate brokerages across Europe (core markets: DACH, Benelux, Nordics).
 
 - **ICP**: mid-size regional banks and mortgage lenders who need instant, defensible property valuations for lending decisions; secondary ICP is real estate brokerages wanting market analytics for agents.
 - **Pricing**: usage-based API pricing (per valuation call) for banks, seat-based for the brokerage web app.
