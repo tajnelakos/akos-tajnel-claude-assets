@@ -33,7 +33,7 @@
 
 **Rasa:** I appreciate that. Assuming the coverage is solid, what's the actual pitch on switching, beyond "it's a better interface"?
 
-**Anna:** An evidence trail on every signal — the property, market, and customer data behind it — which matters increasingly for exam readiness even if it's not the trigger today. Signals that land directly in your advisors' CRM. Faster implementation than a legacy migration typically runs. And customer outreach happening inside the system rather than in spreadsheets, which closes the exact gap you described with off-system workarounds.
+**Anna:** An evidence trail on every moment — the property, market, and customer data behind it — which matters increasingly for exam readiness even if it's not the trigger today. Moments that land directly in your advisors' CRM. Faster implementation than a legacy migration typically runs. And customer outreach happening inside the system rather than in spreadsheets, which closes the exact gap you described with off-system workarounds.
 
 **Rasa:** Okay. Get me the coverage answer for those two markets and I can actually take this seriously internally. Without that, I don't think this conversation goes further, honestly.
 

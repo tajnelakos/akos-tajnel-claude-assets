@@ -65,9 +65,9 @@
   .bar-fill{ height:100%; border-radius:7px; }
   .bar-count{ font-family:var(--font-mono); font-size:12.5px; color:var(--ink-soft); text-align:right; font-variant-numeric:tabular-nums; }
 
-  /* Signal distribution */
-  .signal-strip{ display:flex; height:34px; border-radius:6px; overflow:hidden; }
-  .signal-seg{ display:flex; align-items:center; justify-content:center; font-family:var(--font-mono); font-size:12px; color:#fff; font-weight:500; }
+  /* Moment distribution */
+  .moment-strip{ display:flex; height:34px; border-radius:6px; overflow:hidden; }
+  .moment-seg{ display:flex; align-items:center; justify-content:center; font-family:var(--font-mono); font-size:12px; color:#fff; font-weight:500; }
   .legend{ display:flex; gap:16px; flex-wrap:wrap; font-size:12.5px; color:var(--ink-soft); }
   .legend span{ display:inline-flex; align-items:center; gap:6px; }
   .dot{ width:9px; height:9px; border-radius:2px; display:inline-block; }
@@ -132,19 +132,19 @@
     <div class="kpi"><div class="kpi-value">15</div><div class="kpi-label">Calls analyzed</div></div>
     <div class="kpi"><div class="kpi-value">10</div><div class="kpi-label">Calls naming a specific competitor</div></div>
     <div class="kpi"><div class="kpi-value">6</div><div class="kpi-label">New findings worth escalating</div></div>
-    <div class="kpi"><div class="kpi-value">5</div><div class="kpi-label">Strong buying signals</div></div>
+    <div class="kpi"><div class="kpi-value">5</div><div class="kpi-label">Strong buying moments</div></div>
     <div class="kpi"><div class="kpi-value">1</div><div class="kpi-label">Hard blocker confirmed live (on-prem)</div></div>
   </div>
 
   <div class="grid2">
     <section class="panel">
-      <h2>Buying signal distribution</h2>
+      <h2>Buying moment distribution</h2>
       <div class="sub">Across all 15 calls, by rep-assessed strength</div>
-      <div class="signal-strip">
-        <div class="signal-seg" style="width:33.3%; background:var(--sig-strong);">5 Strong</div>
-        <div class="signal-seg" style="width:33.3%; background:var(--sig-medium);">5 Medium</div>
-        <div class="signal-seg" style="width:26.7%; background:var(--sig-weak);">4 Weak/Nurture</div>
-        <div class="signal-seg" style="width:6.7%; background:var(--sig-risk);">1</div>
+      <div class="moment-strip">
+        <div class="moment-seg" style="width:33.3%; background:var(--sig-strong);">5 Strong</div>
+        <div class="moment-seg" style="width:33.3%; background:var(--sig-medium);">5 Medium</div>
+        <div class="moment-seg" style="width:26.7%; background:var(--sig-weak);">4 Weak/Nurture</div>
+        <div class="moment-seg" style="width:6.7%; background:var(--sig-risk);">1</div>
       </div>
       <div class="legend">
         <span><span class="dot" style="background:var(--sig-strong)"></span>Strong (5)</span>
@@ -231,7 +231,7 @@
       <div class="finding">
         <div class="finding-tag tag-battlecard">Battlecard</div>
         <div>
-          <div class="finding-head">ValuAI's signals reportedly weaker for commercial/mixed-use property than residential</div>
+          <div class="finding-head">ValuAI's moments reportedly weaker for commercial/mixed-use property than residential</div>
           <div class="finding-body">More granular than anything currently in the ValuAI battlecard, which treats the post-GA gap as uniform. If this holds up across more calls, it's a sharper, more specific wedge than the current "unproven at scale" framing — worth feeding into <a href="../battlecard/valuai.html">battlecard/valuai.html</a> directly.</div>
           <div class="finding-source">Source: <a href="./call-09-ironbridge-bank.md">call-09-ironbridge-bank.md</a></div>
         </div>
@@ -251,7 +251,7 @@
     <div class="sub">All 15 calls, in date order</div>
     <div style="overflow-x:auto;">
     <table>
-      <tr><th>Call</th><th>Segment</th><th>Competitor</th><th>Signal</th><th>Takeaway</th></tr>
+      <tr><th>Call</th><th>Segment</th><th>Competitor</th><th>Moment</th><th>Takeaway</th></tr>
       <tr><td><a href="./call-01-nordkredit.md">Nordkredit</a></td><td>Bank/lender</td><td>Estemate (incumbent)</td><td><span class="sig-pill sig-strong">Strong</span></td><td>Real audit finding + dated board deadline; wants live evidence-trail proof</td></tr>
       <tr><td><a href="./call-02-meridian-savings.md">Meridian Savings</a></td><td>Bank/lender</td><td><span class="comp-swatch" style="background:var(--c-bricklane)"></span>Bricklane Data</td><td><span class="sig-pill sig-strong">Strong</span></td><td>Split buying committee; reframed price to risk cost</td></tr>
       <tr><td><a href="./call-03-court-street-lending.md">Court Street Lending</a></td><td>Bank/lender</td><td><span class="comp-swatch" style="background:var(--c-valuai)"></span>ValuAI</td><td><span class="sig-pill sig-medium">Medium</span></td><td>Live demo mid-call; vendor-stability objection surfaced</td></tr>

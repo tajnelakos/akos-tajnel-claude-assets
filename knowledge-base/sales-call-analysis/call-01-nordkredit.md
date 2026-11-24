@@ -19,7 +19,7 @@
 
 **Lena:** Our current provider — we use Estemate, have for years, mostly for property data — added a "portfolio insights" report a while back. It flags customers with a score and a short methodology PDF that's the same for every customer. It doesn't tell you which data points put *this specific customer* on the list, or how much each one counted. So if an auditor or our risk committee asks "why this customer," the honest answer is "the model said so," which is not an answer anyone wants to give twice.
 
-**Anna:** Okay, that's useful, and it's exactly the gap we built around. Every signal we produce comes with the actual data points behind it — the property data, the market data, and the fields from your own CRM — and how much each one counted. Not a generic doc, the specific inputs for that specific customer. Would it help if I showed that live, on a sample of your own customers, rather than a canned demo?
+**Anna:** Okay, that's useful, and it's exactly the gap we built around. Every moment we produce comes with the actual data points behind it — the property data, the market data, and the fields from your own CRM — and how much each one counted. Not a generic doc, the specific inputs for that specific customer. Would it help if I showed that live, on a sample of your own customers, rather than a canned demo?
 
 **Lena:** Yes, actually — that would matter a lot more than slides. Can you genuinely do that with our real data, or does it need to be something already in your system somehow?
 
@@ -59,7 +59,7 @@
 
 ## Internal notes (rep-logged, not read aloud on the call)
 
-- Strong, specific buying signal: real audit-finding trigger (a refinancing campaign nobody could explain), dated board deadline (Q3, tentatively second week of September).
+- Strong, specific buying moment: real audit-finding trigger (a refinancing campaign nobody could explain), dated board deadline (Q3, tentatively second week of September).
 - ValuAI explicitly in play, but via secondhand account, not confirmed head-to-head yet — worth revisiting if it resurfaces with more specifics.
 - Estemate is the incumbent being displaced — confirms `competitive-landscape.md`'s Estemate entry (portfolio-level report, generic methodology doc, no customer-level detail).
 - Next step: technical validation call with Nordkredit's data lead, live evidence trail on customers they select.

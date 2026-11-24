@@ -7,7 +7,7 @@ The headline that carries every beat. Left-aligned at the margin, mono eyebrow a
 | Class | Type | Use | Full stop |
 |---|---|---|---|
 | `pwv-title` | Archivo 800, 120/120 | TitleCard hook, Statement claims, Navy only | Yes |
-| `pwv-headline` | Archivo 700, 72/80 | Signal story beats, either ground | Yes |
+| `pwv-headline` | Archivo 700, 72/80 | Moment story beats, either ground | Yes |
 | `pwv-headline-compact` | Archivo 700, 56/64 | Walkthroughs, beats sharing the frame with a large panel | No |
 
 **The highlight.** Wrap up to three words in `<mark>`. On Paper they stay ink and a 6px gold bar draws under them as their line lands. On Navy they turn gold-light. One highlight per frame, and none if a gold element is already on screen (the lot, the top evidence bar).

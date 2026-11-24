@@ -11,7 +11,7 @@
 
 **Anna:** Appreciate you being upfront about that rather than letting me think this is a live deal. Can I ask what's prompting due diligence mid-implementation — is something not going well, or is this just healthy vendor awareness?
 
-**Fredrik:** A bit of both, honestly. Implementation's taken longer than we were told, and the explanation feature — which was a big part of why we picked them — is technically live but our team's found it thinner in practice than the sales demo suggested. It shows which feature categories mattered, but not the actual property and market data points, and the signals are noticeably weaker on some property types.
+**Fredrik:** A bit of both, honestly. Implementation's taken longer than we were told, and the explanation feature — which was a big part of why we picked them — is technically live but our team's found it thinner in practice than the sales demo suggested. It shows which feature categories mattered, but not the actual property and market data points, and the moments are noticeably weaker on some property types.
 
 **Anna:** That's useful and specific — do you know if that's consistent across property types, or worse in some than others?
 
@@ -25,7 +25,7 @@
 
 **Fredrik:** That would be useful, yes.
 
-**Anna:** *(walks through a business-customer example)* ...this is a refinancing signal for a business customer with a commercial property — the property data points, the market data, the CRM fields, and the weighting on each. I'd encourage you to compare this directly against what ValuAI actually produced for a similar customer, not from memory.
+**Anna:** *(walks through a business-customer example)* ...this is a refinancing moment for a business customer with a commercial property — the property data points, the market data, the CRM fields, and the weighting on each. I'd encourage you to compare this directly against what ValuAI actually produced for a similar customer, not from memory.
 
 **Fredrik:** That is more detailed on the commercial side than what we've seen. I'm not going to make any decisions today, to be clear — we're contracted, and switching mid-implementation would be its own mess.
 
@@ -40,6 +40,6 @@
 ## Internal notes (rep-logged)
 
 - Not an active deal — correctly treated as long-term nurture, not pushed toward a decision that isn't available (prospect is under contract with ValuAI).
-- Significant new intelligence: ValuAI's signals and explanations reportedly weaker specifically for customers with commercial/mixed-use property, stronger on residential — this is more granular than anything currently in `competitive-landscape.md`'s ValuAI entry and worth feeding back to whoever maintains it (see [`battlecard/valuai.html`](../../sales-tools/battlecard/valuai.html), which currently treats the GA gap as uniform across property types).
+- Significant new intelligence: ValuAI's moments and explanations reportedly weaker specifically for customers with commercial/mixed-use property, stronger on residential — this is more granular than anything currently in `competitive-landscape.md`'s ValuAI entry and worth feeding back to whoever maintains it (see [`battlecard/valuai.html`](../../sales-tools/battlecard/valuai.html), which currently treats the GA gap as uniform across property types).
 - Implementation timeline for ValuAI reportedly ran longer than promised — a second, independent data point on their claims not matching delivery (see also [`call-03-court-street-lending.md`](./call-03-court-street-lending.md) on the missing named reference customer).
 - Good practice: explicitly declined to push a mid-contract prospect toward a decision, framed the relationship as low-pressure future option instead — likely to be remembered positively and reduce the "vendor was too pushy" risk for a future re-engagement.

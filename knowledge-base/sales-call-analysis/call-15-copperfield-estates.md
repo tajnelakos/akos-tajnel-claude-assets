@@ -17,7 +17,7 @@
 
 **Owen:** Exactly our situation. We're a smaller team, 15 agents, mostly experienced people, not a lot of hand-holding needed. I don't want a long sales process — if this does what my friend described, I'd rather move quickly.
 
-**Anna:** I appreciate the directness, and I'll match it — let me walk through the core workflow quickly, then we can talk next steps rather than dragging this out unnecessarily. *(brief walkthrough of the seller-signal list, a valuation breakdown, and the seller-facing output)*
+**Anna:** I appreciate the directness, and I'll match it — let me walk through the core workflow quickly, then we can talk next steps rather than dragging this out unnecessarily. *(brief walkthrough of the seller-moment list, a valuation breakdown, and the seller-facing output)*
 
 **Owen:** That's clean, and exactly the kind of output I can picture an agent actually using in the room, not just generating and forgetting. What does onboarding look like for a team like mine?
 
@@ -43,7 +43,7 @@
 
 ## Internal notes (rep-logged)
 
-- Strong signal, fast-moving deal — warm referral from an existing happy customer, prospect explicitly wants a short sales cycle and is prepared to skip a pilot in favor of full rollout based on secondhand validation.
+- Strong moment, fast-moving deal — warm referral from an existing happy customer, prospect explicitly wants a short sales cycle and is prepared to skip a pilot in favor of full rollout based on secondhand validation.
 - No competitor mentioned, no material objections — genuinely the smoothest call in this batch. Useful as a contrast case for what an "easy" deal looks like versus the more contested ones elsewhere in this set.
-- Referral source (existing customer at a different brokerage) cited a specific, credible outcome — improved listing-appointment win rate tied to earlier seller signals and price-detail credibility with skeptical sellers. Worth capturing as a potential case-study lead separately from this deal.
+- Referral source (existing customer at a different brokerage) cited a specific, credible outcome — improved listing-appointment win rate tied to earlier seller moments and price-detail credibility with skeptical sellers. Worth capturing as a potential case-study lead separately from this deal.
 - Action: send pricing confirmation and a simple implementation plan same day — prospect explicitly wants pace matched, any delay here risks losing the momentum that got them to skip their own diligence process.

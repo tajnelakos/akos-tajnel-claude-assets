@@ -6,7 +6,7 @@ Shows the checker when a draft actually clears every rule — the check shouldn'
 
 ## Input
 
-> You can see every data point behind a Parcelwise signal — property, market, and your own customer data — and how each one was weighted, not just a score. That's the difference when an auditor asks why a customer was contacted. Our backtest method is documented and available to technical evaluators on request, so your team can scrutinize it before relying on it in production.
+> You can see every data point behind a Parcelwise moment — property, market, and your own customer data — and how each one was weighted, not just a score. That's the difference when an auditor asks why a customer was contacted. Our backtest method is documented and available to technical evaluators on request, so your team can scrutinize it before relying on it in production.
 
 ## Output
 

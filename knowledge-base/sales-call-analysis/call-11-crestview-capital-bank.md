@@ -21,7 +21,7 @@
 
 **Ingrid:** Sure. Our lending team builds a campaign list each month, our risk analysts spot-check a sample of who's on it weekly, and anything flagged goes to a senior reviewer. The spot-check process is the most manual part — currently done by exporting to a spreadsheet and reviewing by hand.
 
-**Anna:** That's useful — our platform has a review-queue feature that could replace the spreadsheet export step, flagging signals for review based on criteria your team sets, with the evidence trail already attached, rather than a blind weekly sample. Would that actually fit how your senior reviewers work, or would it change the process in a way that creates its own friction?
+**Anna:** That's useful — our platform has a review-queue feature that could replace the spreadsheet export step, flagging moments for review based on criteria your team sets, with the evidence trail already attached, rather than a blind weekly sample. Would that actually fit how your senior reviewers work, or would it change the process in a way that creates its own friction?
 
 **Ingrid:** That could genuinely help, actually — right now the weekly sample is somewhat arbitrary, criteria-based flagging would be an improvement, not just a lateral change.
 

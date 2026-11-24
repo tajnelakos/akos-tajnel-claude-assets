@@ -7,11 +7,11 @@
 
 **Anna:** Robert, thanks for bringing your team in today. My understanding is you're running a structured evaluation across three vendors — us, Bricklane, and ValuAI. Is that right?
 
-**Robert:** Correct. We built a scoring rubric — signal quality, explainability, price, implementation effort, and vendor stability — and we're scoring all three of you the same way, same questions, same evidence bar. I want to be transparent about that rather than have you guess.
+**Robert:** Correct. We built a scoring rubric — moment quality, explainability, price, implementation effort, and vendor stability — and we're scoring all three of you the same way, same questions, same evidence bar. I want to be transparent about that rather than have you guess.
 
 **Anna:** I appreciate the transparency, genuinely — that's a better process than most evaluations we're part of. What's the current state of scoring, if you're able to share?
 
-**Robert:** You're currently ahead on explainability and implementation effort. Bricklane's ahead on price, unsurprisingly. ValuAI is scoring competitively on explainability now too, since their signal-explanation feature is officially live — that's actually shifted since we started this evaluation a few months ago.
+**Robert:** You're currently ahead on explainability and implementation effort. Bricklane's ahead on price, unsurprisingly. ValuAI is scoring competitively on explainability now too, since their moment-explanation feature is officially live — that's actually shifted since we started this evaluation a few months ago.
 
 **Anna:** That's a fair and current read — I won't pretend ValuAI's GA launch didn't happen, it did, and it changes part of this conversation. Can I ask what evidence your team used to score their explainability specifically — a live demo on your own data, or their prepared materials?
 
@@ -21,11 +21,11 @@
 
 **Robert:** That's a fair ask, and honestly a good discipline check on our own process — we should be doing that uniformly. Let's do that live, right now, with us, since we're on the call.
 
-**Anna:** *(runs live evidence trail on a customer the analyst selects)* ...here's the signal — equity available for a renovation loan — with the property, market, and CRM data points behind it and the weighting on each.
+**Anna:** *(runs live evidence trail on a customer the analyst selects)* ...here's the moment — equity available for a renovation loan — with the property, market, and CRM data points behind it and the weighting on each.
 
 **Analyst (Meadowbrook):** This is more granular than what we saw from ValuAI's demo, though to be fair to them, we should run the identical live test before scoring the comparison formally.
 
-**Anna:** Agreed, that's the right call. On price — I know Bricklane's ahead there, and I'm not going to pretend otherwise. What I'd ask your team to score alongside price is the cost of building signals on Bricklane's data yourselves, and of a campaign that can't be defended if your regulator asks a hard question — that's not a hypothetical for a bank your size, and it doesn't show up as a line item in a price comparison unless you explicitly build it into the rubric.
+**Anna:** Agreed, that's the right call. On price — I know Bricklane's ahead there, and I'm not going to pretend otherwise. What I'd ask your team to score alongside price is the cost of building moments on Bricklane's data yourselves, and of a campaign that can't be defended if your regulator asks a hard question — that's not a hypothetical for a bank your size, and it doesn't show up as a line item in a price comparison unless you explicitly build it into the rubric.
 
 **Robert:** That's actually a gap in our current rubric, honestly — we scored price as a standalone line item, not weighted against downstream risk cost. Let me take that back to how we're weighting this.
 

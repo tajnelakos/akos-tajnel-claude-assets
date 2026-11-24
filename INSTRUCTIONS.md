@@ -9,7 +9,7 @@ A working set of prompts, Claude Skills, and custom GPTs for recurring growth/pr
 ## Three top-level folders
 
 - **[`knowledge-base/`](./knowledge-base)** — accumulated understanding, not a task tool. Holds the core reference docs (`knowledge-base.md`, `icp.md`, `personas.md`, `positioning.md`, `competitive-landscape.md`, `branding-guideline/` for voice and identity, `design-system/` for anything visual, `linkedin-carousels/` for LinkedIn carousels and image posts, `flyer-design-system/` for print, and `video-design-system/` for anything that moves — read the relevant one first when a task needs customer, competitor, or voice context) plus the analysis work that builds and maintains that understanding (`sales-call-analysis/`, `win-loss-analysis/`, `staleness-detection/`).
-- **[`sales-tools/`](./sales-tools)** — what a rep or sales-facing process actually uses: `competitor-monitoring/`, `battlecard/`, `abm-account-brief/`, `icp-buying-signal-monitor/`, `sales-deck-builder/`.
+- **[`sales-tools/`](./sales-tools)** — what a rep or sales-facing process actually uses: `competitor-monitoring/`, `battlecard/`, `abm-account-brief/`, `icp-buying-moment-monitor/`, `sales-deck-builder/`.
 - **[`marketing-assets/`](./marketing-assets)** — content marketing produces and ships: `personalized-outbound/`, `persona-email-sequence/`, `positioning-compliance/`.
 
 Every folder inside these three holds a flat set of files — `README.md`, `skill.md` (and `gpt.md` where relevant), plus a worked example — no nested subfolders. The exceptions are the three design systems packaged in the Claude design system format — [`linkedin-carousels/`](./knowledge-base/linkedin-carousels), [`flyer-design-system/`](./knowledge-base/flyer-design-system) and [`video-design-system/`](./knowledge-base/video-design-system) — which keep that format's folders (`components/`, `assets/` and `fonts/`, plus `examples/` for flyers and `films/` for video).
@@ -24,14 +24,14 @@ Every folder inside these three holds a flat set of files — `README.md`, `skil
 | "Break down this sales call" / objections, competitor mentions from a transcript | [`sales-call-analysis`](./knowledge-base/sales-call-analysis) |
 | "Why are we winning/losing deals this quarter?" | [`win-loss-analysis`](./knowledge-base/win-loss-analysis) |
 | "Rewrite this draft to match our voice" | [`branding-guideline`](./knowledge-base/branding-guideline) |
-| "Make a LinkedIn carousel or image post about [seed]" / "Which carousel format fits this?" | [`linkedin-carousels`](./knowledge-base/linkedin-carousels) (start with its README, then the format's README in `components/`, then `skill.md`) |
+| "Make a LinkedIn carousel or image post about [angle]" / "Which carousel format fits this?" | [`linkedin-carousels`](./knowledge-base/linkedin-carousels) (start with its README, then the format's README in `components/`, then `skill.md`) |
 | "Design a slide, page, or video frame" / "What color, font, or size should this be?" | [`design-system`](./knowledge-base/design-system) (start with its README, then `tokens.css` and `components.md`) |
 | "Design a slide, page, carousel, or video frame" / "What color, font, or size should this be?" | [`design-system`](./knowledge-base/design-system) (start with its README, then `tokens.css` and `components.md`) |
 | "Make a flyer, postcard, leaflet or one-pager to print" | [`flyer-design-system`](./knowledge-base/flyer-design-system) (start with its README, then copy the closest file in `examples/`) |
 | "Make a product video" / "Write the script or beat sheet for a film" / "Check this cut" | [`video-design-system`](./knowledge-base/video-design-system) (start with its README, the film book; build with `skill.md`) |
 | "Is this draft safe to publish?" (pass/fail, no rewrite) | [`positioning-compliance`](./marketing-assets/positioning-compliance) |
 | "Build a deck outline for [meeting/persona]" | [`sales-deck-builder`](./sales-tools/sales-deck-builder) |
-| "Which accounts are showing buying signals right now?" | [`icp-buying-signal-monitor`](./sales-tools/icp-buying-signal-monitor) |
+| "Which accounts are showing buying moments right now?" | [`icp-buying-moment-monitor`](./sales-tools/icp-buying-moment-monitor) |
 | "Give me the full picture on [named target account]" | [`abm-account-brief`](./sales-tools/abm-account-brief) |
 | "Draft an outbound message to [specific account]" | [`personalized-outbound`](./marketing-assets/personalized-outbound) |
 | "Build a nurture sequence for [persona]" | [`persona-email-sequence`](./marketing-assets/persona-email-sequence) |
@@ -42,7 +42,7 @@ Every folder inside these three holds a flat set of files — `README.md`, `skil
 | "Write a LinkedIn/social post about [finding]" | [`social-media-post-builder`](./marketing-assets/social-media-post-builder) |
 | "Is [strategy doc] still accurate?" | [`staleness-detection`](./knowledge-base/staleness-detection) |
 
-If a request doesn't map cleanly to one row, say so rather than forcing it into the nearest folder. Note that `blog-post-builder` and `social-media-post-builder` still require a real, specific seed (a `positioning.md` point of view, a sourced finding) — "write me a blog post" with no argument behind it is a prompt to ask a clarifying question, not to route to a generic template.
+If a request doesn't map cleanly to one row, say so rather than forcing it into the nearest folder. Note that `blog-post-builder` and `social-media-post-builder` still require a real, specific angle (a `positioning.md` point of view, a sourced finding) — "write me a blog post" with no argument behind it is a prompt to ask a clarifying question, not to route to a generic template.
 
 ## Typical day/week/month for a growth or product marketer, mapped to this repo
 
@@ -55,7 +55,7 @@ This is here so an AI assistant (or a reader unfamiliar with the role) can see w
 
 **Weekly**
 - Competitive brief for the sales team → [`competitor-monitoring`](./sales-tools/competitor-monitoring)
-- Review which target accounts newly show buying signals → [`icp-buying-signal-monitor`](./sales-tools/icp-buying-signal-monitor)
+- Review which target accounts newly show buying moments → [`icp-buying-moment-monitor`](./sales-tools/icp-buying-moment-monitor)
 - Build a deck for an upcoming key meeting → [`sales-deck-builder`](./sales-tools/sales-deck-builder)
 - A blog post or social post tied to a real finding (a new call pattern, a win-loss stat, a POV from `positioning.md`) → [`blog-post-builder`](./marketing-assets/blog-post-builder) or [`social-media-post-builder`](./marketing-assets/social-media-post-builder)
 

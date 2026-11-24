@@ -34,7 +34,7 @@ Words to avoid outright — they're either meaningless through overuse or specif
 
 | Instead of | Use |
 |---|---|
-| "seamless integration" | name the actual integration point ("pushes signals into your existing CRM via API") |
+| "seamless integration" | name the actual integration point ("pushes moments into your existing CRM via API") |
 | "powered by advanced AI" | describe what the system actually does or checks |
 | "significantly faster" | the actual figure, or "faster than manual review" if no figure is available |
 | "revolutionary approach" | state the specific thing that's different, without the adjective |

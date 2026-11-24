@@ -15,7 +15,7 @@
     "components/MythVsMethod/README.md",
     "components/ProofInNumbers/README.md",
     "components/RegulationBrief/README.md",
-    "components/SignalExplainer/README.md",
+    "components/MomentExplainer/README.md",
     "components/SlideKit/README.md",
     "components/bundle.css",
     "fonts/Archivo-Bold.woff2",
@@ -62,9 +62,9 @@
       "summary": "What a rule means for lenders and insurers: what it asks, what to prepare, and where Parcelwise fits."
     },
     {
-      "name": "SignalExplainer",
+      "name": "MomentExplainer",
       "group": "Carousels",
-      "summary": "Shows how one signal is built: three data layers, the evidence trail with its weights, and what the advisor does with it."
+      "summary": "Shows how one moment is built: three data layers, the evidence trail with its weights, and what the advisor does with it."
     },
     {
       "name": "SlideKit",
@@ -167,7 +167,7 @@
         "pin-paper.svg",
         "policy-paper.svg",
         "search-paper.svg",
-        "signal-paper.svg",
+        "moment-paper.svg",
         "valuation-paper.svg",
         "alert-navy.svg",
         "calendar-navy.svg",
@@ -181,7 +181,7 @@
         "pin-navy.svg",
         "policy-navy.svg",
         "search-navy.svg",
-        "signal-navy.svg",
+        "moment-navy.svg",
         "valuation-navy.svg"
       ],
       "files": [
@@ -222,7 +222,7 @@
           "path": "assets/Icons/search-paper.svg"
         },
         {
-          "path": "assets/Icons/signal-paper.svg"
+          "path": "assets/Icons/moment-paper.svg"
         },
         {
           "path": "assets/Icons/valuation-paper.svg"
@@ -264,7 +264,7 @@
           "path": "assets/Icons/search-navy.svg"
         },
         {
-          "path": "assets/Icons/signal-navy.svg"
+          "path": "assets/Icons/moment-navy.svg"
         },
         {
           "path": "assets/Icons/valuation-navy.svg"
@@ -275,7 +275,7 @@
       "name": "References",
       "tile": "l",
       "order": [
-        "signal-explainer.jpg",
+        "moment-explainer.jpg",
         "myth-vs-method.jpg",
         "proof-in-numbers.jpg",
         "feature-launch.jpg",
@@ -286,7 +286,7 @@
       ],
       "files": [
         {
-          "path": "assets/References/signal-explainer.jpg"
+          "path": "assets/References/moment-explainer.jpg"
         },
         {
           "path": "assets/References/myth-vs-method.jpg"

@@ -39,13 +39,13 @@ The full scale (18 styles) is in [`../linkedin-carousels/tokens.json`](../linked
 - **Swipe cue:** a 160 × 48px arrow (4px line, open head), 32px left of the mark on middle slides and at the margin on the cover. Never on the last slide.
 - **Eyebrow:** the series or topic ("Evidence trail", "For insurers") top-left on middle slides.
 - **Slide counter** in mono, bottom-left, `02 / 06` beside a strip of lots, the current one filled.
-- **Motif:** one per slide, anchored to an edge: `parcel-grid` on covers, `plot-strip` along the top of a data slide, `layer-stack` on a Signal explainer cover. A motif's gold lot is the slide's one gold element.
+- **Motif:** one per slide, anchored to an edge: `parcel-grid` on covers, `plot-strip` along the top of a data slide, `layer-stack` on a Moment explainer cover. A motif's gold lot is the slide's one gold element.
 
 ## Formats
 
 | Format | Job | Slides |
 |---|---|---|
-| **Signal explainer** | Show how one signal is built | Question cover → tension → the three data layers → the evidence → what the advisor does → close |
+| **Moment explainer** | Show how one moment is built | Question cover → tension → the three data layers → the evidence → what the advisor does → close |
 | **Myth vs method** | Correct a market belief | Correction → the belief → why it fails under scrutiny → what defensible looks like → close |
 | **Proof in numbers** | One backtest or result | Figure cover → what it measures → chart → method → limits → close |
 | **Feature launch** | A new capability | "New in Evidence Trail" cover → problem → screenshot proof ×1–2 → close |
@@ -57,14 +57,14 @@ Mix freely with the slide kit; keep one arrow style, one logo per slide and one 
 
 ## Story shape
 
-**Question → tension → method → proof → action.** For example: "Which of your customers will refinance elsewhere this quarter?" → "Most scoring tools give you a list, not a reason." → "Parcelwise shows the rate reset, the equity and the market behind each signal." → screenshot of a signal with its evidence → "Run a backtest on your own book."
+**Question → tension → method → proof → action.** For example: "Which of your customers will refinance elsewhere this quarter?" → "Most scoring tools give you a list, not a reason." → "Parcelwise shows the rate reset, the equity and the market behind each moment." → screenshot of a moment with its evidence → "Run a backtest on your own book."
 
 ## The caption (50–110 words)
 
 1. **Hook (1–2 lines):** the situation or a sourced fact, never "We're excited to announce", and different from the cover.
 2. **What changes, as a benefit (2–3 lines):** name the feature once.
 3. **Proof or detail (1–2 lines):** the figure with its source, the method, or the logistics.
-4. **CTA + one link:** a plain verb ("See a sample signal: [link]"), with UTM tags.
+4. **CTA + one link:** a plain verb ("See a sample moment: [link]"), with UTM tags.
 
 No hashtags; tag people and organisations instead. At most one emoji, only at the end of a line, and only in captions. Never on slides. Full rules: [`../linkedin-carousels/captions.md`](../linkedin-carousels/captions.md).
 
@@ -72,6 +72,6 @@ No hashtags; tag people and organisations instead. At most one emoji, only at th
 
 1. Does the cover name the reader's situation or the news in under 10 words?
 2. One idea, one logo and (except the last) one swipe cue and counter per slide?
-3. Every signal with its evidence, every figure with a source line or "illustrative"?
+3. Every moment with its evidence, every figure with a source line or "illustrative"?
 4. One gold element per slide, gold text on navy only, 3 words at most?
 5. Caption hook different from the cover, one link, no hashtags?

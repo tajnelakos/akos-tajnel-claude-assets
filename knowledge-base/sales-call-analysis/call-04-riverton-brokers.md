@@ -25,7 +25,7 @@
 
 **Tomas:** From what I heard, it wasn't built well for use on a phone, standing in a driveway before walking into a house. They'd have to go back to a laptop to actually pull the number.
 
-**Marcus:** That's a real gap, and I want to be straight with you rather than oversell — our mobile experience today covers the seller signals and the core valuation pull, but it's not yet as polished as I'd want for someone literally standing on a driveway mid-conversation. It's on our roadmap, but I'm not going to claim it's solved if it isn't.
+**Marcus:** That's a real gap, and I want to be straight with you rather than oversell — our mobile experience today covers the seller moments and the core valuation pull, but it's not yet as polished as I'd want for someone literally standing on a driveway mid-conversation. It's on our roadmap, but I'm not going to claim it's solved if it isn't.
 
 **Tomas:** I appreciate you saying that directly instead of dancing around it. How far off is it?
 
@@ -51,6 +51,6 @@
 
 - Feature gap surfaced: mobile experience not yet strong enough for true "in the field" use — flagged honestly rather than oversold. Worth raising to product as a recurring theme if it comes up again across brokerage deals.
 - PropIQ confirmed as known/used by some individual agents previously — adoption/retention was the actual failure mode, not feature gaps. Useful nuance: the competitive risk here is habit/inertia, not product superiority.
-- Buying signal: moderate, contingent on a successful small pilot — not yet a real commercial signal, don't overweight this as "closing."
+- Buying moment: moderate, contingent on a successful small pilot — not yet a real commercial moment, don't overweight this as "closing."
 - Action: follow up on mobile roadmap with a real answer from product (open commitment, must not go unanswered).
 - Good practice: proposed a small pilot with self-selected receptive agents rather than a broad, adoption-risky rollout — worth reusing as a pattern for brokerage deals generally.

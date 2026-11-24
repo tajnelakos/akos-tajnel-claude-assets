@@ -1,10 +1,10 @@
 # Parcelwise Video Design System
 
-How Parcelwise shows its signals in motion: product walkthroughs, persona films for banks, insurers and brokerages, and statements for launches and events. Use it to brief a motion designer, to build a film in code, or to check a cut before it ships.
+How Parcelwise shows its moments in motion: product walkthroughs, persona films for banks, insurers and brokerages, and statements for launches and events. Use it to brief a motion designer, to build a film in code, or to check a cut before it ships.
 
 It sits on top of the brand. Identity, palette, type and voice come from [`../branding-guideline/brand-guidelines.md`](../branding-guideline/brand-guidelines.md); the build-ready web system is [`../design-system/`](../design-system). This folder adds what film needs and the brand file only covers in a paragraph: formats, beat structures, on-screen copy, frame layouts, a motion grammar, cast and sample data per market, sound, production specs and a component set, all drawn for the 1920 × 1080 master. [`../design-system/video-and-motion.md`](../design-system/video-and-motion.md) is the one-page summary of these rules.
 
-**Decisions locked on 24 November 2026:** Meridian Gold is the only accent, one gold per frame · flat grounds only, Paper or Navy, no gradients, glows, blur or shadows · square corners (4px max on panels) and hairlines, as in the product · every signal on screen carries its evidence · customers appear by ID, never by name · captions burnt into every cut · 16:9 is the master, 4:5 and 9:16 are cut from it · 30 fps · films are built in code from this system, never screen-recorded · no stock footage, no live action, no illustration of people.
+**Decisions locked on 24 November 2026:** Meridian Gold is the only accent, one gold per frame · flat grounds only, Paper or Navy, no gradients, glows, blur or shadows · square corners (4px max on panels) and hairlines, as in the product · every moment on screen carries its evidence · customers appear by ID, never by name · captions burnt into every cut · 16:9 is the master, 4:5 and 9:16 are cut from it · 30 fps · films are built in code from this system, never screen-recorded · no stock footage, no live action, no illustration of people.
 
 **The idea in one line:** draw the plan, then mark the lot. Every beat starts from straight lines on a flat ground and ends with one thing marked in gold: the customer, the evidence, the figure, the action.
 
@@ -12,7 +12,7 @@ It sits on top of the brand. Identity, palette, type and voice come from [`../br
 
 ## Contents
 
-0. [The first rule: situation, signal, evidence, action](#0-the-first-rule-situation-signal-evidence-action)
+0. [The first rule: situation, moment, evidence, action](#0-the-first-rule-situation-moment-evidence-action)
 1. [Three formats, one language](#1-three-formats-one-language)
 2. [Beat structures](#2-beat-structures)
 3. [Copy](#3-copy)
@@ -21,7 +21,7 @@ It sits on top of the brand. Identity, palette, type and voice come from [`../br
 6. [Markets, cast and sample data](#6-markets-cast-and-sample-data)
 7. [Sound, voice-over and captions](#7-sound-voice-over-and-captions)
 8. [Formats and aspect ratios](#8-formats-and-aspect-ratios)
-9. [Template: Signal story (45–60 s)](#9-template-signal-story-4560-s)
+9. [Template: Moment story (45–60 s)](#9-template-moment-story-4560-s)
 10. [Production specs](#10-production-specs)
 11. [Product interface reference](#11-product-interface-reference)
 12. [Do and don't](#12-do-and-dont)
@@ -30,22 +30,22 @@ It sits on top of the brand. Identity, palette, type and voice come from [`../br
 
 ---
 
-## 0. The first rule: situation, signal, evidence, action
+## 0. The first rule: situation, moment, evidence, action
 
 Every film, script and beat sheet runs in this order. It is the brand promise (*opportunities you can act on — and explain*) turned into a running order, and it comes before every other section.
 
-| Order | Question it answers | Example (VP of Mortgage Lending, DACH) | Share of a Signal story |
+| Order | Question it answers | Example (VP of Mortgage Lending, DACH) | Share of a Moment story |
 |---|---|---|---|
 | **1. Situation** | What is happening to one customer the bank already has? | *Customer 40-1187's fixed rate ends in four months.* | Opens the film |
-| **2. Signal** | What does Parcelwise flag, and how high does it rank? | *Refinance risk. Ranked 3rd of 212 this week.* | Short, and always named in the product's word: *signal* |
-| **3. Evidence** | Which data points made the signal, and how much did each count? | *Rate gap 38%, equity position 27%, local offers 21%, contact history 14%.* | The body of the film. The beat that makes this brand different |
+| **2. Moment** | What does Parcelwise flag, and how high does it rank? | *Refinance risk. Ranked 3rd of 212 this week.* | Short, and always named in the product's word: *moment* |
+| **3. Evidence** | Which data points made the moment, and how much did each count? | *Rate gap 38%, equity position 27%, local offers 21%, contact history 14%.* | The body of the film. The beat that makes this brand different |
 | **4. Action** | What does the advisor do now, and where is it recorded? | *On the advisor's list in the CRM, with the reasons. Logged.* | Closes the method, before the proof |
 
-- **Never show a signal without its evidence.** A frame with a signal and no evidence trail is a frame the Head of Credit Risk will stop the film on. If time is short, cut the action beat, never the evidence.
+- **Never show a moment without its evidence.** A frame with a moment and no evidence trail is a frame the Head of Credit Risk will stop the film on. If time is short, cut the action beat, never the evidence.
 - **Never lead with the model.** "AI-powered propensity scoring" is a mechanism in the situation slot. Rewrite it as what is happening to the customer.
-- **Evidence is data, not adjectives.** Each evidence row names its layer (customer, property, market), the data point, and its weight. "Strong signals from multiple sources" is not evidence.
+- **Evidence is data, not adjectives.** Each evidence row names its layer (customer, property, market), the data point, and its weight. "Strong moments from multiple sources" is not evidence.
 - **Walkthroughs** are feature-led by design, but open on the job (situation) before the first control: *An advisor needs to know why a customer was flagged.*
-- **Check it first:** read the voice-over aloud. If a viewer would learn what Parcelwise *is* before they see one customer's situation, the order is wrong. If they could repeat the signal but not one reason behind it, the evidence beat is too thin.
+- **Check it first:** read the voice-over aloud. If a viewer would learn what Parcelwise *is* before they see one customer's situation, the order is wrong. If they could repeat the moment but not one reason behind it, the evidence beat is too thin.
 
 ---
 
@@ -53,23 +53,23 @@ Every film, script and beat sheet runs in this order. It is the brand promise (*
 
 Every film shares the same type, grounds, panels and motion grammar. What changes is the job, the ground and how much of the product is on screen.
 
-| | **Walkthrough** | **Signal story** | **Statement** |
+| | **Walkthrough** | **Moment story** | **Statement** |
 |---|---|---|---|
-| Job | Show how one feature works | Show what one signal does for one persona, end to end | Announce, open an event, state one finding |
+| Job | Show how one feature works | Show what one moment does for one persona, end to end | Announce, open an event, state one finding |
 | Weighting | Product-heavy | Customer situation and evidence | One idea and one figure |
 | Reference film | `walkthrough-evidence-trail-16x9` | `story-fixed-rate-dach-16x9` | `statement-evidence-16x9` |
 | Length | 20–45 s | 45–60 s | 20–35 s |
 | Ground | Paper, survey grid on | Navy open and close, Paper body | Navy throughout |
 | Framing | One panel, cropped to the control the beat is about | Split beats: headline left (5 columns), panel right (7 columns) | Type, parcel drawings and figures; at most one panel |
 | Headline | `headline-compact`, no full stop | `headline`, full stop | `title`, full stop |
-| Navigation aid | Step counter in the eyebrow (`STEP 2 / 5`) | ChapterRail: Situation · Signal · Evidence · Action | None |
+| Navigation aid | Step counter in the eyebrow (`STEP 2 / 5`) | ChapterRail: Situation · Moment · Evidence · Action | None |
 | Opens on | The first headline, straight on Paper | TitleCard: the situation as the hook | A parcel field drawing in, then the statement |
 | Closes on | Two-line lockup on Paper, mark only | EndCard: lockup, the line, one action | EndCard |
 | Where it lives | Help centre, in-app onboarding, feature pages, sales follow-ups | Segment and persona pages, sales follow-ups, LinkedIn, event screens | Launch posts, conference openers, the top of a sales deck |
 
-**Choosing:** if the viewer already has Parcelwise and needs to *use* a feature, make a Walkthrough. If the viewer needs to *trust a signal enough to act on it*, make a Signal story. If the viewer needs to *notice one finding*, make a Statement.
+**Choosing:** if the viewer already has Parcelwise and needs to *use* a feature, make a Walkthrough. If the viewer needs to *trust a moment enough to act on it*, make a Moment story. If the viewer needs to *notice one finding*, make a Statement.
 
-**One persona per film.** A Signal story is made for one of the four personas in [`../personas.md`](../personas.md) (VP of Mortgage Lending, Head of Credit Risk, Head of Home Insurance, Broker Team Lead) and one segment. Never one film for everybody.
+**One persona per film.** A Moment story is made for one of the four personas in [`../personas.md`](../personas.md) (VP of Mortgage Lending, Head of Credit Risk, Head of Home Insurance, Broker Team Lead) and one segment. Never one film for everybody.
 
 ---
 
@@ -80,37 +80,37 @@ A beat is one headline plus one change on screen. Default length 5 s (`beat`), r
 ### Walkthrough (5–8 beats)
 
 1. **Frame the job** in the user's words. *An advisor needs to know why.*
-2. **3–5 action beats**, one control each, in the order a user would do them. *Open the signal. Every data point is listed. Weights add up to 100. Sort by layer. Export the trail.*
+2. **3–5 action beats**, one control each, in the order a user would do them. *Open the moment. Every data point is listed. Weights add up to 100. Sort by layer. Export the trail.*
 3. **Reassure** where governance matters. *Every view is in the audit log*
-4. **Lockup**, two lines, Paper ground, the mark bottom-right. *Every signal. / Its reasons, on screen.*
+4. **Lockup**, two lines, Paper ground, the mark bottom-right. *Every moment. / Its reasons, on screen.*
 
-### Signal story (9–12 beats, follows Situation → Signal → Evidence → Action)
+### Moment story (9–12 beats, follows Situation → Moment → Evidence → Action)
 
 1. **TitleCard**, Navy, 0–5 s. The situation as a one-line hook over the parcel field drawing in. *Their fixed rate ends in four months.*
-2. **Tension**, 1 beat. What happens today without the signal, on a Timeline. *By the time anyone notices, they've refinanced elsewhere.*
+2. **Tension**, 1 beat. What happens today without the moment, on a Timeline. *By the time anyone notices, they've refinanced elsewhere.*
 3. **Situation into data**, 1 beat. The LayerStack builds: customer, property, market. *Three layers, one customer.*
-4. **Signal**, 1 beat. The SignalCard lands with the rank. *One signal, ranked third this week.*
+4. **Moment**, 1 beat. The MomentCard lands with the rank. *One moment, ranked third this week.*
 5. **Evidence**, 2–3 beats. The EvidenceTrail populates; FocusMarks close on the top row; weights grow. *Here's why it ranks third. / The rate gap counts most.*
-6. **Action**, 1–2 beats. The signal arrives in the CRM; the AuditLog writes the line. *On the advisor's list, with the reasons. / And on the record.*
-7. **Scale**, optional, 1 beat. ParcelField: the whole customer base as lots, the week's signals marked. *212 customers to call this week. Not 40,000.*
+6. **Action**, 1–2 beats. The moment arrives in the CRM; the AuditLog writes the line. *On the advisor's list, with the reasons. / And on the record.*
+7. **Scale**, optional, 1 beat. ParcelField: the whole customer base as lots, the week's moments marked. *212 customers to call this week. Not 40,000.*
 8. **Proof**, 1 beat, Navy. FigureCard with its source line. *68% refinanced within six months.*
 9. **EndCard**, Navy. Lockup, the line, one action, 3 s hold.
 
-### Segment story (45–60 s, a Signal story for a whole segment page)
+### Segment story (45–60 s, a Moment story for a whole segment page)
 
-A segment page (banks, insurers, brokerages) gets one Signal story built around **two customers with two different signals**, so the page shows range without becoming a feature tour.
+A segment page (banks, insurers, brokerages) gets one Moment story built around **two customers with two different moments**, so the page shows range without becoming a feature tour.
 
 1. **TitleCard**: the book in the segment's own word (*mortgage book*, *home book*, *contact database*). *Your mortgage book already holds next quarter's business.*
-2. **Customer one**: situation → signal → evidence (2 rows only) → action.
-3. **Customer two**, a different signal type: same order, faster (the viewer has learned the grammar).
-4. **Governance beat**: AuditLog plus one line for risk and compliance. *Every signal, explained and logged.*
+2. **Customer one**: situation → moment → evidence (2 rows only) → action.
+3. **Customer two**, a different moment type: same order, faster (the viewer has learned the grammar).
+4. **Governance beat**: AuditLog plus one line for risk and compliance. *Every moment, explained and logged.*
 5. **Scale**: ParcelField.
 6. **Proof** and **EndCard**.
 
 ### Statement (5–7 beats)
 
 1. **ParcelField** draws in on Navy, no words for 1.5 s.
-2. **The claim** as a `title`, up to three words in gold-light. *Most signals can't explain themselves.*
+2. **The claim** as a `title`, up to three words in gold-light. *Most moments can't explain themselves.*
 3. **The turn**. *Ours show their evidence.*
 4. **One figure** with its source. *68% of flagged customers refinanced within six months.*
 5. **SegmentTriptych**: the same evidence grammar for banks, insurers, brokerages (optional).
@@ -128,11 +128,11 @@ Headlines carry the film. Write them first, read them aloud, then design. Voice 
 | Case | Sentence case. Feature names keep capitals (Evidence Trail, Coverage Map) | Title Case Headlines; all caps outside the mono eyebrow |
 | Highlight | Up to three words, the payoff, usually at the end. Gold-light text on Navy; a gold underline bar on Paper | Highlighting a verb mid-line, more than half a line, or two highlights in one frame |
 | Two-liners | Situation in ink, consequence or answer highlighted. *Their fixed rate ends in March. / **They're already comparing.*** | Two lines of equal weight |
-| Punctuation | Signal stories and Statements end in a full stop. Walkthroughs don't | Exclamation marks, question marks as hooks ("Ready to grow?"), ellipses |
+| Punctuation | Moment stories and Statements end in a full stop. Walkthroughs don't | Exclamation marks, question marks as hooks ("Ready to grow?"), ellipses |
 | Voice | Second person to the professional (*your customers*, *your advisors*). Customers by ID on screen, *this customer* in the voice-over | *Users*, *leads*, *prospects*. Customer first names |
 | Precision | Name the data point. *Valuation up 11% since purchase.* | *Rich property insights.* *Powerful data.* |
 | Mechanism | Name it when the persona asks for it (Head of Credit Risk films), always as data and weight | *Proprietary AI*, *black box*, *magic*, *revolutionary* (all prohibited terms) |
-| Product words | Signal · evidence trail · audit log · customer base · property data, market data, customer data · CRM | Lead, insight, alert · explainability report · database · data lake |
+| Product words | Moment · evidence trail · audit log · customer base · property data, market data, customer data · CRM | Lead, insight, alert · explainability report · database · data lake |
 | Figures | One figure per beat, with what it measures and where it came from. Illustrative figures labelled *Illustrative* on screen | A figure without a source line; demo data presented as a result |
 | Currency | Code before the number: EUR 412,500 · CHF 1.2m · SEK 3.4m | € 412.5k; mixing formats in one film |
 | Spelling | UK English (Oxford) for international films | Mixing US and UK spelling |
@@ -146,9 +146,9 @@ Headlines carry the film. Write them first, read them aloud, then design. Voice 
 - **Evidence:** The rate gap counts **most.**
 - **Record:** On the advisor's list. **With the reasons.**
 - **Scale:** 212 customers to call. Not 40,000. (No highlight: the ParcelField's gold lot is the frame's gold.)
-- **Contrast:** Most signals can't explain themselves. **Ours show their evidence.**
-- **Governance:** Every signal, **explained and logged.**
-- **Lockup:** Every signal. / **Its reasons, on screen.**
+- **Contrast:** Most moments can't explain themselves. **Ours show their evidence.**
+- **Governance:** Every moment, **explained and logged.**
+- **Lockup:** Every moment. / **Its reasons, on screen.**
 
 **Per persona, what the hook names**
 
@@ -207,9 +207,9 @@ When a beat's point is a data point rather than a phrase, the gold moves into th
 - **Crop to the component.** A panel fills 50–60% of the frame width in split beats, up to 85% in full beats. Never a whole app window with its navigation.
 - **Film density.** Rows are 72px, values 26px: twice the web app's size. Keep 4–6 rows per panel.
 - **Simplify.** One primary action visible at most, in navy, 4px corners. Remove nav, avatars, filters and secondary buttons that don't move the story.
-- **Evidence is always visible.** A SignalCard on screen shows at least its top two evidence rows. The full trail is its own beat.
+- **Evidence is always visible.** A MomentCard on screen shows at least its top two evidence rows. The full trail is its own beat.
 - **Status colours only inside panels**, with their ink and background pairs: *Synced to CRM* in good-ink on good-bg. Never on the ground, never for drama.
-- **Cursor** only when a click is the point (exporting the trail, opening the signal). One straight eased move, one click, no ripple.
+- **Cursor** only when a click is the point (exporting the trail, opening the moment). One straight eased move, one click, no ripple.
 - **Focus by FocusMarks and dimming.** Four corner brackets close on the element; everything else in the panel dims to 35%. No blur, no zoom bubble, no glow.
 
 ### The three layers, without colour coding
@@ -284,7 +284,7 @@ The market is chosen per film and sets language, number format, currency, voice 
 - **All brands and customers are fictional** and labelled *Demo* in the panel header. No real customer, bank or address ever appears, not even a street name.
 - **Customers are IDs.** In the voice-over: *this customer*, *one customer*, *a policyholder*. Never a first name, never an age, never a photo.
 - **Advisors** are roles (*your advisor*, *the Hamburg branch team*), never people.
-- **Signal names** are the product's own (section 11): Refinance risk, Top-up potential, Likely to move, Underinsured home, No contents cover, Renewal risk, Likely to sell.
+- **Moment names** are the product's own (section 11): Refinance risk, Top-up potential, Likely to move, Underinsured home, No contents cover, Renewal risk, Likely to sell.
 
 ---
 
@@ -297,7 +297,7 @@ A Parcelwise film must work fully muted: most are watched that way in a feed or 
 | Rule | Detail |
 |---|---|
 | Role | The voice-over tells the customer's situation and reads the evidence in plain words; the headline names the point. They agree in meaning, never word for word |
-| Pace | Calm: about 2.4 words a second in English (2.1 in German and Dutch, 2.3 in the Nordic languages), with pauses. A 50-second Signal story holds 95–110 English words |
+| Pace | Calm: about 2.4 words a second in English (2.1 in German and Dutch, 2.3 in the Nordic languages), with pauses. A 50-second Moment story holds 95–110 English words |
 | Shape | Short declarative sentences, one or two a beat, landing on the change they describe. 0.3 s between sentences, 0.5 s before the evidence and before the figure |
 | Silence | No speech over the first 1.5 s of the TitleCard or the last 2 s of the EndCard |
 | Voice | One approved voice per language, the same in every film, so Parcelwise always sounds like one person: a measured, precise peer. No announcer lift, no sales energy, no smile in the voice on figures |
@@ -336,11 +336,11 @@ A Parcelwise film must work fully muted: most are watched that way in a feed or 
 | 4:5 | 1080 × 1350 | 30–45 s | LinkedIn feed | Split beats stack: headline top (rows 1–3), panel under it at full width; captions keep 160px from the bottom; ChapterRail dropped, chapter named in the eyebrow |
 | 9:16 | 1080 × 1920 | 15–30 s | Stories, event screens | Headline in the top third, panel in the middle third, bottom 280px clear for platform UI; one evidence beat only |
 
-Design and time the 16:9 master first; cut the others from the same beats and voice-over. The 4:5 cut drops the scale beat; the 9:16 cut also drops tension and keeps situation → signal → evidence → end card.
+Design and time the 16:9 master first; cut the others from the same beats and voice-over. The 4:5 cut drops the scale beat; the 9:16 cut also drops tension and keeps situation → moment → evidence → end card.
 
 ---
 
-## 9. Template: Signal story (45–60 s)
+## 9. Template: Moment story (45–60 s)
 
 The default persona film. Reference: [`assets/Films/story-fixed-rate-dach-16x9.mp4`](./assets/Films/story-fixed-rate-dach-16x9.mp4) (VP of Mortgage Lending, DACH lender, 48 s, UK English master); the full brief → beat sheet → voice-over → captions run is [`example.md`](./example.md).
 
@@ -349,7 +349,7 @@ The default persona film. Reference: [`assets/Films/story-fixed-rate-dach-16x9.m
 | 0.0–5.0 s | TitleCard | Their fixed rate ends in four months. | Navy; parcel field draws in from the right, the lot fills gold; lockup top-left; hook as `title` | — |
 | 5.0–10.0 s | Tension | By the time anyone notices, **they've moved.** | Wipe to Paper; Timeline: Today → Rate ends 2027-03-31 (dashed) → Refinanced elsewhere (marked) | Situation |
 | 10.0–16.0 s | Layers | Three layers. **One customer.** | LayerStack: customer, property, market rows draw in and resolve into one line | Situation |
-| 16.0–21.5 s | Signal | One signal, **ranked third.** | SignalCard: Refinance risk · Customer 40-1187 · Rank 3 of 212 | Signal |
+| 16.0–21.5 s | Moment | One moment, **ranked third.** | MomentCard: Refinance risk · Customer 40-1187 · Rank 3 of 212 | Moment |
 | 21.5–31.0 s | Evidence | Here's why it **ranks third.** | EvidenceTrail: four rows with layer, data point and weight; bars grow; FocusMarks close on the top row; gold bar on it | Evidence |
 | 31.0–37.0 s | Action | On the advisor's list. **With the reasons.** | CRM panel: task row lands with *Synced to CRM*; AuditLog line types in | Action |
 | 37.0–42.0 s | Proof | (the figure is the headline) | Wipe to Navy; FigureCard counts to 68%; source line: *Backtest, demo lender's 2025 book. Illustrative.* | — |
@@ -357,17 +357,17 @@ The default persona film. Reference: [`assets/Films/story-fixed-rate-dach-16x9.m
 
 A 30-second cut drops the layers beat and shortens the evidence to two rows.
 
-**Signal lines by segment (starting point, refine per page)**
+**Moment lines by segment (starting point, refine per page)**
 
-| Segment | Situation | Signal | Top evidence rows | Action |
+| Segment | Situation | Moment | Top evidence rows | Action |
 |---|---|---|---|---|
 | Bank / mortgage lender | Fixed rate ends in four months | Refinance risk | Rate gap to market · equity position · local competitor offers | Retention call from the advisor's CRM list |
 | Bank / mortgage lender | Value up since purchase, loan mostly repaid | Top-up potential | Valuation change · loan-to-value · renovation-age property | Top-up or renovation loan conversation |
 | Insurer | Home value outgrew its sum insured | Underinsured home | Rebuild cost index · valuation change · policy age | Updated cover at renewal |
 | Insurer | Renewal in 60 days, quiet account | Renewal risk | Premium change · claims contact · local price movement | Renewal call before the notice goes out |
-| Brokerage | Contact owned for 9 years in a rising street | Likely to sell | Ownership length · local price movement · household signals | Agent's valuation call |
+| Brokerage | Contact owned for 9 years in a rising street | Likely to sell | Ownership length · local price movement · household moments | Agent's valuation call |
 
-Signals are always shown as the result of named data, and the voice-over leads with the customer's situation, never the detection method.
+Moments are always shown as the result of named data, and the voice-over leads with the customer's situation, never the detection method.
 
 ---
 
@@ -394,16 +394,16 @@ The Parcelwise web app, screen by screen, and what each gives a film. The screen
 
 | Area | Screen | What it proves | Film use |
 |---|---|---|---|
-| Signals | 01 Signals this week | Signals ranked for one book, with signal type, customer ID, rank and top reason | Signal beat; scale beat |
-| Signals | 02 Signal detail | One signal with its full evidence trail: layer, data point, value, weight, summing to 100 | SignalCard, EvidenceTrail |
+| Moments | 01 Moments this week | Moments ranked for one book, with moment type, customer ID, rank and top reason | Moment beat; scale beat |
+| Moments | 02 Moment detail | One moment with its full evidence trail: layer, data point, value, weight, summing to 100 | MomentCard, EvidenceTrail |
 | Customer | 03 Customer record | The three layers for one customer side by side | LayerStack |
-| Coverage | 04 Coverage Map | Where in the book signals cluster, by postcode area | ParcelField, Statement |
-| Action | 05 CRM sync | Which signals went to which team's CRM queue, and when | Action beat |
-| Governance | 06 Audit log | Every view, export and action on a signal, timestamped | AuditLog |
-| Proof | 07 Backtest report | How past signals performed on the client's own book, with method and period | FigureCard, BacktestChart |
+| Coverage | 04 Coverage Map | Where in the book moments cluster, by postcode area | ParcelField, Statement |
+| Action | 05 CRM sync | Which moments went to which team's CRM queue, and when | Action beat |
+| Governance | 06 Audit log | Every view, export and action on a moment, timestamped | AuditLog |
+| Proof | 07 Backtest report | How past moments performed on the client's own book, with method and period | FigureCard, BacktestChart |
 | Setup | 08 Data layers | Which customer, property and market sources are connected, and how fresh each is | Walkthrough openers, governance beats |
 
-**Product vocabulary on screen and in the voice-over:** signal · evidence trail (Evidence Trail as the feature name) · weight · audit log · customer base · customer data, property data, market data · Coverage Map · backtest · CRM sync · rank.
+**Product vocabulary on screen and in the voice-over:** moment · evidence trail (Evidence Trail as the feature name) · weight · audit log · customer base · customer data, property data, market data · Coverage Map · backtest · CRM sync · rank.
 
 **Numbers.** The product shows demo data. In an external film every figure is either from an approved client case, with its source on screen, or labelled *Illustrative*. Backtest figures always carry the period and the book they ran on.
 
@@ -413,8 +413,8 @@ The Parcelwise web app, screen by screen, and what each gives a film. The screen
 
 | Do | Don't |
 |---|---|
-| One customer, one signal, one point per beat | Two panels changing at once |
-| Show the evidence trail every time a signal is on screen | A signal badge with nothing behind it |
+| One customer, one moment, one point per beat | Two panels changing at once |
+| Show the evidence trail every time a moment is on screen | A moment badge with nothing behind it |
 | Draw lines, then fill the one gold lot | Gold on more than one thing in a frame |
 | Keep grounds flat, panels white and hairlined | Gradients, glows, blur, drop shadows, glassy cards |
 | Square corners, 4px at most | Pills, rounded bubbles, 20px card corners |
@@ -456,4 +456,4 @@ The Parcelwise web app, screen by screen, and what each gives a film. The screen
 | [`assets/Product UI/`](./assets/Product%20UI) | The eight Parcelwise screens films rebuild from |
 | [`assets/Logos/`](./assets/Logos) | The lockup, reversed lockup and mark used in films |
 | [`skill.md`](./skill.md) | The Claude skill that writes a beat sheet and builds a film from this system |
-| [`example.md`](./example.md) | A worked brief → beat sheet → voice-over → captions → render, for the reference Signal story |
+| [`example.md`](./example.md) | A worked brief → beat sheet → voice-over → captions → render, for the reference Moment story |

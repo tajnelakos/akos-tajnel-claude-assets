@@ -52,7 +52,7 @@ This persona's `personas.md` entry: measured on growth and retention of the mort
 **Response guidance:** Offer the joint walkthrough described in [`campaign-vp-mortgage-lending.md`](./campaign-vp-mortgage-lending.md)'s Email 5, and reach out to the risk contact directly rather than routing everything back through the VP — this removes exactly the internal-selling burden the persona profile flags as a trust breaker if left on them.
 
 ### "We're not prioritizing this right now — retention is fine."
-**Read:** Possibly a genuine low-priority signal, but per `personas.md`'s pain language ("we find out a customer refinanced elsewhere when the redemption request arrives"), this can also mean the pain is real but not yet visible to this specific person.
+**Read:** Possibly a genuine low-priority moment, but per `personas.md`'s pain language ("we find out a customer refinanced elsewhere when the redemption request arrives"), this can also mean the pain is real but not yet visible to this specific person.
 **Response guidance:** One light follow-up offering the advisor-action data point (Email 3's angle) is reasonable if it wasn't already covered — a downstream metric this persona may not be tracking yet. Don't push past a second soft no.
 
 ### Hard no / unsubscribe

@@ -15,7 +15,7 @@ A full 5-email, A/B-tested campaign for the bank's economic buyer, run against a
 
 You ran the numbers on our calculator, so you've already seen the theoretical retention gain — this is the actual figure lenders your size see in production, not the calculator's best case.
 
-If you want to see where that retained volume actually comes from (it's mostly one signal — customers approaching a rate reset — not a dozen small ones), a 15-minute walkthrough is enough to show it.
+If you want to see where that retained volume actually comes from (it's mostly one moment — customers approaching a rate reset — not a dozen small ones), a 15-minute walkthrough is enough to show it.
 
 **Decision criterion advanced:** business impact with a specific number (ranked #1) — moves from the calculator's projection to a real, sourced figure.
 
@@ -26,7 +26,7 @@ If you want to see where that retained volume actually comes from (it's mostly o
 **Variant A:** "Where this actually plugs into your advisors' day"
 **Variant B:** "No new steps for your advisors (really)"
 
-The retention number only means something if your advisors don't have to change how they work to get it — so here's specifically where signals land in the CRM they already use, not a new tool they have to remember to open.
+The retention number only means something if your advisors don't have to change how they work to get it — so here's specifically where moments land in the CRM they already use, not a new tool they have to remember to open.
 
 Happy to map it against your specific CRM setup if that'd save you a step later in this evaluation.
 
@@ -39,11 +39,11 @@ Happy to map it against your specific CRM setup if that'd save you a step later 
 **Variant A:** "What customers notice when you call first"
 **Variant B:** "The redemption number nobody tracks until it's too late"
 
-Retention matters on the book, but the number that tends to get missed until a QBR is how many advisors actually act on a list — this is what changes once every signal comes with the reason behind it, so the customer conversation starts with something specific.
+Retention matters on the book, but the number that tends to get missed until a QBR is how many advisors actually act on a list — this is what changes once every moment comes with the reason behind it, so the customer conversation starts with something specific.
 
 If redemptions to other lenders are something you're already tracking, this is worth five minutes even if the rest of this evaluation is still early.
 
-**Decision criterion advanced:** whether advisors will believe and act on the signals (ranked #3) — a different angle from the internal-workflow focus of Email 2, not a restatement of it.
+**Decision criterion advanced:** whether advisors will believe and act on the moments (ranked #3) — a different angle from the internal-workflow focus of Email 2, not a restatement of it.
 
 ---
 

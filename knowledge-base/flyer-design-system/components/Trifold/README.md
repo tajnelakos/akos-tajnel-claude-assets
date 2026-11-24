@@ -17,7 +17,7 @@ The A4 roll-fold leaflet (297 × 210 mm, folded to 100 × 210 mm): the main piec
 | Inside 2 | paper | how it works: `LayerDiagram`, one caption, `Step` ×3 anchored to the foot |
 | Inside 3 (flap) | paper | the proof: `EvidenceStrip`, then a `FigurePanel` anchored to the foot |
 
-**The consumer provides:** the reader (one persona per piece), the claim, three pillars, the problem, the steps, one signal with its evidence and up to two sourced figures, and the one action with its URL.
+**The consumer provides:** the reader (one persona per piece), the claim, three pillars, the problem, the steps, one moment with its evidence and up to two sourced figures, and the one action with its URL.
 
 - Do align the lower blocks across the inside spread (`margin-top:auto`), so the three panels share a top and a bottom line.
 - Do keep one gold element per panel. The logo's lot does not count.

@@ -4,9 +4,9 @@ It applies the Parcelwise brand guideline ([`../branding-guideline/`](../brandin
 
 ## Why a flyer system
 
-Print is where the brand promise is hardest to keep. A flyer has a few seconds and no click-through, so the easy move is a glowing hero image and a big unsourced number. Parcelwise sells to risk-minded buyers who distrust exactly that. This system makes the defensible version the easy one: every signal on paper shows its evidence, every figure carries its source, and the layouts are already measured for trim, folds and bleed.
+Print is where the brand promise is hardest to keep. A flyer has a few seconds and no click-through, so the easy move is a glowing hero image and a big unsourced number. Parcelwise sells to risk-minded buyers who distrust exactly that. This system makes the defensible version the easy one: every moment on paper shows its evidence, every figure carries its source, and the layouts are already measured for trim, folds and bleed.
 
-The formats and their logic were modelled on the PriceHubble Flyer Design System (A4 trifold, A5 cards, panel-based insides). The look, the components and the rules are Parcelwise's own.
+The formats (A4 trifold, A5 cards, panel-based insides) follow common B2B print conventions. The look, the components and the rules are Parcelwise's own.
 
 ## Files
 
@@ -24,7 +24,7 @@ The formats and their logic were modelled on the PriceHubble Flyer Design System
 ## Content fundamentals
 
 - **One reader per piece.** Name them in the eyebrow ("For mortgage lenders", "For risk and compliance teams") and write everything else to them.
-- **Lead with the reader's situation or the opportunity, then the proof.** The front states the outcome; the inside shows how it works and proves it with one signal and its evidence.
+- **Lead with the reader's situation or the opportunity, then the proof.** The front states the outcome; the inside shows how it works and proves it with one moment and its evidence.
 - **Sentence case everywhere**, covers included. The mono eyebrow is the one all-caps element, set in CSS.
 - **Short, declarative claims.** One idea per line on the navy ground, up to 12 words on a trifold front and 8 on a postcard. No exclamation marks, no emoji.
 - **Every figure says what it measures and where it came from**, in a source line under it. Illustrative figures say "illustrative".
@@ -38,9 +38,9 @@ The formats and their logic were modelled on the PriceHubble Flyer Design System
 - *Navy ground* (`.pwf-navy`, `data-theme="dark"`): flat `navy`, Paper type, `navy-text` for supporting lines, the reversed logo. Trifold front and back, postcard fronts, recto flyers.
 - *Paper* (default): `paper` ground with white panels and a 0.5pt hairline. Navy headings and figures, Ink body, `grey-text` for secondary text. The inside of every piece, card backs, the one-pager.
 
-**Colour.** Navy and Paper do the work. Gold is a highlight, not a colour scheme: **one gold element per trifold panel, per card side, or per one-pager**. It is the motif's lot, the signal box's lot, the top evidence bar, one figure's rule, or up to three words of a claim on navy (`gold-light`). The logo's own lot doesn't count. Status colours never appear in print.
+**Colour.** Navy and Paper do the work. Gold is a highlight, not a colour scheme: **one gold element per trifold panel, per card side, or per one-pager**. It is the motif's lot, the moment box's lot, the top evidence bar, one figure's rule, or up to three words of a claim on navy (`gold-light`). The logo's own lot doesn't count. Status colours never appear in print.
 
-**No gradients, glows, tints or shadows.** The PriceHubble pieces use a blue gradient and a cyan halo behind a hero object; Parcelwise uses flat grounds and the parcel-grid motif instead, and a square diagram of its method in place of the glowing object.
+**No gradients, glows, tints or shadows.** Much B2B fintech print uses a gradient and a glowing hero object; Parcelwise uses flat grounds and the parcel-grid motif instead, and a square diagram of its method in place of the glowing object.
 
 **Contrast.** Every text pairing passes WCAG AA: Ink on Paper 15.4:1, Navy on Paper 10.5:1, `grey-text` on Paper 5.4:1, Paper on Navy 10.5:1, `navy-text` on Navy 5.8:1, `gold-light` on Navy 5.2:1. Gold on Paper is 2.7:1, so it is marks only, never text.
 
@@ -72,7 +72,7 @@ The formats and their logic were modelled on the PriceHubble Flyer Design System
 ## How to build a piece
 
 1. Pick the format and the one reader. Copy the closest file in `examples/`.
-2. Write the copy first, to [`wording.md`](./wording.md): eyebrow, claim, problem, three pillars, one signal with evidence, up to three sourced figures, one action.
+2. Write the copy first, to [`wording.md`](./wording.md): eyebrow, claim, problem, three pillars, one moment with evidence, up to three sourced figures, one action.
 3. Build from the components; never paste hex values or px sizes.
 4. Print to PDF from Chrome (margins none, background graphics on), or rebuild in InDesign from the tokens, then follow [`production.md`](./production.md).
 5. Run the "Before you publish" checklist in the brand guideline and the pre-press checklist in `production.md`.
@@ -82,7 +82,7 @@ The formats and their logic were modelled on the PriceHubble Flyer Design System
 | Piece | HTML | PDF | Render |
 |---|---|---|---|
 | A4 trifold for mortgage lenders | `examples/trifold-mortgage-lenders.html` | `assets/Examples/trifold-mortgage-lenders.pdf` | `assets/Examples/trifold-outside.jpg`, `trifold-inside.jpg` |
-| A5 postcard on explainable signals | `examples/postcard-explainable-signals.html` | `assets/Examples/postcard-explainable-signals.pdf` | `assets/Examples/postcard-front.jpg`, `postcard-back.jpg` |
+| A5 postcard on explainable moments | `examples/postcard-explainable-moments.html` | `assets/Examples/postcard-explainable-moments.pdf` | `assets/Examples/postcard-front.jpg`, `postcard-back.jpg` |
 | A4 one-pager for risk teams | `examples/one-pager-risk-teams.html` | `assets/Examples/one-pager-risk-teams.pdf` | `assets/Examples/one-pager.jpg` |
 
 Parcelwise is a fictional company and `parcelwise.example` is a reserved example domain. Every figure, customer ID and weight in this folder is illustrative.

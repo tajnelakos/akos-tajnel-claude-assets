@@ -8,7 +8,7 @@ A persona-specific sequence is wasted if it lands in spam — this checklist is 
 - [ ] **DKIM** configured and signing outbound mail — verify with a test send, not just by confirming the DNS record exists; a published record with signing not actually enabled looks correct and fails silently.
 - [ ] **DMARC** published, starting at `p=none` (monitor-only) if this is a new domain or subdomain, moving to `p=quarantine` once a few weeks of reports show no legitimate mail failing alignment.
 - [ ] **Dedicated sending subdomain** for marketing sequences (e.g. `send.parcelwise.example`), separate from the primary corporate domain — isolates sequence sending reputation from transactional and corporate mail reputation.
-- [ ] **Warm-up schedule** for a new sending domain or subdomain — start at a small daily volume and ramp over 2-3 weeks rather than sending a full segment on day one; a cold domain sending high volume immediately is a strong spam signal to receiving mailbox providers regardless of content.
+- [ ] **Warm-up schedule** for a new sending domain or subdomain — start at a small daily volume and ramp over 2-3 weeks rather than sending a full segment on day one; a cold domain sending high volume immediately is a strong spam trigger to receiving mailbox providers regardless of content.
 
 ## Before each new sequence or segment
 

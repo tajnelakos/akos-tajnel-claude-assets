@@ -8,10 +8,10 @@ The voice rules are in [`../branding-guideline/skill.md`](../branding-guideline/
 |---|---|---|
 | Eyebrow | 2–5 words, names the reader | For mortgage lenders |
 | Claim (trifold front) | Up to 12 words, one idea per line | Know which customers to call this month. And why. |
-| Statement (postcard front) | Up to 8 words | The signal you can explain. |
+| Statement (postcard front) | Up to 8 words | The moment you can explain. |
 | Supporting line | One sentence, up to 25 words | Parcelwise shows which of your existing customers to talk to next, and why. |
 | Problem | Two short paragraphs in the reader's world | Fixed rates end, equity grows and a local lender cuts its two-year rate… |
-| Pillars | Title as the claim, body as its proof | Explainable by design · Every signal shows the data points behind it… |
+| Pillars | Title as the claim, body as its proof | Explainable by design · Every moment shows the data points behind it… |
 | Benefits | Up to 8 words each, written as outcomes | Risk signs off the method, not each list |
 | Steps | One verb, one sentence | Connect · Your CRM and loan book, through one secure export or API. |
 | Figure | Number, what it measures, source | 68% · of flagged customers refinanced within 6 months · Backtest on a lender's 2025 book · illustrative |
@@ -26,7 +26,7 @@ The voice rules are in [`../branding-guideline/skill.md`](../branding-guideline/
 
 ## Proof
 
-- One signal with its evidence beats three adjectives. Every piece that mentions signals shows an `EvidenceStrip`.
+- One moment with its evidence beats three adjectives. Every piece that mentions moments shows an `EvidenceStrip`.
 - Up to three figures a piece. Each one has a source line in mono: what the data was, whose it was, when, and "illustrative" if it is.
 - Backtests are on the client's own book. Say so: "Backtest on a lender's 2025 book".
 - Customers appear by ID. Policies by policy number. Never a real name, address or bank.
@@ -36,7 +36,7 @@ The voice rules are in [`../branding-guideline/skill.md`](../branding-guideline/
 | Do | Don't |
 |---|---|
 | Scan to book a backtest | Learn more |
-| Scan to see a signal on your own data | Discover the future of banking |
+| Scan to see a moment on your own data | Discover the future of banking |
 | Book 30 minutes with our team at stand B14 | Contact us today! |
 
 One action a piece. The QR, the printed URL and the action say the same thing.
@@ -45,7 +45,7 @@ One action a piece. The QR, the printed URL and the action say the same thing.
 
 The brand's prohibited terms apply in full: `seamless`, `revolutionary`, `cutting-edge`, `game-changing`, `next-generation`, `unlock`, `robust` (unqualified), `powered by advanced AI`, `disrupt`. On flyers also avoid:
 
-- **"Insights"** for what the product shows. Say "signals".
+- **"Insights"** for what the product shows. Say "moments".
 - **"Leads"** for the client's customers. Say "customers" or "your customer base".
 - **"Smart", "intelligent", "AI-powered"** as adjectives. Say what the system checks.
 - **Urgency** ("Don't miss out", "Limited time"). This audience reads it as pressure.

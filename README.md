@@ -12,12 +12,12 @@ Product marketing runs on recurring problems, not one-off projects: tracking com
 
 ## About the company
 
-Everything here is built around **[Parcelwise](./knowledge-base/knowledge-base.md)**, an AI data analytics and signals company. It combines a client's own CRM data with external market data to flag new business opportunities inside the customer base they already have. It sells to banks and mortgage lenders, insurers, and real estate brokerages across Europe. [`knowledge-base/`](./knowledge-base) describes the company, its market, and its customers in full.
+Everything here is built around **[Parcelwise](./knowledge-base/knowledge-base.md)**, an AI data analytics company built around customer moments. It combines a client's own CRM data with external market data to flag new business opportunities inside the customer base they already have. It sells to banks and mortgage lenders, insurers, and real estate brokerages across Europe. [`knowledge-base/`](./knowledge-base) describes the company, its market, and its customers in full.
 
 ## Three kinds of folder
 
 - **[`knowledge-base/`](./knowledge-base)** — accumulated understanding: the core reference docs (company, ICP, personas, positioning, voice, competitive landscape), plus the analysis work that builds and maintains that understanding (call analysis, win/loss analysis, staleness detection).
-- **[`sales-tools/`](./sales-tools)** — what a rep or sales-facing process actually uses: competitor monitoring, battlecards, account briefs, buying-signal monitoring, deck building.
+- **[`sales-tools/`](./sales-tools)** — what a rep or sales-facing process actually uses: competitor monitoring, battlecards, account briefs, buying-moment monitoring, deck building.
 - **[`marketing-assets/`](./marketing-assets)** — content marketing produces and ships: outbound messages, nurture sequences, case studies, one-pagers, blog posts, social posts, and the pre-publish compliance check.
 
 ### `knowledge-base/`
@@ -25,13 +25,13 @@ Everything here is built around **[Parcelwise](./knowledge-base/knowledge-base.m
 | File | Contents |
 |---|---|
 | [`knowledge-base.md`](./knowledge-base/knowledge-base.md) | Master summary — company, competitors, personas at a glance |
-| [`icp.md`](./knowledge-base/icp.md) | Firmographics, tiering, buying committee, in-market signals |
+| [`icp.md`](./knowledge-base/icp.md) | Firmographics, tiering, buying committee, in-market moments |
 | [`personas.md`](./knowledge-base/personas.md) | Per-persona buying psychology, objections, content preferences |
 | [`positioning.md`](./knowledge-base/positioning.md) | Strategic narrative, differentiators, value props by segment |
 | [`branding-guideline/`](./knowledge-base/branding-guideline) | Full brand system — mission, values, tone-by-channel, logo files, color palette, typography, naming conventions — plus the rewrite skill that applies the voice rules |
 | [`design-system/`](./knowledge-base/design-system) | The brand made build-ready: light and dark tokens, component CSS with a [live components page](https://tajnelakos.github.io/akos-tajnel-claude-assets/knowledge-base/design-system/components.html), 15 icons, parcel-map motifs, and the rules for writing, LinkedIn carousels, and video. Also published as a Claude design system |
 | [`linkedin-carousels/`](./knowledge-base/linkedin-carousels) | A full LinkedIn carousel design system on top of the brand: seven formats and a slide kit, tokens, slide CSS, outlined logos, motifs, bundled fonts, wording and caption rules, a [live gallery of every format](https://tajnelakos.github.io/akos-tajnel-claude-assets/knowledge-base/linkedin-carousels/gallery.html), and a skill that builds a finished carousel |
-| [`flyer-design-system/`](./knowledge-base/flyer-design-system) | Parcelwise in print: an A4 trifold, A5 postcard and A4 one-pager system with print-sized tokens, 12 components (signal evidence strip, layer diagram, contact block…), copy and pre-press rules, and three finished example pieces as print-ready PDFs. Also published as a Claude design system |
+| [`flyer-design-system/`](./knowledge-base/flyer-design-system) | Parcelwise in print: an A4 trifold, A5 postcard and A4 one-pager system with print-sized tokens, 12 components (moment evidence strip, layer diagram, contact block…), copy and pre-press rules, and three finished example pieces as print-ready PDFs. Also published as a Claude design system |
 | [`video-design-system/`](./knowledge-base/video-design-system) | How Parcelwise looks and moves on film: a film book (formats, beat structures, copy, motion grammar, markets, sound, specs), film tokens, 18 components with [live previews](https://tajnelakos.github.io/akos-tajnel-claude-assets/knowledge-base/video-design-system/preview.html), eight product UI reference screens, and three reference films rendered in code from it, plus the skill that builds new ones |
 | [`competitive-landscape.md`](./knowledge-base/competitive-landscape.md) | Full battlecards and positioning gaps |
 | [`sales-call-analysis/`](./knowledge-base/sales-call-analysis) | 15 call transcripts plus a [designed rollup](https://tajnelakos.github.io/akos-tajnel-claude-assets/knowledge-base/sales-call-analysis/call-analysis-summary.html) of objections, competitors, and new findings across them |
@@ -45,7 +45,7 @@ Everything here is built around **[Parcelwise](./knowledge-base/knowledge-base.m
 | [`competitor-monitoring/`](./sales-tools/competitor-monitoring) | A structured weekly brief, plus a sourced [bi-monthly deep-dive](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/competitor-monitoring/bi-monthly-report-2026-07-08.html) | Claude Skill, Custom GPT |
 | [`battlecard/`](./sales-tools/battlecard) | A designed, rep-facing HTML battlecard per tracked competitor | Claude Skill |
 | [`abm-account-brief/`](./sales-tools/abm-account-brief) | Synthesizes the whole knowledge base into a one-page brief for a named target account | Claude Skill, Custom GPT |
-| [`icp-buying-signal-monitor/`](./sales-tools/icp-buying-signal-monitor) | Scores raw account signals against ICP criteria into a prioritized watch list | Claude Skill |
+| [`icp-buying-moment-monitor/`](./sales-tools/icp-buying-moment-monitor) | Scores raw account triggers against ICP criteria into a prioritized watch list | Claude Skill |
 | [`sales-deck-builder/`](./sales-tools/sales-deck-builder) | Turns a one-line deal context into a structured sales deck outline tailored to buyer persona | Claude Skill, Custom GPT |
 
 ### `marketing-assets/`
@@ -60,7 +60,7 @@ Everything here is built around **[Parcelwise](./knowledge-base/knowledge-base.m
 | [`social-media-post-builder/`](./marketing-assets/social-media-post-builder) | Drafts a social post built around one real, cited proof point, platform mechanics applied after | Claude Skill |
 | [`positioning-compliance/`](./marketing-assets/positioning-compliance) | Pre-publish pass/fail check against voice and positioning rules — flags, never rewrites | Claude Skill |
 
-Each folder contains a `README.md` explaining the problem it solves, the actual prompt/skill definition, and a sample output. Three of them — [`icp-buying-signal-monitor`](./sales-tools/icp-buying-signal-monitor) → [`abm-account-brief`](./sales-tools/abm-account-brief) → [`personalized-outbound`](./marketing-assets/personalized-outbound) — are shown working as a pipeline against one target account, Nordkredit, rather than as three disconnected tools; [`case-study-builder`](./marketing-assets/case-study-builder) picks that same account back up as the pipeline's actual closed-won ending.
+Each folder contains a `README.md` explaining the problem it solves, the actual prompt/skill definition, and a sample output. Three of them — [`icp-buying-moment-monitor`](./sales-tools/icp-buying-moment-monitor) → [`abm-account-brief`](./sales-tools/abm-account-brief) → [`personalized-outbound`](./marketing-assets/personalized-outbound) — are shown working as a pipeline against one target account, Nordkredit, rather than as three disconnected tools; [`case-study-builder`](./marketing-assets/case-study-builder) picks that same account back up as the pipeline's actual closed-won ending.
 
 ## About the formats
 

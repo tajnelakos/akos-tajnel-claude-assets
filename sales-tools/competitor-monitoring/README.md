@@ -6,10 +6,10 @@ Competitive intel usually shows up as noise: a pricing page change someone notic
 
 ## The approach
 
-A weekly-cadence skill that takes in raw, unstructured signals (pricing page snapshots, release notes, review site excerpts, sales call mentions) and produces one structured brief: what changed, why it matters for our positioning, and what — if anything — sales or product marketing should do about it. The goal is a brief a sales leader will actually read in three minutes, not a wall of bullet points.
+A weekly-cadence skill that takes in raw, unstructured moments (pricing page snapshots, release notes, review site excerpts, sales call mentions) and produces one structured brief: what changed, why it matters for our positioning, and what — if anything — sales or product marketing should do about it. The goal is a brief a sales leader will actually read in three minutes, not a wall of bullet points.
 
 Two constraints are built in on purpose:
-- **No unverified claims.** If a signal is ambiguous (e.g. a pricing page number without context), the skill flags it as "needs confirmation" rather than asserting it.
+- **No unverified claims.** If a moment is ambiguous (e.g. a pricing page number without context), the skill flags it as "needs confirmation" rather than asserting it.
 - **"So what" is mandatory.** Every item must end with an implication, not just an observation — otherwise it's just news, not intelligence.
 
 ## Files — weekly brief

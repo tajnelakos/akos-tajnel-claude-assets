@@ -4,15 +4,15 @@ Master source of truth for every prompt, skill, and example in this repo. Every 
 
 ## Company
 
-**Parcelwise** — B2B SaaS. An AI data analytics and signals company that finds new business inside a client's existing customer base. It combines three data layers:
+**Parcelwise** — B2B SaaS. An AI data analytics company built around customer moments that finds new business inside a client's existing customer base. It combines three data layers:
 
 1. **The client's own customer data** — shared securely from their CRM or core systems
 2. **Market data** — interest rates, prices, local market trends
 3. **External asset data** — for example property attributes and valuations, which matter for home-related products
 
-The platform turns these into **signals**: ranked, explained opportunities in customers the client already has. Delivered via API, CRM integration, and a web app, to banks and mortgage lenders, insurers, and real estate brokerages across Europe (core markets: DACH, Benelux, Nordics).
+The platform turns these into **moments**: ranked, explained opportunities in customers the client already has. Delivered via API, CRM integration, and a web app, to banks and mortgage lenders, insurers, and real estate brokerages across Europe (core markets: DACH, Benelux, Nordics).
 
-What a signal looks like, by segment:
+What a moment looks like, by segment:
 
 - **Banks & mortgage lenders** — a customer whose fixed rate resets soon and is likely to refinance elsewhere; a homeowner with enough equity for a top-up or renovation loan; a customer likely to move and need a new mortgage.
 - **Insurers** — a home whose rebuild value has outgrown its sum insured; a policyholder with no contents cover; a policy at high risk of not renewing.
@@ -20,13 +20,13 @@ What a signal looks like, by segment:
 
 - **ICP**: mid-size regional banks and mortgage lenders with a large existing customer base and a growth or retention target on it; insurers with a home/property book; secondary ICP is real estate brokerages wanting listing leads from contacts they already have.
 - **Pricing**: platform subscription priced by the size of the customer base analysed, for banks and insurers; seat-based for the brokerage web app.
-- **Positioning**: "opportunities you can act on — and explain," i.e. every signal shows the customer and market data behind it, so advisors trust it and risk and compliance can sign off on it.
+- **Positioning**: "opportunities you can act on — and explain," i.e. every moment shows the customer and market data behind it, so advisors trust it and risk and compliance can sign off on it.
 
 ## Competitors
 
 | Competitor | Angle |
 |---|---|
-| **Bricklane Data** | Cheaper, faster property data and valuation API; no customer-data layer and no explanations — sells on speed and price, leaves the signal-building to the buyer |
+| **Bricklane Data** | Cheaper, faster property data and valuation API; no customer-data layer and no explanations — sells on speed and price, leaves the moment-building to the buyer |
 | **Estemate** | Legacy property-data incumbent, strong in France/Benelux, deep historical data, dated UI, slow release cycle |
 | **ValuAI** | Well-funded new entrant, leads with "AI-native" propensity scoring, thin on property data depth and regulatory controls |
 | **PropIQ** | Brokerage-focused seller-lead tool, doesn't really compete for bank/insurer deals but comes up in brokerage deals |
@@ -38,7 +38,7 @@ Derived: full battlecards, positioning gaps, and objection handling → [`compet
 - **Head of Credit Risk** (bank risk and model-governance owner) — signs off any model that decides which customers get an offer. Cares about explainability, fair treatment, and audit trail. Skeptical of "black box AI" claims.
 - **VP of Mortgage Lending** (bank economic buyer) — cares about growing and retaining the mortgage book, and about integration effort.
 - **Head of Home Insurance** (insurer economic buyer) — cares about premium growth, renewal retention, and underinsurance in the book.
-- **Broker Team Lead** (brokerage buyer) — cares about agent adoption and how signals turn into listings.
+- **Broker Team Lead** (brokerage buyer) — cares about agent adoption and how moments turn into listings.
 
 Derived: full buying psychology, objections, content preferences → [`personas.md`](./personas.md)
 
@@ -46,7 +46,7 @@ Derived: full buying psychology, objections, content preferences → [`personas.
 
 This doc is the quick summary. Everything below expands one section of it into the depth an actual skill needs:
 
-- [`icp.md`](./icp.md) — firmographics, tiering, buying committee, in-market signals
+- [`icp.md`](./icp.md) — firmographics, tiering, buying committee, in-market moments
 - [`personas.md`](./personas.md) — per-persona psychology, objections, content preferences
 - [`positioning.md`](./positioning.md) — narrative, differentiators, value props by segment
 - [`branding-guideline/skill.md`](./branding-guideline/skill.md) — tone, style rules, anti-patterns, prohibited terms (and the rewrite skill that applies them)

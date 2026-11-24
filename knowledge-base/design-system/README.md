@@ -2,14 +2,14 @@
 
 ## The problem
 
-A brand guideline says what the brand *is*: values, colours, a logo, a type pairing. It rarely says how to *build* with it: what a signal looks like on screen next to its evidence, how big a headline is on a LinkedIn slide, how a currency is written in Swiss German, how a product video opens, or what colour a warning badge is when the brand's gold already means "look here". Without those answers, every new asset re-decides them, and the brand drifts one deadline at a time.
+A brand guideline says what the brand *is*: values, colours, a logo, a type pairing. It rarely says how to *build* with it: what a moment looks like on screen next to its evidence, how big a headline is on a LinkedIn slide, how a currency is written in Swiss German, how a product video opens, or what colour a warning badge is when the brand's gold already means "look here". Without those answers, every new asset re-decides them, and the brand drifts one deadline at a time.
 
 ## The approach
 
 The [`branding-guideline/`](../branding-guideline) folder stays the source of truth for identity and voice. This folder turns it into something an agent or a designer can build from directly:
 
 - **Tokens** with exact values and a usage note on each, in light and dark themes, with every text pairing checked for contrast.
-- **Components** as plain HTML and CSS, each with what the author provides and the rules that don't change. The signature one is `SignalCard`: a signal, the customer it points at, and the property, market and customer data behind it, so the brand promise (*opportunities you can act on — and explain*) is visible in the UI itself.
+- **Components** as plain HTML and CSS, each with what the author provides and the rules that don't change. The signature one is `MomentCard`: a moment, the customer it points at, and the property, market and customer data behind it, so the brand promise (*opportunities you can act on — and explain*) is visible in the UI itself.
 - **Channel rules** for the places the original guideline only covered in a line: LinkedIn carousels and captions, product video and motion, and product UI copy.
 - **Assets** drawn to the guideline's own rules: a line-icon set at the specified stroke weight, and graphic motifs built from the logomark's idea (a parcel map with one highlighted lot).
 
@@ -22,12 +22,12 @@ The same system is published as a Claude design system, so Claude builds Parcelw
 | [`tokens.json`](./tokens.json) | Every token: colour (light and dark), type scale, spacing, radius, shadow, line weights, social and video canvases. Each has a usage note. |
 | [`tokens.css`](./tokens.css) | The same tokens as CSS custom properties, plus a class per type style. Generated from `tokens.json`. |
 | [`components.css`](./components.css) | Styles for all components (`pw-` classes), reading the tokens. Imports the three Google Fonts. |
-| [`components.md`](./components.md) | Guidelines for each component: Button, FormField, Card, StatusBadge, Alert, DataTable, StatTile, SignalCard, PricingTier, CarouselSlide, VideoFrame. |
+| [`components.md`](./components.md) | Guidelines for each component: Button, FormField, Card, StatusBadge, Alert, DataTable, StatTile, MomentCard, PricingTier, CarouselSlide, VideoFrame. |
 | [`components.html`](./components.html) | A live page rendering every component and colour token, with a light/dark switch. |
 | [`writing.md`](./writing.md) | Full wording rules: golden rules, names and terms, case, numbers and currency, market typography (DACH, Benelux, Nordics), inclusive language, product copy. |
 | [`social-and-carousels.md`](./social-and-carousels.md) | LinkedIn in one page; the full carousel system (formats, slide CSS, assets, wording, captions, skill) is [`../linkedin-carousels/`](../linkedin-carousels). Canvas, grounds, type sizes, logo and swipe furniture, seven carousel formats, story shape, caption anatomy, pre-post check. |
 | [`video-and-motion.md`](./video-and-motion.md) | Video formats and story structure, key frames, captions, motion tokens and easing, sound, production rules: the one-page summary of [`../video-design-system/`](../video-design-system), which holds the full film book, components and reference films. |
-| `icon-*.svg` | 15 line icons (signal, evidence-trail, customer, parcel, valuation, market, coverage-map, lender, policy, crm-sync, data-residency, check, alert, arrow-right, search): 24px grid, 1.75px stroke, no fills, navy. |
+| `icon-*.svg` | 15 line icons (moment, evidence-trail, customer, parcel, valuation, market, coverage-map, lender, policy, crm-sync, data-residency, check, alert, arrow-right, search): 24px grid, 1.75px stroke, no fills, navy. |
 | `motif-*.svg` | 3 parcel-map motifs: `parcel-grid` (covers, title cards), `plot-strip` (headers), `lot-outline` (dividers). |
 
 Logos and the palette and logo-usage reference sheets stay in [`branding-guideline/`](../branding-guideline). Print pieces (trifolds, postcards, one-pagers) have their own system in [`flyer-design-system/`](../flyer-design-system).

@@ -8,7 +8,7 @@ This is distinct from [`personalized-outbound`](../personalized-outbound): that 
 
 ## The approach
 
-A skill that takes a persona (from `personas.md`) and a starting context (e.g. "downloaded the explainable-signals whitepaper") and produces a short sequence — each email escalating naturally through that persona's actual decision criteria, not just increasing urgency. The sequence explicitly avoids restating the same value proposition three ways; each email should earn its place by advancing a different part of that persona's evaluation.
+A skill that takes a persona (from `personas.md`) and a starting context (e.g. "downloaded the explainable-moments whitepaper") and produces a short sequence — each email escalating naturally through that persona's actual decision criteria, not just increasing urgency. The sequence explicitly avoids restating the same value proposition three ways; each email should earn its place by advancing a different part of that persona's evaluation.
 
 ## Files — quick mode
 
