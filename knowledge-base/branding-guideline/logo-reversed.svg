@@ -1,10 +1,5 @@
 <svg viewBox="0 0 520 140" xmlns="http://www.w3.org/2000/svg" font-family="Archivo, system-ui, sans-serif">
   <rect x="0" y="0" width="520" height="140" fill="#16324A"/>
-  <g>
-    <path d="M 20 105 A 40 40 0 0 1 100 105" fill="none" stroke="#D9A54B" stroke-width="5" stroke-linecap="round"/>
-    <polygon points="60,25 32,105 88,105" fill="#FFFFFF"/>
-    <circle cx="60" cy="18" r="6" fill="#D9A54B"/>
-  </g>
-  <text x="130" y="78" font-size="52" font-weight="700" fill="#FFFFFF" letter-spacing="-0.5">Seekridge</text>
-  <text x="130" y="118" font-size="26" font-weight="500" fill="#C7CDD3" letter-spacing="1.5">ANALYTICS</text>
+  <g transform="translate(20,20) scale(1)"><rect x="4" y="4" width="92" height="92" rx="6" fill="none" stroke="#FFFFFF" stroke-width="8"/><rect x="59" y="8" width="33" height="36" fill="#D9A54B"/><path d="M 8 48 H 92 M 55 8 V 48 M 38 48 V 92" fill="none" stroke="#FFFFFF" stroke-width="8"/></g>
+  <text x="140" y="88" font-size="54" font-weight="700" fill="#FFFFFF" letter-spacing="-0.5">Seekridge</text>
 </svg>

@@ -111,7 +111,7 @@ So the product and marketing site read as one brand, not two:
 
 ### Naming conventions
 
-- **Pricing tiers** (brokerage/seat-based product): **Dawn** (entry), **Meridian** (mid), **Zenith** (enterprise) — a seekridge's-day theme, used consistently and only for this purpose (not reused as a generic naming device elsewhere).
+- **Pricing tiers** (brokerage/seat-based product): **Plot** (entry), **Block** (mid), **Estate** (enterprise): a land-scale theme that grows with the customer, used consistently and only for this purpose (not reused as a generic naming device elsewhere).
 - **Feature names:** literal and descriptive, never invented proper nouns or trademarked-sounding names. "Audit Trail," not "TraceIQ™." "Coverage Map," not "SmartArea." This follows directly from the "precision, not hype" brand value — a cute feature name reads as marketing packaging on something that should read as infrastructure.
 - **Product terminology (use consistently):**
 
@@ -128,4 +128,4 @@ So the product and marketing site read as one brand, not two:
 - **No stock photography.** Especially no generic finance-stock clichés (handshakes, skyline photos, people pointing at monitors). This audience recognizes stock photography instantly and it reads as substance-free.
 - **Prefer real product surfaces and data visualization** — an actual (or realistic mock) audit trail screenshot, a real comparable-weighting chart — over any illustration standing in for the product.
 - **Where illustration is needed** (e.g. a concept with no literal screenshot, like "data residency"), use abstract geometric illustration consistent with the logomark's style — flat shapes, no gradients, no 3D renders, no isometric-office-life scenes.
-- **Icon style:** line icons only, 1.5–2px stroke weight, no fills, consistent corner radius. No skeuomorphic, glossy, or 3D icon sets. This matches the logomark's own construction (a simple stroked arc plus a solid geometric mark) — the icon system and the logo should look like they were drawn by the same hand.
+- **Icon style:** line icons only, 1.5–2px stroke weight, no fills, consistent corner radius. No skeuomorphic, glossy, or 3D icon sets. This matches the logomark's own construction (a stroked parcel map plus one solid highlighted lot) — the icon system and the logo should look like they were drawn by the same hand.
