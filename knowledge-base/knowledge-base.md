@@ -52,5 +52,6 @@ This doc is the quick summary. Everything below expands one section of it into t
 - [`branding-guideline/skill.md`](./branding-guideline/skill.md) — tone, style rules, anti-patterns, prohibited terms (and the rewrite skill that applies them)
 - [`competitive-landscape.md`](./competitive-landscape.md) — full battlecards and positioning gaps
 - [`design-system/`](./design-system) — the brand made build-ready: tokens, components, icons, motifs, and the rules for writing, LinkedIn, and video
+- [`video-design-system/`](./video-design-system) — the brand on film: the film book, film tokens and components, product UI references, reference films, and the film-builder skill
 
 Use this file and the ones above as the reference for names, roles, and competitive angles across every skill in this repo.
