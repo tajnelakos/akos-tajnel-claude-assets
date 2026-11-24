@@ -1,9 +1,9 @@
 ---
-name: staleness-detection
+name: outdated-checker
 description: Sweeps the knowledge base (and, where relevant, sales-tools artifacts built from it) against this repo's own most recent evidence — the latest competitor-monitoring brief, win-loss deep dive, and sales-call-analysis rollup — and flags or, where safe, directly updates specific claims that evidence now contradicts. Use monthly, or whenever a major new artifact (a bi-monthly report, a fresh CRM export) lands. Also supports the original single-doc, single-input mode for an ad hoc check.
 ---
 
-# Staleness Detection
+# Outdated Checker
 
 ## Purpose
 
@@ -16,12 +16,12 @@ Flag specific, potentially-outdated claims with their contradicting evidence —
    - The latest [`win-loss-analysis`](../win-loss-analysis) deep dive (CSV + HTML)
    - The [`sales-call-analysis`](../sales-call-analysis) rollup
    - Any other artifact newer than the target doc's own "Last verified" or "Last updated" date
-2. **Check every doc that makes a factual claim about the market, a competitor, or a customer against those sources**, at minimum: `competitive-landscape.md`, each file in [`battlecard`](../../sales-tools/battlecard), `positioning.md`, `icp.md`, `personas.md`. Go claim by claim within each — a staleness check is only useful at the level of individual factual assertions, not whole sections.
+2. **Check every doc that makes a factual claim about the market, a competitor, or a customer against those sources**, at minimum: `competitive-landscape.md`, each file in [`battlecard`](../../sales-tools/battlecard), `positioning.md`, `icp.md`, `personas.md`. Go claim by claim within each — an outdated check is only useful at the level of individual factual assertions, not whole sections.
 3. **Classify every finding into one of three actions, not two:**
    - **Direct fix** — a simple, unambiguous factual update (a "Last verified" date, a statistic, a status like "beta" → "GA"). Make the edit yourself, and say plainly in the sweep report that you did, with the old and new value.
    - **Route to a generator skill** — anything requiring judgment about phrasing, strategy, or talk tracks (a battlecard's objection-handling copy, a positioning narrative). Name the specific skill and file; don't attempt the rewrite yourself.
    - **Soft flag** — unverified but not contradicted by anything in hand; worth a recheck next sweep, not urgent now.
-4. **Look for evidence that *strengthens* a claim, not only evidence that contradicts one.** A new data point that confirms and sharpens an existing claim (e.g. a battlecard's qualitative argument now has a hard statistic behind it) is worth adding even though nothing was "wrong" — staleness isn't only about errors, it's about a knowledge base falling behind what's actually known.
+4. **Look for evidence that *strengthens* a claim, not only evidence that contradicts one.** A new data point that confirms and sharpens an existing claim (e.g. a battlecard's qualitative argument now has a hard statistic behind it) is worth adding even though nothing was "wrong" — being outdated isn't only about errors, it's about a knowledge base falling behind what's actually known.
 5. **Cite the specific source** for every finding — a rep or writer needs to see the evidence, not just trust the flag.
 6. **Produce one sweep report** covering everything checked this pass, structured by target document, not by evidence source — see [`sweep-2026-09.md`](./sweep-2026-09.md) for the format and a real worked pass.
 
@@ -47,7 +47,7 @@ See [`example.md`](./example.md) for this mode.
 ## Output format — sweep report
 
 ```
-## Staleness Sweep — [date]
+## Outdated Check — [date]
 
 Evidence reviewed: [list of sources and their dates]
 
@@ -62,7 +62,7 @@ Evidence reviewed: [list of sources and their dates]
 ## Output format — single-document mode
 
 ```
-## Staleness Check — [document checked] — against [newer inputs, briefly described]
+## Outdated Check — [document checked] — against [newer inputs, briefly described]
 
 ### Hard flags (contradicted by newer evidence)
 - Claim: "[quoted claim]" — Contradicted by: [specific newer input] — Recommended action: [route to which skill/owner]

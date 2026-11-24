@@ -56,7 +56,7 @@ Firmographic fit doesn't travel evenly across our three core regions — worth c
 
 At insurers, the Head of Home Insurance (or Head of Distribution) takes the economic-buyer seat, and the risk seat is usually held by a Chief Risk Officer or actuarial lead — the rest of the committee looks the same.
 
-A deal without early technical evaluator buy-in tends to stall at the procurement gate later, even if the economic buyer is enthusiastic — worth surfacing this in deck/outline prompts (see [`sales-deck-builder`](../sales-tools/sales-deck-builder)). At Tier 2 specifically, the IT/security reviewer and procurement stage are where deals actually die or stall — the product conversation is rarely the blocker once the economic buyer is convinced (see [`staleness-detection`](../knowledge-base/staleness-detection)'s general pattern of process gates outlasting product objections).
+A deal without early technical evaluator buy-in tends to stall at the procurement gate later, even if the economic buyer is enthusiastic — worth surfacing this in deck/outline prompts (see [`sales-deck-builder`](../sales-tools/sales-deck-builder)). At Tier 2 specifically, the IT/security reviewer and procurement stage are where deals actually die or stall — the product conversation is rarely the blocker once the economic buyer is convinced (see [`outdated-checker`](../knowledge-base/outdated-checker)'s general pattern of process gates outlasting product objections).
 
 ## Anti-ICP: who this isn't for
 

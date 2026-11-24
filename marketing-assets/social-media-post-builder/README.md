@@ -11,7 +11,7 @@ Takes a real, sourced finding — from [`win-loss-analysis`](../../knowledge-bas
 ## Files
 
 - [`skill.md`](./skill.md) — the Claude Skill definition
-- [`example.md`](./example.md) — a post built from the win-loss deep dive's Estemate/ValuAI win-rate finding, the same data [`staleness-detection`](../../knowledge-base/staleness-detection) used to update `competitive-landscape.md` and `positioning.md`
+- [`example.md`](./example.md) — a post built from the win-loss deep dive's Estemate/ValuAI win-rate finding, the same data [`outdated-checker`](../../knowledge-base/outdated-checker) used to update `competitive-landscape.md` and `positioning.md`
 
 ## Current limitations
 
