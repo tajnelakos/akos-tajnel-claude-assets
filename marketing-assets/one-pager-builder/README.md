@@ -11,7 +11,7 @@ A skill that builds a single-page, persona-specific piece of sales collateral �
 ## Files
 
 - [`skill.md`](./skill.md) — the Claude Skill definition
-- [`one-pager-head-of-credit-risk.html`](./one-pager-head-of-credit-risk.html) — the rendered one-pager ([view live ↗](https://tajnelakos.github.io/seekridge/marketing-assets/one-pager-builder/one-pager-head-of-credit-risk.html))
+- [`one-pager-head-of-credit-risk.html`](./one-pager-head-of-credit-risk.html) — the rendered one-pager ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/one-pager-builder/one-pager-head-of-credit-risk.html))
 - [`example.md`](./example.md) — the input/output behind it
 
 ## Current limitations
