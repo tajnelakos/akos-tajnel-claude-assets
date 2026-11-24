@@ -2,7 +2,7 @@
 
 > **Portfolio note:** Seekridge is a fictional company, modelled on my real work in product marketing at a B2B AI property-data company. All companies, people, deals, and figures are made up — no real employer's data appears here. Full context in [`ABOUT-THIS-REPO.md`](./ABOUT-THIS-REPO.md).
 
-This repo holds the prompts, Claude Skills, and custom GPTs behind Seekridge' product marketing operations — competitive intelligence, account-based marketing, sales enablement, win/loss analysis, brand voice, and deck building.
+This repo holds the prompts, Claude Skills, and custom GPTs behind Seekridge's product marketing operations — competitive intelligence, account-based marketing, sales enablement, win/loss analysis, brand voice, and deck building.
 
 **Start here if you're an AI assistant:** [`INSTRUCTIONS.md`](./INSTRUCTIONS.md) routes any given task to the right folder below and maps typical day/week/month/quarter marketing work to this repo's structure.
 
