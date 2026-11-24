@@ -6,7 +6,7 @@ This is a portfolio project, built to show what applied, structured AI usage loo
 
 The skills, prompts, and knowledge-base structure here are representative of real work; the company they're built around is not. Publishing my actual employer's competitive intelligence, deal data, or brand guidelines wouldn't be appropriate — so everything runs against **Parcelwise**, an invented B2B SaaS company (see [`knowledge-base.md`](./knowledge-base/knowledge-base.md)), with invented competitors, personas, deals, and transcripts.
 
-Parcelwise is deliberately modelled on the kind of business I've actually done product marketing for: an AI data platform that combines property data, market data, and a client's own CRM data to flag new business opportunities in their existing customer base, sold to banks, insurers, and real estate firms. Keeping the fictional company close to my real experience means every skill and example here reflects problems I've worked on, not a borrowed industry. No real company, competitor, customer, or employer data appears anywhere in this repo.
+Parcelwise is deliberately modelled on the kind of business I've actually done product marketing for: an AI data analytics and signals company that combines a client's own CRM data with external market data to flag new business opportunities in their existing customer base, sold to banks, insurers, and real estate firms. Keeping the fictional company close to my real experience means every skill and example here reflects problems I've worked on, not a borrowed industry. No real company, competitor, customer, or employer data appears anywhere in this repo.
 
 ## What's real and what isn't
 
