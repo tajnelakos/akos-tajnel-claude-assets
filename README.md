@@ -1,6 +1,6 @@
 # Parcelwise — Marketing AI Systems
 
-> **Portfolio note:** Parcelwise is a fictional company, modelled on my real work in product marketing at a B2B AI property-data company. All companies, people, deals, and figures are made up — no real employer's data appears here. Full context in [`ABOUT-THIS-REPO.md`](./ABOUT-THIS-REPO.md).
+> **Portfolio note:** Parcelwise is a fictional company, modelled on my real product-marketing work in B2B AI and data SaaS. All companies, people, deals, and figures are made up — no real employer's data appears here. Full context in [`ABOUT-THIS-REPO.md`](./ABOUT-THIS-REPO.md).
 
 This repo holds the prompts, Claude Skills, and custom GPTs behind Parcelwise's product marketing operations — competitive intelligence, account-based marketing, sales enablement, win/loss analysis, brand voice, and deck building.
 
@@ -12,7 +12,7 @@ Product marketing runs on recurring problems, not one-off projects: tracking com
 
 ## About the company
 
-Everything here is built around **[Parcelwise](./knowledge-base/knowledge-base.md)**, an AI data platform that combines property data, market data, and a client's own CRM data to flag new business opportunities inside the customer base they already have. It sells to banks and mortgage lenders, insurers, and real estate brokerages across Europe. [`knowledge-base/`](./knowledge-base) describes the company, its market, and its customers in full.
+Everything here is built around **[Parcelwise](./knowledge-base/knowledge-base.md)**, an AI data analytics and signals company. It combines a client's own CRM data with external market data to flag new business opportunities inside the customer base they already have. It sells to banks and mortgage lenders, insurers, and real estate brokerages across Europe. [`knowledge-base/`](./knowledge-base) describes the company, its market, and its customers in full.
 
 ## Three kinds of folder
 
