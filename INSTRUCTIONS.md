@@ -8,11 +8,11 @@ A working set of prompts, Claude Skills, and custom GPTs for recurring growth/pr
 
 ## Three top-level folders
 
-- **[`knowledge-base/`](./knowledge-base)** — accumulated understanding, not a task tool. Holds the core reference docs (`knowledge-base.md`, `icp.md`, `personas.md`, `positioning.md`, `competitive-landscape.md`, `branding-guideline/` for voice and identity, and `design-system/` for anything visual — read the relevant one first when a task needs customer, competitor, or voice context) plus the analysis work that builds and maintains that understanding (`sales-call-analysis/`, `win-loss-analysis/`, `staleness-detection/`).
+- **[`knowledge-base/`](./knowledge-base)** — accumulated understanding, not a task tool. Holds the core reference docs (`knowledge-base.md`, `icp.md`, `personas.md`, `positioning.md`, `competitive-landscape.md`, `branding-guideline/` for voice and identity, `design-system/` for anything visual, and `linkedin-carousels/` for LinkedIn carousels and image posts — read the relevant one first when a task needs customer, competitor, or voice context) plus the analysis work that builds and maintains that understanding (`sales-call-analysis/`, `win-loss-analysis/`, `staleness-detection/`).
 - **[`sales-tools/`](./sales-tools)** — what a rep or sales-facing process actually uses: `competitor-monitoring/`, `battlecard/`, `abm-account-brief/`, `icp-buying-signal-monitor/`, `sales-deck-builder/`.
 - **[`marketing-assets/`](./marketing-assets)** — content marketing produces and ships: `personalized-outbound/`, `persona-email-sequence/`, `positioning-compliance/`.
 
-Every folder inside these three holds a flat set of files — `README.md`, `skill.md` (and `gpt.md` where relevant), plus a worked example — no nested subfolders.
+Every folder inside these three holds a flat set of files — `README.md`, `skill.md` (and `gpt.md` where relevant), plus a worked example — no nested subfolders. The one exception is [`linkedin-carousels/`](./knowledge-base/linkedin-carousels), which is packaged as a Claude design system and keeps that format's `components/`, `assets/` and `fonts/` folders.
 
 ## Routing: if the request is about... use this folder
 
@@ -24,6 +24,8 @@ Every folder inside these three holds a flat set of files — `README.md`, `skil
 | "Break down this sales call" / objections, competitor mentions from a transcript | [`sales-call-analysis`](./knowledge-base/sales-call-analysis) |
 | "Why are we winning/losing deals this quarter?" | [`win-loss-analysis`](./knowledge-base/win-loss-analysis) |
 | "Rewrite this draft to match our voice" | [`branding-guideline`](./knowledge-base/branding-guideline) |
+| "Make a LinkedIn carousel or image post about [seed]" / "Which carousel format fits this?" | [`linkedin-carousels`](./knowledge-base/linkedin-carousels) (start with its README, then the format's README in `components/`, then `skill.md`) |
+| "Design a slide, page, or video frame" / "What color, font, or size should this be?" | [`design-system`](./knowledge-base/design-system) (start with its README, then `tokens.css` and `components.md`) |
 | "Design a slide, page, carousel, or video frame" / "What color, font, or size should this be?" | [`design-system`](./knowledge-base/design-system) (start with its README, then `tokens.css` and `components.md`) |
 | "Make a flyer, postcard, leaflet or one-pager to print" | [`flyer-design-system`](./knowledge-base/flyer-design-system) (start with its README, then copy the closest file in `examples/`) |
 | "Is this draft safe to publish?" (pass/fail, no rewrite) | [`positioning-compliance`](./marketing-assets/positioning-compliance) |

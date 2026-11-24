@@ -228,13 +228,13 @@ The voice rules live in [`skill.md`](./skill.md). The mechanics that sit underne
 
 ### LinkedIn posts and carousels
 
-Full rules: [`social-and-carousels.md`](../design-system/social-and-carousels.md).
+Full system: [`../linkedin-carousels/`](../linkedin-carousels) (formats, slide CSS, assets, wording, captions, and a skill that builds a finished carousel); one-page summary: [`social-and-carousels.md`](../design-system/social-and-carousels.md).
 
 - **Canvas:** 1080 × 1350 px (4:5), 96px safe margin, 4–8 slides (cover, 2–6 middle slides, one close). Minimum type on the canvas is 28px.
 - **Grounds:** flat Navy for covers, statements, and closes; flat Paper for proof slides with screenshots, tables, and charts. No gradients or glows.
-- **Furniture:** lockup on the cover, the mark bottom-right on every other slide, a swipe arrow on every slide but the last, a mono eyebrow and a slide counter on middle slides, the parcel-grid motif on the cover only.
-- **Story shape:** question → tension → method → proof → action. Up to three highlighted words a slide, in `#D9A54B`, on Navy only.
-- **Formats:** signal explainer, myth vs method, proof in numbers, feature launch, regulation brief, event invite.
+- **Furniture:** lockup on the cover and the close, the mark bottom-right on every other slide, a swipe arrow on every slide but the last, a mono eyebrow and a slide counter on middle slides. One parcel-map motif at most per slide: the parcel grid on covers, the plot strip or layer stack on data and explainer slides.
+- **Story shape:** question → tension → method → proof → action. One gold element per slide: up to three highlighted words in `#D9A54B` on Navy, or a motif's lot, or the top weight in an evidence trail.
+- **Formats:** signal explainer, myth vs method, proof in numbers, feature launch, regulation brief, event invite, field guide, plus a slide kit for mixing them.
 - **Caption:** 50–110 words in four blocks — hook, what changes (as a benefit), proof or detail, one CTA with one link. No hashtags; at most one emoji, never on slides.
 
 ### Video and motion
