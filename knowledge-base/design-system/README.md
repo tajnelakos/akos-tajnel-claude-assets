@@ -30,7 +30,7 @@ The same system is published as a Claude design system, so Claude builds Seekrid
 | `icon-*.svg` | 15 line icons (signal, evidence-trail, customer, parcel, valuation, market, coverage-map, lender, policy, crm-sync, data-residency, check, alert, arrow-right, search): 24px grid, 1.75px stroke, no fills, navy. |
 | `motif-*.svg` | 3 parcel-map motifs: `parcel-grid` (covers, title cards), `plot-strip` (headers), `lot-outline` (dividers). |
 
-Logos and the palette and logo-usage reference sheets stay in [`branding-guideline/`](../branding-guideline).
+Logos and the palette and logo-usage reference sheets stay in [`branding-guideline/`](../branding-guideline). Print pieces (trifolds, postcards, one-pagers) have their own system in [`flyer-design-system/`](../flyer-design-system).
 
 ## How to use it
 

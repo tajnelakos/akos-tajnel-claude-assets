@@ -1,0 +1,78 @@
+/* Seekridge flyer tokens, generated from tokens.json. Paper is the default; set data-theme="dark" on a navy-ground container. */
+@font-face{font-family:Archivo;src:url(fonts/Archivo-SemiBold.woff2) format('woff2');font-weight:600}
+@font-face{font-family:Archivo;src:url(fonts/Archivo-Bold.woff2) format('woff2');font-weight:700}
+@font-face{font-family:Archivo;src:url(fonts/Archivo-ExtraBold.woff2) format('woff2');font-weight:800}
+@font-face{font-family:'IBM Plex Sans';src:url(fonts/IBMPlexSans-Regular.woff2) format('woff2');font-weight:400}
+@font-face{font-family:'IBM Plex Sans';src:url(fonts/IBMPlexSans-Medium.woff2) format('woff2');font-weight:500}
+@font-face{font-family:'IBM Plex Sans';src:url(fonts/IBMPlexSans-SemiBold.woff2) format('woff2');font-weight:600}
+@font-face{font-family:'IBM Plex Mono';src:url(fonts/IBMPlexMono-Regular.woff2) format('woff2');font-weight:400}
+@font-face{font-family:'IBM Plex Mono';src:url(fonts/IBMPlexMono-Medium.woff2) format('woff2');font-weight:500}
+:root, [data-theme="light"] {
+  --navy: #1A3A5C;
+  --navy-deep: #16324A;
+  --gold: #C1892E;
+  --gold-light: #D9A54B;
+  --ink-raw: #1C1C1A;
+  --slate: #8A8782;
+  --paper: #F4F3EF;
+  --white: #FFFFFF;
+  --grey-text: #5B6470;
+  --hairline: #E1E0D9;
+  --navy-text: #AEB8C3;
+  --navy-line: #2C4C6B;
+  --surface: var(--paper);
+  --surface-panel: var(--white);
+  --ink: var(--navy);
+  --ink-body: var(--ink-raw);
+  --ink-muted: var(--grey-text);
+  --accent: var(--gold);
+  --icon: var(--navy);
+  --line: var(--hairline);
+  --font-display: Archivo, "Helvetica Neue", Arial, sans-serif;
+  --font-body: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", Menlo, Consolas, monospace;
+  --space-1: 7.559px;
+  --space-2: 15.118px;
+  --space-3: 22.677px;
+  --space-4: 30.236px;
+  --space-5: 45.354px;
+  --space-6: 60.472px;
+  --radius-none: 0;
+  --radius-sm: 1.89px;
+  --border-hairline: 0.5pt;
+  --border-strong: 1pt;
+  --bleed: 3mm;
+  --safe: 5mm;
+  --fold-panel: 100mm;
+  --fold-flap: 97mm;
+  --qr-min: 20mm;
+  --logo-min: 10mm;
+  --image-res: 300ppi;
+}
+[data-theme="dark"] {
+  --surface: var(--navy);
+  --surface-panel: var(--navy-deep);
+  --ink: var(--paper);
+  --ink-body: var(--paper);
+  --ink-muted: var(--navy-text);
+  --accent: var(--gold-light);
+  --icon: var(--paper);
+  --line: var(--navy-line);
+}
+.tri-claim { font-family: var(--font-display); font-size: 26.667px; line-height: 32px; font-weight: 700; letter-spacing: -0.01em; margin: 0; }
+.tri-heading { font-family: var(--font-display); font-size: 20px; line-height: 24px; font-weight: 700; letter-spacing: -0.01em; margin: 0; }
+.tri-panel-title { font-family: var(--font-display); font-size: 14.667px; line-height: 18.667px; font-weight: 600; margin: 0; }
+.tri-body { font-family: var(--font-body); font-size: 14px; line-height: 20px; font-weight: 400; margin: 0; }
+.tri-figure { font-family: var(--font-display); font-size: 34.667px; line-height: 37.333px; font-weight: 800; letter-spacing: -0.01em; margin: 0; }
+.card-display { font-family: var(--font-display); font-size: 40px; line-height: 44px; font-weight: 800; letter-spacing: -0.01em; margin: 0; }
+.card-headline { font-family: var(--font-display); font-size: 29.333px; line-height: 34.667px; font-weight: 700; letter-spacing: -0.01em; margin: 0; }
+.card-lead { font-family: var(--font-body); font-size: 17.333px; line-height: 24px; font-weight: 400; margin: 0; }
+.card-subhead { font-family: var(--font-display); font-size: 16px; line-height: 20px; font-weight: 600; margin: 0; }
+.card-body { font-family: var(--font-body); font-size: 13.333px; line-height: 18.667px; font-weight: 400; margin: 0; }
+.page-title { font-family: var(--font-display); font-size: 37.333px; line-height: 41.333px; font-weight: 800; letter-spacing: -0.01em; margin: 0; }
+.page-lead { font-family: var(--font-body); font-size: 16px; line-height: 22.667px; font-weight: 400; margin: 0; }
+.eyebrow { font-family: var(--font-mono); font-size: 10px; line-height: 13.333px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; margin: 0; }
+.label { font-family: var(--font-body); font-size: 10.667px; line-height: 13.333px; font-weight: 500; margin: 0; }
+.data { font-family: var(--font-mono); font-size: 10.667px; line-height: 13.333px; font-weight: 400; font-variant-numeric: tabular-nums; margin: 0; }
+.source { font-family: var(--font-mono); font-size: 9.333px; line-height: 12px; font-weight: 400; margin: 0; }
+.contact { font-family: var(--font-body); font-size: 13.333px; line-height: 18.667px; font-weight: 500; margin: 0; }
