@@ -1,0 +1,100 @@
+/* Parcelwise design tokens, generated from tokens.json. Light is the default; set data-theme="dark" on <html> for dark. */
+:root, [data-theme="light"] {
+  --navy: #1A3A5C;
+  --navy-deep: #16324A;
+  --gold: #C1892E;
+  --gold-light: #D9A54B;
+  --ink-raw: #1C1C1A;
+  --slate: #8A8782;
+  --paper: #F4F3EF;
+  --bg: #F4F3EF;
+  --surface: #FFFFFF;
+  --surface-sunken: #FAF9F6;
+  --line: #E1E0D9;
+  --line-strong: #8A8782;
+  --ink: #1C1C1A;
+  --ink-muted: #5B6470;
+  --action: #1A3A5C;
+  --action-hover: #16324A;
+  --on-action: #FFFFFF;
+  --accent: var(--gold);
+  --focus: #1A3A5C;
+  --good: #0CA30C;
+  --good-ink: #1F7A4D;
+  --good-bg: #E9F5EE;
+  --warning: #D68A1F;
+  --warning-ink: #9A6212;
+  --warning-bg: #FCF3E3;
+  --critical: #D03B3B;
+  --critical-ink: #B33A2E;
+  --critical-bg: #FBEAE8;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --radius-none: 0;
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 6px;
+  --border-hairline: 1px;
+  --border-strong: 2px;
+  --stroke-icon: 1.75px;
+  --canvas-carousel-w: 1080px;
+  --canvas-carousel-h: 1350px;
+  --canvas-video-w: 1920px;
+  --canvas-video-h: 1080px;
+  --canvas-margin: 96px;
+  --canvas-margin-caption: 160px;
+  --shadow-none: none;
+  --shadow-overlay: 0 8px 24px rgba(28, 28, 26, 0.12);
+  --font-display: Archivo, system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", "SF Mono", Consolas, monospace;
+}
+[data-theme="dark"] {
+  --navy: #1A3A5C;
+  --navy-deep: #16324A;
+  --gold: #C1892E;
+  --gold-light: #D9A54B;
+  --ink-raw: #1C1C1A;
+  --slate: #8A8782;
+  --paper: #F4F3EF;
+  --bg: #0F1E2C;
+  --surface: #16324A;
+  --surface-sunken: #122A3F;
+  --line: #2C4C6B;
+  --line-strong: #7390AE;
+  --ink: #F4F3EF;
+  --ink-muted: #AEB8C3;
+  --action: #D9A54B;
+  --action-hover: #C1892E;
+  --on-action: #0F1E2C;
+  --accent: var(--gold-light);
+  --focus: #D9A54B;
+  --good: #4CAF7D;
+  --good-ink: #4CAF7D;
+  --good-bg: #14261C;
+  --warning: #E0A94A;
+  --warning-ink: #E0A94A;
+  --warning-bg: #2A2015;
+  --critical: #E0796C;
+  --critical-ink: #E0796C;
+  --critical-bg: #2A1917;
+  --shadow-overlay: 0 8px 24px rgba(0, 0, 0, 0.45);
+}
+.display { font-family: var(--font-display); font-size: 56px; line-height: 60px; font-weight: 800; letter-spacing: -0.02em; }
+.h1 { font-family: var(--font-display); font-size: 40px; line-height: 46px; font-weight: 700; letter-spacing: -0.01em; }
+.h2 { font-family: var(--font-display); font-size: 28px; line-height: 34px; font-weight: 700; }
+.h3 { font-family: var(--font-display); font-size: 20px; line-height: 26px; font-weight: 600; }
+.body-lg { font-family: var(--font-body); font-size: 18px; line-height: 28px; font-weight: 400; }
+.body { font-family: var(--font-body); font-size: 16px; line-height: 24px; font-weight: 400; }
+.body-sm { font-family: var(--font-body); font-size: 14px; line-height: 20px; font-weight: 400; }
+.label { font-family: var(--font-body); font-size: 14px; line-height: 20px; font-weight: 500; }
+.button { font-family: var(--font-body); font-size: 15px; line-height: 20px; font-weight: 600; }
+.eyebrow { font-family: var(--font-mono); font-size: 12px; line-height: 16px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; }
+.data { font-family: var(--font-mono); font-size: 14px; line-height: 20px; font-weight: 400; }
+.caption { font-family: var(--font-mono); font-size: 12px; line-height: 16px; font-weight: 400; }
