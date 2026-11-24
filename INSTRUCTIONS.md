@@ -26,6 +26,8 @@ Every folder inside these three holds a flat set of files — `README.md`, `skil
 | "Rewrite this draft to match our voice" | [`branding-guideline`](./knowledge-base/branding-guideline) |
 | "Make a LinkedIn carousel or image post about [seed]" / "Which carousel format fits this?" | [`linkedin-carousels`](./knowledge-base/linkedin-carousels) (start with its README, then the format's README in `components/`, then `skill.md`) |
 | "Design a slide, page, or video frame" / "What color, font, or size should this be?" | [`design-system`](./knowledge-base/design-system) (start with its README, then `tokens.css` and `components.md`) |
+| "Design a slide, page, carousel, or video frame" / "What color, font, or size should this be?" | [`design-system`](./knowledge-base/design-system) (start with its README, then `tokens.css` and `components.md`) |
+| "Make a flyer, postcard, leaflet or one-pager to print" | [`flyer-design-system`](./knowledge-base/flyer-design-system) (start with its README, then copy the closest file in `examples/`) |
 | "Is this draft safe to publish?" (pass/fail, no rewrite) | [`positioning-compliance`](./marketing-assets/positioning-compliance) |
 | "Build a deck outline for [meeting/persona]" | [`sales-deck-builder`](./sales-tools/sales-deck-builder) |
 | "Which accounts are showing buying signals right now?" | [`icp-buying-signal-monitor`](./sales-tools/icp-buying-signal-monitor) |
