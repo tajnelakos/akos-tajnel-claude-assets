@@ -13,7 +13,7 @@ A designed, one-page version of this same report is at [`bi-monthly-report-2026-
 - Appointed a first-ever VP of Compliance ahead of an enterprise push. *Source: LinkedIn post*
 
 **Partnerships and Ecosystem Moves**
-- Announced an integration with a mid-market loan origination system provider, embedding valuations directly into the loan workflow. *Source: Company blog*
+- Announced an integration with a mid-market loan origination system provider, embedding its property data and valuations directly into the loan workflow. *Source: Company blog*
 
 **Messaging and Positioning**
 - Homepage and sales messaging added an "audit-ready" claim for the first time this period, alongside the existing speed/price positioning — a departure from purely price-led messaging at the start of the year. *Source: Company website*
@@ -36,7 +36,7 @@ A designed, one-page version of this same report is at [`bi-monthly-report-2026-
 ## ValuAI
 
 **Recent Developments**
-- Announced general availability of its "regulatory audit trail" feature, previously in beta, with one named enterprise customer reference. *Source: Company press release*
+- Announced general availability of its "regulatory signal explanations" feature, previously in beta, with one named enterprise customer reference. *Source: Company press release*
 - Opened a second regional office, its first outside its home market. *Source: Company blog*
 
 **Partnerships and Ecosystem Moves**
@@ -62,7 +62,7 @@ A designed, one-page version of this same report is at [`bi-monthly-report-2026-
 
 ## Market Patterns
 
-- Two of four tracked competitors (Bricklane Data, ValuAI) shifted messaging toward "audit-ready"/"regulatory-ready" language this period, despite neither having a verified, comparable-level audit trail on record before this period began.
+- Two of four tracked competitors (Bricklane Data, ValuAI) shifted messaging toward "audit-ready"/"regulatory-ready" language this period, despite neither having a verified, customer-level evidence trail on record before this period began.
 
 ---
 
@@ -71,6 +71,6 @@ A designed, one-page version of this same report is at [`bi-monthly-report-2026-
 *(This section, and Market Patterns above, are additions beyond the neutral report format — see the note in [`bi-monthly-report-skill.md`](./bi-monthly-report-skill.md) on why.)*
 
 - **ValuAI's GA announcement is the most consequential development this period.** It targets our primary differentiation lane directly. Recommend running [`battlecard`](../battlecard) against this update, and checking any live sales content with [`positioning-compliance`](../../marketing-assets/positioning-compliance) for stale "not yet GA" claims.
-- **The convergence on "audit-ready" language across two competitors suggests the market is treating defensibility as a category expectation, not a differentiator, faster than expected.** Worth revisiting whether "we're explainable" alone is still a strong enough wedge, or whether the differentiation needs to shift toward *proof* — a public benchmark, a named reference customer speaking specifically to the audit trail, not just the capability.
+- **The convergence on "audit-ready" language across two competitors suggests the market is treating defensibility as a category expectation, not a differentiator, faster than expected.** Worth revisiting whether "we're explainable" alone is still a strong enough wedge, or whether the differentiation needs to shift toward *proof* — a public benchmark, a named reference customer speaking specifically to the evidence trail, not just the capability.
 - **Estemate's quiet period is consistent with its established pattern** — not a signal to act on, but also not a reason to deprioritize a competitor that still holds a large installed base.
 - Recommend re-running [`staleness-detection`](../../knowledge-base/staleness-detection) against `competitive-landscape.md`'s ValuAI section given this period's GA announcement — that section already flagged this exact claim as volatile.

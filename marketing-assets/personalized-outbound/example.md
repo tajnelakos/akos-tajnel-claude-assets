@@ -17,13 +17,13 @@ The [Nordkredit account brief](../../sales-tools/abm-account-brief/example.md), 
 ```
 ## Outbound Draft — Nordkredit — Email
 
-Subject: Explainability for the new valuation tooling
+Subject: Explainability for the new targeting tooling
 
 Hi [Name],
 
-Congratulations on the new role — and on the timing, since I saw your team is actively migrating valuation workflows off your current tooling.
+Congratulations on the new role — and on the timing, since I saw your team is actively migrating customer-targeting workflows off your current tooling.
 
-That's usually the exact point where explainability becomes a real requirement rather than a nice-to-have, especially with a new risk mandate in place. Most valuation tools we come across can tell you a number; fewer can show a comparable-level audit trail an examiner would actually accept.
+That's usually the exact point where explainability becomes a real requirement rather than a nice-to-have, especially with a new risk mandate in place. Most scoring tools we come across can tell you which customers to call; fewer can show why each one is on the list, in a form an auditor would actually accept.
 
 Worth a 15-minute conversation about how you're thinking about that requirement for the new setup? Happy to just listen if it's early days.
 

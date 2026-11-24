@@ -7,13 +7,13 @@
 
 **Marcus:** Tomas, thanks for hopping on. I saw you downloaded the agent productivity piece — what prompted that?
 
-**Tomas:** We're evaluating whether to give our agents better valuation insight tools. Right now they're mostly guessing at pricing conversations with sellers, or waiting on me to run comps manually, which doesn't scale past a certain team size.
+**Tomas:** We're evaluating whether to give our agents a way to see which of our past clients and contacts are likely to sell. Right now they cold-call from a list of old buyers, or wait on me to guess who might be ready, which doesn't scale past a certain team size. And when they do get the appointment, they're often guessing at the price conversation.
 
 **Marcus:** Makes sense. Walk me through what a listing conversation looks like today without a tool.
 
-**Tomas:** Agent goes to a seller consultation, seller asks "what's my house worth," agent either fumbles an answer or has to say "let me get back to you," which loses momentum. We lose listings to agents at other brokerages who show up with a number and a story behind it on the spot.
+**Tomas:** Two problems. First, we hear a past client sold with another brokerage after the sign goes up — we had their number the whole time. Second, when an agent does get to a seller consultation, the seller asks "what's my house worth," and the agent either fumbles an answer or has to say "let me get back to you," which loses momentum. We lose listings to agents who show up with a number and a story behind it on the spot.
 
-**Marcus:** Got it — so the tool's job is really to win the listing conversation in the room, not just produce a report afterward.
+**Marcus:** Got it — so the tool's job is to get your agents to the right sellers first, and then win the listing conversation in the room, not just produce a report afterward.
 
 **Tomas:** Right. We actually looked at PropIQ already, a few of our agents have used it at previous brokerages.
 
@@ -25,13 +25,13 @@
 
 **Tomas:** From what I heard, it wasn't built well for use on a phone, standing in a driveway before walking into a house. They'd have to go back to a laptop to actually pull the number.
 
-**Marcus:** That's a real gap, and I want to be straight with you rather than oversell — our mobile experience today covers the core valuation pull, but it's not yet as polished as I'd want for someone literally standing on a driveway mid-conversation. It's on our roadmap, but I'm not going to claim it's solved if it isn't.
+**Marcus:** That's a real gap, and I want to be straight with you rather than oversell — our mobile experience today covers the seller signals and the core valuation pull, but it's not yet as polished as I'd want for someone literally standing on a driveway mid-conversation. It's on our roadmap, but I'm not going to claim it's solved if it isn't.
 
 **Tomas:** I appreciate you saying that directly instead of dancing around it. How far off is it?
 
 **Marcus:** I don't have an exact date I can commit to on this call — I'd rather follow up with a real answer from our product team than guess. What I can say is the desktop and tablet experience is strong today, and for agents doing prep before a listing appointment rather than live in the room, it already solves the core problem you described.
 
-**Tomas:** That's actually most of our use case, if I'm honest — the "in the driveway" scenario is maybe 20% of it. The bigger issue is prep before the appointment, having a real number and comparables to walk in with.
+**Tomas:** That's actually most of our use case, if I'm honest — the "in the driveway" scenario is maybe 20% of it. The bigger issue is knowing who to call this week, and prep before the appointment — having a real number and the reasons behind it to walk in with.
 
 **Marcus:** Then that's worth testing directly rather than theorizing about it. Would a small pilot with maybe five agents make sense — the ones who are already comfortable with tools, not your most skeptical group — before rolling to all 40?
 

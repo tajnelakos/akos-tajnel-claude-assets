@@ -6,7 +6,7 @@ Nordkredit — the same account [`icp-buying-signal-monitor`](../../sales-tools/
 
 ## Input
 
-> Account: Nordkredit. Source: `win-loss-crm-export.csv` row OPP-1001 (Won, closed 2026-09-08, 65-day cycle, €56,924 ACV, competitor Estemate quoted €57,313, decision driver "Explainability / audit trail", product feedback "Standout: comparable-level audit trail") + `sales-call-analysis/call-01-nordkredit.md` (discovery call with Lena Virtanen, Head of Credit Risk).
+> Account: Nordkredit. Source: `win-loss-crm-export.csv` row OPP-1001 (Won, closed 2026-09-08, 65-day cycle, €56,924 ACV, competitor Estemate quoted €57,313, decision driver "Explainability / evidence trail", product feedback "Standout: customer-level evidence trail") + `sales-call-analysis/call-01-nordkredit.md` (discovery call with Lena Virtanen, Head of Credit Risk).
 
 ## Output
 
@@ -15,26 +15,26 @@ Nordkredit — the same account [`icp-buying-signal-monitor`](../../sales-tools/
 
 **Status:** Draft — pending Nordkredit's explicit sign-off before publishing named or quoting Lena Virtanen publicly
 
-**Title:** Nordkredit replaces a "confidence score only" valuation tool ahead of a board audit
+**Title:** Nordkredit replaces a "score only" targeting tool ahead of a board audit
 **Snapshot:** Bank/Lender · Tier 1 · Nordics · ~€600M annual origination · Displaced: Estemate (incumbent) · Deal size: €56,924 ACV · Sales cycle: 65 days
 
 ### Challenge
-Nordkredit's newly hired Head of Credit Risk inherited an internal audit finding on her first day: the bank's existing valuation tool produced a confidence score and a generic methodology document, not the specific comparables used for an individual property. When an examiner or internal risk committee asked "why this number," the only honest answer was "the model said so" — not something the team wanted to repeat at an upcoming board audit.
+Nordkredit's newly hired Head of Credit Risk inherited an internal audit finding on her first day: a refinancing campaign had been run off a customer score from the bank's existing data provider — a score and a generic methodology document, not the specific data points that put an individual customer on the list. When an auditor or internal risk committee asked "why this customer," the only honest answer was "the model said so" — not something the team wanted to repeat at an upcoming board audit.
 
 ### Solution
-Rather than a prepared demo, Sundial ran a live audit trail on one of Nordkredit's own past valuations, at the prospect's request — showing the actual comparables used and their weighting for that specific property, not a templated walkthrough. Nordkredit had already used this same standard (push past the first demo, ask for a real breakdown) to evaluate and rule out another vendor earlier in its process.
+Rather than a prepared demo, Sundial ran signals live on a pseudonymized sample of Nordkredit's own customers, at the prospect's request — showing the actual property, market, and CRM data points behind each signal and their weighting, not a templated walkthrough. Nordkredit had already used this same standard (push past the first demo, ask for a real breakdown) to evaluate and rule out another vendor earlier in its process.
 
 ### Results
 - Closed in 65 days — inside Nordkredit's own Tier 1 typical sales-cycle range (per `icp.md`: 2-4 months)
-- Logged decision driver: "Explainability / audit trail" (win-loss-crm-export.csv, OPP-1001)
-- Logged product feedback: "Standout: comparable-level audit trail" (same record)
+- Logged decision driver: "Explainability / evidence trail" (win-loss-crm-export.csv, OPP-1001)
+- Logged product feedback: "Standout: customer-level evidence trail" (same record)
 - Won at effective price parity, not on discount — Sundial's ACV (€56,924) closely tracked the competitor's own quoted price (€57,313) for the same deal
 
 ### Quote
 No public-use quote available yet. Lena Virtanen's discovery-call comments about the "the model said so" problem are exactly the kind of language a real testimonial should use — but they were said on a sales call, not given as a public statement, so using them here requires her explicit sign-off first, not just because they exist in our call notes.
 
 ---
-Positioning tie-in: "Explainable by design" (positioning.md's message house) — the specific proof point this account decided on (named comparables and weighting, not a confidence score) is exactly this pillar, not a generic accuracy claim.
+Positioning tie-in: "Explainable by design" (positioning.md's message house) — the specific proof point this account decided on (named data points and weighting per customer, not a score) is exactly this pillar, not a generic lead-volume claim.
 Sourced from: win-loss-crm-export.csv (OPP-1001) · sales-call-analysis/call-01-nordkredit.md
 What's not confirmed: whether Nordkredit's implementation was completed before their stated board-audit date (tentatively the second week of September, per the call transcript) — the CRM close date (2026-09-08) falls right around that window, but "deal closed" isn't the same claim as "audit passed," and the source material doesn't confirm the latter. This case study should not assert it did.
 ```

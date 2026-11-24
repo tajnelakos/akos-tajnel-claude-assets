@@ -30,12 +30,12 @@
 
   <!-- bar template: track then fill -->
   <g font-size="12" fill="#0b0b0b">
-    <text x="32" y="240" fill="#52514e">Explainability / audit trail</text>
+    <text x="32" y="240" fill="#52514e">Explainability / evidence trail</text>
     <rect x="32" y="248" width="380" height="16" rx="4" fill="#e1e0d9"/>
     <rect x="32" y="248" width="129" height="16" rx="4" fill="#2a78d6"/>
     <text x="372" y="260" font-weight="700" fill="#0b0b0b">34%</text>
 
-    <text x="32" y="286" fill="#52514e">Model accuracy in blind test</text>
+    <text x="32" y="286" fill="#52514e">Signal quality in backtest</text>
     <rect x="32" y="294" width="380" height="16" rx="4" fill="#e1e0d9"/>
     <rect x="32" y="294" width="110" height="16" rx="4" fill="#2a78d6"/>
     <text x="353" y="306" font-weight="700" fill="#0b0b0b">29%</text>
@@ -80,7 +80,7 @@
   <rect x="32" y="440" width="856" height="140" rx="8" fill="#f9f9f7" stroke="#e1e0d9"/>
   <text x="52" y="466" font-size="13" font-weight="700" fill="#0b0b0b">What this means for product marketing</text>
   <text x="52" y="492" font-size="12" fill="#52514e">1. Price objections (38% of losses) cluster in deals against Bricklane — sales needs an ROI/TCO framing, not a price-match, since</text>
-  <text x="52" y="510" font-size="12" fill="#52514e">    matching their price undercuts our accuracy positioning.</text>
+  <text x="52" y="510" font-size="12" fill="#52514e">    matching their price undercuts our explainability positioning.</text>
   <text x="52" y="532" font-size="12" fill="#52514e">2. "No on-prem option" is newly the #2 loss reason (was #4 last quarter) — worth flagging to product as a recurring blocker,</text>
   <text x="52" y="550" font-size="12" fill="#52514e">    not a one-off request.</text>
   <text x="52" y="572" font-size="12" fill="#52514e">3. Explainability keeps winning deals — this is the throughline for the next case study and battlecard refresh.</text>

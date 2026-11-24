@@ -7,7 +7,7 @@ Signals scored against [`icp.md`](../../knowledge-base/icp.md). This example's f
 ## Input (raw signals, pasted)
 
 > - Nordkredit (regional lender, Nordics) posted a job for "Head of Credit Risk" three weeks ago; role has since been filled per their LinkedIn page.
-> - Nordkredit's engineering job postings this month mention "migrating valuation workflows off legacy vendor tooling."
+> - Nordkredit's engineering job postings this month mention "migrating customer-targeting and data workflows off legacy vendor tooling."
 > - Meridian Savings (regional bank, DACH) had a generic "we're growing!" LinkedIn post about hiring across departments.
 > - Court Street Lending (large national lender, €5B+ origination) had a senior risk hire announced.
 
@@ -17,7 +17,7 @@ Signals scored against [`icp.md`](../../knowledge-base/icp.md). This example's f
 ## Buying Signal Watch List — March 2026
 
 1. Nordkredit — Tier 1 — Signal strength: Strong
-   Evidence: New Head of Credit Risk hired ~3 weeks ago (role now filled); engineering job postings this month explicitly reference migrating off legacy valuation tooling — this is a specific, corroborating second signal, not a standalone hire.
+   Evidence: New Head of Credit Risk hired ~3 weeks ago (role now filled); engineering job postings this month explicitly reference migrating off legacy customer-targeting tooling — this is a specific, corroborating second signal, not a standalone hire.
    Time sensitivity: High — new risk leadership typically re-evaluates vendor tooling within their first 1-2 quarters; the tooling-migration posting suggests this may already be underway.
 
 2. Court Street Lending — Tier 2 — Signal strength: Medium

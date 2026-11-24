@@ -6,18 +6,18 @@ Demonstrates the check category [`skill.md`](./skill.md) added against [`competi
 
 ## Input
 
-> Sundial is the only valuation platform on the market with a real, working audit trail — every other AI-powered vendor gives you a confidence score and nothing else.
+> Sundial is the only signal platform on the market that explains its signals — every other AI-powered vendor gives you a score and nothing else.
 
 ## Output
 
 ```
-## Compliance Check — Ad copy draft, "only audit trail" claim
+## Compliance Check — Ad copy draft, "only one that explains" claim
 
 **Result:** FAIL
 
 ### Hard fails (block publish)
-- "Sundial is the only valuation platform on the market with a real, working audit trail" — violates: competitive-landscape.md's current ValuAI section. ValuAI shipped a GA audit trail feature in July 2026 (see competitive-landscape.md's Capability Comparison table and battlecard/valuai.html). This claim was accurate before that date and is factually false now — not unverifiable, wrong. A "we're the only one" claim naming a competitive space has to be re-checked against competitive-landscape.md's current state every time it's reused, not carried forward from whenever it was first approved.
-- "every other AI-powered vendor gives you a confidence score and nothing else" — violates: same section, and additionally overbroad — competitive-landscape.md tracks four named competitors specifically (Bricklane Data, Estemate, ValuAI, PropIQ), not "every" vendor in the category; a claim this absolute isn't supportable even before the ValuAI correction.
+- "Sundial is the only signal platform on the market that explains its signals" — violates: competitive-landscape.md's current ValuAI section. ValuAI shipped a GA signal-explanation feature in July 2026 (see competitive-landscape.md's Capability Comparison table and battlecard/valuai.html). This claim was accurate before that date and is factually false now — not unverifiable, wrong. A "we're the only one" claim naming a competitive space has to be re-checked against competitive-landscape.md's current state every time it's reused, not carried forward from whenever it was first approved.
+- "every other AI-powered vendor gives you a score and nothing else" — violates: same section, and additionally overbroad — competitive-landscape.md tracks four named competitors specifically (Bricklane Data, Estemate, ValuAI, PropIQ), not "every" vendor in the category; a claim this absolute isn't supportable even before the ValuAI correction.
 
 ### Soft flags (reviewer's call)
 - None found.

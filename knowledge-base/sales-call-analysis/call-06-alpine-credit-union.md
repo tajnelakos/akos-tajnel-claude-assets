@@ -7,13 +7,13 @@
 
 **Marcus:** Heinrich, good to talk again. Last time we left it that your team was doing internal diligence — where did that land?
 
-**Heinrich:** Positively, mostly. The audit trail held up under scrutiny from two of my analysts, which is honestly the bar that mattered most to me. My concern now isn't the product — it's you as a company.
+**Heinrich:** Positively, mostly. The evidence trail held up under scrutiny from two of my analysts, on our own members' data, which is honestly the bar that mattered most to me. My concern now isn't the product — it's you as a company.
 
 **Marcus:** Say more about that.
 
-**Heinrich:** You're smaller than the vendors we've traditionally used. If Sundial were acquired, or ran into funding trouble, or simply didn't exist in three years, we'd have a valuation infrastructure dependency on a company that's gone. That's a real board-level question for us, not a formality.
+**Heinrich:** You're smaller than the vendors we've traditionally used. If Sundial were acquired, or ran into funding trouble, or simply didn't exist in three years, we'd have a dependency on a company that's gone — for a model that decides which members we contact. That's a real board-level question for us, not a formality.
 
-**Marcus:** It's a legitimate one, and I'd rather engage with the substance than give you a reassurance-shaped non-answer. A few things I can actually offer: contractual data portability terms, so if the relationship ever ended, your historical valuation data and audit trails export in a usable format, not held hostage. That's something I can commit to in writing, not just say on a call.
+**Marcus:** It's a legitimate one, and I'd rather engage with the substance than give you a reassurance-shaped non-answer. A few things I can actually offer: contractual data portability terms, so if the relationship ever ended, your historical signals, evidence trails, and audit log export in a usable format, and your member data is deleted on our side under the data-processing agreement — not held hostage. That's something I can commit to in writing, not just say on a call.
 
 **Heinrich:** That helps, actually — has that come up before, or is that new?
 
@@ -41,5 +41,5 @@
 
 - Strong, late-stage buying signal: product diligence complete, single remaining blocker is vendor stability/company size — a recurring theme at larger accounts (see Court Street Lending, [`call-03-court-street-lending.md`](./call-03-court-street-lending.md)), worth tracking as a pattern across Tier 1/Tier 2 deals rather than a one-off.
 - Good practice: didn't over-reassure on vendor risk — explicitly acknowledged "every vendor carries some risk," which the prospect responded well to. Worth reinforcing as the right posture for this specific objection.
-- Action: confirm exact comparable-customer count (not a vague "several") and send data portability contract terms in writing — both are open commitments blocking a contract conversation.
+- Action: confirm exact similar-sized-customer count (not a vague "several") and send data portability contract terms in writing — both are open commitments blocking a contract conversation.
 - No competitor mentioned this call — this is a single-vendor evaluation at this stage, differs from the more common competitive-bake-off pattern seen elsewhere.

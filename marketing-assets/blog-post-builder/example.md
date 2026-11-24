@@ -6,7 +6,7 @@ Built from positioning.md's second point of view, illustrated with a generalized
 
 ## Input
 
-> Write a blog post. Seed: positioning.md's POV #2 — "'AI-powered' is not a differentiator anymore — everyone claims it. The differentiator is what happens when a buyer or regulator asks *how*, specifically, a number was reached." Target persona: Head of Credit Risk.
+> Write a blog post. Seed: positioning.md's POV #2 — "'AI-powered' is not a differentiator anymore — everyone claims it. The differentiator is what happens when an advisor, a risk team, or a regulator asks *why* a specific customer was flagged." Target persona: Head of Credit Risk.
 
 ## Output
 
@@ -15,31 +15,31 @@ Built from positioning.md's second point of view, illustrated with a generalized
 
 **Seed:** positioning.md POV #2 (see "Points of view that ladder to this")
 **Target persona / audience:** Head of Credit Risk
-**Primary keyword:** explainable AI valuation · **Secondary keywords:** AVM audit trail, AI-powered valuation claims
+**Primary keyword:** explainable customer signals · **Secondary keywords:** explainable AI banking, AI-powered lead scoring claims
 
 **Title tag:** Why "AI-Powered" Isn't a Real Differentiator Anymore
-**Meta description:** Every AVM vendor claims "AI-powered." The real differentiator is what happens when a buyer asks how, specifically, a number was reached.
-**URL slug:** /blog/audit-trail-vs-ai-powered-claims
+**Meta description:** Every customer-scoring vendor claims "AI-powered." The real differentiator is what happens when someone asks why, specifically, a customer was flagged.
+**URL slug:** /blog/evidence-trail-vs-ai-powered-claims
 
-Every automated valuation vendor says its output is "AI-powered." That phrase stopped differentiating anyone once every vendor started using it — the real question is what happens when someone asks how, specifically, a number was reached.
+Every vendor that scores a bank's customers says its output is "AI-powered." That phrase stopped differentiating anyone once every vendor started using it — the real question is what happens when someone asks why, specifically, a customer ended up on the list.
 
 ## The question that actually separates vendors
 
-A confidence score is not an answer. It's a probability attached to a number, with no visibility into which comparable properties produced it or how they were weighted. An audit trail is a different claim entirely: the specific comparables used, for this property, with their weighting shown — something an examiner, or a skeptical internal risk committee, can actually inspect.
+A score is not an answer. It's a number attached to a customer, with no visibility into which data points produced it or how much each counted. An evidence trail is a different claim entirely: the specific property, market, and customer data behind this one signal, with their weighting shown — something an auditor, or a skeptical internal risk committee, can actually inspect.
 
-## What happens when you ask "how, specifically"
+## What happens when you ask "why, specifically"
 
-In a recent competitive evaluation we observed, a prospect asked a well-funded, AI-native competitor for one thing before going further: a live reference customer who could speak specifically to their audit-trail feature — not the product generally, that one feature. The vendor's rep couldn't name one. That's not a knock on the feature existing; announcing a capability and having it hold up under a specific, direct question are different claims, and the gap between them is exactly where a technical evaluator's skepticism should live.
+In a recent competitive evaluation we observed, a prospect asked a well-funded, AI-native competitor for one thing before going further: a live reference customer who could speak specifically to their explanation feature — not the product generally, that one feature. The vendor's rep couldn't name one. That's not a knock on the feature existing; announcing a capability and having it hold up under a specific, direct question are different claims, and the gap between them is exactly where a technical evaluator's skepticism should live.
 
 ## Why this gap won't close on its own
 
-Across our own closed deals this year, the pattern holds at scale, not just in one call: newer entrants leading with "AI-native" messaging are shipping real capability faster than ever, but production-proven trust — a named reference, a multi-year track record, the ability to survive a live, unscripted test — still takes longer to build than a feature takes to ship. That gap is the actual product conversation worth having, not whether AI is involved at all.
+Across our own closed deals this year, the pattern holds at scale, not just in one call: newer entrants leading with "AI-native" messaging are shipping real capability faster than ever, but production-proven trust — a named reference, a multi-year track record, the ability to survive a live, unscripted test on the bank's own customers — still takes longer to build than a feature takes to ship. That gap is the actual product conversation worth having, not whether AI is involved at all.
 
 ## The one question worth asking any vendor
 
-Not "is this AI-powered." Ask to see the audit trail on a property you pick, not one they've prepared. If they can produce it, on the spot, that tells you something. If they can't, that tells you something too.
+Not "is this AI-powered." Ask to see why a customer you pick was flagged, not one they've prepared. If they can show it, on the spot, that tells you something. If they can't, that tells you something too.
 
-Ready to see what that looks like on one of your own valuations? [Request a walkthrough.]
+Ready to see what that looks like on a sample of your own customers? [Request a walkthrough.]
 
 ---
 Sourced from: sales-call-analysis/call-03-court-street-lending.md (the reference-customer exchange, generalized — no account or competitor named in the draft) · win-loss-analysis/win-loss-detailed-analysis.html (the production-proven-trust argument, generalized)

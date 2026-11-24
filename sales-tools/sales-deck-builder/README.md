@@ -8,7 +8,7 @@ Reps customize decks for big deals by copy-pasting slides from old decks and hop
 
 A skill that takes minimal deal context (who's buying, what they care about, what stage the deal is at) and outputs a **slide-by-slide outline**, not full slide copy — headline, purpose, and key point per slide, tailored to the specific buyer persona. This is deliberately an outline generator, not a full deck generator: the outline is fast to sanity-check and hand to design/the rep, while a fully-written deck is harder to critique and more likely to ship something subtly off.
 
-The core judgment call it makes every time: **order and emphasis change based on buyer persona**, even when the underlying product facts don't. A credit-risk buyer and a mortgage-ops buyer should not get the same deck structure just because they're buying the same product.
+The core judgment call it makes every time: **order and emphasis change based on buyer persona**, even when the underlying product facts don't. A credit-risk buyer and a mortgage-lending buyer should not get the same deck structure just because they're buying the same product.
 
 ## Files
 

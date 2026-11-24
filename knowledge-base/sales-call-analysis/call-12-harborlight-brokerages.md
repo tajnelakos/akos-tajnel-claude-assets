@@ -11,13 +11,13 @@
 
 **Marcus:** Given that, what's the actual motivation to even take a call like this?
 
-**Dana:** A newer agent who came from another brokerage mentioned your platform and said the valuation detail was noticeably better. That planted a seed, but I want to be upfront — switching 60 agents off an embedded tool is a real undertaking, not something I'd do for a marginal improvement.
+**Dana:** A newer agent who came from another brokerage mentioned your platform and said the seller signals and valuation detail were noticeably better. That planted a seed, but I want to be upfront — switching 60 agents off an embedded tool is a real undertaking, not something I'd do for a marginal improvement.
 
 **Marcus:** That's a fair bar to set, and I'd rather be direct about what would and wouldn't justify that disruption. Can I ask what specifically that agent said was better?
 
-**Dana:** Mostly the comparable detail — apparently more granular, better able to explain a price recommendation to a skeptical seller.
+**Dana:** Mostly that it flagged past clients who were likely to sell, with the reasons behind it — and that the price detail was more granular, better able to explain a recommendation to a skeptical seller.
 
-**Marcus:** That tracks with how we're built — the goal is giving an agent something they can actually walk a seller through, not just a number. But I want to be honest with you: is "better comparable detail" actually a top-3 problem for your team today, or is it a nice-to-have that one agent happened to notice?
+**Marcus:** That tracks with how we're built — the goal is giving an agent something they can actually walk a seller through, not just a number. But I want to be honest with you: is "better seller signals and price detail" actually a top-3 problem for your team today, or is it a nice-to-have that one agent happened to notice?
 
 **Dana:** Fair question. Honestly, no — adoption and consistency across 60 agents is my actual top problem, not the depth of any single tool's output. Half my team barely uses PropIQ's more advanced features as it is.
 

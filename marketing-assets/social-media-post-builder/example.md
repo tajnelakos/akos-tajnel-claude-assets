@@ -6,7 +6,7 @@ Built from the win-loss deep dive's Estemate/ValuAI win-rate finding — the sam
 
 ## Input
 
-> Write a LinkedIn post. Seed: the win-loss deep dive's finding that Estemate (the "boring" long-tenured incumbent) wins 72.7% of contested deals against us, while ValuAI (the newer "AI-native" entrant) has lost every deal since its audit trail launched — small sample, but a real, current internal finding.
+> Write a LinkedIn post. Seed: the win-loss deep dive's finding that Estemate (the "boring" long-tenured incumbent) wins 72.7% of contested deals against us, while ValuAI (the newer "AI-native" entrant) has lost every deal since its signal-explanation feature launched — small sample, but a real, current internal finding.
 
 ## Output
 
@@ -15,13 +15,13 @@ Built from the win-loss deep dive's Estemate/ValuAI win-rate finding — the sam
 
 The competitor beating us most often right now isn't the flashy AI-native one. It's the boring incumbent everyone assumes is fading.
 
-In our own closed-deal data this year, the newer entrant leaning hardest into "AI-native" messaging has lost every deal we've gone head-to-head on since its audit-trail feature shipped — still an early, small sample, worth watching rather than celebrating. The long-tenured incumbent with the least exciting product story wins nearly three-quarters of the deals it contests against us.
+In our own closed-deal data this year, the newer entrant leaning hardest into "AI-native" messaging has lost every deal we've gone head-to-head on since its explanation feature shipped — still an early, small sample, worth watching rather than celebrating. The long-tenured incumbent with the least exciting product story wins nearly three-quarters of the deals it contests against us.
 
 Relationship tenure and "we've always used them" are still underrated competitive forces — easy to forget when the loudest competitor in the room is also the newest one.
 
 Curious whether this pattern holds in other B2B categories — is the "boring" incumbent usually the bigger threat than the buzzy new entrant, in your experience? Drop a note below.
 
-#B2BSaaS #CompetitiveStrategy #Lending #SalesStrategy
+#B2BSaaS #CompetitiveStrategy #Banking #SalesStrategy
 
 ---
 Sourced from: win-loss-analysis/win-loss-detailed-analysis.html · competitive-landscape.md's Quick Reference table
