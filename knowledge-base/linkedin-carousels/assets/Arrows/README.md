@@ -1,0 +1,1 @@
+The swipe arrow: one style, 160 × 48px, a straight line with an open head (`stroke-arrow` 4px, square caps), drawn to the icon set's rule. `arrow-swipe-paper.svg` on navy, `arrow-swipe-navy.svg` on paper. Bottom-right, 32px left of the mark on middle slides; at the margin on the cover. Never on the last slide.

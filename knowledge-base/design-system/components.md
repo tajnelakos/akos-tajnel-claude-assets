@@ -113,14 +113,14 @@ The three brokerage tiers, Plot, Block and Estate, side by side.
 
 ## CarouselSlide
 
-LinkedIn carousel slides on the 1080 × 1350 canvas: a navy cover and a paper proof slide. Full rules in [`social-and-carousels.md`](./social-and-carousels.md).
+LinkedIn carousel slides on the 1080 × 1350 canvas: a navy cover and a paper proof slide. Summary in [`social-and-carousels.md`](./social-and-carousels.md); the full carousel system, with seven formats, a slide kit and its own slide CSS (`pwc-` classes), is [`../linkedin-carousels/`](../linkedin-carousels).
 
 **You provide:** the segment and job of the post (explain a signal, prove with a backtest, launch, invite), a cover title of about 8 words that names the reader's situation, one idea per middle slide, real or clearly illustrative proof, and a close with one action.
 
 **Build rules**
 - Grounds: `navy` or `paper` only, flat. `canvas-margin` 96px on every side.
-- Cover: lockup top-left, `parcel-grid` motif bleeding off the top-right, title in Archivo 800 at 104px, swipe arrow bottom-right.
-- Middle slides: mono eyebrow top-left, heading Archivo 700 at 60px, body Plex Sans 40px, mark bottom-right, counter bottom-left.
+- Cover: lockup top-left, `parcel-grid` motif anchored top-right, title in Archivo 800 at 104px, swipe arrow bottom-right at the margin.
+- Middle slides: mono eyebrow top-left, heading Archivo 700 at 60px, body Plex Sans 40px, mark bottom-right with the swipe arrow 32px to its left, counter bottom-left.
 - Highlight up to 3 words in `gold-light` on navy only.
 - Product proof sits in a white frame with a hairline border and 6px corners; mock-ups use skeleton bars, not invented customer data.
 
