@@ -29,8 +29,8 @@ One primary message, three pillars that support it, each with its own proof poin
 
 | Pillar | Claim | Proof point |
 |---|---|---|
-| Built on data you already own | Signals combine your own customer data with property and market data, so they point at real customers, not cold leads | Every signal links to a named customer record in your CRM — see [`competitive-landscape.md`](./competitive-landscape.md)'s capability comparison |
-| Explainable by design | Every signal shows the specific property, market, and customer data points behind it, and how much each counted | Inspectable evidence trail per signal, not a single score — available to technical evaluators on request, see the [Data & CRM Lead persona](./personas.md#data--crm-lead-technical-evaluator) |
+| Built on data you already own | Signals combine your own customer data with external market data, so they point at real customers, not cold leads | Every signal links to a named customer record in your CRM — see [`competitive-landscape.md`](./competitive-landscape.md)'s capability comparison |
+| Explainable by design | Every signal shows the specific customer and market data points behind it, and how much each counted | Inspectable evidence trail per signal, not a single score — available to technical evaluators on request, see the [Data & CRM Lead persona](./personas.md#data--crm-lead-technical-evaluator) |
 | Built for regulated industries, not retrofitted | Data handling, consent rules, and the audit log were designed around banking and insurance compliance from inception | Distinct from a general marketing-AI product with a compliance feature added later |
 
 ## Points of view that ladder to this
@@ -43,7 +43,7 @@ One primary message, three pillars that support it, each with its own proof poin
 
 | Differentiator | Proof point (fictional, for illustration) |
 |---|---|
-| Per-signal evidence trail | Every signal shows the property, market, and customer data points behind it and their weighting — inspectable, not just a score |
+| Per-signal evidence trail | Every signal shows the customer and market data points behind it and their weighting — inspectable, not just a score |
 | Signal quality validated on the client's own data | Before go-live, signals are backtested against the client's own past outcomes (who actually refinanced, renewed, or sold), and the method is documented for technical evaluators to scrutinize, not just a headline hit rate |
 | Built for regulated banking and insurance workflows, not adapted from a marketing tool | Integration points, consent handling, and audit-log format were designed around banking and insurance compliance requirements from the start |
 
@@ -70,7 +70,7 @@ This is the strategic posture behind each competitor's tactical talk track in [`
 ## Elevator pitches
 
 - **One sentence:** "Seekridge shows banks, insurers, and brokerages which of their existing customers to talk to next, and why — with evidence their risk team can sign off."
-- **One paragraph (customer-facing):** "Most customer-scoring tools give you a list and a score. If an advisor or a risk committee asks why a customer is on that list, 'the model said so' isn't an answer — and increasingly, regulators are asking. Seekridge combines your own customer data with property and market data, and every signal shows the specific data points behind it, so your team can act on an opportunity as confidently as it found it."
+- **One paragraph (customer-facing):** "Most customer-scoring tools give you a list and a score. If an advisor or a risk committee asks why a customer is on that list, 'the model said so' isn't an answer — and increasingly, regulators are asking. Seekridge combines your own customer data with external market data, and every signal shows the specific data points behind it, so your team can act on an opportunity as confidently as it found it."
 - **Internal onboarding version:** "We don't win on producing the longest lead list — most credible vendors can generate volume. We win by being the one whose signals survive being questioned, by advisors who have to make the call and by the risk team that has to sign off, which matters more every year as scrutiny of automated customer decisions increases."
 
 ## Objections to the positioning itself
