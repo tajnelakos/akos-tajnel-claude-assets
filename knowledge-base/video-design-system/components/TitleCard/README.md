@@ -1,10 +1,10 @@
 # TitleCard
 
-How Moment stories open: the customer's situation as a one-line hook on the Navy ground, with the ridge field drawing in from the right edge and its one gold point filling.
+How Moment stories open: the customer's situation as a one-line hook on the Navy ground, with the dot map moving in from the right edge, a few peaks rising and its one gold point landing.
 
 **Anatomy**
 - Lockup, reversed, top-left inside the 96px margin (`lockup-w` 360px).
-- Ridge field (see RidgeField) anchored to the right edge, 600px wide (the last two columns and the margin), full height. Lines at 35% Paper. The hook never runs into it.
+- Ridge field (see RidgeField) anchored to the right edge, 600px wide (the last two columns and the margin), full height. Dots in Paper, brightest at the peaks. The hook never runs into it.
 - Optional mono eyebrow naming the segment and persona: `MORTGAGE LENDING · DACH`.
 - The hook as `title` (Archivo 800, 120px), bottom-left, max two lines, max 1180px wide so it never runs into the field's gold point.
 

@@ -24,6 +24,8 @@
  *   focus   FocusMarks close in (focus-in); data-dim on the container dims everything not .is-focus
  *   wipe    a full-frame ground wipe, left to right (wipe)
  *   cue     no drawing; sets --p for custom CSS
+ *   terrain the RidgeField dot map: the surface keeps moving for the whole scene, its peaks rise at the
+ *           times in data-terrain's "rise" list (seconds after data-at), the summit markers land last
  *
  * Scenes: <section data-scene data-start="5" data-end="10">. Hidden outside [start, end);
  * content fades out over the last 250ms unless data-no-out. data-drift="1.03" on an element
@@ -72,6 +74,49 @@
   }
 
   function sceneOf(el) { return el.closest("[data-scene]"); }
+
+
+  // RidgeField terrain: same maths as the static drawing (tools generate the finished state).
+  function Terrain(el) {
+    this.cfg = JSON.parse(el.getAttribute("data-terrain"));
+    this.W = parseFloat(el.getAttribute("width")); this.H = parseFloat(el.getAttribute("height"));
+    this.dots = [].slice.call(el.querySelectorAll(".dots circle"));
+    this.marks = [].slice.call(el.querySelectorAll("[data-peak]"));
+  }
+  Terrain.prototype.z = function (u, v, t, rises) {
+    var c = this.cfg, z = (c.amp || 1) * (0.045 * Math.sin(9 * u + 1.7 * t) + 0.035 * Math.sin(13 * v - 1.3 * t + 1) + 0.02 * Math.sin(17 * (u + v) + 2.1 * t));
+    for (var k = 0; k < c.peaks.length; k++) {
+      var pk = c.peaks[k], du = u - pk[0], dv = v - pk[1];
+      z += rises[k] * pk[2] * 0.42 * Math.exp(-(du * du + dv * dv) / (2 * pk[3] * pk[3]));
+    }
+    return z;
+  };
+  Terrain.prototype.proj = function (u, v, z) {
+    var c = this.cfg, d = 0.35 + 0.65 * v;
+    return [this.W / 2 + (u - 0.5) * this.W * c.spread * d, this.H * c.horizon + v * this.H * c.span - z * this.H * c.lift * d, d];
+  };
+  Terrain.prototype.seek = function (t, start) {
+    var c = this.cfg, lt = t - start, appear = ease(clamp(lt / 0.8)), rises = [], k;
+    for (k = 0; k < c.peaks.length; k++) rises.push(ease(clamp((lt - c.rise[k]) / 1.2)));
+    var n = 0;
+    for (var i = 0; i < c.rows; i++) {
+      var v = i / (c.rows - 1);
+      for (var j = 0; j < c.cols; j++, n++) {
+        var el = this.dots[n]; if (!el) continue;
+        var u = j / (c.cols - 1), z = this.z(u, v, t, rises), P = this.proj(u, v, z), d = P[2];
+        var o = Math.min(1, Math.max(0.10, 0.25 + z * 3.2)) * (0.45 + 0.55 * d);
+        el.setAttribute("cx", P[0].toFixed(1)); el.setAttribute("cy", P[1].toFixed(1));
+        el.setAttribute("r", (c.dot * (0.5 + 0.7 * d)).toFixed(2));
+        el.setAttribute("fill-opacity", (o * appear).toFixed(2));
+      }
+    }
+    for (k = 0; k < this.marks.length; k++) {
+      var m = this.marks[k], pi = parseInt(m.getAttribute("data-peak"), 10), pk = c.peaks[pi];
+      var Q = this.proj(pk[0], pk[1], this.z(pk[0], pk[1], t, rises));
+      m.setAttribute("cx", Q[0].toFixed(1)); m.setAttribute("cy", (Q[1] - c.dot * 5).toFixed(1));
+      m.style.opacity = ease(clamp((rises[pi] - 0.75) / 0.25)).toFixed(3);
+    }
+  };
 
   function Timeline(root) {
     this.root = root;
@@ -127,6 +172,7 @@
         svg.appendChild(r);
         el.insertBefore(svg, el.firstChild);
       }
+      if (fx === "terrain") el._terrain = el._terrain || new Terrain(el);
       self.add(el, fx, at, dur);
     });
   }
@@ -168,6 +214,7 @@
         it.el.style.setProperty("--c", ease(c).toFixed(4));
         continue;
       }
+      if (it.fx === "terrain") { it.el._terrain.seek(t, it.start); continue; }
       if (it.fx === "type") {
         var n = Math.floor(p * it.el._full.length + 1e-6);
         it.el.textContent = it.el._full.slice(0, n);

@@ -40,7 +40,7 @@ The formats (A4 trifold, A5 cards, panel-based insides) follow common B2B print 
 
 **Colour.** Navy and Paper do the work. Gold is a highlight, not a colour scheme: **one gold element per trifold panel, per card side, or per one-pager**. It is the motif's gold point, the moment box's gold square, the top evidence bar, one figure's rule, or up to three words of a claim on navy (`gold-light`). The logo's own gold point doesn't count. Status colours never appear in print.
 
-**No gradients, glows, tints or shadows.** Much B2B fintech print uses a gradient and a glowing hero object; Seekridge uses flat grounds and the ridge-lines motif instead, and a square diagram of its method in place of the glowing object.
+**No gradients, glows, tints or shadows.** Much B2B fintech print uses a gradient and a glowing hero object; Seekridge uses flat grounds and the dot-map motif instead, and a square diagram of its method in place of the glowing object.
 
 **Contrast.** Every text pairing passes WCAG AA: Ink on Paper 15.4:1, Navy on Paper 10.5:1, `grey-text` on Paper 5.4:1, Paper on Navy 10.5:1, `navy-text` on Navy 5.8:1, `gold-light` on Navy 5.2:1. Gold on Paper is 2.7:1, so it is marks only, never text.
 

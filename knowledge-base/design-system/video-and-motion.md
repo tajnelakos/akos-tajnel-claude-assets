@@ -33,17 +33,17 @@ Logo: lockup on the title and end cards; the mark at 48px bottom-right on produc
 
 ## Motion language
 
-Motion should feel like a guide tracing a ridgeline: straight lines, exact, no bounce.
+Motion should feel like a calm, always-moving surface: steady, exact, no bounce.
 
 | Token (in CSS) | Value | Use |
 |---|---|---|
 | `--motion-fast` | 150ms | Hover, press, focus |
 | `--motion-base` | 250ms | Menus, tabs, panels in UI |
 | `--motion-slow` | 500ms | Video text in and out |
-| `--motion-draw` | 800ms | Ridge lines drawing in on video |
+| `--motion-draw` | 800ms | Plan and chart lines drawing in on video |
 | `--ease-standard` | cubic-bezier(0.2, 0, 0, 1) | Everything that moves |
 
-- **Signature move:** ridge lines draw in, then the one gold point fills. Use it on the title card and when a moment appears.
+- **Signature move:** the dot map settles, a few peaks rise, then the one gold point lands. Use it on the title card and when a moment appears.
 - **Allowed:** cuts, fades, straight wipes, line draws, number count-ups (ending on the exact value), slow zooms into screenshots.
 - **Not allowed:** bounces, spins, 3D flips, glitch effects, particle fields, stock footage.
 - **UI motion:** only to show cause and effect (a row expanding, a panel opening). Respect `prefers-reduced-motion`: replace movement with a fade.

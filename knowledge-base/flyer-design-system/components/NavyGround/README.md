@@ -2,7 +2,7 @@
 
 Flat Seekridge Navy is the brand's front-of-piece surface: every trifold front and back, every postcard front and recto flyer. Paper carries everything with detail.
 
-**Markup:** `class="pwf-navy"` with `data-theme="dark"`, so `ink`, `ink-body`, `ink-muted`, `accent`, `icon` and `line` flip for the navy ground. Add one `.pwf-motif--grid` for the ridge-lines motif, anchored top-right and bleeding off the corner.
+**Markup:** `class="pwf-navy"` with `data-theme="dark"`, so `ink`, `ink-body`, `ink-muted`, `accent`, `icon` and `line` flip for the navy ground. Add one `.pwf-motif--grid` for the dot-map motif, anchored top-right and bleeding off the corner.
 
 **The consumer provides:** the reversed lockup, an eyebrow, one claim and at most one supporting line.
 

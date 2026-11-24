@@ -160,10 +160,10 @@ So the product and marketing site read as one brand, not two:
 
 ### Motifs
 
-The ridge map is the brand's one graphic idea: ridgelines drawn in straight segments, one summit marked with a gold point, as in the logomark. Three cuts live in [`../design-system/`](../design-system):
+The ridge map is the brand's one graphic idea: a dot map of the client base that is always gently moving, where only a few areas rise into peaks (the moments) and one summit is marked with a gold point, as in the logomark. Three cuts live in [`../design-system/`](../design-system):
 
-- `motif-ridge-lines.svg` — navy field, Paper lines at 35%, one gold point. Carousel covers, video title cards, slide backgrounds.
-- `motif-ridge-strip.svg` — a horizontal band of ridgelines. Document headers, email banners, the top of a one-pager.
+- `motif-ridge-lines.svg` — navy field, the dot map seen at an angle, a few peaks, one gold point. Carousel covers, video title cards, slide backgrounds.
+- `motif-ridge-strip.svg` — the dot map seen from above, as a thin band. Document headers, email banners, the top of a one-pager.
 - `motif-ridge-frame.svg` — navy outline with one gold point. Section dividers, empty states.
 
 One motif per surface, anchored to an edge and allowed to bleed off it, never behind running text.
@@ -234,7 +234,7 @@ Full system: [`../linkedin-carousels/`](../linkedin-carousels) (formats, slide C
 
 - **Canvas:** 1080 × 1350 px (4:5), 96px safe margin, 4–8 slides (cover, 2–6 middle slides, one close). Minimum type on the canvas is 28px.
 - **Grounds:** flat Navy for covers, statements, and closes; flat Paper for proof slides with screenshots, tables, and charts. No gradients or glows.
-- **Furniture:** lockup on the cover and the close, the mark bottom-right on every other slide, a swipe arrow on every slide but the last, a mono eyebrow and a slide counter on middle slides. One ridge-line motif at most per slide: the ridge lines on covers, the ridge strip or layer stack on data and explainer slides.
+- **Furniture:** lockup on the cover and the close, the mark bottom-right on every other slide, a swipe arrow on every slide but the last, a mono eyebrow and a slide counter on middle slides. One dot-map motif at most per slide: the ridge-lines cut on covers, the ridge strip or layer stack on data and explainer slides.
 - **Story shape:** question → tension → method → proof → action. One gold element per slide: up to three highlighted words in `#D9A54B` on Navy, or a motif's gold point, or the top weight in an evidence trail.
 - **Formats:** moment explainer, myth vs method, proof in numbers, feature launch, regulation brief, event invite, field guide, plus a slide kit for mixing them.
 - **Caption:** 50–110 words in four blocks — hook, what changes (as a benefit), proof or detail, one CTA with one link. No hashtags; at most one emoji, never on slides.
@@ -246,7 +246,7 @@ Summary rules: [`video-and-motion.md`](../design-system/video-and-motion.md). Th
 - **Formats:** 1920 × 1080 master (45–75 s), 1080 × 1350 social cut (30–45 s), 1080 × 1920 vertical (15–30 s); 30 fps; one video per segment and persona.
 - **Structure:** hook (the customer situation) → tension (what goes wrong today) → method (product panels rebuilt in code from the real screens, through the three data layers, ending on a moment with its evidence trail) → proof (one backtest figure with its source) → end card (lockup, "Opportunities you can act on — and explain.", one action, held three seconds).
 - **Captions:** always burnt in, IBM Plex Sans 500 at 44px on a Navy band (a Paper band on Navy frames), left-aligned, two lines maximum, at least 160px above the bottom edge.
-- **Motion language:** straight, exact, no bounce — like a guide tracing a ridgeline. Signature move: ridge lines draw in, then the gold point fills. One easing curve (`cubic-bezier(0.2, 0, 0, 1)`); 150ms for UI feedback, 250ms for panels, 500ms for video text, 800ms for line draws. No spins, 3D flips, glitch effects, or stock footage. UI motion respects `prefers-reduced-motion`.
+- **Motion language:** calm and continuous — the dot map is always gently moving, never bouncing. Signature move: the map settles, a few peaks rise, then the gold point lands on the highest. One easing curve (`cubic-bezier(0.2, 0, 0, 1)`); 150ms for UI feedback, 250ms for panels, 500ms for video text, 800ms for line draws. No spins, 3D flips, glitch effects, or stock footage. UI motion respects `prefers-reduced-motion`.
 
 ---
 

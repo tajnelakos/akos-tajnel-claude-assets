@@ -72,7 +72,7 @@ Three families, strict roles, all bundled in [`fonts/`](./fonts) (SIL Open Font 
 
 ### Motifs
 
-The ridge map is the brand's one graphic idea: ridgelines drawn in straight segments, one summit marked with a gold point, as in the logomark. Four cuts are drawn for the canvas, each in a navy-ground and a paper-ground version ([`assets/Motifs/`](./assets/Motifs)):
+The ridge map is the brand's one graphic idea: a dot map of the client base that is always gently moving, where only a few areas rise into peaks (the moments) and one summit is marked with a gold point, as in the logomark. Four cuts are drawn for the canvas, each in a navy-ground and a paper-ground version ([`assets/Motifs/`](./assets/Motifs)):
 
 - `ridge-lines` (640 × 640): covers only, anchored top-right, its gold point in the corner.
 - `ridge-strip` (1080 × 144): the top edge of a data slide; the eyebrow moves down to y 192.
