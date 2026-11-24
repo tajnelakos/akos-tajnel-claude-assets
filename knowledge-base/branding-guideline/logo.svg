@@ -1,6 +1,6 @@
 <svg viewBox="0 0 520 140" xmlns="http://www.w3.org/2000/svg" font-family="Archivo, system-ui, sans-serif">
-  <!-- Mark: a parcel map with one highlighted lot -->
-  <g transform="translate(20,20) scale(1)"><rect x="4" y="4" width="92" height="92" rx="6" fill="none" stroke="#1A3A5C" stroke-width="8"/><rect x="59" y="8" width="33" height="36" fill="#C1892E"/><path d="M 8 48 H 92 M 55 8 V 48 M 38 48 V 92" fill="none" stroke="#1A3A5C" stroke-width="8"/></g>
+  <!-- Mark: a ridge map with one highlighted lot -->
+  <g transform="translate(20,20) scale(1)"><path d="M 4 92 L 30 50 L 46 68 L 70 26 L 96 92" fill="none" stroke="#1A3A5C" stroke-width="10" stroke-linejoin="miter" stroke-miterlimit="10"/><path d="M 0 94 H 100" fill="none" stroke="#1A3A5C" stroke-width="8"/><circle cx="70" cy="12" r="9" fill="#C1892E"/></g>
   <!-- Wordmark -->
-  <text x="140" y="88" font-size="54" font-weight="700" fill="#1A3A5C" letter-spacing="-0.5">Parcelwise</text>
+  <text x="140" y="88" font-size="54" font-weight="700" fill="#1A3A5C" letter-spacing="-0.5">Seekridge</text>
 </svg>

@@ -1,7 +1,7 @@
 # Call Transcript — Solvane Lending Group
 
 **Date:** July 2026 · **Duration:** ~18 minutes · **Call type:** Third call, technical validation
-**Rep:** Marcus Webb (Parcelwise) · **Prospect:** Karin Lindqvist, VP of Mortgage Lending, Solvane Lending Group (national lender); joined by Erik Voss, IT Security Lead
+**Rep:** Marcus Webb (Seekridge) · **Prospect:** Karin Lindqvist, VP of Mortgage Lending, Solvane Lending Group (national lender); joined by Erik Voss, IT Security Lead
 
 ---
 
@@ -11,7 +11,7 @@
 
 **Marcus:** Understood, go ahead.
 
-**Erik:** Our data governance policy requires on-premises deployment for any system that touches customer-identifiable financial data — and your platform works on our customer records directly. That's not a preference, it's a compliance requirement from our board. Does Parcelwise support on-prem?
+**Erik:** Our data governance policy requires on-premises deployment for any system that touches customer-identifiable financial data — and your platform works on our customer records directly. That's not a preference, it's a compliance requirement from our board. Does Seekridge support on-prem?
 
 **Marcus:** I want to answer this directly rather than soften it: no, we don't currently offer on-premises deployment. We're a cloud-hosted platform.
 

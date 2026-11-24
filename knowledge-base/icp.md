@@ -1,4 +1,4 @@
-# Ideal Customer Profile — Parcelwise
+# Ideal Customer Profile — Seekridge
 
 Used by prompts/skills that need to reason about fit or in-market moments rather than have it re-explained inline every time. See [`knowledge-base.md`](./knowledge-base.md) for the company overview. Consumed most directly by [`icp-buying-moment-monitor`](../sales-tools/icp-buying-moment-monitor) (scoring incoming moments) and [`abm-account-brief`](../sales-tools/abm-account-brief) (placing a named account in the tiering below).
 
@@ -22,7 +22,7 @@ The tiering below is the quick reference. These are the underlying dimensions it
 | **Segment** | Regional banks & mortgage lenders; regional and mutual home insurers | National/multi-region lenders and insurers | Real estate brokerages |
 | **Book size** | €200M–€2B annual mortgage origination; 50,000–500,000 home policies | €2B+ origination or 500,000+ policies (longer sales cycle, more procurement layers) | N/A — seat-based, not book-based |
 | **Geography** | DACH, Benelux | Nordics, wider EU | DACH, Benelux |
-| **CRM / core system** | Modern CRM with open APIs | Legacy core systems, heavier integration lift | Any CRM (Parcelwise's brokerage product is standalone) |
+| **CRM / core system** | Modern CRM with open APIs | Legacy core systems, heavier integration lift | Any CRM (Seekridge's brokerage product is standalone) |
 | **Regulatory posture** | Subject to periodic reviews of how customer data and models are used, actively modernizing | Subject to reviews, slower to change vendors | Not regulator-facing |
 | **Sales cycle** | 2–4 months | 6–12 months | 3–6 weeks |
 | **Typical buying committee size** | 3–4 people | 5–8 people, often with a separate vendor-risk gate | 1–2 people |

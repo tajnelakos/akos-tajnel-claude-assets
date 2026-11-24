@@ -1,7 +1,7 @@
 # Call Transcript — Harborlight Brokerages
 
 **Date:** August 2026 · **Duration:** ~13 minutes · **Call type:** First discovery call
-**Rep:** Marcus Webb (Parcelwise) · **Prospect:** Dana Whitfield, Broker Team Lead, Harborlight Brokerages (independent brokerage, ~60 agents)
+**Rep:** Marcus Webb (Seekridge) · **Prospect:** Dana Whitfield, Broker Team Lead, Harborlight Brokerages (independent brokerage, ~60 agents)
 
 ---
 

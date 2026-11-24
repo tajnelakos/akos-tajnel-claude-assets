@@ -1,9 +1,9 @@
 ---
-name: parcelwise-film-builder
-description: Plans and builds a Parcelwise product film (Walkthrough, Moment story or Statement) from the Parcelwise Video Design System — picks the format, writes the beat sheet, headlines, voice-over and captions in situation → moment → evidence → action order, builds the scenes in code from the system's tokens and components, checks stills, then renders the MP4 and its .srt. Use when the user wants a Parcelwise video, a script or beat sheet for one, or a check of a cut against the film rules.
+name: seekridge-film-builder
+description: Plans and builds a Seekridge product film (Walkthrough, Moment story or Statement) from the Seekridge Video Design System — picks the format, writes the beat sheet, headlines, voice-over and captions in situation → moment → evidence → action order, builds the scenes in code from the system's tokens and components, checks stills, then renders the MP4 and its .srt. Use when the user wants a Seekridge video, a script or beat sheet for one, or a check of a cut against the film rules.
 ---
 
-# Parcelwise Film Builder
+# Seekridge Film Builder
 
 ## Purpose
 
@@ -11,7 +11,7 @@ A product film fails the moment it shows a moment and moves on. The skill isn't 
 
 ## Instructions
 
-1. **Pick the format** from the film book's section 1 ([`README.md`](./README.md)): a Walkthrough if the viewer already has Parcelwise and needs to use a feature, a Moment story if they need to trust a moment enough to act, a Statement if they need to notice one finding. If the brief could be two, ask once; if no one can answer, take the Moment story and say so.
+1. **Pick the format** from the film book's section 1 ([`README.md`](./README.md)): a Walkthrough if the viewer already has Seekridge and needs to use a feature, a Moment story if they need to trust a moment enough to act, a Statement if they need to notice one finding. If the brief could be two, ask once; if no one can answer, take the Moment story and say so.
 2. **Name one persona and one segment** from [`../personas.md`](../personas.md) and the market (section 6). A Moment story for "everyone" is refused politely and turned into two films. The persona sets what the hook names and which evidence rows lead (section 3, *Per persona*).
 3. **Write the beat sheet first, as a table** (time, beat, headline, on screen, chapter), using the beat structure for the format (section 2) and the template (section 9) as the default timing. Check the first rule before going on: read the beats aloud — does the viewer meet one customer's situation before the product, and could they repeat one reason behind the moment?
 4. **Write the headlines** to section 3: 3–8 words a line, two lines max, up to three highlighted words, the frame's one gold. Then **write the voice-over** to section 7 (calm, 2.4 words a second in English, landing on the change it describes, never the headline word for word) and cut it into **captions** of at most two lines of 42 characters.

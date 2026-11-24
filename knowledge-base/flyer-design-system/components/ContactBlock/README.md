@@ -10,4 +10,4 @@ The close of every piece: a QR code on a square white tile, one action that says
 - Do encode a short campaign URL with a tracking parameter, and print the same URL (without the parameter) beside it.
 - Do use one action per piece. "Learn more" is not an action.
 - Don't colour the QR navy or gold, put a logo inside it, or set it on navy without its white tile.
-- The sample QR in the QR asset group encodes `https://parcelwise.example/demo`. Replace it before print.
+- The sample QR in the QR asset group encodes `https://seekridge.example/demo`. Replace it before print.

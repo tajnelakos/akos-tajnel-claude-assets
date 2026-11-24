@@ -1,6 +1,6 @@
 # FocusMarks
 
-How Parcelwise points at something: four corner brackets close in on it from 40px outside, like the corner marks on a site plan, and everything else in the panel dims to 35%. It replaces blur, glows, zoom bubbles and halos.
+How Seekridge points at something: four corner brackets close in on it from 40px outside, like the corner marks on a site plan, and everything else in the panel dims to 35%. It replaces blur, glows, zoom bubbles and halos.
 
 **Anatomy.** Four 28px brackets, 3px navy strokes, square ends, 12px outside the element. On a Navy ground the brackets turn Paper.
 

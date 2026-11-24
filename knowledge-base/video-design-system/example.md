@@ -13,13 +13,13 @@ The rendered film: [`assets/Films/story-fixed-rate-dach-16x9.mp4`](./assets/Film
 ```
 ## Film — Moment story · VP of Mortgage Lending · DACH (UK English master)
 
-**Format and why:** Moment story. The viewer doesn't have Parcelwise yet and needs to trust one
+**Format and why:** Moment story. The viewer doesn't have Seekridge yet and needs to trust one
 moment enough to act on it, so not a Walkthrough; one persona and one situation, so not a Statement.
 **Length:** 48 s · 16:9 master. 4:5 (36 s, drops the layers beat) and the German cut follow.
 
 | Time        | Beat      | Headline                                      | On screen                                                                 | Chapter   |
 |-------------|-----------|-----------------------------------------------|---------------------------------------------------------------------------|-----------|
-| 0.0–5.0 s   | TitleCard | Their fixed rate ends in four months.         | Navy; parcel field draws, gold lot fills; lockup; eyebrow MORTGAGE LENDING · DACH | —   |
+| 0.0–5.0 s   | TitleCard | Their fixed rate ends in four months.         | Navy; ridge field draws, gold point fills; lockup; eyebrow MORTGAGE LENDING · DACH | —   |
 | 5.0–10.0 s  | Tension   | By the time anyone notices, **they've moved.** | Wipe to Paper; Timeline: Today → Fixed rate ends 2027-03-31 → Refinanced elsewhere (marked) | Situation |
 | 10.0–16.0 s | Layers    | Three layers. **One customer.**               | LayerStack: customer, property, market chips → node "Refinance risk"      | Situation |
 | 16.0–21.5 s | Moment    | One moment, ranked **third.**                 | MomentCard: Refinance risk · 40-1187 · rank counts to 3 / 212 · two evidence rows | Moment |
@@ -31,7 +31,7 @@ moment enough to act on it, so not a Walkthrough; one persona and one situation,
 **Voice-over** (96 words, ~2.3 words/s over 42 s of speech)
 1. This customer's fixed rate ends in March.
 2. Without a moment, the first anyone hears is the redemption notice.
-3. Parcelwise reads their customer data, the property and the market together.
+3. Seekridge reads their customer data, the property and the market together.
 4. Out of 40,000 customers, they're third on this week's list.
 5. The biggest reason: the market rate is 1.7 points above their contract.
 6. Equity, local offers and the reset date make up the rest, adding up to 100.
@@ -42,7 +42,7 @@ moment enough to act on it, so not a Walkthrough; one persona and one situation,
 **Captions** → assets/Films/story-fixed-rate-dach-16x9.srt
  1.6–4.8   This customer's fixed rate ends in March.
  5.4–9.6   Without a moment, the first anyone hears / is the redemption notice.
-10.4–15.6  Parcelwise reads their customer data, / the property and the market together.
+10.4–15.6  Seekridge reads their customer data, / the property and the market together.
 16.4–21.0  Out of 40,000 customers, they're third / on this week's list.
 21.8–26.0  The biggest reason: the market rate / is 1.7 points above their contract.
 26.2–30.6  Equity, local offers and the reset date / make up the rest, adding up to 100.
@@ -56,7 +56,7 @@ assets/Films/story-fixed-rate-dach-16x9.srt · assets/Stills/contact-sheet-story
 **Checks:**
 - First rule ✓ — the customer's situation (0–10 s) comes before the product (10 s); a viewer can
   repeat the top reason ("the market rate is 1.7 points above their contract").
-- One gold per frame ✓ — the lot (title), highlight bars (Paper beats), the top evidence bar with
+- One gold per frame ✓ — the gold point (title), highlight bars (Paper beats), the top evidence bar with
   no headline highlight (evidence beat), gold-light words only on Navy.
 - Figures ✓ — 68% carries its source and *Illustrative*; weights 38 + 27 + 21 + 14 = 100.
 - Captions ✓ — max 2 × 42 characters, none over the first 1.5 s or the last 2 s, never the
@@ -72,7 +72,7 @@ positioning.md (the end-card line) · this system's section 9 template and secti
 
 ## Why this shape
 
-- **The situation gets two beats before Parcelwise is named.** The VP persona cares about the book leaking; the timeline makes the cost concrete without a single feature.
-- **The evidence beat is the longest (9.5 s).** It is what separates Parcelwise from a score: if the film had to lose 10 seconds, the layers beat would go, not this one.
+- **The situation gets two beats before Seekridge is named.** The VP persona cares about the book leaking; the timeline makes the cost concrete without a single feature.
+- **The evidence beat is the longest (9.5 s).** It is what separates Seekridge from a score: if the film had to lose 10 seconds, the layers beat would go, not this one.
 - **The proof is a backtest, not a customer quote**, and is labelled illustrative because the lender is a demo. A real cut needs an approved case and its source line.
 - **The German cut is re-timed, not shrunk**: German runs about 20% longer, so the evidence and action beats each gain a second and the layers beat loses two.

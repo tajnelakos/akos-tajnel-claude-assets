@@ -1,7 +1,7 @@
 # Call Transcript — Meridian Savings
 
 **Date:** July 2026 · **Duration:** ~20 minutes · **Call type:** Second call, post-demo
-**Rep:** Marcus Webb (Parcelwise) · **Prospect:** Julia Hoffmann, VP of Mortgage Lending, Meridian Savings (regional bank, DACH)
+**Rep:** Marcus Webb (Seekridge) · **Prospect:** Julia Hoffmann, VP of Mortgage Lending, Meridian Savings (regional bank, DACH)
 
 ---
 
@@ -52,7 +52,7 @@
 ## Internal notes (rep-logged)
 
 - Strong moment: buying committee split identified explicitly (lending/growth vs. risk/defensibility) — this is the deal's real shape, not a single-stakeholder sale.
-- Bricklane confirmed head-to-head, ~15% cheaper at this account's volume — matches `competitive-landscape.md`'s pricing entry almost exactly. Note the real comparison is Parcelwise vs. Bricklane data plus an in-house build.
+- Bricklane confirmed head-to-head, ~15% cheaper at this account's volume — matches `competitive-landscape.md`'s pricing entry almost exactly. Note the real comparison is Seekridge vs. Bricklane data plus an in-house build.
 - Bricklane's rep reportedly went thin on explainability specifics under direct questioning — consistent with the documented weakness, now independently corroborated by a live deal, not just a battlecard assumption.
 - Action: send build-and-defend cost framework by Thursday (open commitment).
 - Next step: combined call with VP Mortgage Lending + Head of Credit Risk + Head of Ops — three-stakeholder close, not two.

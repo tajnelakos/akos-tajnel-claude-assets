@@ -1,13 +1,13 @@
 ---
-name: parcelwise-linkedin-carousel
-description: Builds a finished Parcelwise LinkedIn carousel (a PDF of 1080 × 1350 slides, PNGs of each slide, and the caption) from the Parcelwise LinkedIn carousels design system in this folder. Use for any request to make, adapt or translate a Parcelwise LinkedIn carousel or single image post. Requires a real angle (a sourced finding, a feature, a rule, an event or a positioning point of view), not a generic topic.
+name: seekridge-linkedin-carousel
+description: Builds a finished Seekridge LinkedIn carousel (a PDF of 1080 × 1350 slides, PNGs of each slide, and the caption) from the Seekridge LinkedIn carousels design system in this folder. Use for any request to make, adapt or translate a Seekridge LinkedIn carousel or single image post. Requires a real angle (a sourced finding, a feature, a rule, an event or a positioning point of view), not a generic topic.
 ---
 
-# Parcelwise LinkedIn carousel
+# Seekridge LinkedIn carousel
 
 ## Purpose
 
-A carousel is the most designed thing Parcelwise posts and the easiest place for the brand to drift: a gradient here, an unsourced number there, a cute feature name on the cover. This skill builds carousels from the system in this folder, so every slide uses the same grounds, type, furniture and wording rules, and every moment and figure carries its evidence.
+A carousel is the most designed thing Seekridge posts and the easiest place for the brand to drift: a gradient here, an unsourced number there, a cute feature name on the cover. This skill builds carousels from the system in this folder, so every slide uses the same grounds, type, furniture and wording rules, and every moment and figure carries its evidence.
 
 ## Before you start
 
@@ -44,7 +44,7 @@ Reader: [persona] · Slides: [n] · Language: [EN-GB / DE / …]
 
 | # | Archetype | Ground | Eyebrow | Title | Supporting line / proof | Gold |
 |---|---|---|---|---|---|---|
-| 1 | … | navy | — | … | … | motif lot |
+| 1 | … | navy | — | … | … | motif gold point |
 
 Caption ([n] words):
 [hook]

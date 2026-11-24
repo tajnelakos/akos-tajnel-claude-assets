@@ -1,4 +1,4 @@
-"""Render a Parcelwise film composition (films/*.html) to MP4, or to a contact sheet of stills.
+"""Render a Seekridge film composition (films/*.html) to MP4, or to a contact sheet of stills.
 
 Needs: Python 3.10+, Playwright for Python with a Chromium/Chrome, ffmpeg, Pillow (stills only).
 

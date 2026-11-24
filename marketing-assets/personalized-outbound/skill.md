@@ -24,7 +24,7 @@ Turn an account-specific brief into one outbound message that could only have be
 ## What to avoid
 
 - Don't invent a trigger or detail not present in the account brief.
-- Don't lead with company boilerplate ("At Parcelwise, we believe...") — this reads as a template regardless of what follows it.
+- Don't lead with company boilerplate ("At Seekridge, we believe...") — this reads as a template regardless of what follows it.
 - Don't ask for a demo in the first message unless the brief indicates the account is already late-stage aware of the product.
 
 ## Output format

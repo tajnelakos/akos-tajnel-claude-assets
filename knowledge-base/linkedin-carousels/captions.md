@@ -13,13 +13,13 @@ The caption carries what the slides leave out: the detail, the method, the logis
 
 ## Rules
 
-- **Situation first, product second.** Never open with "We're excited to announce" or "Introducing". Parcelwise and the feature name appear in block 2, not line 1.
+- **Situation first, product second.** Never open with "We're excited to announce" or "Introducing". Seekridge and the feature name appear in block 2, not line 1.
 - **No rhetorical-question hooks** ("Tired of…?", "Ever wondered…?"). A direct question that names a real situation is allowed, at most one per caption.
 - **Talk about the reader's customers.** The strongest lines give the reader something to say to *their* customer or their risk committee.
 - **We and our are fine in captions** ("Our method is documented here"), unlike on most slides.
 - **Every figure keeps its source and its caveat.** Short-form copy is where a sample size or "illustrative" gets cut for a punchier hook; it never does. If the figure can't carry its source in the caption, it doesn't go in the hook.
 - **No hashtags.** Tag people and organisations instead (a speaker, an event organiser), using their LinkedIn handle, and only with their agreement.
-- **Emoji: at most one**, at the end of a line, never in the hook and never on slides. Most Parcelwise captions use none.
+- **Emoji: at most one**, at the end of a line, never in the hook and never on slides. Most Seekridge captions use none.
 - **Links:** one per caption, with UTM tags (utm_source=linkedin&utm_medium=social&utm_campaign=…&utm_content=…) or a short link. Never in the first comment as a workaround.
 - **Short paragraphs** separated by an empty line. Lists (session times, checks) one item per line, no bullets or emoji as bullets.
 - **Length:** keep the hook and block 2 inside LinkedIn's first ~210 characters before "…see more", and the whole caption under 1,300 characters.
@@ -39,7 +39,7 @@ The caption carries what the slides leave out: the detail, the method, the logis
 
 > Most fixed-rate customers decide where to refinance months before they call their bank.
 >
-> A Parcelwise moment shows which customers are likely to move, and why: the rate end date from your CRM, the equity in the home, and what local lenders are offering. Each data point carries its weight, so an advisor can open the call with the reason.
+> A Seekridge moment shows which customers are likely to move, and why: the rate end date from your CRM, the equity in the home, and what local lenders are offering. Each data point carries its weight, so an advisor can open the call with the reason.
 >
 > The weights in this carousel are illustrative.
 >

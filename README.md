@@ -1,8 +1,8 @@
-# Parcelwise — Marketing AI Systems
+# Seekridge — Marketing AI Systems
 
-> **Portfolio note:** Parcelwise is a fictional company, modelled on my real product-marketing work in B2B AI and data SaaS. All companies, people, deals, and figures are made up — no real employer's data appears here. Full context in [`ABOUT-THIS-REPO.md`](./ABOUT-THIS-REPO.md).
+> **Portfolio note:** Seekridge is a fictional company, modelled on my real product-marketing work in B2B AI and data SaaS. All companies, people, deals, and figures are made up — no real employer's data appears here. Full context in [`ABOUT-THIS-REPO.md`](./ABOUT-THIS-REPO.md).
 
-This repo holds the prompts, Claude Skills, and custom GPTs behind Parcelwise's product marketing operations — competitive intelligence, account-based marketing, sales enablement, win/loss analysis, brand voice, and deck building.
+This repo holds the prompts, Claude Skills, and custom GPTs behind Seekridge's product marketing operations — competitive intelligence, account-based marketing, sales enablement, win/loss analysis, brand voice, and deck building.
 
 **Start here if you're an AI assistant:** [`INSTRUCTIONS.md`](./INSTRUCTIONS.md) routes any given task to the right folder below and maps typical day/week/month/quarter marketing work to this repo's structure.
 
@@ -12,7 +12,7 @@ Product marketing runs on recurring problems, not one-off projects: tracking com
 
 ## About the company
 
-Everything here is built around **[Parcelwise](./knowledge-base/knowledge-base.md)**, an AI data analytics company built around customer moments. It combines a client's own CRM data with external market data to flag new business opportunities inside the customer base they already have. It sells to banks and mortgage lenders, insurers, and real estate brokerages across Europe. [`knowledge-base/`](./knowledge-base) describes the company, its market, and its customers in full.
+Everything here is built around **[Seekridge](./knowledge-base/knowledge-base.md)**, an AI data analytics company built around customer moments. It combines a client's own CRM data with external market data to flag new business opportunities inside the customer base they already have. It sells to banks and mortgage lenders, insurers, and real estate brokerages across Europe. [`knowledge-base/`](./knowledge-base) describes the company, its market, and its customers in full.
 
 ## Three kinds of folder
 
@@ -29,10 +29,10 @@ Everything here is built around **[Parcelwise](./knowledge-base/knowledge-base.m
 | [`personas.md`](./knowledge-base/personas.md) | Per-persona buying psychology, objections, content preferences |
 | [`positioning.md`](./knowledge-base/positioning.md) | Strategic narrative, differentiators, value props by segment |
 | [`branding-guideline/`](./knowledge-base/branding-guideline) | Full brand system — mission, values, tone-by-channel, logo files, color palette, typography, naming conventions — plus the rewrite skill that applies the voice rules |
-| [`design-system/`](./knowledge-base/design-system) | The brand made build-ready: light and dark tokens, component CSS with a [live components page](https://tajnelakos.github.io/akos-tajnel-claude-assets/knowledge-base/design-system/components.html), 15 icons, parcel-map motifs, and the rules for writing, LinkedIn carousels, and video. Also published as a Claude design system |
+| [`design-system/`](./knowledge-base/design-system) | The brand made build-ready: light and dark tokens, component CSS with a [live components page](https://tajnelakos.github.io/akos-tajnel-claude-assets/knowledge-base/design-system/components.html), 15 icons, ridge-line motifs, and the rules for writing, LinkedIn carousels, and video. Also published as a Claude design system |
 | [`linkedin-carousels/`](./knowledge-base/linkedin-carousels) | A full LinkedIn carousel design system on top of the brand: seven formats and a slide kit, tokens, slide CSS, outlined logos, motifs, bundled fonts, wording and caption rules, a [live gallery of every format](https://tajnelakos.github.io/akos-tajnel-claude-assets/knowledge-base/linkedin-carousels/gallery.html), and a skill that builds a finished carousel |
-| [`flyer-design-system/`](./knowledge-base/flyer-design-system) | Parcelwise in print: an A4 trifold, A5 postcard and A4 one-pager system with print-sized tokens, 12 components (moment evidence strip, layer diagram, contact block…), copy and pre-press rules, and three finished example pieces as print-ready PDFs. Also published as a Claude design system |
-| [`video-design-system/`](./knowledge-base/video-design-system) | How Parcelwise looks and moves on film: a film book (formats, beat structures, copy, motion grammar, markets, sound, specs), film tokens, 18 components with [live previews](https://tajnelakos.github.io/akos-tajnel-claude-assets/knowledge-base/video-design-system/preview.html), eight product UI reference screens, and three reference films rendered in code from it, plus the skill that builds new ones |
+| [`flyer-design-system/`](./knowledge-base/flyer-design-system) | Seekridge in print: an A4 trifold, A5 postcard and A4 one-pager system with print-sized tokens, 12 components (moment evidence strip, layer diagram, contact block…), copy and pre-press rules, and three finished example pieces as print-ready PDFs. Also published as a Claude design system |
+| [`video-design-system/`](./knowledge-base/video-design-system) | How Seekridge looks and moves on film: a film book (formats, beat structures, copy, motion grammar, markets, sound, specs), film tokens, 18 components with [live previews](https://tajnelakos.github.io/akos-tajnel-claude-assets/knowledge-base/video-design-system/preview.html), eight product UI reference screens, and three reference films rendered in code from it, plus the skill that builds new ones |
 | [`competitive-landscape.md`](./knowledge-base/competitive-landscape.md) | Full battlecards and positioning gaps |
 | [`sales-call-analysis/`](./knowledge-base/sales-call-analysis) | 15 call transcripts plus a [designed rollup](https://tajnelakos.github.io/akos-tajnel-claude-assets/knowledge-base/sales-call-analysis/call-analysis-summary.html) of objections, competitors, and new findings across them |
 | [`win-loss-analysis/`](./knowledge-base/win-loss-analysis) | Patterns from closed-won/closed-lost deals — a quarterly infographic, plus a [100-record CRM deep dive](https://tajnelakos.github.io/akos-tajnel-claude-assets/knowledge-base/win-loss-analysis/win-loss-detailed-analysis.html) |

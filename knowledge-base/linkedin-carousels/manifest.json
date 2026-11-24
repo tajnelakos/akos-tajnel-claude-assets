@@ -1,6 +1,6 @@
 {
   "manifestVersion": 3,
-  "name": "Parcelwise LinkedIn carousels",
+  "name": "Seekridge LinkedIn carousels",
   "namespace": "PWCarousels",
   "files": [
     "assets/Arrows/README.md",
@@ -59,7 +59,7 @@
     {
       "name": "RegulationBrief",
       "group": "Carousels",
-      "summary": "What a rule means for lenders and insurers: what it asks, what to prepare, and where Parcelwise fits."
+      "summary": "What a rule means for lenders and insurers: what it asks, what to prepare, and where Seekridge fits."
     },
     {
       "name": "MomentExplainer",
@@ -99,21 +99,21 @@
     {
       "name": "Motifs",
       "order": [
-        "parcel-grid-navy-ground.svg",
-        "plot-strip-navy-ground.svg",
+        "ridge-lines-navy-ground.svg",
+        "ridge-strip-navy-ground.svg",
         "layer-stack-navy-ground.svg",
         "scale-bar-paper.svg",
-        "parcel-grid-paper-ground.svg",
-        "plot-strip-paper-ground.svg",
+        "ridge-lines-paper-ground.svg",
+        "ridge-strip-paper-ground.svg",
         "layer-stack-paper-ground.svg",
         "scale-bar-navy.svg"
       ],
       "files": [
         {
-          "path": "assets/Motifs/parcel-grid-navy-ground.svg"
+          "path": "assets/Motifs/ridge-lines-navy-ground.svg"
         },
         {
-          "path": "assets/Motifs/plot-strip-navy-ground.svg"
+          "path": "assets/Motifs/ridge-strip-navy-ground.svg"
         },
         {
           "path": "assets/Motifs/layer-stack-navy-ground.svg"
@@ -122,10 +122,10 @@
           "path": "assets/Motifs/scale-bar-paper.svg"
         },
         {
-          "path": "assets/Motifs/parcel-grid-paper-ground.svg"
+          "path": "assets/Motifs/ridge-lines-paper-ground.svg"
         },
         {
-          "path": "assets/Motifs/plot-strip-paper-ground.svg"
+          "path": "assets/Motifs/ridge-strip-paper-ground.svg"
         },
         {
           "path": "assets/Motifs/layer-stack-paper-ground.svg"
@@ -163,7 +163,7 @@
         "customer-paper.svg",
         "evidence-trail-paper.svg",
         "market-paper.svg",
-        "parcel-paper.svg",
+        "property-paper.svg",
         "pin-paper.svg",
         "policy-paper.svg",
         "search-paper.svg",
@@ -177,7 +177,7 @@
         "customer-navy.svg",
         "evidence-trail-navy.svg",
         "market-navy.svg",
-        "parcel-navy.svg",
+        "property-navy.svg",
         "pin-navy.svg",
         "policy-navy.svg",
         "search-navy.svg",
@@ -210,7 +210,7 @@
           "path": "assets/Icons/market-paper.svg"
         },
         {
-          "path": "assets/Icons/parcel-paper.svg"
+          "path": "assets/Icons/property-paper.svg"
         },
         {
           "path": "assets/Icons/pin-paper.svg"
@@ -252,7 +252,7 @@
           "path": "assets/Icons/market-navy.svg"
         },
         {
-          "path": "assets/Icons/parcel-navy.svg"
+          "path": "assets/Icons/property-navy.svg"
         },
         {
           "path": "assets/Icons/pin-navy.svg"

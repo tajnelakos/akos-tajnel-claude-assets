@@ -1,7 +1,7 @@
 # Call Transcript — Baltic Home Finance
 
 **Date:** July 2026 · **Duration:** ~17 minutes · **Call type:** First discovery call
-**Rep:** Anna Kowalski (Parcelwise) · **Prospect:** Rasa Petraityte, VP of Mortgage Lending, Baltic Home Finance (regional lender)
+**Rep:** Anna Kowalski (Seekridge) · **Prospect:** Rasa Petraityte, VP of Mortgage Lending, Baltic Home Finance (regional lender)
 
 ---
 

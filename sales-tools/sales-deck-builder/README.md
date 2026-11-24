@@ -14,7 +14,7 @@ The core judgment call it makes every time: **order and emphasis change based on
 
 - [`skill.md`](./skill.md) — the Claude Skill definition
 - [`gpt.md`](./gpt.md) — ChatGPT custom GPT version
-- [`sample-deck-outline.md`](./sample-deck-outline.md) — outline generated for a Parcelwise deal
+- [`sample-deck-outline.md`](./sample-deck-outline.md) — outline generated for a Seekridge deal
 
 ## Current limitations
 

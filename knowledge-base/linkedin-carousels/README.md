@@ -1,8 +1,8 @@
-# Parcelwise LinkedIn carousels
+# Seekridge LinkedIn carousels
 
-A system for designing Parcelwise LinkedIn carousels: one canvas, two flat grounds, three typefaces, one gold lot, seven formats and a slide kit for mixing them into new ones.
+A system for designing Seekridge LinkedIn carousels: one canvas, two flat grounds, three typefaces, one gold point, seven formats and a slide kit for mixing them into new ones.
 
-It sits on top of the brand. [`../branding-guideline/brand-guidelines.md`](../branding-guideline/brand-guidelines.md) says who Parcelwise is and how it looks; [`../design-system/`](../design-system) makes that build-ready for pages and product UI. This folder does the same for one channel, a 1080 × 1350 slide that is read on a phone in about two seconds. Where the two disagree on a carousel, this folder wins.
+It sits on top of the brand. [`../branding-guideline/brand-guidelines.md`](../branding-guideline/brand-guidelines.md) says who Seekridge is and how it looks; [`../design-system/`](../design-system) makes that build-ready for pages and product UI. This folder does the same for one channel, a 1080 × 1350 slide that is read on a phone in about two seconds. Where the two disagree on a carousel, this folder wins.
 
 The formats are examples of what works, not a rulebook. Every post is different, so combine slides across formats, reorder them, or invent a new archetype, as long as it's built from the tokens and rules below. Start with **SlideKit** when a post doesn't fit a format cleanly.
 
@@ -18,11 +18,11 @@ The formats are examples of what works, not a rulebook. Every post is different,
 
 **Voice.** Confident and specific, never hyped, written for a technically sceptical reader in banking or insurance who trusts precision over enthusiasm. UK English. The brand's voice rules are in [`../branding-guideline/skill.md`](../branding-guideline/skill.md); **Writing for carousels** ([`wording.md`](./wording.md)) applies them to a slide.
 
-- Write to *you* and *your customers*. Parcelwise is *we* only on the close and in the caption. Parcelwise is one word, capital P only, and never takes an article.
+- Write to *you* and *your customers*. Seekridge is *we* only on the close and in the caption. Seekridge is one word, capital P only, and never takes an article.
 - **Lead with the reader's situation, not the product.** The cover names a customer situation or a fact ("Which customers will refinance elsewhere?"). The product name arrives in the middle, once.
 - **Every claim names its mechanism, its data or its figure.** "Shows the rate reset, the equity and the market behind each moment", not "AI-powered insights". If a slide can't name the mechanism, it doesn't make the claim.
 - **Moments always carry their evidence.** Any slide that shows a moment shows the data points behind it and how much each counted. This is the brand promise in one picture; never show a moment without it.
-- Build the story as a sequence: **question → tension → method → proof → action.** For example: *"Which of your customers will refinance elsewhere this quarter?"* → *"Most scoring tools give you a list, not a reason."* → *"Parcelwise shows the rate reset, the equity and the market behind each moment."* → a moment with its evidence → *"Run a backtest on your own book."*
+- Build the story as a sequence: **question → tension → method → proof → action.** For example: *"Which of your customers will refinance elsewhere this quarter?"* → *"Most scoring tools give you a list, not a reason."* → *"Seekridge shows the rate reset, the equity and the market behind each moment."* → a moment with its evidence → *"Run a backtest on your own book."*
 - **One idea per slide.** About 8 words for `title-cover`, 20 for `title-statement`, 30 for `title-long`, 40 for body copy or a white card.
 - **Emphasis carries meaning.** Up to 3 words a slide in `gold-light` on navy, or under a 6px gold rule on paper. Never a whole sentence.
 - **Sentence case, always**: every title, cover, heading, eyebrow, button, label and caption. The mono eyebrow is the one all-caps element, and it's set uppercase in CSS, typed in sentence case.
@@ -36,9 +36,9 @@ The formats are examples of what works, not a rulebook. Every post is different,
 ### Colour
 
 - **Two grounds, both flat.** `navy` (#1A3A5C) for covers, statements, figures and closes; `paper` (#F4F3EF) for proof: screenshots, charts, tables and checklists. No gradients, glows, blurs or tints of navy as decoration. A typical carousel runs navy → paper → navy.
-- **On navy:** text in `paper`; the single supporting line under a title in `paper-72`; hairlines, motif lines and empty lots in `paper-35`; panels in `navy-deep`, always outlined in `paper-35` (navy-deep on navy is only 1.1:1).
-- **On paper:** headings, figures and numerals in `navy`; body in `ink`; secondary text and source lines in `ink-muted`; frame and card borders in `line`; inactive lots and outlines in `slate`.
-- **Gold is one element per slide.** On navy, `gold-light` (#D9A54B, 5.2:1): up to 3 highlighted words, *or* the lot in a motif, *or* the top weight in an evidence trail. On paper, `gold` (#C1892E) as a shape only: the 6px underline, the focus bar in a chart, the top weight bar or a reason rule. Never gold text on paper (2.75:1). The lot inside the logo doesn't count.
+- **On navy:** text in `paper`; the single supporting line under a title in `paper-72`; hairlines, motif lines and empty squares in `paper-35`; panels in `navy-deep`, always outlined in `paper-35` (navy-deep on navy is only 1.1:1).
+- **On paper:** headings, figures and numerals in `navy`; body in `ink`; secondary text and source lines in `ink-muted`; frame and card borders in `line`; inactive squares and outlines in `slate`.
+- **Gold is one element per slide.** On navy, `gold-light` (#D9A54B, 5.2:1): up to 3 highlighted words, *or* the gold point in a motif, *or* the top weight in an evidence trail. On paper, `gold` (#C1892E) as a shape only: the 6px underline, the focus bar in a chart, the top weight bar or a reason rule. Never gold text on paper (2.75:1). The gold point inside the logo doesn't count.
 - **Status colours never appear on slides.** Good, warning and critical belong to product UI. A chart's categories are navy, slate and one gold, never green and red.
 
 ### Typography
@@ -64,28 +64,28 @@ Three families, strict roles, all bundled in [`fonts/`](./fonts) (SIL Open Font 
 - **One logo per slide.** Cover: the lockup top-left at the margin (320 × 80px), `pw-lockup-paper.svg` on navy, `pw-lockup-navy.svg` on paper. Close: the lockup centred at the bottom margin. Every other slide: the mark (56 × 56px) bottom-right at the margin.
 - **The arrow means "swipe".** One style, a 160 × 48px line with an open head (`stroke-arrow` 4px), paper on navy and navy on paper. On middle slides it sits 32px left of the mark; on the cover, where there is no mark, it sits at the margin. Never on the last slide.
 - **Eyebrow:** the series or topic in mono, top-left at the margin on every middle slide, followed by a 2px rule to the right margin (`paper-35` on navy, `line` on paper). Typed in sentence case, set uppercase.
-- **Slide counter:** bottom-left, `02 / 06` in mono beside a strip of 16px lots, one per slide, the current one filled. It replaces any "swipe" text and tells the reader how long the carousel is.
+- **Slide counter:** bottom-left, `02 / 06` in mono beside a strip of 16px squares, one per slide, the current one filled. It replaces any "swipe" text and tells the reader how long the carousel is.
 - **Content area:** from about y 192 (below the eyebrow) to y 1150 (above the footer row). Titles start high, not centred, except on question covers and the event invite.
 - **Cards and frames:** white card (`radius-frame` 6px, 2px `line` border, padding 48px, ink text); navy-deep panel on navy (6px, 2px `paper-35`); outlined card (2px `paper-35`, no fill) for a belief or a "before"; screenshot frame (white, 2px `line`, 6px corners, full width between the margins, about 690–760px tall).
 - **Placement:** statements, headings and lists left-aligned; questions, event details and the close centred. Partner artwork (an event or award mark) sits bottom-centre above the footer and is never placed on a white box.
-- **Square, not soft.** 2px for lots and tags, 4px for the button, 6px for everything else. Never more, never pill-shaped. No shadows anywhere.
+- **Square, not soft.** 2px for squares and tags, 4px for the button, 6px for everything else. Never more, never pill-shaped. No shadows anywhere.
 
 ### Motifs
 
-The parcel map is the brand's one graphic idea: land divided by straight lines, one lot highlighted in gold, top-right as in the logomark. Four cuts are drawn for the canvas, each in a navy-ground and a paper-ground version ([`assets/Motifs/`](./assets/Motifs)):
+The ridge map is the brand's one graphic idea: ridgelines drawn in straight segments, one summit marked with a gold point, as in the logomark. Four cuts are drawn for the canvas, each in a navy-ground and a paper-ground version ([`assets/Motifs/`](./assets/Motifs)):
 
-- `parcel-grid` (640 × 640): covers only, anchored top-right, its gold lot in the corner.
-- `plot-strip` (1080 × 144): the top edge of a data slide; the eyebrow moves down to y 192.
-- `layer-stack` (560 × 440): the three data layers, property, market and customer, as three flat plans with the moment lot on top. The cover of a Moment explainer.
-- `scale-bar` (402 × 24): a surveyor's scale, no gold, under a limits statement or beside a source line.
+- `ridge-lines` (640 × 640): covers only, anchored top-right, its gold point in the corner.
+- `ridge-strip` (1080 × 144): the top edge of a data slide; the eyebrow moves down to y 192.
+- `layer-stack` (560 × 440): the three data layers, property, market and customer, as three flat plans with the moment's gold point on top. The cover of a Moment explainer.
+- `scale-bar` (402 × 24): a map scale, no gold, under a limits statement or beside a source line.
 
-One motif per slide, anchored to an edge, never behind text. A motif's gold lot is that slide's gold element, so a slide with a motif has no highlighted words.
+One motif per slide, anchored to an edge, never behind text. A motif's gold point is that slide's gold element, so a slide with a motif has no highlighted words.
 
 ### Imagery
 
 - Real product surfaces first: a moment with its evidence trail, a weighting chart, an audit log, cropped to the one panel that proves the point, in a white frame.
 - Mock-ups use skeleton bars (`line`) and clearly illustrative data. Customers appear by ID ("Customer 40-1187"), never by a name or an address.
-- Icons are the brand's line icons (1.75px on a 24px grid, scaled to 48–64px on the canvas), paper on navy and navy on paper or white. Property, market and customer always use the parcel, market and customer icons.
+- Icons are the brand's line icons (1.75px on a 24px grid, scaled to 48–64px on the canvas), paper on navy and navy on paper or white. Property, market and customer always use the property, market and customer icons.
 - Third-party marks (event organisers, award bodies, client logos) come from their official files and are never redrawn. Client logos need written approval.
 - No stock photography, no illustrations of people at screens, no 3D or isometric scenes. A speaker appears only as a real square headshot with 6px corners.
 
@@ -107,7 +107,7 @@ Never recolour, outline, stretch or add effects to the logo. Keep clear space eq
 | **MythVsMethod** | Correct a market belief | The correction as a cover · the belief in an outlined card · why it fails · what defensible looks like |
 | **ProofInNumbers** | One backtest or result | Figure cover · what it measures · a one-gold-bar chart · method · limits |
 | **FeatureLaunch** | A new capability | "New in Evidence Trail" cover · the problem · screenshot proof on paper |
-| **RegulationBrief** | What a rule means for lenders and insurers | The rule as a question · what it asks · what to prepare · where Parcelwise fits |
+| **RegulationBrief** | What a rule means for lenders and insurers | The rule as a question · what it asks · what to prepare · where Seekridge fits |
 | **EventInvite** | Meet the team or hear a talk | Centred question · the talk · the speaker · date, place and one button |
 | **FieldGuide** | Checks, steps or questions | Count cover · numeral + white card per item · checklist on paper |
 | **SlideKit** | Anything else | Mix-and-match archetypes: five covers, statements, beliefs, layers, figures, list items, evidence, screenshots, charts, tables, checklists, speaker, invite, closes |
@@ -145,7 +145,7 @@ Mixing is encouraged: a feature launch can open with a Myth vs method belief, a 
 
 1. Does slide 1 name the reader's situation or the news in under 10 words, for one persona?
 2. Does every slide carry exactly one idea, one logo and (except the last) the arrow and the counter?
-3. Archivo, IBM Plex Sans and IBM Plex Mono only? Sentence case, Parcelwise without an article, literal feature names?
+3. Archivo, IBM Plex Sans and IBM Plex Mono only? Sentence case, Seekridge without an article, literal feature names?
 4. Navy and paper grounds only, flat? One gold element per slide, gold text on navy only?
 5. Does every moment shown carry its evidence? Does every figure carry what it measures and a source line, or the word "illustrative"?
 6. No real customer names or data, no stock photos, no partner logo without its official file and approval?

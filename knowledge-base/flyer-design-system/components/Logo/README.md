@@ -1,6 +1,6 @@
 # Logo
 
-The Parcelwise lockup and mark with an outlined wordmark and transparent ground, ready for print. Files are in the Logos asset group.
+The Seekridge lockup and mark with an outlined wordmark and transparent ground, ready for print. Files are in the Logos asset group.
 
 **Classes:** `.pwf-logo--lockup` (40 mm wide on A4 and A5 fronts; add `.pwf-logo--lockup-s` for 32 mm on a 100 mm trifold panel) and `.pwf-logo--mark` (10 mm). Inside a `data-theme="dark"` container both switch to the paper-coloured files.
 

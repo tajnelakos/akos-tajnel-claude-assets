@@ -1,4 +1,4 @@
-/* Parcelwise components. Classes prefixed pw-. Reads tokens.css custom properties. */
+/* Seekridge components. Classes prefixed pw-. Reads tokens.css custom properties. */
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap");
 
 :root{--motion-fast:150ms;--motion-base:250ms;--motion-slow:500ms;--motion-draw:800ms;--ease-standard:cubic-bezier(0.2,0,0,1)}

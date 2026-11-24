@@ -32,7 +32,7 @@ Case studies are usually the most fabricated piece of B2B content in the buildin
 
 **Status:** Draft — pending customer sign-off to publish / Ready to publish
 
-**Title:** [Customer] chose Parcelwise to [specific result]
+**Title:** [Customer] chose Seekridge to [specific result]
 **Snapshot:** [segment · tier · region · deal size · sales cycle · competitor displaced]
 
 ### Challenge

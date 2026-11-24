@@ -1,6 +1,6 @@
-# Writing for Parcelwise
+# Writing for Seekridge
 
-The full wording rules for every Parcelwise channel. The voice core (tone, style standards, anti-patterns, prohibited terms) matches [`../branding-guideline/skill.md`](../branding-guideline/skill.md), which the rewrite skill applies; this file adds names and terms, case, numbers, market typography, inclusive language and product copy.
+The full wording rules for every Seekridge channel. The voice core (tone, style standards, anti-patterns, prohibited terms) matches [`../branding-guideline/skill.md`](../branding-guideline/skill.md), which the rewrite skill applies; this file adds names and terms, case, numbers, market typography, inclusive language and product copy.
 
 ## Tone
 
@@ -46,15 +46,15 @@ Confident and specific, never hyped. The audience is technically skeptical and r
 
 ## Names and terms
 
-- **Parcelwise**: one word, capital P only, no article ("Parcelwise backtests every moment model", not "The Parcelwise…").
+- **Seekridge**: one word, capital P only, no article ("Seekridge backtests every moment model", not "The Seekridge…").
 - **Feature names** are literal and capitalised as names: Evidence Trail, Coverage Map. In running text they take no article in English ("Evidence Trail shows…"); German and Dutch use articles.
-- **Tiers:** Plot, Block, Estate. Only for pricing.
+- **Tiers:** Base, Ridge, Summit. Only for pricing.
 - **Terminology:** moment (not lead, insight or alert) · evidence trail (the data points behind a moment; not explainability report) · audit log (the record of what was done with a moment; not activity feed) · customer base (not database or leads) · property data, market data, customer data (not big data or data lake) · valuation, as one data point inside a moment (not appraisal or estimate) · bank, lender, insurer or brokerage (not client, in product copy) · CRM · automated valuation model (AVM), spelled out on first use.
 - **Competitors** are named only in battlecards and internal material, never in public content.
 
 ## Case
 
-Sentence case for every title, heading, button, label, cover and caption: "Evidence for every moment", "Run a backtest". Capitals only for the first word, Parcelwise, feature names, tiers and proper nouns. The mono eyebrow label is the one all-caps element, and it's set in CSS (`text-transform`), not typed in capitals.
+Sentence case for every title, heading, button, label, cover and caption: "Evidence for every moment", "Run a backtest". Capitals only for the first word, Seekridge, feature names, tiers and proper nouns. The mono eyebrow label is the one all-caps element, and it's set in CSS (`text-transform`), not typed in capitals.
 
 ## Numbers, currency and dates
 

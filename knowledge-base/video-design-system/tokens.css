@@ -1,4 +1,4 @@
-/* Parcelwise Video Design System: generated from tokens.json. Do not edit by hand. */
+/* Seekridge Video Design System: generated from tokens.json. Do not edit by hand. */
 /* Fonts are bundled in fonts/ (SIL Open Font License, see fonts/OFL.txt), so films render offline. */
 @font-face{font-family:Archivo;src:url(fonts/Archivo-SemiBold.woff2) format('woff2');font-weight:600;font-display:block}
 @font-face{font-family:Archivo;src:url(fonts/Archivo-Bold.woff2) format('woff2');font-weight:700;font-display:block}
@@ -10,21 +10,21 @@
 @font-face{font-family:'IBM Plex Mono';src:url(fonts/IBMPlexMono-Medium.woff2) format('woff2');font-weight:500;font-display:block}
 
 :root, [data-ground="paper"] {
-  --pwv-ground: #F4F3EF; /* Full-frame background. Flat: no gradient, glow, vignette or texture other than the survey grid. */
+  --pwv-ground: #F4F3EF; /* Full-frame background. Flat: no gradient, glow, vignette or texture other than the map grid. */
   --pwv-ink: #1C1C1A; /* Headlines and figures on the ground. Paper: 15.4:1. Navy: 10.5:1. */
   --pwv-ink-muted: #5B6470; /* Second lines, measures under a figure, the end-card action. Paper: 5.4:1. Navy: 5.8:1. */
   --pwv-highlight: #C1892E; /* The one gold per frame. Paper: a 6px underline bar under up to three headline words (never gold text on Paper, 2.7:1). Navy: up to three headline words in gold-light text (5.2:1). */
-  --pwv-lot: #C1892E; /* The filled gold lot of the parcel motif, the top evidence row's weight bar, the highlighted bar in a chart. Counts as the frame's one gold. */
-  --pwv-survey-line: #1A3A5C; /* Parcel and plan lines that draw in. Used at full strength for drawings, at the opacity below for the motif field. */
-  --pwv-survey-line-opacity: 0.18; /* Opacity of motif lines (the brand's parcel-grid uses Paper at 35% on Navy). */
-  --pwv-grid: #E1E0D9; /* The optional survey grid behind Walkthrough frames: 1px hairlines every 96px. Texture only, never behind running text. */
+  --pwv-lot: #C1892E; /* The filled gold point of the ridge motif, the top evidence row's weight bar, the highlighted bar in a chart. Counts as the frame's one gold. */
+  --pwv-survey-line: #1A3A5C; /* Ridge and plan lines that draw in. Used at full strength for drawings, at the opacity below for the motif field. */
+  --pwv-survey-line-opacity: 0.18; /* Opacity of motif lines (the brand's ridge-lines uses Paper at 35% on Navy). */
+  --pwv-grid: #E1E0D9; /* The optional map grid behind Walkthrough frames: 1px hairlines every 96px. Texture only, never behind running text. */
   --pwv-rule: #1A3A5C; /* 2px rules: the eyebrow rule, focus marks, timeline track, chapter rail tick. */
   --pwv-surface: #FFFFFF; /* Product panels. White on both grounds, 1px hairline border, 4px corners, no shadow. */
   --pwv-surface-sunken: #FAF9F6; /* Header rows and inset rows inside a panel. */
   --pwv-panel-ink: #1C1C1A; /* Text inside panels. 17.1:1 on white. */
   --pwv-panel-muted: #5B6470; /* Labels and secondary values inside panels. 6.0:1 on white. */
   --pwv-panel-line: #E1E0D9; /* Hairlines inside panels and their outer border. */
-  --pwv-bar: #1A3A5C; /* Evidence weight bars and chart series. The one that matters is 'lot' gold. */
+  --pwv-bar: #1A3A5C; /* Evidence weight bars and chart series. The one that matters is gold. */
   --pwv-bar-track: #ECEBE5; /* Empty part of a weight bar. */
   --pwv-caption-band: rgba(26,58,92,0.94); /* Burnt-in caption band. Navy at 94% on Paper frames; inverted to Paper at 96% on Navy frames, because a navy band disappears on the Navy ground. Square corners. */
   --pwv-caption-ink: #F4F3EF; /* Caption text: Paper on the navy band (10:1), Ink on the Paper band on Navy frames (15:1). */
@@ -107,9 +107,9 @@
   --pwv-row-h: 72px; /* Row height inside panels on film (twice the web app's density). */
   --pwv-radius: 4px; /* Panels, badges and buttons. Never more: the brand has no pills. */
   --pwv-radius-frame: 6px; /* Large image frames only, matching the logomark's corner. */
-  --pwv-hairline: 1px; /* Panel borders and the survey grid. */
+  --pwv-hairline: 1px; /* Panel borders and the map grid. */
   --pwv-stroke: 2px; /* Rules, focus marks, chart lines, timeline track. */
-  --pwv-draw-stroke: 3px; /* Parcel and plan drawings on film (the 1.75px icon stroke scaled for 1080p). */
+  --pwv-draw-stroke: 3px; /* Ridge and plan drawings on film (the 1.75px icon stroke scaled for 1080p). */
   --pwv-highlight-bar: 6px; /* Height of the gold underline bar under highlighted words on Paper. */
   --pwv-focus-mark: 28px; /* Arm length of each corner bracket in FocusMarks. */
   --pwv-ease: cubic-bezier(0.2, 0, 0, 1); /* The only easing curve (brand --ease-standard). Linear only for camera drift. */
@@ -118,9 +118,9 @@
   --pwv-line-in: 500ms; /* A headline line rises 24px out of a mask on its own baseline. Lines, not words. */
   --pwv-line-stagger: 120ms; /* Delay between headline lines. */
   --pwv-highlight-in: 400ms; /* The gold underline bar (Paper) draws left to right, starting when its line lands. */
-  --pwv-draw: 800ms; /* A parcel or plan line draws in (brand --motion-draw). */
+  --pwv-draw: 800ms; /* A ridge or plan line draws in (brand --motion-draw). */
   --pwv-draw-stagger: 120ms; /* Between consecutive lines of one drawing. */
-  --pwv-lot-fill: 300ms; /* The gold lot fills after its lines have drawn: the signature move. */
+  --pwv-lot-fill: 300ms; /* The gold point fills after its lines have drawn: the signature move. */
   --pwv-frame-trace: 600ms; /* A panel's hairline border traces in, clockwise from top-left. */
   --pwv-content-in: 250ms; /* Panel content fades in once its frame is traced (brand --motion-base). */
   --pwv-row-stagger: 120ms; /* Rows populating a panel, top to bottom. */

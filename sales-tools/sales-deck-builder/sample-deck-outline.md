@@ -1,6 +1,6 @@
 # Sample output
 
-Deal context and outline for [Parcelwise](../../knowledge-base/knowledge-base.md).
+Deal context and outline for [Seekridge](../../knowledge-base/knowledge-base.md).
 
 ---
 

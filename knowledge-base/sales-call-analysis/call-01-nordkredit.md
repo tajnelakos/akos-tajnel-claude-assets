@@ -1,7 +1,7 @@
 # Call Transcript — Nordkredit
 
 **Date:** July 2026 · **Duration:** ~18 minutes · **Call type:** First discovery call, following outbound
-**Rep:** Anna Kowalski (Parcelwise) · **Prospect:** Lena Virtanen, Head of Credit Risk, Nordkredit (regional lender, Nordics, ~€600M annual origination)
+**Rep:** Anna Kowalski (Seekridge) · **Prospect:** Lena Virtanen, Head of Credit Risk, Nordkredit (regional lender, Nordics, ~€600M annual origination)
 
 *Context: Lena responded to an outbound email referencing her recent hire and Nordkredit's tooling migration (see [`personalized-outbound`](../../marketing-assets/personalized-outbound/example.md)).*
 

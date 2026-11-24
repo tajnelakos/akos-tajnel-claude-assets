@@ -6,7 +6,7 @@
   <text x="24" y="50" font-size="12" fill="#5B6470">Clear space on every side = height of the mark (x).</text>
   <rect x="24" y="65" width="260" height="140" fill="none" stroke="#C7CDD3" stroke-dasharray="4 4"/>
   <g transform="translate(94,95)">
-    <g transform="translate(15,6) scale(0.54)"><rect x="4" y="4" width="92" height="92" rx="6" fill="none" stroke="#1A3A5C" stroke-width="8"/><rect x="59" y="8" width="33" height="36" fill="#C1892E"/><path d="M 8 48 H 92 M 55 8 V 48 M 38 48 V 92" fill="none" stroke="#1A3A5C" stroke-width="8"/></g>
+    <g transform="translate(15,6) scale(0.54)"><path d="M 4 92 L 30 50 L 46 68 L 70 26 L 96 92" fill="none" stroke="#1A3A5C" stroke-width="10" stroke-linejoin="miter" stroke-miterlimit="10"/><path d="M 0 94 H 100" fill="none" stroke="#1A3A5C" stroke-width="8"/><circle cx="70" cy="12" r="9" fill="#C1892E"/></g>
   </g>
   <path d="M 111 65 L 111 205 M 161 65 L 161 205" stroke="#E1E0D9" stroke-width="1"/>
 
@@ -14,11 +14,11 @@
   <text x="320" y="30" font-size="15" font-weight="700" fill="#1C1C1A">Minimum size</text>
   <text x="320" y="50" font-size="12" fill="#5B6470">24px (digital) / 10mm (print) for the mark alone.</text>
   <g transform="translate(340,120)">
-    <g transform="translate(4.55,2.1) scale(0.179)"><rect x="4" y="4" width="92" height="92" rx="6" fill="none" stroke="#1A3A5C" stroke-width="8"/><rect x="59" y="8" width="33" height="36" fill="#C1892E"/><path d="M 8 48 H 92 M 55 8 V 48 M 38 48 V 92" fill="none" stroke="#1A3A5C" stroke-width="8"/></g>
+    <g transform="translate(4.55,2.1) scale(0.179)"><path d="M 4 92 L 30 50 L 46 68 L 70 26 L 96 92" fill="none" stroke="#1A3A5C" stroke-width="10" stroke-linejoin="miter" stroke-miterlimit="10"/><path d="M 0 94 H 100" fill="none" stroke="#1A3A5C" stroke-width="8"/><circle cx="70" cy="12" r="9" fill="#C1892E"/></g>
   </g>
   <text x="380" y="140" font-size="11" fill="#8A8782">24px</text>
   <g transform="translate(430,90)">
-    <g transform="translate(9.1,4.2) scale(0.358)"><rect x="4" y="4" width="92" height="92" rx="6" fill="none" stroke="#1A3A5C" stroke-width="8"/><rect x="59" y="8" width="33" height="36" fill="#C1892E"/><path d="M 8 48 H 92 M 55 8 V 48 M 38 48 V 92" fill="none" stroke="#1A3A5C" stroke-width="8"/></g>
+    <g transform="translate(9.1,4.2) scale(0.358)"><path d="M 4 92 L 30 50 L 46 68 L 70 26 L 96 92" fill="none" stroke="#1A3A5C" stroke-width="10" stroke-linejoin="miter" stroke-miterlimit="10"/><path d="M 0 94 H 100" fill="none" stroke="#1A3A5C" stroke-width="8"/><circle cx="70" cy="12" r="9" fill="#C1892E"/></g>
   </g>
   <text x="500" y="140" font-size="11" fill="#8A8782">48px</text>
 
@@ -27,7 +27,7 @@
   <text x="640" y="50" font-size="12" fill="#5B6470">Use logo-reversed.svg, never a faded primary.</text>
   <rect x="640" y="65" width="220" height="100" fill="#16324A"/>
   <g transform="translate(695,90)">
-    <g transform="translate(11.5,4) scale(0.41)"><rect x="4" y="4" width="92" height="92" rx="6" fill="none" stroke="#FFFFFF" stroke-width="8"/><rect x="59" y="8" width="33" height="36" fill="#D9A54B"/><path d="M 8 48 H 92 M 55 8 V 48 M 38 48 V 92" fill="none" stroke="#FFFFFF" stroke-width="8"/></g>
+    <g transform="translate(11.5,4) scale(0.41)"><path d="M 4 92 L 30 50 L 46 68 L 70 26 L 96 92" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linejoin="miter" stroke-miterlimit="10"/><path d="M 0 94 H 100" fill="none" stroke="#FFFFFF" stroke-width="8"/><circle cx="70" cy="12" r="9" fill="#D9A54B"/></g>
   </g>
 
   <!-- Don't examples -->
@@ -36,13 +36,13 @@
   <text x="24" y="280" font-size="12" fill="#5B6470">Stretch or distort proportions</text>
   <rect x="24" y="292" width="260" height="120" fill="#FFFFFF" stroke="#E1E0D9"/>
   <g transform="translate(45,320) scale(2.6,1)">
-    <g transform="translate(15,6) scale(0.54)"><rect x="4" y="4" width="92" height="92" rx="6" fill="none" stroke="#1A3A5C" stroke-width="8"/><rect x="59" y="8" width="33" height="36" fill="#C1892E"/><path d="M 8 48 H 92 M 55 8 V 48 M 38 48 V 92" fill="none" stroke="#1A3A5C" stroke-width="8"/></g>
+    <g transform="translate(15,6) scale(0.54)"><path d="M 4 92 L 30 50 L 46 68 L 70 26 L 96 92" fill="none" stroke="#1A3A5C" stroke-width="10" stroke-linejoin="miter" stroke-miterlimit="10"/><path d="M 0 94 H 100" fill="none" stroke="#1A3A5C" stroke-width="8"/><circle cx="70" cy="12" r="9" fill="#C1892E"/></g>
   </g>
 
   <text x="320" y="280" font-size="12" fill="#5B6470">Recolor outside the palette</text>
   <rect x="320" y="292" width="260" height="120" fill="#FFFFFF" stroke="#E1E0D9"/>
   <g transform="translate(390,322)">
-    <g transform="translate(15,6) scale(0.54)"><rect x="4" y="4" width="92" height="92" rx="6" fill="none" stroke="#22C55E" stroke-width="8"/><rect x="59" y="8" width="33" height="36" fill="#E354C9"/><path d="M 8 48 H 92 M 55 8 V 48 M 38 48 V 92" fill="none" stroke="#22C55E" stroke-width="8"/></g>
+    <g transform="translate(15,6) scale(0.54)"><path d="M 4 92 L 30 50 L 46 68 L 70 26 L 96 92" fill="none" stroke="#22C55E" stroke-width="10" stroke-linejoin="miter" stroke-miterlimit="10"/><path d="M 0 94 H 100" fill="none" stroke="#22C55E" stroke-width="8"/><circle cx="70" cy="12" r="9" fill="#E354C9"/></g>
   </g>
 
   <text x="616" y="280" font-size="12" fill="#5B6470">Place on a busy, low-contrast background</text>
@@ -51,13 +51,13 @@
   <circle cx="820" cy="380" r="24" fill="#98A0A3"/>
   <rect x="700" y="340" width="60" height="60" fill="#6B7472"/>
   <g transform="translate(686,322)">
-    <g transform="translate(15,6) scale(0.54)" opacity="0.85"><rect x="4" y="4" width="92" height="92" rx="6" fill="none" stroke="#1A3A5C" stroke-width="8"/><rect x="59" y="8" width="33" height="36" fill="#C1892E"/><path d="M 8 48 H 92 M 55 8 V 48 M 38 48 V 92" fill="none" stroke="#1A3A5C" stroke-width="8"/></g>
+    <g transform="translate(15,6) scale(0.54)" opacity="0.85"><path d="M 4 92 L 30 50 L 46 68 L 70 26 L 96 92" fill="none" stroke="#1A3A5C" stroke-width="10" stroke-linejoin="miter" stroke-miterlimit="10"/><path d="M 0 94 H 100" fill="none" stroke="#1A3A5C" stroke-width="8"/><circle cx="70" cy="12" r="9" fill="#C1892E"/></g>
   </g>
 
   <text x="24" y="450" font-size="12" fill="#5B6470">Add a drop shadow, outline, or other effect</text>
   <rect x="24" y="462" width="260" height="90" fill="#FFFFFF" stroke="#E1E0D9"/>
   <g transform="translate(90,478)" filter="url(#ds)">
-    <g transform="translate(15,6) scale(0.54)"><rect x="4" y="4" width="92" height="92" rx="6" fill="none" stroke="#1A3A5C" stroke-width="8"/><rect x="59" y="8" width="33" height="36" fill="#C1892E"/><path d="M 8 48 H 92 M 55 8 V 48 M 38 48 V 92" fill="none" stroke="#1A3A5C" stroke-width="8"/></g>
+    <g transform="translate(15,6) scale(0.54)"><path d="M 4 92 L 30 50 L 46 68 L 70 26 L 96 92" fill="none" stroke="#1A3A5C" stroke-width="10" stroke-linejoin="miter" stroke-miterlimit="10"/><path d="M 0 94 H 100" fill="none" stroke="#1A3A5C" stroke-width="8"/><circle cx="70" cy="12" r="9" fill="#C1892E"/></g>
   </g>
   <defs>
     <filter id="ds" x="-50%" y="-50%" width="200%" height="200%">
@@ -67,12 +67,12 @@
 
   <text x="320" y="450" font-size="12" fill="#5B6470">Rebuild the wordmark in another typeface</text>
   <rect x="320" y="462" width="260" height="90" fill="#FFFFFF" stroke="#E1E0D9"/>
-  <text x="350" y="518" font-size="30" font-family="Georgia, serif" font-style="italic" fill="#1A3A5C">Parcelwise</text>
+  <text x="350" y="518" font-size="30" font-family="Georgia, serif" font-style="italic" fill="#1A3A5C">Seekridge</text>
 
   <text x="616" y="450" font-size="12" fill="#5B6470">Separate the mark from the wordmark arbitrarily</text>
   <rect x="616" y="462" width="260" height="90" fill="#FFFFFF" stroke="#E1E0D9"/>
   <g transform="translate(636,478)">
-    <g transform="translate(15,6) scale(0.54)"><rect x="4" y="4" width="92" height="92" rx="6" fill="none" stroke="#1A3A5C" stroke-width="8"/><rect x="59" y="8" width="33" height="36" fill="#C1892E"/><path d="M 8 48 H 92 M 55 8 V 48 M 38 48 V 92" fill="none" stroke="#1A3A5C" stroke-width="8"/></g>
+    <g transform="translate(15,6) scale(0.54)"><path d="M 4 92 L 30 50 L 46 68 L 70 26 L 96 92" fill="none" stroke="#1A3A5C" stroke-width="10" stroke-linejoin="miter" stroke-miterlimit="10"/><path d="M 0 94 H 100" fill="none" stroke="#1A3A5C" stroke-width="8"/><circle cx="70" cy="12" r="9" fill="#C1892E"/></g>
   </g>
-  <text x="760" y="518" font-size="20" font-weight="700" fill="#1A3A5C">Parcelwise</text>
+  <text x="760" y="518" font-size="20" font-weight="700" fill="#1A3A5C">Seekridge</text>
 </svg>

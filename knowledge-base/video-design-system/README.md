@@ -1,12 +1,12 @@
-# Parcelwise Video Design System
+# Seekridge Video Design System
 
-How Parcelwise shows its moments in motion: product walkthroughs, persona films for banks, insurers and brokerages, and statements for launches and events. Use it to brief a motion designer, to build a film in code, or to check a cut before it ships.
+How Seekridge shows its moments in motion: product walkthroughs, persona films for banks, insurers and brokerages, and statements for launches and events. Use it to brief a motion designer, to build a film in code, or to check a cut before it ships.
 
 It sits on top of the brand. Identity, palette, type and voice come from [`../branding-guideline/brand-guidelines.md`](../branding-guideline/brand-guidelines.md); the build-ready web system is [`../design-system/`](../design-system). This folder adds what film needs and the brand file only covers in a paragraph: formats, beat structures, on-screen copy, frame layouts, a motion grammar, cast and sample data per market, sound, production specs and a component set, all drawn for the 1920 × 1080 master. [`../design-system/video-and-motion.md`](../design-system/video-and-motion.md) is the one-page summary of these rules.
 
 **Decisions locked on 24 November 2026:** Meridian Gold is the only accent, one gold per frame · flat grounds only, Paper or Navy, no gradients, glows, blur or shadows · square corners (4px max on panels) and hairlines, as in the product · every moment on screen carries its evidence · customers appear by ID, never by name · captions burnt into every cut · 16:9 is the master, 4:5 and 9:16 are cut from it · 30 fps · films are built in code from this system, never screen-recorded · no stock footage, no live action, no illustration of people.
 
-**The idea in one line:** draw the plan, then mark the lot. Every beat starts from straight lines on a flat ground and ends with one thing marked in gold: the customer, the evidence, the figure, the action.
+**The idea in one line:** draw the ridge, then mark the point. Every beat starts from straight lines on a flat ground and ends with one thing marked in gold: the customer, the evidence, the figure, the action.
 
 ---
 
@@ -37,7 +37,7 @@ Every film, script and beat sheet runs in this order. It is the brand promise (*
 | Order | Question it answers | Example (VP of Mortgage Lending, DACH) | Share of a Moment story |
 |---|---|---|---|
 | **1. Situation** | What is happening to one customer the bank already has? | *Customer 40-1187's fixed rate ends in four months.* | Opens the film |
-| **2. Moment** | What does Parcelwise flag, and how high does it rank? | *Refinance risk. Ranked 3rd of 212 this week.* | Short, and always named in the product's word: *moment* |
+| **2. Moment** | What does Seekridge flag, and how high does it rank? | *Refinance risk. Ranked 3rd of 212 this week.* | Short, and always named in the product's word: *moment* |
 | **3. Evidence** | Which data points made the moment, and how much did each count? | *Rate gap 38%, equity position 27%, local offers 21%, contact history 14%.* | The body of the film. The beat that makes this brand different |
 | **4. Action** | What does the advisor do now, and where is it recorded? | *On the advisor's list in the CRM, with the reasons. Logged.* | Closes the method, before the proof |
 
@@ -45,7 +45,7 @@ Every film, script and beat sheet runs in this order. It is the brand promise (*
 - **Never lead with the model.** "AI-powered propensity scoring" is a mechanism in the situation slot. Rewrite it as what is happening to the customer.
 - **Evidence is data, not adjectives.** Each evidence row names its layer (customer, property, market), the data point, and its weight. "Strong moments from multiple sources" is not evidence.
 - **Walkthroughs** are feature-led by design, but open on the job (situation) before the first control: *An advisor needs to know why a customer was flagged.*
-- **Check it first:** read the voice-over aloud. If a viewer would learn what Parcelwise *is* before they see one customer's situation, the order is wrong. If they could repeat the moment but not one reason behind it, the evidence beat is too thin.
+- **Check it first:** read the voice-over aloud. If a viewer would learn what Seekridge *is* before they see one customer's situation, the order is wrong. If they could repeat the moment but not one reason behind it, the evidence beat is too thin.
 
 ---
 
@@ -59,15 +59,15 @@ Every film shares the same type, grounds, panels and motion grammar. What change
 | Weighting | Product-heavy | Customer situation and evidence | One idea and one figure |
 | Reference film | `walkthrough-evidence-trail-16x9` | `story-fixed-rate-dach-16x9` | `statement-evidence-16x9` |
 | Length | 20–45 s | 45–60 s | 20–35 s |
-| Ground | Paper, survey grid on | Navy open and close, Paper body | Navy throughout |
-| Framing | One panel, cropped to the control the beat is about | Split beats: headline left (5 columns), panel right (7 columns) | Type, parcel drawings and figures; at most one panel |
+| Ground | Paper, map grid on | Navy open and close, Paper body | Navy throughout |
+| Framing | One panel, cropped to the control the beat is about | Split beats: headline left (5 columns), panel right (7 columns) | Type, ridge drawings and figures; at most one panel |
 | Headline | `headline-compact`, no full stop | `headline`, full stop | `title`, full stop |
 | Navigation aid | Step counter in the eyebrow (`STEP 2 / 5`) | ChapterRail: Situation · Moment · Evidence · Action | None |
-| Opens on | The first headline, straight on Paper | TitleCard: the situation as the hook | A parcel field drawing in, then the statement |
+| Opens on | The first headline, straight on Paper | TitleCard: the situation as the hook | A ridge field drawing in, then the statement |
 | Closes on | Two-line lockup on Paper, mark only | EndCard: lockup, the line, one action | EndCard |
 | Where it lives | Help centre, in-app onboarding, feature pages, sales follow-ups | Segment and persona pages, sales follow-ups, LinkedIn, event screens | Launch posts, conference openers, the top of a sales deck |
 
-**Choosing:** if the viewer already has Parcelwise and needs to *use* a feature, make a Walkthrough. If the viewer needs to *trust a moment enough to act on it*, make a Moment story. If the viewer needs to *notice one finding*, make a Statement.
+**Choosing:** if the viewer already has Seekridge and needs to *use* a feature, make a Walkthrough. If the viewer needs to *trust a moment enough to act on it*, make a Moment story. If the viewer needs to *notice one finding*, make a Statement.
 
 **One persona per film.** A Moment story is made for one of the four personas in [`../personas.md`](../personas.md) (VP of Mortgage Lending, Head of Credit Risk, Head of Home Insurance, Broker Team Lead) and one segment. Never one film for everybody.
 
@@ -86,13 +86,13 @@ A beat is one headline plus one change on screen. Default length 5 s (`beat`), r
 
 ### Moment story (9–12 beats, follows Situation → Moment → Evidence → Action)
 
-1. **TitleCard**, Navy, 0–5 s. The situation as a one-line hook over the parcel field drawing in. *Their fixed rate ends in four months.*
+1. **TitleCard**, Navy, 0–5 s. The situation as a one-line hook over the ridge field drawing in. *Their fixed rate ends in four months.*
 2. **Tension**, 1 beat. What happens today without the moment, on a Timeline. *By the time anyone notices, they've refinanced elsewhere.*
 3. **Situation into data**, 1 beat. The LayerStack builds: customer, property, market. *Three layers, one customer.*
 4. **Moment**, 1 beat. The MomentCard lands with the rank. *One moment, ranked third this week.*
 5. **Evidence**, 2–3 beats. The EvidenceTrail populates; FocusMarks close on the top row; weights grow. *Here's why it ranks third. / The rate gap counts most.*
 6. **Action**, 1–2 beats. The moment arrives in the CRM; the AuditLog writes the line. *On the advisor's list, with the reasons. / And on the record.*
-7. **Scale**, optional, 1 beat. ParcelField: the whole customer base as lots, the week's moments marked. *212 customers to call this week. Not 40,000.*
+7. **Scale**, optional, 1 beat. RidgeField: the whole customer base as a range of ridgelines, the week's moments marked. *212 customers to call this week. Not 40,000.*
 8. **Proof**, 1 beat, Navy. FigureCard with its source line. *68% refinanced within six months.*
 9. **EndCard**, Navy. Lockup, the line, one action, 3 s hold.
 
@@ -104,12 +104,12 @@ A segment page (banks, insurers, brokerages) gets one Moment story built around 
 2. **Customer one**: situation → moment → evidence (2 rows only) → action.
 3. **Customer two**, a different moment type: same order, faster (the viewer has learned the grammar).
 4. **Governance beat**: AuditLog plus one line for risk and compliance. *Every moment, explained and logged.*
-5. **Scale**: ParcelField.
+5. **Scale**: RidgeField.
 6. **Proof** and **EndCard**.
 
 ### Statement (5–7 beats)
 
-1. **ParcelField** draws in on Navy, no words for 1.5 s.
+1. **RidgeField** draws in on Navy, no words for 1.5 s.
 2. **The claim** as a `title`, up to three words in gold-light. *Most moments can't explain themselves.*
 3. **The turn**. *Ours show their evidence.*
 4. **One figure** with its source. *68% of flagged customers refinanced within six months.*
@@ -145,7 +145,7 @@ Headlines carry the film. Write them first, read them aloud, then design. Voice 
 - **Reason:** Ranked third. **Here's why.**
 - **Evidence:** The rate gap counts **most.**
 - **Record:** On the advisor's list. **With the reasons.**
-- **Scale:** 212 customers to call. Not 40,000. (No highlight: the ParcelField's gold lot is the frame's gold.)
+- **Scale:** 212 customers to call. Not 40,000. (No highlight: the RidgeField's gold point is the frame's gold.)
 - **Contrast:** Most moments can't explain themselves. **Ours show their evidence.**
 - **Governance:** Every moment, **explained and logged.**
 - **Lockup:** Every moment. / **Its reasons, on screen.**
@@ -168,7 +168,7 @@ Headlines carry the film. Write them first, read them aloud, then design. Voice 
 - **Paper** (`#F4F3EF`) for everything with product on it. Never white: panels are white so they read against it.
 - **Navy** (`#1A3A5C`) for title cards, statements, figures and end cards.
 - **Flat, always.** No gradients, glows, vignettes, blur, grain or depth of field. Depth comes from crop and dimming, never from light.
-- **Survey grid** (optional, Walkthroughs only): 1px `grid` hairlines every 96px on Paper. It is the drafting table the panel sits on. Never behind running text.
+- **Map grid** (optional, Walkthroughs only): 1px `grid` hairlines every 96px on Paper. It is the drafting table the panel sits on. Never behind running text.
 - **Changing ground** happens by a straight vertical wipe (`wipe`) or a cut, never a dissolve between grounds.
 
 ### Layout (1920 × 1080 master)
@@ -198,11 +198,11 @@ There is one gold per frame. It marks the thing the beat is about:
 | Navy | Text in gold-light `#D9A54B` (5.2:1) | Nothing else gold |
 | Paper | Words stay ink; a 6px gold bar draws under them | Nothing else gold, so the top evidence bar goes navy until the headline highlight has left |
 
-When a beat's point is a data point rather than a phrase, the gold moves into the panel instead: the top evidence weight bar, the gold lot in the ParcelField, the bar in the chart. Then the headline carries no highlight.
+When a beat's point is a data point rather than a phrase, the gold moves into the panel instead: the top evidence weight bar, the gold point in the RidgeField, the bar in the chart. Then the headline carries no highlight.
 
 ### Product UI in film
 
-- **Recreate, don't record.** Every panel is a cleaned rebuild of a real Parcelwise screen (section 11), drawn in code from these tokens.
+- **Recreate, don't record.** Every panel is a cleaned rebuild of a real Seekridge screen (section 11), drawn in code from these tokens.
 - **Flat panels.** White surface, 1px `panel-line` border, 4px corners, no shadow. The border traces in before the content appears.
 - **Crop to the component.** A panel fills 50–60% of the frame width in split beats, up to 85% in full beats. Never a whole app window with its navigation.
 - **Film density.** Rows are 72px, values 26px: twice the web app's size. Keep 4–6 rows per panel.
@@ -219,37 +219,37 @@ The brand palette has no categorical hues, so films never colour-code the data l
 | Layer | Label | Icon | Typical evidence rows |
 |---|---|---|---|
 | Customer data | `CUSTOMER` | `icon-customer` | Fixed rate end date, product holding, contact history, tenure |
-| Property data | `PROPERTY` | `icon-parcel` | Valuation, valuation change since purchase, rebuild cost, energy rating |
+| Property data | `PROPERTY` | `icon-property` | Valuation, valuation change since purchase, rebuild cost, energy rating |
 | Market data | `MARKET` | `icon-market` | Rate gap to market, local price movement, competitor offers in the area |
 
 Weights are navy bars on a `bar-track`; the row that counts most gets the gold bar. Weights in an evidence trail always add up to 100.
 
 ### Drawings
 
-- The **parcel field** is the only illustration: land divided by straight lines, one lot filled gold, top-right, as in the logomark. Lines are Paper at 35% on Navy, Navy at 18% on Paper.
-- **Plan drawings** for concepts with no screen (a house's footprint, a street of lots, a customer base as a field): 3px strokes, square ends, straight lines and right angles only. Dashed means *expected* (a rate reset date, a projected value); solid means *now*.
+- The **ridge field** is the only illustration: ridgelines drawn in straight segments, one summit marked with a gold point, as in the logomark. Lines are Paper at 35% on Navy, Navy at 18% on Paper.
+- **Plan drawings** for concepts with no screen (a house's footprint, a row of houses, a customer base as a field): 3px strokes, square ends, straight lines and right angles only. Dashed means *expected* (a rate reset date, a projected value); solid means *now*.
 - Icons are the 15 line icons in [`../design-system/`](../design-system), scaled to 48px with the stroke at 2.5px.
-- **No people.** No illustrated advisors, hands, phones held in hands, faces, offices or city skylines. The customer is an ID and a lot.
+- **No people.** No illustrated advisors, hands, phones held in hands, faces, offices or city skylines. The customer is an ID and a point.
 
 ---
 
 ## 5. Motion grammar
 
-Motion is a surveyor drawing a plan: straight lines, exact, no bounce. Everything moves on one curve, `cubic-bezier(0.2, 0, 0, 1)`. Nothing spins, flips, pops, blurs, glows or slides in from off-screen.
+Motion is a guide tracing a ridgeline: straight lines, exact, no bounce. Everything moves on one curve, `cubic-bezier(0.2, 0, 0, 1)`. Nothing spins, flips, pops, blurs, glows or slides in from off-screen.
 
 | Move | How | Token |
 |---|---|---|
 | Line in | Each headline line rises 24px out of a mask on its own baseline; lines, not words | `line-in`, `line-stagger` |
 | Highlight | On Paper, the gold bar draws under the highlighted words left to right as their line lands; on Navy, the gold words simply arrive with their line | `highlight-in` |
-| Draw | Parcel lines, plan drawings, chart lines and the timeline track draw their stroke, consecutive lines staggered | `draw`, `draw-stagger` |
-| Lot fill | After its lines, the one lot fills with gold from the bottom edge up: the signature move | `lot-fill` |
+| Draw | Ridge lines, plan drawings, chart lines and the timeline track draw their stroke, consecutive lines staggered | `draw`, `draw-stagger` |
+| Point fill | After its lines, the one gold point fills from the bottom edge up: the signature move | `lot-fill` |
 | Frame trace | A panel's hairline border traces clockwise from the top-left; then its content fades in | `frame-trace`, `content-in` |
 | Populate | Rows appear top to bottom, each fading in and settling 8px | `row-stagger` |
 | Weigh | Each evidence bar grows from the left to its exact weight; the weight figure counts up with it | `bar-grow` |
 | Count | Figures count up and land on the exact value, tabular numerals so nothing jitters | `count` |
 | Focus | FocusMarks close in from 40px outside the element; the rest of the panel dims | `focus-in`, `dim` |
 | Type | A mono log line types in, character by character, then its status badge appears | `type` |
-| Mark | A lot in the ParcelField fills gold, or a row gets the gold bar: the moment a thing is chosen | `lot-fill` |
+| Mark | A point in the RidgeField fills gold, or a row gets the gold bar: the moment a thing is chosen | `lot-fill` |
 | Wipe | Ground changes Paper ↔ Navy as a hard vertical edge moving left to right | `wipe` |
 | Camera | One straight move per beat at most: a push-in to `drift` (1.03) on a panel, linear. Never on type-only frames | `drift` |
 | Out | A beat's content fades out; the ground stays; the next beat draws in on it | `fade-out` |
@@ -290,7 +290,7 @@ The market is chosen per film and sets language, number format, currency, voice 
 
 ## 7. Sound, voice-over and captions
 
-A Parcelwise film must work fully muted: most are watched that way in a feed or on a stand screen. Sound adds calm, never energy.
+A Seekridge film must work fully muted: most are watched that way in a feed or on a stand screen. Sound adds calm, never energy.
 
 **Voice-over**
 
@@ -300,7 +300,7 @@ A Parcelwise film must work fully muted: most are watched that way in a feed or 
 | Pace | Calm: about 2.4 words a second in English (2.1 in German and Dutch, 2.3 in the Nordic languages), with pauses. A 50-second Moment story holds 95–110 English words |
 | Shape | Short declarative sentences, one or two a beat, landing on the change they describe. 0.3 s between sentences, 0.5 s before the evidence and before the figure |
 | Silence | No speech over the first 1.5 s of the TitleCard or the last 2 s of the EndCard |
-| Voice | One approved voice per language, the same in every film, so Parcelwise always sounds like one person: a measured, precise peer. No announcer lift, no sales energy, no smile in the voice on figures |
+| Voice | One approved voice per language, the same in every film, so Seekridge always sounds like one person: a measured, precise peer. No announcer lift, no sales energy, no smile in the voice on figures |
 | Engine | Synthetic voice allowed (one licensed voice per language); a recorded read for flagship films. Generate the voice first, measure every sentence, then time scenes and captions from those measurements |
 | Persona | Address the professional (*your customers*, *your advisors*), never the customer |
 
@@ -310,7 +310,7 @@ A Parcelwise film must work fully muted: most are watched that way in a feed or 
 |---|---|
 | Voice-over | Leads; full mix at −16 LUFS integrated, −1 dBTP true peak |
 | Music | Optional. Sparse and even (piano, soft pulse), ducked 10–12 dB under the voice, no build-ups, no drops |
-| Sound design | One soft tick when the gold lot fills or a lot is marked. Nothing on cuts, wipes or row reveals. No whooshes |
+| Sound design | One soft tick when the gold point fills or a point is marked. Nothing on cuts, wipes or row reveals. No whooshes |
 
 **Captions, always.** Every cut of every film carries burnt-in captions of the voice-over, or of the on-screen story where there is no voice-over.
 
@@ -346,7 +346,7 @@ The default persona film. Reference: [`assets/Films/story-fixed-rate-dach-16x9.m
 
 | Time | Beat | Headline | On screen | Chapter |
 |---|---|---|---|---|
-| 0.0–5.0 s | TitleCard | Their fixed rate ends in four months. | Navy; parcel field draws in from the right, the lot fills gold; lockup top-left; hook as `title` | — |
+| 0.0–5.0 s | TitleCard | Their fixed rate ends in four months. | Navy; ridge field draws in from the right, the gold point fills; lockup top-left; hook as `title` | — |
 | 5.0–10.0 s | Tension | By the time anyone notices, **they've moved.** | Wipe to Paper; Timeline: Today → Rate ends 2027-03-31 (dashed) → Refinanced elsewhere (marked) | Situation |
 | 10.0–16.0 s | Layers | Three layers. **One customer.** | LayerStack: customer, property, market rows draw in and resolve into one line | Situation |
 | 16.0–21.5 s | Moment | One moment, **ranked third.** | MomentCard: Refinance risk · Customer 40-1187 · Rank 3 of 212 | Moment |
@@ -390,14 +390,14 @@ How to build one is in [`skill.md`](./skill.md); the reference films' sources ar
 
 ## 11. Product interface reference
 
-The Parcelwise web app, screen by screen, and what each gives a film. The screens are in [`assets/Product UI/`](./assets/Product%20UI) (recreated November 2026, demo data). Rebuild from them; never screen-record.
+The Seekridge web app, screen by screen, and what each gives a film. The screens are in [`assets/Product UI/`](./assets/Product%20UI) (recreated November 2026, demo data). Rebuild from them; never screen-record.
 
 | Area | Screen | What it proves | Film use |
 |---|---|---|---|
 | Moments | 01 Moments this week | Moments ranked for one book, with moment type, customer ID, rank and top reason | Moment beat; scale beat |
 | Moments | 02 Moment detail | One moment with its full evidence trail: layer, data point, value, weight, summing to 100 | MomentCard, EvidenceTrail |
 | Customer | 03 Customer record | The three layers for one customer side by side | LayerStack |
-| Coverage | 04 Coverage Map | Where in the book moments cluster, by postcode area | ParcelField, Statement |
+| Coverage | 04 Coverage Map | Where in the book moments cluster, by postcode area | RidgeField, Statement |
 | Action | 05 CRM sync | Which moments went to which team's CRM queue, and when | Action beat |
 | Governance | 06 Audit log | Every view, export and action on a moment, timestamped | AuditLog |
 | Proof | 07 Backtest report | How past moments performed on the client's own book, with method and period | FigureCard, BacktestChart |
@@ -415,7 +415,7 @@ The Parcelwise web app, screen by screen, and what each gives a film. The screen
 |---|---|
 | One customer, one moment, one point per beat | Two panels changing at once |
 | Show the evidence trail every time a moment is on screen | A moment badge with nothing behind it |
-| Draw lines, then fill the one gold lot | Gold on more than one thing in a frame |
+| Draw lines, then fill the one gold point | Gold on more than one thing in a frame |
 | Keep grounds flat, panels white and hairlined | Gradients, glows, blur, drop shadows, glassy cards |
 | Square corners, 4px at most | Pills, rounded bubbles, 20px card corners |
 | Left-align headlines at the margin | Centred headlines over centred cards (except end cards) |
@@ -453,7 +453,7 @@ The Parcelwise web app, screen by screen, and what each gives a film. The screen
 | [`films/`](./films) | The HTML sources of the three reference films and the render script |
 | [`assets/Films/`](./assets/Films) | The rendered reference films (MP4) and their caption sidecars (SRT) |
 | [`assets/Stills/`](./assets/Stills) | One reference frame per pattern, and the contact sheet |
-| [`assets/Product UI/`](./assets/Product%20UI) | The eight Parcelwise screens films rebuild from |
+| [`assets/Product UI/`](./assets/Product%20UI) | The eight Seekridge screens films rebuild from |
 | [`assets/Logos/`](./assets/Logos) | The lockup, reversed lockup and mark used in films |
 | [`skill.md`](./skill.md) | The Claude skill that writes a beat sheet and builds a film from this system |
 | [`example.md`](./example.md) | A worked brief → beat sheet → voice-over → captions → render, for the reference Moment story |

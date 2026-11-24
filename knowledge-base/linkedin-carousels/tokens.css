@@ -1,17 +1,17 @@
-/* Parcelwise LinkedIn carousels — generated from tokens.json */
+/* Seekridge LinkedIn carousels — generated from tokens.json */
 :root, [data-theme="brand"] {
-  --navy: #1a3a5c; /* Parcelwise Navy. The flat ground of covers, statements, figures and closes; headings and accents on paper slides. Paper on navy is 10.5:1. */
+  --navy: #1a3a5c; /* Seekridge Navy. The flat ground of covers, statements, figures and closes; headings and accents on paper slides. Paper on navy is 10.5:1. */
   --navy-deep: #16324a; /* Darker navy from the reversed logo. Flat panels on a navy slide (layer cards, the evidence panel), always with a paper-35 hairline, because navy-deep on navy is only 1.1:1. */
   --paper: #f4f3ef; /* Paper. All text on navy; the flat ground of proof slides (screenshots, tables, charts). Navy on paper is 10.5:1. */
   --paper-72: #f4f3efb8; /* Secondary line under a title on navy, captions under figures (6.3:1 on navy). One supporting style per slide; 32px or larger. */
-  --paper-35: #f4f3ef59; /* Hairlines, motif lines, empty lots in the slide counter and weight-bar tracks on navy. Decorative only (2.7:1): never text. */
-  --gold-light: #d9a54b; /* The gold on navy (5.2:1): up to 3 highlighted words, the filled lot in a motif, the top weight in an evidence trail. A slide's one gold element. */
-  --gold: #c1892e; /* Meridian Gold on paper: shapes only (a lot, a 6px underline, the top weight bar). Never text on paper (2.75:1). A slide's one gold element. */
+  --paper-35: #f4f3ef59; /* Hairlines, motif lines, empty squares in the slide counter and weight-bar tracks on navy. Decorative only (2.7:1): never text. */
+  --gold-light: #d9a54b; /* The gold on navy (5.2:1): up to 3 highlighted words, the gold point in a motif, the top weight in an evidence trail. A slide's one gold element. */
+  --gold: #c1892e; /* Meridian Gold on paper: shapes only (a point, a 6px underline, the top weight bar). Never text on paper (2.75:1). A slide's one gold element. */
   --ink: #1c1c1a; /* Text on paper and in white cards and frames (15.4:1 on paper). */
   --ink-muted: #5b6470; /* Secondary text, source lines and labels on paper (5.4:1) and in white cards (6.0:1). */
   --white: #ffffff; /* Screenshot frames and white cards, on either ground. Always with a hairline border on paper; never a shadow. */
   --line: #e1e0d9; /* Hairline borders of frames and cards on paper, skeleton bars inside mock-ups, weight-bar tracks on paper. Decorative only. */
-  --slate: #8a8782; /* Inactive lots and outlines on paper (3.2:1). Never body text. */
+  --slate: #8a8782; /* Inactive squares and outlines on paper (3.2:1). Never body text. */
   --shadow-none: none; /* No shadows, glows or blurs on slides. Separation comes from hairlines and flat grounds. */
 }
 :root {
@@ -22,11 +22,11 @@
   --lockup-width: 320px; /* Width of the lockup on covers and closes (80px tall); top-left at the margin, or centred on closes. */
   --mark-size: 56px; /* The mark, bottom-right at the margin on every slide but the cover and the close. */
   --arrow-width: 160px; /* The swipe arrow (160 × 48), bottom-right, 32px left of the mark; at the margin on covers, where there is no mark. */
-  --lot-size: 16px; /* One lot in the slide counter's strip; 8px apart. One lot per slide, the current one filled. */
-  --radius-badge: 2px; /* Layer tags and lots: nearly square, like the logomark's lot. */
+  --lot-size: 16px; /* One square in the slide counter's strip; 8px apart. One square per slide, the current one filled. */
+  --radius-badge: 2px; /* Layer tags and squares: nearly square corners. */
   --radius-button: 4px; /* The CTA button. The maximum for anything that looks clickable. */
   --radius-frame: 6px; /* Screenshot frames, white cards, navy-deep panels and headshots: the logomark's corner. Never larger, never pill-shaped. */
-  --line-canvas: 2px; /* Hairlines on the canvas: frame and card borders, eyebrow rules, motif lines, outlined lots. (1px disappears at phone scale.) */
+  --line-canvas: 2px; /* Hairlines on the canvas: frame and card borders, eyebrow rules, motif lines, outlined squares. (1px disappears at phone scale.) */
   --stroke-arrow: 4px; /* The swipe arrow: the icon set's 1.75px on 24px, scaled to the canvas, square caps. */
   --rule-emphasis: 6px; /* The gold underline under up to 3 words on a paper slide. */
   --line-outline-card: 2px; /* The outlined card for the belief in Myth vs method: paper-35 on navy, slate on paper, no fill. */
@@ -50,7 +50,7 @@
   --text-eyebrow: 500 28px/36px var(--font-mono); /* Series or topic label above a heading, top-left. Set uppercase in CSS (letter-spacing 0.08em), typed in sentence case. The one all-caps element. */
   --text-data-label: 500 32px/40px var(--font-mono); /* Weights, layer tags and figures inside evidence rows and tables. Tabular figures. */
   --text-source: 400 28px/36px var(--font-mono); /* The source line under every figure, chart and screenshot. Paper-72 on navy, ink-muted on paper. */
-  --text-counter: 400 28px/36px var(--font-mono); /* The slide counter bottom-left, beside the lot strip. Tabular figures. */
+  --text-counter: 400 28px/36px var(--font-mono); /* The slide counter bottom-left, beside the square strip. Tabular figures. */
 }
 .title-cover {
   font-family: var(--font-display);

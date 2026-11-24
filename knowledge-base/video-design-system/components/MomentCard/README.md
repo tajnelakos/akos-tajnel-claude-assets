@@ -19,4 +19,4 @@ One moment for one customer, as the product shows it in *Moments this week*: wha
 
 **Provide.** Moment name, customer ID, product line, rank and total, the top two evidence rows.
 
-**Avoid.** A score out of 100 (*92% likely*): Parcelwise ranks, and shows why; a customer name; a red or green colour for the moment itself.
+**Avoid.** A score out of 100 (*92% likely*): Seekridge ranks, and shows why; a customer name; a red or green colour for the moment itself.

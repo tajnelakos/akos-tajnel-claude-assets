@@ -1,4 +1,4 @@
-# Writing for Parcelwise flyers
+# Writing for Seekridge flyers
 
 The voice rules are in [`../branding-guideline/skill.md`](../branding-guideline/skill.md) and the mechanics in [`../design-system/writing.md`](../design-system/writing.md). This file covers what is different on paper: less room, no link to click, and a reader who decides in a few seconds whether to keep the piece.
 
@@ -9,7 +9,7 @@ The voice rules are in [`../branding-guideline/skill.md`](../branding-guideline/
 | Eyebrow | 2–5 words, names the reader | For mortgage lenders |
 | Claim (trifold front) | Up to 12 words, one idea per line | Know which customers to call this month. And why. |
 | Statement (postcard front) | Up to 8 words | The moment you can explain. |
-| Supporting line | One sentence, up to 25 words | Parcelwise shows which of your existing customers to talk to next, and why. |
+| Supporting line | One sentence, up to 25 words | Seekridge shows which of your existing customers to talk to next, and why. |
 | Problem | Two short paragraphs in the reader's world | Fixed rates end, equity grows and a local lender cuts its two-year rate… |
 | Pillars | Title as the claim, body as its proof | Explainable by design · Every moment shows the data points behind it… |
 | Benefits | Up to 8 words each, written as outcomes | Risk signs off the method, not each list |
@@ -64,5 +64,5 @@ German runs about 30% longer than English. Write the German claim first when a p
 
 ## Small print
 
-- Every piece carries "Parcelwise is a fictional company. All figures are illustrative." while Parcelwise is a portfolio brand.
+- Every piece carries "Seekridge is a fictional company. All figures are illustrative." while Seekridge is a portfolio brand.
 - Dates in prose: 24 November 2026. In data rows: 2026-11-24.

@@ -1,4 +1,4 @@
-/* Parcelwise design tokens, generated from tokens.json. Light is the default; set data-theme="dark" on <html> for dark. */
+/* Seekridge design tokens, generated from tokens.json. Light is the default; set data-theme="dark" on <html> for dark. */
 :root, [data-theme="light"] {
   --navy: #1A3A5C;
   --navy-deep: #16324A;

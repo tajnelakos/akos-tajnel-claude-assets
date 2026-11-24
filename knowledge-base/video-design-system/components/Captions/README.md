@@ -1,10 +1,10 @@
 # Captions
 
-Burnt-in captions of the voice-over, on every cut of every film, with or without sound. Most Parcelwise films are watched muted.
+Burnt-in captions of the voice-over, on every cut of every film, with or without sound. Most Seekridge films are watched muted.
 
 **Style.** `caption` (IBM Plex Sans 500, 44/56px at 1080p) in `caption-ink` on the `caption-band`, square corners, 32px horizontal padding. On Navy frames the band inverts: Paper at 96% with ink text, because a navy band disappears on the Navy ground.
 
-**Position.** Left-aligned at the 96px margin (not centred: every Parcelwise frame reads from the left). The band's bottom edge sits at `caption-bottom`, 160px above the frame bottom; the ChapterRail sits underneath.
+**Position.** Left-aligned at the 96px margin (not centred: every Seekridge frame reads from the left). The band's bottom edge sits at `caption-bottom`, 160px above the frame bottom; the ChapterRail sits underneath.
 
 | Rule | Detail |
 |---|---|

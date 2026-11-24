@@ -1,6 +1,6 @@
 # Components
 
-Guidelines for the Parcelwise components. Styles live in [`components.css`](./components.css) (classes prefixed `pw-`, reading the variables in [`tokens.css`](./tokens.css)); every component is rendered in [`components.html`](./components.html).
+Guidelines for the Seekridge components. Styles live in [`components.css`](./components.css) (classes prefixed `pw-`, reading the variables in [`tokens.css`](./tokens.css)); every component is rendered in [`components.html`](./components.html).
 
 ## Button
 
@@ -102,7 +102,7 @@ The signature product surface: one moment, the customer it points at, and the ev
 
 ## PricingTier
 
-The three brokerage tiers, Plot, Block and Estate, side by side.
+The three brokerage tiers, Base, Ridge and Summit, side by side.
 
 **You provide:** the tier name (only these three), who it's for and the billing basis in mono, 2–5 included items as literal feature names, and one action.
 
@@ -119,7 +119,7 @@ LinkedIn carousel slides on the 1080 × 1350 canvas: a navy cover and a paper pr
 
 **Build rules**
 - Grounds: `navy` or `paper` only, flat. `canvas-margin` 96px on every side.
-- Cover: lockup top-left, `parcel-grid` motif anchored top-right, title in Archivo 800 at 104px, swipe arrow bottom-right at the margin.
+- Cover: lockup top-left, `ridge-lines` motif anchored top-right, title in Archivo 800 at 104px, swipe arrow bottom-right at the margin.
 - Middle slides: mono eyebrow top-left, heading Archivo 700 at 60px, body Plex Sans 40px, mark bottom-right with the swipe arrow 32px to its left, counter bottom-left.
 - Highlight up to 3 words in `gold-light` on navy only.
 - Product proof sits in a white frame with a hairline border and 6px corners; mock-ups use skeleton bars, not invented customer data.
@@ -133,9 +133,9 @@ Key frames for product videos on the 1920 × 1080 master: the title card and a s
 **You provide:** one segment and persona, a hook line for the title card that names the customer situation, the product screens to rebuild (see [`../video-design-system/`](../video-design-system) for the full film components), caption text (2 lines max, 42 characters a line) and a closing action.
 
 **Build rules**
-- Title card: navy, `parcel-grid` motif bleeding off the right, lockup top-left, Archivo 800 at 112px.
+- Title card: navy, `ridge-lines` motif bleeding off the right, lockup top-left, Archivo 800 at 112px.
 - Recording frames: paper ground, product in a white hairline frame, the mark 48px bottom-right.
 - Captions: Plex Sans 500 at 44px, Paper on navy at 90%, at least 160px above the bottom edge.
-- Motion: lines draw in (800ms), then the gold lot fills; standard ease, no bounce.
+- Motion: lines draw in (800ms), then the gold point fills; standard ease, no bounce.
 
 **Don't:** stock footage, gradients, glitch or 3D transitions, real customer names or data on screen.

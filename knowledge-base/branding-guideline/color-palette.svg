@@ -4,7 +4,7 @@
   <!-- Row 1: Primary / Secondary / Neutral dark / Neutral mid -->
   <text x="24" y="28" font-size="13" fill="#5B6470" letter-spacing="1">PRIMARY</text>
   <rect x="24" y="40" width="150" height="90" fill="#1A3A5C"/>
-  <text x="24" y="148" font-size="14" fill="#1C1C1A" font-weight="700">Parcelwise Navy</text>
+  <text x="24" y="148" font-size="14" fill="#1C1C1A" font-weight="700">Seekridge Navy</text>
   <text x="24" y="166" font-size="12" fill="#5B6470">#1A3A5C</text>
 
   <text x="204" y="28" font-size="13" fill="#5B6470" letter-spacing="1">SECONDARY</text>

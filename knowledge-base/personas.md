@@ -1,4 +1,4 @@
-# Buyer Personas — Parcelwise
+# Buyer Personas — Seekridge
 
 Expands the persona list in [`knowledge-base.md`](./knowledge-base.md). Where [`icp.md`](./icp.md) names *which roles* sit on a buying committee and what's generally at stake for each, this document is what those roles actually think, say, and respond to — used by prompts/skills that need to tailor tone, structure, or emphasis to who's actually reading, not just confirm they exist. See [`sales-deck-builder`](../sales-tools/sales-deck-builder), [`persona-email-sequence`](../marketing-assets/persona-email-sequence), [`abm-account-brief`](../sales-tools/abm-account-brief), and [`sales-call-analysis`](./sales-call-analysis) for where this gets applied.
 
@@ -22,7 +22,7 @@ A deal rarely has one persona in the room — it has several, often with real te
 
 - **Head of Credit Risk vs. VP of Mortgage Lending** is the most common live tension: lending wants more opportunities worked faster, risk wants to know why each customer was chosen, and neither will say the other's priority doesn't matter. The rep's job is to show the two aren't actually in conflict (a moment that shows its evidence *is* a moment advisors act on faster, and one risk can approve once instead of campaign by campaign), not to pick a side. See the [Meridian Savings call](../knowledge-base/sales-call-analysis/call-02-meridian-savings.md) for this playing out directly.
 - **Data & CRM Lead is usually an ally, not a gatekeeper**, if engaged early — they want to be the one who validated the tool properly, and a rep who treats them as a rubber stamp loses that alliance. See the [Meadowbrook Financial call](../knowledge-base/sales-call-analysis/call-13-meadowbrook-financial.md), where the data team's own evaluation rigor became the rep's strongest lever.
-- **IT Security Lead answers to a different, often invisible-until-late master**: a specific regulator or internal data-governance policy, not the deal's momentum. Because Parcelwise works with the client's own customer data, they are the one persona here who can end a deal that every other stakeholder wants to close — see the [Solvane Lending Group call](../knowledge-base/sales-call-analysis/call-10-solvane-lending-group.md).
+- **IT Security Lead answers to a different, often invisible-until-late master**: a specific regulator or internal data-governance policy, not the deal's momentum. Because Seekridge works with the client's own customer data, they are the one persona here who can end a deal that every other stakeholder wants to close — see the [Solvane Lending Group call](../knowledge-base/sales-call-analysis/call-10-solvane-lending-group.md).
 - **Vendor Risk & Compliance moves on its own clock**, largely deaf to sales urgency, and reacts badly to being chased directly rather than through the internal champion — see the [Thornfield Mutual call](../knowledge-base/sales-call-analysis/call-14-thornfield-mutual.md).
 
 ---
@@ -163,7 +163,7 @@ A deal rarely has one persona in the room — it has several, often with real te
 
 ## IT Security Lead (infrastructure gatekeeper)
 
-**Buying psychology:** Not swayed by product enthusiasm from other stakeholders — answers to a data-governance policy or regulator, not the deal's momentum. Genuinely willing to end a deal everyone else wants, and doesn't experience that as a loss. Sharing customer data with a vendor puts this persona at the center of every Parcelwise deal.
+**Buying psychology:** Not swayed by product enthusiasm from other stakeholders — answers to a data-governance policy or regulator, not the deal's momentum. Genuinely willing to end a deal everyone else wants, and doesn't experience that as a loss. Sharing customer data with a vendor puts this persona at the center of every Seekridge deal.
 
 **Pain, in their language:** *"That's not a small gap for us — it's a hard requirement, not a nice-to-have."* *"I've had vendors dodge this question before, so directness helps."*
 

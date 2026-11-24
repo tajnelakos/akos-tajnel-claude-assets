@@ -1,12 +1,12 @@
 # Writing for carousels
 
-Parcelwise's wording rules ([`../design-system/writing.md`](../design-system/writing.md) and the voice in [`../branding-guideline/skill.md`](../branding-guideline/skill.md)) applied to a slide that is read in two seconds on a phone. Where a carousel needs something those files don't cover, these rules win.
+Seekridge's wording rules ([`../design-system/writing.md`](../design-system/writing.md) and the voice in [`../branding-guideline/skill.md`](../branding-guideline/skill.md)) applied to a slide that is read in two seconds on a phone. Where a carousel needs something those files don't cover, these rules win.
 
 ## The golden rules on a slide
 
 | Rule | On a carousel | Do | Don't |
 |---|---|---|---|
-| Name one reader's situation | One persona per carousel; the cover names their situation or a fact | "Which customers will refinance elsewhere?" | "Discover the Parcelwise platform" |
+| Name one reader's situation | One persona per carousel; the cover names their situation or a fact | "Which customers will refinance elsewhere?" | "Discover the Seekridge platform" |
 | Mechanism, not adjective | Each slide names what the product does, checks or shows | "Shows the rate reset, the equity and the market behind each moment" | "Transparent, AI-powered insights" |
 | Explain any AI claim | Say what the model combines and that each weight is shown, or leave AI out | "Combines the rate end date, equity and local prices, and shows each weight" | "Powered by advanced AI" |
 | Benefit, then feature | The heading says what the reader can now do; the feature name goes in the eyebrow or the caption | Heading: "The reason, written from the evidence" · eyebrow: "Evidence Trail" | Heading: "Evidence Trail now has reason lines" |
@@ -47,10 +47,10 @@ When a line doesn't fit, cut words before you change the style. Step down a styl
 
 ## Names
 
-- **Parcelwise**: one word, capital P only, never with an article ("Parcelwise backtests every moment model").
+- **Seekridge**: one word, capital P only, never with an article ("Seekridge backtests every moment model").
 - **Feature names** are literal and capitalised as names: Evidence Trail, Coverage Map. No article in English; German and Dutch use one ("der Evidence Trail", "de Coverage Map").
-- **Tiers** (Plot, Block, Estate) appear only on pricing posts.
-- **The three data layers** are always named in this order and these words: property data, market data, customer data. The icons follow the same order: parcel, market, customer.
+- **Tiers** (Base, Ridge, Summit) appear only on pricing posts.
+- **The three data layers** are always named in this order and these words: property data, market data, customer data. The icons follow the same order: property, market, customer.
 - **Terms**: moment (not lead, insight or alert) · evidence trail (not explainability report) · audit log (not activity feed) · customer base (not database) · valuation, as one data point inside a moment (not appraisal or estimate) · bank, lender, insurer or brokerage (not client) · automated valuation model (AVM), spelled out on first use or left for the caption.
 
 ## Case

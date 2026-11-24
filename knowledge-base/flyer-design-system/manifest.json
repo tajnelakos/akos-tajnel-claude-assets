@@ -1,7 +1,7 @@
 {
   "manifestVersion": 3,
-  "name": "Parcelwise flyers",
-  "namespace": "ParcelwiseFlyers",
+  "name": "Seekridge flyers",
+  "namespace": "SeekridgeFlyers",
   "files": [
     "assets/Arrows/README.md",
     "assets/Examples/README.md",
@@ -54,12 +54,12 @@
     {
       "name": "Logo",
       "group": "Surfaces",
-      "summary": "The Parcelwise lockup and mark with an outlined wordmark and transparent ground, ready for print. Files are in the Logos asset group."
+      "summary": "The Seekridge lockup and mark with an outlined wordmark and transparent ground, ready for print. Files are in the Logos asset group."
     },
     {
       "name": "NavyGround",
       "group": "Surfaces",
-      "summary": "Flat Parcelwise Navy is the brand's front-of-piece surface: every trifold front and back, every postcard front and recto flyer. Paper carries everything with detail."
+      "summary": "Flat Seekridge Navy is the brand's front-of-piece surface: every trifold front and back, every postcard front and recto flyer. Paper carries everything with detail."
     },
     {
       "name": "Benefit",
@@ -89,7 +89,7 @@
     {
       "name": "LayerDiagram",
       "group": "Content",
-      "summary": "The flyer version of how a moment is built: three square layer chips on the left, joined by hairlines into one moment box with the gold lot in its corner. It replaces orbiting chips and glowing hero objects: the brand shows the method, not a halo."
+      "summary": "The flyer version of how a moment is built: three square layer chips on the left, joined by hairlines into one moment box with the gold point in its corner. It replaces orbiting chips and glowing hero objects: the brand shows the method, not a halo."
     },
     {
       "name": "Step",

@@ -10,7 +10,7 @@ The A4 roll-fold leaflet (297 × 210 mm, folded to 100 × 210 mm): the main piec
 
 | Panel | Ground | Built from |
 |---|---|---|
-| Front | navy | `Logo` lockup top-left, parcel-grid motif top-right, eyebrow naming the reader, `tri-claim` (up to 12 words, up to three in gold), one `tri-body` line, web address at the foot |
+| Front | navy | `Logo` lockup top-left, ridge-lines motif top-right, eyebrow naming the reader, `tri-claim` (up to 12 words, up to three in gold), one `tri-body` line, web address at the foot |
 | Back | navy | the next step: `tri-heading`, one line on what happens, `ContactBlock` at the foot. No logo: the front carries it |
 | Flap back | paper | the three pillars as `FeaturePanel`s, the fictional-company line as a `source` at the foot |
 | Inside 1 | paper | the problem in the reader's words, a pull line, then `Benefit` ×4 anchored to the foot |
@@ -20,7 +20,7 @@ The A4 roll-fold leaflet (297 × 210 mm, folded to 100 × 210 mm): the main piec
 **The consumer provides:** the reader (one persona per piece), the claim, three pillars, the problem, the steps, one moment with its evidence and up to two sourced figures, and the one action with its URL.
 
 - Do align the lower blocks across the inside spread (`margin-top:auto`), so the three panels share a top and a bottom line.
-- Do keep one gold element per panel. The logo's lot does not count.
+- Do keep one gold element per panel. The logo's gold point does not count.
 - Do keep every text block 8 mm (`space-4`) from folds and trim; the fold eats about 1 mm each side.
 - Don't run a figure, sentence or diagram across a fold.
 - Don't put the logo on more than one outside panel.

@@ -1,14 +1,14 @@
-# Positioning — Parcelwise
+# Positioning — Seekridge
 
 Used by prompts/skills that generate customer-facing content — see [`sales-deck-builder`](../sales-tools/sales-deck-builder), [`branding-guideline`](./branding-guideline), and [`abm-account-brief`](../sales-tools/abm-account-brief) (which picks the specific angle below that fits a named account, rather than the general pitch).
 
 ## Market category
 
-Parcelwise doesn't try to create a new category. "Customer intelligence" and "next-best-offer" are established, understood terms in banking and insurance, and fighting that understanding would cost more than it earns. The positioning instead claims a **sub-category within it**: not "another propensity score," but "the moment you can explain," treating the evidence behind each opportunity as core infrastructure rather than a bolt-on feature. This is a deliberate choice — category creation is expensive and slow, and the market is already primed to ask the right question (see [`competitive-landscape.md`](./competitive-landscape.md)'s Market Patterns, where two competitors independently started reaching for the same "explainable" language this period — the sub-category is becoming contested, not proprietary).
+Seekridge doesn't try to create a new category. "Customer intelligence" and "next-best-offer" are established, understood terms in banking and insurance, and fighting that understanding would cost more than it earns. The positioning instead claims a **sub-category within it**: not "another propensity score," but "the moment you can explain," treating the evidence behind each opportunity as core infrastructure rather than a bolt-on feature. This is a deliberate choice — category creation is expensive and slow, and the market is already primed to ask the right question (see [`competitive-landscape.md`](./competitive-landscape.md)'s Market Patterns, where two competitors independently started reaching for the same "explainable" language this period — the sub-category is becoming contested, not proprietary).
 
 ## Competitive alternatives
 
-What a prospect does instead of buying Parcelwise, in rough order of how often it's the actual alternative:
+What a prospect does instead of buying Seekridge, in rough order of how often it's the actual alternative:
 
 1. **Another data or scoring vendor** (Bricklane Data, Estemate, ValuAI, or occasionally PropIQ in brokerage deals) — the most common alternative, see [`competitive-landscape.md`](./competitive-landscape.md) for the full battlecard set.
 2. **Campaigns built by hand from the CRM** — a marketing or sales team pulling lists by simple rules (rate-reset date, policy anniversary, postcode). More common at smaller Tier 2 accounts or ones without a data team (see [`icp.md`](./icp.md)'s Anti-ICP section); the pitch here is about the opportunities those rules miss and the lack of any record of why a customer was chosen, not a better list.
@@ -19,7 +19,7 @@ What a prospect does instead of buying Parcelwise, in rough order of how often i
 
 Banks, insurers, and brokerages already hold most of the data they need to grow: who their customers are, what they own, and when their contracts end. What they lack is a way to combine that with what's happening to the property and the market, and to act on it before a competitor does. Over the last decade, "AI-powered" tools promised exactly that — and delivered scores nobody could explain. Regulators, risk teams, and front-line advisors are now asking a harder question: *why this customer, and why now?* Most tools can't answer beyond "the model said so."
 
-Parcelwise's narrative is not "we find more leads" (most credible vendors can produce a long list) — it's **"we find the opportunities you can actually act on, and show you why."**
+Seekridge's narrative is not "we find more leads" (most credible vendors can produce a long list) — it's **"we find the opportunities you can actually act on, and show you why."**
 
 ## Message house
 
@@ -37,7 +37,7 @@ One primary message, three pillars that support it, each with its own proof poin
 
 1. **"A lead you can't explain is a liability, not an opportunity."** An offer only has value if the advisor believes it and the decision to make it survives review later. A list that's twice as long but can't be explained to a risk committee creates risk it doesn't remove.
 2. **"AI-powered" is not a differentiator anymore — everyone claims it.** The differentiator is what happens when an advisor, a risk team, or a regulator asks *why* a specific customer was flagged. Most vendors' answer degrades under that question; this is where the real gap is.
-3. **"Explainability" needs a definition or it's marketing, not a capability.** Parcelwise defines it concretely: the named data points behind each moment, how much each counted, and a reproducible record of what the moment said and what was done with it — not a general claim.
+3. **"Explainability" needs a definition or it's marketing, not a capability.** Seekridge defines it concretely: the named data points behind each moment, how much each counted, and a reproducible record of what the moment said and what was done with it — not a general claim.
 
 ## Differentiators, with proof points
 
@@ -55,7 +55,7 @@ Value proposition changes by who's buying; tier (see [`icp.md`](./icp.md)) chang
 |---|---|---|---|
 | Risk & compliance (bank/lender) | Can't explain why a customer was targeted with an offer | Moments your risk team can sign off, because every one shows its evidence | Tier 1: the pain is often anticipatory (a coming audit). Tier 2: frequently a *lived* pain — a specific past finding, which makes the pitch easier to land but the sales cycle longer regardless (more procurement layers) |
 | Mortgage lending (bank/lender) | Customers refinance elsewhere before anyone notices; top-up and renovation demand goes unseen | Know which customers to call this month, and why, before a competitor does | Matters most at Tier 1, where lending and risk are both active, present stakeholders — see the [persona interaction map](./personas.md#persona-interaction-map) |
-| Home insurance | Underinsured homes and quiet non-renewals erode the book | See which policies are underinsured or likely to lapse, with the property evidence to start the conversation | A newer segment for Parcelwise — fewer reference customers, so the pitch leans on a backtest on the insurer's own book |
+| Home insurance | Underinsured homes and quiet non-renewals erode the book | See which policies are underinsured or likely to lapse, with the property evidence to start the conversation | A newer segment for Seekridge — fewer reference customers, so the pitch leans on a backtest on the insurer's own book |
 | Brokerage | Agents chase cold leads while likely sellers sit in their own contact list | Moments that tell agents which past clients and contacts are likely to sell, not another dashboard | This is Tier 3's entire positioning — regulatory explainability is largely irrelevant here; adoption and listing value are the whole pitch |
 
 ## Positioning against specific competitors — strategic framing
@@ -69,8 +69,8 @@ This is the strategic posture behind each competitor's tactical talk track in [`
 
 ## Elevator pitches
 
-- **One sentence:** "Parcelwise shows banks, insurers, and brokerages which of their existing customers to talk to next, and why — with evidence their risk team can sign off."
-- **One paragraph (customer-facing):** "Most customer-scoring tools give you a list and a score. If an advisor or a risk committee asks why a customer is on that list, 'the model said so' isn't an answer — and increasingly, regulators are asking. Parcelwise combines your own customer data with external market data, and every moment shows the specific data points behind it, so your team can act on an opportunity as confidently as it found it."
+- **One sentence:** "Seekridge shows banks, insurers, and brokerages which of their existing customers to talk to next, and why — with evidence their risk team can sign off."
+- **One paragraph (customer-facing):** "Most customer-scoring tools give you a list and a score. If an advisor or a risk committee asks why a customer is on that list, 'the model said so' isn't an answer — and increasingly, regulators are asking. Seekridge combines your own customer data with external market data, and every moment shows the specific data points behind it, so your team can act on an opportunity as confidently as it found it."
 - **Internal onboarding version:** "We don't win on producing the longest lead list — most credible vendors can generate volume. We win by being the one whose moments survive being questioned, by advisors who have to make the call and by the risk team that has to sign off, which matters more every year as scrutiny of automated customer decisions increases."
 
 ## Objections to the positioning itself
@@ -91,4 +91,4 @@ The adaptation already reflected in [`battlecard/valuai.html`](../sales-tools/ba
 
 ## What this is not
 
-Not a claim that Parcelwise finds more opportunities than every competitor in every scenario — that claim is not reliably defensible and erodes credibility with a technically skeptical buyer (see the [Head of Credit Risk persona](./personas.md#head-of-credit-risk-risk-and-model-governance-owner-banklender-segment)). The narrative wins on explainability and trust, not a race to the longest lead list.
+Not a claim that Seekridge finds more opportunities than every competitor in every scenario — that claim is not reliably defensible and erodes credibility with a technically skeptical buyer (see the [Head of Credit Risk persona](./personas.md#head-of-credit-risk-risk-and-model-governance-owner-banklender-segment)). The narrative wins on explainability and trust, not a race to the longest lead list.

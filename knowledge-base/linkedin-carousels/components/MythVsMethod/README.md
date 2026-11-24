@@ -12,7 +12,7 @@ Corrects a belief the market repeats: the correction as a cover, the belief in a
 - A close that turns the method into an action ("Ask any vendor for one moment's evidence.").
 
 **Build rules**
-- Cover: lockup top-left, `parcel-grid` motif top-right, title block anchored 240px from the bottom and 160px clear of the right edge, `body-lead` line "A belief worth retiring, in four slides." or similar. Arrow at the margin.
+- Cover: lockup top-left, `ridge-lines` motif top-right, title block anchored 240px from the bottom and 160px clear of the right edge, `body-lead` line "A belief worth retiring, in four slides." or similar. Arrow at the margin.
 - Belief: an outlined card (2px `paper-35`, 6px corners, no fill) at top ≈ 300px with a mono label ("What the market says") and the belief in `title-statement`, in typographic quotes. No gold on this slide: the belief is never highlighted.
 - Scrutiny: `title-statement` with the one word that carries the question in `gold-light` ("regulator", "risk committee").
 - Method: a paper slide, so the turn from belief to method is visible as a change of ground. `heading` with up to 3 words underlined in gold, then the checklist.

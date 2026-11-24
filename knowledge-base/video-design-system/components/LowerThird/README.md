@@ -1,6 +1,6 @@
 # LowerThird
 
-Names who or what is on screen when the picture can't: a role, a team, a data source. Never a person's name: Parcelwise films show roles.
+Names who or what is on screen when the picture can't: a role, a team, a data source. Never a person's name: Seekridge films show roles.
 
 **Anatomy.** Navy band at 92% (`caption-band`), 2px gold rule on top, Plex Sans 600 40px for the label, Plex Mono 22px for the qualifier. Left-aligned at the margin, its bottom edge 120px above the caption band, so both can be on screen together.
 

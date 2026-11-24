@@ -1,1 +1,1 @@
-A sample QR code (error correction M, Ink, no quiet zone in the file: the white tile in `.pwf-qr` provides it). It encodes `https://parcelwise.example/demo`, a reserved example domain. Generate a new one for every campaign, at least 20 mm on the printed piece, and test-scan the proof.
+A sample QR code (error correction M, Ink, no quiet zone in the file: the white tile in `.pwf-qr` provides it). It encodes `https://seekridge.example/demo`, a reserved example domain. Generate a new one for every campaign, at least 20 mm on the printed piece, and test-scan the proof.

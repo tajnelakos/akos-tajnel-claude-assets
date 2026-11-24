@@ -1,6 +1,6 @@
 {
   "manifestVersion": 3,
-  "name": "Parcelwise Video Design System",
+  "name": "Seekridge Video Design System",
   "namespace": "PWVideo",
   "files": [
     "README.md",
@@ -35,7 +35,7 @@
     "components/LayerStack/README.md",
     "components/FigureCard/README.md",
     "components/BacktestChart/README.md",
-    "components/ParcelField/README.md",
+    "components/RidgeField/README.md",
     "components/Timeline/README.md",
     "components/SegmentTriptych/README.md"
   ],
@@ -43,10 +43,10 @@
     {
       "name": "Logos",
       "files": [
-        "assets/Logos/parcelwise-lockup-reversed.svg",
-        "assets/Logos/parcelwise-lockup.svg",
-        "assets/Logos/parcelwise-mark-reversed.svg",
-        "assets/Logos/parcelwise-mark.svg"
+        "assets/Logos/seekridge-lockup-reversed.svg",
+        "assets/Logos/seekridge-lockup.svg",
+        "assets/Logos/seekridge-mark-reversed.svg",
+        "assets/Logos/seekridge-mark.svg"
       ],
       "readme": "assets/Logos/README.md"
     },
@@ -113,7 +113,7 @@
     {
       "name": "TitleCard",
       "group": "Open and close",
-      "summary": "How Moment stories open: the situation as a hook on Navy, the parcel field drawing in, the gold lot filling.",
+      "summary": "How Moment stories open: the situation as a hook on Navy, the ridge field drawing in, the gold point filling.",
       "readme": "components/TitleCard/README.md",
       "preview": "components/TitleCard/preview.html"
     },
@@ -127,7 +127,7 @@
     {
       "name": "StatementStage",
       "group": "Open and close",
-      "summary": "The Navy stage for Statement films: one claim in title type over a band of parcel lines.",
+      "summary": "The Navy stage for Statement films: one claim in title type over a band of ridge lines.",
       "readme": "components/StatementStage/README.md",
       "preview": "components/StatementStage/preview.html"
     },
@@ -162,7 +162,7 @@
     {
       "name": "ProductPanel",
       "group": "Product UI",
-      "summary": "A flat white panel rebuilt from a Parcelwise screen: hairline frame that traces in, sunken header, 72px rows.",
+      "summary": "A flat white panel rebuilt from a Seekridge screen: hairline frame that traces in, sunken header, 72px rows.",
       "readme": "components/ProductPanel/README.md",
       "preview": "components/ProductPanel/preview.html"
     },
@@ -183,7 +183,7 @@
     {
       "name": "FocusMarks",
       "group": "Product UI",
-      "summary": "Four surveyor corner brackets that close on the element a beat is about, while the rest of the panel dims.",
+      "summary": "Four corner brackets that close on the element a beat is about, while the rest of the panel dims.",
       "readme": "components/FocusMarks/README.md",
       "preview": "components/FocusMarks/preview.html"
     },
@@ -216,11 +216,11 @@
       "preview": "components/BacktestChart/preview.html"
     },
     {
-      "name": "ParcelField",
+      "name": "RidgeField",
       "group": "Data",
-      "summary": "The customer base as a parcel map: thousands of lots drawn in straight lines, the week's moments marked, one in gold.",
-      "readme": "components/ParcelField/README.md",
-      "preview": "components/ParcelField/preview.html"
+      "summary": "The customer base as a range of ridgelines drawn in straight segments, the week's moments marked as points, one in gold.",
+      "readme": "components/RidgeField/README.md",
+      "preview": "components/RidgeField/preview.html"
     },
     {
       "name": "Timeline",

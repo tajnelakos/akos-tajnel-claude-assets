@@ -1,7 +1,7 @@
 # Call Transcript — Court Street Lending
 
 **Date:** August 2026 · **Duration:** ~19 minutes · **Call type:** Second call, competitive evaluation
-**Rep:** Anna Kowalski (Parcelwise) · **Prospect:** David Okafor, Head of Credit Risk, Court Street Lending (national lender, €5B+ annual origination)
+**Rep:** Anna Kowalski (Seekridge) · **Prospect:** David Okafor, Head of Credit Risk, Court Street Lending (national lender, €5B+ annual origination)
 
 *Context: flagged as a Tier 2 watch-list account (see [`icp-buying-moment-monitor`](../../sales-tools/icp-buying-moment-monitor/example.md)) after a senior risk hire; this is the resulting evaluation call, several months later.*
 

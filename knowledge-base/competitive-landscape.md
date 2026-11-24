@@ -1,4 +1,4 @@
-# Competitive Landscape — Parcelwise
+# Competitive Landscape — Seekridge
 
 Full battlecard reference. The summary table in [`knowledge-base.md`](./knowledge-base.md) is the quick version; this is what [`competitor-monitoring`](../sales-tools/competitor-monitoring), [`battlecard`](../sales-tools/battlecard), and [`win-loss-analysis`](./win-loss-analysis) draw on for deeper context.
 
@@ -32,14 +32,14 @@ Three real competitors in the bank/lender and insurer segments, none with a deci
 
 Illustrative — not a substitute for a live demo comparison.
 
-| | Parcelwise | Bricklane Data | Estemate | ValuAI |
+| | Seekridge | Bricklane Data | Estemate | ValuAI |
 |---|---|---|---|---|
 | Per-moment evidence trail (property, market and customer data points) | ✅ Yes | ❌ No moments — raw data and a valuation confidence score only | ⚠️ Partial, portfolio-level reports in a dated format | ⚠️ Shipped Jul 2026, but a feature-importance chart rather than named data points, and reportedly weaker where property data matters most (commercial/mixed-use, see [`call-09-ironbridge-bank.md`](./sales-call-analysis/call-09-ironbridge-bank.md)) |
 | Combines the client's own CRM data | ✅ Yes | ❌ No — property data only | ⚠️ Batch file upload, no live CRM integration | ✅ Yes |
 | Moment-quality method disclosed (backtest on client data) | ✅ Yes | ❌ Not applicable / not published | ✅ Yes, established track record on property data | ❌ Claimed, not disclosed |
 | On-prem deployment | ❌ No — current gap, see [win-loss data](./win-loss-analysis/win-loss-infographic.svg) | ❌ Cloud only | ✅ Yes (legacy architecture) | ❌ Cloud only |
 | Implementation timeline | Weeks | Fastest — self-serve API (but the buyer builds the moments) | Slowest — legacy integration | Medium |
-| Pricing model | Subscription by customer-base size | Usage-based per API call, ~15% below Parcelwise on comparable volume | Enterprise/negotiated, typically higher | Not publicly disclosed; averaged ~9% below our deal size in Q3 head-to-heads (n=8, see [win-loss deep dive](./win-loss-analysis/win-loss-detailed-analysis.html)) |
+| Pricing model | Subscription by customer-base size | Usage-based per API call, ~15% below Seekridge on comparable volume | Enterprise/negotiated, typically higher | Not publicly disclosed; averaged ~9% below our deal size in Q3 head-to-heads (n=8, see [win-loss deep dive](./win-loss-analysis/win-loss-detailed-analysis.html)) |
 
 The on-prem gap is real, not a competitor's weakness — flag it early with a prospect that requires it rather than letting it surface late in the deal.
 
@@ -47,8 +47,8 @@ The on-prem gap is real, not a competitor's weakness — flag it early with a pr
 
 | Competitor | Model | Notes |
 |---|---|---|
-| Parcelwise | Subscription priced by customer-base size, seat-based for brokerage app | No self-serve tier for the bank/insurer product — sales-assisted only |
-| Bricklane Data | Usage-based per API call, ~15% below Parcelwise | Self-serve signup, no enterprise tier disclosed — built for fast adoption without procurement |
+| Seekridge | Subscription priced by customer-base size, seat-based for brokerage app | No self-serve tier for the bank/insurer product — sales-assisted only |
+| Bricklane Data | Usage-based per API call, ~15% below Seekridge | Self-serve signup, no enterprise tier disclosed — built for fast adoption without procurement |
 | Estemate | Enterprise/negotiated only | Multi-year contracts typical, no self-serve option |
 | ValuAI | Not publicly disclosed | Sales-assisted only. The "premium-priced" assumption didn't hold up in Q3 head-to-heads — their average quote came in below our average deal size (see [win-loss deep dive](./win-loss-analysis/win-loss-detailed-analysis.html)); price is now part of their play, not just capability |
 | PropIQ | Seat-based, tiered by team size | Freemium single-seat trial available |
@@ -161,4 +161,4 @@ The on-prem gap is real, not a competitor's weakness — flag it early with a pr
 
 ## Known gap working against us
 
-**On-prem deployment** is not currently offered and was the #2 reason for lost deals in Q1 (24% of losses, up from #4 the prior quarter — see [win-loss-analysis](./win-loss-analysis/win-loss-infographic.svg)). Because Parcelwise works with the client's own customer data, data-residency questions come up in nearly every bank and insurer deal. Estemate can meet this requirement; Bricklane and ValuAI likely can't either, but that hasn't been confirmed. Surface this limitation proactively with any prospect with a known on-prem requirement rather than letting it surface late — it's a case for product, not something a battlecard talk track can talk around.
+**On-prem deployment** is not currently offered and was the #2 reason for lost deals in Q1 (24% of losses, up from #4 the prior quarter — see [win-loss-analysis](./win-loss-analysis/win-loss-infographic.svg)). Because Seekridge works with the client's own customer data, data-residency questions come up in nearly every bank and insurer deal. Estemate can meet this requirement; Bricklane and ValuAI likely can't either, but that hasn't been confirmed. Surface this limitation proactively with any prospect with a known on-prem requirement rather than letting it surface late — it's a case for product, not something a battlecard talk track can talk around.

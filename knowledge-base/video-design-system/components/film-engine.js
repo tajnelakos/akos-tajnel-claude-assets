@@ -1,5 +1,5 @@
 /*
- * Parcelwise film engine: a frame-exact timeline for films built from this design system.
+ * Seekridge film engine: a frame-exact timeline for films built from this design system.
  *
  * Every animated element says when it starts (data-at, seconds from the start of its scene)
  * and what it does (data-fx). The engine turns the current time into one eased progress value
@@ -16,7 +16,7 @@
  *   fade    opacity only (content-in)
  *   row     a panel row fades in and settles 8px (row-stagger applies via data-stagger on the parent)
  *   draw    an SVG stroke with pathLength="1" draws in (draw)
- *   fill    the gold lot fills from its bottom edge (lot-fill)
+ *   fill    the gold point fills from its bottom edge (lot-fill)
  *   grow    a bar grows from the left to its width (bar-grow)
  *   trace   a panel's hairline frame traces clockwise, then its content fades in (frame-trace + content-in)
  *   count   a number counts up to data-to (count); data-dec, data-pre, data-suf, data-locale

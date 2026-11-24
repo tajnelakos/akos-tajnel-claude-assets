@@ -1,10 +1,10 @@
-# Knowledge Base — Parcelwise
+# Knowledge Base — Seekridge
 
 Master source of truth for every prompt, skill, and example in this repo. Every other knowledge-base file alongside this one is a derived, deeper view of one section of this doc — kept separate so a skill can reference just the piece it needs (voice rules, competitor detail, persona psychology) instead of the whole thing.
 
 ## Company
 
-**Parcelwise** — B2B SaaS. An AI data analytics company built around customer moments that finds new business inside a client's existing customer base. It combines three data layers:
+**Seekridge** — B2B SaaS. An AI data analytics company built around customer moments that finds new business inside a client's existing customer base. It combines three data layers:
 
 1. **The client's own customer data** — shared securely from their CRM or core systems
 2. **Market data** — interest rates, prices, local market trends
@@ -53,7 +53,7 @@ This doc is the quick summary. Everything below expands one section of it into t
 - [`competitive-landscape.md`](./competitive-landscape.md) — full battlecards and positioning gaps
 - [`design-system/`](./design-system) — the brand made build-ready: tokens, components, icons, motifs, and the rules for writing, LinkedIn, and video
 - [`linkedin-carousels/`](./linkedin-carousels) — the LinkedIn carousel design system: seven formats and a slide kit, slide tokens and CSS, assets, fonts, wording and caption rules, and a carousel-building skill
-- [`flyer-design-system/`](./flyer-design-system) — Parcelwise in print: trifold, postcard and one-pager system with print tokens, components, copy and pre-press rules, and print-ready examples
+- [`flyer-design-system/`](./flyer-design-system) — Seekridge in print: trifold, postcard and one-pager system with print tokens, components, copy and pre-press rules, and print-ready examples
 - [`video-design-system/`](./video-design-system) — the brand on film: the film book, film tokens and components, product UI references, reference films, and the film-builder skill
 
 Use this file and the ones above as the reference for names, roles, and competitive angles across every skill in this repo.

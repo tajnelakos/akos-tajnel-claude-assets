@@ -1,5 +1,5 @@
 /*
- * Parcelwise Video Design System: component styles.
+ * Seekridge Video Design System: component styles.
  * Load ../tokens.css first. Every class is pwv-. Sizes are for the 1920 x 1080 master.
  * Animated values read --p (0 to 1) written by film-engine.js; without the engine, everything
  * shows its finished state (every var() falls back to 1).

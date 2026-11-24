@@ -18,7 +18,7 @@ A fictional draft going through the compliance checker — flags rather than fix
 ### Hard fails (block publish)
 - "cutting-edge AI algorithms" — violates: branding-guideline prohibited terms list ("cutting-edge," and this phrasing matches the explicitly banned "powered by advanced AI" / "powered by cutting-edge algorithms" pattern)
 - "significantly more opportunities" — violates: branding-guideline style rule (numbers over adjectives) — no figure or comparison is given to support this, and none is traceable to positioning.md
-- "helping users eliminate customer churn" — violates: positioning.md — this is a stronger claim than our positioning supports; the doc explicitly frames Parcelwise as showing which customers to talk to and why, not as eliminating churn
+- "helping users eliminate customer churn" — violates: positioning.md — this is a stronger claim than our positioning supports; the doc explicitly frames Seekridge as showing which customers to talk to and why, not as eliminating churn
 - "industry-leading accuracy" — violates: positioning.md "what this is not" — positioning deliberately avoids claiming to find more or better opportunities than every competitor; this is exactly the claim it warns against
 
 ### Soft flags (reviewer's call)

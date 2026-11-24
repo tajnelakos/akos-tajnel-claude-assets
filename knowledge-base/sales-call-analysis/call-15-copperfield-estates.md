@@ -1,13 +1,13 @@
 # Call Transcript — Copperfield Estates
 
 **Date:** August 2026 · **Duration:** ~15 minutes · **Call type:** First call, warm inbound
-**Rep:** Anna Kowalski (Parcelwise) · **Prospect:** Owen Marsh, Broker Team Lead, Copperfield Estates (independent brokerage, ~15 agents)
+**Rep:** Anna Kowalski (Seekridge) · **Prospect:** Owen Marsh, Broker Team Lead, Copperfield Estates (independent brokerage, ~15 agents)
 
 ---
 
 **Anna:** Owen, thanks for booking time — I saw you came in through a referral rather than one of our usual channels. Who pointed you our way?
 
-**Owen:** A broker friend at a different firm, actually — she's used Parcelwise for about six months and wouldn't stop talking about it at a regional broker meetup. Said her team's win rate on listing appointments went up noticeably.
+**Owen:** A broker friend at a different firm, actually — she's used Seekridge for about six months and wouldn't stop talking about it at a regional broker meetup. Said her team's win rate on listing appointments went up noticeably.
 
 **Anna:** That's great to hear, and honestly the best kind of lead — did she mention specifically what changed for her team, or just the outcome?
 
