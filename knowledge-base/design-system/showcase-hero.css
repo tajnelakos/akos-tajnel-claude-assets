@@ -1,0 +1,20 @@
+/* Seekridge showcase hero: the Navy band with the moving-dot-map motif that opens every
+   design-system showcase page (components, video, carousels). Self-contained: no tokens needed. */
+.sr-hero {
+  position: relative; overflow: hidden; isolation: isolate;
+  background: #1A3A5C; color: #F4F3EF;
+  padding: 40px max(24px, calc(50vw - 560px)) 52px;
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+}
+.sr-hero::after {
+  content: ""; position: absolute; z-index: -1; right: 0; bottom: -6px; width: min(60vw, 900px); height: 118%;
+  background: url("dotmap-hero.svg") right bottom / contain no-repeat; pointer-events: none;
+  -webkit-mask-image: linear-gradient(to right, transparent 0, #000 30%); mask-image: linear-gradient(to right, transparent 0, #000 30%);
+}
+.sr-hero .sr-lockup { display: block; height: 30px; width: auto; margin: 0 0 34px; }
+.sr-hero .sr-eyebrow { margin: 0 0 12px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: #D9A54B; }
+.sr-hero h1 { margin: 0; font-family: 'Archivo', system-ui, sans-serif; font-weight: 800; font-size: clamp(34px, 4.6vw, 56px); line-height: 1.04; letter-spacing: -0.015em; color: #FFFFFF; max-width: 62%; }
+.sr-hero .sr-lede { margin: 16px 0 0; max-width: 56%; font-size: 17px; line-height: 1.55; color: rgba(244,243,239,.8); }
+.sr-hero .sr-lede a { color: #FFFFFF; }
+.sr-hero .sr-tools { position: absolute; top: 36px; right: max(24px, calc(50vw - 560px)); z-index: 1; }
+@media (max-width: 760px) { .sr-hero h1, .sr-hero .sr-lede { max-width: none; } .sr-hero::after { opacity: .35; width: 100%; } }

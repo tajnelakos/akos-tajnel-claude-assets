@@ -12,6 +12,7 @@ Takes a closed-won account's real CRM record and/or call transcript — not a re
 
 - [`skill.md`](./skill.md) — the Claude Skill definition
 - [`example.md`](./example.md) — Nordkredit, built from the actual win-loss CRM record and sales-call-analysis transcript already in this repo
+- [`case-study-nordkredit.html`](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/case-study-builder/case-study-nordkredit.html) — the same case study as a designed, publishable page in the Seekridge look
 
 ## Why this account specifically
 

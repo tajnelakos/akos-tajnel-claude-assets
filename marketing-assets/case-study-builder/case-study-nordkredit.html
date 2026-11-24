@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Case study: Nordkredit · Seekridge</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root{ --bg:#F4F3EF; --surface:#FFFFFF; --ink:#1C1C1A; --ink-soft:#5B6470; --ink-faint:#8A8782; --line:#E1E0D9; --accent:#1A3A5C; --gold:#C1892E;
+    --font-display:'Archivo', system-ui, sans-serif; --font-body:'IBM Plex Sans', system-ui, sans-serif; --font-mono:'IBM Plex Mono', monospace; }
+  *{ box-sizing:border-box; }
+  body{ background:var(--bg); color:var(--ink); font-family:var(--font-body); margin:0; padding:0 20px; -webkit-font-smoothing:antialiased; }
+  .page{ max-width:920px; margin:0 auto; display:flex; flex-direction:column; gap:40px; }
+  .masthead{ display:flex; flex-direction:column; gap:14px; }
+  .eyebrow{ font-family:var(--font-mono); font-size:12px; letter-spacing:.12em; text-transform:uppercase; }
+  h1{ font-family:var(--font-display); }
+  .meta-row{ display:flex; flex-wrap:wrap; gap:8px; font-family:var(--font-mono); font-size:12px; }
+  .chip{ border:1px solid rgba(244,243,239,.3); border-radius:4px; padding:5px 10px; }
+  .status{ display:inline-flex; align-items:center; gap:8px; font-family:var(--font-mono); font-size:11px; letter-spacing:.06em; text-transform:uppercase;
+    background:#FBF3E3; color:#8A5E12; border:1px solid #E7C98F; border-radius:4px; padding:6px 10px; align-self:flex-start; }
+  .status::before{ content:""; width:8px; height:8px; border-radius:50%; background:var(--gold); }
+
+  .kpis{ display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
+  .kpi{ background:var(--surface); border:1px solid var(--line); border-radius:6px; padding:18px 18px 16px; }
+  .kpi b{ display:block; font-family:var(--font-display); font-weight:800; font-size:30px; letter-spacing:-.01em; color:var(--accent); }
+  .kpi.gold b{ color:var(--gold); }
+  .kpi span{ font-size:13px; color:var(--ink-soft); }
+
+  .story{ display:grid; grid-template-columns:200px 1fr; gap:28px 40px; }
+  .story h2{ font-family:var(--font-display); font-size:22px; color:var(--accent); margin:0; }
+  .story .n{ font-family:var(--font-mono); font-size:11px; letter-spacing:.12em; color:var(--ink-faint); display:block; margin-bottom:6px; }
+  .story p{ margin:0; font-size:16px; line-height:1.65; }
+  .story ul{ margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:12px; }
+  .story li{ position:relative; padding-left:22px; font-size:15.5px; line-height:1.55; }
+  .story li::before{ content:""; position:absolute; left:0; top:9px; width:8px; height:8px; background:var(--accent); border-radius:50%; }
+  .story li.gold::before{ background:var(--gold); }
+
+  .quote{ background:var(--accent); color:#F4F3EF; border-radius:6px; padding:28px 30px; display:flex; flex-direction:column; gap:10px; }
+  .quote .label{ font-family:var(--font-mono); font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:#D9A54B; }
+  .quote p{ margin:0; font-size:16px; line-height:1.6; color:rgba(244,243,239,.86); }
+
+  .notes{ display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  .note{ background:var(--surface); border:1px solid var(--line); border-radius:6px; padding:18px 20px; display:flex; flex-direction:column; gap:8px; }
+  .note h3{ margin:0; font-family:var(--font-mono); font-weight:500; font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-soft); }
+  .note p{ margin:0; font-size:14px; line-height:1.6; }
+  .note.warn{ border-color:#E7C98F; background:#FFFCF5; }
+  .note code{ font-family:var(--font-mono); font-size:12.5px; }
+  @media (max-width:760px){ .kpis{ grid-template-columns:1fr 1fr; } .story{ grid-template-columns:1fr; gap:10px; } .notes{ grid-template-columns:1fr; } }
+</style>
+<link rel="stylesheet" href="../../knowledge-base/design-system/report-theme.css">
+</head>
+<body>
+<div class="page">
+  <div class="masthead">
+    <img class="sr-lockup" src="../../knowledge-base/flyer-design-system/assets/Logos/pw-lockup-paper.svg" alt="Seekridge">
+    <div class="eyebrow">Case study · Bank / Lender · Nordics</div>
+    <h1>Nordkredit replaces a “score only” targeting tool ahead of a board audit</h1>
+    <div class="meta-row">
+      <span class="chip">Tier 1</span><span class="chip">~€600M annual origination</span><span class="chip">Displaced: Estemate</span><span class="chip">65-day cycle</span>
+    </div>
+  </div>
+
+  <div class="status">Draft · pending Nordkredit's sign-off before publishing</div>
+
+  <div class="kpis">
+    <div class="kpi"><b>65 days</b><span>Sales cycle, inside the Tier 1 range of 2–4 months</span></div>
+    <div class="kpi"><b>€56,924</b><span>Annual contract value</span></div>
+    <div class="kpi gold"><b>Parity</b><span>Won at the competitor's own price (€57,313), not on discount</span></div>
+    <div class="kpi"><b>1</b><span>Decision driver logged: explainability and the evidence trail</span></div>
+  </div>
+
+  <div class="story">
+    <div><span class="n">01</span><h2>Challenge</h2></div>
+    <p>Nordkredit's newly hired Head of Credit Risk inherited an internal audit finding on her first day: a refinancing campaign had been run off a customer score from the bank's existing data provider, a score and a generic methodology document, not the specific data points that put an individual customer on the list. When an auditor or the internal risk committee asked “why this customer,” the only honest answer was “the model said so”. Not something the team wanted to repeat at an upcoming board audit.</p>
+
+    <div><span class="n">02</span><h2>Solution</h2></div>
+    <p>Rather than a prepared demo, Seekridge ran moments live on a pseudonymized sample of Nordkredit's own customers, at the prospect's request, showing the actual property, market and CRM data points behind each moment and their weighting. Nordkredit had already used the same standard (push past the first demo, ask for a real breakdown) to evaluate and rule out another vendor earlier in its process.</p>
+
+    <div><span class="n">03</span><h2>Results</h2></div>
+    <ul>
+      <li>Closed in 65 days, inside Nordkredit's own Tier 1 sales-cycle range.</li>
+      <li class="gold">Logged decision driver: “Explainability / evidence trail”.</li>
+      <li>Logged product feedback: “Standout: customer-level evidence trail”.</li>
+      <li>Won at effective price parity: Seekridge's ACV (€56,924) closely tracked the competitor's quoted price (€57,313).</li>
+    </ul>
+  </div>
+
+  <div class="quote">
+    <div class="label">Customer quote</div>
+    <p>No public-use quote yet. Lena Virtanen's discovery-call comments about the “the model said so” problem are exactly the language a testimonial should use, but they were said on a sales call, not given as a public statement. Using them needs her explicit sign-off first.</p>
+  </div>
+
+  <div class="notes">
+    <div class="note"><h3>Positioning tie-in</h3><p>“Explainable by design” from the message house: the proof point this account decided on, named data points and weighting per customer rather than a score, is exactly this pillar.</p></div>
+    <div class="note warn"><h3>What's not confirmed</h3><p>Whether the implementation was completed before the board audit. The CRM close date (2026-09-08) falls around that window, but “deal closed” isn't “audit passed”. This case study does not claim it.</p></div>
+    <div class="note"><h3>Sourced from</h3><p><a href="../../knowledge-base/win-loss-analysis/win-loss-crm-export.csv"><code>win-loss-crm-export.csv</code></a> (OPP-1001) · <a href="../../knowledge-base/sales-call-analysis/call-01-nordkredit.md"><code>call-01-nordkredit.md</code></a></p></div>
+    <div class="note"><h3>The account's full thread</h3><p><a href="../../sales-tools/icp-buying-moment-monitor/example.md">Buying moment</a> → <a href="../../sales-tools/abm-account-brief/example.md">account brief</a> → <a href="../personalized-outbound/example.md">outreach</a> → this case study. Built with the <a href="./skill.md">case-study skill</a>.</p></div>
+  </div>
+</div>
+<footer class="sr-foot"><img src="../../knowledge-base/flyer-design-system/assets/Logos/pw-mark-paper.svg" alt=""><span>Seekridge is a fictional company; every figure is illustrative.</span><span>A portfolio by Akos Tajnel</span><span><a href="https://github.com/tajnelakos/akos-tajnel-claude-assets">See the whole repo</a></span></footer>
+</body>
+</html>
