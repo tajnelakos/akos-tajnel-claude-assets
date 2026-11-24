@@ -13,25 +13,25 @@
 
 **Anna:** Ha, good. So, high level — what pulled you into this migration? Was it something you inherited, or something you decided once you got in the seat?
 
-**Lena:** Bit of both. My predecessor had already flagged that our valuation tooling was a black box — literally, it gives you a number and a confidence percentage and that's it. We had an internal audit finding last year, nothing catastrophic, but the examiner's note was basically "you couldn't explain how three of these numbers were derived if asked." That report was sitting on my desk my first day.
+**Lena:** Bit of both. Last year our lending team ran a refinancing campaign off a customer score from our current data provider — literally, it gives you a list of customers and a score, and that's it. We had an internal audit finding afterwards, nothing catastrophic, but the auditor's note was basically "you couldn't explain why three of these customers were contacted if asked." That report was sitting on my desk my first day, and now any model that decides who gets an offer comes through me.
 
 **Anna:** That's about as clean a mandate as it gets. When you say "couldn't explain" — walk me through what happens today when someone does ask.
 
-**Lena:** Our current tool — we use Estemate, have for years — gives a confidence score and a short methodology PDF that's the same for every valuation. It doesn't tell you which comparables were used for *this specific property*, or how they were weighted. So if an examiner or an internal risk committee asks "why this number," the honest answer is "the model said so," which is not an answer anyone wants to give twice.
+**Lena:** Our current provider — we use Estemate, have for years, mostly for property data — added a "portfolio insights" report a while back. It flags customers with a score and a short methodology PDF that's the same for every customer. It doesn't tell you which data points put *this specific customer* on the list, or how much each one counted. So if an auditor or our risk committee asks "why this customer," the honest answer is "the model said so," which is not an answer anyone wants to give twice.
 
-**Anna:** Okay, that's useful, and it's exactly the gap we built around. Every valuation we produce comes with the actual comparables used and their weighting — not a generic doc, the specific inputs for that specific output. Would it help if I showed that live, on one of your own past valuations, rather than a canned demo?
+**Anna:** Okay, that's useful, and it's exactly the gap we built around. Every signal we produce comes with the actual data points behind it — the property data, the market data, and the fields from your own CRM — and how much each one counted. Not a generic doc, the specific inputs for that specific customer. Would it help if I showed that live, on a sample of your own customers, rather than a canned demo?
 
-**Lena:** Yes, actually — that would matter a lot more than slides. Can you genuinely do that with a real property, or does it need to be one that's already in your system somehow?
+**Lena:** Yes, actually — that would matter a lot more than slides. Can you genuinely do that with our real data, or does it need to be something already in your system somehow?
 
-**Anna:** We'd need the property details and whatever comparables your team already used, but yes — we can run it live and you can see the actual audit trail it produces, not a mocked-up one.
+**Anna:** We'd need a pseudonymized extract of the customers you want to test, under a data-processing agreement, but yes — we can run it live and you can see the actual evidence trail it produces, not a mocked-up one.
 
 **Lena:** Okay. I'll be honest, we also looked at ValuAI a few months back, before I started. I've heard from a colleague at another bank that ValuAI's sales team said something almost identical to what you just said.
 
 **Anna:** That's a fair thing to bring up, and I'd rather you ask it directly than wonder. What did your colleague say happened?
 
-**Lena:** She said when they pushed ValuAI in a follow-up technical call — not the first demo, the second one — the "audit trail" turned out to be a confidence breakdown by category, not actual named comparables. It looked good in the first meeting and then didn't hold up when their data team asked for specifics.
+**Lena:** She said when they pushed ValuAI in a follow-up technical call — not the first demo, the second one — the "explanation" turned out to be a chart of which feature categories mattered across the whole model, not the actual data points behind one customer. It looked good in the first meeting and then didn't hold up when their data team asked for specifics.
 
-**Anna:** That matches what we've heard elsewhere too, for what it's worth — though I'd rather you verify it yourself than take our word for it, since obviously we have a horse in this race. What I'd suggest: when you evaluate us, do exactly what your colleague did with ValuAI — push past the first demo, ask us for a comparable-level breakdown on a property your own team picks, not one we prepare. If we can't produce it, that tells you something. If we can, that also tells you something.
+**Anna:** That matches what we've heard elsewhere too, for what it's worth — though I'd rather you verify it yourself than take our word for it, since obviously we have a horse in this race. What I'd suggest: when you evaluate us, do exactly what your colleague did with ValuAI — push past the first demo, ask us for a customer-level breakdown on records your own team picks, not ones we prepare. If we can't produce it, that tells you something. If we can, that also tells you something.
 
 **Lena:** That's a reasonable way to structure it. Okay — separately, timeline. We have a board audit scheduled for Q3. I don't want to be mid-migration when that happens — that would be worse than not migrating at all.
 
@@ -43,11 +43,11 @@
 
 **Lena:** Appreciate you not just saying "sure, no problem." One more thing — pricing. Your website says "custom," which usually means "we'll figure out how much you can pay."
 
-**Anna:** Fair reaction, and no, that's not what it means here — it's usage-based per valuation call, and it scales with your volume, so I can actually give you a real range today rather than making you sit through two more calls to get a number. Given roughly what you described — €600M origination — you're likely in [a specific tier], which I can follow up with in writing so you have it in front of you rather than half-remembering a number from a call.
+**Anna:** Fair reaction, and no, that's not what it means here — it's a subscription that scales with the size of the customer base you want analysed, so I can actually give you a real range today rather than making you sit through two more calls to get a number. Given roughly what you described — €600M origination, and a mortgage book to match — you're likely in [a specific tier], which I can follow up with in writing so you have it in front of you rather than half-remembering a number from a call.
 
 **Lena:** That's more than I expected to get today, honestly. Okay — what's the actual next step?
 
-**Anna:** I'd suggest a technical validation call — bring whoever on your team would actually push on the audit trail, and we run it live against a real property your side selects. No slides. If that goes well, we can talk implementation timeline against your September date specifically.
+**Anna:** I'd suggest a technical validation call — bring whoever on your team would actually push on the evidence trail, and we run it live against customers your side selects. No slides. If that goes well, we can talk implementation timeline against your September date specifically.
 
 **Lena:** That works. Let me check with our data lead on availability — I'll follow up this week.
 
@@ -59,8 +59,8 @@
 
 ## Internal notes (rep-logged, not read aloud on the call)
 
-- Strong, specific buying signal: real audit-finding trigger, dated board deadline (Q3, tentatively second week of September).
+- Strong, specific buying signal: real audit-finding trigger (a refinancing campaign nobody could explain), dated board deadline (Q3, tentatively second week of September).
 - ValuAI explicitly in play, but via secondhand account, not confirmed head-to-head yet — worth revisiting if it resurfaces with more specifics.
-- Estemate is the incumbent being displaced — confirms `competitive-landscape.md`'s Estemate entry (dated, generic methodology doc, no comparable-level detail).
-- Next step: technical validation call with Nordkredit's data lead, live audit trail on a real property they select.
+- Estemate is the incumbent being displaced — confirms `competitive-landscape.md`'s Estemate entry (portfolio-level report, generic methodology doc, no customer-level detail).
+- Next step: technical validation call with Nordkredit's data lead, live evidence trail on customers they select.
 - Action: send pricing tier confirmation in writing today (open commitment made on the call — must follow through).

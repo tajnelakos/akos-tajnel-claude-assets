@@ -2,7 +2,7 @@
 
 ## The problem
 
-[`icp.md`](../../knowledge-base/icp.md) documents what an in-market signal looks like (exec hires, job postings mentioning a specific legacy tool, LOS migrations, adverse audit findings). Documenting it isn't the hard part — noticing it happen, for the right accounts, before a competitor does, is. Left as a static doc, it's just knowledge; it needs to run against real signal sources on a cadence to be useful.
+[`icp.md`](../../knowledge-base/icp.md) documents what an in-market signal looks like (exec hires, job postings mentioning a specific legacy tool, CRM migrations, adverse audit findings). Documenting it isn't the hard part — noticing it happen, for the right accounts, before a competitor does, is. Left as a static doc, it's just knowledge; it needs to run against real signal sources on a cadence to be useful.
 
 ## The approach
 

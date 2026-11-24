@@ -11,7 +11,7 @@
 
 **Marcus:** Understood, go ahead.
 
-**Erik:** Our data governance policy requires on-premises deployment for any system that touches customer-identifiable financial data. That's not a preference, it's a compliance requirement from our board. Does Seekridge support on-prem?
+**Erik:** Our data governance policy requires on-premises deployment for any system that touches customer-identifiable financial data — and your platform works on our customer records directly. That's not a preference, it's a compliance requirement from our board. Does Seekridge support on-prem?
 
 **Marcus:** I want to answer this directly rather than soften it: no, we don't currently offer on-premises deployment. We're a cloud-hosted platform.
 

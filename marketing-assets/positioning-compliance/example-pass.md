@@ -6,12 +6,12 @@ Shows the checker when a draft actually clears every rule — the check shouldn'
 
 ## Input
 
-> You can see every comparable used in a Seekridge valuation, and how each one was weighted — not just a confidence score. That's the difference when an examiner asks how a number was reached. Our benchmarking methodology is documented and available to technical evaluators on request, so your team can scrutinize it before relying on it in production.
+> You can see every data point behind a Seekridge signal — property, market, and your own customer data — and how each one was weighted, not just a score. That's the difference when an auditor asks why a customer was contacted. Our backtest method is documented and available to technical evaluators on request, so your team can scrutinize it before relying on it in production.
 
 ## Output
 
 ```
-## Compliance Check — Draft, untitled (audit trail feature paragraph)
+## Compliance Check — Draft, untitled (evidence trail feature paragraph)
 
 **Result:** PASS
 
@@ -24,8 +24,8 @@ Shows the checker when a draft actually clears every rule — the check shouldn'
 
 Notes on why this passes clean, not just "why it wasn't flagged":
 
-- Leads with the claim ("you can see every comparable...") — no scene-setting opener.
-- The AI/methodology claim names what's actually checkable (comparables, weighting, a documented methodology) rather than asserting a capability with no mechanism — this is the opposite of the banned "powered by advanced AI" pattern in [`branding-guideline`](../../knowledge-base/branding-guideline/skill.md).
+- Leads with the claim ("you can see every data point...") — no scene-setting opener.
+- The AI/methodology claim names what's actually checkable (named data points, weighting, a documented backtest method) rather than asserting a capability with no mechanism — this is the opposite of the banned "powered by advanced AI" pattern in [`branding-guideline`](../../knowledge-base/branding-guideline/skill.md).
 - No quantitative claim is made at all, so there's nothing to trace or flag as unverifiable — "documented and available to technical evaluators on request" is the defensible qualitative claim [`branding-guideline`](../../knowledge-base/branding-guideline/skill.md) recommends reaching for when no hard figure exists, used correctly rather than as a workaround.
 - No competitor named, so no risk of a stale competitive claim.
-- No accuracy-superiority claim — the draft never reaches for "best" or "most accurate," consistent with [`positioning.md`](../../knowledge-base/positioning.md)'s "what this is not."
+- No superiority claim — the draft never reaches for "best" or "most opportunities," consistent with [`positioning.md`](../../knowledge-base/positioning.md)'s "what this is not."

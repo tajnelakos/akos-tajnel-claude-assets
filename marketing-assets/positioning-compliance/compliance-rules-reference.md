@@ -22,13 +22,13 @@ Exact matches and close variants (a term still counts with a different suffix �
 These aren't outright banned, so they don't block publish on their own — but they're worth flagging every time, since they're the most common way a draft drifts from voice without tripping a hard rule.
 
 - A scene-setting opener instead of leading with the claim ("In today's fast-changing landscape...").
-- A rhetorical question as an opener ("Tired of unexplainable valuations?").
+- A rhetorical question as an opener ("Tired of leads nobody can explain?").
 - Manufactured urgency language ("don't get left behind," "the future is now," "last chance").
 - An adjective doing the work a number or a defensible qualitative claim should do, where the draft *could* have used one but didn't reach for it.
 
 ## 4. Positioning and competitive accuracy (hard fail) — source: `positioning.md`, `competitive-landscape.md`
 
-- **Any claim of superior raw accuracy over every competitor in every scenario.** `positioning.md`'s "What this is not" section rules this out explicitly — the narrative wins on defensibility, not an accuracy race.
+- **Any claim of finding more or better opportunities than every competitor in every scenario.** `positioning.md`'s "What this is not" section rules this out explicitly — the narrative wins on explainability and trust, not a lead-volume race.
 - **A quantitative or comparative claim with no traceable source.** "3x faster," "industry-leading accuracy" — if it doesn't map to something in `positioning.md` or a cited, checkable figure, it's a hard fail, not a stylistic nitpick.
 - **A named-competitor claim that's gone stale.** Check every claim about what a specific competitor does or doesn't have against `competitive-landscape.md`'s *current* state, not general knowledge or a battlecard version from memory — competitors ship things. As of the September 2026 refresh: ValuAI has a GA audit trail feature (since July 2026), so any claim that ValuAI (or "every other AI-powered vendor," if that's meant to include ValuAI) lacks one is false, not merely unverifiable. See [`example-stale-competitive-claim.md`](./example-stale-competitive-claim.md).
 - **A claim that assumes an old competitive threat level.** `competitive-landscape.md`'s Quick Reference table is the current read — e.g. Estemate is 🟠 Medium-High (72.7% win rate against us when faced), not the "boring incumbent, low threat" framing an older draft might still carry.
