@@ -60,10 +60,10 @@ Every film shares the same type, grounds, panels and motion grammar. What change
 | Reference film | `walkthrough-evidence-trail-16x9` | `story-fixed-rate-dach-16x9` | `statement-evidence-16x9` |
 | Length | 20–45 s | 45–60 s | 20–35 s |
 | Ground | Paper, map grid on | Navy open and close, Paper body | Navy throughout |
-| Framing | One panel, cropped to the control the beat is about | Split beats: headline left (5 columns), panel right (7 columns) | Type, ridge drawings and figures; at most one panel |
+| Framing | One panel, cropped to the control the beat is about | Split beats: headline left (5 columns), panel right (7 columns) | Type, the dot map and figures; at most one panel |
 | Headline | `headline-compact`, no full stop | `headline`, full stop | `title`, full stop |
 | Navigation aid | Step counter in the eyebrow (`STEP 2 / 5`) | ChapterRail: Situation · Moment · Evidence · Action | None |
-| Opens on | The first headline, straight on Paper | TitleCard: the situation as the hook | A ridge field drawing in, then the statement |
+| Opens on | The first headline, straight on Paper | TitleCard: the situation as the hook | The dot map moving in, then the statement |
 | Closes on | Two-line lockup on Paper, mark only | EndCard: lockup, the line, one action | EndCard |
 | Where it lives | Help centre, in-app onboarding, feature pages, sales follow-ups | Segment and persona pages, sales follow-ups, LinkedIn, event screens | Launch posts, conference openers, the top of a sales deck |
 
@@ -86,13 +86,13 @@ A beat is one headline plus one change on screen. Default length 5 s (`beat`), r
 
 ### Moment story (9–12 beats, follows Situation → Moment → Evidence → Action)
 
-1. **TitleCard**, Navy, 0–5 s. The situation as a one-line hook over the ridge field drawing in. *Their fixed rate ends in four months.*
+1. **TitleCard**, Navy, 0–5 s. The situation as a one-line hook over the dot map rising. *Their fixed rate ends in four months.*
 2. **Tension**, 1 beat. What happens today without the moment, on a Timeline. *By the time anyone notices, they've refinanced elsewhere.*
 3. **Situation into data**, 1 beat. The LayerStack builds: customer, property, market. *Three layers, one customer.*
 4. **Moment**, 1 beat. The MomentCard lands with the rank. *One moment, ranked third this week.*
 5. **Evidence**, 2–3 beats. The EvidenceTrail populates; FocusMarks close on the top row; weights grow. *Here's why it ranks third. / The rate gap counts most.*
 6. **Action**, 1–2 beats. The moment arrives in the CRM; the AuditLog writes the line. *On the advisor's list, with the reasons. / And on the record.*
-7. **Scale**, optional, 1 beat. RidgeField: the whole customer base as a range of ridgelines, the week's moments marked. *212 customers to call this week. Not 40,000.*
+7. **Scale**, optional, 1 beat. RidgeField: the whole customer base as a moving dot map, the week's moments rising as peaks. *212 customers to call this week. Not 40,000.*
 8. **Proof**, 1 beat, Navy. FigureCard with its source line. *68% refinanced within six months.*
 9. **EndCard**, Navy. Lockup, the line, one action, 3 s hold.
 
@@ -226,7 +226,7 @@ Weights are navy bars on a `bar-track`; the row that counts most gets the gold b
 
 ### Drawings
 
-- The **ridge field** is the only illustration: ridgelines drawn in straight segments, one summit marked with a gold point, as in the logomark. Lines are Paper at 35% on Navy, Navy at 18% on Paper.
+- The **ridge field** is the only illustration: a dot map of the client base that is always gently moving, where only a few areas rise into peaks (the moments) and one summit is marked with a gold point, as in the logomark. Dots are Paper on Navy and Navy on Paper, brightest at the peaks.
 - **Plan drawings** for concepts with no screen (a house's footprint, a row of houses, a customer base as a field): 3px strokes, square ends, straight lines and right angles only. Dashed means *expected* (a rate reset date, a projected value); solid means *now*.
 - Icons are the 15 line icons in [`../design-system/`](../design-system), scaled to 48px with the stroke at 2.5px.
 - **No people.** No illustrated advisors, hands, phones held in hands, faces, offices or city skylines. The customer is an ID and a point.
@@ -235,13 +235,13 @@ Weights are navy bars on a `bar-track`; the row that counts most gets the gold b
 
 ## 5. Motion grammar
 
-Motion is a guide tracing a ridgeline: straight lines, exact, no bounce. Everything moves on one curve, `cubic-bezier(0.2, 0, 0, 1)`. Nothing spins, flips, pops, blurs, glows or slides in from off-screen.
+Motion is calm and continuous: the dot map always moves gently, everything else is exact, no bounce. Everything moves on one curve, `cubic-bezier(0.2, 0, 0, 1)`. Nothing spins, flips, pops, blurs, glows or slides in from off-screen.
 
 | Move | How | Token |
 |---|---|---|
 | Line in | Each headline line rises 24px out of a mask on its own baseline; lines, not words | `line-in`, `line-stagger` |
 | Highlight | On Paper, the gold bar draws under the highlighted words left to right as their line lands; on Navy, the gold words simply arrive with their line | `highlight-in` |
-| Draw | Ridge lines, plan drawings, chart lines and the timeline track draw their stroke, consecutive lines staggered | `draw`, `draw-stagger` |
+| Draw | Plan drawings, chart lines and the timeline track draw their stroke, consecutive lines staggered | `draw`, `draw-stagger` |
 | Point fill | After its lines, the one gold point fills from the bottom edge up: the signature move | `lot-fill` |
 | Frame trace | A panel's hairline border traces clockwise from the top-left; then its content fades in | `frame-trace`, `content-in` |
 | Populate | Rows appear top to bottom, each fading in and settling 8px | `row-stagger` |
@@ -346,7 +346,7 @@ The default persona film. Reference: [`assets/Films/story-fixed-rate-dach-16x9.m
 
 | Time | Beat | Headline | On screen | Chapter |
 |---|---|---|---|---|
-| 0.0–5.0 s | TitleCard | Their fixed rate ends in four months. | Navy; ridge field draws in from the right, the gold point fills; lockup top-left; hook as `title` | — |
+| 0.0–5.0 s | TitleCard | Their fixed rate ends in four months. | Navy; the dot map moves in from the right, peaks rise, the gold point lands; lockup top-left; hook as `title` | — |
 | 5.0–10.0 s | Tension | By the time anyone notices, **they've moved.** | Wipe to Paper; Timeline: Today → Rate ends 2027-03-31 (dashed) → Refinanced elsewhere (marked) | Situation |
 | 10.0–16.0 s | Layers | Three layers. **One customer.** | LayerStack: customer, property, market rows draw in and resolve into one line | Situation |
 | 16.0–21.5 s | Moment | One moment, **ranked third.** | MomentCard: Refinance risk · Customer 40-1187 · Rank 3 of 212 | Moment |

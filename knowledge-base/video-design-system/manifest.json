@@ -113,7 +113,7 @@
     {
       "name": "TitleCard",
       "group": "Open and close",
-      "summary": "How Moment stories open: the situation as a hook on Navy, the ridge field drawing in, the gold point filling.",
+      "summary": "How Moment stories open: the situation as a hook on Navy, the dot map moving in, the gold point landing on the highest peak.",
       "readme": "components/TitleCard/README.md",
       "preview": "components/TitleCard/preview.html"
     },
@@ -127,7 +127,7 @@
     {
       "name": "StatementStage",
       "group": "Open and close",
-      "summary": "The Navy stage for Statement films: one claim in title type over a band of ridge lines.",
+      "summary": "The Navy stage for Statement films: one claim in title type over a band of the moving dot map.",
       "readme": "components/StatementStage/README.md",
       "preview": "components/StatementStage/preview.html"
     },
@@ -218,7 +218,7 @@
     {
       "name": "RidgeField",
       "group": "Data",
-      "summary": "The customer base as a range of ridgelines drawn in straight segments, the week's moments marked as points, one in gold.",
+      "summary": "The customer base as a moving dot map: always in motion, only the week's moments rise into peaks, one in gold.",
       "readme": "components/RidgeField/README.md",
       "preview": "components/RidgeField/preview.html"
     },

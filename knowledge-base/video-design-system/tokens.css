@@ -16,7 +16,7 @@
   --pwv-highlight: #C1892E; /* The one gold per frame. Paper: a 6px underline bar under up to three headline words (never gold text on Paper, 2.7:1). Navy: up to three headline words in gold-light text (5.2:1). */
   --pwv-lot: #C1892E; /* The filled gold point of the ridge motif, the top evidence row's weight bar, the highlighted bar in a chart. Counts as the frame's one gold. */
   --pwv-survey-line: #1A3A5C; /* Ridge and plan lines that draw in. Used at full strength for drawings, at the opacity below for the motif field. */
-  --pwv-survey-line-opacity: 0.18; /* Opacity of motif lines (the brand's ridge-lines uses Paper at 35% on Navy). */
+  --pwv-survey-line-opacity: 0.18; /* Opacity of motif lines (motif lines; the dot map sets its own dot opacity). */
   --pwv-grid: #E1E0D9; /* The optional map grid behind Walkthrough frames: 1px hairlines every 96px. Texture only, never behind running text. */
   --pwv-rule: #1A3A5C; /* 2px rules: the eyebrow rule, focus marks, timeline track, chapter rail tick. */
   --pwv-surface: #FFFFFF; /* Product panels. White on both grounds, 1px hairline border, 4px corners, no shadow. */

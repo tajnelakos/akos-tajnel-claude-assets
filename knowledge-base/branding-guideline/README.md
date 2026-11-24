@@ -23,7 +23,7 @@ Two things live here, deliberately not merged: a **skill** that applies the voic
 
 ## Files — the design system
 
-The build-ready version of this brand lives next door in [`../design-system/`](../design-system): tokens (light and dark), component CSS and a live [components page](../design-system/components.html), 15 line icons, 3 ridge-line motifs, and the full rules for writing, LinkedIn carousels, and video. `brand-guidelines.md` summarizes each of those and links to the detail.
+The build-ready version of this brand lives next door in [`../design-system/`](../design-system): tokens (light and dark), component CSS and a live [components page](../design-system/components.html), 15 line icons, 3 dot-map motifs, and the full rules for writing, LinkedIn carousels, and video. `brand-guidelines.md` summarizes each of those and links to the detail.
 
 ## Current limitations
 

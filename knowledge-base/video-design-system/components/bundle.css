@@ -85,6 +85,7 @@
   fill: none; stroke: var(--pwv-survey-line); stroke-opacity: var(--pwv-survey-line-opacity);
   stroke-width: var(--pwv-stroke); stroke-linecap: square;
 }
+.pwv-terrain .dots circle { fill: var(--pwv-survey-line); }
 .pwv-field .lot { fill: var(--pwv-lot); }
 .pwv-field .lot-marked { fill: var(--pwv-survey-line); fill-opacity: 0.9; }
 [data-ground="navy"] .pwv-field .lot-marked { fill-opacity: 0.75; }

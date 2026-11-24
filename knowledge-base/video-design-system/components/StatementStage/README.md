@@ -1,6 +1,6 @@
 # StatementStage
 
-The ground of a Statement film: Navy throughout, a band of ridge lines along the bottom edge, one claim in `title` type. It is the Seekridge answer to a launch stage: no devices, no glow, the idea carried by type and one drawing.
+The ground of a Statement film: Navy throughout, a band of the dot map along the bottom edge, one claim in `title` type. It is the Seekridge answer to a launch stage: no devices, no glow, the idea carried by type and one drawing.
 
 **Anatomy**
 - Navy ground, full frame.

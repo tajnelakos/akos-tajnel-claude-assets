@@ -19,7 +19,7 @@ moment enough to act on it, so not a Walkthrough; one persona and one situation,
 
 | Time        | Beat      | Headline                                      | On screen                                                                 | Chapter   |
 |-------------|-----------|-----------------------------------------------|---------------------------------------------------------------------------|-----------|
-| 0.0–5.0 s   | TitleCard | Their fixed rate ends in four months.         | Navy; ridge field draws, gold point fills; lockup; eyebrow MORTGAGE LENDING · DACH | —   |
+| 0.0–5.0 s   | TitleCard | Their fixed rate ends in four months.         | Navy; the dot map moves in, peaks rise, gold point lands; lockup; eyebrow MORTGAGE LENDING · DACH | —   |
 | 5.0–10.0 s  | Tension   | By the time anyone notices, **they've moved.** | Wipe to Paper; Timeline: Today → Fixed rate ends 2027-03-31 → Refinanced elsewhere (marked) | Situation |
 | 10.0–16.0 s | Layers    | Three layers. **One customer.**               | LayerStack: customer, property, market chips → node "Refinance risk"      | Situation |
 | 16.0–21.5 s | Moment    | One moment, ranked **third.**                 | MomentCard: Refinance risk · 40-1187 · rank counts to 3 / 212 · two evidence rows | Moment |
