@@ -120,7 +120,7 @@
       </div>
       <div class="finding">
         <div class="finding-head">Pass rate collapsed after ValuAI's July 2026 GA launch, then recovered sharply after the September staleness sweep</div>
-        <div class="finding-body">July pass rate: 40% (2/5). August — the month after ValuAI's audit trail feature went GA, before <code>competitive-landscape.md</code> or the battlecards were updated — pass rate dropped to 12.5% (1/8), driven almost entirely by writers still using the pre-GA "we're the only one with an audit trail" framing. September, after the <a href="../../knowledge-base/staleness-detection/sweep-2026-09.md">staleness-detection sweep</a> corrected the source docs, pass rate recovered to 71.4% (5/7) — and the stale-competitive-claim category dropped to zero. See the timeline below.</div>
+        <div class="finding-body">July pass rate: 40% (2/5). August — the month after ValuAI's signal-explanation feature went GA, before <code>competitive-landscape.md</code> or the battlecards were updated — pass rate dropped to 12.5% (1/8), driven almost entirely by writers still using the pre-GA "we're the only one that explains its signals" framing. September, after the <a href="../../knowledge-base/staleness-detection/sweep-2026-09.md">staleness-detection sweep</a> corrected the source docs, pass rate recovered to 71.4% (5/7) — and the stale-competitive-claim category dropped to zero. See the timeline below.</div>
       </div>
       <div class="finding">
         <div class="finding-head">Battlecards and whitepaper excerpts are the riskiest content types — for different, specific reasons</div>
@@ -166,7 +166,7 @@
   <section class="panel">
     <h2>Timeline — how the August dip actually resolved</h2>
     <div class="timeline">
-      <div class="tl-item"><div class="tl-date">Jul 2026</div><div class="tl-body">ValuAI's audit trail feature goes GA (per <a href="../../knowledge-base/competitive-landscape.md">competitive-landscape.md</a>). The "we're the only real audit trail" claim, accurate until this point, silently becomes false.</div></div>
+      <div class="tl-item"><div class="tl-date">Jul 2026</div><div class="tl-body">ValuAI's signal-explanation feature goes GA (per <a href="../../knowledge-base/competitive-landscape.md">competitive-landscape.md</a>). The "we're the only one that explains its signals" claim, accurate until this point, silently becomes false.</div></div>
       <div class="tl-item"><div class="tl-date">Jul 21</div><div class="tl-body"><span class="tl-tag problem">Caught</span>First stale-competitive-claim hard fail, in a battlecard update — the check catches it even though the source docs hadn't been corrected yet.</div></div>
       <div class="tl-item"><div class="tl-date">Aug 6 – 27</div><div class="tl-body"><span class="tl-tag problem">Recurring</span>Four more stale-competitive-claim hard fails across a sales deck, website copy, and another battlecard update — the same uncorrected claim keeps getting reused because the underlying reference doc still said the old thing.</div></div>
       <div class="tl-item"><div class="tl-date">Sep (early)</div><div class="tl-body"><span class="tl-tag fix">Fixed</span>The <a href="../../knowledge-base/staleness-detection/sweep-2026-09.md">staleness-detection sweep</a> rewrites competitive-landscape.md's ValuAI section and the valuai.html battlecard with the corrected, current framing.</div></div>

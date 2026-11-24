@@ -8,19 +8,19 @@ The full brand system: who we are, how we sound, and how we look. For the detail
 
 ### Mission
 
-Give lenders a property valuation they can actually defend, not just receive.
+Show banks, insurers, and brokerages the opportunities already inside their customer base — with the evidence to act on them.
 
 ### Vision
 
-A market where every automated financial decision — not just Parcelwise's — can withstand scrutiny, so "the model said so" stops being an acceptable answer anywhere in lending.
+A market where every automated customer decision — not just Parcelwise's — can withstand scrutiny, so "the model said so" stops being an acceptable answer anywhere in banking and insurance.
 
 ### Brand values
 
 1. **Defensible over impressive.** A claim that survives being questioned beats a claim that only sounds good in a demo.
 2. **Precision, not hype.** Say exactly what the product does. If we can't name the specific mechanism, we don't make the claim.
-3. **Transparency by default.** Show the work — the comparables, the weighting, the methodology — rather than asking for trust.
+3. **Transparency by default.** Show the work — the data points behind each signal, how much each counted, the method — rather than asking for trust.
 4. **Respect the skeptic.** Our best-fit buyer is trained to distrust vendor claims. That skepticism is correct more often than not, and we build and write for it rather than around it.
-5. **Substance before speed.** Speed is real value, but never the whole pitch — see [`positioning.md`](../positioning.md)'s "what this is not."
+5. **Substance before speed.** Volume and speed are real value, but never the whole pitch — see [`positioning.md`](../positioning.md)'s "what this is not."
 
 ### Brand voice and tone
 
@@ -112,20 +112,23 @@ So the product and marketing site read as one brand, not two:
 ### Naming conventions
 
 - **Pricing tiers** (brokerage/seat-based product): **Plot** (entry), **Block** (mid), **Estate** (enterprise): a land-scale theme that grows with the customer, used consistently and only for this purpose (not reused as a generic naming device elsewhere).
-- **Feature names:** literal and descriptive, never invented proper nouns or trademarked-sounding names. "Audit Trail," not "TraceIQ™." "Coverage Map," not "SmartArea." This follows directly from the "precision, not hype" brand value — a cute feature name reads as marketing packaging on something that should read as infrastructure.
+- **Feature names:** literal and descriptive, never invented proper nouns or trademarked-sounding names. "Evidence Trail," not "TraceIQ™." "Coverage Map," not "SmartArea." This follows directly from the "precision, not hype" brand value — a cute feature name reads as marketing packaging on something that should read as infrastructure.
 - **Product terminology (use consistently):**
 
 | Use this | Not this |
 |---|---|
-| Valuation | Appraisal, estimate |
-| Comparable | Comp |
-| Audit trail | Explainability report, transparency log |
-| Lender / bank | Client (in product copy — "client" is fine in casual internal use) |
-| Loan origination system (LOS) | Origination platform, loan system |
+| Signal | Lead, insight, alert |
+| Evidence trail (the data points behind a signal) | Explainability report, transparency log |
+| Audit log (the record of what was done with a signal) | Activity feed, history |
+| Customer base | Database, leads |
+| Property data · market data · customer data (the three data layers) | Big data, data lake |
+| Valuation (as one data point inside a signal) | Appraisal, estimate |
+| Bank / lender / insurer / brokerage | Client (in product copy — "client" is fine in casual internal use) |
+| CRM | Sales tool, customer system |
 
 ### Image and icon style
 
 - **No stock photography.** Especially no generic finance-stock clichés (handshakes, skyline photos, people pointing at monitors). This audience recognizes stock photography instantly and it reads as substance-free.
-- **Prefer real product surfaces and data visualization** — an actual (or realistic mock) audit trail screenshot, a real comparable-weighting chart — over any illustration standing in for the product.
+- **Prefer real product surfaces and data visualization** — an actual (or realistic mock) evidence-trail screenshot, a real signal-weighting chart — over any illustration standing in for the product.
 - **Where illustration is needed** (e.g. a concept with no literal screenshot, like "data residency"), use abstract geometric illustration consistent with the logomark's style — flat shapes, no gradients, no 3D renders, no isometric-office-life scenes.
 - **Icon style:** line icons only, 1.5–2px stroke weight, no fills, consistent corner radius. No skeuomorphic, glossy, or 3D icon sets. This matches the logomark's own construction (a stroked parcel map plus one solid highlighted lot) — the icon system and the logo should look like they were drawn by the same hand.

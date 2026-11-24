@@ -21,10 +21,10 @@ This persona's `personas.md` entry: risk-averse by function, has usually been bu
 
 ### "How is this different from [prior vendor]'s explainability claim that fell apart?"
 **Read:** The single most predictable objection for this persona — `personas.md` names it directly as a common objection.
-**Response guidance:** Don't get defensive or imply the prior vendor was simply wrong. Ask what specifically fell apart (methodology, a live audit, an exam finding) and answer that specific failure mode directly — a generic "we're different" answer pattern-matches as exactly the claim they're already skeptical of.
+**Response guidance:** Don't get defensive or imply the prior vendor was simply wrong. Ask what specifically fell apart (the method, a live test, an audit finding) and answer that specific failure mode directly — a generic "we're different" answer pattern-matches as exactly the claim they're already skeptical of.
 
 ### "I've forwarded this to our data/risk analyst to take a look."
-**Read:** A good sign, not a brush-off — per `personas.md`'s persona interaction map, the Credit Risk Analyst / Data Lead is usually an ally if engaged early, and this Head of Credit Risk is routing correctly rather than rubber-stamping.
+**Read:** A good sign, not a brush-off — per `personas.md`'s persona interaction map, the Data & CRM Lead is usually an ally if engaged early, and this Head of Credit Risk is routing correctly rather than rubber-stamping.
 **Response guidance:** Offer to loop in directly with the analyst rather than waiting for them to reach out — and treat the analyst's technical questions as legitimate scrutiny, not an obstacle, when they arrive.
 
 ### "Not the right time — we're mid-exam cycle / just renewed with our current vendor."
@@ -38,22 +38,22 @@ This persona's `personas.md` entry: risk-averse by function, has usually been bu
 
 ## VP of Mortgage Lending
 
-This persona's `personas.md` entry: measured on cycle time and throughput, won't advocate internally for the risk/compliance case, wants a real implementation timeline rather than an "instant" claim.
+This persona's `personas.md` entry: measured on growth and retention of the mortgage book, won't advocate internally for the risk/compliance case, wants a real implementation timeline rather than an "instant" claim.
 
-### "What's the actual retraining time for my loan officers?"
+### "What's the actual retraining time for my advisors?"
 **Read:** A direct hit on this persona's stated common objection — answer with the real number, not a range that sounds better than it is.
 **Response guidance:** Give the honest figure, broken down by what's genuinely new versus what stays the same in the existing workflow. If the honest answer is "more than a day," say that — this persona's trust trigger is explicitly "a rep who separates 'the tool goes live' from 'my team actually adopts it.'"
 
-### "What's the real time savings, not the marketing number?"
-**Response guidance:** Point to a sourced, specific figure (the same one used in Email 1) rather than restating the calculator's theoretical output — and offer a reference call with an existing lending-ops customer if one exists, since this persona's content preferences skew toward operational-metric case studies over slides.
+### "What's the real retention uplift, not the marketing number?"
+**Response guidance:** Point to a sourced, specific figure (the same one used in Email 1) rather than restating the calculator's theoretical output — and offer a reference call with an existing lending customer if one exists, since this persona's content preferences skew toward operational-metric case studies over slides.
 
 ### "Can you send this to our risk lead / send a version for compliance?"
 **Read:** This is the single most important reply type for this persona — `personas.md` states directly that this buyer "won't sell this internally for them" on the risk side, so a request to loop in risk is the sequence working as intended, not a detour.
 **Response guidance:** Offer the joint walkthrough described in [`campaign-vp-mortgage-lending.md`](./campaign-vp-mortgage-lending.md)'s Email 5, and reach out to the risk contact directly rather than routing everything back through the VP — this removes exactly the internal-selling burden the persona profile flags as a trust breaker if left on them.
 
-### "We're not prioritizing this right now — cycle times are fine."
-**Read:** Possibly a genuine low-priority signal, but per `personas.md`'s pain language ("my team is doing manual workarounds ... and I don't fully see where"), this can also mean the pain is real but not yet visible to this specific person.
-**Response guidance:** One light follow-up offering the borrower-abandonment data point (Email 3's angle) is reasonable if it wasn't already covered — a downstream metric this persona may not be tracking yet. Don't push past a second soft no.
+### "We're not prioritizing this right now — retention is fine."
+**Read:** Possibly a genuine low-priority signal, but per `personas.md`'s pain language ("we find out a customer refinanced elsewhere when the redemption request arrives"), this can also mean the pain is real but not yet visible to this specific person.
+**Response guidance:** One light follow-up offering the advisor-action data point (Email 3's angle) is reasonable if it wasn't already covered — a downstream metric this persona may not be tracking yet. Don't push past a second soft no.
 
 ### Hard no / unsubscribe
 **Response guidance:** Same as Head of Credit Risk — honor immediately, no retention email.
