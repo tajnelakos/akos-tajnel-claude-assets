@@ -20,7 +20,7 @@ Expands the persona list in [`knowledge-base.md`](./knowledge-base.md). Where [`
 
 A deal rarely has one persona in the room — it has several, often with real tension between them, not just different priorities in parallel:
 
-- **Head of Credit Risk vs. VP of Mortgage Lending** is the most common live tension: lending wants more opportunities worked faster, risk wants to know why each customer was chosen, and neither will say the other's priority doesn't matter. The rep's job is to show the two aren't actually in conflict (a signal that shows its evidence *is* a signal advisors act on faster, and one risk can approve once instead of campaign by campaign), not to pick a side. See the [Meridian Savings call](../knowledge-base/sales-call-analysis/call-02-meridian-savings.md) for this playing out directly.
+- **Head of Credit Risk vs. VP of Mortgage Lending** is the most common live tension: lending wants more opportunities worked faster, risk wants to know why each customer was chosen, and neither will say the other's priority doesn't matter. The rep's job is to show the two aren't actually in conflict (a moment that shows its evidence *is* a moment advisors act on faster, and one risk can approve once instead of campaign by campaign), not to pick a side. See the [Meridian Savings call](../knowledge-base/sales-call-analysis/call-02-meridian-savings.md) for this playing out directly.
 - **Data & CRM Lead is usually an ally, not a gatekeeper**, if engaged early — they want to be the one who validated the tool properly, and a rep who treats them as a rubber stamp loses that alliance. See the [Meadowbrook Financial call](../knowledge-base/sales-call-analysis/call-13-meadowbrook-financial.md), where the data team's own evaluation rigor became the rep's strongest lever.
 - **IT Security Lead answers to a different, often invisible-until-late master**: a specific regulator or internal data-governance policy, not the deal's momentum. Because Seekridge works with the client's own customer data, they are the one persona here who can end a deal that every other stakeholder wants to close — see the [Solvane Lending Group call](../knowledge-base/sales-call-analysis/call-10-solvane-lending-group.md).
 - **Vendor Risk & Compliance moves on its own clock**, largely deaf to sales urgency, and reacts badly to being chased directly rather than through the internal champion — see the [Thornfield Mutual call](../knowledge-base/sales-call-analysis/call-14-thornfield-mutual.md).
@@ -36,16 +36,16 @@ A deal rarely has one persona in the room — it has several, often with real te
 **Pain, in their language:** *"I can't tell the auditor 'the model picked them' — I need to be able to show why we contacted each customer."* *"Every vendor claims their AI is explainable. I've been burned by that claim before."* *"I don't need the cleverest model. I need the one I can defend two years from now, after whoever ran the campaign has left."*
 
 **Decision criteria, ranked:**
-1. Explainability of individual signals — which data points drove each one
-2. Signal quality, validated against a method they can scrutinize (not just a headline hit rate)
+1. Explainability of individual moments — which data points drove each one
+2. Moment quality, validated against a method they can scrutinize (not just a headline hit rate)
 3. Vendor stability and customer-data handling practices
 4. Integration effort (real, but secondary to the above)
 
-**Common objections:** "How is this different from [prior vendor]'s explainability claim that didn't hold up?" · "What happens to our customer data if we leave you?" · "Show me a signal that turned out wrong and how the evidence trail explained it."
+**Common objections:** "How is this different from [prior vendor]'s explainability claim that didn't hold up?" · "What happens to our customer data if we leave you?" · "Show me a moment that turned out wrong and how the evidence trail explained it."
 
 **Trust triggers:** A vendor who volunteers a live run on the bank's own data, unprompted. A vendor who says "we don't know, let me find out" rather than an immediate confident answer. A specific, named method detail rather than a general claim.
 
-**Trust breakers:** Any claim that sounds identical to a prior vendor's claim that didn't hold up — this persona has usually been burned once already and pattern-matches hard against repeat offenses. Overclaiming signal accuracy without a disclosed method. Being asked to just "trust the model."
+**Trust breakers:** Any claim that sounds identical to a prior vendor's claim that didn't hold up — this persona has usually been burned once already and pattern-matches hard against repeat offenses. Overclaiming moment accuracy without a disclosed method. Being asked to just "trust the model."
 
 **Content preferences:** Method whitepapers, live runs on their own data over slides, peer references from similarly-regulated institutions. Actively distrusts case studies without a named, checkable source.
 
@@ -66,7 +66,7 @@ A deal rarely has one persona in the room — it has several, often with real te
 **Decision criteria, ranked:**
 1. Business impact — retained volume or new lending, ideally with a specific number from their own data
 2. Fit with the advisors' existing CRM workflow (minimal new steps)
-3. Whether advisors will actually believe and act on the signals
+3. Whether advisors will actually believe and act on the moments
 4. Alignment with what Credit Risk has already approved (won't fight that battle themselves)
 
 **Common objections:** "Will my advisors need retraining, and how long does that take?" · "What's the actual uplift on our customers, not the theoretical one?"
@@ -94,14 +94,14 @@ A deal rarely has one persona in the room — it has several, often with real te
 **Decision criteria, ranked:**
 1. Evidence on their own book — a backtest showing underinsurance and lapse risk the insurer didn't already know about
 2. Property-data depth (rebuild value, construction type, energy rating) in their regions
-3. How signals reach agents and brokers, not just the head-office team
+3. How moments reach agents and brokers, not just the head-office team
 4. Data-handling and consent fit with insurance regulation
 
 **Common objections:** "We already have a renewal model." · "How do you know the rebuild value better than our underwriters?"
 
 **Trust triggers:** A rep who asks how distribution works at this insurer before pitching. Property evidence shown per policy, not as a portfolio average.
 
-**Trust breakers:** Bank-centric language ("loans," "origination") — it signals the vendor doesn't know insurance. Reference customers who are all banks.
+**Trust breakers:** Bank-centric language ("loans," "origination") — it moments the vendor doesn't know insurance. Reference customers who are all banks.
 
 **Content preferences:** A backtest on a sample of their own book, short case studies with premium and retention numbers, one-pagers for distribution leaders.
 
@@ -121,7 +121,7 @@ A deal rarely has one persona in the room — it has several, often with real te
 
 **Decision criteria, ranked:**
 1. Agent adoption / ease of use (low friction to get value in first session)
-2. Direct tie to winning listings (does a seller signal turn into a listing appointment)
+2. Direct tie to winning listings (does a seller moment turn into a listing appointment)
 3. Price relative to per-seat value
 4. Onboarding/support quality
 

@@ -6,7 +6,7 @@ Built from the win-loss deep dive's Estemate/ValuAI win-rate finding — the sam
 
 ## Input
 
-> Write a LinkedIn post. Seed: the win-loss deep dive's finding that Estemate (the "boring" long-tenured incumbent) wins 72.7% of contested deals against us, while ValuAI (the newer "AI-native" entrant) has lost every deal since its signal-explanation feature launched — small sample, but a real, current internal finding.
+> Write a LinkedIn post. Angle: the win-loss deep dive's finding that Estemate (the "boring" long-tenured incumbent) wins 72.7% of contested deals against us, while ValuAI (the newer "AI-native" entrant) has lost every deal since its moment-explanation feature launched — small sample, but a real, current internal finding.
 
 ## Output
 

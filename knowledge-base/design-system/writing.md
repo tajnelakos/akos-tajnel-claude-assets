@@ -19,12 +19,12 @@ Confident and specific, never hyped. The audience is technically skeptical and r
 | Rule | Do | Don't |
 |---|---|---|
 | Name the persona's problem | "Which of your customers will refinance elsewhere this quarter?" | "Discover our new platform" |
-| Mechanism, not adjective | "Every signal shows the 6 data points behind it and how much each counted" | "Robust, transparent insights" |
+| Mechanism, not adjective | "Every moment shows the 6 data points behind it and how much each counted" | "Robust, transparent insights" |
 | Explain any AI claim | "The model combines the rate-reset date, equity and local price trend, and shows each weight" | "Powered by advanced AI" |
-| Benefit, then feature | "Know which customers to call this month, and why" | "Signal scoring with Evidence Trail" |
-| One term per idea | "signals" throughout | "signals", then "leads", then "alerts" |
+| Benefit, then feature | "Know which customers to call this month, and why" | "Moment scoring with Evidence Trail" |
+| One term per idea | "moments" throughout | "moments", then "leads", then "alerts" |
 | Precise CTAs | "Run a backtest on your own customer base" | "Learn more" |
-| Admit the limit | "Signal quality depends on your CRM data, so we backtest it before go-live" | Implying signals work the same on any data |
+| Admit the limit | "Moment quality depends on your CRM data, so we backtest it before go-live" | Implying moments work the same on any data |
 
 ## Anti-patterns
 
@@ -39,22 +39,22 @@ Confident and specific, never hyped. The audience is technically skeptical and r
 
 | Instead of | Use |
 |---|---|
-| "seamless integration" | the integration point: "pushes signals into your existing CRM via API" |
+| "seamless integration" | the integration point: "pushes moments into your existing CRM via API" |
 | "powered by advanced AI" | what the system does or checks |
 | "significantly faster" | the figure, or "faster than manual review" |
 | "revolutionary approach" | the specific difference, without the adjective |
 
 ## Names and terms
 
-- **Seekridge**: one word, capital P only, no article ("Seekridge backtests every signal model", not "The Seekridge…").
+- **Seekridge**: one word, capital P only, no article ("Seekridge backtests every moment model", not "The Seekridge…").
 - **Feature names** are literal and capitalised as names: Evidence Trail, Coverage Map. In running text they take no article in English ("Evidence Trail shows…"); German and Dutch use articles.
 - **Tiers:** Plot, Block, Estate. Only for pricing.
-- **Terminology:** signal (not lead, insight or alert) · evidence trail (the data points behind a signal; not explainability report) · audit log (the record of what was done with a signal; not activity feed) · customer base (not database or leads) · property data, market data, customer data (not big data or data lake) · valuation, as one data point inside a signal (not appraisal or estimate) · bank, lender, insurer or brokerage (not client, in product copy) · CRM · automated valuation model (AVM), spelled out on first use.
+- **Terminology:** moment (not lead, insight or alert) · evidence trail (the data points behind a moment; not explainability report) · audit log (the record of what was done with a moment; not activity feed) · customer base (not database or leads) · property data, market data, customer data (not big data or data lake) · valuation, as one data point inside a moment (not appraisal or estimate) · bank, lender, insurer or brokerage (not client, in product copy) · CRM · automated valuation model (AVM), spelled out on first use.
 - **Competitors** are named only in battlecards and internal material, never in public content.
 
 ## Case
 
-Sentence case for every title, heading, button, label, cover and caption: "Evidence for every signal", "Run a backtest". Capitals only for the first word, Seekridge, feature names, tiers and proper nouns. The mono eyebrow label is the one all-caps element, and it's set in CSS (`text-transform`), not typed in capitals.
+Sentence case for every title, heading, button, label, cover and caption: "Evidence for every moment", "Run a backtest". Capitals only for the first word, Seekridge, feature names, tiers and proper nouns. The mono eyebrow label is the one all-caps element, and it's set in CSS (`text-transform`), not typed in capitals.
 
 ## Numbers, currency and dates
 
@@ -80,7 +80,7 @@ Sentence case for every title, heading, button, label, cover and caption: "Evide
 
 ## Inclusive language
 
-- English: *they / their* for generic people ("If an advisor needs the evidence, they can open it from the signal").
+- English: *they / their* for generic people ("If an advisor needs the evidence, they can open it from the moment").
 - German: neutral forms first (*Kundschaft*, *Mitarbeitende*), otherwise *Kund:innen*.
 - Never gender a generic advisor, broker, customer or policyholder.
 
@@ -88,7 +88,7 @@ Sentence case for every title, heading, button, label, cover and caption: "Evide
 
 - **Buttons:** verb + object, sentence case: "Push to CRM", "View evidence", "Export audit log". Never "Submit" or "Click here".
 - **Errors:** what happened, then what to do: "We couldn't match 214 customer records to a property. Check the address fields in your CRM export." Never blame the user; never only a colour.
-- **Empty states:** say what will appear and how to get it: "No signals yet. Connect your CRM to analyse your customer base."
+- **Empty states:** say what will appear and how to get it: "No moments yet. Connect your CRM to analyse your customer base."
 - **Confidence and limits are shown, not hidden:** "Limited evidence: no recent sales within 2 km of this property."
 
 ## Rewriting a draft

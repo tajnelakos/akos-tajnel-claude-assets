@@ -9,7 +9,7 @@ Corrects a belief the market repeats: the correction as a cover, the belief in a
 - The belief, in the words the market uses, as a quotation: up to 15 words. It's a paraphrase of a common position, never a quote from a named competitor or person.
 - Why it fails: one statement about the question it can't answer (a regulator's, a risk committee's, a customer's), plus one supporting line.
 - The method: three checks, each a full sentence a buyer could put to a vendor.
-- A close that turns the method into an action ("Ask any vendor for one signal's evidence.").
+- A close that turns the method into an action ("Ask any vendor for one moment's evidence.").
 
 **Build rules**
 - Cover: lockup top-left, `parcel-grid` motif top-right, title block anchored 240px from the bottom and 160px clear of the right edge, `body-lead` line "A belief worth retiring, in four slides." or similar. Arrow at the margin.

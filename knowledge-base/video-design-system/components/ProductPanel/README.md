@@ -1,6 +1,6 @@
 # ProductPanel
 
-The base of every product moment: a flat white panel rebuilt from a real Seekridge screen (see `assets/Product UI/`), cropped to the part the beat is about. SignalCard, EvidenceTrail and AuditLog are panels.
+The base of every product moment: a flat white panel rebuilt from a real Seekridge screen (see `assets/Product UI/`), cropped to the part the beat is about. MomentCard, EvidenceTrail and AuditLog are panels.
 
 **Anatomy**
 - White `surface`, 1px `panel-line` border, 4px corners, **no shadow**: it lies on the ground like a sheet on a drafting table.

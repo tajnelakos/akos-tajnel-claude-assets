@@ -9,7 +9,7 @@
 
 **Sophie:** Sorry for the radio silence, honestly. It's not that interest has dropped — we got pulled into an unrelated core banking migration that's eating everyone's bandwidth right now.
 
-**Anna:** That's useful context, and better to hear directly than guess. Where does that leave the retention-signals project — paused, or just deprioritized in sequence?
+**Anna:** That's useful context, and better to hear directly than guess. Where does that leave the retention-moments project — paused, or just deprioritized in sequence?
 
 **Sophie:** Deprioritized in sequence, I'd say. We still want to do this, but realistically nobody on my team has capacity to run an implementation alongside the core banking work until at least Q4.
 
@@ -17,11 +17,11 @@
 
 **Sophie:** Yes, that's actually more useful than the ambiguity we've been in. Can I ask — we also had a shorter conversation with Bricklane a while back, mostly around timeline. Their pitch was that implementation is nearly instant, self-serve — just plug into their data feed. Is that a real difference, or oversimplified?
 
-**Anna:** It's real in a narrow sense — turning on the product itself can be nearly instant, since it's fundamentally a self-serve data API. Whether that's the differentiator that matters for you depends on what "implementation" means for you specifically — is it the data feed going live, or is it the surrounding work of building signals on top of it, getting them into your CRM, validating them against your own historical data, and your advisors actually using them?
+**Anna:** It's real in a narrow sense — turning on the product itself can be nearly instant, since it's fundamentally a self-serve data API. Whether that's the differentiator that matters for you depends on what "implementation" means for you specifically — is it the data feed going live, or is it the surrounding work of building moments on top of it, getting them into your CRM, validating them against your own historical data, and your advisors actually using them?
 
 **Sophie:** Realistically the second thing, if I'm honest. Turning the tool on isn't the hard part for us — it's the surrounding validation work.
 
-**Anna:** Then "nearly instant" is answering a narrower question than the one you actually have. Our implementation timeline accounts for that surrounding work explicitly — the signals, the CRM integration, and the backtest — rather than just an API going live — which is why it's measured in weeks rather than being marketed as instant. I'd rather be accurate about that than win a comparison on a technicality.
+**Anna:** Then "nearly instant" is answering a narrower question than the one you actually have. Our implementation timeline accounts for that surrounding work explicitly — the moments, the CRM integration, and the backtest — rather than just an API going live — which is why it's measured in weeks rather than being marketed as instant. I'd rather be accurate about that than win a comparison on a technicality.
 
 **Sophie:** That's a fair distinction, actually — I hadn't separated those two things when I heard their pitch.
 

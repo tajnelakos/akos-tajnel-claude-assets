@@ -5,7 +5,7 @@
 
 ---
 
-**Marcus:** Priya, thanks for the time. What's prompting you to look at seller-signal tools now specifically?
+**Marcus:** Priya, thanks for the time. What's prompting you to look at seller-moment tools now specifically?
 
 **Priya:** We're losing a couple of listings a month, our agents think, to competitors who get to sellers first — sometimes people we sold a home to years ago. And when we do get the appointment, the other brokerage shows up with sharper market data. It's not a crisis, but it adds up.
 
@@ -21,7 +21,7 @@
 
 **Priya:** Okay. And realistically, how long does it take an agent to actually get comfortable using this day to day? I don't want to pay for 25 seats and have half the team never actually adopt it.
 
-**Marcus:** That's the right question to ask before the pricing question, honestly. I'll be straightforward: onboarding for someone comfortable with basic software tools is usually fast, same day for the seller signals and the core valuation pull. For agents less comfortable with new tools generally, it can take longer to build the habit — that's more about individual comfort with new software than the product's complexity, but I don't want to pretend everyone picks it up instantly.
+**Marcus:** That's the right question to ask before the pricing question, honestly. I'll be straightforward: onboarding for someone comfortable with basic software tools is usually fast, same day for the seller moments and the core valuation pull. For agents less comfortable with new tools generally, it can take longer to build the habit — that's more about individual comfort with new software than the product's complexity, but I don't want to pretend everyone picks it up instantly.
 
 **Priya:** That tracks with my team — I've got a wide range of comfort levels. Is there a lighter onboarding path for the less tech-comfortable half of my team specifically?
 

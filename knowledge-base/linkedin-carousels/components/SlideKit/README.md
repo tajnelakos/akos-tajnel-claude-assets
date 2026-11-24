@@ -30,7 +30,7 @@ The reusable slide archetypes behind every format, grouped by job, for building 
 
 **How to compose a carousel**
 1. Pick the job of the post (explain, correct, prove, launch, brief, invite or guide) and its one reader.
-2. Choose one cover: *lockup + grid* for news and corrections, *centred question* for a hook, *figure* for a result, *layers* for anything about how a signal is built, *count* for a list.
+2. Choose one cover: *lockup + grid* for news and corrections, *centred question* for a hook, *figure* for a result, *layers* for anything about how a moment is built, *count* for a list.
 3. Tell the story with 2–6 middle slides, following question → tension → method → proof → action. *Statement* for argument, *Belief* for a correction, *Layers* and *Evidence* for how it works, *Figure*, *Chart* and *Table* for proof, *Screenshot* for the product, *List item* and *Checklist* for practical value.
 4. End on one close: *Close · CTA* or *Event invite*. Only the last slide drops the arrow and the counter.
 
@@ -47,7 +47,7 @@ The reusable slide archetypes behind every format, grouped by job, for building 
 - One title style per slide, plus at most one supporting style. Archivo for titles and figures, Plex Sans for reading, Plex Mono for data.
 - One gold element per slide: up to 3 words, or a motif's lot, or the top weight, or the focus bar.
 - One motif per slide, anchored to an edge, never behind text.
-- Every signal carries its evidence; every figure carries a source line.
+- Every moment carries its evidence; every figure carries a source line.
 
 **Creating a new archetype**
 Build it from existing tokens only: a title style, a white card, a navy-deep panel, an outlined card, a screenshot frame, a motif, an icon. If it needs a new colour, font, corner radius, shadow or shape, it's off-brand.

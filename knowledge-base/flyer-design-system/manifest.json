@@ -74,7 +74,7 @@
     {
       "name": "EvidenceStrip",
       "group": "Content",
-      "summary": "The brand promise on paper: one signal, the customer it points at (by ID), and the data points behind it with how much each counted. Every piece that shows a signal shows this."
+      "summary": "The brand promise on paper: one moment, the customer it points at (by ID), and the data points behind it with how much each counted. Every piece that shows a moment shows this."
     },
     {
       "name": "FeaturePanel",
@@ -89,7 +89,7 @@
     {
       "name": "LayerDiagram",
       "group": "Content",
-      "summary": "The flyer version of how a signal is built: three square layer chips on the left, joined by hairlines into one signal box with the gold lot in its corner. It replaces orbiting chips and glowing hero objects: the brand shows the method, not a halo."
+      "summary": "The flyer version of how a moment is built: three square layer chips on the left, joined by hairlines into one moment box with the gold lot in its corner. It replaces orbiting chips and glowing hero objects: the brand shows the method, not a halo."
     },
     {
       "name": "Step",

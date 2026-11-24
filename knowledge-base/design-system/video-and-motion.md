@@ -16,7 +16,7 @@ Rules for Seekridge product videos and UI motion: formats, story structure, key 
 
 1. **Hook (0–5 s):** the persona's situation on a navy title card. "Your customer's fixed rate resets in four months."
 2. **Tension (5–15 s):** what goes wrong today. "By the time anyone notices, they've refinanced elsewhere."
-3. **Method (15–40 s):** the product, as panels rebuilt in code from the real screens (never screen-recorded), following the three layers: the customer record, then the property and its value, then the market and rates. The signal appears with its evidence trail and is pushed to the CRM.
+3. **Method (15–40 s):** the product, as panels rebuilt in code from the real screens (never screen-recorded), following the three layers: the customer record, then the property and its value, then the market and rates. The moment appears with its evidence trail and is pushed to the CRM.
 4. **Proof (40–55 s):** one backtest figure with its source line, or one customer outcome (approved, or labelled illustrative).
 5. **Close (last 4–5 s):** end card with the lockup, one line ("Opportunities you can act on — and explain.") and one action ("Run a backtest on your own book").
 
@@ -43,7 +43,7 @@ Motion should feel like a surveyor drawing a plan: straight lines, exact, no bou
 | `--motion-draw` | 800ms | Parcel lines drawing in on video |
 | `--ease-standard` | cubic-bezier(0.2, 0, 0, 1) | Everything that moves |
 
-- **Signature move:** parcel lines draw in, then the one gold lot fills. Use it on the title card and when a signal appears.
+- **Signature move:** parcel lines draw in, then the one gold lot fills. Use it on the title card and when a moment appears.
 - **Allowed:** cuts, fades, straight wipes, line draws, number count-ups (ending on the exact value), slow zooms into screenshots.
 - **Not allowed:** bounces, spins, 3D flips, glitch effects, particle fields, stock footage.
 - **UI motion:** only to show cause and effect (a row expanding, a panel opening). Respect `prefers-reduced-motion`: replace movement with a fade.

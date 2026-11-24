@@ -79,7 +79,7 @@
   --pwv-text-lower-third-tracking: 0;
   --pwv-text-caption: 500 44px/56px var(--pwv-font-ui); /* Burnt-in captions on the 16:9 master. 2 lines, 42 characters a line. */
   --pwv-text-caption-tracking: 0;
-  --pwv-text-panel-title: 600 32px/40px var(--pwv-font-ui); /* Panel header: the signal name, the screen name. */
+  --pwv-text-panel-title: 600 32px/40px var(--pwv-font-ui); /* Panel header: the moment name, the screen name. */
   --pwv-text-panel-title-tracking: -0.005em;
   --pwv-text-panel-value: 500 26px/34px var(--pwv-font-ui); /* Row values in a panel. The smallest size a viewer must read. */
   --pwv-text-panel-value-tracking: 0;
@@ -89,7 +89,7 @@
   --pwv-text-data-tracking: 0;
   --pwv-text-source: 400 22px/30px var(--pwv-font-mono); /* The source line under every figure and chart. */
   --pwv-text-source-tracking: 0;
-  --pwv-text-rail: 500 20px/24px var(--pwv-font-mono); /* ChapterRail labels at the bottom of a Signal story. */
+  --pwv-text-rail: 500 20px/24px var(--pwv-font-mono); /* ChapterRail labels at the bottom of a Moment story. */
   --pwv-text-rail-tracking: 0.08em;
   --pwv-w: 1920px; /* Master width. */
   --pwv-h: 1080px; /* Master height. */

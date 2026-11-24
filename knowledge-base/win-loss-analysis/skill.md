@@ -16,7 +16,7 @@ Turn a pile of closed-deal notes into one page an exec will read: what we actual
 3. **Cap each list at 4-5 reasons.** Group anything smaller into "Other" rather than listing every one-off reason — a list of 12 reasons is not a pattern, it's a data dump.
 4. **Compute percentages against total won / total lost**, not total deals — win reasons should sum to ~100% of wins, loss reasons to ~100% of losses.
 5. **Note competitor concentration**: if losses cluster against one competitor, call that out explicitly — a 38% loss-to-price rate means something different if it's all against one aggressively-priced competitor vs. spread evenly.
-6. **Compare to the prior period if data is available.** A reason that jumped in rank (e.g. "missing on-prem" moving from #4 to #2) is often more actionable than the current #1, because it signals a new or growing blocker.
+6. **Compare to the prior period if data is available.** A reason that jumped in rank (e.g. "missing on-prem" moving from #4 to #2) is often more actionable than the current #1, because it moments a new or growing blocker.
 7. **End with 2-3 concrete next actions**, each tied to a specific finding, addressed to a specific function (sales enablement, product, content). Never end on the chart alone — an unquantified "so what" is a required section, not optional color commentary.
 8. **Render as a single infographic**: header stat row (win rate, deals analyzed, top competitor), two horizontal bar sections (won / lost reasons), and a takeaway panel. Use one hue for the "won" bars and a different single hue for "lost" bars — this is categorical-by-section, not a multi-series legend.
 

@@ -12,6 +12,6 @@ The ground of a Statement film: Navy throughout, a band of parcel lines along th
 
 **Provide.** The claim (one sentence, full stop), the turn (the next beat), the eyebrow.
 
-**Use.** Statement films; the Proof beat of a Signal story can borrow the stage for its FigureCard.
+**Use.** Statement films; the Proof beat of a Moment story can borrow the stage for its FigureCard.
 
 **Avoid.** Hype in the claim (*revolutionary*, *game-changing*), a product panel in the first beat, a band with a gold lot and a gold headline in the same frame.

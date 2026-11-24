@@ -19,8 +19,8 @@ The rendered one-pager: [`one-pager-head-of-credit-risk.html`](./one-pager-head-
 **Headline:** Opportunities you can act on — and explain.
 **Subhead:** Most customer-scoring tools give you a list and a score. If an auditor asks why a customer was on that list, "the model said so" isn't an answer — and increasingly, regulators are asking.
 **Proof points:**
-1. Per-signal evidence trail — every signal shows the property, market, and customer data points behind it and their weighting, inspectable, not just a score.
-2. Backtested on your own data — signals tested against the bank's own past outcomes, method documented for technical evaluators to scrutinize.
+1. Per-moment evidence trail — every moment shows the property, market, and customer data points behind it and their weighting, inspectable, not just a score.
+2. Backtested on your own data — moments tested against the bank's own past outcomes, method documented for technical evaluators to scrutinize.
 3. Built for regulated banking from inception — audit-log format, consent handling, and CRM integration designed around banking compliance from the start.
 4. A recent deal proof point (anonymized, pending sign-off) — a Nordics regional bank displaced its incumbent specifically over this gap.
 **CTA:** See a live evidence trail on a sample of your own customers — real data, no prepared demo, about 15 minutes.

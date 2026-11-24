@@ -7,11 +7,11 @@ description: Drafts a blog post built around one specific, real point of view or
 
 ## Purpose
 
-Most B2B blog content is generic SEO-bait dressed as thought leadership — a "how-to" post built to rank, not to argue anything. This skill requires a real, specific seed (an actual point of view from `positioning.md`, or an actual finding from this repo's data) before it drafts anything, the same discipline [`personalized-outbound`](../personalized-outbound) applies to a trigger signal and [`case-study-builder`](../case-study-builder) applies to a customer result.
+Most B2B blog content is generic SEO-bait dressed as thought leadership — a "how-to" post built to rank, not to argue anything. This skill requires a real, specific angle (an actual point of view from `positioning.md`, or an actual finding from this repo's data) before it drafts anything, the same discipline [`personalized-outbound`](../personalized-outbound) applies to a trigger moment and [`case-study-builder`](../case-study-builder) applies to a customer result.
 
 ## Instructions
 
-1. **Require a specific seed.** One of [`positioning.md`](../../knowledge-base/positioning.md)'s three "Points of view that ladder to this," or a real, sourced finding from [`competitor-monitoring`](../../sales-tools/competitor-monitoring), [`win-loss-analysis`](../../knowledge-base/win-loss-analysis), [`staleness-detection`](../../knowledge-base/staleness-detection), or [`sales-call-analysis`](../../knowledge-base/sales-call-analysis). If the user just says "write a blog post about X" with no specific claim, offer `positioning.md`'s three POVs as starting options rather than free-associating a generic angle.
+1. **Require a specific angle.** One of [`positioning.md`](../../knowledge-base/positioning.md)'s three "Points of view that ladder to this," or a real, sourced finding from [`competitor-monitoring`](../../sales-tools/competitor-monitoring), [`win-loss-analysis`](../../knowledge-base/win-loss-analysis), [`staleness-detection`](../../knowledge-base/staleness-detection), or [`sales-call-analysis`](../../knowledge-base/sales-call-analysis). If the user just says "write a blog post about X" with no specific claim, offer `positioning.md`'s three POVs as starting options rather than free-associating a generic angle.
 2. **Structure:** headline that leads with the claim (no scene-setting opener — `branding-guideline`'s anti-pattern rule already bans this), an intro that states the claim directly, 2-4 body sections each developing one part of the argument with a real, checkable illustration, a conclusion, one CTA.
 3. **Any statistic or example used to illustrate the argument must be sourced from this repo's actual data** — the same rule [`positioning-compliance`](../positioning-compliance) and `case-study-builder` already enforce. Don't invent an anecdote because a real one isn't dramatic enough.
 4. **Generalize competitive intelligence before it goes public.** A specific finding from a named prospect's sales call (e.g. `sales-call-analysis`) or a specific competitor's name (freely used internally in `competitive-landscape.md`/battlecards) needs to be anonymized for a public blog post — "a recent competitive evaluation" and "a well-funded AI-native entrant," not the account's or competitor's actual name. Internal naming conventions don't transfer to public content automatically; flag any draft that names a real prospect or competitor for legal/marketing-lead review before it publishes.
@@ -32,7 +32,7 @@ Most B2B blog content is generic SEO-bait dressed as thought leadership — a "h
 ```
 ## Blog Post — [working title]
 
-**Seed:** [the specific POV or finding this is built around, with internal source]
+**Angle:** [the specific POV or finding this is built around, with internal source]
 **Target persona / audience:** [...]
 **Primary keyword:** [...] · **Secondary keywords:** [...]
 

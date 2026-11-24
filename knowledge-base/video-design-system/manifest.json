@@ -28,7 +28,7 @@
     "components/Captions/README.md",
     "components/ChapterRail/README.md",
     "components/ProductPanel/README.md",
-    "components/SignalCard/README.md",
+    "components/MomentCard/README.md",
     "components/EvidenceTrail/README.md",
     "components/FocusMarks/README.md",
     "components/AuditLog/README.md",
@@ -53,8 +53,8 @@
     {
       "name": "Product UI",
       "files": [
-        "assets/Product UI/01-signals-this-week.png",
-        "assets/Product UI/02-signal-detail.png",
+        "assets/Product UI/01-moments-this-week.png",
+        "assets/Product UI/02-moment-detail.png",
         "assets/Product UI/03-customer-record.png",
         "assets/Product UI/04-coverage-map.png",
         "assets/Product UI/05-crm-sync.png",
@@ -90,7 +90,7 @@
         "assets/Stills/story-evidence-trail.jpg",
         "assets/Stills/story-layerstack.jpg",
         "assets/Stills/story-proof-figure.jpg",
-        "assets/Stills/story-signalcard.jpg",
+        "assets/Stills/story-momentcard.jpg",
         "assets/Stills/story-tension-timeline.jpg",
         "assets/Stills/story-titlecard.jpg",
         "assets/Stills/walkthrough-audit-log.jpg",
@@ -113,7 +113,7 @@
     {
       "name": "TitleCard",
       "group": "Open and close",
-      "summary": "How Signal stories open: the situation as a hook on Navy, the parcel field drawing in, the gold lot filling.",
+      "summary": "How Moment stories open: the situation as a hook on Navy, the parcel field drawing in, the gold lot filling.",
       "readme": "components/TitleCard/README.md",
       "preview": "components/TitleCard/preview.html"
     },
@@ -155,7 +155,7 @@
     {
       "name": "ChapterRail",
       "group": "Navigation",
-      "summary": "The Situation · Signal · Evidence · Action rail at the bottom of Signal stories.",
+      "summary": "The Situation · Moment · Evidence · Action rail at the bottom of Moment stories.",
       "readme": "components/ChapterRail/README.md",
       "preview": "components/ChapterRail/preview.html"
     },
@@ -167,16 +167,16 @@
       "preview": "components/ProductPanel/preview.html"
     },
     {
-      "name": "SignalCard",
+      "name": "MomentCard",
       "group": "Product UI",
-      "summary": "One signal for one customer: signal name, customer ID, rank this week, and its top two evidence rows.",
-      "readme": "components/SignalCard/README.md",
-      "preview": "components/SignalCard/preview.html"
+      "summary": "One moment for one customer: moment name, customer ID, rank this week, and its top two evidence rows.",
+      "readme": "components/MomentCard/README.md",
+      "preview": "components/MomentCard/preview.html"
     },
     {
       "name": "EvidenceTrail",
       "group": "Product UI",
-      "summary": "The signature component: every data point behind a signal, with its layer, value and weight, the top weight in gold.",
+      "summary": "The signature component: every data point behind a moment, with its layer, value and weight, the top weight in gold.",
       "readme": "components/EvidenceTrail/README.md",
       "preview": "components/EvidenceTrail/preview.html"
     },
@@ -190,14 +190,14 @@
     {
       "name": "AuditLog",
       "group": "Product UI",
-      "summary": "The record of what happened to a signal: timestamped mono lines that type in, one per event.",
+      "summary": "The record of what happened to a moment: timestamped mono lines that type in, one per event.",
       "readme": "components/AuditLog/README.md",
       "preview": "components/AuditLog/preview.html"
     },
     {
       "name": "LayerStack",
       "group": "Data",
-      "summary": "The three data layers for one customer, drawn as three bands whose connectors meet in one signal.",
+      "summary": "The three data layers for one customer, drawn as three bands whose connectors meet in one moment.",
       "readme": "components/LayerStack/README.md",
       "preview": "components/LayerStack/preview.html"
     },
@@ -211,14 +211,14 @@
     {
       "name": "BacktestChart",
       "group": "Data",
-      "summary": "How past signals performed on the client's own book: ten deciles in navy, the top decile in gold, the book average dashed.",
+      "summary": "How past moments performed on the client's own book: ten deciles in navy, the top decile in gold, the book average dashed.",
       "readme": "components/BacktestChart/README.md",
       "preview": "components/BacktestChart/preview.html"
     },
     {
       "name": "ParcelField",
       "group": "Data",
-      "summary": "The customer base as a parcel map: thousands of lots drawn in straight lines, the week's signals marked, one in gold.",
+      "summary": "The customer base as a parcel map: thousands of lots drawn in straight lines, the week's moments marked, one in gold.",
       "readme": "components/ParcelField/README.md",
       "preview": "components/ParcelField/preview.html"
     },
@@ -232,7 +232,7 @@
     {
       "name": "SegmentTriptych",
       "group": "Data",
-      "summary": "Three segments side by side, each a signal with its top evidence: the same grammar for banks, insurers and brokerages.",
+      "summary": "Three segments side by side, each a moment with its top evidence: the same grammar for banks, insurers and brokerages.",
       "readme": "components/SegmentTriptych/README.md",
       "preview": "components/SegmentTriptych/preview.html"
     }

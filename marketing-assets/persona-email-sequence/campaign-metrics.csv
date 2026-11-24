@@ -1,7 +1,7 @@
 campaign,email_number,send_date,subject_variant,subject_line,sent,delivered,opened,clicked,replied,meetings_booked,unsubscribed
 head-of-credit-risk,1,2026-07-06,A,"The part most 'explainable AI' claims skip",120,118,68,16,3,1,1
 head-of-credit-risk,1,2026-07-06,B,"What your auditor will actually ask",120,119,79,25,7,3,0
-head-of-credit-risk,2,2026-07-10,A,"How we validate signal quality (and how to check our work)",118,117,61,14,2,1,1
+head-of-credit-risk,2,2026-07-10,A,"How we validate moment quality (and how to check our work)",118,117,61,14,2,1,1
 head-of-credit-risk,2,2026-07-10,B,"Show me your math: our backtest method",117,116,66,19,5,2,1
 head-of-credit-risk,3,2026-07-15,A,"What changes (and what doesn't) if you switch",116,115,55,11,2,1,0
 head-of-credit-risk,3,2026-07-15,B,"The migration conversation, without the sales spin",114,113,60,16,4,2,0

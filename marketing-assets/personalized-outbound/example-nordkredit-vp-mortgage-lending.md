@@ -1,14 +1,14 @@
 # Sample output — same account, different persona
 
-**Account:** Nordkredit (fictional) · **Persona:** VP of Mortgage Lending · **Signal strength:** Strong (same signal as [`example.md`](./example.md))
+**Account:** Nordkredit (fictional) · **Persona:** VP of Mortgage Lending · **Moment strength:** Strong (same moment as [`example.md`](./example.md))
 
-Holds the account and trigger fixed from [`example.md`](./example.md) and changes only the persona, to isolate what a persona swap alone changes. This is a real, common rep move — multi-threading an account by writing to a second stakeholder using the same known signal, read through that stakeholder's own priorities rather than restating the first email with a new name at the top.
+Holds the account and trigger fixed from [`example.md`](./example.md) and changes only the persona, to isolate what a persona swap alone changes. This is a real, common rep move — multi-threading an account by writing to a second stakeholder using the same known moment, read through that stakeholder's own priorities rather than restating the first email with a new name at the top.
 
 ---
 
 ## Input
 
-> Same underlying signal as the [Nordkredit account brief](../../sales-tools/abm-account-brief/example.md): new Head of Credit Risk hired ~3 weeks ago; engineering job postings this month reference migrating customer-targeting workflows off legacy tooling.
+> Same underlying moment as the [Nordkredit account brief](../../sales-tools/abm-account-brief/example.md): new Head of Credit Risk hired ~3 weeks ago; engineering job postings this month reference migrating customer-targeting workflows off legacy tooling.
 >
 > This message is not to that new Head of Credit Risk hire — it's a parallel outreach to Nordkredit's VP of Mortgage Lending, multi-threading the account. No new facts beyond what the original brief established; the persona reading it changes, not the underlying trigger.
 >
@@ -31,7 +31,7 @@ A change like this tends to go one of two ways for a quarter or two: your adviso
 [Rep name]
 
 ---
-Personalization used: the same tooling-migration signal used in the Head of Credit Risk outreach to this account, re-read through the lending-growth lens instead — no new fact, a different persona's angle on it.
+Personalization used: the same tooling-migration moment used in the Head of Credit Risk outreach to this account, re-read through the lending-growth lens instead — no new fact, a different persona's angle on it.
 ```
 
 ## Why this email is different from the Head of Credit Risk version, not just re-addressed

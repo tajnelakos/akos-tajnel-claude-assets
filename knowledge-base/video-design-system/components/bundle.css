@@ -182,9 +182,9 @@
 .pwv-icon { width: 36px; height: 36px; flex: none; }
 .pwv-icon path, .pwv-icon circle, .pwv-icon rect, .pwv-icon line, .pwv-icon polyline { fill: none; stroke: #1A3A5C; stroke-width: 1.75; stroke-linecap: square; stroke-linejoin: miter; }
 
-/* ---------- SignalCard ---------- */
-.pwv-signal .pwv-signal-meta { display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: end; padding: 28px var(--pwv-panel-pad) 26px; border-bottom: 1px solid var(--pwv-panel-line); }
-.pwv-signal .pwv-id { font: 500 34px/40px var(--pwv-font-mono); font-variant-numeric: tabular-nums; }
+/* ---------- MomentCard ---------- */
+.pwv-moment .pwv-moment-meta { display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: end; padding: 28px var(--pwv-panel-pad) 26px; border-bottom: 1px solid var(--pwv-panel-line); }
+.pwv-moment .pwv-id { font: 500 34px/40px var(--pwv-font-mono); font-variant-numeric: tabular-nums; }
 .pwv-rank { text-align: right; }
 .pwv-rank b { display: block; font: 800 88px/80px var(--pwv-font-display); letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }
 .pwv-rank b small { font: 500 30px/30px var(--pwv-font-mono); letter-spacing: 0; color: var(--pwv-panel-muted); margin-left: 6px; }

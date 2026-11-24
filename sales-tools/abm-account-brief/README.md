@@ -6,9 +6,9 @@ For named target accounts, the useful version of "who are we selling to" isn't t
 
 ## The approach
 
-A skill that takes a named account (plus whatever's known about it — firmographics, a buying signal, prior contact) and pulls together one brief by applying [`icp.md`](../../knowledge-base/icp.md), [`personas.md`](../../knowledge-base/personas.md), [`positioning.md`](../../knowledge-base/positioning.md), and [`competitive-landscape.md`](../../knowledge-base/competitive-landscape.md) to that specific account — rather than restating any of them generically. This is the use case that most depends on the shared knowledge-base files actually being good, since the brief is only as sharp as the synthesis across all four files.
+A skill that takes a named account (plus whatever's known about it — firmographics, a buying moment, prior contact) and pulls together one brief by applying [`icp.md`](../../knowledge-base/icp.md), [`personas.md`](../../knowledge-base/personas.md), [`positioning.md`](../../knowledge-base/positioning.md), and [`competitive-landscape.md`](../../knowledge-base/competitive-landscape.md) to that specific account — rather than restating any of them generically. This is the use case that most depends on the shared knowledge-base files actually being good, since the brief is only as sharp as the synthesis across all four files.
 
-This example continues the account flagged by [`icp-buying-signal-monitor`](../icp-buying-signal-monitor) (Nordkredit) and feeds [`personalized-outbound`](../../marketing-assets/personalized-outbound).
+This example continues the account flagged by [`icp-buying-moment-monitor`](../icp-buying-moment-monitor) (Nordkredit) and feeds [`personalized-outbound`](../../marketing-assets/personalized-outbound).
 
 ## Files
 

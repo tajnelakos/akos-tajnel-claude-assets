@@ -2,7 +2,7 @@
 
 The [`example.md`](./example.md) quick-mode sequence for this persona, extended into a full 5-email, A/B-tested campaign — same trigger context, same decision-criteria backbone, run for real against a 240-contact segment. Results: [`campaign-metrics.csv`](./campaign-metrics.csv) (raw sends) and [`campaign-performance-analysis.html`](./campaign-performance-analysis.html) (what the data actually says). See [`personas.md`](../../knowledge-base/personas.md#head-of-credit-risk-risk-and-model-governance-owner-banklender-segment) for the persona this is built from.
 
-**Trigger:** downloaded the "Explainable Customer Signals in Regulated Banking" whitepaper.
+**Trigger:** downloaded the "Explainable Customer Moments in Regulated Banking" whitepaper.
 
 **A/B design note:** every email tests two subject-line framings against the same body copy — Variant A states the point directly (declarative, matches this persona's stated preference for a "specific, named methodology detail rather than a general claim"); Variant B names their specific fear as a direct question. Body copy is held constant across variants on purpose — varying both subject and body at once would make it impossible to attribute a performance difference to either one. **Variant B won on every tracked metric for this persona** (see the analysis) — naming the exact question they're afraid an auditor will ask outperformed stating the same fact declaratively, even for a buyer who is explicitly skeptical of anything that sounds like a marketing hook.
 
@@ -13,24 +13,24 @@ The [`example.md`](./example.md) quick-mode sequence for this persona, extended 
 **Variant A:** "The part most 'explainable AI' claims skip"
 **Variant B:** "What your auditor will actually ask"
 
-You downloaded our piece on explainable customer signals, so you're probably already skeptical of the term — most vendors use it to mean "we show a feature-importance chart," not "we can show why this customer is on the list."
+You downloaded our piece on explainable customer moments, so you're probably already skeptical of the term — most vendors use it to mean "we show a feature-importance chart," not "we can show why this customer is on the list."
 
 The difference matters most in an audit, not a demo. If you want to see what a customer-level evidence trail actually looks like on a sample of your own customers (not a curated example), it takes about 15 minutes.
 
-**Decision criterion advanced:** explainability of individual signals (ranked #1) — moves from the whitepaper's general argument to a concrete, inspectable example.
+**Decision criterion advanced:** explainability of individual moments (ranked #1) — moves from the whitepaper's general argument to a concrete, inspectable example.
 
 ---
 
 ### Email 2 — Day 4
 
-**Variant A:** "How we validate signal quality (and how to check our work)"
+**Variant A:** "How we validate moment quality (and how to check our work)"
 **Variant B:** "Show me your math: our backtest method"
 
-Following up on explainability — the other question worth asking any vendor is how they validate their signals, and whether that method is something you can actually scrutinize or just a headline hit rate.
+Following up on explainability — the other question worth asking any vendor is how they validate their moments, and whether that method is something you can actually scrutinize or just a headline hit rate.
 
 We backtest on your own past outcomes and document the method, not just claim it. Worth a look if you're building a shortlist criteria doc for this evaluation.
 
-**Decision criterion advanced:** signal quality validated against a disclosed method (ranked #2) — distinct from Email 1's evidence-trail focus.
+**Decision criterion advanced:** moment quality validated against a disclosed method (ranked #2) — distinct from Email 1's evidence-trail focus.
 
 ---
 
@@ -67,7 +67,7 @@ That's a peer reference you can actually check, not a case study with the names 
 
 This is the last email in this sequence — not because the conversation has to end here, but because a fifth follow-up on the same topic stops being useful and starts being noise.
 
-If it'd help, we'll run signals live on customers you pick, not ones we've prepared, and walk through the evidence trail on them together. If the timing genuinely isn't right, that's a fine answer too.
+If it'd help, we'll run moments live on customers you pick, not ones we've prepared, and walk through the evidence trail on them together. If the timing genuinely isn't right, that's a fine answer too.
 
 **Decision criterion advanced:** closes the sequence on the persona's strongest stated trust trigger — "a vendor who volunteers a live run on the bank's own data, unprompted" — rather than an urgency push, which this persona's `personas.md` entry explicitly flags as a trust *breaker*, not a trigger.
 

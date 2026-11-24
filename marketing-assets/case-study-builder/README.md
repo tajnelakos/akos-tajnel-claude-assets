@@ -15,7 +15,7 @@ Takes a closed-won account's real CRM record and/or call transcript — not a re
 
 ## Why this account specifically
 
-Nordkredit isn't a fresh example invented for this folder — it's the same account [`icp-buying-signal-monitor`](../../sales-tools/icp-buying-signal-monitor) flagged as a cold signal, [`abm-account-brief`](../../sales-tools/abm-account-brief) briefed, and [`personalized-outbound`](../personalized-outbound) drafted outreach to. [`sales-call-analysis/call-01-nordkredit.md`](../../knowledge-base/sales-call-analysis/call-01-nordkredit.md) is the resulting discovery call, and [`win-loss-analysis/win-loss-crm-export.csv`](../../knowledge-base/win-loss-analysis/win-loss-crm-export.csv) (OPP-1001) shows it closed won. This folder is that pipeline's actual ending, not a new, disconnected example.
+Nordkredit isn't a fresh example invented for this folder — it's the same account [`icp-buying-moment-monitor`](../../sales-tools/icp-buying-moment-monitor) flagged as a cold moment, [`abm-account-brief`](../../sales-tools/abm-account-brief) briefed, and [`personalized-outbound`](../personalized-outbound) drafted outreach to. [`sales-call-analysis/call-01-nordkredit.md`](../../knowledge-base/sales-call-analysis/call-01-nordkredit.md) is the resulting discovery call, and [`win-loss-analysis/win-loss-crm-export.csv`](../../knowledge-base/win-loss-analysis/win-loss-crm-export.csv) (OPP-1001) shows it closed won. This folder is that pipeline's actual ending, not a new, disconnected example.
 
 ## Current limitations
 

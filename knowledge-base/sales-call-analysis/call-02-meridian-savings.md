@@ -15,7 +15,7 @@
 
 **Marcus:** Okay, that's real money at your volume, I'm not going to pretend it isn't. Can I ask what your team thinks Bricklane gives up to hit that price?
 
-**Julia:** That's actually the interesting part. Our risk team looked at what we'd actually get: raw property data and a valuation with a confidence score. No signals, no breakdown — we'd have to build and explain the targeting ourselves. My advisors don't care about that day to day — they just want to know who to call. But our Head of Credit Risk cares a lot, and she's not in this call by accident.
+**Julia:** That's actually the interesting part. Our risk team looked at what we'd actually get: raw property data and a valuation with a confidence score. No moments, no breakdown — we'd have to build and explain the targeting ourselves. My advisors don't care about that day to day — they just want to know who to call. But our Head of Credit Risk cares a lot, and she's not in this call by accident.
 
 **Marcus:** So there's a real split inside the buying committee — lending wanting more opportunities worked faster, versus risk wanting to know why each customer was chosen.
 
@@ -51,7 +51,7 @@
 
 ## Internal notes (rep-logged)
 
-- Strong signal: buying committee split identified explicitly (lending/growth vs. risk/defensibility) — this is the deal's real shape, not a single-stakeholder sale.
+- Strong moment: buying committee split identified explicitly (lending/growth vs. risk/defensibility) — this is the deal's real shape, not a single-stakeholder sale.
 - Bricklane confirmed head-to-head, ~15% cheaper at this account's volume — matches `competitive-landscape.md`'s pricing entry almost exactly. Note the real comparison is Seekridge vs. Bricklane data plus an in-house build.
 - Bricklane's rep reportedly went thin on explainability specifics under direct questioning — consistent with the documented weakness, now independently corroborated by a live deal, not just a battlecard assumption.
 - Action: send build-and-defend cost framework by Thursday (open commitment).

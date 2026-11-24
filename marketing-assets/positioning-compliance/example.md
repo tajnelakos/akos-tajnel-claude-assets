@@ -11,7 +11,7 @@ A fictional draft going through the compliance checker — flags rather than fix
 ## Output
 
 ```
-## Compliance Check — Draft, untitled (signal platform intro paragraph)
+## Compliance Check — Draft, untitled (moment platform intro paragraph)
 
 **Result:** FAIL
 

@@ -13,7 +13,7 @@ For the named account:
 3. Select the 1-2 most relevant buyer personas for this specific account — not all of them by default.
 4. Pick the positioning angle that matches this account's apparent situation, leading with the value proposition tied to any known pain or trigger.
 5. Assess competitive risk: is a specific competitor likely already in this deal, and what's the play against them here.
-6. If a buying signal is given, the brief must explain why this account is a priority right now, tied to that signal.
+6. If a buying moment is given, the brief must explain why this account is a priority right now, tied to that moment.
 7. Keep the whole brief to one page — cut anything that wouldn't change what a rep says or does differently on the next call.
 
 Don't restate a full reference doc's contents. Don't invent account facts beyond what's given or reasonably inferable. The recommended next step must be specific to the account's situation, never a generic "schedule a demo."

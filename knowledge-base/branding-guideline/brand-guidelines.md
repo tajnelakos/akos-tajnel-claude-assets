@@ -18,7 +18,7 @@ A market where every automated customer decision — not just Seekridge's — ca
 
 1. **Defensible over impressive.** A claim that survives being questioned beats a claim that only sounds good in a demo.
 2. **Precision, not hype.** Say exactly what the product does. If we can't name the specific mechanism, we don't make the claim.
-3. **Transparency by default.** Show the work — the data points behind each signal, how much each counted, the method — rather than asking for trust.
+3. **Transparency by default.** Show the work — the data points behind each moment, how much each counted, the method — rather than asking for trust.
 4. **Respect the skeptic.** Our best-fit buyer is trained to distrust vendor claims. That skepticism is correct more often than not, and we build and write for it rather than around it.
 5. **Substance before speed.** Volume and speed are real value, but never the whole pitch — see [`positioning.md`](../positioning.md)'s "what this is not."
 
@@ -36,7 +36,7 @@ Tone shifts by channel, but the underlying values above never do:
 | Sales conversation / call | Consultative, willing to say "I don't know, let me find out" | The one channel where admitting a limitation live is a trust *builder*, not a liability — see the sales-call-analysis examples in [`../sales-call-analysis`](../sales-call-analysis) |
 | Internal docs (this repo included) | Direct, reasoned, can be more casual | Precision matters as much as externally; hype matters less |
 | Social / conference presence | Minimal, factual | We don't chase attention with urgency language — see the Anti-patterns in [`skill.md`](./skill.md) |
-| Product UI | Neutral, exact | Labels name the object ("Signals", "Evidence trail", never "Insights"); errors say what happened and what to do next — see [`writing.md`](../design-system/writing.md)'s Product copy |
+| Product UI | Neutral, exact | Labels name the object ("Moments", "Evidence trail", never "Insights"); errors say what happened and what to do next — see [`writing.md`](../design-system/writing.md)'s Product copy |
 | Video | Calm, declarative | One claim per scene, readable in three seconds, captions always on — see [`video-and-motion.md`](../design-system/video-and-motion.md) |
 
 ---
@@ -141,7 +141,7 @@ So the product and marketing site read as one brand, not two:
 - **Forms:** labels above fields, not placeholder-only. Error state uses Status — critical with a text explanation, never color alone.
 - **Cards:** hairline border (`#E1E0D9`-equivalent) over drop shadows — shadows read as decorative, not this brand's register. Flat, bordered panels over "floating" elevated cards.
 - **Icons:** see Image and Icon Style below — the same line-weight rule applies inside the product UI, not just marketing.
-- **Signals always carry their evidence.** Wherever the product shows a signal, the data points behind it and their weights are visible with it, not behind a click — the brand promise in UI form. See `SignalCard` in [`components.md`](../design-system/components.md).
+- **Moments always carry their evidence.** Wherever the product shows a moment, the data points behind it and their weights are visible with it, not behind a click — the brand promise in UI form. See `MomentCard` in [`components.md`](../design-system/components.md).
 
 ### Spacing, radius, and lines
 
@@ -170,7 +170,7 @@ One motif per surface, anchored to an edge and allowed to bleed off it, never be
 
 - Default series in Navy; the one series or bar the chart is about in Gold; everything else in Slate or tints of Navy. Status colors are never categories.
 - Hairline gridlines, axis labels in IBM Plex Mono, a one-line takeaway as the title, and a source line under every chart.
-- When a chart supports a signal, label each data point with its layer — property, market, or customer.
+- When a chart supports a moment, label each data point with its layer — property, market, or customer.
 
 ### Accessibility
 
@@ -191,21 +191,21 @@ One motif per surface, anchored to an edge and allowed to bleed off it, never be
 
 | Use this | Not this |
 |---|---|
-| Signal | Lead, insight, alert |
-| Evidence trail (the data points behind a signal) | Explainability report, transparency log |
-| Audit log (the record of what was done with a signal) | Activity feed, history |
+| Moment | Lead, insight, alert |
+| Evidence trail (the data points behind a moment) | Explainability report, transparency log |
+| Audit log (the record of what was done with a moment) | Activity feed, history |
 | Customer base | Database, leads |
 | Property data · market data · customer data (the three data layers) | Big data, data lake |
-| Valuation (as one data point inside a signal) | Appraisal, estimate |
+| Valuation (as one data point inside a moment) | Appraisal, estimate |
 | Bank / lender / insurer / brokerage | Client (in product copy — "client" is fine in casual internal use) |
 | CRM | Sales tool, customer system |
 
 ### Image and icon style
 
 - **No stock photography.** Especially no generic finance-stock clichés (handshakes, skyline photos, people pointing at monitors). This audience recognizes stock photography instantly and it reads as substance-free.
-- **Prefer real product surfaces and data visualization** — an actual (or realistic mock) evidence-trail screenshot, a real signal-weighting chart — over any illustration standing in for the product.
+- **Prefer real product surfaces and data visualization** — an actual (or realistic mock) evidence-trail screenshot, a real moment-weighting chart — over any illustration standing in for the product.
 - **Where illustration is needed** (e.g. a concept with no literal screenshot, like "data residency"), use abstract geometric illustration consistent with the logomark's style — flat shapes, no gradients, no 3D renders, no isometric-office-life scenes.
-- **Icon style:** line icons only, 1.5–2px stroke weight, no fills, consistent corner radius. No skeuomorphic, glossy, or 3D icon sets. This matches the logomark's own construction (a stroked parcel map plus one solid highlighted lot) — the icon system and the logo should look like they were drawn by the same hand. A starter set of 15 icons drawn to this rule (1.75px on a 24px grid) lives in [`../design-system/`](../design-system) as `icon-*.svg`: signal, evidence-trail, customer, parcel, valuation, market, coverage-map, lender, policy, crm-sync, data-residency, check, alert, arrow-right, search.
+- **Icon style:** line icons only, 1.5–2px stroke weight, no fills, consistent corner radius. No skeuomorphic, glossy, or 3D icon sets. This matches the logomark's own construction (a stroked parcel map plus one solid highlighted lot) — the icon system and the logo should look like they were drawn by the same hand. A starter set of 15 icons drawn to this rule (1.75px on a 24px grid) lives in [`../design-system/`](../design-system) as `icon-*.svg`: moment, evidence-trail, customer, parcel, valuation, market, coverage-map, lender, policy, crm-sync, data-residency, check, alert, arrow-right, search.
 - **Mock-ups:** realistic but clearly illustrative data. Customers appear by ID, never by a real name or address.
 
 ---
@@ -234,7 +234,7 @@ Full system: [`../linkedin-carousels/`](../linkedin-carousels) (formats, slide C
 - **Grounds:** flat Navy for covers, statements, and closes; flat Paper for proof slides with screenshots, tables, and charts. No gradients or glows.
 - **Furniture:** lockup on the cover and the close, the mark bottom-right on every other slide, a swipe arrow on every slide but the last, a mono eyebrow and a slide counter on middle slides. One parcel-map motif at most per slide: the parcel grid on covers, the plot strip or layer stack on data and explainer slides.
 - **Story shape:** question → tension → method → proof → action. One gold element per slide: up to three highlighted words in `#D9A54B` on Navy, or a motif's lot, or the top weight in an evidence trail.
-- **Formats:** signal explainer, myth vs method, proof in numbers, feature launch, regulation brief, event invite, field guide, plus a slide kit for mixing them.
+- **Formats:** moment explainer, myth vs method, proof in numbers, feature launch, regulation brief, event invite, field guide, plus a slide kit for mixing them.
 - **Caption:** 50–110 words in four blocks — hook, what changes (as a benefit), proof or detail, one CTA with one link. No hashtags; at most one emoji, never on slides.
 
 ### Video and motion
@@ -242,7 +242,7 @@ Full system: [`../linkedin-carousels/`](../linkedin-carousels) (formats, slide C
 Summary rules: [`video-and-motion.md`](../design-system/video-and-motion.md). The full system for film (formats, beat structures, components, reference films and the skill that builds them): [`../video-design-system/`](../video-design-system).
 
 - **Formats:** 1920 × 1080 master (45–75 s), 1080 × 1350 social cut (30–45 s), 1080 × 1920 vertical (15–30 s); 30 fps; one video per segment and persona.
-- **Structure:** hook (the customer situation) → tension (what goes wrong today) → method (product panels rebuilt in code from the real screens, through the three data layers, ending on a signal with its evidence trail) → proof (one backtest figure with its source) → end card (lockup, "Opportunities you can act on — and explain.", one action, held three seconds).
+- **Structure:** hook (the customer situation) → tension (what goes wrong today) → method (product panels rebuilt in code from the real screens, through the three data layers, ending on a moment with its evidence trail) → proof (one backtest figure with its source) → end card (lockup, "Opportunities you can act on — and explain.", one action, held three seconds).
 - **Captions:** always burnt in, IBM Plex Sans 500 at 44px on a Navy band (a Paper band on Navy frames), left-aligned, two lines maximum, at least 160px above the bottom edge.
 - **Motion language:** straight, exact, no bounce — like a surveyor drawing a plan. Signature move: parcel lines draw in, then the gold lot fills. One easing curve (`cubic-bezier(0.2, 0, 0, 1)`); 150ms for UI feedback, 250ms for panels, 500ms for video text, 800ms for line draws. No spins, 3D flips, glitch effects, or stock footage. UI motion respects `prefers-reduced-motion`.
 
@@ -251,7 +251,7 @@ Summary rules: [`video-and-motion.md`](../design-system/video-and-motion.md). Th
 ## Before You Publish
 
 1. Does the first line name the reader's situation or the opportunity, for the right persona, in plain words?
-2. Is every claim specific — the mechanism, the data behind it, or the figure? Does every signal shown carry its evidence? No prohibited terms from [`skill.md`](./skill.md)?
+2. Is every claim specific — the mechanism, the data behind it, or the figure? Does every moment shown carry its evidence? No prohibited terms from [`skill.md`](./skill.md)?
 3. Navy, Gold, and the three neutrals only (status colors in product UI only)? One gold highlight per view?
 4. Archivo, IBM Plex Sans, and IBM Plex Mono only? Sentence case? Mono only for data?
 5. Square corners, hairlines, no shadows, gradients, or stock photos?

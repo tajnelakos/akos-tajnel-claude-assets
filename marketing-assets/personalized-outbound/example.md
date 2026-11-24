@@ -1,10 +1,10 @@
 # Sample output
 
-Outreach closing the loop from [`icp-buying-signal-monitor`](../../sales-tools/icp-buying-signal-monitor) → [`abm-account-brief`](../../sales-tools/abm-account-brief) → this.
+Outreach closing the loop from [`icp-buying-moment-monitor`](../../sales-tools/icp-buying-moment-monitor) → [`abm-account-brief`](../../sales-tools/abm-account-brief) → this.
 
-**Account:** Nordkredit (fictional) · **Persona:** Head of Credit Risk · **Signal strength:** Strong (two corroborating signals)
+**Account:** Nordkredit (fictional) · **Persona:** Head of Credit Risk · **Moment strength:** Strong (two corroborating moments)
 
-This is one cell of a three-example grid — see [`README.md`](./README.md#the-account--persona-grid). [`example-nordkredit-vp-mortgage-lending.md`](./example-nordkredit-vp-mortgage-lending.md) holds the account fixed and changes the persona; [`example-court-street-lending-head-of-credit-risk.md`](./example-court-street-lending-head-of-credit-risk.md) holds the persona fixed and changes the account (and the signal strength).
+This is one cell of a three-example grid — see [`README.md`](./README.md#the-account--persona-grid). [`example-nordkredit-vp-mortgage-lending.md`](./example-nordkredit-vp-mortgage-lending.md) holds the account fixed and changes the persona; [`example-court-street-lending-head-of-credit-risk.md`](./example-court-street-lending-head-of-credit-risk.md) holds the persona fixed and changes the account (and the moment strength).
 
 ---
 
@@ -30,7 +30,7 @@ Worth a 15-minute conversation about how you're thinking about that requirement 
 [Rep name]
 
 ---
-Personalization used: the new Head of Credit Risk hire and the concurrent tooling-migration job postings — both from the account's specific trigger signal, not a generic opener.
+Personalization used: the new Head of Credit Risk hire and the concurrent tooling-migration job postings — both from the account's specific trigger moment, not a generic opener.
 ```
 
 Note what's absent: no product name in the subject line, no feature list, no demo ask — the brief indicated this account is early and unaware, so the ask stays small.

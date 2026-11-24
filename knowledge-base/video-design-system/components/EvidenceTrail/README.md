@@ -1,9 +1,9 @@
 # EvidenceTrail
 
-The signature component, and the brand promise on screen: every data point behind a signal, which layer it came from, its value, and how much it counted. The weights sum to 100.
+The signature component, and the brand promise on screen: every data point behind a moment, which layer it came from, its value, and how much it counted. The weights sum to 100.
 
 **Anatomy**
-- Header: `DEMO · <CLIENT>`, *Evidence trail*, and the customer and signal on the right in mono.
+- Header: `DEMO · <CLIENT>`, *Evidence trail*, and the customer and moment on the right in mono.
 - Column labels (mono 18px, texture): Layer · Data point · Value · Weight.
 - One row per data point, 72px, sorted by weight: the layer as icon + mono label (`MARKET`, `PROPERTY`, `CUSTOMER`), the data point in Plex Sans, the value in mono, the weight as a bar on a track plus the figure.
 - **The top row's bar is gold**; the others navy. That bar is the frame's one gold, so the headline carries no highlight while it is on.

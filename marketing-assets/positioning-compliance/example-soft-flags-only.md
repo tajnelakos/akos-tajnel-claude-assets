@@ -6,7 +6,7 @@ The middle case between [`example.md`](./example.md) (hard fails) and [`example-
 
 ## Input
 
-> Wondering how your team would explain a customer campaign to an auditor? Seekridge's evidence trail shows the specific data points behind every signal and their weighting, so your team can walk through the reasoning afterward instead of just citing a score. Our backtest method is documented and available for technical evaluators to review.
+> Wondering how your team would explain a customer campaign to an auditor? Seekridge's evidence trail shows the specific data points behind every moment and their weighting, so your team can walk through the reasoning afterward instead of just citing a score. Our backtest method is documented and available for technical evaluators to review.
 
 ## Output
 

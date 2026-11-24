@@ -35,7 +35,7 @@
     <rect x="32" y="248" width="129" height="16" rx="4" fill="#2a78d6"/>
     <text x="372" y="260" font-weight="700" fill="#0b0b0b">34%</text>
 
-    <text x="32" y="286" fill="#52514e">Signal quality in backtest</text>
+    <text x="32" y="286" fill="#52514e">Moment quality in backtest</text>
     <rect x="32" y="294" width="380" height="16" rx="4" fill="#e1e0d9"/>
     <rect x="32" y="294" width="110" height="16" rx="4" fill="#2a78d6"/>
     <text x="353" y="306" font-weight="700" fill="#0b0b0b">29%</text>

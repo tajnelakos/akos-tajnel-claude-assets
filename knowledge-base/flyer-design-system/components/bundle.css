@@ -79,7 +79,7 @@
 [data-theme="dark"] .pwf-icon { background-image:var(--i-paper); }
 .pwf-icon--l { width:9mm; height:9mm; }
 .pwf-icon--s { width:4mm; height:4mm; }
-.pwf-i-signal { --i-navy:var(--icon-signal-navy); --i-paper:var(--icon-signal-paper); }
+.pwf-i-moment { --i-navy:var(--icon-moment-navy); --i-paper:var(--icon-moment-paper); }
 .pwf-i-evidence { --i-navy:var(--icon-evidence-navy); --i-paper:var(--icon-evidence-paper); }
 .pwf-i-customer { --i-navy:var(--icon-customer-navy); --i-paper:var(--icon-customer-paper); }
 .pwf-i-market { --i-navy:var(--icon-market-navy); --i-paper:var(--icon-market-paper); }
@@ -124,7 +124,7 @@
 .pwf-figures--row .pwf-figure { flex:1; padding:0; border:0; }
 .pwf-figures--row .pwf-figure + .pwf-figure { border:0; border-left:var(--border-hairline) solid var(--line); padding-left:var(--space-3); }
 
-/* Step: Connect → Signal → Act, numbered in square tiles */
+/* Step: Connect → Spot → Act, numbered in square tiles */
 .pwf-steps { display:flex; flex-direction:column; gap:var(--space-3); }
 .pwf-steps--row { flex-direction:row; }
 .pwf-steps--row .pwf-step { flex:1; }
@@ -133,7 +133,7 @@
 .pwf-step p { margin:0; }
 .pwf-step .tri-panel-title, .pwf-step .card-subhead { color:var(--ink); margin-bottom:1mm; }
 
-/* LayerDiagram: three data layers feeding one signal. Replaces orbiting chips. */
+/* LayerDiagram: three data layers feeding one moment. Replaces orbiting chips. */
 .pwf-layers { display:grid; grid-template-columns:auto 9mm 1fr; align-items:center; }
 .pwf-layers__chips { display:flex; flex-direction:column; gap:var(--space-2); }
 .pwf-chip { display:flex; align-items:center; gap:2mm; height:9mm; padding:0 3mm; border:var(--border-hairline) solid var(--line-strong, var(--slate)); background:var(--surface-panel); color:var(--ink); white-space:nowrap; }
@@ -142,11 +142,11 @@
 .pwf-layers__join { position:relative; align-self:stretch; }
 .pwf-layers__join::before { content:""; position:absolute; left:0; top:4.5mm; bottom:4.5mm; width:50%; border:var(--border-hairline) solid var(--ink-muted); border-left:0; }
 .pwf-layers__join::after { content:""; position:absolute; left:50%; right:0; top:50%; border-top:var(--border-hairline) solid var(--ink-muted); }
-.pwf-layers__signal { padding:3.5mm 4mm; border:var(--border-strong) solid var(--ink); background:var(--surface-panel); position:relative; }
-.pwf-layers__signal::before { content:""; position:absolute; top:0; right:0; width:7mm; height:5mm; background:var(--accent); } /* the gold lot */
-.pwf-layers__signal p { margin:0; }
+.pwf-layers__moment { padding:3.5mm 4mm; border:var(--border-strong) solid var(--ink); background:var(--surface-panel); position:relative; }
+.pwf-layers__moment::before { content:""; position:absolute; top:0; right:0; width:7mm; height:5mm; background:var(--accent); } /* the gold lot */
+.pwf-layers__moment p { margin:0; }
 
-/* EvidenceStrip: a signal with the data points behind it and how much each counted */
+/* EvidenceStrip: a moment with the data points behind it and how much each counted */
 .pwf-evidence { padding:4.5mm; }
 .pwf-evidence__meta { color:var(--ink-muted); }
 .pwf-evidence__title { color:var(--ink); margin-top:1mm !important; }
@@ -193,8 +193,8 @@
   --qr-sample: url("data:image/svg+xml,%3Csvg viewBox=%220 0 29 29%22 shape-rendering=%22crispEdges%22 xmlns=%22http://www.w3.org/2000/svg%22 width=%2229%22 height=%2229%22 class=%22segno%22%3E%3Cpath class=%22qrline%22 stroke=%22%231c1c1a%22 d=%22M0 0.5h7m7 0h1m1 0h3m3 0h7m-29 1h1m5 0h1m1 0h1m4 0h1m3 0h3m2 0h1m5 0h1m-29 1h1m1 0h3m1 0h1m2 0h1m1 0h1m3 0h1m2 0h1m1 0h1m1 0h1m1 0h3m1 0h1m-29 1h1m1 0h3m1 0h1m1 0h1m1 0h2m1 0h3m1 0h1m1 0h1m2 0h1m1 0h3m1 0h1m-29 1h1m1 0h3m1 0h1m1 0h1m2 0h4m1 0h4m2 0h1m1 0h3m1 0h1m-29 1h1m5 0h1m8 0h3m2 0h1m1 0h1m5 0h1m-29 1h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7m-21 1h1m1 0h2m1 0h4m1 0h3m-20 1h1m1 0h4m1 0h2m2 0h1m1 0h2m1 0h1m1 0h1m1 0h2m1 0h2m1 0h1m-27 1h1m1 0h1m3 0h1m2 0h3m1 0h1m1 0h1m1 0h3m2 0h5m-27 1h3m2 0h1m2 0h1m1 0h1m6 0h1m2 0h2m1 0h3m-27 1h1m2 0h1m4 0h3m1 0h3m1 0h2m2 0h1m2 0h2m3 0h1m-29 1h2m3 0h3m3 0h1m4 0h1m2 0h4m2 0h1m1 0h1m-28 1h1m1 0h2m3 0h2m4 0h4m1 0h1m3 0h1m1 0h1m1 0h1m1 0h1m-29 1h4m1 0h3m2 0h1m3 0h1m1 0h1m2 0h1m3 0h1m1 0h1m2 0h1m-28 1h1m1 0h1m3 0h1m5 0h1m2 0h1m3 0h3m1 0h4m-27 1h1m1 0h4m2 0h2m3 0h2m4 0h1m2 0h1m1 0h1m1 0h1m-28 1h2m2 0h1m5 0h1m1 0h3m1 0h6m2 0h3m-27 1h2m1 0h4m1 0h2m1 0h1m1 0h1m1 0h3m1 0h2m2 0h3m2 0h1m-29 1h6m1 0h2m2 0h3m5 0h1m1 0h2m3 0h3m-29 1h2m1 0h1m2 0h1m1 0h1m4 0h5m2 0h7m-19 1h4m1 0h1m1 0h1m1 0h4m3 0h4m-28 1h7m3 0h2m2 0h4m1 0h2m1 0h1m1 0h1m1 0h1m-27 1h1m5 0h1m1 0h1m1 0h3m2 0h1m1 0h1m1 0h2m3 0h2m1 0h2m-29 1h1m1 0h3m1 0h1m1 0h2m1 0h3m1 0h2m2 0h6m2 0h1m-28 1h1m1 0h3m1 0h1m1 0h1m3 0h1m4 0h2m4 0h1m2 0h2m-28 1h1m1 0h3m1 0h1m2 0h1m4 0h2m4 0h2m1 0h2m2 0h2m-29 1h1m5 0h1m1 0h2m1 0h2m2 0h1m2 0h1m3 0h1m1 0h3m1 0h1m-29 1h7m2 0h1m2 0h3m1 0h1m2 0h3m1 0h3%22/%3E%3C/svg%3E");
   --arrow-navy: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2236%22 height=%2220%22 viewBox=%220 0 36 20%22 fill=%22none%22 stroke=%22%231A3A5C%22 stroke-width=%221.75%22 stroke-linecap=%22square%22%3E%3Cpath d=%22M1 10h32M25 2l8 8-8 8%22/%3E%3C/svg%3E");
   --arrow-paper: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2236%22 height=%2220%22 viewBox=%220 0 36 20%22 fill=%22none%22 stroke=%22%23F4F3EF%22 stroke-width=%221.75%22 stroke-linecap=%22square%22%3E%3Cpath d=%22M1 10h32M25 2l8 8-8 8%22/%3E%3C/svg%3E");
-  --icon-signal-navy: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%231A3A5C%22 stroke-width=%221.75%22 stroke-linecap=%22square%22 stroke-linejoin=%22miter%22%3E%3Crect x=%223%22 y=%223%22 width=%2218%22 height=%2218%22 rx=%221.5%22/%3E%3Cpath d=%22M3 10.5h18M13 3v7.5%22/%3E%3Ccircle cx=%2215%22 cy=%2216%22 r=%221.5%22/%3E%3Cpath d=%22M11.5 19.5a5 5 0 0 1 0-7M18.5 12.5a5 5 0 0 1 0 7%22/%3E%3C/svg%3E");
-  --icon-signal-paper: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23F4F3EF%22 stroke-width=%221.75%22 stroke-linecap=%22square%22 stroke-linejoin=%22miter%22%3E%3Crect x=%223%22 y=%223%22 width=%2218%22 height=%2218%22 rx=%221.5%22/%3E%3Cpath d=%22M3 10.5h18M13 3v7.5%22/%3E%3Ccircle cx=%2215%22 cy=%2216%22 r=%221.5%22/%3E%3Cpath d=%22M11.5 19.5a5 5 0 0 1 0-7M18.5 12.5a5 5 0 0 1 0 7%22/%3E%3C/svg%3E");
+  --icon-moment-navy: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%231A3A5C%22 stroke-width=%221.75%22 stroke-linecap=%22square%22 stroke-linejoin=%22miter%22%3E%3Crect x=%223%22 y=%223%22 width=%2218%22 height=%2218%22 rx=%221.5%22/%3E%3Cpath d=%22M3 10.5h18M13 3v7.5%22/%3E%3Ccircle cx=%2215%22 cy=%2216%22 r=%221.5%22/%3E%3Cpath d=%22M11.5 19.5a5 5 0 0 1 0-7M18.5 12.5a5 5 0 0 1 0 7%22/%3E%3C/svg%3E");
+  --icon-moment-paper: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23F4F3EF%22 stroke-width=%221.75%22 stroke-linecap=%22square%22 stroke-linejoin=%22miter%22%3E%3Crect x=%223%22 y=%223%22 width=%2218%22 height=%2218%22 rx=%221.5%22/%3E%3Cpath d=%22M3 10.5h18M13 3v7.5%22/%3E%3Ccircle cx=%2215%22 cy=%2216%22 r=%221.5%22/%3E%3Cpath d=%22M11.5 19.5a5 5 0 0 1 0-7M18.5 12.5a5 5 0 0 1 0 7%22/%3E%3C/svg%3E");
   --icon-evidence-navy: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%231A3A5C%22 stroke-width=%221.75%22 stroke-linecap=%22square%22 stroke-linejoin=%22miter%22%3E%3Crect x=%225%22 y=%223%22 width=%2214%22 height=%2218%22 rx=%221.5%22/%3E%3Cpath d=%22M8.5 8h7M8.5 12h7M8.5 16h4%22/%3E%3C/svg%3E");
   --icon-evidence-paper: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23F4F3EF%22 stroke-width=%221.75%22 stroke-linecap=%22square%22 stroke-linejoin=%22miter%22%3E%3Crect x=%225%22 y=%223%22 width=%2214%22 height=%2218%22 rx=%221.5%22/%3E%3Cpath d=%22M8.5 8h7M8.5 12h7M8.5 16h4%22/%3E%3C/svg%3E");
   --icon-customer-navy: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%231A3A5C%22 stroke-width=%221.75%22 stroke-linecap=%22square%22 stroke-linejoin=%22miter%22%3E%3Ccircle cx=%2212%22 cy=%228%22 r=%224%22/%3E%3Cpath d=%22M4 21v-1.5A5.5 5.5 0 0 1 9.5 14h5a5.5 5.5 0 0 1 5.5 5.5V21%22/%3E%3C/svg%3E");

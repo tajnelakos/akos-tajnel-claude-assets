@@ -3,13 +3,13 @@
 **Date:** August 2026 · **Duration:** ~19 minutes · **Call type:** Second call, competitive evaluation
 **Rep:** Anna Kowalski (Seekridge) · **Prospect:** David Okafor, Head of Credit Risk, Court Street Lending (national lender, €5B+ annual origination)
 
-*Context: flagged as a Tier 2 watch-list account (see [`icp-buying-signal-monitor`](../../sales-tools/icp-buying-signal-monitor/example.md)) after a senior risk hire; this is the resulting evaluation call, several months later.*
+*Context: flagged as a Tier 2 watch-list account (see [`icp-buying-moment-monitor`](../../sales-tools/icp-buying-moment-monitor/example.md)) after a senior risk hire; this is the resulting evaluation call, several months later.*
 
 ---
 
 **Anna:** David, thanks for the time. Last we spoke, your team was early in scoping a refresh of how you find opportunities in your customer base — sounds like things have moved since then.
 
-**David:** They have. We shortlisted three vendors — you, ValuAI, and our current provider, who we're not planning to renew with. I'll be upfront: ValuAI's made the shortlist mainly because they just announced their signal-explanation feature went fully live. That was the thing we were told to wait on before.
+**David:** They have. We shortlisted three vendors — you, ValuAI, and our current provider, who we're not planning to renew with. I'll be upfront: ValuAI's made the shortlist mainly because they just announced their moment-explanation feature went fully live. That was the thing we were told to wait on before.
 
 **Anna:** That's a real development, and I'd rather engage with it directly than pretend it didn't happen. What have you seen of it so far — a demo, documentation, anything hands-on?
 
@@ -27,7 +27,7 @@
 
 **David:** I can pull one up, give me a second... okay, I've got a business customer with a mixed-use property, from a loan we wrote last quarter.
 
-**Anna:** *(runs live evidence trail)* ...so here's the signal — likely to refinance in the next six months — and the data points behind it: the rate reset date from your CRM, the property's value change, local rate competition, and how much each counted. All specific to this customer, not a template. Does this match what you'd need to show an auditor?
+**Anna:** *(runs live evidence trail)* ...so here's the moment — likely to refinance in the next six months — and the data points behind it: the rate reset date from your CRM, the property's value change, local rate competition, and how much each counted. All specific to this customer, not a template. Does this match what you'd need to show an auditor?
 
 **David:** Yes, actually, this is more specific than what I expected. Okay — I'll ask ValuAI for the same thing before we go further with them. That's a reasonable bar to hold both of you to.
 
