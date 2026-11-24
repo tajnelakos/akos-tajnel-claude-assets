@@ -19,7 +19,7 @@ python render-film.py story-fixed-rate-dach-16x9.html --stills 4.5,9.6,15.6,21.2
 python render-film.py story-fixed-rate-dach-16x9.html --out ../assets/Films/story-fixed-rate-dach-16x9.mp4
 ```
 
-Fonts load from Google Fonts. Offline, pass `--font-css` with `@font-face` rules pointing at local copies of Archivo, IBM Plex Sans and IBM Plex Mono.
+Fonts are bundled in `../fonts/` and loaded by `../tokens.css`, so rendering works offline; `--font-css` is only needed to override them.
 
 ## Building a new film
 

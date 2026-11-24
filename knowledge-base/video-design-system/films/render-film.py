@@ -11,8 +11,8 @@ Needs: Python 3.10+, Playwright for Python with a Chromium/Chrome, ffmpeg, Pillo
 Options:
   --fps 30           frame rate (the system's default)
   --crf 18           x264 quality
-  --font-css FILE    extra CSS injected before rendering, e.g. @font-face rules for local copies
-                     of Archivo, IBM Plex Sans and IBM Plex Mono when Google Fonts can't be reached
+  --font-css FILE    extra CSS injected before rendering (the fonts are bundled in ../fonts and
+                     loaded by ../tokens.css, so this is only needed to override them)
   --chrome PATH      browser executable, if Playwright's bundled one isn't installed
 
 How it works: the page's film engine (components/film-engine.js) draws any time t exactly with

@@ -445,7 +445,8 @@ The Parcelwise web app, screen by screen, and what each gives a film. The screen
 |---|---|
 | `README.md` | This book |
 | [`tokens.json`](./tokens.json) | Every film token (colour by ground, type, layout, motion) with a usage note |
-| [`tokens.css`](./tokens.css) | The same as CSS custom properties (`--pwv-*`) and ground themes. Generated from `tokens.json` |
+| [`tokens.css`](./tokens.css) | The same as CSS custom properties (`--pwv-*`) and ground themes, with `@font-face` rules for the bundled fonts. Generated from `tokens.json` |
+| [`fonts/`](./fonts) | Archivo, IBM Plex Sans and IBM Plex Mono as WOFF2 (SIL Open Font License), the same files the carousel and flyer systems bundle, so films render offline |
 | [`manifest.json`](./manifest.json) | Component and asset index, in the shape a Claude design system reads |
 | [`components/`](./components) | `bundle.css` (all component styles), `film-engine.js` (frame-exact timeline), and one folder per component with a `README.md` and a live `preview.html` |
 | [`preview.html`](./preview.html) | Every component on one page, playing, with Paper and Navy grounds |

@@ -1,5 +1,13 @@
 /* Parcelwise Video Design System: generated from tokens.json. Do not edit by hand. */
-@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap");
+/* Fonts are bundled in fonts/ (SIL Open Font License, see fonts/OFL.txt), so films render offline. */
+@font-face{font-family:Archivo;src:url(fonts/Archivo-SemiBold.woff2) format('woff2');font-weight:600;font-display:block}
+@font-face{font-family:Archivo;src:url(fonts/Archivo-Bold.woff2) format('woff2');font-weight:700;font-display:block}
+@font-face{font-family:Archivo;src:url(fonts/Archivo-ExtraBold.woff2) format('woff2');font-weight:800;font-display:block}
+@font-face{font-family:'IBM Plex Sans';src:url(fonts/IBMPlexSans-Regular.woff2) format('woff2');font-weight:400;font-display:block}
+@font-face{font-family:'IBM Plex Sans';src:url(fonts/IBMPlexSans-Medium.woff2) format('woff2');font-weight:500;font-display:block}
+@font-face{font-family:'IBM Plex Sans';src:url(fonts/IBMPlexSans-SemiBold.woff2) format('woff2');font-weight:600;font-display:block}
+@font-face{font-family:'IBM Plex Mono';src:url(fonts/IBMPlexMono-Regular.woff2) format('woff2');font-weight:400;font-display:block}
+@font-face{font-family:'IBM Plex Mono';src:url(fonts/IBMPlexMono-Medium.woff2) format('woff2');font-weight:500;font-display:block}
 
 :root, [data-ground="paper"] {
   --pwv-ground: #F4F3EF; /* Full-frame background. Flat: no gradient, glow, vignette or texture other than the survey grid. */
