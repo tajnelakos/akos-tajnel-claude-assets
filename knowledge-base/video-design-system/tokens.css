@@ -1,0 +1,152 @@
+/* Parcelwise Video Design System: generated from tokens.json. Do not edit by hand. */
+/* Fonts are bundled in fonts/ (SIL Open Font License, see fonts/OFL.txt), so films render offline. */
+@font-face{font-family:Archivo;src:url(fonts/Archivo-SemiBold.woff2) format('woff2');font-weight:600;font-display:block}
+@font-face{font-family:Archivo;src:url(fonts/Archivo-Bold.woff2) format('woff2');font-weight:700;font-display:block}
+@font-face{font-family:Archivo;src:url(fonts/Archivo-ExtraBold.woff2) format('woff2');font-weight:800;font-display:block}
+@font-face{font-family:'IBM Plex Sans';src:url(fonts/IBMPlexSans-Regular.woff2) format('woff2');font-weight:400;font-display:block}
+@font-face{font-family:'IBM Plex Sans';src:url(fonts/IBMPlexSans-Medium.woff2) format('woff2');font-weight:500;font-display:block}
+@font-face{font-family:'IBM Plex Sans';src:url(fonts/IBMPlexSans-SemiBold.woff2) format('woff2');font-weight:600;font-display:block}
+@font-face{font-family:'IBM Plex Mono';src:url(fonts/IBMPlexMono-Regular.woff2) format('woff2');font-weight:400;font-display:block}
+@font-face{font-family:'IBM Plex Mono';src:url(fonts/IBMPlexMono-Medium.woff2) format('woff2');font-weight:500;font-display:block}
+
+:root, [data-ground="paper"] {
+  --pwv-ground: #F4F3EF; /* Full-frame background. Flat: no gradient, glow, vignette or texture other than the survey grid. */
+  --pwv-ink: #1C1C1A; /* Headlines and figures on the ground. Paper: 15.4:1. Navy: 10.5:1. */
+  --pwv-ink-muted: #5B6470; /* Second lines, measures under a figure, the end-card action. Paper: 5.4:1. Navy: 5.8:1. */
+  --pwv-highlight: #C1892E; /* The one gold per frame. Paper: a 6px underline bar under up to three headline words (never gold text on Paper, 2.7:1). Navy: up to three headline words in gold-light text (5.2:1). */
+  --pwv-lot: #C1892E; /* The filled gold lot of the parcel motif, the top evidence row's weight bar, the highlighted bar in a chart. Counts as the frame's one gold. */
+  --pwv-survey-line: #1A3A5C; /* Parcel and plan lines that draw in. Used at full strength for drawings, at the opacity below for the motif field. */
+  --pwv-survey-line-opacity: 0.18; /* Opacity of motif lines (the brand's parcel-grid uses Paper at 35% on Navy). */
+  --pwv-grid: #E1E0D9; /* The optional survey grid behind Walkthrough frames: 1px hairlines every 96px. Texture only, never behind running text. */
+  --pwv-rule: #1A3A5C; /* 2px rules: the eyebrow rule, focus marks, timeline track, chapter rail tick. */
+  --pwv-surface: #FFFFFF; /* Product panels. White on both grounds, 1px hairline border, 4px corners, no shadow. */
+  --pwv-surface-sunken: #FAF9F6; /* Header rows and inset rows inside a panel. */
+  --pwv-panel-ink: #1C1C1A; /* Text inside panels. 17.1:1 on white. */
+  --pwv-panel-muted: #5B6470; /* Labels and secondary values inside panels. 6.0:1 on white. */
+  --pwv-panel-line: #E1E0D9; /* Hairlines inside panels and their outer border. */
+  --pwv-bar: #1A3A5C; /* Evidence weight bars and chart series. The one that matters is 'lot' gold. */
+  --pwv-bar-track: #ECEBE5; /* Empty part of a weight bar. */
+  --pwv-caption-band: rgba(26,58,92,0.94); /* Burnt-in caption band. Navy at 94% on Paper frames; inverted to Paper at 96% on Navy frames, because a navy band disappears on the Navy ground. Square corners. */
+  --pwv-caption-ink: #F4F3EF; /* Caption text: Paper on the navy band (10:1), Ink on the Paper band on Navy frames (15:1). */
+  --pwv-good: #0CA30C; /* Product UI only: the dot on 'Synced to CRM'. Never on the ground. */
+  --pwv-good-ink: #1F7A4D; /* Product UI only: status text on good-bg. */
+  --pwv-good-bg: #E9F5EE; /* Product UI only: status badge fill. */
+  --pwv-critical: #D03B3B; /* Product UI only: an error the film is about. Never as drama on the ground. */
+}
+[data-ground="navy"] {
+  --pwv-ground: #1A3A5C;
+  --pwv-ink: #F4F3EF;
+  --pwv-ink-muted: #AEB8C3;
+  --pwv-highlight: #D9A54B;
+  --pwv-lot: #D9A54B;
+  --pwv-survey-line: #F4F3EF;
+  --pwv-survey-line-opacity: 0.35;
+  --pwv-grid: #2C4C6B;
+  --pwv-rule: #F4F3EF;
+  --pwv-surface: #FFFFFF;
+  --pwv-surface-sunken: #FAF9F6;
+  --pwv-panel-ink: #1C1C1A;
+  --pwv-panel-muted: #5B6470;
+  --pwv-panel-line: #E1E0D9;
+  --pwv-bar: #1A3A5C;
+  --pwv-bar-track: #ECEBE5;
+  --pwv-caption-band: rgba(244,243,239,0.96);
+  --pwv-caption-ink: #1C1C1A;
+  --pwv-good: #0CA30C;
+  --pwv-good-ink: #1F7A4D;
+  --pwv-good-bg: #E9F5EE;
+  --pwv-critical: #D03B3B;
+}
+:root {
+  --pwv-font-display: Archivo, 'Helvetica Neue', Arial, sans-serif;
+  --pwv-font-ui: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  --pwv-font-mono: 'IBM Plex Mono', ui-monospace, Menlo, monospace;
+  --pwv-text-title: 800 120px/120px var(--pwv-font-display); /* Title card hook and statement lines on Navy. Max two lines. */
+  --pwv-text-title-tracking: -0.03em;
+  --pwv-text-headline: 700 72px/80px var(--pwv-font-display); /* Beat headlines on either ground. Left-aligned at the margin, max two lines, 3 to 8 words. */
+  --pwv-text-headline-tracking: -0.025em;
+  --pwv-text-headline-compact: 700 56px/64px var(--pwv-font-display); /* Walkthrough beats and headlines that share the frame with a large panel. */
+  --pwv-text-headline-compact-tracking: -0.02em;
+  --pwv-text-figure: 800 240px/220px var(--pwv-font-display); /* FigureCard: one number per frame, tabular. */
+  --pwv-text-figure-tracking: -0.04em;
+  --pwv-text-end-line: 700 64px/72px var(--pwv-font-display); /* The end-card line under the lockup. */
+  --pwv-text-end-line-tracking: -0.02em;
+  --pwv-text-eyebrow: 500 22px/28px var(--pwv-font-mono); /* Uppercase mono label above a headline, with a 2px rule. Set uppercase in CSS. */
+  --pwv-text-eyebrow-tracking: 0.08em;
+  --pwv-text-lead: 400 36px/48px var(--pwv-font-ui); /* One supporting line under a headline, measures under a figure. ink-muted. */
+  --pwv-text-lead-tracking: 0;
+  --pwv-text-lower-third: 600 40px/48px var(--pwv-font-ui); /* Lower-third label on its navy band. */
+  --pwv-text-lower-third-tracking: 0;
+  --pwv-text-caption: 500 44px/56px var(--pwv-font-ui); /* Burnt-in captions on the 16:9 master. 2 lines, 42 characters a line. */
+  --pwv-text-caption-tracking: 0;
+  --pwv-text-panel-title: 600 32px/40px var(--pwv-font-ui); /* Panel header: the signal name, the screen name. */
+  --pwv-text-panel-title-tracking: -0.005em;
+  --pwv-text-panel-value: 500 26px/34px var(--pwv-font-ui); /* Row values in a panel. The smallest size a viewer must read. */
+  --pwv-text-panel-value-tracking: 0;
+  --pwv-text-panel-label: 500 18px/24px var(--pwv-font-mono); /* Uppercase mono column labels in a panel. Texture: may be skimmed. */
+  --pwv-text-panel-label-tracking: 0.06em;
+  --pwv-text-data: 400 26px/34px var(--pwv-font-mono); /* Figures, dates, IDs and weights inside panels. Tabular numerals. */
+  --pwv-text-data-tracking: 0;
+  --pwv-text-source: 400 22px/30px var(--pwv-font-mono); /* The source line under every figure and chart. */
+  --pwv-text-source-tracking: 0;
+  --pwv-text-rail: 500 20px/24px var(--pwv-font-mono); /* ChapterRail labels at the bottom of a Signal story. */
+  --pwv-text-rail-tracking: 0.08em;
+  --pwv-w: 1920px; /* Master width. */
+  --pwv-h: 1080px; /* Master height. */
+  --pwv-margin: 96px; /* Safe margin on all four sides for text, panels and the logo (brand canvas-margin). */
+  --pwv-col: 122px; /* One grid column. */
+  --pwv-gutter: 24px; /* Grid gutter. */
+  --pwv-headline-top: 144px; /* Top of the eyebrow block on Paper beats. The headline sits under its eyebrow. */
+  --pwv-split-text: 5; /* Columns for the text side of a split beat (headline left, panel right). */
+  --pwv-split-panel: 7; /* Columns for the panel side of a split beat. */
+  --pwv-caption-bottom: 160px; /* Bottom edge of the caption band above the frame bottom (brand canvas-margin-caption). */
+  --pwv-rail-bottom: 72px; /* Baseline of the ChapterRail, under the caption band. */
+  --pwv-mark-size: 48px; /* Logomark on product frames, bottom-right inside the margin. */
+  --pwv-lockup-w: 360px; /* Lockup width on title cards (top-left) and end cards (centred). */
+  --pwv-panel-pad: 32px; /* Inner padding of product panels. */
+  --pwv-row-h: 72px; /* Row height inside panels on film (twice the web app's density). */
+  --pwv-radius: 4px; /* Panels, badges and buttons. Never more: the brand has no pills. */
+  --pwv-radius-frame: 6px; /* Large image frames only, matching the logomark's corner. */
+  --pwv-hairline: 1px; /* Panel borders and the survey grid. */
+  --pwv-stroke: 2px; /* Rules, focus marks, chart lines, timeline track. */
+  --pwv-draw-stroke: 3px; /* Parcel and plan drawings on film (the 1.75px icon stroke scaled for 1080p). */
+  --pwv-highlight-bar: 6px; /* Height of the gold underline bar under highlighted words on Paper. */
+  --pwv-focus-mark: 28px; /* Arm length of each corner bracket in FocusMarks. */
+  --pwv-ease: cubic-bezier(0.2, 0, 0, 1); /* The only easing curve (brand --ease-standard). Linear only for camera drift. */
+  --pwv-fps: 30; /* Frame rate of every cut. */
+  --pwv-beat: 5s; /* Default beat: one headline, one change. Range 3 to 8s. */
+  --pwv-line-in: 500ms; /* A headline line rises 24px out of a mask on its own baseline. Lines, not words. */
+  --pwv-line-stagger: 120ms; /* Delay between headline lines. */
+  --pwv-highlight-in: 400ms; /* The gold underline bar (Paper) draws left to right, starting when its line lands. */
+  --pwv-draw: 800ms; /* A parcel or plan line draws in (brand --motion-draw). */
+  --pwv-draw-stagger: 120ms; /* Between consecutive lines of one drawing. */
+  --pwv-lot-fill: 300ms; /* The gold lot fills after its lines have drawn: the signature move. */
+  --pwv-frame-trace: 600ms; /* A panel's hairline border traces in, clockwise from top-left. */
+  --pwv-content-in: 250ms; /* Panel content fades in once its frame is traced (brand --motion-base). */
+  --pwv-row-stagger: 120ms; /* Rows populating a panel, top to bottom. */
+  --pwv-bar-grow: 500ms; /* A weight bar grows from the left to its exact value. */
+  --pwv-count: 800ms; /* A figure counts up and lands on the exact value. */
+  --pwv-focus-in: 400ms; /* FocusMarks close in on the element from 40px outside it. */
+  --pwv-dim: 0.35; /* Opacity of everything outside the focus while FocusMarks are on. Dimming replaces blur. */
+  --pwv-type: 28ms; /* Per character when a mono log line types in. */
+  --pwv-wipe: 500ms; /* Ground change Paper to Navy (or back): a hard vertical edge travels left to right. */
+  --pwv-fade-out: 250ms; /* A beat's content fades out before the next one draws in. */
+  --pwv-hold: 1.5s; /* Minimum still time once a beat is complete. */
+  --pwv-end-hold: 3s; /* End card held still, no voice-over over the last 2s. */
+  --pwv-drift: 1.03; /* Max camera scale over one beat on a product panel (linear, one direction). No drift on type-only frames. */
+}
+.pwv-t-title { font: var(--pwv-text-title); letter-spacing: var(--pwv-text-title-tracking); }
+.pwv-t-headline { font: var(--pwv-text-headline); letter-spacing: var(--pwv-text-headline-tracking); }
+.pwv-t-headline-compact { font: var(--pwv-text-headline-compact); letter-spacing: var(--pwv-text-headline-compact-tracking); }
+.pwv-t-figure { font: var(--pwv-text-figure); letter-spacing: var(--pwv-text-figure-tracking); font-variant-numeric: tabular-nums; }
+.pwv-t-end-line { font: var(--pwv-text-end-line); letter-spacing: var(--pwv-text-end-line-tracking); }
+.pwv-t-eyebrow { font: var(--pwv-text-eyebrow); letter-spacing: var(--pwv-text-eyebrow-tracking); text-transform: uppercase; font-variant-numeric: tabular-nums; }
+.pwv-t-lead { font: var(--pwv-text-lead); letter-spacing: var(--pwv-text-lead-tracking); }
+.pwv-t-lower-third { font: var(--pwv-text-lower-third); letter-spacing: var(--pwv-text-lower-third-tracking); }
+.pwv-t-caption { font: var(--pwv-text-caption); letter-spacing: var(--pwv-text-caption-tracking); }
+.pwv-t-panel-title { font: var(--pwv-text-panel-title); letter-spacing: var(--pwv-text-panel-title-tracking); }
+.pwv-t-panel-value { font: var(--pwv-text-panel-value); letter-spacing: var(--pwv-text-panel-value-tracking); }
+.pwv-t-panel-label { font: var(--pwv-text-panel-label); letter-spacing: var(--pwv-text-panel-label-tracking); text-transform: uppercase; font-variant-numeric: tabular-nums; }
+.pwv-t-data { font: var(--pwv-text-data); letter-spacing: var(--pwv-text-data-tracking); font-variant-numeric: tabular-nums; }
+.pwv-t-source { font: var(--pwv-text-source); letter-spacing: var(--pwv-text-source-tracking); font-variant-numeric: tabular-nums; }
+.pwv-t-rail { font: var(--pwv-text-rail); letter-spacing: var(--pwv-text-rail-tracking); text-transform: uppercase; font-variant-numeric: tabular-nums; }

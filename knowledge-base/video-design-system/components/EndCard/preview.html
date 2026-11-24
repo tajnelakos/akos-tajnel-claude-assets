@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Parcelwise Video · EndCard</title>
+<link rel="stylesheet" href="../../tokens.css"><link rel="stylesheet" href="../../components/bundle.css">
+<style>
+body{margin:0;background:#E9E8E2;color:#1C1C1A;font-family:'IBM Plex Sans',Arial,sans-serif}
+main{max-width:1280px;margin:0 auto;padding:40px 32px 80px}
+.fit{position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;box-shadow:0 0 0 1px #D5D3CA;background:#F4F3EF}
+.fit>.pwv-stage{position:absolute;left:0;top:0;transform-origin:0 0}
+.meta{font:500 13px/18px 'IBM Plex Mono',monospace;color:#5B6470;text-transform:uppercase;letter-spacing:.08em;margin:0 0 8px}
+h1{font:700 32px/38px Archivo,Arial,sans-serif;margin:0 0 6px;letter-spacing:-.02em}
+h2{font:700 24px/30px Archivo,Arial,sans-serif;margin:56px 0 4px;letter-spacing:-.01em}
+p.sum{font:400 16px/24px 'IBM Plex Sans',Arial,sans-serif;color:#5B6470;margin:0 0 16px;max-width:70ch}
+nav{display:flex;flex-wrap:wrap;gap:8px 16px;margin:16px 0 0}
+nav a{font:500 13px/18px 'IBM Plex Mono',monospace;color:#1A3A5C;text-decoration:none;border-bottom:1px solid #C1892E}
+.ctl{display:flex;gap:12px;margin:12px 0 0}
+.ctl button{font:500 14px/20px 'IBM Plex Sans';padding:6px 14px;border:1px solid #8A8782;border-radius:4px;background:#fff;color:#1A3A5C;cursor:pointer}
+</style></head><body><main>
+<p class="meta">Parcelwise Video · Open and close · navy ground · loops every 6 s</p><h1>EndCard</h1><p class="sum">How every film closes: reversed lockup centred, the line, one action, held 3 seconds.</p><div class="fit"><div class="pwv-stage" data-ground="navy" data-timeline data-loop="6"><div class="pwv-endcard"><svg class="pwv-lockup" viewBox="0 0 500 100" role="img" aria-label="Parcelwise" data-fx="fade" data-at="0.2"><g><rect x="4" y="4" width="92" height="92" rx="6" fill="none" stroke="#FFFFFF" stroke-width="8"/><rect x="59" y="8" width="33" height="36" fill="#D9A54B"/><path d="M 8 48 H 92 M 55 8 V 48 M 38 48 V 92" fill="none" stroke="#FFFFFF" stroke-width="8"/></g><text x="124" y="70" font-family="Archivo, sans-serif" font-size="54" font-weight="700" letter-spacing="-0.5" fill="#FFFFFF">Parcelwise</text></svg>
+<p class="pwv-end-line" data-fx="lines" data-at="0.5"><span class="pwv-line"><span>Opportunities you can act on — and explain.</span></span></p>
+<p class="pwv-end-action" data-fx="fade" data-at="1.2">Run a backtest on your own book <svg class="pwv-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13.5 6.5L19 12l-5.5 5.5"/></svg></p></div></div></div><nav><a href="README.md">README</a><a href="../../preview.html">All components</a><a href="../../README.md">Film book</a></nav>
+</main><script src="../../components/film-engine.js"></script><script>
+function pwvFit(){document.querySelectorAll('.fit').forEach(function(f){var s=f.firstElementChild;s.style.transform='scale('+(f.clientWidth/1920)+')';});}
+window.addEventListener('resize',pwvFit);pwvFit();
+</script></body></html>

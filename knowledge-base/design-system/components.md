@@ -130,7 +130,7 @@ LinkedIn carousel slides on the 1080 × 1350 canvas: a navy cover and a paper pr
 
 Key frames for product videos on the 1920 × 1080 master: the title card and a screen-recording frame with a burnt-in caption. Full rules in [`video-and-motion.md`](./video-and-motion.md).
 
-**You provide:** one segment and persona, a hook line for the title card that names the customer situation, real screen recordings of the product, caption text (2 lines max, 42 characters a line) and a closing action.
+**You provide:** one segment and persona, a hook line for the title card that names the customer situation, the product screens to rebuild (see [`../video-design-system/`](../video-design-system) for the full film components), caption text (2 lines max, 42 characters a line) and a closing action.
 
 **Build rules**
 - Title card: navy, `parcel-grid` motif bleeding off the right, lockup top-left, Archivo 800 at 112px.
