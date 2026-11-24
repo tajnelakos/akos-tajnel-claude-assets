@@ -14,7 +14,7 @@ Explains what a rule or supervisory change means for lenders and insurers: the r
 - A close that points to the full brief, and the line "not legal advice" in some form.
 
 **Build rules**
-- Cover: lockup top-left, `parcel-grid` motif top-right, `title-cover` anchored 240px from the bottom and 120px clear of the right edge, plus a `body-lead` line saying how many slides.
+- Cover: lockup top-left, `ridge-lines` motif top-right, `title-cover` anchored 240px from the bottom and 120px clear of the right edge, plus a `body-lead` line saying how many slides.
 - Rule: the rule's reference in `data-label` mono above a `title-statement`, the key words in `gold-light`.
 - Obligations: a paper slide, `heading` plus a three-row checklist.
 - Preparation: navy, three `navy-deep` panels 32px apart, each with a mono number (01, 02, 03) as its label and a `body` line.

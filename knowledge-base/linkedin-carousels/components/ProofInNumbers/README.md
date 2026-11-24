@@ -15,7 +15,7 @@ One result told honestly: the figure on the cover, what it measures, a chart aga
 
 **Build rules**
 - Cover: lockup top-left, then `figure-hero` (paper, never gold), the measure in `body-lead`, the source line in mono, as one block anchored 240px from the bottom. No motif. Arrow at the margin.
-- Meaning: `plot-strip` motif along the top edge (the eyebrow moves down to 192px), `title-statement` at top ≈ 340px restating what the figure counts, then the baseline in `body-lead`. The strip's lot is the slide's gold.
+- Meaning: `ridge-strip` motif along the top edge (the eyebrow moves down to 192px), `title-statement` at top ≈ 340px restating what the figure counts, then the baseline in `body-lead`. The strip's gold point is the slide's gold.
 - Chart: a paper slide. A `heading` that states the takeaway, then horizontal bars 72px tall, 48px apart: the bar the post is about in `gold`, every other bar in `navy`, labels in Plex Sans, values in mono on the right. A source line under the chart.
 - Method: navy, `heading` plus a three-row checklist.
 - Limits: `title-statement`, one `body-lead` line, and the `scale-bar` motif under it.

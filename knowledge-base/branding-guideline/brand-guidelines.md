@@ -48,6 +48,8 @@ Tone shifts by channel, but the underlying values above never do:
 - [`logo.svg`](./logo.svg) — primary lockup (mark + wordmark), for light backgrounds
 - [`logo-reversed.svg`](./logo-reversed.svg) — white version, for dark/navy backgrounds
 - [`logo-mark.svg`](./logo-mark.svg) — icon alone, for favicons, social avatars, and spaces too small for the wordmark
+
+**The mark:** a ridgeline drawn in straight segments on a baseline, with one gold point on its summit: the moment worth acting on, seen from high ground. Navy (or white on dark) for the line, gold for the point, nothing else.
 - [`logo-usage.svg`](./logo-usage.svg) — clear space, minimum size, and misuse reference sheet
 
 **Clear space:** minimum clear space on every side equals the height of the mark itself. Nothing — text, edges, other logos — enters that space.
@@ -85,7 +87,7 @@ Primary and Secondary are for brand and marketing use. Status colors are reserve
 
 **Using the palette:**
 
-- **Gold is a highlight, not a color scheme.** At most one gold element per view: the highlighted lot, the top data point in an evidence trail, an eyebrow rule, or up to three highlighted words. Gold is never body text on light backgrounds (3.05:1 on white); on navy, gold text uses the lighter `#D9A54B` from the reversed logo (5.2:1).
+- **Gold is a highlight, not a color scheme.** At most one gold element per view: the gold summit point, the top data point in an evidence trail, an eyebrow rule, or up to three highlighted words. Gold is never body text on light backgrounds (3.05:1 on white); on navy, gold text uses the lighter `#D9A54B` from the reversed logo (5.2:1).
 - **No gradients, glows, or tints of navy as decoration.** Flat fields only.
 - **Status text uses darker ink values.** Good (`#0CA30C`) and warning (`#D68A1F`) fall below 4.5:1 as small text on white, so they stay as icons, dots, and chart marks; text and badges use the ink/background pairs below.
 
@@ -146,7 +148,7 @@ So the product and marketing site read as one brand, not two:
 ### Spacing, radius, and lines
 
 - **4px grid:** 4 · 8 · 12 · 16 · 24 · 32 · 48 · 64. Card padding 24, gaps between cards 32, page sections 48.
-- **Corners:** 2px (badges, checkboxes), 4px (buttons, inputs, cards — the maximum for anything clickable), 6px (large panels and image frames only, matching the logomark's corner). Never pill-shaped.
+- **Corners:** 2px (badges, checkboxes), 4px (buttons, inputs, cards — the maximum for anything clickable), 6px (large panels and image frames only). Never pill-shaped.
 - **One line language:** 1px hairlines for borders and dividers, 1.75px strokes for icons, 2px for focus rings and active underlines — the same stroked construction as the logomark.
 - **Shadows:** none on cards, panels, or buttons. One soft shadow exists for floating layers only (menus, dialogs), and they keep their hairline border too.
 
@@ -158,11 +160,11 @@ So the product and marketing site read as one brand, not two:
 
 ### Motifs
 
-The parcel map is the brand's one graphic idea: land divided by straight lines, one lot highlighted in gold, top-right — as in the logomark. Three cuts live in [`../design-system/`](../design-system):
+The ridge map is the brand's one graphic idea: ridgelines drawn in straight segments, one summit marked with a gold point, as in the logomark. Three cuts live in [`../design-system/`](../design-system):
 
-- `motif-parcel-grid.svg` — navy field, Paper lines at 35%, one gold lot. Carousel covers, video title cards, slide backgrounds.
-- `motif-plot-strip.svg` — a horizontal band of lots. Document headers, email banners, the top of a one-pager.
-- `motif-lot-outline.svg` — navy outline with one gold lot. Section dividers, empty states.
+- `motif-ridge-lines.svg` — navy field, Paper lines at 35%, one gold point. Carousel covers, video title cards, slide backgrounds.
+- `motif-ridge-strip.svg` — a horizontal band of ridgelines. Document headers, email banners, the top of a one-pager.
+- `motif-ridge-frame.svg` — navy outline with one gold point. Section dividers, empty states.
 
 One motif per surface, anchored to an edge and allowed to bleed off it, never behind running text.
 
@@ -185,7 +187,7 @@ One motif per surface, anchored to an edge and allowed to bleed off it, never be
 
 ### Naming conventions
 
-- **Pricing tiers** (brokerage/seat-based product): **Plot** (entry), **Block** (mid), **Estate** (enterprise): a land-scale theme that grows with the customer, used consistently and only for this purpose (not reused as a generic naming device elsewhere).
+- **Pricing tiers** (brokerage/seat-based product): **Base** (entry), **Ridge** (mid), **Summit** (enterprise): a climb theme that grows with the customer, used consistently and only for this purpose (not reused as a generic naming device elsewhere).
 - **Feature names:** literal and descriptive, never invented proper nouns or trademarked-sounding names. "Evidence Trail," not "TraceIQ™." "Coverage Map," not "SmartArea." This follows directly from the "precision, not hype" brand value — a cute feature name reads as marketing packaging on something that should read as infrastructure.
 - **Product terminology (use consistently):**
 
@@ -205,7 +207,7 @@ One motif per surface, anchored to an edge and allowed to bleed off it, never be
 - **No stock photography.** Especially no generic finance-stock clichés (handshakes, skyline photos, people pointing at monitors). This audience recognizes stock photography instantly and it reads as substance-free.
 - **Prefer real product surfaces and data visualization** — an actual (or realistic mock) evidence-trail screenshot, a real moment-weighting chart — over any illustration standing in for the product.
 - **Where illustration is needed** (e.g. a concept with no literal screenshot, like "data residency"), use abstract geometric illustration consistent with the logomark's style — flat shapes, no gradients, no 3D renders, no isometric-office-life scenes.
-- **Icon style:** line icons only, 1.5–2px stroke weight, no fills, consistent corner radius. No skeuomorphic, glossy, or 3D icon sets. This matches the logomark's own construction (a stroked parcel map plus one solid highlighted lot) — the icon system and the logo should look like they were drawn by the same hand. A starter set of 15 icons drawn to this rule (1.75px on a 24px grid) lives in [`../design-system/`](../design-system) as `icon-*.svg`: moment, evidence-trail, customer, parcel, valuation, market, coverage-map, lender, policy, crm-sync, data-residency, check, alert, arrow-right, search.
+- **Icon style:** line icons only, 1.5–2px stroke weight, no fills, consistent corner radius. No skeuomorphic, glossy, or 3D icon sets. This matches the logomark's own construction (a stroked ridgeline on a baseline plus one solid gold summit point) — the icon system and the logo should look like they were drawn by the same hand. A starter set of 15 icons drawn to this rule (1.75px on a 24px grid) lives in [`../design-system/`](../design-system) as `icon-*.svg`: moment, evidence-trail, customer, property, valuation, market, coverage-map, lender, policy, crm-sync, data-residency, check, alert, arrow-right, search.
 - **Mock-ups:** realistic but clearly illustrative data. Customers appear by ID, never by a real name or address.
 
 ---
@@ -232,8 +234,8 @@ Full system: [`../linkedin-carousels/`](../linkedin-carousels) (formats, slide C
 
 - **Canvas:** 1080 × 1350 px (4:5), 96px safe margin, 4–8 slides (cover, 2–6 middle slides, one close). Minimum type on the canvas is 28px.
 - **Grounds:** flat Navy for covers, statements, and closes; flat Paper for proof slides with screenshots, tables, and charts. No gradients or glows.
-- **Furniture:** lockup on the cover and the close, the mark bottom-right on every other slide, a swipe arrow on every slide but the last, a mono eyebrow and a slide counter on middle slides. One parcel-map motif at most per slide: the parcel grid on covers, the plot strip or layer stack on data and explainer slides.
-- **Story shape:** question → tension → method → proof → action. One gold element per slide: up to three highlighted words in `#D9A54B` on Navy, or a motif's lot, or the top weight in an evidence trail.
+- **Furniture:** lockup on the cover and the close, the mark bottom-right on every other slide, a swipe arrow on every slide but the last, a mono eyebrow and a slide counter on middle slides. One ridge-line motif at most per slide: the ridge lines on covers, the ridge strip or layer stack on data and explainer slides.
+- **Story shape:** question → tension → method → proof → action. One gold element per slide: up to three highlighted words in `#D9A54B` on Navy, or a motif's gold point, or the top weight in an evidence trail.
 - **Formats:** moment explainer, myth vs method, proof in numbers, feature launch, regulation brief, event invite, field guide, plus a slide kit for mixing them.
 - **Caption:** 50–110 words in four blocks — hook, what changes (as a benefit), proof or detail, one CTA with one link. No hashtags; at most one emoji, never on slides.
 
@@ -244,7 +246,7 @@ Summary rules: [`video-and-motion.md`](../design-system/video-and-motion.md). Th
 - **Formats:** 1920 × 1080 master (45–75 s), 1080 × 1350 social cut (30–45 s), 1080 × 1920 vertical (15–30 s); 30 fps; one video per segment and persona.
 - **Structure:** hook (the customer situation) → tension (what goes wrong today) → method (product panels rebuilt in code from the real screens, through the three data layers, ending on a moment with its evidence trail) → proof (one backtest figure with its source) → end card (lockup, "Opportunities you can act on — and explain.", one action, held three seconds).
 - **Captions:** always burnt in, IBM Plex Sans 500 at 44px on a Navy band (a Paper band on Navy frames), left-aligned, two lines maximum, at least 160px above the bottom edge.
-- **Motion language:** straight, exact, no bounce — like a surveyor drawing a plan. Signature move: parcel lines draw in, then the gold lot fills. One easing curve (`cubic-bezier(0.2, 0, 0, 1)`); 150ms for UI feedback, 250ms for panels, 500ms for video text, 800ms for line draws. No spins, 3D flips, glitch effects, or stock footage. UI motion respects `prefers-reduced-motion`.
+- **Motion language:** straight, exact, no bounce — like a guide tracing a ridgeline. Signature move: ridge lines draw in, then the gold point fills. One easing curve (`cubic-bezier(0.2, 0, 0, 1)`); 150ms for UI feedback, 250ms for panels, 500ms for video text, 800ms for line draws. No spins, 3D flips, glitch effects, or stock footage. UI motion respects `prefers-reduced-motion`.
 
 ---
 

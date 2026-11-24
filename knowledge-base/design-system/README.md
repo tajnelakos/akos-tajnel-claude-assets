@@ -11,7 +11,7 @@ The [`branding-guideline/`](../branding-guideline) folder stays the source of tr
 - **Tokens** with exact values and a usage note on each, in light and dark themes, with every text pairing checked for contrast.
 - **Components** as plain HTML and CSS, each with what the author provides and the rules that don't change. The signature one is `MomentCard`: a moment, the customer it points at, and the property, market and customer data behind it, so the brand promise (*opportunities you can act on — and explain*) is visible in the UI itself.
 - **Channel rules** for the places the original guideline only covered in a line: LinkedIn carousels and captions, product video and motion, and product UI copy.
-- **Assets** drawn to the guideline's own rules: a line-icon set at the specified stroke weight, and graphic motifs built from the logomark's idea (a parcel map with one highlighted lot).
+- **Assets** drawn to the guideline's own rules: a line-icon set at the specified stroke weight, and graphic motifs built from the logomark's idea (ridgelines with one gold summit point).
 
 The same system is published as a Claude design system, so Claude builds Seekridge slides, pages and mock-ups from it without being re-briefed.
 
@@ -27,8 +27,8 @@ The same system is published as a Claude design system, so Claude builds Seekrid
 | [`writing.md`](./writing.md) | Full wording rules: golden rules, names and terms, case, numbers and currency, market typography (DACH, Benelux, Nordics), inclusive language, product copy. |
 | [`social-and-carousels.md`](./social-and-carousels.md) | LinkedIn in one page; the full carousel system (formats, slide CSS, assets, wording, captions, skill) is [`../linkedin-carousels/`](../linkedin-carousels). Canvas, grounds, type sizes, logo and swipe furniture, seven carousel formats, story shape, caption anatomy, pre-post check. |
 | [`video-and-motion.md`](./video-and-motion.md) | Video formats and story structure, key frames, captions, motion tokens and easing, sound, production rules: the one-page summary of [`../video-design-system/`](../video-design-system), which holds the full film book, components and reference films. |
-| `icon-*.svg` | 15 line icons (moment, evidence-trail, customer, parcel, valuation, market, coverage-map, lender, policy, crm-sync, data-residency, check, alert, arrow-right, search): 24px grid, 1.75px stroke, no fills, navy. |
-| `motif-*.svg` | 3 parcel-map motifs: `parcel-grid` (covers, title cards), `plot-strip` (headers), `lot-outline` (dividers). |
+| `icon-*.svg` | 15 line icons (moment, evidence-trail, customer, property, valuation, market, coverage-map, lender, policy, crm-sync, data-residency, check, alert, arrow-right, search): 24px grid, 1.75px stroke, no fills, navy. |
+| `motif-*.svg` | 3 ridge-line motifs: `ridge-lines` (covers, title cards), `ridge-strip` (headers), `ridge-frame` (dividers). |
 
 Logos and the palette and logo-usage reference sheets stay in [`branding-guideline/`](../branding-guideline). Print pieces (trifolds, postcards, one-pagers) have their own system in [`flyer-design-system/`](../flyer-design-system).
 

@@ -48,7 +48,7 @@ Confident and specific, never hyped. The audience is technically skeptical and r
 
 - **Seekridge**: one word, capital P only, no article ("Seekridge backtests every moment model", not "The Seekridge…").
 - **Feature names** are literal and capitalised as names: Evidence Trail, Coverage Map. In running text they take no article in English ("Evidence Trail shows…"); German and Dutch use articles.
-- **Tiers:** Plot, Block, Estate. Only for pricing.
+- **Tiers:** Base, Ridge, Summit. Only for pricing.
 - **Terminology:** moment (not lead, insight or alert) · evidence trail (the data points behind a moment; not explainability report) · audit log (the record of what was done with a moment; not activity feed) · customer base (not database or leads) · property data, market data, customer data (not big data or data lake) · valuation, as one data point inside a moment (not appraisal or estimate) · bank, lender, insurer or brokerage (not client, in product copy) · CRM · automated valuation model (AVM), spelled out on first use.
 - **Competitors** are named only in battlecards and internal material, never in public content.
 

@@ -2,7 +2,7 @@
 
 The A5 landscape card (210 × 148 mm) for mailings, conference tables and recto flyers. A recto flyer is the front alone, with the `ContactBlock` added at its foot.
 
-**Front (navy):** `Logo` lockup top-left inside the 12 mm margin, parcel-grid motif bleeding off the top-right corner, then at the foot an eyebrow naming the reader, one `card-display` statement (up to eight words, the last one or two in gold) and one `card-lead` line.
+**Front (navy):** `Logo` lockup top-left inside the 12 mm margin, ridge-lines motif bleeding off the top-right corner, then at the foot an eyebrow naming the reader, one `card-display` statement (up to eight words, the last one or two in gold) and one `card-lead` line.
 
 **Back (paper):** eyebrow with the mark at its right end, a `card-headline`, up to three columns (`.pwf-cols`, hairline dividers) each with an icon, a `card-subhead` and two or three lines of `card-body`, then the `ContactBlock` at the foot.
 

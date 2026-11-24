@@ -2,7 +2,7 @@
 
 Tells the viewer where they are in a Moment story, in the order of the first rule: Situation · Moment · Evidence · Action.
 
-**Anatomy.** IBM Plex Mono 500, 20px, +0.08em, uppercase, left-aligned at the margin under the caption band (baseline `rail-bottom`, 72px). Each item has a 14px square: outlined for upcoming, half-filled for done, filled for the current chapter. Squares, because they are lots.
+**Anatomy.** IBM Plex Mono 500, 20px, +0.08em, uppercase, left-aligned at the margin under the caption band (baseline `rail-bottom`, 72px). Each item has a 14px square: outlined for upcoming, half-filled for done, filled for the current chapter. Squares, because they match the brand's square corners.
 
 **States.** `is-active` (ink, full opacity), `is-done` (80%), upcoming (55%).
 

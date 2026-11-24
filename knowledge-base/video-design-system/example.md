@@ -19,7 +19,7 @@ moment enough to act on it, so not a Walkthrough; one persona and one situation,
 
 | Time        | Beat      | Headline                                      | On screen                                                                 | Chapter   |
 |-------------|-----------|-----------------------------------------------|---------------------------------------------------------------------------|-----------|
-| 0.0–5.0 s   | TitleCard | Their fixed rate ends in four months.         | Navy; parcel field draws, gold lot fills; lockup; eyebrow MORTGAGE LENDING · DACH | —   |
+| 0.0–5.0 s   | TitleCard | Their fixed rate ends in four months.         | Navy; ridge field draws, gold point fills; lockup; eyebrow MORTGAGE LENDING · DACH | —   |
 | 5.0–10.0 s  | Tension   | By the time anyone notices, **they've moved.** | Wipe to Paper; Timeline: Today → Fixed rate ends 2027-03-31 → Refinanced elsewhere (marked) | Situation |
 | 10.0–16.0 s | Layers    | Three layers. **One customer.**               | LayerStack: customer, property, market chips → node "Refinance risk"      | Situation |
 | 16.0–21.5 s | Moment    | One moment, ranked **third.**                 | MomentCard: Refinance risk · 40-1187 · rank counts to 3 / 212 · two evidence rows | Moment |
@@ -56,7 +56,7 @@ assets/Films/story-fixed-rate-dach-16x9.srt · assets/Stills/contact-sheet-story
 **Checks:**
 - First rule ✓ — the customer's situation (0–10 s) comes before the product (10 s); a viewer can
   repeat the top reason ("the market rate is 1.7 points above their contract").
-- One gold per frame ✓ — the lot (title), highlight bars (Paper beats), the top evidence bar with
+- One gold per frame ✓ — the gold point (title), highlight bars (Paper beats), the top evidence bar with
   no headline highlight (evidence beat), gold-light words only on Navy.
 - Figures ✓ — 68% carries its source and *Illustrative*; weights 38 + 27 + 21 + 14 = 100.
 - Captions ✓ — max 2 × 42 characters, none over the first 1.5 s or the last 2 s, never the

@@ -22,7 +22,7 @@ Rules for Seekridge product videos and UI motion: formats, story structure, key 
 
 ## Frames
 
-- **Title card:** navy ground, `parcel-grid` motif bleeding off the right, Archivo 800 at 96–120px in Paper, lockup top-left.
+- **Title card:** navy ground, `ridge-lines` motif bleeding off the right, Archivo 800 at 96–120px in Paper, lockup top-left.
 - **Product frame:** on Paper, the product rebuilt as a flat `surface` panel with a hairline border, cropped to the part that matters; focus on a detail with corner marks and dimming, never blur.
 - **Lower third:** navy band, 2px gold rule above it, Plex Sans 600 at 40px; at least `canvas-margin-caption` (160px) above the bottom edge.
 - **Captions:** Plex Sans 500 at 44px (master), left-aligned, Paper on a navy band (ink on a Paper band on Navy frames), 2 lines max, 42 characters a line, sentence case.
@@ -33,17 +33,17 @@ Logo: lockup on the title and end cards; the mark at 48px bottom-right on produc
 
 ## Motion language
 
-Motion should feel like a surveyor drawing a plan: straight lines, exact, no bounce.
+Motion should feel like a guide tracing a ridgeline: straight lines, exact, no bounce.
 
 | Token (in CSS) | Value | Use |
 |---|---|---|
 | `--motion-fast` | 150ms | Hover, press, focus |
 | `--motion-base` | 250ms | Menus, tabs, panels in UI |
 | `--motion-slow` | 500ms | Video text in and out |
-| `--motion-draw` | 800ms | Parcel lines drawing in on video |
+| `--motion-draw` | 800ms | Ridge lines drawing in on video |
 | `--ease-standard` | cubic-bezier(0.2, 0, 0, 1) | Everything that moves |
 
-- **Signature move:** parcel lines draw in, then the one gold lot fills. Use it on the title card and when a moment appears.
+- **Signature move:** ridge lines draw in, then the one gold point fills. Use it on the title card and when a moment appears.
 - **Allowed:** cuts, fades, straight wipes, line draws, number count-ups (ending on the exact value), slow zooms into screenshots.
 - **Not allowed:** bounces, spins, 3D flips, glitch effects, particle fields, stock footage.
 - **UI motion:** only to show cause and effect (a row expanding, a panel opening). Respect `prefers-reduced-motion`: replace movement with a fade.

@@ -1,4 +1,4 @@
-Seekridge in print: claims in Paper on flat Navy, the evidence on Paper, and one gold lot that marks the thing that matters. Use this system for the A4 trifold, A5 postcards and recto flyers, the A4 one-pager leave-behind, and any event handout that has to sit beside them.
+Seekridge in print: claims in Paper on flat Navy, the evidence on Paper, and one gold point that marks the thing that matters. Use this system for the A4 trifold, A5 postcards and recto flyers, the A4 one-pager leave-behind, and any event handout that has to sit beside them.
 
 It applies the Seekridge brand guideline ([`../branding-guideline/`](../branding-guideline)) and design system ([`../design-system/`](../design-system)) to print. Where those files and this one disagree, the brand guideline wins.
 
@@ -38,9 +38,9 @@ The formats (A4 trifold, A5 cards, panel-based insides) follow common B2B print 
 - *Navy ground* (`.pwf-navy`, `data-theme="dark"`): flat `navy`, Paper type, `navy-text` for supporting lines, the reversed logo. Trifold front and back, postcard fronts, recto flyers.
 - *Paper* (default): `paper` ground with white panels and a 0.5pt hairline. Navy headings and figures, Ink body, `grey-text` for secondary text. The inside of every piece, card backs, the one-pager.
 
-**Colour.** Navy and Paper do the work. Gold is a highlight, not a colour scheme: **one gold element per trifold panel, per card side, or per one-pager**. It is the motif's lot, the moment box's lot, the top evidence bar, one figure's rule, or up to three words of a claim on navy (`gold-light`). The logo's own lot doesn't count. Status colours never appear in print.
+**Colour.** Navy and Paper do the work. Gold is a highlight, not a colour scheme: **one gold element per trifold panel, per card side, or per one-pager**. It is the motif's gold point, the moment box's gold square, the top evidence bar, one figure's rule, or up to three words of a claim on navy (`gold-light`). The logo's own gold point doesn't count. Status colours never appear in print.
 
-**No gradients, glows, tints or shadows.** Much B2B fintech print uses a gradient and a glowing hero object; Seekridge uses flat grounds and the parcel-grid motif instead, and a square diagram of its method in place of the glowing object.
+**No gradients, glows, tints or shadows.** Much B2B fintech print uses a gradient and a glowing hero object; Seekridge uses flat grounds and the ridge-lines motif instead, and a square diagram of its method in place of the glowing object.
 
 **Contrast.** Every text pairing passes WCAG AA: Ink on Paper 15.4:1, Navy on Paper 10.5:1, `grey-text` on Paper 5.4:1, Paper on Navy 10.5:1, `navy-text` on Navy 5.8:1, `gold-light` on Navy 5.2:1. Gold on Paper is 2.7:1, so it is marks only, never text.
 
@@ -53,7 +53,7 @@ The formats (A4 trifold, A5 cards, panel-based insides) follow common B2B print 
 
 **Shape.** Square. Panels and image frames take `radius-sm` (0.5 mm), everything else `radius-none`. No pills, no circles, no discs: numbers sit in square tiles, the URL sits on a line with an arrow.
 
-**Motifs.** One per side, anchored to an edge and bleeding off it, never behind text: `parcel-grid` top-right on navy fronts, `plot-strip` along the top of a one-pager, `layer-stack` where the three data layers need a picture rather than a diagram.
+**Motifs.** One per side, anchored to an edge and bleeding off it, never behind text: `ridge-lines` top-right on navy fronts, `ridge-strip` along the top of a one-pager, `layer-stack` where the three data layers need a picture rather than a diagram.
 
 **Imagery.** Real product screens printed at 300 ppi in a hairline frame, the LayerDiagram and the EvidenceStrip. No stock photography, no 3D renders, no illustration of people at screens.
 
@@ -61,7 +61,7 @@ The formats (A4 trifold, A5 cards, panel-based insides) follow common B2B print 
 
 - The Seekridge line icons: 24 grid, 1.75 stroke, square caps, no fills. Navy on paper (`-navy` files), Paper on navy (`-paper` files). `.pwf-icon` picks the right one from the ground.
 - Sizes: 6 mm beside a panel title, 9 mm above a benefit, 4 mm in evidence rows and chips.
-- The three data layers always use `customer`, `market` and `parcel`.
+- The three data layers always use `customer`, `market` and `property`.
 - Never fill, recolour, put an icon in a disc, or mix in another set.
 
 ## Logo

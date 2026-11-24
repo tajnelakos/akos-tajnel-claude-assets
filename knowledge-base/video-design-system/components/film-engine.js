@@ -16,7 +16,7 @@
  *   fade    opacity only (content-in)
  *   row     a panel row fades in and settles 8px (row-stagger applies via data-stagger on the parent)
  *   draw    an SVG stroke with pathLength="1" draws in (draw)
- *   fill    the gold lot fills from its bottom edge (lot-fill)
+ *   fill    the gold point fills from its bottom edge (lot-fill)
  *   grow    a bar grows from the left to its width (bar-grow)
  *   trace   a panel's hairline frame traces clockwise, then its content fades in (frame-trace + content-in)
  *   count   a number counts up to data-to (count); data-dec, data-pre, data-suf, data-locale

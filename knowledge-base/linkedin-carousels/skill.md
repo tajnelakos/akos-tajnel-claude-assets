@@ -44,7 +44,7 @@ Reader: [persona] · Slides: [n] · Language: [EN-GB / DE / …]
 
 | # | Archetype | Ground | Eyebrow | Title | Supporting line / proof | Gold |
 |---|---|---|---|---|---|---|
-| 1 | … | navy | — | … | … | motif lot |
+| 1 | … | navy | — | … | … | motif gold point |
 
 Caption ([n] words):
 [hook]

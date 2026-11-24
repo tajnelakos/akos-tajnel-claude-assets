@@ -38,8 +38,8 @@ The full scale (18 styles) is in [`../linkedin-carousels/tokens.json`](../linked
 - **Logo:** lockup top-left on the cover; the mark (56px) bottom-right on every middle slide; lockup centred at the bottom on the close. One per slide. Use the outlined, transparent carousel versions in [`../linkedin-carousels/assets/Logo/`](../linkedin-carousels/assets/Logo).
 - **Swipe cue:** a 160 × 48px arrow (4px line, open head), 32px left of the mark on middle slides and at the margin on the cover. Never on the last slide.
 - **Eyebrow:** the series or topic ("Evidence trail", "For insurers") top-left on middle slides.
-- **Slide counter** in mono, bottom-left, `02 / 06` beside a strip of lots, the current one filled.
-- **Motif:** one per slide, anchored to an edge: `parcel-grid` on covers, `plot-strip` along the top of a data slide, `layer-stack` on a Moment explainer cover. A motif's gold lot is the slide's one gold element.
+- **Slide counter** in mono, bottom-left, `02 / 06` beside a strip of squares, the current one filled.
+- **Motif:** one per slide, anchored to an edge: `ridge-lines` on covers, `ridge-strip` along the top of a data slide, `layer-stack` on a Moment explainer cover. A motif's gold point is the slide's one gold element.
 
 ## Formats
 

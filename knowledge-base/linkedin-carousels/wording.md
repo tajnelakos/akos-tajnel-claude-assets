@@ -49,8 +49,8 @@ When a line doesn't fit, cut words before you change the style. Step down a styl
 
 - **Seekridge**: one word, capital P only, never with an article ("Seekridge backtests every moment model").
 - **Feature names** are literal and capitalised as names: Evidence Trail, Coverage Map. No article in English; German and Dutch use one ("der Evidence Trail", "de Coverage Map").
-- **Tiers** (Plot, Block, Estate) appear only on pricing posts.
-- **The three data layers** are always named in this order and these words: property data, market data, customer data. The icons follow the same order: parcel, market, customer.
+- **Tiers** (Base, Ridge, Summit) appear only on pricing posts.
+- **The three data layers** are always named in this order and these words: property data, market data, customer data. The icons follow the same order: property, market, customer.
 - **Terms**: moment (not lead, insight or alert) · evidence trail (not explainability report) · audit log (not activity feed) · customer base (not database) · valuation, as one data point inside a moment (not appraisal or estimate) · bank, lender, insurer or brokerage (not client) · automated valuation model (AVM), spelled out on first use or left for the caption.
 
 ## Case
