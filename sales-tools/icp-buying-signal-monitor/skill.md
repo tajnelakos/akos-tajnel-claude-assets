@@ -13,8 +13,8 @@ Turn raw, per-account signals into a ranked watch list, using the tiering and si
 
 1. **Reference the ICP tiering criteria** (firmographics, technographics, geography — see `icp.md`) to first sanity-check the account is even in-segment. Don't score a signal for an account that doesn't fit the ICP at all — flag it as out-of-segment instead.
 2. **Classify each signal by strength**, not just presence:
-   - **Strong**: new risk/credit leadership hire, an announced audit finding, a job posting naming a specific legacy competitor tool
-   - **Medium**: LOS/core system migration announced, executive turnover at a company using a competitor
+   - **Strong**: new risk/credit or home-insurance leadership hire, an announced audit finding on how customer data or models were used, a job posting naming a specific legacy competitor tool
+   - **Medium**: CRM/core system migration announced, executive turnover at a company using a competitor
    - **Weak**: generic hiring growth, unspecific "digital transformation" language
 3. **One strong signal outranks several weak ones.** Don't average signal strength into a single score that hides this — a Weak+Weak+Weak account should not outrank a Strong-only account.
 4. **State the specific evidence for every signal**, not just the classification — "job posting for Credit Risk Analyst mentions migrating off Estemate" is usable; "hiring activity" is not.

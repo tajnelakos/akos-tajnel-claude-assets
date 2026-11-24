@@ -4,7 +4,9 @@ This is a portfolio project, built to show what applied, structured AI usage loo
 
 ## Why a fictional company
 
-The skills, prompts, and knowledge-base structure here are representative of real work; the company they're built around is not. Publishing my actual employer's competitive intelligence, deal data, or brand guidelines wouldn't be appropriate — so everything runs against **Seekridge**, an invented B2B SaaS company (see [`knowledge-base.md`](./knowledge-base/knowledge-base.md)), with invented competitors, personas, deals, and transcripts. No real company, competitor, customer, or employer data appears anywhere in this repo.
+The skills, prompts, and knowledge-base structure here are representative of real work; the company they're built around is not. Publishing my actual employer's competitive intelligence, deal data, or brand guidelines wouldn't be appropriate — so everything runs against **Seekridge**, an invented B2B SaaS company (see [`knowledge-base.md`](./knowledge-base/knowledge-base.md)), with invented competitors, personas, deals, and transcripts.
+
+Seekridge is deliberately modelled on the kind of business I've actually done product marketing for: an AI data platform that combines property data, market data, and a client's own CRM data to flag new business opportunities in their existing customer base, sold to banks, insurers, and real estate firms. Keeping the fictional company close to my real experience means every skill and example here reflects problems I've worked on, not a borrowed industry. No real company, competitor, customer, or employer data appears anywhere in this repo.
 
 ## What's real and what isn't
 

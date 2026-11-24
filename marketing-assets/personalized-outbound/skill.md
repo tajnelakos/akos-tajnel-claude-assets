@@ -11,7 +11,7 @@ Turn an account-specific brief into one outbound message that could only have be
 
 ## Instructions
 
-1. **Require the trigger/signal to be referenced specifically**, not generically. "I saw you're growing" is not this; "I saw you recently brought on a new Head of Credit Risk and are migrating valuation tooling" is.
+1. **Require the trigger/signal to be referenced specifically**, not generically. "I saw you're growing" is not this; "I saw you recently brought on a new Head of Credit Risk and are replacing your customer-targeting tooling" is.
 2. **Lead with the account's situation, not our product.** The first line should establish that this message is about them specifically — the product enters after that, as the response to their situation, not the subject of the message.
 3. **Use the positioning angle already selected in the brief** — don't default to a generic pitch if the brief specifies a particular angle (e.g. defensibility over speed).
 4. **One clear, low-friction ask.** Not "let's set up a call to discuss our platform" — something specific and small enough to say yes to (e.g. "worth a 15-minute conversation about how you're thinking about explainability requirements for the new tooling?").

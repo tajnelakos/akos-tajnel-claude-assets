@@ -11,13 +11,13 @@
 
 **Anna:** That's great to hear, and honestly the best kind of lead — did she mention specifically what changed for her team, or just the outcome?
 
-**Owen:** Mostly that her agents stopped losing pricing arguments with sellers who'd done their own online research and showed up skeptical. Having a detailed comparable breakdown apparently changed those conversations.
+**Owen:** Two things. Her agents started calling past clients the platform flagged as likely to sell, before anyone else did. And they stopped losing pricing arguments with sellers who'd done their own online research and showed up skeptical. Having a detailed breakdown of the price apparently changed those conversations.
 
 **Anna:** That tracks with what we hear a lot — sellers increasingly come in with an inflated number from an online estimator, and an agent needs something more credible than "trust me" to walk that back gracefully.
 
 **Owen:** Exactly our situation. We're a smaller team, 15 agents, mostly experienced people, not a lot of hand-holding needed. I don't want a long sales process — if this does what my friend described, I'd rather move quickly.
 
-**Anna:** I appreciate the directness, and I'll match it — let me walk through the core workflow quickly, then we can talk next steps rather than dragging this out unnecessarily. *(brief walkthrough of comparable pull and seller-facing output)*
+**Anna:** I appreciate the directness, and I'll match it — let me walk through the core workflow quickly, then we can talk next steps rather than dragging this out unnecessarily. *(brief walkthrough of the seller-signal list, a valuation breakdown, and the seller-facing output)*
 
 **Owen:** That's clean, and exactly the kind of output I can picture an agent actually using in the room, not just generating and forgetting. What does onboarding look like for a team like mine?
 
@@ -45,5 +45,5 @@
 
 - Strong signal, fast-moving deal — warm referral from an existing happy customer, prospect explicitly wants a short sales cycle and is prepared to skip a pilot in favor of full rollout based on secondhand validation.
 - No competitor mentioned, no material objections — genuinely the smoothest call in this batch. Useful as a contrast case for what an "easy" deal looks like versus the more contested ones elsewhere in this set.
-- Referral source (existing customer at a different brokerage) cited a specific, credible outcome — improved listing-appointment win rate tied to comparable-detail credibility with skeptical sellers. Worth capturing as a potential case-study lead separately from this deal.
+- Referral source (existing customer at a different brokerage) cited a specific, credible outcome — improved listing-appointment win rate tied to earlier seller signals and price-detail credibility with skeptical sellers. Worth capturing as a potential case-study lead separately from this deal.
 - Action: send pricing confirmation and a simple implementation plan same day — prospect explicitly wants pace matched, any delay here risks losing the momentum that got them to skip their own diligence process.

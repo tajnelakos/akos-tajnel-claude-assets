@@ -26,9 +26,9 @@ Subject: Your team's new risk hire
 
 Hi [Name],
 
-Congratulations on stepping into the role. I don't know yet whether a valuation-tooling review is anywhere on your list this early in — it often isn't for the first month or two — so I'd rather ask than assume it is.
+Congratulations on stepping into the role. I don't know yet whether a review of how customers are picked for offers is anywhere on your list this early in — it often isn't for the first month or two — so I'd rather ask than assume it is.
 
-If it does end up there this year, the question worth raising early is whether your current setup could hold up if an examiner asked exactly how a number was reached, not just what the number is. It's usually a gap teams inherit rather than one they chose.
+If it does end up there this year, the question worth raising early is whether your current setup could hold up if an auditor asked exactly why a customer was contacted, not just which customers were. It's usually a gap teams inherit rather than one they chose.
 
 If it'd help, happy to share what that conversation has looked like for other risk leads stepping into a similar seat recently — genuinely no pressure if it's too early for this.
 
