@@ -101,7 +101,7 @@
 .pw-slide__mark{position:absolute;right:96px;bottom:96px;width:56px;height:56px}
 .pw-slide__lockup{position:absolute;left:96px;top:96px;width:300px}
 .pw-slide__motif{position:absolute;right:-40px;top:-40px;width:560px;height:560px}
-.pw-slide__arrow{position:absolute;right:96px;bottom:96px;width:64px;height:64px;stroke:currentColor;fill:none;stroke-width:4;stroke-linecap:square}
+.pw-slide__arrow{position:absolute;right:184px;bottom:100px;width:160px;height:48px;stroke:currentColor;fill:none;stroke-width:4;stroke-linecap:square}
 .pw-slide__frame{background:#fff;border:2px solid #E1E0D9;border-radius:6px}
 
 /* Video frame (1920 x 1080 canvas) */

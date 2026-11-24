@@ -25,7 +25,7 @@ The same system is published as a Claude design system, so Claude builds Seekrid
 | [`components.md`](./components.md) | Guidelines for each component: Button, FormField, Card, StatusBadge, Alert, DataTable, StatTile, SignalCard, PricingTier, CarouselSlide, VideoFrame. |
 | [`components.html`](./components.html) | A live page rendering every component and colour token, with a light/dark switch. |
 | [`writing.md`](./writing.md) | Full wording rules: golden rules, names and terms, case, numbers and currency, market typography (DACH, Benelux, Nordics), inclusive language, product copy. |
-| [`social-and-carousels.md`](./social-and-carousels.md) | LinkedIn: canvas, grounds, type sizes, logo and swipe furniture, six carousel formats, story shape, caption anatomy, pre-post check. |
+| [`social-and-carousels.md`](./social-and-carousels.md) | LinkedIn in one page; the full carousel system (formats, slide CSS, assets, wording, captions, skill) is [`../linkedin-carousels/`](../linkedin-carousels). Canvas, grounds, type sizes, logo and swipe furniture, seven carousel formats, story shape, caption anatomy, pre-post check. |
 | [`video-and-motion.md`](./video-and-motion.md) | Video formats and story structure, key frames, captions, motion tokens and easing, sound, production rules. |
 | `icon-*.svg` | 15 line icons (signal, evidence-trail, customer, parcel, valuation, market, coverage-map, lender, policy, crm-sync, data-residency, check, alert, arrow-right, search): 24px grid, 1.75px stroke, no fills, navy. |
 | `motif-*.svg` | 3 parcel-map motifs: `parcel-grid` (covers, title cards), `plot-strip` (headers), `lot-outline` (dividers). |

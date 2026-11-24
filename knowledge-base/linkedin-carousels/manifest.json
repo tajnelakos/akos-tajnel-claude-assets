@@ -1,0 +1,315 @@
+{
+  "manifestVersion": 3,
+  "name": "Seekridge LinkedIn carousels",
+  "namespace": "PWCarousels",
+  "files": [
+    "assets/Arrows/README.md",
+    "assets/Icons/README.md",
+    "assets/Logo/README.md",
+    "assets/Motifs/README.md",
+    "assets/References/README.md",
+    "captions.md",
+    "components/EventInvite/README.md",
+    "components/FeatureLaunch/README.md",
+    "components/FieldGuide/README.md",
+    "components/MythVsMethod/README.md",
+    "components/ProofInNumbers/README.md",
+    "components/RegulationBrief/README.md",
+    "components/SignalExplainer/README.md",
+    "components/SlideKit/README.md",
+    "components/bundle.css",
+    "fonts/Archivo-Bold.woff2",
+    "fonts/Archivo-ExtraBold.woff2",
+    "fonts/Archivo-SemiBold.woff2",
+    "fonts/IBMPlexMono-Medium.woff2",
+    "fonts/IBMPlexMono-Regular.woff2",
+    "fonts/IBMPlexSans-Medium.woff2",
+    "fonts/IBMPlexSans-Regular.woff2",
+    "fonts/IBMPlexSans-SemiBold.woff2",
+    "tokens.css",
+    "wording.md"
+  ],
+  "libraries": [],
+  "components": [
+    {
+      "name": "EventInvite",
+      "group": "Carousels",
+      "summary": "An invitation to meet the team or hear a talk: a centred question, the talk, the speaker, then date, place and one button."
+    },
+    {
+      "name": "FeatureLaunch",
+      "group": "Carousels",
+      "summary": "Launches a capability: a \"New in …\" cover, the problem it solves, one or two screenshots on paper, and a close."
+    },
+    {
+      "name": "FieldGuide",
+      "group": "Carousels",
+      "summary": "A numbered list: a count-led cover, one slide per check, step or question, a checklist summary on paper, and a close."
+    },
+    {
+      "name": "MythVsMethod",
+      "group": "Carousels",
+      "summary": "Corrects a belief the market repeats: the belief in an outlined card, why it fails under scrutiny, and what a defensible method looks like."
+    },
+    {
+      "name": "ProofInNumbers",
+      "group": "Carousels",
+      "summary": "One result told honestly: the figure, what it measures, a chart against its baseline, the method and its limits."
+    },
+    {
+      "name": "RegulationBrief",
+      "group": "Carousels",
+      "summary": "What a rule means for lenders and insurers: what it asks, what to prepare, and where Seekridge fits."
+    },
+    {
+      "name": "SignalExplainer",
+      "group": "Carousels",
+      "summary": "Shows how one signal is built: three data layers, the evidence trail with its weights, and what the advisor does with it."
+    },
+    {
+      "name": "SlideKit",
+      "group": "Carousels",
+      "summary": "The reusable slide archetypes behind every format, grouped by job, for building a new carousel by mixing them."
+    }
+  ],
+  "assetGroups": [
+    {
+      "name": "Logo",
+      "order": [
+        "pw-lockup-paper.svg",
+        "pw-mark-paper.svg",
+        "pw-lockup-navy.svg",
+        "pw-mark-navy.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/Logo/pw-lockup-paper.svg"
+        },
+        {
+          "path": "assets/Logo/pw-mark-paper.svg"
+        },
+        {
+          "path": "assets/Logo/pw-lockup-navy.svg"
+        },
+        {
+          "path": "assets/Logo/pw-mark-navy.svg"
+        }
+      ]
+    },
+    {
+      "name": "Motifs",
+      "order": [
+        "parcel-grid-navy-ground.svg",
+        "plot-strip-navy-ground.svg",
+        "layer-stack-navy-ground.svg",
+        "scale-bar-paper.svg",
+        "parcel-grid-paper-ground.svg",
+        "plot-strip-paper-ground.svg",
+        "layer-stack-paper-ground.svg",
+        "scale-bar-navy.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/Motifs/parcel-grid-navy-ground.svg"
+        },
+        {
+          "path": "assets/Motifs/plot-strip-navy-ground.svg"
+        },
+        {
+          "path": "assets/Motifs/layer-stack-navy-ground.svg"
+        },
+        {
+          "path": "assets/Motifs/scale-bar-paper.svg"
+        },
+        {
+          "path": "assets/Motifs/parcel-grid-paper-ground.svg"
+        },
+        {
+          "path": "assets/Motifs/plot-strip-paper-ground.svg"
+        },
+        {
+          "path": "assets/Motifs/layer-stack-paper-ground.svg"
+        },
+        {
+          "path": "assets/Motifs/scale-bar-navy.svg"
+        }
+      ]
+    },
+    {
+      "name": "Arrows",
+      "tile": "s",
+      "order": [
+        "arrow-swipe-paper.svg",
+        "arrow-swipe-navy.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/Arrows/arrow-swipe-paper.svg"
+        },
+        {
+          "path": "assets/Arrows/arrow-swipe-navy.svg"
+        }
+      ]
+    },
+    {
+      "name": "Icons",
+      "tile": "xs",
+      "order": [
+        "alert-paper.svg",
+        "calendar-paper.svg",
+        "check-paper.svg",
+        "clock-paper.svg",
+        "crm-sync-paper.svg",
+        "customer-paper.svg",
+        "evidence-trail-paper.svg",
+        "market-paper.svg",
+        "parcel-paper.svg",
+        "pin-paper.svg",
+        "policy-paper.svg",
+        "search-paper.svg",
+        "signal-paper.svg",
+        "valuation-paper.svg",
+        "alert-navy.svg",
+        "calendar-navy.svg",
+        "check-navy.svg",
+        "clock-navy.svg",
+        "crm-sync-navy.svg",
+        "customer-navy.svg",
+        "evidence-trail-navy.svg",
+        "market-navy.svg",
+        "parcel-navy.svg",
+        "pin-navy.svg",
+        "policy-navy.svg",
+        "search-navy.svg",
+        "signal-navy.svg",
+        "valuation-navy.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/Icons/alert-paper.svg"
+        },
+        {
+          "path": "assets/Icons/calendar-paper.svg"
+        },
+        {
+          "path": "assets/Icons/check-paper.svg"
+        },
+        {
+          "path": "assets/Icons/clock-paper.svg"
+        },
+        {
+          "path": "assets/Icons/crm-sync-paper.svg"
+        },
+        {
+          "path": "assets/Icons/customer-paper.svg"
+        },
+        {
+          "path": "assets/Icons/evidence-trail-paper.svg"
+        },
+        {
+          "path": "assets/Icons/market-paper.svg"
+        },
+        {
+          "path": "assets/Icons/parcel-paper.svg"
+        },
+        {
+          "path": "assets/Icons/pin-paper.svg"
+        },
+        {
+          "path": "assets/Icons/policy-paper.svg"
+        },
+        {
+          "path": "assets/Icons/search-paper.svg"
+        },
+        {
+          "path": "assets/Icons/signal-paper.svg"
+        },
+        {
+          "path": "assets/Icons/valuation-paper.svg"
+        },
+        {
+          "path": "assets/Icons/alert-navy.svg"
+        },
+        {
+          "path": "assets/Icons/calendar-navy.svg"
+        },
+        {
+          "path": "assets/Icons/check-navy.svg"
+        },
+        {
+          "path": "assets/Icons/clock-navy.svg"
+        },
+        {
+          "path": "assets/Icons/crm-sync-navy.svg"
+        },
+        {
+          "path": "assets/Icons/customer-navy.svg"
+        },
+        {
+          "path": "assets/Icons/evidence-trail-navy.svg"
+        },
+        {
+          "path": "assets/Icons/market-navy.svg"
+        },
+        {
+          "path": "assets/Icons/parcel-navy.svg"
+        },
+        {
+          "path": "assets/Icons/pin-navy.svg"
+        },
+        {
+          "path": "assets/Icons/policy-navy.svg"
+        },
+        {
+          "path": "assets/Icons/search-navy.svg"
+        },
+        {
+          "path": "assets/Icons/signal-navy.svg"
+        },
+        {
+          "path": "assets/Icons/valuation-navy.svg"
+        }
+      ]
+    },
+    {
+      "name": "References",
+      "tile": "l",
+      "order": [
+        "signal-explainer.jpg",
+        "myth-vs-method.jpg",
+        "proof-in-numbers.jpg",
+        "feature-launch.jpg",
+        "regulation-brief.jpg",
+        "event-invite.jpg",
+        "field-guide.jpg",
+        "slide-kit.jpg"
+      ],
+      "files": [
+        {
+          "path": "assets/References/signal-explainer.jpg"
+        },
+        {
+          "path": "assets/References/myth-vs-method.jpg"
+        },
+        {
+          "path": "assets/References/proof-in-numbers.jpg"
+        },
+        {
+          "path": "assets/References/feature-launch.jpg"
+        },
+        {
+          "path": "assets/References/regulation-brief.jpg"
+        },
+        {
+          "path": "assets/References/event-invite.jpg"
+        },
+        {
+          "path": "assets/References/field-guide.jpg"
+        },
+        {
+          "path": "assets/References/slide-kit.jpg"
+        }
+      ]
+    }
+  ]
+}
