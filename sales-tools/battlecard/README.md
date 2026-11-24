@@ -25,4 +25,4 @@ Card depth matches actual threat level — the High-threat Bricklane Data card i
 
 ## Current limitations
 
-Right now this runs as a manual pass per competitor. Automatically cross-referencing new input against the existing card and flagging contradictions (e.g. new win/loss data suggesting a differentiator no longer holds) is next — see [`staleness-detection`](../../knowledge-base/staleness-detection), which already flags exactly this kind of drift in `competitive-landscape.md`.
+Right now this runs as a manual pass per competitor. Automatically cross-referencing new input against the existing card and flagging contradictions (e.g. new win/loss data suggesting a differentiator no longer holds) is next — see [`outdated-checker`](../../knowledge-base/outdated-checker), which already flags exactly this kind of drift in `competitive-landscape.md`.

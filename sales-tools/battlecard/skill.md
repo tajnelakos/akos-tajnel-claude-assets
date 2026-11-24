@@ -30,7 +30,7 @@ Turn the deep, analyst-maintained competitor data in `competitive-landscape.md` 
 
 - Don't invent a proof point, a stat, or a quote that isn't backed by `competitive-landscape.md` or the raw research provided.
 - Don't write a discovery question that's really just an assertion in question form ("Isn't it true that X is slow?") — a real discovery question invites the prospect to say something, it doesn't lead the witness.
-- Don't let the do-not-say list quietly disappear when a claim becomes true (e.g. a competitor ships a feature that used to be fair game to question) — check `competitive-landscape.md`'s "Last verified" date and `staleness-detection` before reusing an old card unchanged.
+- Don't let the do-not-say list quietly disappear when a claim becomes true (e.g. a competitor ships a feature that used to be fair game to question) — check `competitive-landscape.md`'s "Last verified" date and `outdated-checker` before reusing an old card unchanged.
 
 ## Output format — rep-facing battlecard
 

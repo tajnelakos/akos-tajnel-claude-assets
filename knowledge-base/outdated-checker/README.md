@@ -1,4 +1,4 @@
-# Staleness Detection
+# Outdated Checker
 
 ## The problem
 
@@ -16,7 +16,7 @@ Two modes: a **repo-wide sweep** that checks every knowledge-base doc and releva
 
 ## How it actually runs
 
-A skill file has no scheduler of its own — nothing in markdown can trigger anything by itself. This one is invoked by an actual scheduled cloud routine, live as of September 2026: **"Seekridge – Monthly Staleness Sweep,"** firing on the 1st of every month. It clones this repo fresh, reads `skill.md`'s repo-wide sweep mode, checks the knowledge base against whatever's newest, and — only if it actually finds something to fix — commits its changes to a new branch and opens a pull request for review. It never pushes straight to `main`; a monthly automated content change to a public portfolio gets a human look first.
+A skill file has no scheduler of its own — nothing in markdown can trigger anything by itself. This one is invoked by an actual scheduled cloud routine, live as of September 2026: **"Seekridge – Monthly Outdated Check,"** firing on the 1st of every month. It clones this repo fresh, reads `skill.md`'s repo-wide sweep mode, checks the knowledge base against whatever's newest, and — only if it actually finds something to fix — commits its changes to a new branch and opens a pull request for review. It never pushes straight to `main`; a monthly automated content change to a public portfolio gets a human look first.
 
 If a given month's evidence hasn't changed since the last sweep (nothing new in `competitor-monitoring`, `win-loss-analysis`, or `sales-call-analysis`), the routine says so plainly and opens no PR at all, rather than manufacturing a finding to look useful — confirmed in its first test run, which correctly found nothing new (the manual [`sweep-2026-09.md`](./sweep-2026-09.md) pass had happened minutes earlier) and exited cleanly with no duplicate report and no PR.
 

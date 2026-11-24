@@ -2,7 +2,7 @@
 
 Full battlecard reference. The summary table in [`knowledge-base.md`](./knowledge-base.md) is the quick version; this is what [`competitor-monitoring`](../sales-tools/competitor-monitoring), [`battlecard`](../sales-tools/battlecard), and [`win-loss-analysis`](./win-loss-analysis) draw on for deeper context.
 
-**Last full refresh:** September 2026, following a [`staleness-detection`](./staleness-detection) sweep against the July–August bi-monthly competitor report and the trailing-12-month win-loss deep dive — see [`sweep-2026-09.md`](./staleness-detection/sweep-2026-09.md) for exactly what changed and why. Per-competitor "Last verified" dates below track individual sections.
+**Last full refresh:** September 2026, following a [`outdated-checker`](./outdated-checker) sweep against the July–August bi-monthly competitor report and the trailing-12-month win-loss deep dive — see [`sweep-2026-09.md`](./outdated-checker/sweep-2026-09.md) for exactly what changed and why. Per-competitor "Last verified" dates below track individual sections.
 
 ## Executive summary
 
@@ -99,7 +99,7 @@ The on-prem gap is real, not a competitor's weakness — flag it early with a pr
 
 ## Estemate
 
-**Quick facts:** Threat level 🟠 **Medium-High (revised up from Medium)** · Bank/lender and insurer segments, Benelux-heavy · Last verified: September 2026, via [`staleness-detection`](./staleness-detection) sweep (see [`sweep-2026-09.md`](./staleness-detection/sweep-2026-09.md))
+**Quick facts:** Threat level 🟠 **Medium-High (revised up from Medium)** · Bank/lender and insurer segments, Benelux-heavy · Last verified: September 2026, via [`outdated-checker`](./outdated-checker) sweep (see [`sweep-2026-09.md`](./outdated-checker/sweep-2026-09.md))
 
 **Why the threat level moved:** Win-loss data shows a 27.3% win rate *for us* when Estemate is the named competitor (n=11) — meaning Estemate wins nearly three-quarters of the deals it contests, the worst of any named competitor in this book, despite being the one with the least exciting product story. See the [win-loss deep dive](./win-loss-analysis/win-loss-detailed-analysis.html). The lesson isn't that Estemate got stronger this period — it's that this document was previously rating threat by how compelling a competitor's pitch sounds, not by how often they actually win.
 
@@ -123,7 +123,7 @@ The on-prem gap is real, not a competitor's weakness — flag it early with a pr
 
 ## ValuAI
 
-**Quick facts:** Threat level 🟠 Medium-High · Bank/lender and insurer segments · Last verified: **September 2026**, via [`staleness-detection`](./staleness-detection) sweep (see [`sweep-2026-09.md`](./staleness-detection/sweep-2026-09.md)) — next recheck due October 2026, since this is still the fastest-moving section in this document.
+**Quick facts:** Threat level 🟠 Medium-High · Bank/lender and insurer segments · Last verified: **September 2026**, via [`outdated-checker`](./outdated-checker) sweep (see [`sweep-2026-09.md`](./outdated-checker/sweep-2026-09.md)) — next recheck due October 2026, since this is still the fastest-moving section in this document.
 
 **Positioning:** "AI-native" propensity-scoring challenger, well-funded, leads with technology-forward messaging — as of this period, also reaching for "regulatory-ready" language (see [`competitor-monitoring`](../sales-tools/competitor-monitoring)'s bi-monthly report).
 

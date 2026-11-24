@@ -16,7 +16,7 @@ Everything here is built around **[Seekridge](./knowledge-base/knowledge-base.md
 
 ## Three kinds of folder
 
-- **[`knowledge-base/`](./knowledge-base)** — accumulated understanding: the core reference docs (company, ICP, personas, positioning, voice, competitive landscape), plus the analysis work that builds and maintains that understanding (call analysis, win/loss analysis, staleness detection).
+- **[`knowledge-base/`](./knowledge-base)** — accumulated understanding: the core reference docs (company, ICP, personas, positioning, voice, competitive landscape), plus the analysis work that builds and maintains that understanding (call analysis, win/loss analysis, outdated checker).
 - **[`sales-tools/`](./sales-tools)** — what a rep or sales-facing process actually uses: competitor monitoring, battlecards, account briefs, buying-moment monitoring, deck building.
 - **[`marketing-assets/`](./marketing-assets)** — content marketing produces and ships: outbound messages, nurture sequences, case studies, one-pagers, blog posts, social posts, and the pre-publish compliance check.
 
@@ -36,7 +36,7 @@ Everything here is built around **[Seekridge](./knowledge-base/knowledge-base.md
 | [`competitive-landscape.md`](./knowledge-base/competitive-landscape.md) | Full battlecards and positioning gaps |
 | [`sales-call-analysis/`](./knowledge-base/sales-call-analysis) | 15 call transcripts plus a [designed rollup](https://tajnelakos.github.io/akos-tajnel-claude-assets/knowledge-base/sales-call-analysis/call-analysis-summary.html) of objections, competitors, and new findings across them |
 | [`win-loss-analysis/`](./knowledge-base/win-loss-analysis) | Patterns from closed-won/closed-lost deals — a quarterly infographic, plus a [100-record CRM deep dive](https://tajnelakos.github.io/akos-tajnel-claude-assets/knowledge-base/win-loss-analysis/win-loss-detailed-analysis.html) |
-| [`staleness-detection/`](./knowledge-base/staleness-detection) | Flags specific knowledge-base claims that newer evidence contradicts |
+| [`outdated-checker/`](./knowledge-base/outdated-checker) | Flags specific knowledge-base claims that newer evidence contradicts |
 
 ### `sales-tools/`
 

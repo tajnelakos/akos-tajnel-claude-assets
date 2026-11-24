@@ -13,7 +13,7 @@ Checking [`competitive-landscape.md`](../competitive-landscape.md) against a fic
 ## Output
 
 ```
-## Staleness Check — competitive-landscape.md (ValuAI section) — against April 2026 ValuAI release notes
+## Outdated Check — competitive-landscape.md (ValuAI section) — against April 2026 ValuAI release notes
 
 ### Hard flags (contradicted by newer evidence)
 - Claim: "explainability claims reportedly don't hold up under technical follow-up" / battlecard's objection-handling line assuming the explanation feature is not GA — Contradicted by: April 2026 ValuAI release notes stating the feature is now GA with a named customer reference. Recommended action: route to `battlecard` to refresh the ValuAI Weaknesses and Objection Handling sections — the "ask if it's GA" talk track no longer works as-is if it now is. Note: this doesn't necessarily mean the feature is good, only that the "still beta" framing is now outdated — the refreshed card should investigate the GA feature directly rather than just removing the old claim.
@@ -22,4 +22,4 @@ Checking [`competitive-landscape.md`](../competitive-landscape.md) against a fic
 - Claim: "PropIQ... not a primary battlecard priority outside the brokerage segment" — Last supporting evidence: original battlecard assumption, no recent moment has confirmed or contradicted this either way — worth a periodic recheck rather than treating it as settled, since competitive landscape assumptions like this tend to go stale silently.
 ```
 
-Note the recommended action routes to the correction skill rather than attempting the fix here — staleness detection's job stops at flagging.
+Note the recommended action routes to the correction skill rather than attempting the fix here — outdated checker's job stops at flagging.

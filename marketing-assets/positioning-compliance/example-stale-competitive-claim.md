@@ -1,6 +1,6 @@
 # Sample output — a claim that was true when written, false now
 
-Demonstrates the check category [`skill.md`](./skill.md) added against [`competitive-landscape.md`](../../knowledge-base/competitive-landscape.md): a named-competitor claim that isn't unverifiable or badly worded — it's just factually out of date, because the competitor shipped something after the claim was written. This is the same underlying drift [`staleness-detection`](../../knowledge-base/staleness-detection) exists to catch in the knowledge base itself; this example shows it surfacing in an actual piece of outbound content before publish, not months later in a sweep.
+Demonstrates the check category [`skill.md`](./skill.md) added against [`competitive-landscape.md`](../../knowledge-base/competitive-landscape.md): a named-competitor claim that isn't unverifiable or badly worded — it's just factually out of date, because the competitor shipped something after the claim was written. This is the same underlying drift [`outdated-checker`](../../knowledge-base/outdated-checker) exists to catch in the knowledge base itself; this example shows it surfacing in an actual piece of outbound content before publish, not months later in a sweep.
 
 ---
 

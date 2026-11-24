@@ -23,7 +23,7 @@ A skill that checks a draft against [`branding-guideline`](../../knowledge-base/
 ### Tracked data
 
 - [`compliance-check-log.csv`](./compliance-check-log.csv) — 20 logged checks, Jul–Sep 2026, across 8 content types
-- [`compliance-trends-analysis.html`](./compliance-trends-analysis.html) — the computed analysis ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/positioning-compliance/compliance-trends-analysis.html)). Headline finding: pass rate collapsed to 12.5% the month after ValuAI's moment-explanation feature went GA (writers were still using the "we're the only one" claim), then recovered to 71.4% right after the [`staleness-detection`](../../knowledge-base/staleness-detection) sweep corrected the source docs — direct evidence that this check and that sweep are catching the same underlying drift from two different angles.
+- [`compliance-trends-analysis.html`](./compliance-trends-analysis.html) — the computed analysis ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/positioning-compliance/compliance-trends-analysis.html)). Headline finding: pass rate collapsed to 12.5% the month after ValuAI's moment-explanation feature went GA (writers were still using the "we're the only one" claim), then recovered to 71.4% right after the [`outdated-checker`](../../knowledge-base/outdated-checker) sweep corrected the source docs — direct evidence that this check and that sweep are catching the same underlying drift from two different angles.
 
 ## Current limitations
 
