@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>Parcelwise one-pager · risk and compliance</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="stylesheet" href="../components/bundle.css">
+<style>
+  @page { size: 210mm 297mm; margin: 0; }
+  html, body { margin: 0; background: #ECEBE6; }
+  @media print { html, body { background: none; } }
+</style>
+</head>
+<body>
+<div class="pwf-sheet pwf-a4p pwf-paper" id="page" style="padding:19mm var(--space-5) var(--space-5);display:flex;flex-direction:column">
+  <span class="pwf-motif pwf-motif--strip"></span>
+  <span class="pwf-logo pwf-logo--lockup"></span>
+
+  <p class="eyebrow pwf-eyebrow" style="margin-top:var(--space-4)">For risk and compliance teams</p>
+  <p class="page-title pwf-balance" style="color:var(--navy);margin-top:var(--space-3);max-width:160mm">Signals your risk team can sign off</p>
+  <p class="page-lead" style="margin-top:var(--space-3);max-width:160mm">Parcelwise combines your own customer data with external market data, and every signal shows the data points behind it and how much each counted.</p>
+
+  <div class="pwf-panel" style="margin-top:var(--space-4)">
+    <div class="pwf-figures pwf-figures--row">
+      <div class="pwf-figure"><p class="tri-figure">100%</p><p class="tri-body pwf-figure__label">of signals carry their evidence trail</p><p class="source pwf-figure__source">By design: no signal ships without one</p></div>
+      <div class="pwf-figure"><p class="tri-figure">3</p><p class="tri-body pwf-figure__label">data layers, each one named on every signal</p><p class="source pwf-figure__source">Customer · market · property</p></div>
+      <div class="pwf-figure"><p class="tri-figure">68%</p><p class="tri-body pwf-figure__label">of flagged customers refinanced within 6 months</p><p class="source pwf-figure__source">Backtest on a lender's 2025 book · illustrative</p></div>
+    </div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--space-4);margin-top:var(--space-4)">
+    <div>
+      <p class="tri-heading" style="color:var(--navy)">What your team can check</p>
+      <div class="pwf-panel pwf-evidence pwf-evidence--plain" style="margin-top:var(--space-3)">
+        <p class="data pwf-evidence__meta">Signals / Customer 40-1187</p>
+        <p class="tri-panel-title pwf-evidence__title">Likely to refinance within 6 months</p>
+        <div class="pwf-evidence__rows">
+          <div class="pwf-ev"><span class="pwf-icon pwf-icon--s pwf-i-customer"></span><span class="label">Fixed rate ends March 2027</span><span class="data pwf-ev__w">0.41</span><span class="pwf-ev__bar"><i style="--w:82%"></i></span></div>
+          <div class="pwf-ev"><span class="pwf-icon pwf-icon--s pwf-i-parcel"></span><span class="label">Equity up 22% since purchase</span><span class="data pwf-ev__w">0.33</span><span class="pwf-ev__bar"><i style="--w:66%"></i></span></div>
+          <div class="pwf-ev"><span class="pwf-icon pwf-icon--s pwf-i-market"></span><span class="label">Two local lenders cut 2-year fixes</span><span class="data pwf-ev__w">0.26</span><span class="pwf-ev__bar"><i style="--w:52%"></i></span></div>
+        </div>
+        <p class="source">Illustrative customer and weights</p>
+      </div>
+    </div>
+    <div>
+      <p class="tri-heading" style="color:var(--navy)">Built for regulated workflows</p>
+      <div class="pwf-stack" style="margin-top:var(--space-3)">
+        <div class="pwf-panel pwf-feature"><div class="pwf-feature__head"><span class="pwf-icon pwf-i-policy"></span><p class="tri-panel-title" style="color:var(--navy)">Consent first</p></div><p class="tri-body">Consent rules are applied before a signal is made, not filtered afterwards.</p></div>
+        <div class="pwf-panel pwf-feature"><div class="pwf-feature__head"><span class="pwf-icon pwf-i-evidence"></span><p class="tri-panel-title" style="color:var(--navy)">An audit log by default</p></div><p class="tri-body">What each signal said, who saw it and what was done, in one exportable record.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <p class="tri-heading" style="color:var(--navy);margin-top:var(--space-4)">How a pilot runs</p>
+  <div class="pwf-steps pwf-steps--row" style="margin-top:var(--space-3);gap:var(--space-4)">
+    <div class="pwf-step"><span class="pwf-step__num">01</span><div><p class="tri-panel-title">Connect</p><p class="tri-body">One secure export of your CRM and book.</p></div></div>
+    <div class="pwf-step"><span class="pwf-step__num">02</span><div><p class="tri-panel-title">Backtest</p><p class="tri-body">Signals checked against your own past outcomes.</p></div></div>
+    <div class="pwf-step"><span class="pwf-step__num">03</span><div><p class="tri-panel-title">Review</p><p class="tri-body">Your risk team reviews the method before go-live.</p></div></div>
+  </div>
+
+  <div class="pwf-grow"></div>
+  <div style="display:flex;align-items:flex-end;justify-content:space-between;border-top:var(--border-hairline) solid var(--line);padding-top:var(--space-3);margin-top:var(--space-4)">
+    <div class="pwf-contact">
+      <span class="pwf-qr" style="outline:var(--border-hairline) solid var(--line)"></span>
+      <div>
+        <p class="tri-panel-title pwf-contact__cta">Scan to book a backtest on your own book</p>
+        <p class="contact pwf-contact__line"><span class="pwf-arrow"></span>parcelwise.example/backtest</p>
+        <p class="contact pwf-contact__line"><span class="pwf-arrow"></span>hello@parcelwise.example</p>
+      </div>
+    </div>
+    <p class="source pwf-muted" style="text-align:right">Parcelwise is a fictional company.<br>All figures are illustrative.</p>
+  </div>
+</div>
+</body>
+</html>

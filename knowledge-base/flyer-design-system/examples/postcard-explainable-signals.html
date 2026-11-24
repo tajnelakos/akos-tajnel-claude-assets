@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>Parcelwise postcard · explainable signals</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="stylesheet" href="../components/bundle.css">
+<style>
+  @page { size: 210mm 148mm; margin: 0; }
+  html, body { margin: 0; background: #ECEBE6; }
+  .side + .side { margin-top: 8mm; }
+  @media print { html, body { background: none; } .side + .side { margin-top: 0; break-before: page; } }
+</style>
+</head>
+<body>
+
+<!-- FRONT: navy ground, lockup top-left, grid motif top-right, one statement -->
+<div class="side pwf-sheet pwf-a5l pwf-navy pwf-pad" data-theme="dark" id="front" style="display:flex;flex-direction:column">
+  <span class="pwf-motif pwf-motif--grid" style="width:78mm;height:78mm"></span>
+  <span class="pwf-logo pwf-logo--lockup"></span>
+  <div class="pwf-grow"></div>
+  <p class="eyebrow pwf-eyebrow" style="width:120mm">For banks, insurers and brokerages</p>
+  <p class="card-display" style="margin-top:var(--space-3);max-width:130mm">The signal you can <span class="pwf-hl">explain.</span></p>
+  <p class="card-lead pwf-muted" style="margin-top:var(--space-2);max-width:130mm">Parcelwise shows which of your existing customers to talk to next, and why.</p>
+</div>
+
+<!-- BACK: paper, three audiences in columns, contact block at the foot -->
+<div class="side pwf-sheet pwf-a5l pwf-paper pwf-pad" id="back" style="display:flex;flex-direction:column">
+  <div style="display:flex;align-items:center;justify-content:space-between">
+    <p class="eyebrow pwf-eyebrow" style="flex:1;margin-right:var(--space-4)">One signal, three teams</p>
+    <span class="pwf-logo pwf-logo--mark"></span>
+  </div>
+  <p class="card-headline pwf-balance" style="color:var(--navy);margin-top:var(--space-3);max-width:150mm">Every signal arrives with the evidence behind it.</p>
+  <div class="pwf-cols" style="margin-top:var(--space-4)">
+    <div><span class="pwf-icon pwf-i-valuation"></span><p class="card-subhead" style="color:var(--navy);margin-top:var(--space-1)">Lending</p><p class="card-body" style="margin-top:1mm">Customers likely to refinance, top up or move, before a competitor calls them.</p></div>
+    <div><span class="pwf-icon pwf-i-policy"></span><p class="card-subhead" style="color:var(--navy);margin-top:var(--space-1)">Insurance</p><p class="card-body" style="margin-top:1mm">Policies that look underinsured or likely to lapse, with the property evidence.</p></div>
+    <div><span class="pwf-icon pwf-i-check"></span><p class="card-subhead" style="color:var(--navy);margin-top:var(--space-1)">Risk</p><p class="card-body" style="margin-top:1mm">The data points and weights behind every signal, plus an audit log of what was done.</p></div>
+  </div>
+  <div class="pwf-grow"></div>
+  <div class="pwf-contact">
+    <span class="pwf-qr" style="outline:var(--border-hairline) solid var(--line)"></span>
+    <div>
+      <p class="card-subhead pwf-contact__cta">Scan to see a signal on your own data</p>
+      <p class="contact pwf-contact__line"><span class="pwf-arrow"></span>parcelwise.example/demo</p>
+      <p class="contact pwf-contact__line"><span class="pwf-arrow"></span>hello@parcelwise.example</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
