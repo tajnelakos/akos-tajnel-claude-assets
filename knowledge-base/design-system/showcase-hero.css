@@ -1,20 +1,27 @@
-/* Seekridge showcase hero: the Navy band with the moving-dot-map motif that opens every
-   design-system showcase page (components, video, carousels). Self-contained: no tokens needed. */
-.sr-hero {
-  position: relative; overflow: hidden; isolation: isolate;
-  background: #1A3A5C; color: #F4F3EF;
-  padding: 40px max(24px, calc(50vw - 560px)) 52px;
-  font-family: 'IBM Plex Sans', system-ui, sans-serif;
-}
-.sr-hero::after {
-  content: ""; position: absolute; z-index: -1; right: 0; bottom: -6px; width: min(60vw, 900px); height: 118%;
-  background: url("dotmap-hero.svg") right bottom / contain no-repeat; pointer-events: none;
-  -webkit-mask-image: linear-gradient(to right, transparent 0, #000 30%); mask-image: linear-gradient(to right, transparent 0, #000 30%);
-}
-.sr-hero .sr-lockup { display: block; height: 30px; width: auto; margin: 0 0 34px; }
-.sr-hero .sr-eyebrow { margin: 0 0 12px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: #D9A54B; }
-.sr-hero h1 { margin: 0; font-family: 'Archivo', system-ui, sans-serif; font-weight: 800; font-size: clamp(34px, 4.6vw, 56px); line-height: 1.04; letter-spacing: -0.015em; color: #FFFFFF; max-width: 62%; }
-.sr-hero .sr-lede { margin: 16px 0 0; max-width: 56%; font-size: 17px; line-height: 1.55; color: rgba(244,243,239,.8); }
+/* Seekridge showcase hero: the same masthead as the report site (report-theme.css), for the
+   design-system showcase pages (components, video, carousels). Self-contained: no tokens needed.
+   Lockup bar with nav pills, a bold hero, and the dot map open on the Navy in its own column. */
+.sr-hero { background: #1A3A5C; color: #F4F3EF; font-family: 'IBM Plex Sans', system-ui, sans-serif; }
+.sr-hero__in { max-width: 1040px; margin: 0 auto; padding: 0 24px; box-sizing: border-box; }
+.sr-hero__bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 24px; flex-wrap: wrap; }
+.sr-hero__lockup { display: inline-flex; align-items: center; gap: 12px; color: #F4F3EF; text-decoration: none; }
+.sr-hero .sr-lockup { display: block; height: 28px; width: auto; margin: 0; }
+.sr-hero__div { width: 1px; height: 20px; background: currentColor; opacity: .35; }
+.sr-hero__product { font: 500 12px/16px 'IBM Plex Mono', monospace; letter-spacing: .08em; text-transform: uppercase; opacity: .85; }
+.sr-hero__nav { display: flex; gap: 4px; flex-wrap: wrap; align-items: center; }
+.sr-hero__nav a { display: inline-flex; align-items: center; height: 32px; padding: 0 12px; border-radius: 999px; font: 500 14px/20px 'IBM Plex Sans', system-ui, sans-serif;
+  color: #F4F3EF; text-decoration: none; border: 1px solid rgba(244,243,239,.32); }
+.sr-hero__nav a:hover { background: rgba(244,243,239,.1); }
+.sr-hero__nav a.is-on { background: #F4F3EF; color: #1A3A5C; border-color: #F4F3EF; }
+.sr-hero__nav .sr-tools { margin-left: 8px; }
+.sr-hero__nav .sr-tools .pw-btn { color: #F4F3EF; border-color: rgba(244,243,239,.32); border-radius: 999px; background: transparent; }
+.sr-hero__grid { display: grid; grid-template-columns: minmax(0, 1fr) 420px; gap: 40px; align-items: center; padding-block: 24px 64px; }
+.sr-hero .sr-eyebrow { margin: 0 0 12px; font: 500 12px/16px 'IBM Plex Mono', monospace; letter-spacing: .08em; text-transform: uppercase; color: #D9A54B; }
+.sr-hero h1 { margin: 0 0 16px; font: 800 clamp(34px, 5.4vw, 54px)/1.06 'Archivo', system-ui, sans-serif; letter-spacing: -.02em; color: #FFFFFF; text-wrap: balance; }
+.sr-hero .sr-lede { margin: 0; max-width: 60ch; font-size: 18px; line-height: 28px; color: rgba(244,243,239,.84); }
 .sr-hero .sr-lede a { color: #FFFFFF; }
-.sr-hero .sr-tools { position: absolute; top: 36px; right: max(24px, calc(50vw - 560px)); z-index: 1; }
-@media (max-width: 760px) { .sr-hero h1, .sr-hero .sr-lede { max-width: none; } .sr-hero::after { opacity: .35; width: 100%; } }
+.sr-hero__art { margin: 0 -24px 0 0; pointer-events: none;
+  -webkit-mask-image: radial-gradient(ellipse 72% 78% at 52% 48%, #000 55%, transparent 100%);
+          mask-image: radial-gradient(ellipse 72% 78% at 52% 48%, #000 55%, transparent 100%); }
+.sr-hero__art img { display: block; width: 100%; height: auto; }
+@media (max-width: 860px) { .sr-hero__grid { grid-template-columns: 1fr; gap: 24px; } .sr-hero__art { max-width: 420px; margin: 0; } }

@@ -20,6 +20,7 @@ The same system is published as a Claude design system, so Claude builds Seekrid
 | File | What it holds |
 |---|---|
 | [`tokens.json`](./tokens.json) | Every token: colour (light and dark), type scale, spacing, radius, shadow, line weights, social and video canvases. Each has a usage note. |
+| [`report-theme.css`](./report-theme.css) | The shared look for every outward-facing page: Navy masthead with lockup, nav pills, bold hero, fact pills and the dot map in its own column, then 16px cards lifted over the band. |
 | [`tokens.css`](./tokens.css) | The same tokens as CSS custom properties, plus a class per type style. Generated from `tokens.json`. |
 | [`components.css`](./components.css) | Styles for all components (`pw-` classes), reading the tokens. Imports the three Google Fonts. |
 | [`components.md`](./components.md) | Guidelines for each component: Button, FormField, Card, StatusBadge, Alert, DataTable, StatTile, MomentCard, PricingTier, CarouselSlide, VideoFrame. |
