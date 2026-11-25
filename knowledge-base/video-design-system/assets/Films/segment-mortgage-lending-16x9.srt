@@ -10,8 +10,8 @@ a move, an energy renovation, a new home.
 
 3
 00:00:11,900 --> 00:00:17,590
-Seekridge reads your CRM and relevant
-client data, alongside live market data.
+Seekridge reads your CRM and
+transaction data, alongside live market data.
 
 4
 00:00:18,000 --> 00:00:20,170

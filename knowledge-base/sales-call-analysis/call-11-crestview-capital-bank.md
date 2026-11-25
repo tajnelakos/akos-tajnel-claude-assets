@@ -7,7 +7,7 @@
 
 **Anna:** Ingrid, good to continue from last time. You mentioned you wanted to go deeper on the technical and regulatory side today — where should we start?
 
-**Ingrid:** Our market has a specific local certification requirement for automated models used in customer decisions, including valuation models feeding them — it's not universal across the region, just our specific national regulator. Any vendor we use needs to hold that certification, or be actively pursuing it with a credible timeline.
+**Ingrid:** Our market has a specific local certification requirement for automated models used in customer decisions, including the scoring models feeding them — it's not universal across the region, just our specific national regulator. Any vendor we use needs to hold that certification, or be actively pursuing it with a credible timeline.
 
 **Anna:** I want to be accurate rather than reassuring here — I don't know off the top of my head whether we currently hold that specific certification. Can you tell me the exact name of it so I follow up precisely rather than guess?
 

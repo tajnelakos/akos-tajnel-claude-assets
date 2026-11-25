@@ -1,6 +1,6 @@
 # RegulationBrief
 
-Explains what a rule or supervisory change means for lenders and insurers: the rule as a question, what it says, what it asks, what to prepare, where Seekridge fits, and a close.
+Explains what a rule or supervisory change means for banks and lenders: the rule as a question, what it says, what it asks, what to prepare, where Seekridge fits, and a close.
 
 **Use it for** regulation, supervisory guidance and audit expectations that touch automated customer decisions: the EU AI Act, model-risk guidance, consumer-outcome rules. The reader is the Head of Credit Risk, Vendor Risk & Compliance or IT Security. 6 slides.
 

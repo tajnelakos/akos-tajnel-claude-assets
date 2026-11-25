@@ -26,7 +26,7 @@ Persona: VP of Mortgage Lending (lending/growth buyer) · Stage: First substanti
 
 3. Four ways your mortgage book grows.   (L3 Four cards)
    Purpose: The promise before the mechanism. This persona buys growth levers.
-   Key point: Keep loans at rate reset, win loans held elsewhere, lend for the next step, insure the new home.
+   Key point: Keep loans at rate reset, win loans held elsewhere, lend for the next step, bring their insurance over.
 
 4. The bank that calls first usually keeps the loan.   (L4 Statement)
    Purpose: Make timing the stake, then ask how they learn today that a customer is leaving.
@@ -36,8 +36,8 @@ Persona: VP of Mortgage Lending (lending/growth buyer) · Stage: First substanti
    Purpose: The hero visual: the same book, now with four moments, each paired with the conversation it opens.
    Key point: Each moment is a reason to call, with the evidence attached.
 
-6. Your data, plus ours, in one moment.   (L6 Data layers)
-   Purpose: How it works, in one picture: customer, market and property data combine into one moment.
+6. Your data, plus the market, in one moment.   (L6 Data layers)
+   Purpose: How it works, in one picture: transaction, CRM and market data combine into one moment.
    Key point: One point from each layer makes a call worth making.
 
 7. Every moment shows why, so advisors trust it and risk can sign it off.   (L7 Split with product)

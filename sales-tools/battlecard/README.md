@@ -12,16 +12,16 @@ A skill that takes the data already in `competitive-landscape.md`, the win/loss 
 
 At a glance (head-to-head record and price first) → what changed → their pitch and the quick dismiss → where they're strong and what to say, where they're weak and how to use it → where we're weaker and how to handle it → landmines to lay → what buyers told us, quoted from real calls → don't say. Shorter than a classic battlecard on purpose: everything on it is something a rep would say, ask or avoid.
 
-Card depth matches actual threat level — the High-threat Bricklane Data card is not the same length as the Low-threat PropIQ card, on purpose.
+Card depth matches actual threat level — the High-threat Ledgerlight card is not the same length as the Low-threat Nudgely card, on purpose.
 
 ## Files
 
 - [`skill.md`](./skill.md) — the Claude Skill definition
 - [`example.md`](./example.md) — the targeted-update mode: a battlecard section updated from new raw notes, output as a diff against the existing entry rather than a full regeneration
-- [`bricklane-data.html`](./bricklane-data.html) — 🔴 High threat; we won 6 of 14 ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/bricklane-data.html))
-- [`estemate.html`](./estemate.html) — 🟠 Medium-high threat; we won 3 of 11 ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/estemate.html))
-- [`valuai.html`](./valuai.html) — 🟠 Medium-high threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/valuai.html)) — we won 1 of 8; refreshed for ValuAI's July 2026 moment-explanation launch (see the Jul–Aug 2026 edition of [`competitor-analyses.html`](../competitor-monitoring/competitor-analyses.html))
-- [`propiq.html`](./propiq.html) — ⚪ Low threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/propiq.html)) — brokerage only, deliberately short
+- [`ledgerlight.html`](./ledgerlight.html) — 🔴 High threat; we won 6 of 14 ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/ledgerlight.html))
+- [`kontora.html`](./kontora.html) — 🟠 Medium-high threat; we won 3 of 11 ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/kontora.html))
+- [`propensa.html`](./propensa.html) — 🟠 Medium-high threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/propensa.html)) — we won 1 of 8; refreshed for Propensa's July 2026 moment-explanation launch (see the Jul–Aug 2026 edition of [`competitor-analyses.html`](../competitor-monitoring/competitor-analyses.html))
+- [`nudgely.html`](./nudgely.html) — ⚪ Low threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/nudgely.html)) — small and digital-first banks only, deliberately short
 
 ## Current limitations
 

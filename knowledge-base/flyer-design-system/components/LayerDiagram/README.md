@@ -6,7 +6,7 @@ The flyer version of how a moment is built: three square layer chips on the left
 
 **The consumer provides:** the moment's name in plain words ("Likely to refinance within 6 months").
 
-- Do list the layers in this order: customer data (`.pwf-chip--own`, the client's own data, outlined strong), market data, property data.
-- Do use the layer icons only: `customer`, `market`, `property`.
+- Do list the layers in this order: customer data (`.pwf-chip--own`, the client's own data, outlined strong), transaction data, market data.
+- Do use the layer icons only: `customer`, `transaction`, `market`.
 - Don't add a fourth layer, arrows, glows or a chip per data point; the evidence belongs in `EvidenceStrip`.
 - The moment box's gold square is the panel's one gold mark.

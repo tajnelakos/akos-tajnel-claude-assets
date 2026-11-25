@@ -245,7 +245,7 @@
     {
       "name": "SegmentTriptych",
       "group": "Data",
-      "summary": "Three segments side by side, each a moment with its top evidence: the same grammar for banks, insurers and brokerages.",
+      "summary": "Three segments side by side, each a moment with its top evidence: the same grammar for lending, retail banking and bancassurance.",
       "readme": "components/SegmentTriptych/README.md",
       "preview": "components/SegmentTriptych/preview.html"
     }

@@ -17,21 +17,21 @@
 
 **Anna:** That's about as clean a mandate as it gets. When you say "couldn't explain" — walk me through what happens today when someone does ask.
 
-**Lena:** Our current provider — we use Estemate, have for years, mostly for property data — added a "portfolio insights" report a while back. It flags customers with a score and a short methodology PDF that's the same for every customer. It doesn't tell you which data points put *this specific customer* on the list, or how much each one counted. So if an auditor or our risk committee asks "why this customer," the honest answer is "the model said so," which is not an answer anyone wants to give twice.
+**Lena:** Our current provider — we use Kontora, have for years, mostly for campaign lists — added a "next-best-offer" report a while back. It flags customers with a score and a short methodology PDF that's the same for every customer. It doesn't tell you which data points put *this specific customer* on the list, or how much each one counted. So if an auditor or our risk committee asks "why this customer," the honest answer is "the model said so," which is not an answer anyone wants to give twice.
 
-**Anna:** Okay, that's useful, and it's exactly the gap we built around. Every moment we produce comes with the actual data points behind it — the property data, the market data, and the fields from your own CRM — and how much each one counted. Not a generic doc, the specific inputs for that specific customer. Would it help if I showed that live, on a sample of your own customers, rather than a canned demo?
+**Anna:** Okay, that's useful, and it's exactly the gap we built around. Every moment we produce comes with the actual data points behind it — the transaction data, the market data, and the fields from your own CRM — and how much each one counted. Not a generic doc, the specific inputs for that specific customer. Would it help if I showed that live, on a sample of your own customers, rather than a canned demo?
 
 **Lena:** Yes, actually — that would matter a lot more than slides. Can you genuinely do that with our real data, or does it need to be something already in your system somehow?
 
 **Anna:** We'd need a pseudonymized extract of the customers you want to test, under a data-processing agreement, but yes — we can run it live and you can see the actual evidence trail it produces, not a mocked-up one.
 
-**Lena:** Okay. I'll be honest, we also looked at ValuAI a few months back, before I started. I've heard from a colleague at another bank that ValuAI's sales team said something almost identical to what you just said.
+**Lena:** Okay. I'll be honest, we also looked at Propensa a few months back, before I started. I've heard from a colleague at another bank that Propensa's sales team said something almost identical to what you just said.
 
 **Anna:** That's a fair thing to bring up, and I'd rather you ask it directly than wonder. What did your colleague say happened?
 
-**Lena:** She said when they pushed ValuAI in a follow-up technical call — not the first demo, the second one — the "explanation" turned out to be a chart of which feature categories mattered across the whole model, not the actual data points behind one customer. It looked good in the first meeting and then didn't hold up when their data team asked for specifics.
+**Lena:** She said when they pushed Propensa in a follow-up technical call — not the first demo, the second one — the "explanation" turned out to be a chart of which feature categories mattered across the whole model, not the actual data points behind one customer. It looked good in the first meeting and then didn't hold up when their data team asked for specifics.
 
-**Anna:** That matches what we've heard elsewhere too, for what it's worth — though I'd rather you verify it yourself than take our word for it, since obviously we have a horse in this race. What I'd suggest: when you evaluate us, do exactly what your colleague did with ValuAI — push past the first demo, ask us for a customer-level breakdown on records your own team picks, not ones we prepare. If we can't produce it, that tells you something. If we can, that also tells you something.
+**Anna:** That matches what we've heard elsewhere too, for what it's worth — though I'd rather you verify it yourself than take our word for it, since obviously we have a horse in this race. What I'd suggest: when you evaluate us, do exactly what your colleague did with Propensa — push past the first demo, ask us for a customer-level breakdown on records your own team picks, not ones we prepare. If we can't produce it, that tells you something. If we can, that also tells you something.
 
 **Lena:** That's a reasonable way to structure it. Okay — separately, timeline. We have a board audit scheduled for Q3. I don't want to be mid-migration when that happens — that would be worse than not migrating at all.
 
@@ -60,7 +60,7 @@
 ## Internal notes (rep-logged, not read aloud on the call)
 
 - Strong, specific buying moment: real audit-finding trigger (a refinancing campaign nobody could explain), dated board deadline (Q3, tentatively second week of September).
-- ValuAI explicitly in play, but via secondhand account, not confirmed head-to-head yet — worth revisiting if it resurfaces with more specifics.
-- Estemate is the incumbent being displaced — confirms `competitive-landscape.md`'s Estemate entry (portfolio-level report, generic methodology doc, no customer-level detail).
+- Propensa explicitly in play, but via secondhand account, not confirmed head-to-head yet — worth revisiting if it resurfaces with more specifics.
+- Kontora is the incumbent being displaced — confirms `competitive-landscape.md`'s Kontora entry (portfolio-level report, generic methodology doc, no customer-level detail).
 - Next step: technical validation call with Nordkredit's data lead, live evidence trail on customers they select.
 - Action: send pricing tier confirmation in writing today (open commitment made on the call — must follow through).

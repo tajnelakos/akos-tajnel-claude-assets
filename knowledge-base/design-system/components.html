@@ -14,13 +14,13 @@
 </div>
 </div></section><section class="ds-sec" id="FormField"><h2 class="ds-h">FormField</h2><p class="ds-p">A labelled text input with helper and error text: labels above fields, never placeholder-only.</p><div class="ds-demo">
 <div class="pw-root" style="padding:24px;display:flex;gap:32px;flex-wrap:wrap">
-<label class="pw-field"><span class="pw-field__label">CRM field for property address</span><input class="pw-field__input" value="Account.BillingAddress"><span class="pw-field__help">Used to match each customer to a property.</span></label>
+<label class="pw-field"><span class="pw-field__label">CRM field for customer ID</span><input class="pw-field__input" value="Account.CustomerNumber"><span class="pw-field__help">Used to match each customer to their transactions.</span></label>
 <label class="pw-field pw-field--error"><span class="pw-field__label">Rate-reset date field</span><input class="pw-field__input" value="Loan.FixedUntil"><span class="pw-field__help"><svg class="pw-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5L2.5 20h19z"/><path d="M12 10v4.5M12 17v.5"/></svg><span>214 records have no date in this field. Map another field or leave them out of mortgage moments.</span></span></label>
 </div>
 </div></section><section class="ds-sec" id="Card"><h2 class="ds-h">Card</h2><p class="ds-p">A flat, bordered panel for grouping content: hairline border, no shadow.</p><div class="ds-demo">
 <div class="pw-root" style="padding:24px;display:grid;grid-template-columns:repeat(2,minmax(0,300px));gap:24px">
-<article class="pw-card"><div class="pw-eyebrow">Evidence Trail</div><h3 class="pw-card__title">Every data point, every weight</h3><p class="pw-card__body">Each moment shows the property, market and customer data behind it, and how much each counted.</p><div class="pw-card__foot"><a class="pw-btn pw-btn--text">See a sample moment</a></div></article>
-<article class="pw-card"><div class="pw-eyebrow">Coverage Map</div><h3 class="pw-card__title">Where the data is dense</h3><p class="pw-card__body">Property and market data coverage by postcode across DACH, Benelux and the Nordics, so you know where moments are strongest.</p></article>
+<article class="pw-card"><div class="pw-eyebrow">Evidence Trail</div><h3 class="pw-card__title">Every data point, every weight</h3><p class="pw-card__body">Each moment shows the transaction, customer and market data behind it, and how much each counted.</p><div class="pw-card__foot"><a class="pw-btn pw-btn--text">See a sample moment</a></div></article>
+<article class="pw-card"><div class="pw-eyebrow">Coverage Map</div><h3 class="pw-card__title">Where the data is dense</h3><p class="pw-card__body">Market data coverage by region across DACH, Benelux and the Nordics, so you know where moments are strongest.</p></article>
 </div>
 </div></section><section class="ds-sec" id="StatusBadge"><h2 class="ds-h">StatusBadge</h2><p class="ds-p">A small label for the state of a moment, a sync or an integration, always with a word, never colour alone.</p><div class="ds-demo">
 <div class="pw-root" style="padding:24px;display:flex;gap:12px;flex-wrap:wrap">
@@ -28,7 +28,7 @@
 </div>
 </div></section><section class="ds-sec" id="Alert"><h2 class="ds-h">Alert</h2><p class="ds-p">An inline message about the current task: what happened and what to do next.</p><div class="ds-demo">
 <div class="pw-root" style="padding:24px;display:flex;flex-direction:column;gap:12px;max-width:620px">
-<div class="pw-alert pw-alert--warning" role="status"><svg class="pw-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5L2.5 20h19z"/><path d="M12 10v4.5M12 17v.5"/></svg><p><strong>Limited evidence.</strong> No recent sales within 2 km of this property, so the valuation behind this moment has a wider range. Review before contacting the customer.</p></div>
+<div class="pw-alert pw-alert--warning" role="status"><svg class="pw-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5L2.5 20h19z"/><path d="M12 10v4.5M12 17v.5"/></svg><p><strong>Limited evidence.</strong> Under three months of transactions on this account, so this moment has a wider range. Review before contacting the customer.</p></div>
 <div class="pw-alert pw-alert--good" role="status"><svg class="pw-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 12.5l5 5 10-11"/></svg><p><strong>18 moments pushed to CRM.</strong> Each one carries its evidence trail.</p></div>
 <div class="pw-alert" role="status"><svg class="pw-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="8" height="16" rx="1.5"/><rect x="13" y="4" width="8" height="16" rx="1.5"/><path d="M6 9h2M16 15h2M9 12h6M13 10l2 2-2 2"/></svg><p>Customer data last synced 2026-11-24 06:00. Next sync tonight.</p></div>
 </div>
@@ -36,27 +36,27 @@
 <div class="pw-root" style="padding:24px">
 <table class="pw-table"><thead><tr><th>Customer</th><th>Moment</th><th>Segment</th><th class="num">Due</th><th class="num">Strength</th></tr></thead>
 <tbody><tr class="is-highlight"><td>Customer 40871</td><td>Rate reset, likely to refinance</td><td>Mortgage</td><td class="num">2027-03-31</td><td class="num">0.82</td></tr>
-<tr><td>Customer 12230</td><td>Equity for a top-up loan</td><td>Mortgage</td><td class="num">—</td><td class="num">0.71</td></tr>
-<tr><td>Policy 88-5521</td><td>Rebuild value above sum insured</td><td>Home insurance</td><td class="num">2027-01-15</td><td class="num">0.66</td></tr></tbody></table>
-<p class="pw-caption" style="margin:8px 0 0">Illustrative data. Customer data: client CRM · property and market data: Seekridge, Q4 2026.</p></div>
+<tr><td>Customer 12230</td><td>Cash building up in the current account</td><td>Savings</td><td class="num">—</td><td class="num">0.71</td></tr>
+<tr><td>Customer 51904</td><td>Premiums paid to another insurer</td><td>Home insurance</td><td class="num">2027-01-15</td><td class="num">0.66</td></tr></tbody></table>
+<p class="pw-caption" style="margin:8px 0 0">Illustrative data. Customer and transaction data: client systems · market data: Seekridge, Q4 2026.</p></div>
 </div></section><section class="ds-sec" id="StatTile"><h2 class="ds-h">StatTile</h2><p class="ds-p">One figure with what it measures and where it comes from.</p><div class="ds-demo">
 <div class="pw-root" style="padding:24px;display:grid;grid-template-columns:repeat(3,minmax(0,220px));gap:16px">
 <div class="pw-stat"><div class="pw-eyebrow">Moments this month</div><div class="pw-stat__value">1,284</div><p class="pw-stat__meta">Across 212,000 customers</p></div>
 <div class="pw-stat"><div class="pw-eyebrow">Backtest hit rate</div><div class="pw-stat__value">68%</div><p class="pw-stat__meta">Flagged customers who refinanced within 6 months</p><div class="pw-caption pw-stat__source">Backtest on 2025 book</div></div>
-<div class="pw-stat"><div class="pw-eyebrow">Underinsured homes</div><div class="pw-stat__value">9.4%</div><p class="pw-stat__meta">Of the home book, rebuild value above sum insured</p></div>
+<div class="pw-stat"><div class="pw-eyebrow">Paying premiums elsewhere</div><div class="pw-stat__value">9.4%</div><p class="pw-stat__meta">Of current-account customers, a home or car premium paid to another insurer</p></div>
 </div>
 </div></section><section class="ds-sec" id="MomentCard"><h2 class="ds-h">MomentCard</h2><p class="ds-p">The signature product surface: one moment, the customer it points at, and the evidence trail behind it.</p><div class="ds-demo">
 <div class="pw-root" style="padding:24px;max-width:660px">
 <section class="pw-val"><div class="pw-val__head"><div><div class="pw-eyebrow">Mortgage · Customer 40871</div><div class="pw-val__value" style="font-size:28px;line-height:34px">Likely to refinance elsewhere</div><div class="pw-val__range">Fixed rate resets 2027-03-31 · strength 0.82 · 6 data points</div></div><span class="pw-badge">New</span></div>
 <div class="pw-val__comps"><div class="pw-val__comp is-top"><span>Rate reset in 4 months <span class="pw-caption">customer</span></span><span class="pw-data" style="text-align:right">34%</span><span class="pw-val__bar"><i style="width:34%"></i></span></div>
 <div class="pw-val__comp"><span>Market rate 0.9 pts below theirs <span class="pw-caption">market</span></span><span class="pw-data" style="text-align:right">26%</span><span class="pw-val__bar"><i style="width:26%"></i></span></div>
-<div class="pw-val__comp"><span>Equity 48% of value <span class="pw-caption">property</span></span><span class="pw-data" style="text-align:right">19%</span><span class="pw-val__bar"><i style="width:19%"></i></span></div>
+<div class="pw-val__comp"><span>Salary split with another bank <span class="pw-caption">transaction</span></span><span class="pw-data" style="text-align:right">19%</span><span class="pw-val__bar"><i style="width:19%"></i></span></div>
 <div style="display:flex;gap:12px;margin-top:16px"><button class="pw-btn pw-btn--primary pw-btn--sm">Push to CRM</button><button class="pw-btn pw-btn--secondary pw-btn--sm">View full evidence</button></div>
 <p class="pw-caption" style="margin:12px 0 0">Model 2.3 · 2026-11-24 09:14 · Illustrative data</p></div></section></div>
-</div></section><section class="ds-sec" id="PricingTier"><h2 class="ds-h">PricingTier</h2><p class="ds-p">The three brokerage tiers, Base, Ridge and Summit, side by side.</p><div class="ds-demo">
+</div></section><section class="ds-sec" id="PricingTier"><h2 class="ds-h">PricingTier</h2><p class="ds-p">The three tiers for smaller banks, Base, Ridge and Summit, side by side.</p><div class="ds-demo">
 <div class="pw-root" style="padding:24px"><div class="pw-tiers">
-<div class="pw-tier"><h3 class="pw-tier__name">Base</h3><div class="pw-tier__price">For small teams · per seat</div><ul><li><svg class="pw-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 12.5l5 5 10-11"/></svg>Seller moments from your contacts</li><li><svg class="pw-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 12.5l5 5 10-11"/></svg>Coverage Map</li></ul><a class="pw-btn pw-btn--secondary">Talk to us</a></div>
-<div class="pw-tier is-featured"><h3 class="pw-tier__name">Ridge</h3><div class="pw-tier__price">For brokerages · per seat</div><ul><li><svg class="pw-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 12.5l5 5 10-11"/></svg>Everything in Base</li><li><svg class="pw-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 12.5l5 5 10-11"/></svg>Evidence Trail</li><li><svg class="pw-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 12.5l5 5 10-11"/></svg>CRM integration</li></ul><a class="pw-btn pw-btn--primary">Talk to us</a></div>
+<div class="pw-tier"><h3 class="pw-tier__name">Base</h3><div class="pw-tier__price">For up to 25,000 customers</div><ul><li><svg class="pw-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 12.5l5 5 10-11"/></svg>Weekly moments in the web app</li><li><svg class="pw-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 12.5l5 5 10-11"/></svg>Coverage Map</li></ul><a class="pw-btn pw-btn--secondary">Talk to us</a></div>
+<div class="pw-tier is-featured"><h3 class="pw-tier__name">Ridge</h3><div class="pw-tier__price">For smaller banks · by customers analysed</div><ul><li><svg class="pw-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 12.5l5 5 10-11"/></svg>Everything in Base</li><li><svg class="pw-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 12.5l5 5 10-11"/></svg>Evidence Trail</li><li><svg class="pw-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 12.5l5 5 10-11"/></svg>CRM integration</li></ul><a class="pw-btn pw-btn--primary">Talk to us</a></div>
 <div class="pw-tier"><h3 class="pw-tier__name">Summit</h3><div class="pw-tier__price">For networks · custom</div><ul><li><svg class="pw-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 12.5l5 5 10-11"/></svg>Everything in Ridge</li><li><svg class="pw-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 12.5l5 5 10-11"/></svg>API and SSO</li></ul><a class="pw-btn pw-btn--secondary">Talk to us</a></div>
 </div></div>
 </div></section><section class="ds-sec" id="CarouselSlide"><h2 class="ds-h">CarouselSlide</h2><p class="ds-p">LinkedIn carousel slides on the 1080 × 1350 canvas: a navy cover and a paper proof slide. Summary in <a href="social-and-carousels.md">social-and-carousels.md</a>; the full system, with seven formats and a slide kit, is the <a href="../linkedin-carousels/gallery.html">LinkedIn carousels gallery</a>.</p><div class="ds-demo">
@@ -69,7 +69,7 @@
 </div></div>
 <div style="width:324px;height:405px;overflow:hidden"><div class="pw-slide pw-slide--paper" style="transform:scale(.3);transform-origin:0 0">
 <div class="pw-slide__eyebrow" style="color:#5B6470">Evidence trail</div>
-<div style="position:absolute;left:96px;right:96px;top:220px"><h3 class="pw-slide__heading">Every moment shows its reasons</h3><p class="pw-slide__body">The rate reset, the equity and the market, and how much each one counted.</p>
+<div style="position:absolute;left:96px;right:96px;top:220px"><h3 class="pw-slide__heading">Every moment shows its reasons</h3><p class="pw-slide__body">The rate reset, the salary moving and the market, and how much each one counted.</p>
 <div class="pw-slide__frame" style="margin-top:56px;padding:40px;height:420px"><div style="height:20px;width:60%;background:#E1E0D9;margin-bottom:28px"></div><div style="height:20px;width:85%;background:#C1892E;margin-bottom:28px"></div><div style="height:20px;width:40%;background:#E1E0D9;margin-bottom:28px"></div><div style="height:20px;width:70%;background:#E1E0D9"></div></div></div>
 <div class="pw-slide__counter" style="color:#5B6470">02 / 06</div>
 <img class="pw-slide__mark" src="../branding-guideline/logo-mark.svg" alt="Seekridge">

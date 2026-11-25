@@ -10,7 +10,7 @@ is the redemption notice.
 3
 00:00:10,400 --> 00:00:15,600
 Seekridge reads their customer data,
-the property and the market together.
+their transactions and the market together.
 
 4
 00:00:16,400 --> 00:00:21,000
@@ -24,7 +24,7 @@ is 1.7 points above their contract.
 
 6
 00:00:26,200 --> 00:00:30,600
-Equity, local offers and the reset date
+The salary split, local offers and the reset date
 make up the rest, adding up to 100.
 
 7

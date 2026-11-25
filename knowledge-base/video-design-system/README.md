@@ -1,6 +1,6 @@
 # Seekridge Video Design System
 
-How Seekridge shows its moments in motion: product walkthroughs, persona films for banks, insurers and brokerages, and statements for launches and events. Use it to brief a motion designer, to build a film in code, or to check a cut before it ships.
+How Seekridge shows its moments in motion: product walkthroughs, persona films for retail banks, and statements for launches and events. Use it to brief a motion designer, to build a film in code, or to check a cut before it ships.
 
 It sits on top of the brand. Identity, palette, type and voice come from [`../branding-guideline/brand-guidelines.md`](../branding-guideline/brand-guidelines.md); the build-ready web system is [`../design-system/`](../design-system). This folder adds what film needs and the brand file only covers in a paragraph: formats, beat structures, on-screen copy, frame layouts, a motion grammar, cast and sample data per market, sound, production specs and a component set, all drawn for the 1920 × 1080 master. [`../design-system/video-and-motion.md`](../design-system/video-and-motion.md) is the one-page summary of these rules.
 
@@ -38,12 +38,12 @@ Every film, script and beat sheet runs in this order. It is the brand promise (*
 |---|---|---|---|
 | **1. Situation** | What is happening to one customer the bank already has? | *Customer 40-1187's fixed rate ends in four months.* | Opens the film |
 | **2. Moment** | What does Seekridge flag, and how high does it rank? | *Refinance risk. Ranked 3rd of 212 this week.* | Short, and always named in the product's word: *moment* |
-| **3. Evidence** | Which data points made the moment, and how much did each count? | *Rate gap 38%, equity position 27%, local offers 21%, contact history 14%.* | The body of the film. The beat that makes this brand different |
+| **3. Evidence** | Which data points made the moment, and how much did each count? | *Rate gap 38%, salary split with another bank 27%, local offers 21%, fixed rate end 14%.* | The body of the film. The beat that makes this brand different |
 | **4. Action** | What does the advisor do now, and where is it recorded? | *On the advisor's list in the CRM, with the reasons. Logged.* | Closes the method, before the proof |
 
 - **Never show a moment without its evidence.** A frame with a moment and no evidence trail is a frame the Head of Credit Risk will stop the film on. If time is short, cut the action beat, never the evidence.
 - **Never lead with the model.** "AI-powered propensity scoring" is a mechanism in the situation slot. Rewrite it as what is happening to the customer.
-- **Evidence is data, not adjectives.** Each evidence row names its layer (customer, property, market), the data point, and its weight. "Strong moments from multiple sources" is not evidence.
+- **Evidence is data, not adjectives.** Each evidence row names its layer (customer, transactions, market), the data point, and its weight. "Strong moments from multiple sources" is not evidence.
 - **Walkthroughs** are feature-led by design, but open on the job (situation) before the first control: *An advisor needs to know why a customer was flagged.*
 - **Check it first:** read the voice-over aloud. If a viewer would learn what Seekridge *is* before they see one customer's situation, the order is wrong. If they could repeat the moment but not one reason behind it, the evidence beat is too thin.
 
@@ -69,7 +69,7 @@ Every film shares the same type, grounds, panels and motion grammar. What change
 
 **Choosing:** if the viewer already has Seekridge and needs to *use* a feature, make a Walkthrough. If the viewer needs to *trust a moment enough to act on it*, make a Moment story. If the viewer needs to *notice one finding*, make a Statement.
 
-**One persona per film.** A Moment story is made for one of the four personas in [`../personas.md`](../personas.md) (VP of Mortgage Lending, Head of Credit Risk, Head of Home Insurance, Broker Team Lead) and one segment. Never one film for everybody.
+**One persona per film.** A Moment story is made for one of the four personas in [`../personas.md`](../personas.md) (VP of Mortgage Lending, Head of Credit Risk, Head of Bancassurance, Head of Advisory Network) and one use case. Never one film for everybody.
 
 ---
 
@@ -88,7 +88,7 @@ A beat is one headline plus one change on screen. Default length 5 s (`beat`), r
 
 1. **TitleCard**, Navy, 0–5 s. The situation as a one-line hook over the dot map rising. *Their fixed rate ends in four months.*
 2. **Tension**, 1 beat. What happens today without the moment, on a Timeline. *By the time anyone notices, they've refinanced elsewhere.*
-3. **Situation into data**, 1 beat. The LayerStack builds: customer, property, market. *Three layers, one customer.*
+3. **Situation into data**, 1 beat. The LayerStack builds: customer, transactions, market. *Three layers, one customer.*
 4. **Moment**, 1 beat. The MomentCard lands with the rank. *One moment, ranked third this week.*
 5. **Evidence**, 2–3 beats. The EvidenceTrail populates; FocusMarks close on the top row; weights grow. *Here's why it ranks third. / The rate gap counts most.*
 6. **Action**, 1–2 beats. The moment arrives in the CRM; the AuditLog writes the line. *On the advisor's list, with the reasons. / And on the record.*
@@ -98,7 +98,7 @@ A beat is one headline plus one change on screen. Default length 5 s (`beat`), r
 
 ### Segment story (45–60 s, a Moment story for a whole segment page)
 
-A segment page (banks, insurers, brokerages) gets one Moment story built around **two customers with two different moments**, so the page shows range without becoming a feature tour.
+A use-case page (lending, retail banking, bancassurance) gets one Moment story built around **two customers with two different moments**, so the page shows range without becoming a feature tour.
 
 1. **TitleCard**: the book in the segment's own word (*mortgage book*, *home book*, *contact database*). *Your mortgage book already holds next quarter's business.*
 2. **Customer one**: situation → moment → evidence (2 rows only) → action.
@@ -115,7 +115,7 @@ A segment page (banks, insurers, brokerages) gets one Moment story built around 
 2. **The claim** as a `title`, up to three words in gold-light. *Most moments can't explain themselves.*
 3. **The turn**. *Ours show their evidence.*
 4. **One figure** with its source. *68% of flagged customers refinanced within six months.*
-5. **SegmentTriptych**: the same evidence grammar for banks, insurers, brokerages (optional).
+5. **SegmentTriptych**: the same evidence grammar for lending, retail banking and bancassurance (optional).
 6. **EndCard**.
 
 ---
@@ -132,9 +132,9 @@ Headlines carry the film. Write them first, read them aloud, then design. Voice 
 | Two-liners | Situation in ink, consequence or answer highlighted. *Their fixed rate ends in March. / **They're already comparing.*** | Two lines of equal weight |
 | Punctuation | Moment stories and Statements end in a full stop. Walkthroughs don't | Exclamation marks, question marks as hooks ("Ready to grow?"), ellipses |
 | Voice | Second person to the professional (*your customers*, *your advisors*). Customers by ID on screen, *this customer* in the voice-over | *Users*, *leads*, *prospects*. Customer first names |
-| Precision | Name the data point. *Valuation up 11% since purchase.* | *Rich property insights.* *Powerful data.* |
+| Precision | Name the data point. *Salary split with another bank for 2 of 3 months.* | *Rich customer insights.* *Powerful data.* |
 | Mechanism | Name it when the persona asks for it (Head of Credit Risk films), always as data and weight | *Proprietary AI*, *black box*, *magic*, *revolutionary* (all prohibited terms) |
-| Product words | Moment · evidence trail · audit log · customer base · property data, market data, customer data · CRM | Lead, insight, alert · explainability report · database · data lake |
+| Product words | Moment · evidence trail · audit log · customer base · transaction data, customer data, market data · CRM | Lead, insight, alert · explainability report · database · data lake |
 | Figures | One figure per beat, with what it measures and where it came from. Illustrative figures labelled *Illustrative* on screen | A figure without a source line; demo data presented as a result |
 | Currency | Code before the number: EUR 412,500 · CHF 1.2m · SEK 3.4m | € 412.5k; mixing formats in one film |
 | Spelling | UK English (Oxford) for international films | Mixing US and UK spelling |
@@ -156,10 +156,10 @@ Headlines carry the film. Write them first, read them aloud, then design. Voice 
 
 | Persona | Hook names | Evidence beat leads with | Action beat shows |
 |---|---|---|---|
-| VP of Mortgage Lending | A customer about to leave or ready to borrow more | The rate and equity rows | The advisor's CRM list |
+| VP of Mortgage Lending | A customer about to leave or ready to borrow more | The rate and salary rows | The advisor's CRM list |
 | Head of Credit Risk | A decision someone will have to defend | Weights summing to 100, the method line | The audit log and export |
-| Head of Home Insurance | A home whose rebuild value has outgrown its cover | Valuation and rebuild-cost rows | The renewal task with the new sum insured |
-| Broker Team Lead | A contact in the database likely to sell this year | Ownership length, local price movement | The agent's call list |
+| Head of Bancassurance | A customer paying premiums to another insurer | The premium-payment rows | The advisor's insurance task |
+| Head of Advisory Network | A customer quietly moving to another bank | Salary and transfer rows | The advisor's weekly list |
 
 ---
 
@@ -221,15 +221,15 @@ The brand palette has no categorical hues, so films never colour-code the data l
 | Layer | Label | Icon | Typical evidence rows |
 |---|---|---|---|
 | Customer data | `CUSTOMER` | `icon-customer` | Fixed rate end date, product holding, contact history, tenure |
-| Property data | `PROPERTY` | `icon-property` | Valuation, valuation change since purchase, rebuild cost, energy rating |
-| Market data | `MARKET` | `icon-market` | Rate gap to market, local price movement, competitor offers in the area |
+| Transaction data | `TRANSACTIONS` | `icon-transaction` | Salary and income in, transfers to other banks, standing orders, saving pattern |
+| Market data | `MARKET` | `icon-market` | Rate gap to market, competitor offers in the area, price trends |
 
 Weights are navy bars on a `bar-track`; the row that counts most gets the gold bar. Weights in an evidence trail always add up to 100.
 
 ### Drawings
 
 - The **ridge field** is the only illustration: a dot map of the client base that is always gently moving, where only a few areas rise into peaks (the moments) and one summit is marked with a gold point, as in the logomark. Dots are Paper on Navy and Navy on Paper, brightest at the peaks.
-- **Plan drawings** for concepts with no screen (a house's footprint, a row of houses, a customer base as a field): 3px strokes, square ends, straight lines and right angles only. Dashed means *expected* (a rate reset date, a projected value); solid means *now*.
+- **Plan drawings** for concepts with no screen (a customer base as a field, a timeline of payments): 3px strokes, square ends, straight lines and right angles only. Dashed means *expected* (a rate reset date, a projected value); solid means *now*.
 - Icons are the 15 line icons in [`../design-system/`](../design-system), scaled to 48px with the stroke at 2.5px.
 - **No people.** No illustrated advisors, hands, phones held in hands, faces, offices or city skylines. The customer is an ID and a point.
 
@@ -274,11 +274,8 @@ The market is chosen per film and sets language, number format, currency, voice 
 | On-screen language | UK English | German (*Sie*); Swiss films: no ß, «…» | Dutch (*u*); French for Wallonia | Swedish, Danish or Norwegian (*du*) |
 | Voice-over | Neutral UK English | Hochdeutsch (Swiss Standard German for CH) | Netherlands Dutch; Belgian French | One language per film |
 | Demo lender | Northmere Bank | Alpenkreis Bank | Havenstad Hypotheken | Fjordvik Sparebank |
-| Demo insurer | Ashcombe Mutual | Lindwurm Versicherung | Dijkhuis Verzekeringen | Ørsund Forsikring |
-| Demo brokerage | Kestrel Homes | Brandauer Immobilien | Kade Makelaars | Strand Mäkleri |
 | Customer IDs | 40-1187, 40-2210, 52-0093 | same format | same format | same format |
-| Property | Semi-detached, 1932, 112 m² | Wohnung, 1902, 86 m² | Rijtjeshuis, 1958, 118 m² | Radhus, 1974, 124 m² |
-| Valuation | EUR 548,000 | EUR 548.000 (CH: CHF 1’150’000) | EUR 548.000 | SEK 5 480 000 |
+| Monthly salary | EUR 4,850 | EUR 4.850 (CH: CHF 7’900) | EUR 4.850 | SEK 48 500 |
 | Percentages | +11.2% | +11,2 % | +11,2% | +11,2 % |
 | Dates (on screen) | 31 March 2027 | 31. März 2027 | 31 maart 2027 | 31 mars 2027 |
 | Dates (in panels and logs) | 2027-03-31 | 2027-03-31 | 2027-03-31 | 2027-03-31 |
@@ -286,7 +283,7 @@ The market is chosen per film and sets language, number format, currency, voice 
 - **All brands and customers are fictional** and labelled *Demo* in the panel header. No real customer, bank or address ever appears, not even a street name.
 - **Customers are IDs.** In the voice-over: *this customer*, *one customer*, *a policyholder*. Never a first name, never an age, never a photo.
 - **Advisors** are roles (*your advisor*, *the Hamburg branch team*), never people.
-- **Moment names** are the product's own (section 11): Refinance risk, Top-up potential, Likely to move, Underinsured home, No contents cover, Renewal risk, Likely to sell.
+- **Moment names** are the product's own (section 11): Refinance risk, Salary moving away, Likely to move, Renovation planned, Insured elsewhere, Savings building up, Rate reset ahead.
 
 ---
 
@@ -350,7 +347,7 @@ The default persona film. Reference: [`assets/Films/story-fixed-rate-dach-16x9.m
 |---|---|---|---|---|
 | 0.0–5.0 s | TitleCard | Their fixed rate ends in four months. | Navy; the dot map moves in from the right, peaks rise, the gold point lands; lockup top-left; hook as `title` | — |
 | 5.0–10.0 s | Tension | By the time anyone notices, **they've moved.** | Wipe to Paper; Timeline: Today → Rate ends 2027-03-31 (dashed) → Refinanced elsewhere (marked) | Situation |
-| 10.0–16.0 s | Layers | Three layers. **One customer.** | LayerStack: customer, property, market rows draw in and resolve into one line | Situation |
+| 10.0–16.0 s | Layers | Three layers. **One customer.** | LayerStack: customer, transactions, market rows draw in and resolve into one line | Situation |
 | 16.0–21.5 s | Moment | One moment, **ranked third.** | MomentCard: Refinance risk · Customer 40-1187 · Rank 3 of 212 | Moment |
 | 21.5–31.0 s | Evidence | Here's why it **ranks third.** | EvidenceTrail: four rows with layer, data point and weight; bars grow; FocusMarks close on the top row; gold bar on it | Evidence |
 | 31.0–37.0 s | Action | On the advisor's list. **With the reasons.** | CRM panel: task row lands with *Synced to CRM*; AuditLog line types in | Action |
@@ -363,11 +360,11 @@ A 30-second cut drops the layers beat and shortens the evidence to two rows.
 
 | Segment | Situation | Moment | Top evidence rows | Action |
 |---|---|---|---|---|
-| Bank / mortgage lender | Fixed rate ends in four months | Refinance risk | Rate gap to market · equity position · local competitor offers | Retention call from the advisor's CRM list |
-| Bank / mortgage lender | Value up since purchase, loan mostly repaid | Top-up potential | Valuation change · loan-to-value · renovation-age property | Top-up or renovation loan conversation |
-| Insurer | Home value outgrew its sum insured | Underinsured home | Rebuild cost index · valuation change · policy age | Updated cover at renewal |
-| Insurer | Renewal in 60 days, quiet account | Renewal risk | Premium change · claims contact · local price movement | Renewal call before the notice goes out |
-| Brokerage | Contact owned for 9 years in a rising street | Likely to sell | Ownership length · local price movement · household moments | Agent's valuation call |
+| Bank / mortgage lender | Fixed rate ends in four months | Refinance risk | Rate gap to market · salary split with another bank · local competitor offers | Retention call from the advisor's CRM list |
+| Retail bank | Salary now split with another bank | Salary moving away | Salary split · transfers to another bank · fewer card payments | Relationship call before the account goes quiet |
+| Bancassurance | Home premium paid to another insurer | Insured elsewhere | Premium payments · mortgage with the bank · consent | Insurance offer from the advisor |
+| Retail bank | Cash building up in the current account | Savings building up | Balance trend · income rising · no savings product | Savings or investment conversation |
+| Bank / mortgage lender | Deposit saved, rent payments rising | Likely to move | Savings trend · rent payments · local rates | First mortgage conversation |
 
 Moments are always shown as the result of named data, and the voice-over leads with the customer's situation, never the detection method.
 
@@ -403,9 +400,9 @@ The Seekridge web app, screen by screen, and what each gives a film. The screens
 | Action | 05 CRM sync | Which moments went to which team's CRM queue, and when | Action beat |
 | Governance | 06 Audit log | Every view, export and action on a moment, timestamped | AuditLog |
 | Proof | 07 Backtest report | How past moments performed on the client's own book, with method and period | FigureCard, BacktestChart |
-| Setup | 08 Data layers | Which customer, property and market sources are connected, and how fresh each is | Walkthrough openers, governance beats |
+| Setup | 08 Data layers | Which customer, transaction and market sources are connected, and how fresh each is | Walkthrough openers, governance beats |
 
-**Product vocabulary on screen and in the voice-over:** moment · evidence trail (Evidence Trail as the feature name) · weight · audit log · customer base · customer data, property data, market data · Coverage Map · backtest · CRM sync · rank.
+**Product vocabulary on screen and in the voice-over:** moment · evidence trail (Evidence Trail as the feature name) · weight · audit log · customer base · customer data, transaction data, market data · Coverage Map · backtest · CRM sync · rank.
 
 **Numbers.** The product shows demo data. In an external film every figure is either from an approved client case, with its source on screen, or labelled *Illustrative*. Backtest figures always carry the period and the book they ran on.
 

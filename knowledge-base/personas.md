@@ -10,8 +10,8 @@ Expands the persona list in [`knowledge-base.md`](./knowledge-base.md). Where [`
 |---|---|---|
 | Risk & model-governance owner | [Head of Credit Risk](#head-of-credit-risk-risk-and-model-governance-owner-banklender-segment) | Full |
 | Economic buyer (bank/lender) | [VP of Mortgage Lending](#vp-of-mortgage-lending-economic-buyer-banklender-segment) | Full |
-| Economic buyer (insurer) | [Head of Home Insurance](#head-of-home-insurance-economic-buyer-insurer-segment) | Full |
-| End user / brokerage buyer | [Broker Team Lead](#broker-team-lead-brokerage-segment-seat-based-product) | Full |
+| Economic buyer (bank-sold insurance) | [Head of Bancassurance](#head-of-bancassurance-economic-buyer-for-bank-sold-insurance) | Full |
+| End user / buyer at smaller banks | [Head of Advisory Network](#head-of-advisory-network-branch-and-advisor-lead-smaller-banks) | Full |
 | Technical evaluator | [Data & CRM Lead](#data--crm-lead-technical-evaluator) | Full |
 | IT/security reviewer | [IT Security Lead](#it-security-lead-infrastructure-gatekeeper) | Full |
 | Procurement / compliance | [Vendor Risk & Compliance Reviewer](#vendor-risk--compliance-reviewer) | Shorter — mostly procedural |
@@ -79,63 +79,63 @@ A deal rarely has one persona in the room — it has several, often with real te
 
 **Where they spend time:** Mortgage/lending trade publications, LinkedIn, regional banking associations.
 
-**Seen in this repo:** [Meridian Savings](../knowledge-base/sales-call-analysis/call-02-meridian-savings.md) (Julia Hoffmann — the split-committee dynamic with Credit Risk, explicitly acknowledged mid-call), [Delta Mortgage Partners](../knowledge-base/sales-call-analysis/call-07-delta-mortgage-partners.md) (Sophie Larsen — the "instant vs. actually adopted" distinction surfacing directly against a Bricklane claim).
+**Seen in this repo:** [Meridian Savings](../knowledge-base/sales-call-analysis/call-02-meridian-savings.md) (Julia Hoffmann — the split-committee dynamic with Credit Risk, explicitly acknowledged mid-call), [Delta Mortgage Partners](../knowledge-base/sales-call-analysis/call-07-delta-mortgage-partners.md) (Sophie Larsen — the "instant vs. actually adopted" distinction surfacing directly against a Ledgerlight claim).
 
 ---
 
-## Head of Home Insurance (economic buyer, insurer segment)
+## Head of Bancassurance (economic buyer for bank-sold insurance)
 
-**Buying psychology:** Owns premium growth and retention on the home book, and knows the book is quietly drifting: rebuild costs have risen faster than sums insured, and policies lapse at renewal without anyone calling. Pragmatic, numbers-led, and wary of "AI" pitches that ignore how insurance distribution actually works (brokers, tied agents, direct).
+**Buying psychology:** Owns the insurance the bank sells to its own customers (home, contents, car, payment protection), and knows most of those customers already buy cover somewhere else, often through a direct debit the bank processes every month. Pragmatic, numbers-led, and wary of "AI" pitches that turn advisors into insurance pushers.
 
-**Measured on:** Gross written premium, renewal retention, cross-sell rate (home + contents), and exposure from underinsured properties.
+**Measured on:** Insurance attach rate per product (mortgage, car loan, current account), premiums written through the bank, advisor time spent on insurance, and complaints.
 
-**Pain, in their language:** *"Half our book was priced on rebuild values from before construction costs jumped."* *"We only learn a policyholder was unhappy when they don't renew."* *"Our agents need a reason to call, not a list."*
+**Pain, in their language:** *"We finance the car and the customer insures it somewhere else the same week."* *"We can see the premium leaving the account every month and do nothing with it."* *"Our advisors need a reason to raise insurance, not a quota."*
 
 **Decision criteria, ranked:**
-1. Evidence on their own book — a backtest showing underinsurance and lapse risk the insurer didn't already know about
-2. Property-data depth (rebuild value, construction type, energy rating) in their regions
-3. How moments reach agents and brokers, not just the head-office team
-4. Data-handling and consent fit with insurance regulation
+1. Evidence on their own book — a backtest showing which customers took cover when offered at the right moment
+2. Moments that fit how the bank sells insurance (advisor, digital journey, partner insurer)
+3. Consent and fair-treatment fit: insurance offers made because they fit, never because a score said so
+4. Integration with the partner insurer's quote flow
 
-**Common objections:** "We already have a renewal model." · "How do you know the rebuild value better than our underwriters?"
+**Common objections:** "We already send an insurance mailing with every new loan." · "Our partner insurer runs its own campaigns."
 
-**Trust triggers:** A rep who asks how distribution works at this insurer before pitching. Property evidence shown per policy, not as a portfolio average.
+**Trust triggers:** A rep who asks how the bank's insurance partnership works before pitching. Payment evidence shown per customer, not as a portfolio average.
 
-**Trust breakers:** Bank-centric language ("loans," "origination") — it moments the vendor doesn't know insurance. Reference customers who are all banks.
+**Trust breakers:** Insurer-centric language ("underwriting," "loss ratio") — it signals the vendor sells to insurers, not banks. Pushing volume over fit.
 
-**Content preferences:** A backtest on a sample of their own book, short case studies with premium and retention numbers, one-pagers for distribution leaders.
+**Content preferences:** A backtest on a sample of their own customers, short case studies with attach-rate numbers, one-pagers for distribution leaders.
 
-**Where they spend time:** Insurance trade publications, national insurance association events, LinkedIn.
+**Where they spend time:** Banking and bancassurance trade events, national banking association groups, LinkedIn.
 
 **Seen in this repo:** [Thornfield Mutual](../knowledge-base/sales-call-analysis/call-14-thornfield-mutual.md) (Grace Almeida — product case won, deal waiting on the vendor-risk queue).
 
 ---
 
-## Broker Team Lead (brokerage segment, seat-based product)
+## Head of Advisory Network (branch and advisor lead, smaller banks)
 
-**Buying psychology:** Adoption-driven — the purchase only succeeds if agents actually use it, so they weigh "will my team bother opening this" as heavily as feature fit.
+**Buying psychology:** Adoption-driven — the purchase only succeeds if advisors actually use it, so they weigh "will my advisors bother opening this" as heavily as feature fit. Usually the buyer at smaller savings banks and credit unions, where there's no separate lending or risk buyer.
 
-**Measured on:** Listing win rate, agent productivity, and — quietly — whether their last few tool purchases actually got used. A Broker Team Lead who's been burned by low adoption before will interrogate onboarding harder than price.
+**Measured on:** Advisor productivity, products per customer, and — quietly — whether their last few tool purchases actually got used. One who's been burned by low adoption before will interrogate onboarding harder than price.
 
-**Pain, in their language:** *"I've bought agent tools before that nobody used after month one."* *"I need something that tells agents who's about to sell, not another dashboard to check."* *"Half my team barely uses the advanced features of what we already have."*
+**Pain, in their language:** *"I've bought advisor tools before that nobody used after month one."* *"I need something that tells advisors who to call this week, not another dashboard to check."* *"Half my advisors barely use what's in the CRM already."*
 
 **Decision criteria, ranked:**
-1. Agent adoption / ease of use (low friction to get value in first session)
-2. Direct tie to winning listings (does a seller moment turn into a listing appointment)
-3. Price relative to per-seat value
-4. Onboarding/support quality
+1. Advisor adoption / ease of use (value in the first session)
+2. A direct tie to conversations that end in a product (does a moment turn into an appointment)
+3. Price relative to the number of customers analysed
+4. Onboarding and support quality
 
-**Common objections:** "How is this different from what's built into our CRM already?" · "What's the learning curve for a non-technical agent?"
+**Common objections:** "How is this different from the campaign lists our CRM already makes?" · "What's the learning curve for an advisor who isn't technical?"
 
-**Trust triggers:** A rep who asks about the team's actual tech-comfort spread rather than assuming uniform ease of adoption. A referral from another brokerage with a specific, credible outcome (not a generic testimonial).
+**Trust triggers:** A rep who asks about the advisors' actual tech-comfort spread rather than assuming uniform ease of adoption. A referral from another small bank with a specific, credible outcome (not a generic testimonial).
 
-**Trust breakers:** A rep pushing a full-team rollout before adoption risk has been addressed. Feature-first pitches that don't address who on the team will actually open the tool.
+**Trust breakers:** A rep pushing a network-wide rollout before adoption risk has been addressed. Feature-first pitches that don't address who will actually open the tool.
 
-**Content preferences:** Short demo videos, agent testimonials, simple one-pagers — not whitepapers.
+**Content preferences:** Short demo videos, advisor testimonials, simple one-pagers — not whitepapers.
 
-**Where they spend time:** Real estate industry Facebook/LinkedIn groups, brokerage conferences, YouTube (agent-focused channels).
+**Where they spend time:** Savings-bank and credit-union association events, LinkedIn groups, YouTube (product walkthroughs).
 
-**Seen in this repo:** [Riverton Brokers](../knowledge-base/sales-call-analysis/call-04-riverton-brokers.md) (Tomas Reyes — adoption risk correctly identified as the real question, not the mobile feature gap itself), [Harborlight Brokerages](../knowledge-base/sales-call-analysis/call-12-harborlight-brokerages.md) (Dana Whitfield — a case where the rep correctly talked *out of* a low-value deal), [Copperfield Estates](../knowledge-base/sales-call-analysis/call-15-copperfield-estates.md) (Owen Marsh — a warm-referral case where adoption risk was already resolved by someone else's track record).
+**Seen in this repo:** [Riverton Savings Bank](../knowledge-base/sales-call-analysis/call-04-riverton-savings-bank.md) (Tomas Reyes — adoption risk correctly identified as the real question, not the mobile feature gap itself), [Harborlight Credit Union](../knowledge-base/sales-call-analysis/call-12-harborlight-credit-union.md) (Dana Whitfield — a case where the rep correctly talked *out of* a low-value deal), [Copperfield Sparkasse](../knowledge-base/sales-call-analysis/call-15-copperfield-sparkasse.md) (Owen Marsh — a warm-referral case where adoption risk was already resolved by someone else's track record).
 
 ---
 
@@ -203,4 +203,4 @@ A deal rarely has one persona in the room — it has several, often with real te
 
 ## Using personas together on one deal
 
-Most real deals engage two or three of these personas at once, not one at a time — the practical skill is knowing which one is actually blocking progress at a given moment, since the answer changes across a deal's lifecycle: Data & CRM Lead early (technical validation), Head of Credit Risk and VP of Mortgage Lending (or Head of Home Insurance) in the middle (the substantive decision, often in tension with each other), then IT Security and Vendor Risk & Compliance late (gates that can kill an otherwise-won deal). Treating a late-stage IT Security objection as if it were a Head of Credit Risk objection — i.e., trying to win it on explainability — is a common, avoidable mismatch.
+Most real deals engage two or three of these personas at once, not one at a time — the practical skill is knowing which one is actually blocking progress at a given moment, since the answer changes across a deal's lifecycle: Data & CRM Lead early (technical validation), Head of Credit Risk and VP of Mortgage Lending (or Head of Bancassurance) in the middle (the substantive decision, often in tension with each other), then IT Security and Vendor Risk & Compliance late (gates that can kill an otherwise-won deal). Treating a late-stage IT Security objection as if it were a Head of Credit Risk objection — i.e., trying to win it on explainability — is a common, avoidable mismatch.

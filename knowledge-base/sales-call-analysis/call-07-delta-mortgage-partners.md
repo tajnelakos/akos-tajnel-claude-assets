@@ -15,7 +15,7 @@
 
 **Anna:** Okay. I'd rather plan around that honestly than keep pinging you every few weeks hoping something's changed. If Q4 is the real window, does it make sense to pencil in a check-in for, say, early Q4, rather than staying in a loose "we'll reach out" state?
 
-**Sophie:** Yes, that's actually more useful than the ambiguity we've been in. Can I ask — we also had a shorter conversation with Bricklane a while back, mostly around timeline. Their pitch was that implementation is nearly instant, self-serve — just plug into their data feed. Is that a real difference, or oversimplified?
+**Sophie:** Yes, that's actually more useful than the ambiguity we've been in. Can I ask — we also had a shorter conversation with Ledgerlight a while back, mostly around timeline. Their pitch was that implementation is nearly instant, self-serve — just plug into their data feed. Is that a real difference, or oversimplified?
 
 **Anna:** It's real in a narrow sense — turning on the product itself can be nearly instant, since it's fundamentally a self-serve data API. Whether that's the differentiator that matters for you depends on what "implementation" means for you specifically — is it the data feed going live, or is it the surrounding work of building moments on top of it, getting them into your CRM, validating them against your own historical data, and your advisors actually using them?
 
@@ -38,6 +38,6 @@
 ## Internal notes (rep-logged)
 
 - Deal is genuinely stalled, not lost — cause is an unrelated internal project (core banking migration) consuming bandwidth, not a competitive loss or a product objection. Correctly identified and not over-pursued.
-- Bricklane mentioned again on implementation speed — worth noting the "nearly instant" claim is narrowly true (API activation) but doesn't address the actual bottleneck (integration/validation work), which this call successfully reframed. Useful talk track to reuse: separate "tool goes live" from "team is actually using it."
+- Ledgerlight mentioned again on implementation speed — worth noting the "nearly instant" claim is narrowly true (API activation) but doesn't address the actual bottleneck (integration/validation work), which this call successfully reframed. Useful talk track to reuse: separate "tool goes live" from "team is actually using it."
 - Action: send a realistic week-by-week implementation plan now, for future reference — no urgency, but shouldn't be forgotten given the long gap until Q4.
 - Recommended cadence: single check-in scheduled for early Q4 rather than repeated premature follow-ups — good discipline, worth reinforcing as the right call for genuinely stalled-by-bandwidth deals.

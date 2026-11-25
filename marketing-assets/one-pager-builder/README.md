@@ -19,4 +19,4 @@ A skill that builds a single-page, persona-specific piece of sales collateral �
 
 ## Current limitations
 
-Only one persona/segment combination is built out (mortgage and retail lending leaders, bank and lender segment). A Head of Credit Risk, Head of Home Insurance, or Brokerage version needs its own pass with a different angle and proof set, not a find-and-replace on this one — see `skill.md`'s explicit rule against fitting two personas on one page.
+Only one persona/segment combination is built out (mortgage and retail lending leaders, bank and lender segment). A Head of Credit Risk, Head of Bancassurance, or Head of Advisory Network version needs its own pass with a different angle and proof set, not a find-and-replace on this one — see `skill.md`'s explicit rule against fitting two personas on one page.

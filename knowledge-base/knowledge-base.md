@@ -4,32 +4,34 @@ Master source of truth for every prompt, skill, and example in this repo. Every 
 
 ## Company
 
-**Seekridge** — B2B SaaS. An AI data analytics company built around customer moments that finds new business inside a client's existing customer base. It combines three data layers:
+**Seekridge** — B2B SaaS. An AI data analytics company for retail banks, built around customer moments: it finds new business and early churn inside a bank's existing customer base. It reads three data layers:
 
-1. **The client's own customer data** — shared securely from their CRM or core systems
-2. **Market data** — interest rates, prices, local market trends
-3. **External asset data** — for example property attributes and valuations, which matter for home-related products
+1. **The bank's transaction data** — current-account and card activity: salary and other income coming in, standing orders and direct debits going out, saving habits, payments to other banks and providers
+2. **The bank's CRM and product data** — products held, loan and savings terms, contact history and consent
+3. **Market data** — interest rates, competitor offers and price trends
 
-The platform turns these into **moments**: ranked, explained opportunities in customers the client already has. Delivered via API, CRM integration, and a web app, to banks and mortgage lenders, insurers, and real estate brokerages across Europe (core markets: DACH, Benelux, Nordics).
+The platform turns these into **moments**: ranked, explained opportunities in customers the bank already has. Delivered via API, CRM integration, and a web app, to retail banks and mortgage lenders across Europe (core markets: DACH, Benelux, Nordics).
 
-What a moment looks like, by segment:
+What a moment looks like:
 
-- **Banks & mortgage lenders** — a customer whose fixed rate resets soon and is likely to refinance elsewhere; a homeowner with enough equity for a top-up or renovation loan; a customer likely to move and need a new mortgage; a homeowner planning an energy renovation, ready for a green loan; a customer who has just bought a property and needs home insurance.
-- **Insurers** — a home whose rebuild value has outgrown its sum insured; a policyholder with no contents cover; a policy at high risk of not renewing.
-- **Real estate brokerages** — a homeowner in the brokerage's own contact database who is likely to sell in the next 12 months.
+- **Keep the relationship** — a customer whose salary is now partly paid into another bank, on the way to making you their secondary bank; a customer whose fixed rate ends soon while market rates are lower, likely to refinance elsewhere.
+- **Win business held elsewhere** — a mortgage, savings or loan payment going to another provider every month, ready to be brought over.
+- **Grow with the customer** — income that has risen steadily, ready for a better account, card or credit line; cash building up in the current account, ready for savings or investment; deposits and rent payments that point to a first home purchase; payments to builders and hardware stores that point to a renovation loan.
+- **Insurance as a bank product (bancassurance)** — premiums paid to another insurer every month, or a newly financed car or home with no cover, ready for the bank's own insurance offer.
+- **Care moments** — overdraft use rising month on month: a customer to help early, before arrears (fair treatment, and good risk practice).
 
-- **ICP**: mid-size regional banks and mortgage lenders with a large existing customer base and a growth or retention target on it; insurers with a home/property book; secondary ICP is real estate brokerages wanting listing leads from contacts they already have.
-- **Pricing**: platform subscription priced by the size of the customer base analysed, for banks and insurers; seat-based for the brokerage web app.
-- **Positioning**: "opportunities you can act on — and explain," i.e. every moment shows the customer and market data behind it, so advisors trust it and risk and compliance can sign off on it.
+- **ICP**: mid-size regional retail banks and mortgage lenders with a large existing customer base and a growth or retention target on it. Insurance is sold through the bank (bancassurance), not to insurers directly.
+- **Pricing**: platform subscription priced by the number of customers analysed.
+- **Positioning**: "opportunities you can act on — and explain," i.e. every moment shows the transaction, CRM and market data behind it, so advisors trust it and risk and compliance can sign off on it.
 
 ## Competitors
 
 | Competitor | Angle |
 |---|---|
-| **Bricklane Data** | Cheaper, faster property data and valuation API; no customer-data layer and no explanations — sells on speed and price, leaves the moment-building to the buyer |
-| **Estemate** | Legacy property-data incumbent, strong in France/Benelux, deep historical data, dated UI, slow release cycle |
-| **ValuAI** | Well-funded new entrant, leads with "AI-native" propensity scoring, thin on property data depth and regulatory controls |
-| **PropIQ** | Brokerage-focused seller-lead tool, doesn't really compete for bank/insurer deals but comes up in brokerage deals |
+| **Ledgerlight** | Cheaper, faster transaction-categorisation and enrichment API; no moments and no explanations — sells on speed and price, leaves the moment-building to the bank |
+| **Kontora** | Legacy banking-analytics and campaign-management incumbent, strong in DACH and Benelux, deep core-banking integrations, dated UI, slow release cycle |
+| **Propensa** | Well-funded new entrant, leads with "AI-native" next-best-offer propensity scoring, thin on explanations and regulatory controls |
+| **Nudgely** | In-app money-insights widget sent straight to the bank's end customers; competes for the digital-banking budget rather than the advisor-led one, and comes up mainly in digital-first banks |
 
 Derived: full battlecards, positioning gaps, and objection handling → [`competitive-landscape.md`](./competitive-landscape.md)
 
@@ -37,8 +39,9 @@ Derived: full battlecards, positioning gaps, and objection handling → [`compet
 
 - **Head of Credit Risk** (bank risk and model-governance owner) — signs off any model that decides which customers get an offer. Cares about explainability, fair treatment, and audit trail. Skeptical of "black box AI" claims.
 - **VP of Mortgage Lending** (bank economic buyer) — cares about growing and retaining the mortgage book, and about integration effort.
-- **Head of Home Insurance** (insurer economic buyer) — cares about premium growth, renewal retention, and underinsurance in the book.
-- **Broker Team Lead** (brokerage buyer) — cares about agent adoption and how moments turn into listings.
+- **Head of Bancassurance** (bank economic buyer for insurance) — cares about insurance attach rates, premiums placed with other insurers, and advisor time.
+- **Data & CRM Lead** (technical evaluator) — cares about data access, integration effort and whether the method holds up.
+- **Head of Advisory Network** (buyer at smaller savings banks and credit unions) — cares about advisor adoption and whether moments turn into appointments.
 
 Derived: full buying psychology, objections, content preferences → [`personas.md`](./personas.md)
 

@@ -15,7 +15,7 @@ The site is a record, not a verdict. It never says what a move means for Seekrid
 
 ## Steps
 
-1. **Confirm scope.** Region (DACH, Benelux or Nordics), the two-month window (e.g. 1 Sep – 31 Oct 2026), and the competitor list for that region. Each region tracks the competitors that matter there: the battlecard competitors that sell in it, plus local players (e.g. Kantora in Switzerland, Norrvakt in Norway).
+1. **Confirm scope.** Region (DACH, Benelux or Nordics), the two-month window (e.g. 1 Sep – 31 Oct 2026), and the competitor list for that region. Each region tracks the competitors that matter there: the battlecard competitors that sell in it, plus local players (e.g. Sentiro in Switzerland, Norrvakt in Norway).
 2. **Research the window only.** Company press releases, pricing pages, official blogs, commercial registers, LinkedIn announcements, industry news. Do not reach back before the window to fill a quiet company.
 3. **Verify every item.** An item without a source is not an item. If two sources support one claim, cite both. State a competitor's own figures as their claims.
 4. **Write each company in the same order:**

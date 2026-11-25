@@ -7,8 +7,8 @@ Seekridge's wording rules ([`../design-system/writing.md`](../design-system/writ
 | Rule | On a carousel | Do | Don't |
 |---|---|---|---|
 | Name one reader's situation | One persona per carousel; the cover names their situation or a fact | "Which customers will refinance elsewhere?" | "Discover the Seekridge platform" |
-| Mechanism, not adjective | Each slide names what the product does, checks or shows | "Shows the rate reset, the equity and the market behind each moment" | "Transparent, AI-powered insights" |
-| Explain any AI claim | Say what the model combines and that each weight is shown, or leave AI out | "Combines the rate end date, equity and local prices, and shows each weight" | "Powered by advanced AI" |
+| Mechanism, not adjective | Each slide names what the product does, checks or shows | "Shows the rate reset, the salary moving and the market behind each moment" | "Transparent, AI-powered insights" |
+| Explain any AI claim | Say what the model combines and that each weight is shown, or leave AI out | "Combines the rate end date, the salary moving elsewhere and local rates, and shows each weight" | "Powered by advanced AI" |
 | Benefit, then feature | The heading says what the reader can now do; the feature name goes in the eyebrow or the caption | Heading: "The reason, written from the evidence" · eyebrow: "Evidence Trail" | Heading: "Evidence Trail now has reason lines" |
 | One idea per slide | One claim, one figure or one screenshot | "One lender, one year, one product." | A claim, a figure and a screenshot on one slide |
 | Lead with the claim | The first words on a slide carry the point | "Credit scoring is high-risk AI." | "In today's regulatory landscape…" |
@@ -50,8 +50,8 @@ When a line doesn't fit, cut words before you change the style. Step down a styl
 - **Seekridge**: one word, capital P only, never with an article ("Seekridge backtests every moment model").
 - **Feature names** are literal and capitalised as names: Evidence Trail, Coverage Map. No article in English; German and Dutch use one ("der Evidence Trail", "de Coverage Map").
 - **Tiers** (Base, Ridge, Summit) appear only on pricing posts.
-- **The three data layers** are always named in this order and these words: property data, market data, customer data. The icons follow the same order: property, market, customer.
-- **Terms**: moment (not lead, insight or alert) · evidence trail (not explainability report) · audit log (not activity feed) · customer base (not database) · valuation, as one data point inside a moment (not appraisal or estimate) · bank, lender, insurer or brokerage (not client) · automated valuation model (AVM), spelled out on first use or left for the caption.
+- **The three data layers** are always named in this order and these words: transaction data, customer data, market data. The icons follow the same order: transaction, customer, market.
+- **Terms**: moment (not lead, insight or alert) · evidence trail (not explainability report) · audit log (not activity feed) · customer base (not database) · name the transaction data point ("salary now split with another bank", not "spending behaviour") · bank or lender (not client).
 
 ## Case
 
@@ -73,7 +73,7 @@ Sentence case, always, with no exceptions for covers, eyebrows or buttons: "New 
 | 10000 and above | 10,000 | 10.000 | 10’000 | 10.000 | 10 000 | 10.000 | 10 000 |
 | Decimals | 6.1% | 6,1 % | 6.1% | 6,1% | 6,1 % | 6,1 % | 6,1 % |
 | Currency | EUR 412,500 | EUR 412.500 | CHF 412’500 | EUR 412.500 | SEK 4 125 000 | DKK 4.125.000 | NOK 4 125 000 |
-| Address form | you | Sie | Sie | u (banks), je (brokers) | du | du | du |
+| Address form | you | Sie | Sie | u | du | du | du |
 | Spelling | Oxford | Duden | Duden (ss for ß) | Groene Boekje | SAOL | Retskrivningsordbogen | Bokmålsordboka |
 
 - Use typographic apostrophes and quotes (’ “ ” „ «), the en dash for ranges and the ellipsis character (…). Non-breaking spaces before % in German and the Nordics, and inside Nordic thousands.
@@ -86,7 +86,7 @@ Sentence case, always, with no exceptions for covers, eyebrows or buttons: "New 
 - German: neutral forms first (*Kundschaft*, *Mitarbeitende*, *Beratende*), otherwise *Kund:innen*. Never plain *Kunden* for a generic group.
 - Dutch: *klanten* and *adviseurs* are already neutral; avoid *hij* for a generic advisor.
 - Nordic languages: neutral nouns (*kund*, *kunde*), *hen* in Swedish only where the post's voice allows it.
-- A named speaker or a story character may have a gender. A generic advisor, broker, customer or policyholder may not.
+- A named speaker or a story character may have a gender. A generic advisor, customer or account holder may not.
 
 ## Common corrections
 

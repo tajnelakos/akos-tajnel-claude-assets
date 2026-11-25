@@ -21,7 +21,7 @@
   </g>
   <g>
     <rect x="584" y="88" width="304" height="84" rx="8" fill="#f9f9f7" stroke="#e1e0d9"/>
-    <text x="604" y="122" font-size="18" font-weight="700" fill="#0b0b0b">Bricklane Data</text>
+    <text x="604" y="122" font-size="18" font-weight="700" fill="#0b0b0b">Ledgerlight</text>
     <text x="604" y="145" font-size="12" fill="#52514e">Most frequent losing competitor (13 deals)</text>
   </g>
 
@@ -79,7 +79,7 @@
   <!-- Takeaway strip -->
   <rect x="32" y="440" width="856" height="140" rx="8" fill="#f9f9f7" stroke="#e1e0d9"/>
   <text x="52" y="466" font-size="13" font-weight="700" fill="#0b0b0b">What this means for product marketing</text>
-  <text x="52" y="492" font-size="12" fill="#52514e">1. Price objections (38% of losses) cluster in deals against Bricklane — sales needs an ROI/TCO framing, not a price-match, since</text>
+  <text x="52" y="492" font-size="12" fill="#52514e">1. Price objections (38% of losses) cluster in deals against Ledgerlight — sales needs an ROI/TCO framing, not a price-match, since</text>
   <text x="52" y="510" font-size="12" fill="#52514e">    matching their price undercuts our explainability positioning.</text>
   <text x="52" y="532" font-size="12" fill="#52514e">2. "No on-prem option" is newly the #2 loss reason (was #4 last quarter) — worth flagging to product as a recurring blocker,</text>
   <text x="52" y="550" font-size="12" fill="#52514e">    not a one-off request.</text>

@@ -65,7 +65,7 @@
 .pw-stat__meta{font-size:14px;line-height:20px;color:var(--ink-muted);margin:0}
 .pw-stat__source{margin-top:var(--space-3)}
 
-/* Valuation summary */
+/* Moment summary with evidence weights */
 .pw-val{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-md);overflow:hidden}
 .pw-val__head{display:flex;justify-content:space-between;gap:var(--space-4);align-items:flex-start;padding:var(--space-5);border-bottom:1px solid var(--line)}
 .pw-val__value{font:800 40px/44px var(--font-display);font-variant-numeric:tabular-nums;margin:var(--space-1) 0}

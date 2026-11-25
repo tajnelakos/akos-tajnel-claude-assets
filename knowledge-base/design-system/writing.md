@@ -20,7 +20,7 @@ Confident and specific, never hyped. The audience is technically skeptical and r
 |---|---|---|
 | Name the persona's problem | "Which of your customers will refinance elsewhere this quarter?" | "Discover our new platform" |
 | Mechanism, not adjective | "Every moment shows the 6 data points behind it and how much each counted" | "Robust, transparent insights" |
-| Explain any AI claim | "The model combines the rate-reset date, equity and local price trend, and shows each weight" | "Powered by advanced AI" |
+| Explain any AI claim | "The model combines the rate-reset date, salary payments moving elsewhere and local rates, and shows each weight" | "Powered by advanced AI" |
 | Benefit, then feature | "Know which customers to call this month, and why" | "Moment scoring with Evidence Trail" |
 | One term per idea | "moments" throughout | "moments", then "leads", then "alerts" |
 | Precise CTAs | "Run a backtest on your own customer base" | "Learn more" |
@@ -49,7 +49,7 @@ Confident and specific, never hyped. The audience is technically skeptical and r
 - **Seekridge**: one word, capital P only, no article ("Seekridge backtests every moment model", not "The Seekridge…").
 - **Feature names** are literal and capitalised as names: Evidence Trail, Coverage Map. In running text they take no article in English ("Evidence Trail shows…"); German and Dutch use articles.
 - **Tiers:** Base, Ridge, Summit. Only for pricing.
-- **Terminology:** moment (not lead, insight or alert) · evidence trail (the data points behind a moment; not explainability report) · audit log (the record of what was done with a moment; not activity feed) · customer base (not database or leads) · property data, market data, customer data (not big data or data lake) · valuation, as one data point inside a moment (not appraisal or estimate) · bank, lender, insurer or brokerage (not client, in product copy) · CRM · automated valuation model (AVM), spelled out on first use.
+- **Terminology:** moment (not lead, insight or alert) · evidence trail (the data points behind a moment; not explainability report) · audit log (the record of what was done with a moment; not activity feed) · customer base (not database or leads) · transaction data, customer data, market data (not big data or data lake) · name the transaction data point ("salary now split with another bank", not "spending behaviour") · bank or lender (not client, in product copy) · CRM.
 - **Competitors** are named only in battlecards and internal material, never in public content.
 
 ## Case
@@ -73,7 +73,7 @@ Sentence case for every title, heading, button, label, cover and caption: "Evide
 | 10000 and above | 10,000 | 10.000 | 10’000 | 10.000 | 10 000 |
 | Decimals | 6.1 | 6,1 | 6.1 | 6,1 | 6,1 |
 | Currency | EUR 412,500 | EUR 412.500 | CHF 412’500 | EUR 412.500 | SEK 4 125 000 |
-| Address form | you | Sie | Sie | u (formal) or je (brokers) | du |
+| Address form | you | Sie | Sie | u (formal) | du |
 
 - English is **UK English** (Oxford spelling: "organisation", "analyse").
 - Localise rather than translate: German and Dutch run 20–30% longer. On fixed canvases, step down a type size rather than tightening margins.
@@ -82,14 +82,14 @@ Sentence case for every title, heading, button, label, cover and caption: "Evide
 
 - English: *they / their* for generic people ("If an advisor needs the evidence, they can open it from the moment").
 - German: neutral forms first (*Kundschaft*, *Mitarbeitende*), otherwise *Kund:innen*.
-- Never gender a generic advisor, broker, customer or policyholder.
+- Never gender a generic advisor, customer or account holder.
 
 ## Product copy
 
 - **Buttons:** verb + object, sentence case: "Push to CRM", "View evidence", "Export audit log". Never "Submit" or "Click here".
-- **Errors:** what happened, then what to do: "We couldn't match 214 customer records to a property. Check the address fields in your CRM export." Never blame the user; never only a colour.
+- **Errors:** what happened, then what to do: "We couldn't match 214 customer records to their accounts. Check the customer ID field in your CRM export." Never blame the user; never only a colour.
 - **Empty states:** say what will appear and how to get it: "No moments yet. Connect your CRM to analyse your customer base."
-- **Confidence and limits are shown, not hidden:** "Limited evidence: no recent sales within 2 km of this property."
+- **Confidence and limits are shown, not hidden:** "Limited evidence: under three months of transactions on this account."
 
 ## Rewriting a draft
 

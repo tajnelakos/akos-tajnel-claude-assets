@@ -25,7 +25,7 @@ Every vendor that scores a bank's customers says its output is "AI-powered." Tha
 
 ## The question that actually separates vendors
 
-A score is not an answer. It's a number attached to a customer, with no visibility into which data points produced it or how much each counted. An evidence trail is a different claim entirely: the specific property, market, and customer data behind this one moment, with their weighting shown — something an auditor, or a skeptical internal risk committee, can actually inspect.
+A score is not an answer. It's a number attached to a customer, with no visibility into which data points produced it or how much each counted. An evidence trail is a different claim entirely: the specific transaction, customer and market data behind this one moment, with their weighting shown — something an auditor, or a skeptical internal risk committee, can actually inspect.
 
 ## What happens when you ask "why, specifically"
 
@@ -46,6 +46,6 @@ Sourced from: sales-call-analysis/call-03-court-street-lending.md (the reference
 Named account or competitor in draft: No — "a well-funded, AI-native competitor" and "a recent competitive evaluation" stand in for the real names used internally in competitive-landscape.md and the call transcript.
 ```
 
-## Why the draft never says "Court Street Lending" or "ValuAI"
+## Why the draft never says "Court Street Lending" or "Propensa"
 
 Internally, this repo names both freely — [`competitive-landscape.md`](../../knowledge-base/competitive-landscape.md) and the call transcript are sales intelligence, not public content. A blog post is a different exposure level: naming a real prospect's specific evaluation call, even in a fictional-company context, models a genuine confidentiality problem, and naming a specific competitor in public marketing carries legal/reputational exposure that an internal battlecard doesn't. `skill.md`'s rule 4 exists specifically so this generalization happens by default, not as an afterthought a reviewer has to catch.
