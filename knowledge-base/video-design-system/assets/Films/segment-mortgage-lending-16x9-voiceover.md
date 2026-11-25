@@ -1,6 +1,6 @@
 # Voice-over: Segment story · Mortgage lending (50.2 s)
 
-The script for [`segment-mortgage-lending-16x9.mp4`](./segment-mortgage-lending-16x9.mp4), ready to paste into ElevenLabs. The film now ships **silent, with the same lines burnt in as captions** (and in the `.srt`): the earlier offline draft voice (Kokoro, *bf_emma*) read the old property-based script, so it was removed rather than left out of step with the picture. "Starts" and "Target length" below are timed to the captions. Once the ElevenLabs audio exists, the scenes are re-timed to the measured lines and the track is added with `-c:v copy` (film book, sections 7 and 10).
+The script for [`segment-mortgage-lending-16x9.mp4`](./segment-mortgage-lending-16x9.mp4), ready to paste into ElevenLabs. The film now ships **silent, with the same lines burnt in as captions** (and in the `.srt`): the earlier offline draft voice (Kokoro, *bf_emma*) read an earlier script, so it was removed rather than left out of step with the picture. "Starts" and "Target length" below are timed to the captions. Once the ElevenLabs audio exists, the scenes are re-timed to the measured lines and the track is added with `-c:v copy` (film book, sections 7 and 10).
 
 **Voice brief.** One calm, measured UK English voice: a precise peer talking to a Head of Retail Banking, not an announcer. No smile on the figures, no lift at the ends of lines, and silence where the table says so. Order of the film: value (your customers already have plans) → benefit (reach out with the right offer at the right time: a mortgage for a customer who is ready, a switch offer for a mortgage held elsewhere, a deposit savings plan for a customer saving for a first home) → feature (your transactions, savings and AI-agent conversations read alongside market data, the evidence trail, the ranked CRM queue).
 
@@ -23,7 +23,7 @@ The script for [`segment-mortgage-lending-16x9.mp4`](./segment-mortgage-lending-
 **If a line runs long.** Don't speed it up. Send the WAVs: the scene is lengthened to fit the line (and the caption re-timed), or the line is shortened in both the script and the captions together. Captions must keep matching what is said.
 
 **On screen at the same time (not to be read aloud):**
-- **Headlines:** *Your next mortgages are already in your data.* · *Your customers have plans. You just can't see them yet.* · *Your data. Our data. One clear moment.* · *They're ready to buy. Be their first call.* · *Their mortgage is elsewhere. Bring it home.* · *Saving for a first home. Help them get there.* · *Call the right customers. Before anyone else does.* · *Run a test on your own data. See your next mortgages.*
+- **Headlines:** *Your next mortgages are in your data.* · *Your customers have plans. You just can't see them yet.* · *Your data. Our data. One clear moment.* · *They're ready to buy. Be their first call.* · *Their mortgage is elsewhere. Bring it home.* · *Saving for a first home. Help them get there.* · *Call the right customers. Before anyone else does.* · *Run a test on your own data. See your next mortgages.*
 - **Action:** *Run a backtest on your own data*
 
 The voice-over never reads a headline word for word.

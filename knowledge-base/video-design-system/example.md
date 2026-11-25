@@ -19,7 +19,7 @@ moment enough to act on it, so not a Walkthrough; one persona and one situation,
 
 | Time        | Beat      | Headline                                          | On screen                                                                 | Chapter   |
 |-------------|-----------|---------------------------------------------------|---------------------------------------------------------------------------|-----------|
-| 0.0–5.0 s   | TitleCard | They just started sending money elsewhere.        | Navy; the dot map moves in, peaks rise, gold point lands; lockup; eyebrow DEPOSITS & SAVINGS · DACH | — |
+| 0.0–5.0 s   | TitleCard | Their savings just started to leave.        | Navy; the dot map moves in, peaks rise, gold point lands; lockup; eyebrow DEPOSITS & SAVINGS · DACH | — |
 | 5.0–10.0 s  | Tension   | By the time anyone notices, **it's gone.**        | Wipe to Paper; Timeline: First transfer out 2026-06-02 → Today → Balance moved elsewhere (marked) | Situation |
 | 10.0–16.0 s | Layers    | Three layers. **One customer.**                   | LayerStack: transactions, customer, market chips → node "Money starting to leave" | Situation |
 | 16.0–21.5 s | Moment    | One moment, ranked **third.**                     | MomentCard: Money starting to leave · 40-1187 · rank counts to 3 / 212 · two evidence rows | Moment |
