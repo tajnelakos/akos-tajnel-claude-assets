@@ -1,41 +1,41 @@
 # Sample output
 
-The rendered one-pager: [`one-pager-vp-mortgage-lending.html`](./one-pager-vp-mortgage-lending.html) ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/one-pager-builder/one-pager-vp-mortgage-lending.html)).
+The rendered one-pager: [`one-pager-retail-lending.html`](./one-pager-retail-lending.html) ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/one-pager-builder/one-pager-retail-lending.html)).
 
 ---
 
 ## Input
 
-> Build a one-pager for mortgage lending leaders (VP of Mortgage Lending persona), bank and lender segment.
+> Build a one-pager for mortgage and retail lending leaders at banks. Topic: four moments — refinancing of mortgages held at other banks, new home purchase intent, renovation intent, and new properties that need home insurance.
 
 ## Output
 
 ```
-## One-Pager — VP of Mortgage Lending, Bank/Lender
+## One-Pager — Mortgage and retail lending leaders, Bank/Lender
 
-**Positioning angle used:** positioning.md's Mortgage lending row: "Know which customers to call this month, and why, before a competitor does."
-**Format:** designed front-and-back A4 leaflet in HTML (prints as two pages) — see one-pager-vp-mortgage-lending.html
+**Positioning angle used:** positioning.md's Mortgage lending row ("Know which customers to call this month, and why, before a competitor does"), widened to the four moments in knowledge-base.md.
+**Format:** front-and-back A4 leaflet in HTML (prints as two pages) — see one-pager-retail-lending.html
 
-**Headline:** Find the peaks in your mortgage book.
-**Subhead:** Thousands of customers, and every month a handful about to refinance elsewhere, borrow more or move. Seekridge finds them in your own data, months ahead, and puts them in your advisors' CRM with the reason attached.
-**Illustration:** the brand dot map, with the three mortgage moments labelled as peaks (rate reset in gold, as the one to act on now).
+**Headline:** Find the peaks in your customer base.
+**Subhead:** Every month, some of your customers get ready to refinance, buy a home, renovate or insure a new property. Seekridge spots those moments in your own data, months ahead, and puts each one in your advisors' CRM with the reason attached.
+**Illustration:** the brand dot map with the four moments labeled as peaks; refinancing from another bank is the gold one.
 
-**Value → benefit → feature:**
-1. Keep more loans at rate reset → advisors call months before the fixed rate ends → rate-reset moments, ranked by likelihood to refinance elsewhere.
-2. Grow lending to customers you have → top-up, renovation and moving demand shows up before the customer asks another bank → property and market data joined to the CRM.
-3. A list advisors actually work → they believe it, so they call; Credit Risk approves the approach once → an evidence trail on every moment, delivered as a CRM task.
+**Front — four moments, each as value → benefit → feature:**
+1. Refinancing elsewhere → Win the mortgages held at other banks → call before their fixed rate ends at another bank → spots payments to another lender and estimates when the fixed period ends.
+2. Buying a home → Be the first bank they ask for a mortgage → reach them while they're still searching → purchase intent from savings, life stage and the local market.
+3. Renovating → Fund the renovation before it starts → offer a renovation or green loan while the work is planned → home age, energy rating, equity and renovation activity nearby.
+4. New property → Insure the new home from day one → offer home insurance when the property is acquired → purchase payments and land-register updates.
 
-**Front:** the header, a product screenshot (this week's ranked moments) over the band, three backtest numbers (68% of top-ranked customers refinanced elsewhere within 6 months, 7× the 9% book average, ~4 months of warning — illustrative, from the product's backtest report), and the value → benefit → feature cards.
-**Back:** a rate-reset timeline (flagged months ahead vs. finding out at redemption), six product features with icons beside a moment's evidence trail, the four-step rollout, and the CTA.
-**CTA:** Bring last year's lost refinancings. We'll show which of them we would have flagged, and how many months earlier. → Book a backtest on your book.
+**Back:** a timeline for the refinancing moment ("Call before their bank does"), how it works in three steps beside an example moment card, the four-step rollout, and the CTA.
+**CTA:** See the moments in your own customer base. → Book a live test.
 
 ---
-Sourced from: positioning.md (Mortgage lending segment row) · personas.md, VP of Mortgage Lending (measured on retention at rate reset, new lending to existing customers, advisor productivity; pains "we find out when the redemption request arrives" and "advisors ignore half the lists"; trust trigger: a real implementation timeline that separates go-live from adoption; won't sell the risk case internally) · competitive-landscape.md (implementation in weeks; method backtested on the client's own data)
+Sourced from: positioning.md (Mortgage lending row) · knowledge-base.md (moment types for banks and lenders, insurers) · personas.md, VP of Mortgage Lending (measured on retention and new lending; trust trigger: a real rollout plan that separates go-live from adoption; won't sell the risk case internally) · competitive-landscape.md (implementation in weeks; backtests on the client's own data). Data points and weights on the cards are illustrative.
 ```
 
 ## Why it's built this way
 
-- **One persona, one angle.** This targets the VP of Mortgage Lending, who is measured on growth and retention, not audits, so the page leads with keeping loans and growing lending. The explainability point is there only as it helps this buyer: advisors trust the list, and risk signs off once without the VP having to make that case.
-- **Value before feature.** Each column starts with the outcome the VP is measured on, then what changes for the team, then the feature that makes it happen, so the page reads in this buyer's language rather than ours.
+- **One audience, one promise.** Every block answers the same question for a lending leader: which customers to call, and why, before another bank does.
+- **Value first.** Each moment card leads with the business outcome, then what changes for advisors, then the data that makes it possible, so the page reads in the buyer's language.
+- **Show the evidence, not a dashboard.** Instead of a full-screen product screenshot, each card shows the three data points behind its moment, and the back shows one moment as an advisor would see it.
 - **The rollout is a trust trigger, not filler.** This persona has been burned by "instant" claims; four named steps that separate going live from advisors using it answer that directly.
-- **The CTA is a backtest on their own book**, because "what's the actual uplift on our customers?" is this persona's standing objection.
