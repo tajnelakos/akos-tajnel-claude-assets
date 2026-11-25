@@ -42,7 +42,7 @@ Everything here is built around **[Seekridge](./knowledge-base/knowledge-base.md
 
 | Folder | What it does | Formats |
 |---|---|---|
-| [`competitor-monitoring/`](./sales-tools/competitor-monitoring) | A structured weekly brief, plus a sourced [bi-monthly deep-dive](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/competitor-monitoring/bi-monthly-report-2026-07-08.html) | Claude Skill, Custom GPT |
+| [`competitor-monitoring/`](./sales-tools/competitor-monitoring) | A structured weekly brief, plus a sourced, region-by-region [competitor analyses site](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/competitor-monitoring/competitor-analyses.html) (DACH, Benelux, Nordics) | Claude Skill, Custom GPT |
 | [`battlecard/`](./sales-tools/battlecard) | A designed, rep-facing HTML battlecard per tracked competitor | Claude Skill |
 | [`abm-account-brief/`](./sales-tools/abm-account-brief) | Synthesizes the whole knowledge base into a one-page brief for a named target account | Claude Skill, Custom GPT |
 | [`icp-buying-moment-monitor/`](./sales-tools/icp-buying-moment-monitor) | Scores raw account triggers against ICP criteria into a prioritized watch list | Claude Skill |

@@ -47,7 +47,7 @@
 
 ## Internal notes (rep-logged)
 
-- ValuAI confirmed as active, named competitor at a Tier 2 account — first live confirmation that the July 2026 GA announcement is actually reaching deals, not just industry press (see [`competitor-monitoring/bi-monthly-report-2026-07-08.md`](../../sales-tools/competitor-monitoring/bi-monthly-report-2026-07-08.md)).
+- ValuAI confirmed as active, named competitor at a Tier 2 account — first live confirmation that the July 2026 GA announcement is actually reaching deals, not just industry press (see the Jul–Aug 2026 edition of [`competitor-analyses.html`](../../sales-tools/competitor-monitoring/competitor-analyses.html)).
 - Important: ValuAI's rep could not name a reference customer for the explanation feature specifically when asked — matches the "1 named reference, unproven at scale" framing in [`battlecard/valuai.html`](../../sales-tools/battlecard/valuai.html); this is now a second independent data point for that claim, not just battlecard theory.
 - Objection surfaced: vendor stability / company size at a larger (Tier 2) account — not previously documented as a recurring objection; worth flagging to `competitive-landscape.md` as a pattern to watch at the higher tier.
 - Strong move: got a live evidence-trail demo run on a real customer record mid-call, which the prospect explicitly said exceeded expectations — worth encouraging as a standard tactic, not an improvisation.

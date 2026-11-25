@@ -1,6 +1,6 @@
 /* Seekridge report site
    The shared look for every outward-facing page: battlecards, case studies, one-pagers,
-   Competitive Pulse, call, win/loss, campaign and compliance reports, and the showcases.
+   call rollup, win/loss and campaign reports, the competitor analyses masthead, and the showcases.
    Pattern: a flat Navy masthead (lockup bar with nav pills, a bold hero, fact pills) with the
    dot-map shown as its own smaller tile on the right; then 16px-radius cards lifted over the band.
    Load it AFTER a page's own <style>. It re-points the page's own variables to brand tokens. */
@@ -170,7 +170,7 @@ code { font-family: var(--font-mono); background: var(--surface-2); border: 1px 
 @media (max-width: 560px) { .sr-battle .pillars { grid-template-columns: 1fr; } .sr-nav { justify-content: flex-start; } }
 @media print { .sr-mast, .sr-foot, .fw-win, .quote { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
 
-/* ================= Reports (Competitive Pulse, call rollup, win/loss, compliance, campaigns) ================= */
+/* ================= Reports (call rollup, win/loss, campaigns) ================= */
 .sr-report.page { max-width: 1040px !important; margin: 0 auto !important; padding: 0 24px !important; box-sizing: border-box; }
 .sr-report .panel, .sr-report > section { border-radius: var(--r-lg) !important; border: 1px solid var(--line) !important; background: var(--surface); }
 .sr-report .panel h2, .sr-report > section h2 { font-family: var(--font-display); font-weight: 800; letter-spacing: -.01em; }
@@ -186,3 +186,75 @@ footer.sr-foot { flex-direction: row !important; align-items: center !important;
   border-top: 0 !important; max-width: none !important; width: auto !important; font-size: 12px !important; color: rgba(244,243,239,.72) !important; gap: 16px !important; }
 header.sr-mast nav, header.sr-mast h1, header.sr-mast p { max-width: none; }
 header.sr-mast .sr-mast__lede { max-width: 60ch; }
+
+/* ================= Battlecard (v2): pitch → dismiss → strengths/weaknesses → gaps → landmines → voices ================= */
+.bc { max-width: 1040px; margin: 0 auto; padding: 0 24px; box-sizing: border-box; display: flex; flex-direction: column; gap: 16px; }
+.bc-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-lg); padding: 24px 28px; }
+.bc-h { margin: 0 0 16px; font: 500 12px/16px var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--navy); display: flex; align-items: center; gap: 8px; }
+.bc-h::before { content: ""; width: 8px; height: 8px; border-radius: var(--r-xs); background: var(--navy); }
+.bc-h--gold::before { background: var(--gold); }
+.bc-h--red { color: var(--lose); } .bc-h--red::before { background: var(--lose); }
+
+/* At a glance */
+.bc-glance { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid var(--line); border-radius: var(--r-md); overflow: hidden; }
+.bc-glance > div { padding: 14px 16px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.bc-glance > div:nth-child(4n) { border-right: 0; }
+.bc-glance > div:nth-last-child(-n+4) { border-bottom: 0; }
+.bc-glance dt { font: 500 11px/14px var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 6px; }
+.bc-glance dd { margin: 0; font: 600 15px/1.35 var(--font-body); color: var(--ink); }
+.bc-glance dd small { display: block; font: 400 13px/1.4 var(--font-body); color: var(--ink-soft); margin-top: 2px; }
+.bc-glance .is-key dd { font: 800 26px/1.1 var(--font-display); letter-spacing: -.01em; }
+.bc-note { margin: 14px 0 0; display: flex; gap: 10px; align-items: baseline; font-size: 14px; line-height: 1.55; color: var(--ink-soft); }
+.bc-note b { color: var(--land); font-weight: 600; white-space: nowrap; }
+
+/* Pitch vs dismiss */
+.bc-pitch { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.bc-pitch > div { border-radius: var(--r-md); padding: 20px 22px; }
+.bc-pitch .they { background: var(--surface-2); border: 1px solid var(--line); }
+.bc-pitch .dismiss { background: var(--navy); color: var(--paper); }
+.bc-pitch .lbl { display: block; font: 500 11px/14px var(--font-mono); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 10px; color: var(--ink-faint); }
+.bc-pitch .dismiss .lbl { color: var(--gold-light); }
+.bc-pitch .they p { margin: 0; font: 600 19px/1.4 var(--font-display); color: var(--ink); }
+.bc-pitch .dismiss p { margin: 0; font-size: 15.5px; line-height: 1.6; }
+.bc-pitch .dismiss p b { color: #fff; }
+.bc-differ { margin: 16px 0 0; padding-top: 16px; border-top: 1px solid var(--line); font: 700 20px/1.4 var(--font-display); letter-spacing: -.01em; color: var(--ink); }
+.bc-differ span { color: var(--gold); }
+
+/* Paired rows: their point → our line */
+.bc-two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.bc-pairs { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.bc-pairs li { border: 1px solid var(--line); border-radius: var(--r-md); padding: 14px 16px; background: var(--surface-2); }
+.bc-pairs .pt { font: 600 15px/1.4 var(--font-body); color: var(--ink); }
+.bc-pairs .say { margin-top: 6px; padding-left: 22px; position: relative; font-size: 14px; line-height: 1.55; color: var(--ink-soft); }
+.bc-pairs .say::before { content: "→"; position: absolute; left: 0; top: 0; color: var(--gold); font-weight: 700; }
+.bc-pairs .say b { color: var(--ink); font-weight: 600; }
+
+/* Landmines */
+.bc-mines { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; counter-reset: m; }
+.bc-mines li { counter-increment: m; border-radius: var(--r-md); background: var(--surface-2); border: 1px solid var(--line); padding: 18px; font: 600 15.5px/1.45 var(--font-body); color: var(--ink); }
+.bc-mines li::before { content: counter(m, decimal-leading-zero); display: block; font: 800 28px/1 var(--font-display); color: var(--navy); margin-bottom: 10px; }
+.bc-mines li:first-child::before { color: var(--gold); }
+.bc-mines li small { display: block; margin-top: 8px; font: 400 13px/1.5 var(--font-body); color: var(--ink-soft); }
+
+/* Voices */
+.bc-quotes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.bc-quotes figure { margin: 0; border-radius: var(--r-md); padding: 18px 20px; background: var(--surface-2); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 12px; }
+.bc-quotes blockquote { margin: 0; font-size: 15px; line-height: 1.55; color: var(--ink); }
+.bc-quotes blockquote::before { content: "“"; display: block; font: 800 40px/0.6 var(--font-display); color: var(--gold); margin: 8px 0 4px; }
+.bc-quotes figcaption { margin-top: auto; font: 400 12px/16px var(--font-mono); color: var(--ink-faint); }
+.bc-quotes figcaption a { color: var(--ink-soft); }
+
+/* Don't say */
+.bc-dont { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.bc-dont li { position: relative; padding-left: 22px; font-size: 15px; line-height: 1.55; color: var(--ink-soft); }
+.bc-dont li::before { content: ""; position: absolute; left: 0; top: .5em; width: 10px; height: 2px; background: var(--lose); transform: rotate(45deg); box-shadow: 0 0 0 0 var(--lose); }
+.bc-dont li::after { content: ""; position: absolute; left: 0; top: .5em; width: 10px; height: 2px; background: var(--lose); transform: rotate(-45deg); }
+.bc-dont li b { color: var(--ink); }
+.bc-src { padding: 0 4px; font: 400 12px/18px var(--font-mono); color: var(--ink-faint); }
+.bc-src a { color: var(--ink-soft); }
+
+@media (max-width: 860px) {
+  .bc-glance { grid-template-columns: 1fr 1fr; }
+  .bc-glance > div:nth-child(4n) { border-right: 1px solid var(--line); } .bc-glance > div:nth-child(2n) { border-right: 0; }
+  .bc-pitch, .bc-two, .bc-mines, .bc-quotes { grid-template-columns: 1fr; }
+}

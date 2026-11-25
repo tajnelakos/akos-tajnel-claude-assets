@@ -1,111 +1,6 @@
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Battlecard: ValuAI</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<style>
-  :root{
-    color-scheme: light;
-    --bg:#F3F5F4; --surface:#FFFFFF; --surface-2:#F7F8F7;
-    --ink:#111827; --ink-soft:#4B5563; --ink-faint:#9CA3AF; --line:#E1E4E2;
-    --accent:#2451A8; --accent-deep:#1B3B80; --accent-bg:#EAF0FA;
-    --win:#1F7A4D; --win-bg:#EAF5EE;
-    --caution:#B33A2E; --caution-bg:#FBEAE8;
-    --land:#C17F1A; --land-bg:#FCF3E3;
-    --font-display:'Archivo', system-ui, sans-serif;
-    --font-body:'IBM Plex Sans', system-ui, -apple-system, sans-serif;
-    --font-mono:'IBM Plex Mono', 'SF Mono', Consolas, monospace;
-  }
-  @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]){
-      color-scheme: dark;
-      --bg:#14171A; --surface:#1B1F23; --surface-2:#20252A;
-      --ink:#ECEFF2; --ink-soft:#AEB6BD; --ink-faint:#6B7480; --line:#2C3238;
-      --accent:#6E9EE8; --accent-deep:#8FB3EE; --accent-bg:#1B2536;
-      --win:#4CAF7D; --win-bg:#16261D;
-      --caution:#E0796C; --caution-bg:#2A1917;
-      --land:#E0A94A; --land-bg:#2A2015;
-    }
-  }
-  :root[data-theme="dark"]{
-    color-scheme: dark;
-    --bg:#14171A; --surface:#1B1F23; --surface-2:#20252A;
-    --ink:#ECEFF2; --ink-soft:#AEB6BD; --ink-faint:#6B7480; --line:#2C3238;
-    --accent:#6E9EE8; --accent-deep:#8FB3EE; --accent-bg:#1B2536;
-    --win:#4CAF7D; --win-bg:#16261D;
-    --caution:#E0796C; --caution-bg:#2A1917;
-    --land:#E0A94A; --land-bg:#2A2015;
-  }
-
-  *{ box-sizing:border-box; }
-  body{ background:var(--bg); color:var(--ink); font-family:var(--font-body); margin:0; padding:44px 20px 90px; -webkit-font-smoothing:antialiased; }
-  .card{ max-width:760px; margin:0 auto; display:flex; flex-direction:column; gap:32px; }
-  h1,h2,h3{ font-family:var(--font-display); text-wrap:balance; margin:0; }
-  code{ font-family:var(--font-mono); background:var(--surface-2); padding:1px 6px; border-radius:3px; font-size:.9em; }
-
-  .head{ background:var(--accent); color:#fff; padding:28px 30px; display:flex; flex-direction:column; gap:16px; }
-  .vs-row{ display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
-  .vs-name{ font-family:var(--font-display); font-weight:800; font-size:clamp(24px,4.4vw,34px); letter-spacing:-.01em; }
-  .vs-sep{ font-family:var(--font-mono); font-size:14px; opacity:.75; letter-spacing:.08em; }
-  .threat-pill{ font-family:var(--font-mono); font-size:11.5px; text-transform:uppercase; letter-spacing:.06em; background:rgba(255,255,255,.16); padding:5px 11px; border-radius:20px; white-space:nowrap; }
-  .meta-row{ display:flex; gap:22px; flex-wrap:wrap; font-family:var(--font-mono); font-size:12.5px; opacity:.85; }
-  .meta-row b{ font-weight:500; opacity:1; }
-
-  .alert{ background:var(--land-bg); border:1px solid var(--land); padding:12px 16px; font-size:13.5px; line-height:1.5; }
-  .alert b{ color:var(--land); }
-
-  section{ display:flex; flex-direction:column; gap:14px; }
-  .eyebrow{ font-family:var(--font-mono); font-size:11px; text-transform:uppercase; letter-spacing:.1em; color:var(--ink-faint); }
-  .lede{ font-size:16px; line-height:1.6; color:var(--ink-soft); }
-
-  .framework{ display:flex; flex-direction:column; gap:2px; }
-  .fw-step{ display:grid; grid-template-columns:110px 1fr; gap:16px; padding:16px 18px; align-items:start; }
-  .fw-step + .fw-step{ border-top:1px solid var(--line); }
-  .fw-tag{ font-family:var(--font-mono); font-size:11px; text-transform:uppercase; letter-spacing:.08em; padding-top:2px; }
-  .fw-they{ background:var(--surface-2); }
-  .fw-they .fw-tag{ color:var(--ink-faint); }
-  .fw-reality{ background:var(--land-bg); }
-  .fw-reality .fw-tag{ color:var(--land); }
-  .fw-win{ background:var(--win-bg); }
-  .fw-win .fw-tag{ color:var(--win); }
-  .fw-text{ font-size:15px; line-height:1.55; }
-  .fw-text i{ color:var(--ink-faint); font-style:italic; }
-
-  .pillars{ display:flex; flex-direction:column; gap:10px; }
-  .pillar{ display:grid; grid-template-columns:34px 1fr; gap:14px; background:var(--win-bg); padding:14px 16px; align-items:start; }
-  .pillar-num{ font-family:var(--font-display); font-weight:800; font-size:19px; color:var(--win); }
-  .pillar-head{ font-weight:600; font-size:15px; margin-bottom:3px; }
-  .pillar-proof{ font-size:13.5px; color:var(--ink-soft); }
-
-  .questions{ display:flex; flex-direction:column; gap:0; border:1px solid var(--line); }
-  .q{ padding:14px 18px; font-size:15px; line-height:1.5; }
-  .q + .q{ border-top:1px solid var(--line); }
-  .q::before{ content:"“"; color:var(--accent); font-family:var(--font-display); font-weight:800; margin-right:2px; }
-  .q::after{ content:"”"; color:var(--accent); font-family:var(--font-display); font-weight:800; margin-left:2px; }
-
-  .objections{ display:flex; flex-direction:column; gap:14px; }
-  .objection{ display:flex; flex-direction:column; gap:6px; }
-  .obj-said{ font-size:13.5px; color:var(--ink-faint); font-style:italic; }
-  .obj-said::before{ content:"OBJECTION — "; font-style:normal; font-family:var(--font-mono); font-size:10.5px; letter-spacing:.05em; }
-  .obj-resp{ background:var(--accent-bg); padding:13px 16px; font-size:15px; line-height:1.55; border-left:3px solid var(--accent); }
-
-  .donotsay{ background:var(--caution-bg); border:1px solid var(--caution); padding:18px 20px; display:flex; flex-direction:column; gap:10px; }
-  .donotsay h2{ color:var(--caution); font-size:17px; }
-  .donotsay ul{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:9px; }
-  .donotsay li{ font-size:14.5px; line-height:1.5; padding-left:20px; position:relative; }
-  .donotsay li::before{ content:"✕"; position:absolute; left:0; color:var(--caution); font-weight:600; font-size:12px; top:3px; }
-
-  table{ width:100%; border-collapse:collapse; font-size:14px; }
-  th,td{ text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); }
-  th{ font-family:var(--font-mono); font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--ink-faint); font-weight:500; }
-  td.win{ color:var(--win); font-weight:600; }
-  td.lose{ color:var(--caution); }
-
-  footer{ border-top:1px solid var(--line); padding-top:16px; font-size:12px; color:var(--ink-faint); font-family:var(--font-mono); }
-
-  @media (max-width:520px){ .fw-step{ grid-template-columns:1fr; gap:4px; } .pillar{ grid-template-columns:26px 1fr; } }
-</style>
-<link rel="stylesheet" href="../../knowledge-base/design-system/report-theme.css">
-
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Battlecard: ValuAI · Seekridge</title>
+<link rel="stylesheet" href="../../knowledge-base/design-system/report-theme.css"></head><body>
 <header class="sr-mast">
   <div class="sr-wrap">
     <div class="sr-mast__bar">
@@ -116,109 +11,21 @@
       <div class="sr-mast__hero">
         <p class="sr-mast__eyebrow">Battlecard · Competitive intelligence</p>
         <h1 class="sr-mast__title">Seekridge<span class="vs">vs</span>ValuAI</h1>
-        <p class="sr-mast__lede">How to sell against ValuAI: what they claim, what is actually true, and the questions that win the deal.</p>
-        <div class="sr-facts"><span class="sr-fact sr-fact--hot">Threat <b>Medium-high</b></span><span class="sr-fact">Updated <b>September 2026</b></span><span class="sr-fact">Owner <b>PMM · Competitive intel</b></span><span class="sr-fact">Source <b>competitive-landscape.md</b></span></div>
+        <p class="sr-mast__lede">The fastest-moving competitor. Their explanation feature is live now, so the fight is about proof at scale, not whether it exists.</p>
+        <div class="sr-facts"><span class="sr-fact sr-fact--hot">Threat <b>Medium-high</b></span><span class="sr-fact">Updated <b>September 2026</b></span><span class="sr-fact">Head-to-head <b>8 deals, they won 0</b></span></div>
       </div>
       <figure class="sr-mast__art"><img src="../../knowledge-base/design-system/dotmap-tile.svg" alt=""></figure>
     </div>
   </div>
 </header>
-<div class="card sr-battle sr-lift">
 
-
-  <div class="alert"><b>Refreshed this cycle (outdated-checker sweep, Sep 2026):</b> ValuAI shipped their regulatory moment explanations to general availability in July 2026 (see <code>competitor-monitoring/bi-monthly-report-2026-07-08.md</code>). This card no longer claims the feature "doesn't exist" or "is still in beta" — that claim is now false and would backfire if used. New this pass: our own win-loss data shows 0 wins for ValuAI across 8 head-to-head deals since (see <a href="../../knowledge-base/win-loss-analysis/win-loss-detailed-analysis.html">win-loss deep dive</a>) — a real number, not just a talk track, but an 8-deal sample, not a permanent result.</div>
-
-  <section>
-    <div class="eyebrow">Company Overview &amp; Strategy</div>
-    <div class="lede">ValuAI is a well-funded, technology-forward challenger targeting forward-leaning banks, lenders, and insurers across Europe with propensity scoring on the client's own customer data. They lead with "AI-native" messaging and, as of this summer, have closed what was our clearest gap by shipping their own moment-explanation feature to general availability.</div>
-  </section>
-
-  <section>
-    <div class="eyebrow">Positioning Framework</div>
-    <div class="framework">
-      <div class="fw-step fw-they">
-        <div class="fw-tag">They say</div>
-        <div class="fw-text">"AI-native customer moments with regulatory explanations — now generally available."</div>
-      </div>
-      <div class="fw-step fw-reality">
-        <div class="fw-tag">Reality</div>
-        <div class="fw-text">The feature genuinely shipped — but adoption evidence is thin: one named enterprise reference customer, no independent validation at scale yet, and the explanation is a feature-importance chart rather than the named property, market, and customer data points behind each moment. Two lost deals prior to GA hit a demo-vs-contract gap on this exact feature, which is why the timing here matters.</div>
-      </div>
-      <div class="fw-step fw-win">
-        <div class="fw-tag">We win because</div>
-        <div class="fw-text">Our evidence trail has been production-hardened through real regulated-banking deployments, not launched this summer — ask for proof of scale, not just proof of existence.</div>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="eyebrow">Value Pillars &amp; Differentiators</div>
-    <div class="pillars">
-      <div class="pillar">
-        <div class="pillar-num">01</div>
-        <div><div class="pillar-head">Track record, not a recent launch</div><div class="pillar-proof">Our evidence trail has been in production through real deals, not shipped this summer — 0 wins for ValuAI in 8 head-to-head deals this period (small sample, cite carefully).</div></div>
-      </div>
-      <div class="pillar">
-        <div class="pillar-num">02</div>
-        <div><div class="pillar-head">Disclosed, scrutinizable moment-quality method</div><div class="pillar-proof">Backtested on the client's own data and open to a technical evaluator's questions, not asserted without evidence.</div></div>
-      </div>
-      <div class="pillar">
-        <div class="pillar-num">03</div>
-        <div><div class="pillar-head">Purpose-built for regulated banking and insurance</div><div class="pillar-proof">Designed around banking and insurance compliance from inception, not a general AI product retrofitted with a compliance feature.</div></div>
-      </div>
-      <div class="pillar">
-        <div class="pillar-num">04</div>
-        <div><div class="pillar-head">Proven at scale</div><div class="pillar-proof">42% win rate in Q1 among banks and lenders — explainability was the #1 cited reason for wins (34%).</div></div>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="eyebrow">Discovery / Landmine Questions</div>
-    <div class="questions">
-      <div class="q">How many customers are actually using ValuAI's moment explanations today, and for how long?</div>
-      <div class="q">Could you get a live walkthrough of why one of your own customers was flagged, not a curated demo?</div>
-      <div class="q">Is there a named reference customer who'd speak specifically to the explanations — not just to the product generally?</div>
-      <div class="q">Has anyone actually stress-tested that feature at your scale yet?</div>
-    </div>
-  </section>
-
-  <section>
-    <div class="eyebrow">Objection Handlers</div>
-    <div class="objections">
-      <div class="objection">
-        <div class="obj-said">"ValuAI's moment explanations are GA now too."</div>
-        <div class="obj-resp">It is, and it's worth taking seriously — this isn't the same conversation as six months ago. The fair question now is proof at scale: ask them for a customer reference who'll speak to it directly, and ask the same of us.</div>
-      </div>
-      <div class="objection">
-        <div class="obj-said">"ValuAI's AI-native — shouldn't they be ahead on this?"</div>
-        <div class="obj-resp">Being AI-native is a technology choice, not a regulatory outcome. What matters is whether the explanation holds up to scrutiny in production — that's a maturity question, not a technology one.</div>
-      </div>
-    </div>
-  </section>
-
-  <div class="donotsay">
-    <h2>Do-Not-Say List</h2>
-    <ul>
-      <li>Don't say ValuAI's explanation feature is "still in beta" or doesn't exist — it shipped in July 2026; repeating the old claim is exactly the kind of thing that gets fact-checked and costs credibility.</li>
-      <li>Don't imply their AI-native positioning is fake — it's a real technical approach, just not itself the differentiator anymore.</li>
-      <li>Don't overstate our own track record with a specific customer count or tenure figure that isn't independently verified.</li>
-    </ul>
-  </div>
-
-  <section>
-    <div class="eyebrow">Feature Matrix — Critical Gaps Only</div>
-    <table>
-      <tr><th></th><th>Seekridge</th><th>ValuAI</th></tr>
-      <tr><td>Evidence trail</td><td class="win">Named data points per moment, production-proven</td><td>Feature-importance chart, GA since Jul 2026 — 1 named reference, unproven at scale</td></tr>
-      <tr><td>Moment-quality method</td><td class="win">Disclosed</td><td class="lose">Claimed, not disclosed</td></tr>
-      <tr><td>On-prem deployment</td><td class="lose">No</td><td class="lose">No</td></tr>
-      <tr><td>Implementation</td><td>Weeks</td><td>Medium</td></tr>
-    </table>
-  </section>
-
-  <footer>Generated from competitive-landscape.md · battlecard/skill.md · Seekridge</footer>
-
-</div>
-
-<footer class="sr-foot"><img src="../../knowledge-base/flyer-design-system/assets/Logos/pw-mark-paper.svg" alt=""><span>Seekridge is a fictional company; every figure is illustrative.</span><span>A portfolio by Akos Tajnel</span><span><a href="https://github.com/tajnelakos/akos-tajnel-claude-assets">See the whole repo</a></span></footer>
+<main class="bc sr-lift">
+<section class="bc-card"><h2 class="bc-h">At a glance</h2><dl class="bc-glance"><div class="is-key"><dt>Head-to-head</dt><dd>0 of 8 lost<small>Q3, small sample: the gap is closing</small></dd></div><div class="is-key"><dt>Their price</dt><dd>~9% below us<small>Average quote vs our deal size</small></dd></div><div><dt>Founded</dt><dd>2022</dd></div><div><dt>Size and funding</dt><dd>~120 people<small>Series B, ~$60M</small></dd></div><div><dt>Targets</dt><dd>Forward-leaning banks and insurers, EU-wide</dd></div><div><dt>Sells through</dt><dd>Content, conferences, heavy LinkedIn</dd></div><div><dt>Buyer they reach</dt><dd>Innovation and growth leads, often before risk</dd></div><div><dt>Reviews</dt><dd>~4.1/5 on G2<small>~25 reviews. Praise: modern UI. Complaint: promised features late</small></dd></div></dl><p class="bc-note"><b>Changed Jul 2026</b><span>Moment explanations went generally available. Any old line saying the feature is missing or in beta is now false.</span></p></section>
+<section class="bc-card"><h2 class="bc-h bc-h--gold">Their pitch, and the quick dismiss</h2><div class="bc-pitch"><div class="they"><span class="lbl">They say</span><p>“AI-native customer moments, with regulatory explanations. Now generally available.”</p></div><div class="dismiss"><span class="lbl">Quick dismiss</span><p>It shipped, but <b>the explanation is a chart of which feature categories matter across the model</b>, not the property, market and customer data points behind one customer. One named reference, no proof at scale, and buyers report it thins out on commercial and mixed-use property.</p></div></div><p class="bc-differ">They show <span>what the model weighs</span>. We show <span>why this customer</span>, on the buyer’s own data, live.</p></section>
+<div class="bc-two"><section class="bc-card"><h2 class="bc-h">Where they’re strong · what to say</h2><ul class="bc-pairs"><li><div class="pt">A strong first demo and a modern UI</div><div class="say"><b>Don’t fight the demo.</b> Move the bar: “Ask them to run one moment live, on a customer your team picks.”</div></li><li><div class="pt">Live CRM integration, same as ours</div><div class="say"><b>Treat it as parity.</b> Don’t spend time on it; spend it on the evidence trail.</div></li><li><div class="pt">Now cheaper than us, ~9% on average</div><div class="say"><b>Don’t discount.</b> Price the cost of an explanation that fails an audit, not the licence.</div></li></ul></section><section class="bc-card"><h2 class="bc-h bc-h--gold">Where they’re weak · how to use it</h2><ul class="bc-pairs"><li><div class="pt">Explanation is model-level, not customer-level</div><div class="say">Ask for a customer-level breakdown in the second meeting. Buyers who pushed found the gap themselves.</div></li><li><div class="pt">Thin on commercial and mixed-use property</div><div class="say">If the book has business customers, run the live test on those records specifically.</div></li><li><div class="pt">Delivery has lagged the pitch</div><div class="say">One customer reports a longer implementation than promised. Ask for references on timelines, not just the product.</div></li></ul></section></div>
+<section class="bc-card"><h2 class="bc-h bc-h--red">Where we’re weaker · how to handle it</h2><ul class="bc-pairs"><li><div class="pt">We’re the smaller company</div><div class="say">Answer with specifics, not reassurance: data-portability terms, number of similar-sized customers live, runway if they ask.</div></li><li><div class="pt">No on-prem deployment</div><div class="say">ValuAI is cloud-only too, so it’s rarely the decider here. Raise it early if the bank has an on-prem rule.</div></li></ul></section>
+<section class="bc-card"><h2 class="bc-h bc-h--gold">Landmines to lay</h2><ol class="bc-mines"><li>“How many customers run the explanation feature live today, not just have access to it?”<small>Surfaces the one-reference problem without you saying it.</small></li><li>“Could your team pick five customers, and have each vendor show why each one was flagged?”<small>Moves the evaluation from a demo to a live test, where we win.</small></li><li>“How much of your book is commercial or mixed-use property?”<small>Sets up the property types where their moments are weakest.</small></li></ol></section>
+<section class="bc-card"><h2 class="bc-h">What buyers told us</h2><div class="bc-quotes"><figure><blockquote>The explanation turned out to be a chart of which feature categories mattered across the whole model, not the actual data points behind one customer.</blockquote><figcaption>Head of Credit Risk, Nordic bank, relaying a peer’s evaluation · <a href="../../knowledge-base/sales-call-analysis/call-01-nordkredit.md">call-01-nordkredit.md</a></figcaption></figure><figure><blockquote>Implementation’s taken longer than we were told, and the explanation feature… is technically live but our team’s found it thinner in practice than the sales demo suggested.</blockquote><figcaption>Bank four months into a ValuAI rollout · <a href="../../knowledge-base/sales-call-analysis/call-09-ironbridge-bank.md">call-09-ironbridge-bank.md</a></figcaption></figure><figure><blockquote>Their rep mentioned “an enterprise customer” but didn’t name one when I asked directly.</blockquote><figcaption>Tier 2 lender, shortlisting three vendors · <a href="../../knowledge-base/sales-call-analysis/call-03-court-street-lending.md">call-03-court-street-lending.md</a></figcaption></figure></div></section>
+<section class="bc-card"><h2 class="bc-h bc-h--red">Don’t say</h2><ul class="bc-dont"><li><b>“It’s still in beta”</b> or “it doesn’t exist”. It shipped in July 2026, and buyers will check.</li><li><b>“AI-native is just marketing.”</b> It’s a real approach; it just isn’t the differentiator any more.</li><li><b>“We beat them every time.”</b> 8 deals is a small sample, and their gap is closing.</li></ul></section>
+<p class="bc-src">Owner: Product Marketing, Competitive Intelligence · Sources: <a href="../../knowledge-base/competitive-landscape.md">competitive-landscape.md</a> · <a href="../../knowledge-base/win-loss-analysis/win-loss-detailed-analysis.html">win/loss deep dive</a> · <a href="../../knowledge-base/sales-call-analysis/call-01-nordkredit.md">call-01-nordkredit.md</a>, <a href="../../knowledge-base/sales-call-analysis/call-03-court-street-lending.md">call-03-court-street-lending.md</a>, <a href="../../knowledge-base/sales-call-analysis/call-09-ironbridge-bank.md">call-09-ironbridge-bank.md</a> · Built with the <a href="./skill.md">battlecard skill</a></p>
+</main><footer class="sr-foot"><img src="../../knowledge-base/flyer-design-system/assets/Logos/pw-mark-paper.svg" alt=""><span>Seekridge is a fictional company; every figure is illustrative.</span><span>A portfolio by Akos Tajnel</span><span><a href="https://github.com/tajnelakos/akos-tajnel-claude-assets">See the whole repo</a></span></footer></body></html>
