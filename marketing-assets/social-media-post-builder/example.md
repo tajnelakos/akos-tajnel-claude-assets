@@ -30,4 +30,4 @@ Competitor or account named: No — "the newer entrant leaning hardest into 'AI-
 
 ## Why the small-sample caveat survives into the public post
 
-`competitive-landscape.md` and `positioning.md` are both explicit, after the September outdated check, that the "0-for-8" and "72.7%" figures are small-sample findings, not settled ones. A social post is exactly the kind of content that tends to strip caveats for a punchier hook — this draft deliberately keeps "still an early, small sample" in the second paragraph rather than cutting it, since publishing the finding without the caveat would itself be a positioning-compliance-style overclaim.
+`competitive-landscape.md` and `positioning.md` are both explicit, after the September outdated check, that the "0-for-8" and "72.7%" figures are small-sample findings, not settled ones. A social post is exactly the kind of content that tends to strip caveats for a punchier hook — this draft deliberately keeps "still an early, small sample" in the second paragraph rather than cutting it, since publishing the finding without the caveat would itself be an overclaim.

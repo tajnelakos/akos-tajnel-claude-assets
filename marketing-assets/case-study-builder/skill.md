@@ -7,13 +7,13 @@ description: Builds a customer case study from a real closed-won deal's actual d
 
 ## Purpose
 
-Case studies are usually the most fabricated piece of B2B content in the building — a customer story assembled from a rep's memory, a testimonial quote nobody actually said out loud, and a result rounded up because the real number wasn't impressive enough. This skill applies the same real-source discipline the rest of this repo already requires ([`personalized-outbound`](../personalized-outbound), [`positioning-compliance`](../positioning-compliance)) to case studies specifically.
+Case studies are usually the most fabricated piece of B2B content in the building — a customer story assembled from a rep's memory, a testimonial quote nobody actually said out loud, and a result rounded up because the real number wasn't impressive enough. This skill applies the same real-source discipline the rest of this repo already requires ([`personalized-outbound`](../personalized-outbound)) to case studies specifically.
 
 ## Instructions
 
 1. **Require real source material.** A CRM record (deal size, sales cycle, logged decision driver, competitor faced) and/or a call transcript or rep notes for the named account. If given only a company name with no real detail behind it, say so and ask for the source — don't invent a plausible-sounding challenge and result.
 2. **Structure:** Title, Snapshot, Challenge (the buyer's actual pain, in their own language if a transcript exists), Solution (the specific thing that won this deal, not a generic feature list), Results (quantified, each traceable to source), Quote (only if real and attributable), Positioning tie-in.
-3. **Every quantitative claim must trace to the CRM record or transcript.** Treat this the same way [`positioning-compliance`](../positioning-compliance/skill.md) treats an unsupported claim — a hard fail, not a stylistic nitpick. Run the finished case study through that skill before treating it as ready to publish.
+3. **Every quantitative claim must trace to the CRM record or transcript.** Treat an unsupported claim as a hard fail, not a stylistic nitpick.
 4. **A quote from an internal sales-call transcript is not automatically a usable public testimonial.** Flag explicitly that the customer's separate consent to be quoted and named publicly is required before this ships — "it's in our call notes" is not "we're allowed to publish it." State plainly whether the draft is meant to run named (pending sign-off) or anonymized.
 5. **Don't borrow a result from a different account** to make this one look stronger — a common failure mode when the real numbers for this specific deal aren't as striking as another deal's.
 6. **Follow [`branding-guideline`](../../knowledge-base/branding-guideline/skill.md)'s voice rules.**

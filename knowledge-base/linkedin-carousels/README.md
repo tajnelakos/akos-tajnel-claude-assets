@@ -139,7 +139,7 @@ Mixing is encouraged: a feature launch can open with a Myth vs method belief, a 
 2. Write the slides first, against [`wording.md`](./wording.md), and the caption against [`captions.md`](./captions.md).
 3. Build each slide in HTML with `tokens.css` and `components/bundle.css` (start from the format's `preview.html`), or ask Claude with [`skill.md`](./skill.md).
 4. Render at 1080 × 1350 and export one PDF, or a PNG for a single post.
-5. Run **Before you publish**, then [`positioning-compliance`](../../marketing-assets/positioning-compliance) as the final check.
+5. Run **Before you publish** as the final check.
 
 ## Before you publish
 
@@ -151,4 +151,4 @@ Mixing is encouraged: a feature launch can open with a Myth vs method belief, a 
 6. No real customer names or data, no stock photos, no partner logo without its official file and approval?
 7. Is the German, Dutch or Nordic version rechecked for line length, typography and inclusive forms?
 8. Does the caption carry the detail and the one link the slides leave out?
-9. Proofread against **Writing for carousels**, then a colleague's second pair of eyes, then [`positioning-compliance`](../../marketing-assets/positioning-compliance).
+9. Proofread against **Writing for carousels**, then a colleague's second pair of eyes.

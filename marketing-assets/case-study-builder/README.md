@@ -2,7 +2,7 @@
 
 ## The problem
 
-Case studies are usually the most fabricated piece of B2B content in the building — assembled from a rep's memory of how a deal went, a testimonial quote nobody actually said out loud, and a result quietly rounded up because the real number wasn't impressive enough. The fix isn't a better case-study template; it's requiring the same real-source discipline this repo's other tools already apply ([`personalized-outbound`](../personalized-outbound), [`positioning-compliance`](../positioning-compliance)), so a case study says only what its actual CRM record and call transcript support.
+Case studies are usually the most fabricated piece of B2B content in the building — assembled from a rep's memory of how a deal went, a testimonial quote nobody actually said out loud, and a result quietly rounded up because the real number wasn't impressive enough. The fix isn't a better case-study template; it's requiring the same real-source discipline this repo's other tools already apply ([`personalized-outbound`](../personalized-outbound)), so a case study says only what its actual CRM record and call transcript support.
 
 ## The approach
 
