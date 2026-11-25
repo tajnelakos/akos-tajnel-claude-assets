@@ -32,6 +32,7 @@ Confident and specific, never hyped. The audience is technically skeptical and r
 - **Unexplained AI claims.** Never assert an AI capability without saying what it does or checks.
 - **Rhetorical questions as openers** ("Tired of leads nobody can explain?"). Open on the point. A direct question that names a real situation is fine on social covers (see [`social-and-carousels.md`](./social-and-carousels.md)).
 - **Manufactured urgency** ("Don't get left behind", "the future is now").
+- **Predicting sensitive facts.** Moments describe what has already happened, never what the data might reveal: "child benefit started arriving in October", not "we can tell when a customer is expecting". The same goes for health, relationships and money trouble.
 
 ## Prohibited terms
 

@@ -13,7 +13,7 @@ One moment for one customer, as the product shows it in *Moments this week*: wha
 |---|---|
 | Main bank | Salary landing elsewhere · Salary just switched in · Bills paid from elsewhere |
 | Outflow | Money starting to leave · Balance drifting down · Card going quiet |
-| Growth | Income rising · Investing elsewhere · Mortgage-ready · Saving for a home · Mortgage elsewhere |
+| Growth | Income rising · Investing elsewhere · Mortgage-ready · Saving for a home · Mortgage elsewhere · Car purchase goal · Family growing |
 | New customer | New customer not yet active · Salary not switched yet |
 
 **Motion.** Frame traces in, content fades in, the rank counts up to its value (`count`), then the evidence rows populate. In the next beat the card can grow into a full EvidenceTrail (cut, not morph).

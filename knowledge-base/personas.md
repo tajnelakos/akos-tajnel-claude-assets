@@ -41,7 +41,7 @@ A deal rarely has one persona in the room — it has several, often with real te
 3. Vendor stability and transaction-data handling practices
 4. Integration effort (real, but secondary to the above)
 
-**Common objections:** "How is this different from [prior vendor]'s explainability claim that didn't hold up?" · "What happens to our customers' transaction data if we leave you?" · "Show me a moment that turned out wrong and how the evidence trail explained it."
+**Common objections:** "Are you inferring anything sensitive from spending — a pregnancy, a health condition?" (No: moments only describe what has already happened, such as child benefit arriving or the customer telling the AI agent; see the family-growing moment in [`knowledge-base.md`](./knowledge-base.md)) · "How is this different from [prior vendor]'s explainability claim that didn't hold up?" · "What happens to our customers' transaction data if we leave you?" · "Show me a moment that turned out wrong and how the evidence trail explained it."
 
 **Trust triggers:** A vendor who volunteers a live run on the bank's own data, unprompted. A vendor who says "we don't know, let me find out" rather than an immediate confident answer. A specific, named method detail rather than a general claim.
 
@@ -59,9 +59,9 @@ A deal rarely has one persona in the room — it has several, often with real te
 
 **Buying psychology:** Measured against growth on the existing customer base, not risk metrics — success looks like "more customers who use us as their main bank, more products per customer, more lending to customers we already have," not "audits passed." Will defer to the Head of Model Risk on explainability but owns the growth and workflow conversation, and usually the budget.
 
-**Measured on:** Main-bank customers (salary credited here), products per customer, lending and investment sales to existing customers — mortgages included — and banker productivity. A tool that's more defensible but produces fewer usable opportunities is, from this persona's KPIs alone, a regression — which is exactly why the tension with Head of Model Risk (see the interaction map above) is real, not manufactured.
+**Measured on:** Main-bank customers (salary credited here), products per customer, lending and investment sales to existing customers — mortgages, car loans and renovation loans included — and banker productivity. A tool that's more defensible but produces fewer usable opportunities is, from this persona's KPIs alone, a regression — which is exactly why the tension with Head of Model Risk (see the interaction map above) is real, not manufactured.
 
-**Pain, in their language:** *"Half our 'customers' get their salary somewhere else — we're the account they keep for the mortgage."* *"We find out a customer took a mortgage elsewhere when the rent payments stop."* *"My bankers get lists every month and ignore half of them because nobody can say why a name is on there."* *"I need my risk team on board, but I'm not going to sell this internally for them."*
+**Pain, in their language:** *"Half our 'customers' get their salary somewhere else — we're the account they keep for the mortgage."* *"We find out a customer took a mortgage elsewhere when the rent payments stop."* *"A family has a baby, buys a bigger car on the dealer's finance, and we never knew."* *"My bankers get lists every month and ignore half of them because nobody can say why a name is on there."* *"I need my risk team on board, but I'm not going to sell this internally for them."*
 
 **Decision criteria, ranked:**
 1. Business impact — main-bank conversions, products per customer or new lending, ideally with a specific number from their own data

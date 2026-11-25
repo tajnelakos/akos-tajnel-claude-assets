@@ -132,7 +132,7 @@ Headlines carry the film. Write them first, read them aloud, then design. Voice 
 | Two-liners | Situation in ink, consequence or answer highlighted. *Their salary went up in March. / **So did their transfers out.*** | Two lines of equal weight |
 | Punctuation | Moment stories and Statements end in a full stop. Walkthroughs don't | Exclamation marks, question marks as hooks ("Ready to grow?"), ellipses |
 | Voice | Second person to the professional (*your customers*, *your bankers*). Customers by ID on screen, *this customer* in the voice-over | *Users*, *leads*, *prospects*. Customer first names |
-| Precision | Name the data point. *Income up 18% in three months.* | *Rich customer insights.* *Powerful data.* |
+| Precision | Name the data point. *Income up 16% in three months.* | *Rich customer insights.* *Powerful data.* |
 | Mechanism | Name it when the persona asks for it (Head of Model Risk films), always as data and weight | *Proprietary AI*, *black box*, *magic*, *revolutionary* (all prohibited terms) |
 | Product words | Moment · evidence trail · audit log · customer base · transaction data, customer data, market data · CRM | Lead, insight, alert · explainability report · database · data lake |
 | Figures | One figure per beat, with what it measures and where it came from. Illustrative figures labelled *Illustrative* on screen | A figure without a source line; demo data presented as a result |
@@ -286,7 +286,7 @@ The market is chosen per film and sets language, number format, currency, voice 
 - **All brands and customers are fictional** and labelled *Demo* in the panel header. No real customer, bank or address ever appears, not even a street name.
 - **Customers are IDs.** In the voice-over: *this customer*, *one customer*, *a saver*. Never a first name, never an age, never a photo.
 - **Bankers** are roles (*your banker*, *the Hamburg branch team*), never people.
-- **Moment names** are the product's own (section 11): Salary landing elsewhere, Salary just switched in, Money starting to leave, Balance drifting down, Card going quiet, Income rising, Investing elsewhere, Mortgage-ready, New customer not yet active.
+- **Moment names** are the product's own (section 11): Salary landing elsewhere, Salary just switched in, Money starting to leave, Balance drifting down, Card going quiet, Income rising, Investing elsewhere, Mortgage-ready, Car purchase goal, Family growing, New customer not yet active.
 
 ---
 
@@ -367,6 +367,8 @@ A 30-second cut drops the layers beat and shortens the evidence to two rows.
 | Outflow | A new monthly transfer to an outside savings account | Money starting to leave | Transfer out · savings-rate gap · balance trend | Savings call before the habit settles |
 | Growth | Income up, money starting to go to an investment app | Investing elsewhere | Income change · transfers to a broker · products held | The bank's own investment conversation |
 | Growth | Income up, savings building, questions to the AI agent about borrowing | Mortgage-ready | Income trend · savings towards a deposit · AI-agent questions · rate change | Mortgage advisor call |
+| Growth | Savings pot growing towards a round target, questions to the AI agent about car financing | Car purchase goal | Savings towards a target · car loan elsewhere ending · AI-agent questions | Car loan offer before the dealer's finance |
+| Growth | Child benefit arriving, new children's spend, the customer mentions parental leave to the AI agent | Family growing | Child benefit in · childcare fees · children's spend · AI-agent questions | One ranked next step: mortgage for a bigger home, car loan or renovation loan |
 | New customer | Account opened six weeks ago, salary not switched | New customer not yet active | No salary in · card unused · no bills set up | Onboarding call from the branch |
 
 Moments are always shown as the result of named data, and the voice-over leads with the customer's situation, never the detection method.
