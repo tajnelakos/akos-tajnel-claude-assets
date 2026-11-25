@@ -23,7 +23,7 @@ The script for [`segment-mortgage-lending-16x9.mp4`](./segment-mortgage-lending-
 **If a line runs long.** Don't speed it up. Send the WAVs: the scene is lengthened to fit the line (and the caption re-timed), or the line is shortened in both the script and the captions together. Captions must keep matching what is said.
 
 **On screen at the same time (not to be read aloud):**
-- **Headlines:** *Your best leads are already yours.* · *Your customers have plans. You just can't see them yet.* · *Your data. Our data. One clear moment.* · *They're planning a move. Be their first call.* · *Energy renovation ahead. Offer the green loan.* · *Just bought a home. Offer the cover.* · *Call the right customers. Before anyone else does.* · *Now you know who. And why.*
+- **Headlines:** *Your next deals are already in your book.* · *Your customers have plans. You just can't see them yet.* · *Your data. Our data. One clear moment.* · *They're planning a move. Be their first call.* · *Energy renovation ahead. Offer the green loan.* · *Just bought a home. Offer the cover.* · *Call the right customers. Before anyone else does.* · *Run a test on your own book. See your next deals.*
 - **Action:** *Run a backtest on your own book*
 
 The voice-over never reads a headline word for word.
