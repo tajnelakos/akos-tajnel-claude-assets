@@ -6,6 +6,7 @@ The HTML compositions of the reference films and the script that renders them. E
 |---|---|
 | `story-fixed-rate-dach-16x9.html` | `../assets/Films/story-fixed-rate-dach-16x9.mp4` |
 | `walkthrough-evidence-trail-16x9.html` | `../assets/Films/walkthrough-evidence-trail-16x9.mp4` |
+| `segment-mortgage-lending-16x9.html` | `../assets/Films/segment-mortgage-lending-16x9.mp4` |
 | `statement-evidence-16x9.html` | `../assets/Films/statement-evidence-16x9.mp4` |
 | `render-film.py` | Stills contact sheet or full MP4 from any composition |
 
