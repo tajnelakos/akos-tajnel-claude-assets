@@ -4,14 +4,14 @@ Guidelines for the Seekridge components. Styles live in [`components.css`](./com
 
 ## Button
 
-Square-cornered buttons for actions: one primary per view, outlined secondary, underlined text button.
+Softly rounded buttons for actions: one primary per view, outlined secondary, underlined text button.
 
 **You provide:** a label written as verb + object in sentence case ("Push to CRM", "View evidence", "Export audit log"); optionally a trailing `arrow-right` icon for "go somewhere" actions.
 
 **Variants:** `pw-btn--primary` (navy fill, white text; gold-light with dark text in the dark theme), `pw-btn--secondary` (1px `line-strong` outline, no fill), `pw-btn--text` (underlined, for low-priority links), `pw-btn--sm` for dense tables. `disabled` uses `surface-sunken` and `slate`.
 
 **Rules**
-- `radius-md` (4px) at most. Never pill-shaped, never a gradient, never a shadow.
+- `radius-md` (10px). Pills are for chips, fact tags, badges and nav only. Never a gradient, never a shadow.
 - One primary button per view. Destructive actions are secondary buttons with an explicit label ("Dismiss moment"), followed by a confirmation.
 - Never "Submit", "Click here" or "Learn more".
 
@@ -35,7 +35,7 @@ A flat, bordered panel for grouping content: hairline border, no shadow.
 **You provide:** an optional mono eyebrow (feature or topic), a title in Archivo 600, a short body in `ink-muted`, and an optional footer with one action.
 
 **Rules**
-- 1px `line` border, `radius-md`, `space-5` padding, `shadow-none`. Cards never float.
+- 1px `line` border, `radius-lg` (16px), `space-5` padding, `shadow-none`. Cards never float.
 - No coloured left borders, no icons in coloured circles, no emoji.
 - One action per card at most. The whole card is not a link unless it has no other interactive elements.
 

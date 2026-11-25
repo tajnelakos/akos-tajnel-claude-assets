@@ -1,3 +1,5 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Win/Loss Deep Dive</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
@@ -95,19 +97,25 @@
 </style>
 <link rel="stylesheet" href="../../knowledge-base/design-system/report-theme.css">
 
-<div class="page">
-
-  <div class="masthead">
-    <img class="sr-lockup" src="../../knowledge-base/flyer-design-system/assets/Logos/pw-lockup-paper.svg" alt="Seekridge">
-    <div class="eyebrow">Win/Loss Analysis · Seekridge</div>
-    <h1>Win/Loss Deep Dive — Trailing 12 Months</h1>
-    <div class="meta-row">
-      <span>Period: <b>Oct 2025 – Sep 2026</b></span>
-      <span>Deals analyzed: <b>100</b></span>
-      <span>Prepared: <b>September 2026</b></span>
-      <span>Sources: <b><a href="./win-loss-crm-export.csv">CRM export</a> + <a href="../sales-call-analysis">sales-call-analysis</a></b></span>
+<header class="sr-mast">
+  <div class="sr-wrap">
+    <div class="sr-mast__bar">
+      <a class="sr-lockup" href="https://github.com/tajnelakos/akos-tajnel-claude-assets"><img src="../../knowledge-base/flyer-design-system/assets/Logos/pw-lockup-paper.svg" alt="Seekridge"><span class="sr-lockup__div" aria-hidden="true"></span><span class="sr-lockup__product">Win/loss</span></a>
+      <nav class="sr-nav" aria-label="Related pages"><a href="../../sales-tools/competitor-monitoring/bi-monthly-report-2026-07-08.html">Competitive Pulse</a><a href="../sales-call-analysis/call-analysis-summary.html">Call rollup</a><a href="win-loss-detailed-analysis.html" class="is-on" aria-current="page">Win/loss</a><a href="../../marketing-assets/positioning-compliance/compliance-trends-analysis.html">Compliance</a><a href="../../marketing-assets/persona-email-sequence/campaign-performance-analysis.html">Campaigns</a></nav>
+    </div>
+    <div class="sr-mast__grid">
+      <div class="sr-mast__hero">
+        <p class="sr-mast__eyebrow">Win/Loss Analysis</p>
+        <h1 class="sr-mast__title sr-mast__title--long">Win/Loss Deep Dive — Trailing 12 Months</h1>
+        <p class="sr-mast__lede">One hundred closed deals over twelve months: where we win, where we lose, against whom, and why buyers say they decided.</p>
+        <div class="sr-facts"><span class="sr-fact">Period <b>Oct 2025 – Sep 2026</b></span><span class="sr-fact">Deals analyzed <b>100</b></span><span class="sr-fact">Prepared <b>September 2026</b></span><span class="sr-fact">Sources <b><a href="./win-loss-crm-export.csv">CRM export</a> + <a href="../sales-call-analysis">sales-call-analysis</a></b></span></div>
+      </div>
+      <figure class="sr-mast__art"><img src="../../knowledge-base/design-system/dotmap-tile.svg" alt=""></figure>
     </div>
   </div>
+</header>
+<div class="page sr-report sr-lift">
+
 
   <div class="kpis">
     <div class="kpi"><div class="kpi-value">42%</div><div class="kpi-label">Overall win rate</div></div>

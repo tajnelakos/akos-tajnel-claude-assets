@@ -1,3 +1,5 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Seekridge — One-Pager (Head of Credit Risk)</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
@@ -10,30 +12,30 @@
   }
   *{ box-sizing:border-box; }
   body{ background:#E9E8E2; color:var(--ink); font-family:var(--font-body); margin:0; padding:32px 16px; -webkit-font-smoothing:antialiased; }
-  .sheet{ max-width:820px; margin:0 auto; background:var(--paper); display:flex; flex-direction:column; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .sheet{ max-width:820px; margin:0 auto; background:var(--paper); border-radius:24px; overflow:hidden; border:1px solid var(--line); display:flex; flex-direction:column; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
   h1,h2{ font-family:var(--font-display); margin:0; text-wrap:balance; }
   a{ color:inherit; }
 
   /* Navy hero with the moving-dot-map motif */
   .masthead{ position:relative; overflow:hidden; isolation:isolate; background:var(--navy); color:var(--paper); padding:34px 44px 40px; display:flex; flex-direction:column; gap:22px; }
-  .masthead::after{ content:""; position:absolute; z-index:-1; right:-10px; bottom:-8px; width:58%; height:105%;
-    background:url("../../knowledge-base/design-system/dotmap-hero.svg") right bottom / contain no-repeat;
-    -webkit-mask-image:linear-gradient(to right, transparent 0, #000 35%); mask-image:linear-gradient(to right, transparent 0, #000 35%); }
+  .hero-grid{ display:grid; grid-template-columns:minmax(0,1fr) 300px; gap:24px; align-items:center; }
+  .hero-art{ margin:0 -20px 0 0; -webkit-mask-image:radial-gradient(ellipse 72% 78% at 52% 48%, #000 55%, transparent 100%); mask-image:radial-gradient(ellipse 72% 78% at 52% 48%, #000 55%, transparent 100%); }
+  .hero-art img{ display:block; width:100%; height:auto; }
   .top-row{ display:flex; justify-content:space-between; align-items:flex-start; gap:20px; }
   .lockup{ height:28px; width:auto; display:block; }
-  .audience-tag{ font-family:var(--font-mono); font-size:10.5px; text-transform:uppercase; letter-spacing:.1em; color:var(--gold-light); text-align:right; line-height:1.6; }
-  .headline{ font-family:var(--font-display); font-size:38px; font-weight:800; color:#fff; line-height:1.06; letter-spacing:-.015em; max-width:15ch; margin-top:18px; }
+  .audience-tag{ font-family:var(--font-mono); font-size:11px; letter-spacing:.04em; color:rgba(244,243,239,.84); border:1px solid rgba(244,243,239,.32); border-radius:999px; padding:6px 12px; white-space:nowrap; }
+  .headline{ font-family:var(--font-display); font-size:42px; font-weight:800; color:#fff; line-height:1.05; letter-spacing:-.02em; max-width:13ch; margin-bottom:14px; }
   .subhead{ font-size:15px; line-height:1.6; color:rgba(244,243,239,.82); max-width:38ch; }
 
   .body{ padding:32px 44px 28px; display:flex; flex-direction:column; gap:24px; }
   .eyebrow{ font-family:var(--font-mono); font-size:10.5px; text-transform:uppercase; letter-spacing:.12em; color:var(--ink-muted); }
   .proof-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:12px; }
-  .proof-card{ background:#fff; border:1px solid var(--line); border-radius:6px; padding:18px 16px 20px; display:flex; flex-direction:column; gap:10px; }
+  .proof-card{ background:#fff; border:1px solid var(--line); border-radius:16px; padding:18px 16px 20px; display:flex; flex-direction:column; gap:10px; }
   .proof-icon{ width:26px; height:26px; }
   .proof-title{ font-family:var(--font-display); font-weight:700; font-size:15px; color:var(--navy); }
   .proof-body{ font-size:12.8px; line-height:1.55; color:#3A3A36; }
 
-  .proof-strip{ display:grid; grid-template-columns:auto 1fr; gap:6px 16px; background:var(--navy-deep); color:var(--paper); border-radius:6px; padding:18px 20px; }
+  .proof-strip{ display:grid; grid-template-columns:auto 1fr; gap:6px 16px; background:var(--navy-deep); color:var(--paper); border-radius:16px; padding:20px 22px; }
   .proof-strip-mark{ grid-row:span 3; width:10px; height:10px; border-radius:50%; background:var(--gold-light); margin-top:5px; }
   .proof-strip-label{ font-family:var(--font-mono); font-size:10px; text-transform:uppercase; letter-spacing:.1em; color:var(--gold-light); }
   .proof-strip-body{ font-size:14px; line-height:1.55; }
@@ -41,16 +43,16 @@
 
   .cta-row{ display:flex; align-items:center; justify-content:space-between; gap:20px; border-top:1px solid var(--line); padding-top:22px; }
   .cta-text{ font-size:14px; max-width:44ch; line-height:1.5; }
-  .cta-button{ font-family:var(--font-body); font-weight:600; font-size:13.5px; background:var(--navy); color:#fff; border:none; padding:12px 20px; border-radius:4px; white-space:nowrap; }
+  .cta-button{ font-family:var(--font-body); font-weight:600; font-size:13.5px; background:var(--navy); color:#fff; border:none; padding:12px 20px; border-radius:10px; white-space:nowrap; }
   .cta-button::after{ content:" →"; }
 
   footer{ display:flex; justify-content:space-between; gap:12px; font-family:var(--font-mono); font-size:10px; color:var(--slate); padding:0 44px 26px; }
 
   @media (max-width:640px){
     .masthead, .body{ padding-left:22px; padding-right:22px; } footer{ padding:0 22px 22px; flex-direction:column; }
-    .top-row{ flex-direction:column; } .audience-tag{ text-align:left; }
+    .top-row{ flex-direction:column; } .audience-tag{ text-align:left; white-space:normal; }
     .proof-grid{ grid-template-columns:1fr; } .cta-row{ flex-direction:column; align-items:flex-start; }
-    .masthead::after{ opacity:.35; width:100%; }
+    .hero-grid{ grid-template-columns:1fr; } .hero-art{ max-width:320px; margin:0; }
   }
 </style>
 
@@ -59,10 +61,12 @@
   <div class="masthead">
     <div class="top-row">
       <img class="lockup" src="../../knowledge-base/flyer-design-system/assets/Logos/pw-lockup-paper.svg" alt="Seekridge">
-      <div class="audience-tag">For Heads of Credit Risk<br>Bank &amp; Lender segment · Tier 1</div>
+      <div class="audience-tag">For Heads of Credit Risk · Tier 1 Bank &amp; Lender</div>
     </div>
+    <div class="hero-grid"><div>
     <div class="headline">Opportunities you can act on — and explain.</div>
     <div class="subhead">Most customer-scoring tools give you a list and a score. If an auditor asks why a customer was on that list, "the model said so" isn't an answer — and increasingly, regulators are asking.</div>
+    </div><figure class="hero-art"><img src="../../knowledge-base/design-system/dotmap-tile.svg" alt=""></figure></div>
   </div>
 
   <div class="body">
