@@ -1,4 +1,4 @@
-/* Seekridge Video Design System: generated from tokens.json. Do not edit by hand. */
+/* Parcelwise Video Design System: generated from tokens.json. Do not edit by hand. */
 /* Fonts are bundled in fonts/ (SIL Open Font License, see fonts/OFL.txt), so films render offline. */
 @font-face{font-family:Archivo;src:url(fonts/Archivo-SemiBold.woff2) format('woff2');font-weight:600;font-display:block}
 @font-face{font-family:Archivo;src:url(fonts/Archivo-Bold.woff2) format('woff2');font-weight:700;font-display:block}
@@ -105,8 +105,11 @@
   --pwv-lockup-w: 360px; /* Lockup width on title cards (top-left) and end cards (centred). */
   --pwv-panel-pad: 32px; /* Inner padding of product panels. */
   --pwv-row-h: 72px; /* Row height inside panels on film (twice the web app's density). */
-  --pwv-radius: 4px; /* Panels, badges and buttons. Never more: the brand has no pills. */
-  --pwv-radius-frame: 6px; /* Large image frames only, matching the logomark's corner. */
+  --pwv-radius: 16px; /* Panels, cards and the caption band's outer frame on film (the design system's radius-lg). Rounded, never sharp: the standing Seekridge rule since November 2026. */
+  --pwv-radius-control: 10px; /* Buttons, the moment node, marked timeline events, caption band and lower third (radius-md). */
+  --pwv-radius-chip: 6px; /* Data chips and small tags inside panels (radius-sm). */
+  --pwv-radius-pill: 999px; /* Status badges and the moment tags floating over the RidgeField (radius-full). */
+  --pwv-radius-frame: 24px; /* Large showcase frames only (radius-xl). */
   --pwv-hairline: 1px; /* Panel borders and the map grid. */
   --pwv-stroke: 2px; /* Rules, focus marks, chart lines, timeline track. */
   --pwv-draw-stroke: 3px; /* Ridge and plan drawings on film (the 1.75px icon stroke scaled for 1080p). */
