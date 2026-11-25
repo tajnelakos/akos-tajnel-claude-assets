@@ -1,6 +1,6 @@
 # Ideal Customer Profile — Seekridge
 
-Used by prompts/skills that need to reason about fit or in-market moments rather than have it re-explained inline every time. See [`knowledge-base.md`](./knowledge-base.md) for the company overview. Consumed most directly by [`icp-buying-moment-monitor`](../sales-tools/icp-buying-moment-monitor) (scoring incoming moments) and [`abm-account-brief`](../sales-tools/abm-account-brief) (placing a named account in the tiering below).
+Used by prompts/skills that need to reason about fit or in-market moments rather than have it re-explained inline every time. See [`knowledge-base.md`](./knowledge-base.md) for the company overview.
 
 ## Firmographic & technographic criteria
 
@@ -84,7 +84,7 @@ Anything scoring 0 on data residency is a hold regardless of the total score —
 
 ## External moments that indicate a company is in-market
 
-Moment strength here matches the taxonomy [`icp-buying-moment-monitor`](../sales-tools/icp-buying-moment-monitor) uses, so scoring stays consistent between this reference doc and the tool that operationalizes it.
+Use this moment-strength scale wherever accounts are scored, so scoring stays consistent across the repo.
 
 **Strong moments**
 - New Head of Credit Risk, Chief Risk Officer, or Head of Home Insurance hire within the last 2 quarters (frequently a mandate-holder for modernization)
@@ -119,7 +119,7 @@ The ICP for expanding within an existing customer is different from the new-logo
 
 Accounts already documented elsewhere in this repo, shown against the tiering above:
 
-- **[Nordkredit](../knowledge-base/sales-call-analysis/call-01-nordkredit.md)** — Tier 1: regional Nordic lender, ~€600M annual origination, a new Head of Credit Risk hire and a real audit finding driving urgency. A clean pattern match, which is why it's used as the primary example throughout this repo's [`icp-buying-moment-monitor`](../sales-tools/icp-buying-moment-monitor) → [`abm-account-brief`](../sales-tools/abm-account-brief) → [`personalized-outbound`](../marketing-assets/personalized-outbound) pipeline.
+- **[Nordkredit](../knowledge-base/sales-call-analysis/call-01-nordkredit.md)** — Tier 1: regional Nordic lender, ~€600M annual origination, a new Head of Credit Risk hire and a real audit finding driving urgency. A clean pattern match, which is why it's the primary example account throughout this repo.
 - **[Court Street Lending](../knowledge-base/sales-call-analysis/call-03-court-street-lending.md)** — Tier 2: €5B+ national lender. Longer cycle, more procurement layers, and a vendor-stability objection that doesn't come up at Tier 1 — consistent with the buying-committee table above.
 - **[Solvane Lending Group](../knowledge-base/sales-call-analysis/call-10-solvane-lending-group.md)** — a Tier 2 firmographic fit that hit the Anti-ICP on-prem disqualifier directly, mid-deal. A real instance of a fit score being overridden by a hard gate, not a hypothetical.
 - **[Thornfield Mutual](../knowledge-base/sales-call-analysis/call-14-thornfield-mutual.md)** — Tier 2 insurer (~620,000 home policies): a mutual home insurer where the product case was already won and the only open variable was the vendor-risk queue.

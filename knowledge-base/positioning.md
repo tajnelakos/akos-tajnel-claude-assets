@@ -1,6 +1,6 @@
 # Positioning — Seekridge
 
-Used by prompts/skills that generate customer-facing content — see [`sales-deck-builder`](../sales-tools/sales-deck-builder), [`branding-guideline`](./branding-guideline), and [`abm-account-brief`](../sales-tools/abm-account-brief) (which picks the specific angle below that fits a named account, rather than the general pitch).
+Used by prompts/skills that generate customer-facing content — see [`sales-deck-builder`](../sales-tools/sales-deck-builder) and [`branding-guideline`](./branding-guideline).
 
 ## Market category
 

@@ -17,8 +17,8 @@ Everything here is built around **[Seekridge](./knowledge-base/knowledge-base.md
 ## Three kinds of folder
 
 - **[`knowledge-base/`](./knowledge-base)** — accumulated understanding: the core reference docs (company, ICP, personas, positioning, voice, competitive landscape), plus the analysis work that builds and maintains that understanding (call analysis, win/loss analysis, outdated checker).
-- **[`sales-tools/`](./sales-tools)** — what a rep or sales-facing process actually uses: competitor monitoring, battlecards, account briefs, buying-moment monitoring, deck building.
-- **[`marketing-assets/`](./marketing-assets)** — content marketing produces and ships: outbound messages, nurture sequences, case studies, one-pagers, blog posts, social posts, and the pre-publish compliance check.
+- **[`sales-tools/`](./sales-tools)** — what a rep or sales-facing process actually uses: competitor monitoring, battlecards, deck building.
+- **[`marketing-assets/`](./marketing-assets)** — content marketing produces and ships: nurture sequences, case studies, one-pagers, blog posts, social posts, and the product launch process.
 
 ### `knowledge-base/`
 
@@ -44,15 +44,12 @@ Everything here is built around **[Seekridge](./knowledge-base/knowledge-base.md
 |---|---|---|
 | [`competitor-monitoring/`](./sales-tools/competitor-monitoring) | A structured weekly brief, plus a sourced, region-by-region [competitor analyses site](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/competitor-monitoring/competitor-analyses.html) (DACH, Benelux, Nordics) | Claude Skill, Custom GPT |
 | [`battlecard/`](./sales-tools/battlecard) | A designed, rep-facing HTML battlecard per tracked competitor | Claude Skill |
-| [`abm-account-brief/`](./sales-tools/abm-account-brief) | Synthesizes the whole knowledge base into a one-page brief for a named target account | Claude Skill, Custom GPT |
-| [`icp-buying-moment-monitor/`](./sales-tools/icp-buying-moment-monitor) | Scores raw account triggers against ICP criteria into a prioritized watch list | Claude Skill |
 | [`sales-deck-builder/`](./sales-tools/sales-deck-builder) | Turns deal context into a persona-tailored outline, then designed slides from a Seekridge slide kit (HTML and PDF), with a reference deck for mortgage lenders | Claude Skill, Custom GPT, slide kit |
 
 ### `marketing-assets/`
 
 | Folder | What it does | Formats |
 |---|---|---|
-| [`personalized-outbound/`](./marketing-assets/personalized-outbound) | Drafts a genuinely account-specific 1:1 outreach message from an account brief | Claude Skill, Custom GPT |
 | [`persona-email-sequence/`](./marketing-assets/persona-email-sequence) | Builds a persona-specific nurture sequence where each email advances a different decision criterion | Claude Skill |
 | [`case-study-builder/`](./marketing-assets/case-study-builder) | Builds a Challenge/Solution/Results case study from a real closed-won deal's CRM record and call transcript — never an invented result or quote, plus a finished, customer-facing [Alpenkreis Bank case study](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/case-study-builder/case-study-alpenkreis-bank.html) and the [designed Nordkredit case study](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/case-study-builder/case-study-nordkredit.html) | Claude Skill |
 | [`one-pager-builder/`](./marketing-assets/one-pager-builder) | Builds a single-page, persona-specific leave-behind — one angle, sourced proof points, an actual designed HTML page | Claude Skill |
@@ -60,7 +57,7 @@ Everything here is built around **[Seekridge](./knowledge-base/knowledge-base.md
 | [`social-media-post-builder/`](./marketing-assets/social-media-post-builder) | Drafts a social post built around one real, cited proof point, platform mechanics applied after | Claude Skill |
 | [`product-launch-process/`](./marketing-assets/product-launch-process) | The five-stage launch process (define, prove, enable, launch, learn) with demo readiness per market and KPIs set before launch, as an [illustrated page](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/product-launch-process/launch-process.html), plus a skill that turns a launch brief into a launch plan | Claude Skill |
 
-Each folder contains a `README.md` explaining the problem it solves, the actual prompt/skill definition, and a sample output. Three of them — [`icp-buying-moment-monitor`](./sales-tools/icp-buying-moment-monitor) → [`abm-account-brief`](./sales-tools/abm-account-brief) → [`personalized-outbound`](./marketing-assets/personalized-outbound) — are shown working as a pipeline against one target account, Nordkredit, rather than as three disconnected tools; [`case-study-builder`](./marketing-assets/case-study-builder) picks that same account back up as the pipeline's actual closed-won ending.
+Each folder contains a `README.md` explaining the problem it solves, the actual prompt/skill definition, and a sample output. Several of them share one fictional account, Nordkredit, so they read as one account history: [`sales-call-analysis`](./knowledge-base/sales-call-analysis) has its discovery call and [`case-study-builder`](./marketing-assets/case-study-builder) its closed-won ending.
 
 ## About the formats
 
