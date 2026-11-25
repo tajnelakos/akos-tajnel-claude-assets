@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seekridge for mortgage lenders · first meeting deck</title>
+<link rel="stylesheet" href="slide-kit/slides.css">
+</head>
+<body class="deck-view">
+
+<!-- Icon sprite: design-system icons (24px grid, 1.75 stroke) plus two deck-only glyphs. -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="mark" viewBox="0 0 120 120"><g transform="translate(10,10)"><path d="M 4 92 L 30 50 L 46 68 L 70 26 L 96 92" fill="none" stroke="currentColor" stroke-width="10" stroke-linejoin="miter"/><path d="M 0 94 H 100" fill="none" stroke="currentColor" stroke-width="8"/><circle cx="70" cy="12" r="9" fill="#C1892E"/></g></symbol>
+  <symbol id="i-refinance" viewBox="0 0 24 24"><path d="M4 8.5h14l-3.5-3.5M20 15.5H6l3.5 3.5"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M4 20V10l8-6 8 6v10z"/><path d="M9.5 20v-5h5v5"/></symbol>
+  <symbol id="i-renovate" viewBox="0 0 24 24"><path d="M4 20V10l8-6 8 6v10z"/><path d="M9.5 15.5h5M12 13v5"/></symbol>
+  <symbol id="i-market" viewBox="0 0 24 24"><path d="M4 20V4M4 20h16"/><path d="M7.5 15.5l4-4.5 3 3 5-6"/></symbol>
+  <symbol id="i-policy" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/><path d="M9 12.5h6M12 9.5v6"/></symbol>
+  <symbol id="i-customer" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1.5A5.5 5.5 0 0 1 9.5 14h5a5.5 5.5 0 0 1 5.5 5.5V21"/></symbol>
+  <symbol id="i-property" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1.5"/><path d="M3 10.5h18M13 3v7.5M8.5 10.5V21"/></symbol>
+  <symbol id="i-evidence" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="1.5"/><path d="M8.5 8h7M8.5 12h7M8.5 16h4"/></symbol>
+  <symbol id="i-residency" viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="1.5"/><path d="M8 10V7a4 4 0 0 1 8 0v3M12 14v3"/></symbol>
+  <symbol id="i-crm" viewBox="0 0 24 24"><rect x="3" y="4" width="8" height="16" rx="1.5"/><rect x="13" y="4" width="8" height="16" rx="1.5"/><path d="M6 9h2M16 15h2M9 12h6M13 10l2 2-2 2"/></symbol>
+  <symbol id="i-lender" viewBox="0 0 24 24"><path d="M3 9.5L12 4l9 5.5"/><path d="M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20.5h18"/></symbol>
+  <symbol id="i-moment" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1.5"/><path d="M3 10.5h18M13 3v7.5"/><circle cx="15" cy="16" r="1.5"/><path d="M11.5 19.5a5 5 0 0 1 0-7M18.5 12.5a5 5 0 0 1 0 7"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15M13.5 6.5L19 12l-5.5 5.5"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M4.5 12.5l5 5 10-11"/></symbol>
+</svg>
+
+<main class="deck">
+
+<!-- 01 · Cover -->
+<p class="slide-tag">01 · Cover</p>
+<div class="fit"><section class="slide slide--navy">
+  <div class="lockup lockup--lg"><svg><use href="#mark"/></svg>Seekridge</div>
+  <div style="margin-top:190px">
+    <p class="eyebrow">Seekridge for mortgage lenders</p>
+    <h1 class="title title--xl" style="max-width:860px">Find the peaks in your <span class="accent">mortgage book.</span></h1>
+    <p class="lead" style="max-width:720px">Know which customers to call this month, and why, before a competitor does.</p>
+  </div>
+  <div class="ridge" style="left:880px;top:250px"><img src="slide-kit/assets/ridge-cover.svg" alt=""></div>
+  <div class="foot"><span>First meeting · [Bank] · [Month 2026]</span><span></span></div>
+  <aside class="notes">Open on their book, not on Seekridge. Say: you already have the customers. The question is which ones to call this month.</aside>
+</section></div>
+
+<!-- 02 · The challenge -->
+<p class="slide-tag">02 · The challenge · quiet book</p>
+<div class="fit"><section class="slide slide--navy">
+  <p class="eyebrow">The challenge</p>
+  <h2 class="title">Most of your mortgage book is quiet.</h2>
+  <p class="lead">Your systems know the loan: balance, rate and when the fixed term ends. They don't know who's about to refinance elsewhere, buy, renovate or borrow more.</p>
+  <div class="ridge" style="left:110px;top:470px"><img src="slide-kit/assets/ridge-quiet.svg" alt=""></div>
+  <div class="mlabel mlabel--quiet" style="left:411px;top:728px"><b>Refinancing elsewhere?</b></div>
+  <div class="mlabel mlabel--quiet" style="left:824px;top:658px"><b>Buying a home?</b></div>
+  <div class="mlabel mlabel--quiet" style="left:1184px;top:765px"><b>Renovating?</b></div>
+  <div class="mlabel mlabel--quiet" style="left:1472px;top:685px"><b>Equity has grown?</b></div>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>02</span></div>
+  <aside class="notes">The flat field is the book as their systems see it. Every month a few customers start moving, and nobody on their side can see which ones. Say: you don't need more leads. You need to know which customers you already have are ready to talk.</aside>
+</section></div>
+
+<!-- 03 · Four ways the book grows -->
+<p class="slide-tag">03 · What you get · four cards</p>
+<div class="fit"><section class="slide">
+  <p class="eyebrow">What you get</p>
+  <h2 class="title">Four ways your mortgage book grows.</h2>
+  <div class="cards cards--4">
+    <div class="card card--navy"><div class="itile itile--gold"><svg><use href="#i-refinance"/></svg></div><span class="tag">Keep</span><h3>Keep loans at rate reset</h3><p>Call months before a fixed rate ends, before a broker finds them a better deal.</p></div>
+    <div class="card"><div class="itile"><svg><use href="#i-lender"/></svg></div><span class="tag">Win</span><h3>Win loans held at other banks</h3><p>Spot customers who pay a mortgage elsewhere, and invite the loan over.</p></div>
+    <div class="card"><div class="itile"><svg><use href="#i-renovate"/></svg></div><span class="tag">Lend</span><h3>Lend for the next step</h3><p>Top-ups, renovation and green loans for customers already planning them.</p></div>
+    <div class="card"><div class="itile"><svg><use href="#i-policy"/></svg></div><span class="tag">Insure</span><h3>Insure the new home</h3><p>Offer home insurance in the week a customer buys a property.</p></div>
+  </div>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>03</span></div>
+  <aside class="notes">The promise before the mechanism. Four levers a head of lending recognises: keep, win, lend, insure. Everything after this slide shows how.</aside>
+</section></div>
+
+<!-- 04 · Statement -->
+<p class="slide-tag">04 · Why timing · statement</p>
+<div class="fit"><section class="slide">
+  <div style="margin-top:96px">
+    <p class="eyebrow">Why timing matters</p>
+    <h2 class="title title--xl" style="max-width:1500px">The bank that calls first usually keeps the loan.</h2>
+    <p class="lead" style="max-width:1100px">Customers don't announce a refinance. By the time they ask for a redemption statement, a broker has already found them a rate.</p>
+  </div>
+  <div class="ridge" style="left:0;top:700px"><img src="slide-kit/assets/ridge-band-paper.svg" alt=""></div>
+  <div class="foot" style="bottom:40px"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>04</span></div>
+  <aside class="notes">One line, said slowly. Then ask how they find out today that a customer is about to leave.</aside>
+</section></div>
+
+<!-- 05 · Moments on the ridge -->
+<p class="slide-tag">05 · Moments that matter · ridge, navy</p>
+<div class="fit"><section class="slide slide--navy">
+  <p class="eyebrow">Moments that matter</p>
+  <h2 class="title">Every week, a few customers rise out of the book.</h2>
+  <div class="ridge" style="left:110px;top:400px"><img src="slide-kit/assets/ridge-moments.svg" alt=""></div>
+  <div class="mlabel" style="left:341px;top:658px"><b>Buying a home</b><span>A new mortgage, with you</span></div>
+  <div class="mlabel" style="left:755px;top:554px"><b>Renovating</b><span>A renovation or green loan</span></div>
+  <div class="mlabel is-gold" style="left:1068px;top:452px"><b>Refinancing elsewhere</b><span>Keep the loan before a competitor does</span></div>
+  <div class="mlabel" style="left:1524px;top:625px"><b>Equity has grown</b><span>A top-up or equity release</span></div>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>05</span></div>
+  <aside class="notes">Same book as slide 2, now through Seekridge. Most of it stays quiet; a few customers rise into peaks. Pill: what happens in the customer's life. Line under it: the conversation it opens for you. The gold one is the most urgent this week. Say: each moment is a reason to call, with the evidence attached.</aside>
+</section></div>
+
+<!-- 06 · Data layers -->
+<p class="slide-tag">06 · How it works · data layers</p>
+<div class="fit"><section class="slide slide--navy">
+  <p class="eyebrow">How it works</p>
+  <h2 class="title">Your data, plus ours, in one moment.</h2>
+  <svg class="ridge" style="left:0;top:0" width="1920" height="1080" aria-hidden="true">
+    <g fill="none" stroke="#F4F3EF" stroke-opacity=".35" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round">
+      <path d="M660 476 C 920 476 940 640 1150 640"/>
+      <path d="M660 616 C 900 616 940 640 1150 640"/>
+      <path d="M660 756 C 920 756 940 640 1150 640"/>
+    </g>
+    <circle cx="1150" cy="640" r="7" fill="#F4F3EF"/>
+  </svg>
+  <div class="stack" style="position:absolute;left:120px;top:420px">
+    <div class="layer"><div class="itile"><svg><use href="#i-customer"/></svg></div><div><b>Your customer data</b><span>Customers, products, loans and payments</span></div></div>
+    <div class="layer"><div class="itile"><svg><use href="#i-market"/></svg></div><div><b>Market data</b><span>Rates, prices and local market trends</span></div></div>
+    <div class="layer"><div class="itile"><svg><use href="#i-property"/></svg></div><div><b>Property data</b><span>Value, age, energy rating, land register</span></div></div>
+  </div>
+  <div class="ui" style="position:absolute;left:1180px;top:430px;width:620px">
+    <div class="ui-head"><span style="display:flex;align-items:center;gap:12px"><i class="dot dot--gold"></i>Refinancing elsewhere</span><span class="badge">Rank 1 of 212</span></div>
+    <div class="ui-row"><svg class="icon"><use href="#i-customer"/></svg><span class="grow">Fixed rate ends in 7 months</span><span class="badge">Your data</span></div>
+    <div class="ui-row"><svg class="icon"><use href="#i-market"/></svg><span class="grow">Market rate 0.4 pts below theirs</span><span class="badge">Market</span></div>
+    <div class="ui-row"><svg class="icon"><use href="#i-property"/></svg><span class="grow">Home value up 18% since purchase</span><span class="badge">Property</span></div>
+    <div class="ui-row" style="background:#FAF9F6"><span class="grow small" style="color:#5B6470">Anna K. · Advisor: Lukas M.</span><span style="display:flex;align-items:center;gap:8px;font-weight:600;color:#1A3A5C">Open in CRM <svg class="icon" style="width:22px;height:22px"><use href="#i-arrow"/></svg></span></div>
+  </div>
+  <p class="source" style="bottom:110px">Customer, advisor and figures are illustrative.</p>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>06</span></div>
+  <aside class="notes">Three layers around every customer. On their own, each is noise. Combined, one point from each layer makes a moment worth a call. Walk the card: their data says the fixed rate ends soon, the market says they can get a better rate, the property says they have the equity to move.</aside>
+</section></div>
+
+<!-- 07 · Evidence Trail -->
+<p class="slide-tag">07 · Evidence Trail · split with product</p>
+<div class="fit"><section class="slide">
+  <div class="panel-right"></div>
+  <div style="max-width:820px;margin-top:110px">
+    <p class="eyebrow">Evidence Trail</p>
+    <h2 class="title title--md">Every moment shows why, so advisors trust it and risk can sign it off.</h2>
+    <p class="lead">Each moment lists the data points behind it and how much each counted. The same record goes into the audit log.</p>
+    <p class="kicker">No score without a reason.</p>
+  </div>
+  <div class="ui" style="position:absolute;left:1140px;top:250px;width:660px">
+    <div class="ui-head"><span>Why Anna K. is on this week's list</span><span class="small">Evidence Trail</span></div>
+    <div class="ui-row"><span class="grow">Fixed rate ends in 7 months</span><span class="bar"><i class="gold" style="width:76%"></i></span><span class="num">38%</span></div>
+    <div class="ui-row"><span class="grow">Market rate 0.4 pts lower</span><span class="bar"><i style="width:54%"></i></span><span class="num">27%</span></div>
+    <div class="ui-row"><span class="grow">Equity up 18%</span><span class="bar"><i style="width:38%"></i></span><span class="num">19%</span></div>
+    <div class="ui-row"><span class="grow">Salary partly paid elsewhere</span><span class="bar"><i style="width:32%"></i></span><span class="num">16%</span></div>
+    <div class="ui-row" style="background:#FAF9F6"><svg class="icon" style="color:#1F7A4D"><use href="#i-check"/></svg><span class="grow small" style="color:#5B6470">Logged · model v3.2 · reviewed by risk</span></div>
+  </div>
+  <p class="source">Weights are illustrative.</p>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>07</span></div>
+  <aside class="notes">The differentiator. Every tool can produce a list; this one shows why each customer is on it. For a lending head: advisors call with a reason, so they actually use the list. Risk can review the same record. Don't go deep on method unless asked; offer the technical session.</aside>
+</section></div>
+
+<!-- 08 · Moment → product → owner -->
+<p class="slide-tag">08 · From moment to sale · table</p>
+<div class="fit"><section class="slide">
+  <p class="eyebrow">From moment to sale</p>
+  <h2 class="title">Every moment, matched to a product and an owner.</h2>
+  <div class="mtable">
+    <span class="th">Moment</span><span class="th">Product, and why</span><span class="th">Who acts</span>
+    <div class="m"><svg class="icon"><use href="#i-refinance"/></svg>Refinancing elsewhere</div>
+    <div class="p"><b>Rate-switch offer</b><span>Why: fixed rate ends in 7 months, market rate lower</span></div>
+    <div class="o o--team">Your advisor</div>
+    <div class="m"><svg class="icon"><use href="#i-home"/></svg>Buying a home</div>
+    <div class="p"><b>New mortgage</b><span>Why: deposit saved, rent payments rising, local prices steady</span></div>
+    <div class="o o--team">Your advisor</div>
+    <div class="m"><svg class="icon"><use href="#i-renovate"/></svg>Renovating</div>
+    <div class="p"><b>Renovation or green loan</b><span>Why: built 1978, low energy rating, equity available</span></div>
+    <div class="o o--digital">Digital campaign</div>
+    <div class="m"><svg class="icon"><use href="#i-policy"/></svg>New property</div>
+    <div class="p"><b>Home insurance</b><span>Why: a new purchase in the land register</span></div>
+    <div class="o o--partner">Partner insurer</div>
+  </div>
+  <p class="kicker" style="font-size:26px">You choose, product by product: your advisors, a digital campaign or a partner.</p>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>08</span></div>
+  <aside class="notes">Four moments, four products, each with the reason. The right column is their choice: advisors for high-value conversations, a digital campaign where a nudge is enough, a partner for products they don't sell.</aside>
+</section></div>
+
+<!-- 09 · In the CRM -->
+<p class="slide-tag">09 · In your CRM · steps and product</p>
+<div class="fit"><section class="slide slide--navy">
+  <p class="eyebrow">In your CRM</p>
+  <h2 class="title" style="max-width:800px">Ranked in the CRM your advisors already use.</h2>
+  <div style="position:absolute;left:120px;top:470px;width:760px" class="stack">
+    <div style="display:flex;gap:24px"><span class="num-dot">1</span><div><b style="font:700 28px/34px var(--font-display)">Connect once</b><p class="small" style="margin:6px 0 0">Share customer data from your CRM or core system, by API or secure upload.</p></div></div>
+    <div style="display:flex;gap:24px"><span class="num-dot">2</span><div><b style="font:700 28px/34px var(--font-display)">Ranked every week</b><p class="small" style="margin:6px 0 0">Seekridge adds market and property data and ranks every customer.</p></div></div>
+    <div style="display:flex;gap:24px"><span class="num-dot">3</span><div><b style="font:700 28px/34px var(--font-display)">Call with the reason</b><p class="small" style="margin:6px 0 0">Each moment lands in the advisor's queue with its evidence attached.</p></div></div>
+  </div>
+  <div class="ui" style="position:absolute;left:1000px;top:300px;width:800px">
+    <div class="ui-head"><span>This week · 212 moments</span><span class="badge badge--good">Synced</span></div>
+    <div class="ui-row is-top"><span class="num">01</span><span class="grow">Anna K.</span><span class="badge badge--gold">Refinancing elsewhere</span><span class="bar" style="width:140px"><i class="gold" style="width:92%"></i></span></div>
+    <div class="ui-row"><span class="num">02</span><span class="grow">Jonas W.</span><span class="badge">Buying a home</span><span class="bar" style="width:140px"><i style="width:84%"></i></span></div>
+    <div class="ui-row"><span class="num">03</span><span class="grow">Maria S.</span><span class="badge">Renovating</span><span class="bar" style="width:140px"><i style="width:79%"></i></span></div>
+    <div class="ui-row"><span class="num">04</span><span class="grow">Peter H.</span><span class="badge">Equity has grown</span><span class="bar" style="width:140px"><i style="width:71%"></i></span></div>
+    <div class="ui-row"><span class="num">05</span><span class="grow">Lea B.</span><span class="badge">Refinancing elsewhere</span><span class="bar" style="width:140px"><i style="width:66%"></i></span></div>
+    <div class="ui-row"><span class="num">06</span><span class="grow">Tomas R.</span><span class="badge">New property</span><span class="bar" style="width:140px"><i style="width:60%"></i></span></div>
+  </div>
+  <p class="source" style="left:1000px">Customers and ranks are illustrative.</p>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>09</span></div>
+  <aside class="notes">Nothing new for advisors to learn. The list appears where they already work, ranked, with the reason one click away. If IT is in the room, offer the integration session here.</aside>
+</section></div>
+
+<!-- 10 · Benefits -->
+<p class="slide-tag">10 · What changes · benefits with outcome</p>
+<div class="fit"><section class="slide slide--navy">
+  <p class="eyebrow">What changes</p>
+  <h2 class="title">Your mortgage book, working for you.</h2>
+  <div class="cards cards--4" style="margin-top:80px">
+    <div class="card"><div class="itile"><svg><use href="#i-customer"/></svg></div><p class="step" style="margin-top:28px">Data</p><h3 style="margin-top:12px">More on every customer</h3><p>Your data, market data and property data, combined per customer.</p></div>
+    <div class="card"><div class="itile"><svg><use href="#i-moment"/></svg></div><p class="step" style="margin-top:28px">Ranking</p><h3 style="margin-top:12px">The right customers, every week</h3><p>Hundreds to call, not 40,000. Each with its reason.</p></div>
+    <div class="card"><div class="itile"><svg><use href="#i-crm"/></svg></div><p class="step" style="margin-top:28px">Action</p><h3 style="margin-top:12px">Moments in your CRM</h3><p>Matched to your products and ready for your advisors.</p></div>
+    <div class="card card--gold"><div class="itile"><svg><use href="#i-check"/></svg></div><p class="step" style="margin-top:28px">The outcome</p><h3 style="margin-top:12px">Customers who stay, and grow with you</h3><p>Their next mortgage, top-up or insurance stays with you.</p></div>
+  </div>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>10</span></div>
+  <aside class="notes">Three steps and the result they add up to. The gold card is the only one that matters to this buyer; the first three are how you get there.</aside>
+</section></div>
+
+<!-- 11 · Proof -->
+<p class="slide-tag">11 · Proof on your own book · figure and steps</p>
+<div class="fit"><section class="slide">
+  <p class="eyebrow">Proof on your own book</p>
+  <h2 class="title">We prove it on your customers before go-live.</h2>
+  <div style="position:absolute;left:120px;top:430px;width:780px">
+    <div class="figure">68<small>%</small></div>
+    <p style="margin:20px 0 0;font:600 32px/42px var(--font-body);max-width:640px">of flagged customers refinanced within 6 months.</p>
+    <p class="mono small" style="margin-top:20px">Backtest on a lender's 2025 book · illustrative</p>
+  </div>
+  <div class="stack" style="position:absolute;left:980px;top:410px;width:820px">
+    <div class="card" style="padding:30px 36px"><p class="step">Weeks 1–2</p><h3 style="margin-top:10px;font-size:30px">Share a sample of your customers</h3></div>
+    <div class="card" style="padding:30px 36px"><p class="step">Weeks 3–4</p><h3 style="margin-top:10px;font-size:30px">We backtest against your past outcomes</h3></div>
+    <div class="card card--navy" style="padding:30px 36px"><p class="step">Week 5</p><h3 style="margin-top:10px;font-size:30px">Review the moments with your team</h3></div>
+  </div>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>11</span></div>
+  <aside class="notes">One lender, one year, one product: say so. The figure that should convince them is a backtest on their own book, which is the next step.</aside>
+</section></div>
+
+<!-- 12 · Security and compliance -->
+<p class="slide-tag">12 · Security and compliance · three cards</p>
+<div class="fit"><section class="slide">
+  <p class="eyebrow">Security and compliance</p>
+  <h2 class="title">Built for regulated lenders from day one.</h2>
+  <div class="cards cards--3" style="margin-top:80px">
+    <div class="card card--navy"><div class="itile"><svg><use href="#i-residency"/></svg></div><h3>Your data stays in the EU</h3><p>Hosted in the EU and encrypted at rest and in transit. Never used to train models for anyone else.</p></div>
+    <div class="card card--navy"><div class="itile"><svg><use href="#i-evidence"/></svg></div><h3>An audit log for every moment</h3><p>What each moment said, who saw it and what was done with it, kept for review.</p></div>
+    <div class="card card--navy"><div class="itile"><svg><use href="#i-policy"/></svg></div><h3>Consent rules built in</h3><p>Only customers who can be contacted for an offer are ranked, channel by channel.</p></div>
+  </div>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>12</span></div>
+  <aside class="notes">Keep it short with a lending head; offer the full security pack and a session with their risk and IT teams.</aside>
+</section></div>
+
+<!-- 13 · Customers -->
+<p class="slide-tag">13 · Lenders like yours · logo wall</p>
+<div class="fit"><section class="slide">
+  <p class="eyebrow">Lenders like yours</p>
+  <h2 class="title">Already finding moments for lenders across Europe.</h2>
+  <div class="logos">
+    <div class="logo-tile"><svg class="icon"><use href="#i-lender"/></svg>Nordkredit</div>
+    <div class="logo-tile"><svg class="icon"><use href="#i-lender"/></svg>Alpenkreis Bank</div>
+    <div class="logo-tile"><svg class="icon"><use href="#i-lender"/></svg>Court Street Lending</div>
+    <div class="logo-tile"><svg class="icon"><use href="#i-lender"/></svg>Havnstad Sparebank</div>
+    <div class="logo-tile"><svg class="icon"><use href="#i-lender"/></svg>Lindmark Hypotek</div>
+    <div class="logo-tile"><svg class="icon"><use href="#i-lender"/></svg>Rheintal Kredit</div>
+    <div class="logo-tile"><svg class="icon"><use href="#i-lender"/></svg>IJsselbank</div>
+    <div class="logo-tile"><svg class="icon"><use href="#i-lender"/></svg>Fjordbank</div>
+  </div>
+  <p class="source">All customer names are fictional. Use real logos only with each customer's approval.</p>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>13</span></div>
+  <aside class="notes">Pick the two names closest to their market and mention what those lenders use Seekridge for. Case studies: Nordkredit and Alpenkreis Bank.</aside>
+</section></div>
+
+<!-- 14 · Close -->
+<p class="slide-tag">14 · Next step · close</p>
+<div class="fit"><section class="slide slide--navy">
+  <div class="lockup lockup--lg"><svg><use href="#mark"/></svg>Seekridge</div>
+  <div style="margin-top:170px">
+    <p class="eyebrow">Next step</p>
+    <h2 class="title title--xl" style="max-width:860px">Let's find the first peaks in <span class="accent">your book.</span></h2>
+    <p class="lead" style="max-width:740px">A backtest on a sample of your customers: five weeks, your data, your past outcomes.</p>
+    <p style="margin-top:44px"><span class="pill">Who joins: lending, risk and IT</span></p>
+  </div>
+  <div class="ridge" style="left:880px;top:280px"><img src="slide-kit/assets/ridge-close.svg" alt=""></div>
+  <div class="foot"><span>[Rep name] · [email]</span><span>14</span></div>
+  <aside class="notes">Agree the backtest and who joins from their side before the meeting ends. Book the date in the room.</aside>
+</section></div>
+
+<!-- 15 · Appendix divider -->
+<p class="slide-tag">15 · Appendix · divider</p>
+<div class="fit"><section class="slide slide--navy">
+  <div style="margin-top:260px">
+    <p class="eyebrow">Appendix</p>
+    <h2 class="title title--xl">Alternative slides</h2>
+    <p class="lead">Other versions of the key visuals. Swap one into the main flow when it suits the room.</p>
+  </div>
+  <div class="ridge" style="left:0;top:700px"><img src="slide-kit/assets/ridge-band-navy.svg" alt=""></div>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>15</span></div>
+  <aside class="notes">Start of the appendix.</aside>
+</section></div>
+
+<!-- 16 · Variant: ranked statement -->
+<p class="slide-tag">16 · Variant of 05 · ranked statement</p>
+<div class="fit"><section class="slide">
+  <div style="margin-top:60px">
+    <p class="eyebrow">This week</p>
+    <h2 class="title title--xl" style="max-width:1500px">212 customers to call.<br>Not 40,000.</h2>
+    <p class="lead">Seekridge ranks your whole customer base every week and brings up the few who matter now.</p>
+  </div>
+  <div class="ridge" style="left:0;top:700px"><img src="slide-kit/assets/ridge-band-paper.svg" alt=""></div>
+  <p class="source" style="left:auto;right:120px;bottom:300px;text-align:right">Illustrative figures.</p>
+  <div class="foot" style="bottom:40px"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>16</span></div>
+  <aside class="notes">Use instead of slide 05 for a numbers-first room (a CFO or a head of distribution). The figure is the whole slide.</aside>
+</section></div>
+
+<!-- 17 · Variant: moments on paper -->
+<p class="slide-tag">17 · Variant of 05 · ridge, paper ground</p>
+<div class="fit"><section class="slide">
+  <p class="eyebrow">Moments that matter</p>
+  <h2 class="title">Every week, a few customers rise out of the book.</h2>
+  <div class="ridge" style="left:110px;top:400px"><img src="slide-kit/assets/ridge-moments-paper.svg" alt=""></div>
+  <div class="mlabel" style="left:341px;top:658px"><b>Buying a home</b><span>A new mortgage, with you</span></div>
+  <div class="mlabel" style="left:755px;top:554px"><b>Renovating</b><span>A renovation or green loan</span></div>
+  <div class="mlabel is-gold" style="left:1068px;top:452px"><b>Refinancing elsewhere</b><span>Keep the loan before a competitor does</span></div>
+  <div class="mlabel" style="left:1524px;top:625px"><b>Equity has grown</b><span>A top-up or equity release</span></div>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>17</span></div>
+  <aside class="notes">The light version of slide 05, for printed handouts or a bright room.</aside>
+</section></div>
+
+<!-- 18 · Variant: moments forming -->
+<p class="slide-tag">18 · Variant · moments forming</p>
+<div class="fit"><section class="slide slide--navy">
+  <p class="eyebrow">Moments forming</p>
+  <h2 class="title">The next moments are already forming.</h2>
+  <p class="lead">Most moments show early signs. Seekridge sees them building, so your advisors are ready before the customer calls anyone.</p>
+  <div class="ridge" style="left:110px;top:470px"><img src="slide-kit/assets/ridge-forming.svg" alt=""></div>
+  <div class="mlabel mlabel--ring" style="left:363px;top:780px"><b>Fixed rate ends in 14 months</b><span>Refinancing, next year</span></div>
+  <div class="mlabel mlabel--ring" style="left:776px;top:695px"><b>Savings growing fast</b><span>Buying a home</span></div>
+  <div class="mlabel mlabel--ring" style="left:1132px;top:797px"><b>Built 1972, energy rating G</b><span>Renovating</span></div>
+  <div class="mlabel mlabel--ring" style="left:1462px;top:709px"><b>Equity passes 40%</b><span>A top-up</span></div>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>18</span></div>
+  <aside class="notes">Dashed markers are moments still forming: the early sign in the pill, the moment it usually becomes underneath. Use after slide 05 for a planning-minded audience.</aside>
+</section></div>
+
+<!-- 19 · Variant: three layers, one moment -->
+<p class="slide-tag">19 · Variant of 06 · layers into one moment</p>
+<div class="fit"><section class="slide">
+  <p class="eyebrow">How it works</p>
+  <h2 class="title">Three layers. One moment.</h2>
+  <div class="cards cards--3" style="margin-top:110px">
+    <div class="layer" style="width:auto"><div class="itile"><svg><use href="#i-customer"/></svg></div><div><b>Your customer data</b><span>Fixed rate ends in 7 months</span></div></div>
+    <div class="layer" style="width:auto"><div class="itile"><svg><use href="#i-market"/></svg></div><div><b>Market data</b><span>Market rate 0.4 pts lower</span></div></div>
+    <div class="layer" style="width:auto"><div class="itile"><svg><use href="#i-property"/></svg></div><div><b>Property data</b><span>Home value up 18%</span></div></div>
+  </div>
+  <svg class="ridge" style="left:0;top:0" width="1920" height="1080" aria-hidden="true">
+    <g fill="none" stroke="#1A3A5C" stroke-opacity=".45" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round">
+      <path d="M392 500 C 392 640 960 600 960 720"/><path d="M960 500 L 960 720"/><path d="M1528 500 C 1528 640 960 600 960 720"/>
+    </g>
+  </svg>
+  <div class="card card--navy" style="position:absolute;left:560px;top:720px;width:800px;padding:36px 44px;display:flex;align-items:center;gap:28px">
+    <div class="itile itile--gold"><svg><use href="#i-refinance"/></svg></div>
+    <div><p class="step">Moment · rank 1 of 212</p><h3 style="margin-top:10px">Anna K. is likely to refinance elsewhere</h3></div>
+  </div>
+  <p class="source">Customer and figures are illustrative.</p>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>19</span></div>
+  <aside class="notes">A simpler, light version of slide 06: one data point from each layer, combined into one moment.</aside>
+</section></div>
+
+</main>
+
+<style>.notes{display:none}</style>
+<script>
+  function fit(){document.querySelectorAll('.fit').forEach(f=>{const s=f.firstElementChild;s.style.transform='scale('+(f.clientWidth/1920)+')';});}
+  addEventListener('resize',fit); fit();
+  matchMedia('print').addEventListener('change',fit);
+</script>
+</body>
+</html>

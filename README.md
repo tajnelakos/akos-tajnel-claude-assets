@@ -46,7 +46,7 @@ Everything here is built around **[Seekridge](./knowledge-base/knowledge-base.md
 | [`battlecard/`](./sales-tools/battlecard) | A designed, rep-facing HTML battlecard per tracked competitor | Claude Skill |
 | [`abm-account-brief/`](./sales-tools/abm-account-brief) | Synthesizes the whole knowledge base into a one-page brief for a named target account | Claude Skill, Custom GPT |
 | [`icp-buying-moment-monitor/`](./sales-tools/icp-buying-moment-monitor) | Scores raw account triggers against ICP criteria into a prioritized watch list | Claude Skill |
-| [`sales-deck-builder/`](./sales-tools/sales-deck-builder) | Turns a one-line deal context into a structured sales deck outline tailored to buyer persona | Claude Skill, Custom GPT |
+| [`sales-deck-builder/`](./sales-tools/sales-deck-builder) | Turns deal context into a persona-tailored outline, then designed slides from a Seekridge slide kit (HTML and PDF), with a reference deck for mortgage lenders | Claude Skill, Custom GPT, slide kit |
 
 ### `marketing-assets/`
 
