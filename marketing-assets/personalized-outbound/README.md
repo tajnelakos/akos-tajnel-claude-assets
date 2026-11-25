@@ -6,13 +6,14 @@
 
 ## The approach
 
-A skill that takes an account brief (like the one [`abm-account-brief`](../../sales-tools/abm-account-brief) produces) and drafts one outbound message — email or LinkedIn — that references the actual trigger moment specifically, uses the positioning angle already selected for that account, and follows [`branding-guideline`](../../knowledge-base/branding-guideline/skill.md)'s voice rules. This deliberately does not generate outbound from scratch off a generic template; it requires the upstream brief as input, because the whole point is to not sound like outbound that could have been sent to any account.
+A skill that takes an account brief (like the one [`abm-account-brief`](../../sales-tools/abm-account-brief) produces) and drafts one outbound message — email or LinkedIn — that references the actual trigger moment specifically, uses the positioning angle already selected for that account, and follows [`branding-guideline`](../../knowledge-base/branding-guideline/skill.md)'s voice rules. Its openings follow [`openers.md`](./openers.md): patterns taken from outreach Akos wrote to banks, insurers and data partners in a previous role, where the openings held up even after the product messaging aged. This deliberately does not generate outbound from scratch off a generic template; it requires the upstream brief as input, because the whole point is to not sound like outbound that could have been sent to any account.
 
 Closes the loop on the pipeline demonstrated across three use cases: [`icp-buying-moment-monitor`](../../sales-tools/icp-buying-moment-monitor) flags Nordkredit → [`abm-account-brief`](../../sales-tools/abm-account-brief) builds the account picture → this drafts the actual message.
 
 ## Files
 
 - [`skill.md`](./skill.md) — the Claude Skill definition
+- [`openers.md`](./openers.md) — opening patterns for the first two lines, and what to leave behind from older outreach
 - [`gpt.md`](./gpt.md) — ChatGPT custom GPT version
 - [`example.md`](./example.md) — the Nordkredit × Head of Credit Risk outreach message
 - [`example-nordkredit-vp-mortgage-lending.md`](./example-nordkredit-vp-mortgage-lending.md), [`example-court-street-lending-head-of-credit-risk.md`](./example-court-street-lending-head-of-credit-risk.md) — two more examples, see below
