@@ -1,6 +1,6 @@
 # Sample output
 
-Nordkredit — the same account [`icp-buying-moment-monitor`](../../sales-tools/icp-buying-moment-monitor/example.md) flagged, [`abm-account-brief`](../../sales-tools/abm-account-brief/example.md) briefed, and [`personalized-outbound`](../personalized-outbound/example.md) reached out to. This case study is that thread's actual ending: [`sales-call-analysis/call-01-nordkredit.md`](../../knowledge-base/sales-call-analysis/call-01-nordkredit.md) is the resulting discovery call, and the deal closed won per [`win-loss-analysis/win-loss-crm-export.csv`](../../knowledge-base/win-loss-analysis/win-loss-crm-export.csv) (OPP-1001).
+Nordkredit — an account that runs through the rest of this repo. This case study is its actual ending: [`sales-call-analysis/call-01-nordkredit.md`](../../knowledge-base/sales-call-analysis/call-01-nordkredit.md) is the resulting discovery call, and the deal closed won per [`win-loss-analysis/win-loss-crm-export.csv`](../../knowledge-base/win-loss-analysis/win-loss-crm-export.csv) (OPP-1001).
 
 ---
 

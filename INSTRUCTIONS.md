@@ -9,8 +9,8 @@ A working set of prompts, Claude Skills, and custom GPTs for recurring growth/pr
 ## Three top-level folders
 
 - **[`knowledge-base/`](./knowledge-base)** — accumulated understanding, not a task tool. Holds the core reference docs (`knowledge-base.md`, `icp.md`, `personas.md`, `positioning.md`, `competitive-landscape.md`, `branding-guideline/` for voice and identity, `design-system/` for anything visual, `linkedin-carousels/` for LinkedIn carousels and image posts, `flyer-design-system/` for print, and `video-design-system/` for anything that moves — read the relevant one first when a task needs customer, competitor, or voice context) plus the analysis work that builds and maintains that understanding (`sales-call-analysis/`, `win-loss-analysis/`, `outdated-checker/`).
-- **[`sales-tools/`](./sales-tools)** — what a rep or sales-facing process actually uses: `competitor-monitoring/`, `battlecard/`, `abm-account-brief/`, `icp-buying-moment-monitor/`, `sales-deck-builder/`.
-- **[`marketing-assets/`](./marketing-assets)** — content marketing produces and ships: `personalized-outbound/`, `persona-email-sequence/`, `product-launch-process/`.
+- **[`sales-tools/`](./sales-tools)** — what a rep or sales-facing process actually uses: `competitor-monitoring/`, `battlecard/`, `sales-deck-builder/`.
+- **[`marketing-assets/`](./marketing-assets)** — content marketing produces and ships: `persona-email-sequence/`, `product-launch-process/`.
 
 Every folder inside these three holds a flat set of files — `README.md`, `skill.md` (and `gpt.md` where relevant), plus a worked example — no nested subfolders. The exceptions are the three design systems packaged in the Claude design system format — [`linkedin-carousels/`](./knowledge-base/linkedin-carousels), [`flyer-design-system/`](./knowledge-base/flyer-design-system) and [`video-design-system/`](./knowledge-base/video-design-system) — which keep that format's folders (`components/`, `assets/` and `fonts/`, plus `examples/` for flyers and `films/` for video).
 
@@ -30,9 +30,6 @@ Every folder inside these three holds a flat set of files — `README.md`, `skil
 | "Make a flyer, postcard, leaflet or one-pager to print" | [`flyer-design-system`](./knowledge-base/flyer-design-system) (start with its README, then copy the closest file in `examples/`) |
 | "Make a product video" / "Write the script or beat sheet for a film" / "Check this cut" | [`video-design-system`](./knowledge-base/video-design-system) (start with its README, the film book; build with `skill.md`) |
 | "Build a deck (or just an outline) for [meeting/persona]" | [`sales-deck-builder`](./sales-tools/sales-deck-builder) |
-| "Which accounts are showing buying moments right now?" | [`icp-buying-moment-monitor`](./sales-tools/icp-buying-moment-monitor) |
-| "Give me the full picture on [named target account]" | [`abm-account-brief`](./sales-tools/abm-account-brief) |
-| "Draft an outbound message to [specific account]" | [`personalized-outbound`](./marketing-assets/personalized-outbound) |
 | "Build a nurture sequence for [persona]" | [`persona-email-sequence`](./marketing-assets/persona-email-sequence) |
 | "Build the full, run-ready campaign for [persona], with tracking/A-B tests" | [`persona-email-sequence/skill.md`](./marketing-assets/persona-email-sequence/skill.md)'s deep-dive campaign mode |
 | "Build a case study for [closed-won account]" | [`case-study-builder`](./marketing-assets/case-study-builder) |
@@ -50,12 +47,10 @@ This is here so an AI assistant (or a reader unfamiliar with the role) can see w
 
 **Daily**
 - Check in on any flagged deals: skim call transcripts from the last day's demos → [`sales-call-analysis`](./knowledge-base/sales-call-analysis)
-- A rep asks for help on a specific opportunity → [`personalized-outbound`](./marketing-assets/personalized-outbound) if it's 1:1 outreach, [`abm-account-brief`](./sales-tools/abm-account-brief) if they need the full picture on the account first
 - A piece of content is about to go out → [`branding-guideline`](./knowledge-base/branding-guideline) as the final check
 
 **Weekly**
 - Competitive brief for the sales team → [`competitor-monitoring`](./sales-tools/competitor-monitoring)
-- Review which target accounts newly show buying moments → [`icp-buying-moment-monitor`](./sales-tools/icp-buying-moment-monitor)
 - Build a deck for an upcoming key meeting → [`sales-deck-builder`](./sales-tools/sales-deck-builder)
 - A blog post or social post tied to a real finding (a new call pattern, a win-loss stat, a POV from `positioning.md`) → [`blog-post-builder`](./marketing-assets/blog-post-builder) or [`social-media-post-builder`](./marketing-assets/social-media-post-builder)
 

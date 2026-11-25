@@ -21,7 +21,7 @@ A one-pager fails the moment it tries to say everything. The actual skill isn't 
 
 ## What to avoid
 
-- Don't write "for [persona]" and keep the generic company pitch underneath unchanged — the angle itself has to change per persona/segment, the same way [`personalized-outbound`](../personalized-outbound) already requires for a single email.
+- Don't write "for [persona]" and keep the generic company pitch underneath unchanged — the angle itself has to change per persona/segment.
 - Don't cite a customer stat that hasn't been sourced through `case-study-builder`'s discipline or an equivalent real citation.
 - Don't try to fit two personas on one page — build two one-pagers instead.
 
