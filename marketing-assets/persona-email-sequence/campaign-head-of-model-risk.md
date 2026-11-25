@@ -52,7 +52,7 @@ Integration effort is real but usually smaller than teams expect going in — ha
 **Variant A:** "A community bank's auditor asked the same question you're asking"
 **Variant B:** "What a similarly-regulated peer told their auditor"
 
-A regional bank on our platform got asked, mid-audit, to walk the auditor through exactly why three customers had received a refinancing offer — the data points, the weighting, all of it. Their risk lead pulled the evidence trail directly and answered it in the room, not with a follow-up call two weeks later.
+A regional bank on our platform got asked, mid-audit, to walk the auditor through exactly why three customers had received a savings offer — the data points, the weighting, all of it. Their risk lead pulled the evidence trail directly and answered it in the room, not with a follow-up call two weeks later.
 
 That's a peer reference you can actually check, not a case study with the names filed off — happy to connect you directly if that'd be useful before you go further with this.
 

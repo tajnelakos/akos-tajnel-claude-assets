@@ -7,7 +7,7 @@ description: Drafts a blog post built around one specific, real point of view or
 
 ## Purpose
 
-Most B2B blog content is generic SEO-bait dressed as thought leadership — a "how-to" post built to rank, not to argue anything. This skill requires a real, specific angle (an actual point of view from `positioning.md`, or an actual finding from this repo's data) before it drafts anything, the same discipline [`personalized-outbound`](../personalized-outbound) applies to a trigger moment and [`case-study-builder`](../case-study-builder) applies to a customer result.
+Most B2B blog content is generic SEO-bait dressed as thought leadership — a "how-to" post built to rank, not to argue anything. This skill requires a real, specific angle (an actual point of view from `positioning.md`, or an actual finding from this repo's data) before it drafts anything, the same discipline [`case-study-builder`](../case-study-builder) applies to a customer result.
 
 ## Instructions
 

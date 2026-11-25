@@ -11,9 +11,9 @@ A skill that works in two stages:
 1. **Outline.** From a few lines of deal context (who's buying, what they care about, the deal stage), it writes a slide-by-slide outline: headline, purpose and key point per slide. The outline is quick to sanity-check, so the story gets fixed before anyone designs anything.
 2. **Build.** Once the outline is agreed, it builds the slides from a **Seekridge slide kit**: 15 layouts on a 1920 × 1080 canvas in the brand's design system, with the dot-map ridge as the one illustration. Every slide gets speaker notes, and the deck gets an appendix of alternative slides for different rooms.
 
-The core judgment call it makes every time: **order and emphasis change with the buyer persona**, even when the product facts don't. A credit-risk buyer and a mortgage-lending buyer don't get the same structure just because they're buying the same product.
+The core judgment call it makes every time: **order and emphasis change with the buyer persona**, even when the product facts don't. A model-risk buyer and a retail-banking buyer don't get the same structure just because they're buying the same product.
 
-The kit's story shape and slide patterns come from two decks Akos built in a previous role: a solution deck and a segment deck for mortgage lenders. They were rebuilt here for Seekridge's own design, words and fictional customers.
+The kit's story shape and slide patterns come from two decks Akos built in a previous role: a solution deck and a segment deck. They were rebuilt here for Seekridge's own design, words, bank-transaction story and fictional customers.
 
 ## Files
 

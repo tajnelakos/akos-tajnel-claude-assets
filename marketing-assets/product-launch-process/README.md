@@ -18,10 +18,10 @@ One process that runs from shaping the product to measuring it, in five stages. 
 
 ### 1. Define
 
-- **Shape the product:** critique features with product and ground them in real use cases for banks, insurers and brokerages.
+- **Shape the product:** critique features with product and ground them in real use cases for retail banks, savings banks and credit unions.
 - **Write the messaging master:** one source document sets the tagline, core premise, stage headlines, outcomes and the main illustration that every asset reuses. Built from [`positioning.md`](../../knowledge-base/positioning.md).
 - **Name and position:** lock solution and feature names and apply the copy rules in [`writing.md`](../../knowledge-base/design-system/writing.md).
-- **Package and price:** set up the Base, Ridge and Summit tiers, market price lists and the CRM, plus an upsell path for existing customers (which upgrade or add-on the launch creates for them).
+- **Package and price:** set up the platform pricing and the Base, Ridge and Summit web-app tiers, market price lists and the CRM, plus an upsell path for existing customers (which upgrade or add-on the launch creates for them).
 
 ### 2. Prove
 
@@ -62,13 +62,14 @@ What comes back feeds the next round of shaping the product.
 
 - [`launch-process.html`](./launch-process.html) — the process as an illustrated page: the five stages, the demo readiness grid and the feedback loop ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/product-launch-process/launch-process.html))
 - [`skill.md`](./skill.md) — the Claude Skill that turns a launch brief into a launch plan following this process
+- [`go-to-market-outflow-watch.md`](./go-to-market-outflow-watch.md) — the go-to-market plan for Seekridge Outflow Watch, the newest product, run through all five stages
 
 ## Decisions worth knowing
 
-- **Timing is left out on purpose.** How long each stage takes depends on the product: a new segment launch and a feature release don't share a calendar. The order of the steps is what stays fixed.
+- **Timing is left out on purpose.** How long each stage takes depends on the product: a new product launch and a feature release don't share a calendar. The order of the steps is what stays fixed.
 - **Demo readiness is checked after the demo is built, not before.** You only know whether a market can be demoed once you've tried it on that market's data.
 - **The pilot is a test, not a source of quotes.** Its job is to find out whether the product, use cases and messaging hold up with a real customer before launch.
 
 ## Current limitations
 
-The process is shown without a worked example for a specific Seekridge launch. The planned go-to-market plan for Seekridge for insurers will be the first one run through it.
+The [go-to-market plan for Seekridge Outflow Watch](./go-to-market-outflow-watch.md) is the one worked example run through it so far. Other launch types (a feature release, a new market) would each need their own.

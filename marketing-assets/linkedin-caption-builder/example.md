@@ -6,7 +6,7 @@ Built from the win-loss deep dive's Conturo/NexaScore win-rate finding — the s
 
 ## Input
 
-> Write a LinkedIn post. Angle: the win-loss deep dive's finding that Conturo (the "boring" long-tenured incumbent) wins 72.7% of contested deals against us, while NexaScore (the newer "AI-native" entrant) has lost every deal since its moment-explanation feature launched — small sample, but a real, current internal finding.
+> Write a LinkedIn post. Angle: the win-loss deep dive's finding that Conturo (the "boring" long-tenured incumbent) wins 72.7% of contested deals against us, while NexaScore (the newer "AI-native" entrant) has lost every deal since its action-explanation feature launched — small sample, but a real, current internal finding.
 
 ## Output
 

@@ -7,7 +7,7 @@ description: Builds a customer case study from a real closed-won deal's actual d
 
 ## Purpose
 
-Case studies are usually the most fabricated piece of B2B content in the building — a customer story assembled from a rep's memory, a testimonial quote nobody actually said out loud, and a result rounded up because the real number wasn't impressive enough. This skill applies the same real-source discipline the rest of this repo already requires ([`personalized-outbound`](../personalized-outbound)) to case studies specifically.
+Case studies are usually the most fabricated piece of B2B content in the building — a customer story assembled from a rep's memory, a testimonial quote nobody actually said out loud, and a result rounded up because the real number wasn't impressive enough. This skill applies the same real-source discipline the rest of this repo already requires (see [`sales-call-analysis`](../../knowledge-base/sales-call-analysis)) to case studies specifically.
 
 ## Instructions
 

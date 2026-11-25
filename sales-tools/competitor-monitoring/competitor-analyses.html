@@ -182,7 +182,7 @@
 .pw-stat__meta{font-size:14px;line-height:20px;color:var(--ink-muted);margin:0}
 .pw-stat__source{margin-top:var(--space-3)}
 
-/* Valuation summary */
+/* Moment summary (MomentCard; pw-val classes kept for compatibility) */
 .pw-val{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-lg);overflow:hidden}
 .pw-val__head{display:flex;justify-content:space-between;gap:var(--space-4);align-items:flex-start;padding:var(--space-5);border-bottom:1px solid var(--line)}
 .pw-val__value{font:800 40px/44px var(--font-display);font-variant-numeric:tabular-nums;margin:var(--space-1) 0}
@@ -451,7 +451,7 @@ footer.site{border-top:0}
    "summary": [
     {
      "name": "Ledgerline",
-     "text": "Launched its first enterprise tier with single sign-on and an audit log, and opened a beta of Book Watch, which flags rate resets across lenders&rsquo; mortgage books."
+     "text": "Launched its first enterprise tier with single sign-on and an audit log, and opened a beta of Flow Alerts, which flags salary changes and new transfers out across banks&rsquo; customers."
     },
     {
      "name": "NexaScore",
@@ -459,10 +459,10 @@ footer.site{border-top:0}
     },
     {
      "name": "Pocketlens",
-     "text": "Launched in Switzerland and replaced its free single-seat plan with a 14-day trial."
+     "text": "Launched in Switzerland and replaced its free tier for small banks with a 90-day paid pilot."
     },
     {
-     "name": "Lotmark",
+     "name": "Saldomark",
      "text": "Raised a EUR 4m seed round led by Isarwerk Ventures to fund hiring and an Austrian launch."
     }
    ],
@@ -470,7 +470,7 @@ footer.site{border-top:0}
     {
      "name": "Ledgerline",
      "sub": "(Ledgerline GmbH)",
-     "snapshot": "Berlin-based property data provider, founded in 2021 and venture-backed, that sells property data and automated valuations to mid-market lenders across Europe through a self-serve, usage-priced API.",
+     "snapshot": "Berlin-based transaction-data provider, founded in 2021 and venture-backed, that sells transaction categorisation and enrichment to mid-market banks across Europe through a self-serve, usage-priced API.",
      "developments": [
       {
        "text": "Ledgerline Enterprise tier &mdash; Launched on 9 September 2026, its first enterprise tier adds single sign-on, an audit log of API calls and annual contracts alongside the existing self-serve, per-call plans.",
@@ -486,7 +486,7 @@ footer.site{border-top:0}
        ]
       },
       {
-       "text": "Book Watch in beta &mdash; On 14 October 2026 Ledgerline opened a beta of Book Watch, an API endpoint that flags upcoming rate resets and loan-to-value changes across a lender&rsquo;s mortgage book; it says six lenders in Germany and the Netherlands are taking part.",
+       "text": "Flow Alerts in beta &mdash; On 14 October 2026 Ledgerline opened a beta of Flow Alerts, an API endpoint that flags salary changes and new recurring transfers out across a bank&rsquo;s customers; it says six banks in Germany and the Netherlands are taking part.",
        "sources": [
         {
          "label": "Company blog",
@@ -519,10 +519,10 @@ footer.site{border-top:0}
     {
      "name": "Pocketlens",
      "sub": "(Pocketlens GmbH)",
-     "snapshot": "Vienna-based, bootstrapped provider of seller-lead software for independent real estate brokerages, founded in 2019 and priced per seat.",
+     "snapshot": "Vienna-based, bootstrapped provider of a customer-facing money-insights widget for banking apps, founded in 2019 and priced per active app user.",
      "developments": [
       {
-       "text": "Switzerland launch &mdash; On 15 September 2026 Pocketlens launched in Switzerland for German-speaking brokerages, with prices in CHF.",
+       "text": "Switzerland launch &mdash; On 15 September 2026 Pocketlens launched in Switzerland for German-speaking regional banks, with prices in CHF.",
        "sources": [
         {
          "label": "Company press release",
@@ -531,7 +531,7 @@ footer.site{border-top:0}
        ]
       },
       {
-       "text": "Free plan replaced by a trial &mdash; From 1 October 2026 Pocketlens replaced its free single-seat plan with a 14-day trial of the paid plans.",
+       "text": "Free tier replaced by a pilot &mdash; From 1 October 2026 Pocketlens replaced its free tier for small banks with a 90-day paid pilot.",
        "sources": [
         {
          "label": "Pricing page",
@@ -544,20 +544,20 @@ footer.site{border-top:0}
      "messaging": []
     },
     {
-     "name": "Lotmark",
-     "sub": "(Lotmark GmbH)",
-     "snapshot": "Munich-based start-up, founded in 2023, whose app gives residential brokers seller leads drawn from public listing and land-register data.",
+     "name": "Saldomark",
+     "sub": "(Saldomark GmbH)",
+     "snapshot": "Munich-based start-up, founded in 2023, whose app gives credit-union bankers a weekly call list drawn from simple balance and product rules.",
      "developments": [
       {
-       "text": "EUR 4m seed round &mdash; Announced on 2 October 2026, the round was led by Isarwerk Ventures; Lotmark said it will fund hiring and an Austrian launch.",
+       "text": "EUR 4m seed round &mdash; Announced on 2 October 2026, the round was led by Isarwerk Ventures; Saldomark said it will fund hiring and an Austrian launch.",
        "sources": [
         {
          "label": "Company press release",
-         "url": "https://lotmark.example/press/seed"
+         "url": "https://saldomark.example/press/seed"
         },
         {
          "label": "Commercial register",
-         "url": "https://register.example/lotmark-gmbh"
+         "url": "https://register.example/saldomark-gmbh"
         }
        ]
       }
@@ -568,7 +568,7 @@ footer.site{border-top:0}
     {
      "name": "Kantora",
      "sub": "(Kantora AG)",
-     "snapshot": "Zurich-based provider of mortgage-portfolio analytics for Swiss cantonal and regional banks, founded in 2017 and owned by its founders.",
+     "snapshot": "Zurich-based provider of retail-banking analytics for Swiss cantonal and regional banks, founded in 2017 and owned by its founders.",
      "developments": [],
      "partnerships": [],
      "messaging": []
@@ -588,18 +588,18 @@ footer.site{border-top:0}
     },
     {
      "name": "Ledgerline",
-     "text": "Raised a USD 22m Series A extension, appointed its first VP of Compliance and integrated with a German loan origination system."
+     "text": "Raised a USD 22m Series A extension, appointed its first VP of Compliance and integrated with a German core-banking provider."
     },
     {
      "name": "Pocketlens",
-     "text": "Launched a property management analytics module and integrated with a widely used brokerage CRM."
+     "text": "Launched a savings-goals module and integrated with a widely used digital-banking platform."
     }
    ],
    "companies": [
     {
      "name": "Ledgerline",
      "sub": "(Ledgerline GmbH)",
-     "snapshot": "Berlin-based property data provider, founded in 2021 and venture-backed, that sells property data and automated valuations to mid-market lenders across Europe through a self-serve, usage-priced API.",
+     "snapshot": "Berlin-based transaction-data provider, founded in 2021 and venture-backed, that sells transaction categorisation and enrichment to mid-market banks across Europe through a self-serve, usage-priced API.",
      "developments": [
       {
        "text": "USD 22m Series A extension &mdash; Announced on 9 July 2026, the extension is to fund expansion into new European markets; Ledgerline did not name the lead investor or new markets.",
@@ -622,7 +622,7 @@ footer.site{border-top:0}
      ],
      "partnerships": [
       {
-       "text": "Loan origination integration &mdash; Announced on 19 August 2026, an integration with a German mid-market loan origination system provider puts Ledgerline property data and valuations directly into the loan workflow; the provider was not named.",
+       "text": "Core-banking integration &mdash; Announced on 19 August 2026, an integration with a German mid-market core-banking provider puts Ledgerline&rsquo;s categorised transactions directly into the bank&rsquo;s data warehouse; the provider was not named.",
        "sources": [
         {
          "label": "Company blog",
@@ -653,7 +653,7 @@ footer.site{border-top:0}
        "sources": [
         {
          "label": "Company press release",
-         "url": "https://nexascore.example/press/moment-explanations-ga"
+         "url": "https://nexascore.example/press/action-explanations-ga"
         }
        ]
       },
@@ -693,21 +693,21 @@ footer.site{border-top:0}
     {
      "name": "Pocketlens",
      "sub": "(Pocketlens GmbH)",
-     "snapshot": "Vienna-based, bootstrapped provider of seller-lead software for independent real estate brokerages, founded in 2019 and priced per seat.",
+     "snapshot": "Vienna-based, bootstrapped provider of a customer-facing money-insights widget for banking apps, founded in 2019 and priced per active app user.",
      "developments": [
       {
-       "text": "Property management module &mdash; Launched on 12 August 2026, a property management analytics module extends Pocketlens beyond its original focus on brokerage agents.",
+       "text": "Savings-goals module &mdash; Launched on 12 August 2026, a savings-goals module extends Pocketlens beyond its original spending summaries.",
        "sources": [
         {
          "label": "Company blog",
-         "url": "https://pocketlens.example/blog/property-management"
+         "url": "https://pocketlens.example/blog/savings-goals"
         }
        ]
       }
      ],
      "partnerships": [
       {
-       "text": "Brokerage CRM integration &mdash; Released on 26 August 2026, an integration with a widely used brokerage CRM platform syncs Pocketlens seller leads into agents&rsquo; contact records.",
+       "text": "Digital-banking platform integration &mdash; Released on 26 August 2026, an integration with a widely used digital-banking platform lets banks switch on Pocketlens insights in their app without a custom build.",
        "sources": [
         {
          "label": "Company blog",
@@ -719,9 +719,9 @@ footer.site{border-top:0}
      "messaging": []
     },
     {
-     "name": "Lotmark",
-     "sub": "(Lotmark GmbH)",
-     "snapshot": "Munich-based start-up, founded in 2023, whose app gives residential brokers seller leads drawn from public listing and land-register data.",
+     "name": "Saldomark",
+     "sub": "(Saldomark GmbH)",
+     "snapshot": "Munich-based start-up, founded in 2023, whose app gives credit-union bankers a weekly call list drawn from simple balance and product rules.",
      "developments": [],
      "partnerships": [],
      "messaging": []
@@ -729,7 +729,7 @@ footer.site{border-top:0}
     {
      "name": "Kantora",
      "sub": "(Kantora AG)",
-     "snapshot": "Zurich-based provider of mortgage-portfolio analytics for Swiss cantonal and regional banks, founded in 2017 and owned by its founders.",
+     "snapshot": "Zurich-based provider of retail-banking analytics for Swiss cantonal and regional banks, founded in 2017 and owned by its founders.",
      "developments": [],
      "partnerships": [],
      "messaging": []
@@ -751,17 +751,17 @@ footer.site{border-top:0}
    {
     "period": "2026-sep-oct",
     "name": "Ledgerline",
-    "text": "Opened a beta of Book Watch, which flags rate resets and loan-to-value changes across a lender&rsquo;s mortgage book."
+    "text": "Opened a beta of Flow Alerts, which flags salary changes and new recurring transfers out across a bank&rsquo;s customers."
    },
    {
     "period": "2026-sep-oct",
-    "name": "Lotmark",
+    "name": "Saldomark",
     "text": "Raised a EUR 4m seed round led by Isarwerk Ventures."
    },
    {
     "period": "2026-sep-oct",
     "name": "Pocketlens",
-    "text": "Launched in Switzerland for German-speaking brokerages."
+    "text": "Launched in Switzerland for German-speaking regional banks."
    },
    {
     "period": "2026-sep-oct",
@@ -786,7 +786,7 @@ footer.site{border-top:0}
    {
     "period": "2026-jul-aug",
     "name": "Pocketlens",
-    "text": "Launched a property management analytics module."
+    "text": "Launched a savings-goals module."
    }
   ]
  }
@@ -814,7 +814,7 @@ footer.site{border-top:0}
     },
     {
      "name": "Ledgerline",
-     "text": "Launched its first enterprise tier, opened a Book Watch beta with Dutch and German lenders, and integrated with Dutch mortgage-advice platform Adviseurspoort."
+     "text": "Launched its first enterprise tier, opened a Flow Alerts beta with Dutch and German banks, and integrated with Dutch banking-advice platform Adviseurspoort."
     },
     {
      "name": "NexaScore",
@@ -825,7 +825,7 @@ footer.site{border-top:0}
     {
      "name": "Conturo",
      "sub": "(Conturo SA)",
-     "snapshot": "Brussels-based, privately held property-data provider for banks in France and the Benelux, founded in 2005, selling historical property data, valuations and a portfolio insights report, with on-premises deployment available.",
+     "snapshot": "Brussels-based, privately held banking-analytics provider for banks in France and the Benelux, founded in 2005, selling campaign management, customer analytics and a customer insights report, with on-premises deployment available.",
      "developments": [
       {
        "text": "New Chief Product Officer &mdash; On 6 October 2026 Conturo appointed Pieter Claes, previously at a core-banking software vendor, as Chief Product Officer, a new role.",
@@ -839,7 +839,7 @@ footer.site{border-top:0}
      ],
      "partnerships": [
       {
-       "text": "Banking CRM connector in pilot &mdash; On 21 October 2026 Conturo said a connector between its portfolio insights and a widely used banking CRM is in pilot with two Belgian banks, with general availability planned for the first half of 2027; customer data currently reaches it by batch file.",
+       "text": "Banking CRM connector in pilot &mdash; On 21 October 2026 Conturo said a connector between its customer insights report and a widely used banking CRM is in pilot with two Belgian banks, with general availability planned for the first half of 2027; customer data currently reaches it by batch file.",
        "sources": [
         {
          "label": "Company blog",
@@ -857,7 +857,7 @@ footer.site{border-top:0}
     {
      "name": "Ledgerline",
      "sub": "(Ledgerline GmbH)",
-     "snapshot": "Berlin-based property data provider, founded in 2021 and venture-backed, that sells property data and automated valuations to mid-market lenders across Europe through a self-serve, usage-priced API.",
+     "snapshot": "Berlin-based transaction-data provider, founded in 2021 and venture-backed, that sells transaction categorisation and enrichment to mid-market banks across Europe through a self-serve, usage-priced API.",
      "developments": [
       {
        "text": "Ledgerline Enterprise tier &mdash; Launched on 9 September 2026, its first enterprise tier adds single sign-on, an audit log of API calls and annual contracts alongside the existing self-serve, per-call plans.",
@@ -873,7 +873,7 @@ footer.site{border-top:0}
        ]
       },
       {
-       "text": "Book Watch in beta &mdash; On 14 October 2026 Ledgerline opened a beta of Book Watch, an API endpoint that flags upcoming rate resets and loan-to-value changes across a lender&rsquo;s mortgage book; it says six lenders in Germany and the Netherlands are taking part.",
+       "text": "Flow Alerts in beta &mdash; On 14 October 2026 Ledgerline opened a beta of Flow Alerts, an API endpoint that flags salary changes and new recurring transfers out across a bank&rsquo;s customers; it says six banks in Germany and the Netherlands are taking part.",
        "sources": [
         {
          "label": "Company blog",
@@ -884,7 +884,7 @@ footer.site{border-top:0}
      ],
      "partnerships": [
       {
-       "text": "Adviseurspoort integration &mdash; Announced on 22 October 2026, an integration with Adviseurspoort, a Dutch mortgage-advice software platform, brings Ledgerline valuations into the adviser&rsquo;s case file.",
+       "text": "Adviseurspoort integration &mdash; Announced on 22 October 2026, an integration with Adviseurspoort, a Dutch banking-advice software platform, brings Ledgerline&rsquo;s categorised transactions into the adviser&rsquo;s case file.",
        "sources": [
         {
          "label": "Company press release",
@@ -892,7 +892,7 @@ footer.site{border-top:0}
         },
         {
          "label": "Trade press",
-         "url": "https://proptech-weekly.example/ledgerline-adviseurspoort"
+         "url": "https://fintech-weekly.example/ledgerline-adviseurspoort"
         }
        ]
       }
@@ -920,7 +920,7 @@ footer.site{border-top:0}
     {
      "name": "Polderline",
      "sub": "(Polderline B.V.)",
-     "snapshot": "Rotterdam-based provider of property-risk and flood-exposure data for Dutch and Belgian home insurers, founded in 2018 and owned by a Dutch mutual insurer.",
+     "snapshot": "Rotterdam-based provider of customer-churn analytics for Dutch and Belgian savings banks, founded in 2018 and owned by a Dutch cooperative bank.",
      "developments": [],
      "partnerships": [],
      "messaging": []
@@ -951,7 +951,7 @@ footer.site{border-top:0}
     {
      "name": "Conturo",
      "sub": "(Conturo SA)",
-     "snapshot": "Brussels-based, privately held property-data provider for banks in France and the Benelux, founded in 2005, selling historical property data, valuations and a portfolio insights report, with on-premises deployment available.",
+     "snapshot": "Brussels-based, privately held banking-analytics provider for banks in France and the Benelux, founded in 2005, selling campaign management, customer analytics and a customer insights report, with on-premises deployment available.",
      "developments": [],
      "partnerships": [
       {
@@ -969,7 +969,7 @@ footer.site{border-top:0}
     {
      "name": "Ledgerline",
      "sub": "(Ledgerline GmbH)",
-     "snapshot": "Berlin-based property data provider, founded in 2021 and venture-backed, that sells property data and automated valuations to mid-market lenders across Europe through a self-serve, usage-priced API.",
+     "snapshot": "Berlin-based transaction-data provider, founded in 2021 and venture-backed, that sells transaction categorisation and enrichment to mid-market banks across Europe through a self-serve, usage-priced API.",
      "developments": [
       {
        "text": "USD 22m Series A extension &mdash; Announced on 9 July 2026, the extension is to fund expansion into new European markets; Ledgerline did not name the lead investor or new markets.",
@@ -1013,7 +1013,7 @@ footer.site{border-top:0}
        "sources": [
         {
          "label": "Company press release",
-         "url": "https://nexascore.example/press/moment-explanations-ga"
+         "url": "https://nexascore.example/press/action-explanations-ga"
         }
        ]
       }
@@ -1044,7 +1044,7 @@ footer.site{border-top:0}
     {
      "name": "Polderline",
      "sub": "(Polderline B.V.)",
-     "snapshot": "Rotterdam-based provider of property-risk and flood-exposure data for Dutch and Belgian home insurers, founded in 2018 and owned by a Dutch mutual insurer.",
+     "snapshot": "Rotterdam-based provider of customer-churn analytics for Dutch and Belgian savings banks, founded in 2018 and owned by a Dutch cooperative bank.",
      "developments": [],
      "partnerships": [],
      "messaging": []
@@ -1071,7 +1071,7 @@ footer.site{border-top:0}
    {
     "period": "2026-sep-oct",
     "name": "Ledgerline",
-    "text": "Integrated with Dutch mortgage-advice platform Adviseurspoort."
+    "text": "Integrated with Dutch banking-advice platform Adviseurspoort."
    },
    {
     "period": "2026-sep-oct",
@@ -1172,7 +1172,7 @@ footer.site{border-top:0}
     {
      "name": "Ledgerline",
      "sub": "(Ledgerline GmbH)",
-     "snapshot": "Berlin-based property data provider, founded in 2021 and venture-backed, that sells property data and automated valuations to mid-market lenders across Europe through a self-serve, usage-priced API.",
+     "snapshot": "Berlin-based transaction-data provider, founded in 2021 and venture-backed, that sells transaction categorisation and enrichment to mid-market banks across Europe through a self-serve, usage-priced API.",
      "developments": [
       {
        "text": "Ledgerline Enterprise tier &mdash; Launched on 9 September 2026, its first enterprise tier adds single sign-on, an audit log of API calls and annual contracts alongside the existing self-serve, per-call plans.",
@@ -1212,7 +1212,7 @@ footer.site{border-top:0}
     {
      "name": "Havsten Data",
      "sub": "(Havsten Data ApS)",
-     "snapshot": "Copenhagen-based provider of a property data API for Danish and Swedish banks, founded in 2016 and owned by a Danish data group.",
+     "snapshot": "Copenhagen-based provider of a transaction-categorisation API for Danish and Swedish banks, founded in 2016 and owned by a Danish data group.",
      "developments": [],
      "partnerships": [],
      "messaging": []
@@ -1246,7 +1246,7 @@ footer.site{border-top:0}
        "sources": [
         {
          "label": "Company press release",
-         "url": "https://nexascore.example/press/moment-explanations-ga"
+         "url": "https://nexascore.example/press/action-explanations-ga"
         }
        ]
       }
@@ -1277,7 +1277,7 @@ footer.site{border-top:0}
     {
      "name": "Ledgerline",
      "sub": "(Ledgerline GmbH)",
-     "snapshot": "Berlin-based property data provider, founded in 2021 and venture-backed, that sells property data and automated valuations to mid-market lenders across Europe through a self-serve, usage-priced API.",
+     "snapshot": "Berlin-based transaction-data provider, founded in 2021 and venture-backed, that sells transaction categorisation and enrichment to mid-market banks across Europe through a self-serve, usage-priced API.",
      "developments": [
       {
        "text": "USD 22m Series A extension &mdash; Announced on 9 July 2026, the extension is to fund expansion into new European markets; Ledgerline did not name the lead investor or new markets.",
@@ -1322,7 +1322,7 @@ footer.site{border-top:0}
     {
      "name": "Havsten Data",
      "sub": "(Havsten Data ApS)",
-     "snapshot": "Copenhagen-based provider of a property data API for Danish and Swedish banks, founded in 2016 and owned by a Danish data group.",
+     "snapshot": "Copenhagen-based provider of a transaction-categorisation API for Danish and Swedish banks, founded in 2016 and owned by a Danish data group.",
      "developments": [],
      "partnerships": [],
      "messaging": []

@@ -2,7 +2,7 @@
 
 ## The problem
 
-Case studies are usually the most fabricated piece of B2B content in the building — assembled from a rep's memory of how a deal went, a testimonial quote nobody actually said out loud, and a result quietly rounded up because the real number wasn't impressive enough. The fix isn't a better case-study template; it's requiring the same real-source discipline this repo's other tools already apply ([`personalized-outbound`](../personalized-outbound)), so a case study says only what its actual CRM record and call transcript support.
+Case studies are usually the most fabricated piece of B2B content in the building — assembled from a rep's memory of how a deal went, a testimonial quote nobody actually said out loud, and a result quietly rounded up because the real number wasn't impressive enough. The fix isn't a better case-study template; it's requiring the same real-source discipline this repo's other tools already apply (see [`sales-call-analysis`](../../knowledge-base/sales-call-analysis)), so a case study says only what its actual CRM record and call transcript support.
 
 ## The approach
 
@@ -17,7 +17,7 @@ Takes a closed-won account's real CRM record and/or call transcript — not a re
 
 ## Why this account specifically
 
-Nordkredit isn't a fresh example invented for this folder — it's the same account [`icp-buying-moment-monitor`](../../sales-tools/icp-buying-moment-monitor) flagged as a cold moment, [`abm-account-brief`](../../sales-tools/abm-account-brief) briefed, and [`personalized-outbound`](../personalized-outbound) drafted outreach to. [`sales-call-analysis/call-01-nordkredit.md`](../../knowledge-base/sales-call-analysis/call-01-nordkredit.md) is the resulting discovery call, and [`win-loss-analysis/win-loss-crm-export.csv`](../../knowledge-base/win-loss-analysis/win-loss-crm-export.csv) (OPP-1001) shows it closed won. This folder is that pipeline's actual ending, not a new, disconnected example.
+Nordkredit isn't a fresh example invented for this folder — it's the account that runs through the rest of the repo. [`sales-call-analysis/call-01-nordkredit.md`](../../knowledge-base/sales-call-analysis/call-01-nordkredit.md) is the resulting discovery call, and [`win-loss-analysis/win-loss-crm-export.csv`](../../knowledge-base/win-loss-analysis/win-loss-crm-export.csv) (OPP-1001) shows it closed won. This folder is that thread's actual ending, not a new, disconnected example.
 
 ## Current limitations
 

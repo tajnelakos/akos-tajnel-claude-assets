@@ -20,7 +20,7 @@ Confident and specific, never hyped. The audience is technically skeptical and r
 |---|---|---|
 | Name the persona's problem | "Which of your customers are moving money out this quarter?" | "Discover our new platform" |
 | Mechanism, not adjective | "Every moment shows the 6 data points behind it and how much each counted" | "Robust, transparent insights" |
-| Explain any AI claim | "The model combines the rate-reset date, equity and local price trend, and shows each weight" | "Powered by advanced AI" |
+| Explain any AI claim | "The model combines the new transfer out, the income change and other banks' savings rates, and shows each weight" | "Powered by advanced AI" |
 | Benefit, then feature | "Know which customers to call this month, and why" | "Moment scoring with Evidence Trail" |
 | One term per idea | "moments" throughout | "moments", then "leads", then "alerts" |
 | Precise CTAs | "Run a backtest on your own customer base" | "Learn more" |
@@ -59,7 +59,7 @@ Sentence case for every title, heading, button, label, cover and caption: "Evide
 ## Numbers, currency and dates
 
 - **Currency code before the number**, never a symbol, because the markets use EUR, CHF, SEK, NOK and DKK side by side: EUR 412,500 · CHF 1.2m · SEK 3.4m. Large amounts: m and bn ("EUR 5 bn" in prose; "EUR 5bn" in tight UI). *Older repo examples use €; update them when they're next edited.*
-- **Every figure says what it measures** and, if external, where it came from: "68% of flagged customers moved money out within 6 months (backtest on the client's 2025 book)".
+- **Every figure says what it measures** and, if external, where it came from: "68% of flagged customers moved money out within 6 months (backtest on the client's 2025 data)".
 - **Illustrative figures are labelled** as illustrative wherever they appear outside internal docs.
 - **Dates:** 24 November 2026 in prose; 2026-11-24 in tables, exports and the audit log (mono).
 - **Percentages:** 6.1%, no space in English.
