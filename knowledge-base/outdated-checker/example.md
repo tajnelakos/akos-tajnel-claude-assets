@@ -6,7 +6,7 @@ Checking [`competitive-landscape.md`](../competitive-landscape.md) against a fic
 
 ## Input
 
-> Newer moment (April 2026, hypothetical): NexaScore's release notes now state their "regulatory moment explanations" feature is Generally Available as of this month, with a named enterprise customer reference.
+> Newer moment (April 2026, hypothetical): NexaScore's release notes now state their "action explanations" feature is Generally Available as of this month, with a named enterprise customer reference.
 >
 > Document to check: competitive-landscape.md, NexaScore section.
 
