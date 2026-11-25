@@ -14,7 +14,7 @@ The rendered one-pager: [`one-pager-vp-mortgage-lending.html`](./one-pager-vp-mo
 ## One-Pager — VP of Mortgage Lending, Bank/Lender
 
 **Positioning angle used:** positioning.md's Mortgage lending row: "Know which customers to call this month, and why, before a competitor does."
-**Format:** designed single-page HTML — see one-pager-vp-mortgage-lending.html
+**Format:** designed front-and-back A4 leaflet in HTML (prints as two pages) — see one-pager-vp-mortgage-lending.html
 
 **Headline:** Find the peaks in your mortgage book.
 **Subhead:** Thousands of customers, and every month a handful about to refinance elsewhere, borrow more or move. Seekridge finds them in your own data, months ahead, and puts them in your advisors' CRM with the reason attached.
@@ -25,7 +25,8 @@ The rendered one-pager: [`one-pager-vp-mortgage-lending.html`](./one-pager-vp-mo
 2. Grow lending to customers you have → top-up, renovation and moving demand shows up before the customer asks another bank → property and market data joined to the CRM.
 3. A list advisors actually work → they believe it, so they call; Credit Risk approves the approach once → an evidence trail on every moment, delivered as a CRM task.
 
-**Proof of how it works:** one illustrative rate-reset moment showing the data behind it, plus a four-step rollout (connect, backtest, pilot, every branch).
+**Front:** the header, a product screenshot (this week's ranked moments) over the band, three backtest numbers (68% of top-ranked customers refinanced elsewhere within 6 months, 7× the 9% book average, ~4 months of warning — illustrative, from the product's backtest report), and the value → benefit → feature cards.
+**Back:** a rate-reset timeline (flagged months ahead vs. finding out at redemption), six product features with icons beside a moment's evidence trail, the four-step rollout, and the CTA.
 **CTA:** Bring last year's lost refinancings. We'll show which of them we would have flagged, and how many months earlier. → Book a backtest on your book.
 
 ---

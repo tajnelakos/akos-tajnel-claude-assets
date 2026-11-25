@@ -258,3 +258,5 @@ header.sr-mast .sr-mast__lede { max-width: 60ch; }
   .bc-glance > div:nth-child(4n) { border-right: 1px solid var(--line); } .bc-glance > div:nth-child(2n) { border-right: 0; }
   .bc-pitch, .bc-two, .bc-mines, .bc-quotes { grid-template-columns: 1fr; }
 }
+.sr-report .kpis, .sr-report .stats { background: transparent !important; border: 0 !important; }
+.sr-report .kpi-value { font-size: 32px !important; line-height: 36px !important; }
