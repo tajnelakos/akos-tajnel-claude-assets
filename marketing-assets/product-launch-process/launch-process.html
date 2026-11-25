@@ -1,0 +1,199 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Product launch process · Seekridge</title>
+<style>
+.lp { max-width: 1040px; margin: 0 auto; padding: 0 24px; box-sizing: border-box; display: flex; flex-direction: column; gap: 16px; }
+.lp-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-lg); padding: 28px; }
+.lp-h { margin: 0 0 6px; font: 500 12px/16px var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--navy); display: flex; align-items: center; gap: 8px; }
+.lp-h::before { content: ""; width: 8px; height: 8px; border-radius: var(--r-xs); background: var(--gold); }
+.lp-title { margin: 0 0 8px; font: 800 26px/1.15 var(--font-display); letter-spacing: -.01em; color: var(--ink); }
+.lp-sub { margin: 0; font-size: 15.5px; line-height: 1.6; color: var(--ink-soft); max-width: 70ch; }
+
+/* The flow rail */
+.rail { position: relative; margin-top: 28px; }
+.rail ol { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; position: relative; z-index: 1; }
+.rail ol::before { content: ""; position: absolute; left: 10%; right: 10%; top: 31px; height: 2px; background: var(--line-strong); opacity: .5; z-index: -1; }
+.rail li { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 10px; }
+.rail .node { flex: none; width: 64px; height: 64px; border-radius: 50%; background: var(--surface); border: 2px solid var(--navy); display: grid; place-items: center; position: relative; }
+.rail .node img { width: 28px; height: 28px; }
+.rail .node b { position: absolute; top: -6px; right: -6px; width: 24px; height: 24px; border-radius: 50%; background: var(--navy); color: var(--paper); font: 700 12px/24px var(--font-display); }
+.rail li.is-gold .node { border-color: var(--gold); }
+.rail li.is-gold .node b { background: var(--gold); }
+.rail li > div { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.rail .name { font: 800 18px/1.2 var(--font-display); color: var(--ink); }
+.rail .what { font-size: 13.5px; line-height: 1.5; color: var(--ink-soft); max-width: 20ch; }
+.loop { display: block; width: 80%; margin: 4px auto 0; height: 56px; overflow: visible; }
+.loop-label { text-align: center; margin: 2px 0 0; font: 500 12px/16px var(--font-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--gold); }
+
+/* Stage cards */
+.stage { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 28px; }
+.stage__side { border-right: 1px solid var(--line); padding-right: 24px; }
+.stage__num { font: 800 44px/1 var(--font-display); color: var(--navy); letter-spacing: -.02em; }
+.stage.is-gold .stage__num { color: var(--gold); }
+.stage__name { margin: 8px 0 6px; font: 800 22px/1.2 var(--font-display); color: var(--ink); }
+.stage__why { margin: 0; font-size: 14px; line-height: 1.55; color: var(--ink-soft); }
+.steps { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 14px; }
+.steps li { position: relative; padding-left: 22px; font-size: 15px; line-height: 1.6; color: var(--ink-soft); }
+.steps li::before { content: ""; position: absolute; left: 0; top: .6em; width: 8px; height: 8px; border-radius: var(--r-xs); background: var(--navy); }
+.steps li.is-key::before { background: var(--gold); }
+.steps b { color: var(--ink); font-weight: 600; }
+.chip { display: inline-flex; align-items: center; margin-left: 6px; padding: 1px 8px; border-radius: var(--r-full); border: 1px solid var(--line); background: var(--surface-2);
+  font: 400 12px/18px var(--font-mono); color: var(--navy); text-decoration: none; white-space: nowrap; vertical-align: 1px; }
+.chip:hover { border-color: var(--navy); }
+
+/* Readiness grid */
+.ready { margin-top: 22px; border: 1px solid var(--line); border-radius: var(--r-md); padding: 18px 20px; background: var(--surface-2); }
+.ready__top { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+.ready__top strong { font: 700 15px/1.3 var(--font-display); color: var(--ink); }
+.ready__top span { font: 400 12px/16px var(--font-mono); color: var(--ink-faint); }
+.rgrid { display: grid; grid-template-columns: 96px repeat(3, minmax(0, 1fr)); gap: 6px; }
+.rgrid .th { font: 500 11px/14px var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-faint); padding: 4px 2px; align-self: end; }
+.rgrid .mk { font: 600 14px/18px var(--font-body); color: var(--ink); padding: 10px 2px; }
+.rgrid .c { border-radius: var(--r-sm); padding: 10px 12px; font: 600 13px/16px var(--font-body); display: flex; align-items: center; gap: 8px; }
+.rgrid .c::before { content: ""; flex: none; width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+.r-ok { background: var(--win-bg); color: var(--win); }
+.r-part { background: var(--land-bg); color: var(--land); }
+.r-no { background: #EFEEE9; color: var(--ink-soft); }
+.ready__note { margin: 12px 0 0; font-size: 13.5px; line-height: 1.5; color: var(--ink-soft); }
+
+/* Learn */
+.learn { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.learn > div { border-radius: var(--r-md); padding: 20px 22px; }
+.learn .early { background: var(--surface-2); border: 1px solid var(--line); }
+.learn .biz { background: var(--navy); color: var(--paper); }
+.learn .lbl { display: block; font: 500 11px/14px var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 4px; }
+.learn .biz .lbl { color: var(--gold-light); }
+.learn h4 { margin: 0 0 14px; font: 800 19px/1.25 var(--font-display); color: var(--ink); }
+.learn .biz h4 { color: #fff; }
+.learn ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.learn li { position: relative; padding-left: 20px; font-size: 14.5px; line-height: 1.5; color: var(--ink-soft); }
+.learn .biz li { color: rgba(244,243,239,.86); }
+.learn li::before { content: ""; position: absolute; left: 0; top: .55em; width: 8px; height: 8px; border-radius: var(--r-xs); background: var(--navy); }
+.learn .biz li::before { background: var(--gold-light); }
+.learn .biz a { color: var(--paper); }
+.kpi-line { margin: 18px 0 0; padding-top: 16px; border-top: 1px solid var(--line); font: 700 18px/1.4 var(--font-display); color: var(--ink); }
+.kpi-line span { color: var(--gold); }
+
+.lp-fine { margin: 4px 4px 0; font: 400 12px/18px var(--font-mono); color: var(--ink-faint); }
+
+@media (max-width: 860px) {
+  .rail ol { grid-template-columns: 1fr; gap: 18px; }
+  .rail ol::before { left: 31px; right: auto; top: 32px; bottom: 32px; width: 2px; height: auto; }
+  .rail li { flex-direction: row; text-align: left; align-items: center; gap: 16px; }
+  .rail li > div { align-items: flex-start; gap: 2px; }
+  .rail .what { max-width: none; }
+  .loop { display: none; }
+  .loop-label { text-align: left; padding-left: 4px; }
+  .stage { grid-template-columns: 1fr; gap: 16px; }
+  .stage__side { border-right: 0; padding-right: 0; border-bottom: 1px solid var(--line); padding-bottom: 16px; }
+  .learn { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) { .lp-card { padding: 22px 20px; } .ready { padding: 14px; } .rgrid { grid-template-columns: 64px repeat(3, minmax(0, 1fr)); gap: 4px; } .rgrid .c { padding: 8px 6px; font-size: 12px; } .rgrid .c::before { display: none; } .rgrid .th { font-size: 10px; letter-spacing: .04em; } .rgrid .mk { font-size: 13px; } }
+</style>
+<link rel="stylesheet" href="../../knowledge-base/design-system/report-theme.css"></head><body>
+<header class="sr-mast">
+  <div class="sr-wrap">
+    <div class="sr-mast__bar">
+      <a class="sr-lockup" href="https://github.com/tajnelakos/akos-tajnel-claude-assets"><img src="../../knowledge-base/flyer-design-system/assets/Logos/pw-lockup-paper.svg" alt="Seekridge"><span class="sr-lockup__div" aria-hidden="true"></span><span class="sr-lockup__product">Launch playbook</span></a>
+      <nav class="sr-nav" aria-label="Stages"><a href="#define">Define</a><a href="#prove">Prove</a><a href="#enable">Enable</a><a href="#launch">Launch</a><a href="#learn">Learn</a></nav>
+    </div>
+    <div class="sr-mast__grid">
+      <div class="sr-mast__hero">
+        <p class="sr-mast__eyebrow">Product marketing · Launch process</p>
+        <h1 class="sr-mast__title sr-mast__title--long">From shaping the product to measuring it, in five stages</h1>
+        <p class="sr-mast__lede">One messaging master feeds every asset. Demos are checked per market before sales shows them. Success is defined before launch, so feedback measures against a target.</p>
+        <div class="sr-facts"><span class="sr-fact"><b>5</b> stages</span><span class="sr-fact"><b>14</b> steps</span><span class="sr-fact"><b>1</b> messaging master</span><span class="sr-fact sr-fact--hot">KPIs set <b>before launch</b></span></div>
+      </div>
+      <figure class="sr-mast__art"><img src="../../knowledge-base/design-system/dotmap-tile.svg" alt=""></figure>
+    </div>
+  </div>
+</header>
+
+<main class="lp sr-lift">
+
+<section class="lp-card" aria-labelledby="flow-t">
+  <p class="lp-h">The flow</p>
+  <h2 class="lp-title" id="flow-t">Each stage produces what the next one needs</h2>
+  <p class="lp-sub">The order is fixed; the timing isn't. A new segment launch and a feature release move at different speeds, but neither skips a stage.</p>
+  <div class="rail">
+    <ol>
+      <li><span class="node"><img src="../../knowledge-base/design-system/icon-moment.svg" alt=""><b>1</b></span><div><span class="name">Define</span><span class="what">Product, message, names and price</span></div></li>
+      <li><span class="node"><img src="../../knowledge-base/design-system/icon-check.svg" alt=""><b>2</b></span><div><span class="name">Prove</span><span class="what">Pilot, KPIs and demos that work</span></div></li>
+      <li><span class="node"><img src="../../knowledge-base/design-system/icon-customer.svg" alt=""><b>3</b></span><div><span class="name">Enable</span><span class="what">Sales, CSMs and support</span></div></li>
+      <li><span class="node"><img src="../../knowledge-base/design-system/icon-arrow-right.svg" alt=""><b>4</b></span><div><span class="name">Launch</span><span class="what">Web, press, users and events</span></div></li>
+      <li class="is-gold"><span class="node"><img src="../../knowledge-base/design-system/icon-market.svg" alt=""><b>5</b></span><div><span class="name">Learn</span><span class="what">Feedback against the KPIs</span></div></li>
+    </ol>
+    <svg class="loop" viewBox="0 0 800 56" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M760 4 C760 46 740 50 700 50 L100 50 C60 50 40 46 40 10" fill="none" stroke="#C1892E" stroke-width="2" stroke-dasharray="6 6" vector-effect="non-scaling-stroke"/>
+      <path d="M32 18 L40 4 L48 18" fill="none" stroke="#C1892E" stroke-width="2" vector-effect="non-scaling-stroke"/>
+    </svg>
+    <p class="loop-label">↺ What comes back shapes the next release</p>
+  </div>
+</section>
+
+<section class="lp-card stage" id="define">
+  <div class="stage__side"><div class="stage__num">01</div><h2 class="stage__name">Define</h2><p class="stage__why">Settle what the product is, what it's called and what it costs before a single asset is made.</p></div>
+  <ul class="steps">
+    <li><b>Shape the product.</b> Critique features with product and ground them in real use cases for banks, insurers and brokerages.</li>
+    <li class="is-key"><b>Write the messaging master.</b> One source document sets the tagline, core premise, stage headlines, outcomes and the main illustration that every asset reuses.<a class="chip" href="../../knowledge-base/positioning.md">positioning.md</a></li>
+    <li><b>Name and position.</b> Lock solution and feature names and apply the copy rules.<a class="chip" href="../../knowledge-base/design-system/writing.md">writing.md</a></li>
+    <li><b>Package and price.</b> Set up the Base, Ridge and Summit tiers, market price lists and the CRM, plus an upsell path for existing customers: which upgrade or add-on the launch creates for them.</li>
+  </ul>
+</section>
+
+<section class="lp-card stage" id="prove">
+  <div class="stage__side"><div class="stage__num">02</div><h2 class="stage__name">Prove</h2><p class="stage__why">Find out what works with real customers and real data, and agree what success looks like.</p></div>
+  <div>
+    <ul class="steps">
+      <li><b>Early product pilot.</b> Test the product with 1–2 existing customers before launch.</li>
+      <li class="is-key"><b>Set launch KPIs.</b> Agree targets with product and sales, for example adoption, demo requests and pipeline, so feedback is measured against them.</li>
+      <li class="is-key"><b>Build and check market demos.</b> Build a demo for each market and segment with local data, language and relevant moments, then rate each one, so we know what sales can show and claim before they use it.</li>
+    </ul>
+    <div class="ready" role="group" aria-label="Example demo readiness grid">
+      <div class="ready__top"><strong>Demo readiness, by market and segment</strong><span>Illustrative ratings</span></div>
+      <div class="rgrid" role="table" aria-label="Demo readiness">
+        <div class="th" role="columnheader">Market</div><div class="th" role="columnheader">Banks and lenders</div><div class="th" role="columnheader">Insurers</div><div class="th" role="columnheader">Brokerages</div>
+        <div class="mk" role="rowheader">DACH</div><div class="c r-ok" role="cell">Ready</div><div class="c r-ok" role="cell">Ready</div><div class="c r-part" role="cell">Partial</div>
+        <div class="mk" role="rowheader">Benelux</div><div class="c r-ok" role="cell">Ready</div><div class="c r-part" role="cell">Partial</div><div class="c r-no" role="cell">Not ready</div>
+        <div class="mk" role="rowheader">Nordics</div><div class="c r-part" role="cell">Partial</div><div class="c r-no" role="cell">Not ready</div><div class="c r-no" role="cell">Not ready</div>
+      </div>
+      <p class="ready__note">Launch copy only claims what a ready demo shows. Partial cells list what's missing; not-ready cells stay out of the launch.</p>
+    </div>
+  </div>
+</section>
+
+<section class="lp-card stage" id="enable">
+  <div class="stage__side"><div class="stage__num">03</div><h2 class="stage__name">Enable</h2><p class="stage__why">Everyone who talks to a customer hears about the launch from us first.</p></div>
+  <ul class="steps">
+    <li><b>Enable sales.</b> Quick reference doc, enablement deck, demo playbook and market training.<a class="chip" href="../../sales-tools/sales-deck-builder/">sales-deck-builder</a><a class="chip" href="../../sales-tools/battlecard/">battlecards</a></li>
+    <li><b>Enable CSMs and support.</b> What changes for existing customers, a product FAQ and how to handle first questions and issues.</li>
+  </ul>
+</section>
+
+<section class="lp-card stage" id="launch">
+  <div class="stage__side"><div class="stage__num">04</div><h2 class="stage__name">Launch</h2><p class="stage__why">Every channel reuses the messaging master, so the web page, press release and carousel say the same thing.</p></div>
+  <ul class="steps">
+    <li><b>Update the website.</b> Segment and solution pages with 30-second videos, mocked up and then built in Framer.<a class="chip" href="../../knowledge-base/video-design-system/">video-design-system</a></li>
+    <li><b>Press release and partner co-marketing.</b> External announcement of the launch, plus joint announcements and content with partners.</li>
+    <li><b>Launch to users.</b> In-app notifications (Appcues), email, blog post and LinkedIn carousel.<a class="chip" href="../persona-email-sequence/">email</a><a class="chip" href="../blog-post-builder/">blog</a><a class="chip" href="../../knowledge-base/linkedin-carousels/gallery.html">carousels</a></li>
+    <li><b>Events.</b> Event-specific video, flyer, roll-up and a refreshed stand panel.<a class="chip" href="../../knowledge-base/flyer-design-system/">flyers</a></li>
+  </ul>
+</section>
+
+<section class="lp-card stage is-gold" id="learn">
+  <div class="stage__side"><div class="stage__num">05</div><h2 class="stage__name">Learn</h2><p class="stage__why">Feedback, measured against the launch KPIs set in stage 2.</p></div>
+  <div>
+    <div class="learn">
+      <div class="early"><span class="lbl">First 90 days</span><h4>Early signs of traction</h4>
+        <ul><li>Demo bug checks and demo improvements</li><li>Feature adoption and Appcues engagement</li><li>Campaign performance: email, LinkedIn, webpage traffic</li></ul></div>
+      <div class="biz"><span class="lbl">Ongoing</span><h4>Business results</h4>
+        <ul><li>Sales feedback and objections that come up on calls (<a href="../../knowledge-base/sales-call-analysis/call-analysis-summary.html">call analysis</a>)</li><li>Win/loss rates (<a href="../../knowledge-base/win-loss-analysis/win-loss-detailed-analysis.html">win/loss</a>)</li><li>Website demo requests and pipeline influenced</li><li>Customer and CSM feedback on the quality of the product's outcomes</li></ul></div>
+    </div>
+    <p class="kpi-line">Every result is read against <span>a target agreed before launch</span>, then fed back into shaping the next release.</p>
+  </div>
+</section>
+
+<p class="lp-fine">Seekridge is a fictional company. The process is the one I run in real launches; the readiness ratings are illustrative.</p>
+</main>
+
+<footer class="sr-foot"><img src="../../knowledge-base/flyer-design-system/assets/Logos/pw-mark-paper.svg" alt=""><span>Seekridge · Product launch process</span><span><a href="https://github.com/tajnelakos/akos-tajnel-claude-assets/tree/main/marketing-assets/product-launch-process">Process and skill on GitHub</a></span></footer>
+</body></html>
