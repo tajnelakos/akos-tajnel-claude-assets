@@ -1,7 +1,7 @@
 1
-00:00:01,500 --> 00:00:05,400
-Retention and new lending start
-with customers you already have.
+00:00:01,500 --> 00:00:05,550
+Every customer leaves a trail of data.
+Most of it goes unread.
 
 2
 00:00:06,100 --> 00:00:11,280
@@ -9,9 +9,9 @@ Many of your customers already have plans:
 a move, an energy renovation, a new home.
 
 3
-00:00:12,000 --> 00:00:16,940
-Seekridge reads your CRM alongside
-live market and property data.
+00:00:11,900 --> 00:00:17,590
+Seekridge reads your CRM and relevant
+client data, alongside live market data.
 
 4
 00:00:18,000 --> 00:00:20,170
