@@ -19,7 +19,7 @@ Every folder inside these three holds a flat set of files — `README.md`, `skil
 | Request sounds like | Folder |
 |---|---|
 | "What's changed with [competitor] lately?" / weekly competitive roundup | [`competitor-monitoring`](./sales-tools/competitor-monitoring) |
-| "Give me the full sourced competitive report for this period" | [`competitor-monitoring/bi-monthly-report-skill.md`](./sales-tools/competitor-monitoring/bi-monthly-report-skill.md) |
+| "Give me the full sourced competitive report for this period" | [`competitor-monitoring/competitor-analyses-skill.md`](./sales-tools/competitor-monitoring/competitor-analyses-skill.md) |
 | "Build/refresh the full battlecard for [competitor]" | [`battlecard`](./sales-tools/battlecard) |
 | "Break down this sales call" / objections, competitor mentions from a transcript | [`sales-call-analysis`](./knowledge-base/sales-call-analysis) |
 | "Why are we winning/losing deals this quarter?" | [`win-loss-analysis`](./knowledge-base/win-loss-analysis) |
@@ -61,7 +61,7 @@ This is here so an AI assistant (or a reader unfamiliar with the role) can see w
 
 **Monthly**
 - Refresh a battlecard with the past month's accumulated competitive intel → [`battlecard`](./sales-tools/battlecard)
-- Every other month: the deeper, sourced competitive report → [`competitor-monitoring/bi-monthly-report-skill.md`](./sales-tools/competitor-monitoring/bi-monthly-report-skill.md)
+- Every other month: the deeper, sourced competitive report → [`competitor-monitoring/competitor-analyses-skill.md`](./sales-tools/competitor-monitoring/competitor-analyses-skill.md)
 - Build or refresh a nurture sequence tied to a new piece of content → [`persona-email-sequence`](./marketing-assets/persona-email-sequence)
 - Build or refresh a one-pager for a persona/segment → [`one-pager-builder`](./marketing-assets/one-pager-builder)
 - A deal just closed won and is worth turning into collateral → [`case-study-builder`](./marketing-assets/case-study-builder)

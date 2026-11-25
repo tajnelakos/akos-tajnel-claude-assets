@@ -18,13 +18,12 @@ Two constraints are built in on purpose:
 - [`weekly-brief-gpt.md`](./weekly-brief-gpt.md) — the same logic adapted as a ChatGPT custom GPT
 - [`weekly-brief-example.md`](./weekly-brief-example.md) — a weekly brief run against [Seekridge](../../knowledge-base/knowledge-base.md)'s competitors
 
-## Files — bi-monthly deep-dive
+## Files — competitor analyses (bi-monthly, by region)
 
-A slower, deeper cadence for the same competitor set — sourced and comparable-over-time rather than a fast weekly synthesis (see [`bi-monthly-report-skill.md`](./bi-monthly-report-skill.md) for how and why it differs from the brief above).
+A slower, deeper cadence: a sourced, neutral record of what named competitors did in each core market (DACH, Benelux, Nordics), one edition per region every two months. Earlier editions stay one click away, and a year summary builds up as editions are added. What a move means for us is left to the [battlecards](../battlecard) and the weekly brief.
 
-- [`bi-monthly-report-skill.md`](./bi-monthly-report-skill.md) — the skill definition
-- [`bi-monthly-report-2026-07-08.md`](./bi-monthly-report-2026-07-08.md) — the July–August 2026 report, written up
-- [`bi-monthly-report-2026-07-08.html`](./bi-monthly-report-2026-07-08.html) — the same report as a designed, one-page HTML version ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/competitor-monitoring/bi-monthly-report-2026-07-08.html))
+- [`competitor-analyses-skill.md`](./competitor-analyses-skill.md) — the skill that prepares one region's edition
+- [`competitor-analyses.html`](./competitor-analyses.html) — the site: overview, a page per region, editions and a year summary ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/competitor-monitoring/competitor-analyses.html))
 
 ## Current limitations
 

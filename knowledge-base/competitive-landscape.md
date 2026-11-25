@@ -127,7 +127,7 @@ The on-prem gap is real, not a competitor's weakness — flag it early with a pr
 
 **Positioning:** "AI-native" propensity-scoring challenger, well-funded, leads with technology-forward messaging — as of this period, also reaching for "regulatory-ready" language (see [`competitor-monitoring`](../sales-tools/competitor-monitoring)'s bi-monthly report).
 
-**Strengths:** Strong initial sales narrative, modern-feeling product demo, live CRM integration, aggressive marketing presence, and — as of July 2026 — a shipped, generally available moment-explanation feature. *(Source: market observation; [bi-monthly-report-2026-07-08.md](../sales-tools/competitor-monitoring/bi-monthly-report-2026-07-08.md))*
+**Strengths:** Strong initial sales narrative, modern-feeling product demo, live CRM integration, aggressive marketing presence, and — as of July 2026 — a shipped, generally available moment-explanation feature. *(Source: market observation; [competitor analyses, Jul–Aug 2026 edition](../sales-tools/competitor-monitoring/competitor-analyses.html))*
 
 **Weaknesses:** No longer "the feature doesn't exist" — it shipped. The current, more precise weakness: adoption evidence is thin (one named enterprise reference customer, no independent validation at scale), the explanation is a feature-importance chart rather than named data points, and property-data depth is thinner, so moments reportedly perform worse on commercial/mixed-use properties than residential. *(Source: [`call-09-ironbridge-bank.md`](./sales-call-analysis/call-09-ironbridge-bank.md); see [`battlecard/valuai.html`](../sales-tools/battlecard/valuai.html) for the fully updated talk track)*
 
