@@ -1,11 +1,11 @@
-# Example: a Moment explainer for VP of Mortgage Lending
+# Example: a Moment explainer for Head of Mortgage Lending
 
 A worked run of [`skill.md`](./skill.md). The rendered slides are in [`assets/References/moment-explainer.jpg`](./assets/References/moment-explainer.jpg) and the build is [`components/MomentExplainer/preview.html`](./components/MomentExplainer/preview.html).
 
 ## Brief
 
 - **Angle:** the primary message in [`positioning.md`](../positioning.md), *opportunities you can act on — and explain*, shown through one refinancing moment. No figure is claimed, so nothing needs a source beyond "illustrative".
-- **Reader:** VP of Mortgage Lending (economic buyer, bank and lender segment, see [`personas.md`](../personas.md)). They want more opportunities worked faster; their risk colleague wants to know why each customer was chosen. The carousel answers both.
+- **Reader:** Head of Mortgage Lending (economic buyer, bank and lender segment, see [`personas.md`](../personas.md)). They want more opportunities worked faster; their risk colleague wants to know why each customer was chosen. The carousel answers both.
 - **Format:** MomentExplainer, 6 slides, EN-GB.
 
 ## Slides

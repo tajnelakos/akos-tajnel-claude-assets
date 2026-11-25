@@ -11,7 +11,7 @@ A skill that works in two stages:
 1. **Outline.** From a few lines of deal context (who's buying, what they care about, the deal stage), it writes a slide-by-slide outline: headline, purpose and key point per slide. The outline is quick to sanity-check, so the story gets fixed before anyone designs anything.
 2. **Build.** Once the outline is agreed, it builds the slides from a **Seekridge slide kit**: 15 layouts on a 1920 × 1080 canvas in the brand's design system, with the dot-map ridge as the one illustration. Every slide gets speaker notes, and the deck gets an appendix of alternative slides for different rooms.
 
-The core judgment call it makes every time: **order and emphasis change with the buyer persona**, even when the product facts don't. A credit-risk buyer and a mortgage-lending buyer don't get the same structure just because they're buying the same product.
+The core judgment call it makes every time: **order and emphasis change with the buyer persona**, even when the product facts don't. A Head of Retail Banking and a Head of Mortgage Lending don't get the same structure just because they're buying the same product.
 
 The kit's story shape and slide patterns come from two decks Akos built in a previous role: a solution deck and a segment deck for mortgage lenders. They were rebuilt here for Seekridge's own design, words and fictional customers.
 
@@ -23,9 +23,9 @@ The kit's story shape and slide patterns come from two decks Akos built in a pre
   - [`layouts.md`](./slide-kit/layouts.md): the 15 layouts, the appendix variants and the rules every slide keeps
   - [`slides.css`](./slide-kit/slides.css): the kit's styles, built on the design-system tokens and fonts
   - [`ridge.py`](./slide-kit/ridge.py) and [`build-assets.py`](./slide-kit/build-assets.py): draw the ridge illustrations
-- [`deck-mortgage-lenders.html`](./deck-mortgage-lenders.html) ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/sales-deck-builder/deck-mortgage-lenders.html)) and [`deck-mortgage-lenders.pdf`](./deck-mortgage-lenders.pdf): the reference deck, a first meeting with a bank's VP of Mortgage Lending, 14 slides plus a 5-slide appendix
+- [`deck-mortgage-lenders.html`](./deck-mortgage-lenders.html) ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/sales-deck-builder/deck-mortgage-lenders.html)) and [`deck-mortgage-lenders.pdf`](./deck-mortgage-lenders.pdf): the reference deck, a first meeting with a bank's Head of Mortgage Lending, 14 slides plus a 5-slide appendix
 - [`example-mortgage-lenders.md`](./example-mortgage-lenders.md): the input and outline behind that deck
-- [`sample-deck-outline.md`](./sample-deck-outline.md): an outline-only example for a Head of Credit Risk, showing how the order changes by persona
+- [`sample-deck-outline.md`](./sample-deck-outline.md): an outline-only example for a Head of Retail Banking, showing how the order changes by persona
 
 ## Current limitations
 

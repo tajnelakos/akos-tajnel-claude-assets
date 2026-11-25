@@ -1,7 +1,7 @@
 # Call Transcript — Crestview Capital Bank
 
 **Date:** August 2026 · **Duration:** ~19 minutes · **Call type:** Second call, technical discovery
-**Rep:** Anna Kowalski (Seekridge) · **Prospect:** Ingrid Solberg, Head of Credit Risk, Crestview Capital Bank (regional lender)
+**Rep:** Anna Kowalski (Seekridge) · **Prospect:** Ingrid Solberg, Head of Retail Banking, Crestview Capital Bank (regional lender)
 
 ---
 
@@ -40,4 +40,4 @@
 - **New, specific requirement surfaced**: a named local regulatory certification for automated decision models, specific to this national regulator — not previously documented anywhere in `competitive-landscape.md` or `icp.md`. This needs escalation to compliance/product regardless of this specific deal's outcome, since it may recur with other prospects in the same market.
 - Correctly did not guess or reassure on the certification status — committed to a specific, honest follow-up within the prospect's stated timeline (a couple of weeks).
 - Prospect explicitly said "in progress with a credible timeline" would be acceptable, not just a binary yes/no — worth remembering as a workable answer if a genuine roadmap commitment can be made, rather than assuming this is an automatic disqualifier.
-- Positive discovery: review-queue/spot-check workflow gap identified organically (manual spreadsheet export) — real product fit opportunity, not just the certification question. Worth surfacing this workflow pain point as a discovery question for other Head of Credit Risk conversations going forward.
+- Positive discovery: review-queue/spot-check workflow gap identified organically (manual spreadsheet export) — real product fit opportunity, not just the certification question. Worth surfacing this workflow pain point as a discovery question for other Head of Retail Banking conversations going forward.

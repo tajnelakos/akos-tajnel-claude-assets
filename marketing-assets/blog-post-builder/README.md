@@ -15,4 +15,4 @@ Takes one of [`positioning.md`](../../knowledge-base/positioning.md)'s points of
 
 ## Current limitations
 
-Only one worked example exists so far, built for the Head of Credit Risk persona specifically. The other two `positioning.md` points of view, and other personas' content preferences, haven't been built out yet.
+Only one worked example exists so far, built for the Head of Retail Banking persona specifically. The other two `positioning.md` points of view, and other personas' content preferences, haven't been built out yet.

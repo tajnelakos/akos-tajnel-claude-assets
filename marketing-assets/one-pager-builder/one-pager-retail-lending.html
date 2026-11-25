@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Seekridge one-pager for retail lending leaders</title>
+<title>Seekridge one-pager for mortgage and retail banking leaders</title>
 <link rel="icon" href="../../knowledge-base/flyer-design-system/assets/Logos/pw-mark-navy.svg">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
@@ -127,12 +127,16 @@
   .note{ margin:12px 0 0; font:400 12px/16px var(--body); color:var(--slate); }
 
   .grid4c{ display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
+  .groups{ display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+  .grp{ display:flex; flex-direction:column; gap:10px; }
+  .owner{ margin:0; font:600 13px/1.2 var(--body); color:var(--navy-deep); padding-left:2px; }
+  .grp-cards{ display:grid; grid-template-columns:1fr 1fr; gap:10px; flex:1; }
   .mt{ border-radius:18px; overflow:hidden; background:var(--surface); border:1px solid var(--line); display:flex; flex-direction:column; }
   .mt-head{ background:var(--navy); padding:13px 14px 14px; color:#fff; min-height:122px; }
-  .mt:first-child .mt-head{ background:var(--ink); }
+  .grp:first-child .mt:first-child .mt-head{ background:var(--ink); }
   .mt-head .mo-ico{ margin-bottom:10px; width:30px; height:30px; border-radius:9px; display:grid; place-items:center; background:rgba(244,243,239,.12); }
   .mt-head .mo-ico svg{ width:17px; height:17px; stroke:var(--paper); fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; }
-  .mt:first-child .mo-tag{ background:var(--gold-light); color:var(--navy-deep); }
+  .grp:first-child .mt:first-child .mo-tag{ background:var(--gold-light); color:var(--navy-deep); }
   .mt:first-child .mo-ico{ background:var(--gold-light); } .mt:first-child .mo-ico svg{ stroke:var(--navy-deep); }
   .mt-head .mo-tag{ display:table; margin:12px 0 0; }
   .mt-head .mo-moment{ font:500 13px/16px var(--body); color:rgba(244,243,239,.72); margin:10px 0 6px; }
@@ -186,7 +190,7 @@
     .hero, .body{ padding-left:22px; padding-right:22px; } .band{ padding:16px 22px; } .sheet{ min-height:0; }
     .hero-grid{ grid-template-columns:1fr; } .art{ max-width:360px; margin:0; } h1{ font-size:38px; }
     .bar{ flex-direction:column; align-items:flex-start; } .audience{ white-space:normal; }
-    .grid4, .grid4c, .how, .shot, .cta, .flow{ grid-template-columns:1fr; } .mt-head{ min-height:0; } .arr{ width:2px; height:22px; margin:6px auto; } .arr::after{ right:-5px; top:auto; bottom:-4px; border:6px solid transparent; border-top:8px solid var(--navy); border-bottom:0; } .intro{ flex-direction:column; align-items:flex-start; }
+    .grid4, .grid4c, .groups, .grp-cards, .how, .shot, .cta, .flow{ grid-template-columns:1fr; } .mt-head{ min-height:0; } .arr{ width:2px; height:22px; margin:6px auto; } .arr::after{ right:-5px; top:auto; bottom:-4px; border:6px solid transparent; border-top:8px solid var(--navy); border-bottom:0; } .intro{ flex-direction:column; align-items:flex-start; }
     .big, .cta h2{ font-size:28px; }
     .tl{ height:auto; padding:20px; } .tl .axis, .tl .zone, .tl .node, .tl .tick{ display:none; }
     .tl .lbl, .tl .lbl.first, .tl .lbl.last{ position:static; transform:none; text-align:left; width:auto; margin-bottom:12px; }
@@ -201,7 +205,7 @@
   <header class="hero">
     <div class="bar">
       <img src="../../knowledge-base/flyer-design-system/assets/Logos/pw-lockup-paper.svg" alt="Seekridge">
-      <span class="audience">For mortgage and retail lending leaders at banks</span>
+      <span class="audience">For heads of mortgage lending and retail banking</span>
     </div>
     <div class="hero-grid">
       <div>
@@ -235,9 +239,10 @@
 
     <section>
       <div class="intro">
-        <div><p class="eyebrow">Four moments, four opportunities</p><h2 class="big">Catch them <em>before another bank does.</em></h2></div>
+        <div><p class="eyebrow">Four moments, two owners</p><h2 class="big">Catch them <em>before another bank does.</em></h2></div>
       </div>
-      <div class="grid4c">
+      <div class="groups">
+        <div class="grp"><p class="owner">Owned by the Head of Mortgage Lending</p><div class="grp-cards">
         <article class="mt">
           <div class="mt-head"><span class="mo-ico"><svg viewBox="0 0 24 24"><path d="M4 8h13l-3-3M20 16H7l3 3"/></svg></span><span class="mo-tag">Mortgage</span><div class="mo-moment">Refinancing elsewhere</div><h3>Win the mortgages held at other banks</h3></div>
           <div class="mt-row"><span class="k">Benefit</span>Call before their fixed rate ends at another bank, and bring the loan over.</div>
@@ -248,8 +253,10 @@
           <div class="mt-row"><span class="k">Benefit</span>Reach them while they’re still searching, before a broker does.</div>
           <div class="mt-row mt-fea"><span class="k">Feature</span>Reads purchase intent from savings, rent payments and the local market.</div>
         </article>
+        </div></div>
+        <div class="grp"><p class="owner">Owned by the Head of Retail Banking</p><div class="grp-cards">
         <article class="mt">
-          <div class="mt-head"><span class="mo-ico"><svg viewBox="0 0 24 24"><path d="M14.5 5.5a3.5 3.5 0 0 0 4.6 4.6L21 12l-8 8-3-3 8-8"/><path d="M3 21l6-6"/></svg></span><span class="mo-tag">Loan</span><div class="mo-moment">Renovating</div><h3>Fund the renovation before it starts</h3></div>
+          <div class="mt-head"><span class="mo-ico"><svg viewBox="0 0 24 24"><path d="M14.5 5.5a3.5 3.5 0 0 0 4.6 4.6L21 12l-8 8-3-3 8-8"/><path d="M3 21l6-6"/></svg></span><span class="mo-tag">Green loan</span><div class="mo-moment">Renovating</div><h3>Fund the renovation before it starts</h3></div>
           <div class="mt-row"><span class="k">Benefit</span>Offer a renovation or green loan while the work is being planned.</div>
           <div class="mt-row mt-fea"><span class="k">Feature</span>Spots payments to builders and DIY stores, and savings set aside.</div>
         </article>
@@ -258,6 +265,7 @@
           <div class="mt-row"><span class="k">Benefit</span>Offer cover when a customer pays home or car premiums to another insurer.</div>
           <div class="mt-row mt-fea"><span class="k">Feature</span>Spots premium payments to other insurers, and new loans with no cover.</div>
         </article>
+        </div></div>
       </div>
     </section>
   </main>
@@ -286,7 +294,7 @@
     <section>
       <p class="eyebrow">What an advisor sees</p>
       <div class="how">
-        <div class="seetext"><h2 class="big">Every moment <em>comes with its reason.</em></h2><p class="lead">Advisors see why each customer is on their list, and what to offer by when. The same evidence lets Credit Risk approve the approach once, not campaign by campaign.</p></div>
+        <div class="seetext"><h2 class="big">Every moment <em>comes with its reason.</em></h2><p class="lead">Advisors see why each customer is on their list, and what to offer by when. The same evidence takes the approach through risk review once, not campaign by campaign.</p></div>
         <div class="shotwrap">
           <article class="mcard">
             <div class="mc-top"><span class="mc-tag">Refinancing elsewhere</span></div>

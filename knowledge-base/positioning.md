@@ -4,7 +4,7 @@ Used by prompts/skills that generate customer-facing content — see [`sales-dec
 
 ## Market category
 
-Seekridge doesn't try to create a new category. "Customer intelligence" and "next-best-offer" are established, understood terms in retail banking, and fighting that understanding would cost more than it earns. The positioning instead claims a **sub-category within it**: not "another propensity score," but "the moment you can explain," treating the evidence behind each opportunity as core infrastructure rather than a bolt-on feature. This is a deliberate choice — category creation is expensive and slow, and the market is already primed to ask the right question (see [`competitive-landscape.md`](./competitive-landscape.md)'s Market Patterns, where two competitors independently started reaching for the same "explainable" language this period — the sub-category is becoming contested, not proprietary).
+Seekridge doesn't try to create a new category. "Customer intelligence" and "next-best-offer" are established, understood terms in retail banking, and fighting that understanding would cost more than it earns. The positioning instead claims a **sub-category within it**: not "another propensity score," but "growth from your own customers, with the reason attached" — the opportunity is what the buyer pays for, and the evidence behind each one is what makes advisors act on it and lets the bank approve it once, rather than a bolt-on feature. This is a deliberate choice — category creation is expensive and slow, and the market is already primed to ask the right question (see [`competitive-landscape.md`](./competitive-landscape.md)'s Market Patterns, where two competitors independently started reaching for the same "explainable" language this period — the sub-category is becoming contested, not proprietary).
 
 ## Competitive alternatives
 
@@ -17,7 +17,7 @@ What a prospect does instead of buying Seekridge, in rough order of how often it
 
 ## Strategic narrative
 
-Retail banks already hold most of the data they need to grow: every salary that comes in, every payment that goes out, and when each contract ends. What they lack is a way to read that transaction data alongside the market, spot the customers whose plans are changing, and act before a competitor does. Over the last decade, "AI-powered" tools promised exactly that — and delivered scores nobody could explain. Regulators, risk teams, and front-line advisors are now asking a harder question: *why this customer, and why now?* Most tools can't answer beyond "the model said so."
+Retail banks already hold most of the data they need to grow: every salary that comes in, every payment that goes out, and when each contract ends. Their customers refinance at other banks, finance cars elsewhere and insure their homes with someone else — all of it visible in their own transaction data, and almost none of it acted on. Over the last decade, "AI-powered" tools promised to fix that and delivered scores nobody could explain: advisors ignored the lists, and risk teams paused the campaigns. The question that decides whether an opportunity turns into business is *why this customer, and why now?* Most tools can't answer beyond "the model said so."
 
 Seekridge's narrative is not "we find more leads" (most credible vendors can produce a long list) — it's **"we find the opportunities you can actually act on, and show you why."**
 
@@ -29,13 +29,13 @@ One primary message, three pillars that support it, each with its own proof poin
 
 | Pillar | Claim | Proof point |
 |---|---|---|
-| Built on data you already own | Moments combine your own transaction and CRM data with market data, so they point at real customers, not cold leads | Every moment links to a named customer record in your CRM — see [`competitive-landscape.md`](./competitive-landscape.md)'s capability comparison |
-| Explainable by design | Every moment shows the specific transaction, CRM and market data points behind it, and how much each counted | Inspectable evidence trail per moment, not a single score — available to technical evaluators on request, see the [Data & CRM Lead persona](./personas.md#data--crm-lead-technical-evaluator) |
-| Built for regulated industries, not retrofitted | Data handling, consent rules, and the audit log were designed around banking compliance from inception | Distinct from a general marketing-AI product with a compliance feature added later |
+| Growth from customers you already have | Moments come from your own transaction and CRM data plus market data: mortgages held at other banks, purchases, car and renovation loans, card upgrades, insurance bought elsewhere | Every moment links to a named customer record in your CRM — see [`competitive-landscape.md`](./competitive-landscape.md)'s capability comparison |
+| Advisors act on it | Every moment shows the specific data points behind it and how much each counted, so advisors know why they're calling | Inspectable evidence trail per moment, not a single score — testable on the bank's own records, see the [Data & CRM Lead persona](./personas.md#data--crm-lead-technical-evaluator) |
+| Approved once, not campaign by campaign | The same evidence, the method and the consent handling go to risk and data protection as a ready review pack, so the buyer never has to make the risk case alone | Data handling, consent rules and the audit log were designed around banking compliance from inception, not added later |
 
 ## Points of view that ladder to this
 
-1. **"A lead you can't explain is a liability, not an opportunity."** An offer only has value if the advisor believes it and the decision to make it survives review later. A list that's twice as long but can't be explained to a risk committee creates risk it doesn't remove.
+1. **"A lead you can't explain is a lead nobody calls."** An opportunity only turns into business if the advisor believes it and the decision to make the offer survives review later. A list that's twice as long but comes without reasons gets ignored, then paused.
 2. **"AI-powered" is not a differentiator anymore — everyone claims it.** The differentiator is what happens when an advisor, a risk team, or a regulator asks *why* a specific customer was flagged. Most vendors' answer degrades under that question; this is where the real gap is.
 3. **"Explainability" needs a definition or it's marketing, not a capability.** Seekridge defines it concretely: the named data points behind each moment, how much each counted, and a reproducible record of what the moment said and what was done with it — not a general claim.
 
@@ -53,32 +53,32 @@ Value proposition changes by who's buying; tier (see [`icp.md`](./icp.md)) chang
 
 | Segment | Pain | Value proposition | Tier-specific note |
 |---|---|---|---|
-| Risk & compliance (bank/lender) | Can't explain why a customer was targeted with an offer | Moments your risk team can sign off, because every one shows its evidence | Tier 1: the pain is often anticipatory (a coming audit). Tier 2: frequently a *lived* pain — a specific past finding, which makes the pitch easier to land but the sales cycle longer regardless (more procurement layers) |
-| Mortgage lending (bank/lender) | Customers refinance elsewhere before anyone notices; home-purchase and renovation demand goes unseen in the transaction data | Know which customers to call this month, and why, before a competitor does | Matters most at Tier 1, where lending and risk are both active, present stakeholders — see the [persona interaction map](./personas.md#persona-interaction-map) |
-| Retail banking (primary-bank relationship) | Customers drift to another bank one salary payment at a time, and nobody notices until the account goes quiet | See which customers are making you their secondary bank, and which are ready for more, while there's time to act | The broadest value proposition; lands at every tier, and is the usual entry point for Tier 2 banks without a mortgage focus |
-| Bancassurance (bank-sold insurance) | Customers pay premiums to other insurers every month, in plain sight of the bank | See which customers already pay for cover elsewhere, or just financed a car or home with none, with the payment evidence to start the conversation | A newer use case for Seekridge — fewer reference customers, so the pitch leans on a backtest on the bank's own book |
+| Mortgage lending — Head of Mortgage Lending | Customers refinance elsewhere before anyone notices; half the base holds a mortgage at another bank; purchase demand goes unseen | Know which customers to call this month, and why, before a competitor does: mortgages to win back at fixed-rate end, purchases to finance | The entry point at most Tier 1 banks — the biggest-ticket moments, and the fastest number to prove in a backtest |
+| Retail banking — Head of Retail Banking | Customers finance cars, renovations and insurance elsewhere, and drift to another bank one salary at a time | See which customers are ready for a car or green loan, a card upgrade or insurance, and which are making you their secondary bank, while there's time to act | The budget owner once Seekridge covers more than mortgages, and the only buyer at most Tier 3 banks. Insurance is newer, with fewer references, so the pitch leans on a backtest on the bank's own customers |
+
+Risk, model governance and data protection are not segments we market to. They review the deal, and the evidence trail is what we hand them, through the buyer — see [`personas.md`](./personas.md).
 
 ## Positioning against specific competitors — strategic framing
 
 This is the strategic posture behind each competitor's tactical talk track in [`competitive-landscape.md`](./competitive-landscape.md) and its [battlecards](../sales-tools/battlecard) — the "why we lead with this" behind the "what to say."
 
 - **Against Ledgerlight:** Don't compete on their terms (price, speed of raw data). Reframe the axis of comparison entirely, to the cost of building and defending moments yourself — competing on their chosen metric is a losing position even when the product argument is sound.
-- **Against Kontora:** Don't position as "the disruptor" — this reads as a risk to a buyer who's already risk-averse by function. Position as "the modernization that doesn't require you to bet on an unproven vendor," which lets a switching decision feel safe rather than bold.
+- **Against Kontora:** Don't position as "the disruptor" — this reads as a risk to a buyer who has relied on the incumbent for years. Position as "the modernization that doesn't require you to bet on an unproven vendor," which lets a switching decision feel safe rather than bold.
 - **Against Propensa:** The strategic ground has shifted, not disappeared. Before their July 2026 launch of "moment explanations," the position was "they don't have this." Now it has to be "having it and proving it at scale are different claims" — see [`battlecard/propensa.html`](../sales-tools/battlecard/propensa.html) for how the tactical talk track already reflects this shift.
 - **Against Nudgely:** Don't compete on the end-customer app experience — different buying committee (digital channels), different job to be done. The posture is "in-app insights reach customers who open the app; moments reach the customers your advisors should call", and the two can run side by side.
 
 ## Elevator pitches
 
-- **One sentence:** "Seekridge shows retail banks which of their existing customers to talk to next, and why — read from their own transaction data, with evidence their risk team can sign off."
-- **One paragraph (customer-facing):** "Most customer-scoring tools give you a list and a score. If an advisor or a risk committee asks why a customer is on that list, 'the model said so' isn't an answer — and increasingly, regulators are asking. Seekridge reads your own transaction and CRM data alongside market data, and every moment shows the specific data points behind it, so your team can act on an opportunity as confidently as it found it."
-- **Internal onboarding version:** "We don't win on producing the longest lead list — most credible vendors can generate volume. We win by being the one whose moments survive being questioned, by advisors who have to make the call and by the risk team that has to sign off, which matters more every year as scrutiny of automated customer decisions increases."
+- **One sentence:** "Seekridge shows retail banks which of their existing customers are about to refinance, buy, borrow or insure — read from their own transaction data, with the reason attached so advisors act on it."
+- **One paragraph (customer-facing):** "Your customers refinance at other banks, finance cars elsewhere and insure their homes with someone else — and it's all visible in your own transaction data. Seekridge reads that data alongside the market, finds the customers about to make a move, and puts each one in your advisors' CRM with the data points behind it. Advisors know why they're calling, and your risk team approves the approach once instead of campaign by campaign."
+- **Internal onboarding version:** "We don't win on producing the longest lead list — most credible vendors can generate volume. We win by being the one whose moments turn into business: advisors act on them because they show why, and they survive review, which matters more every year as scrutiny of automated customer decisions increases."
 
 ## Objections to the positioning itself
 
 The positioning has to survive skepticism aimed at the positioning, not just the product:
 
 - **"Every vendor now claims some version of 'explainable.'"** True, and increasingly so (see [`competitive-landscape.md`](./competitive-landscape.md)'s Market Patterns). The response isn't to abandon the claim, it's to make it concrete and provable rather than asserted — see "How this positioning needs to evolve" below.
-- **"This sounds like it's just about compliance, not growth."** Fair challenge — the value proposition table above exists specifically to connect the same underlying capability to a growth pain for the VP of Mortgage Lending and Head of Bancassurance personas.
+- **"This sounds like it's just about compliance, not growth."** It was, in an earlier version of this narrative, and that was a mistake: compliance teams review, they don't buy. The positioning now leads with growth for the two buyers (Head of Mortgage Lending, Head of Retail Banking); explainability is why the growth actually happens, not the headline.
 - **"If most vendors can find opportunities, why does this matter at all?"** Because the cost of an unexplainable moment shows up later — in advisors who ignore the list, in a campaign that has to be paused after review, in an audit finding. This is the single hardest part of the pitch to make concrete, and the reason [`sales-deck-builder`](../sales-tools/sales-deck-builder) leads with the buyer's pain before the product.
 
 ## How this positioning needs to evolve
@@ -91,4 +91,4 @@ The adaptation already reflected in [`battlecard/propensa.html`](../sales-tools/
 
 ## What this is not
 
-Not a claim that Seekridge finds more opportunities than every competitor in every scenario — that claim is not reliably defensible and erodes credibility with a technically skeptical buyer (see the [Head of Credit Risk persona](./personas.md#head-of-credit-risk-risk-and-model-governance-owner-banklender-segment)). The narrative wins on explainability and trust, not a race to the longest lead list.
+Not a claim that Seekridge finds more opportunities than every competitor in every scenario — that claim is not reliably defensible and erodes credibility with buyers and their technical evaluators (see the [Data & CRM Lead persona](./personas.md#data--crm-lead-technical-evaluator)). The narrative wins on opportunities advisors actually act on, not a race to the longest lead list.

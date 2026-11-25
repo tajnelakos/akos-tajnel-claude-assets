@@ -1,7 +1,7 @@
 # Call Transcript — Fenwick & Oak Bank
 
 **Date:** August 2026 · **Duration:** ~15 minutes · **Call type:** First discovery call
-**Rep:** Marcus Webb (Seekridge) · **Prospect:** Priya Chandra, Head of Advisory Network, Fenwick & Oak Bank (small private bank, DACH, ~39,000 customers, ~25 advisors)
+**Rep:** Marcus Webb (Seekridge) · **Prospect:** Priya Chandra, Head of Retail Banking, Fenwick & Oak Bank (small private bank, DACH, ~39,000 customers, ~25 advisors)
 
 ---
 

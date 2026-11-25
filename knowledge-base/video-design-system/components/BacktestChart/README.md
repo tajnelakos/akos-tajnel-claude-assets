@@ -1,6 +1,6 @@
 # BacktestChart
 
-The proof behind a figure, for Head of Credit Risk and VP films: how moments ranked in past periods performed on the client's own book.
+The proof behind a figure, for Head of Mortgage Lending and Head of Retail Banking films: how moments ranked in past periods performed on the client's own book.
 
 **Anatomy**
 - Bars by moment-rank decile (1 = highest ranked), navy on Paper (Paper at 55% on Navy); **decile 1 in gold**: the frame's gold.

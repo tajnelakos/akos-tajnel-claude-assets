@@ -7,7 +7,7 @@ Transcript excerpt and analysis.
 ## Input (excerpt)
 
 > **Rep (Anna):** So walk me through how you decide which customers get a refinancing or top-up offer today.
-> **Prospect (Marcus, Head of Credit Risk, regional bank):** Mostly manual lists from the CRM, with a legacy scoring tool on top. The problem is our auditors keep asking us to explain why individual customers were contacted and the current tool is basically a black box.
+> **Prospect (Marcus, Head of Mortgage Lending, regional bank):** Mostly manual lists from the CRM, with a legacy scoring tool on top. The problem is our auditors keep asking us to explain why individual customers were contacted and the current tool is basically a black box.
 > **Anna:** That's exactly the gap we built for. Every moment comes with a full evidence trail — which transaction, CRM and market data points drove it, and how they were weighted.
 > **Marcus:** Okay, that's interesting. We actually looked at Propensa a few months back and their sales team said something similar, but when we pushed on it in a follow-up call it turned out to be pretty thin.
 > **Anna:** Would it help to see the actual evidence trail on a sample of your own customers, not just slides?
@@ -21,7 +21,7 @@ Transcript excerpt and analysis.
 ```
 ## Call Analysis — Regional bank prospect — discovery call
 
-**Participants:** Anna (rep) / Marcus, Head of Credit Risk
+**Participants:** Anna (rep) / Marcus, Head of Mortgage Lending
 
 ### Objections
 - Skepticism about explainability claims after a prior vendor (Propensa) reportedly overstated theirs, tag: competitor comparison — Rep response: offered to show a live evidence trail instead of slides — Status: open, contingent on next call

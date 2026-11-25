@@ -1,7 +1,7 @@
 # Call Transcript — Thornfield Mutual
 
 **Date:** August 2026 · **Duration:** ~16 minutes · **Call type:** Second call, procurement-stage
-**Rep:** Marcus Webb (Seekridge) · **Prospect:** Grace Almeida, Head of Bancassurance, Thornfield Mutual (mutual savings bank, Benelux, ~1.2M customers)
+**Rep:** Marcus Webb (Seekridge) · **Prospect:** Grace Almeida, Head of Retail Banking, Thornfield Mutual (mutual savings bank, Benelux, ~1.2M customers)
 
 ---
 

@@ -9,7 +9,7 @@ How a customer's situation becomes data: three bands, one per layer, always in t
 
 **Motion.** Bands trace in 600ms apart, chips fade in within each band; connectors draw (`draw`) once all three are in; the node fades in as they arrive. Total about 4 s; hold 1.5 s.
 
-**Use.** The *Situation into data* beat of a Moment story; Walkthrough openers about connecting data; Head of Credit Risk films to show what goes in.
+**Use.** The *Situation into data* beat of a Moment story; Walkthrough openers about connecting data; the method film for reviewers, to show what goes in.
 
 **Provide.** Two or three data points per layer with their values, the moment name.
 

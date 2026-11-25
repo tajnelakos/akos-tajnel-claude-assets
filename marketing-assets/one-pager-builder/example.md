@@ -6,12 +6,12 @@ The rendered one-pager: [`one-pager-retail-lending.html`](./one-pager-retail-len
 
 ## Input
 
-> Build a one-pager for mortgage and retail lending leaders at banks. Topic: four moments — refinancing of mortgages held at other banks, new home purchase intent, renovation intent, and customers insured elsewhere.
+> Build a one-pager for the Head of Mortgage Lending and the Head of Retail Banking at banks. Topic: four moments — refinancing of mortgages held at other banks, new home purchase intent, renovation intent, and customers insured elsewhere.
 
 ## Output
 
 ```
-## One-Pager — Mortgage and retail lending leaders, Bank/Lender
+## One-Pager — Head of Mortgage Lending and Head of Retail Banking, Bank/Lender
 
 **Positioning angle used:** positioning.md's Mortgage lending row ("Know which customers to call this month, and why, before a competitor does"), widened to the four moments in knowledge-base.md.
 **Format:** front-and-back A4 leaflet in HTML (prints as two pages) — see one-pager-retail-lending.html
@@ -22,9 +22,14 @@ The rendered one-pager: [`one-pager-retail-lending.html`](./one-pager-retail-len
 
 **Front — what it does, at a glance:** a flow diagram (your transaction and CRM data plus market data → Seekridge finds the peaks → this week's moments in the advisors' CRM).
 
-**Front — four moments, each as value → benefit → feature:**
+**Front — four moments, grouped by the buyer who owns them, each as value → benefit → feature:**
+
+*Head of Mortgage Lending*
 1. Refinancing elsewhere → Win the mortgages held at other banks → call before their fixed rate ends at another bank → spots payments to another lender and estimates when the fixed period ends.
 2. Buying a home → Be the first bank they ask for a mortgage → reach them while they're still searching → purchase intent from savings, life stage and the local market.
+
+*Head of Retail Banking*
+
 3. Renovating → Fund the renovation before it starts → offer a renovation or green loan while the work is planned → payments to builders and DIY stores, savings set aside.
 4. Insured elsewhere → Bring their insurance to the bank → offer cover when a customer pays premiums to another insurer → premium payments to other insurers, new loans with no cover.
 
@@ -32,7 +37,7 @@ The rendered one-pager: [`one-pager-retail-lending.html`](./one-pager-retail-len
 **CTA:** See the moments in your own customer base. → Book a live test.
 
 ---
-Sourced from: positioning.md (Mortgage lending row) · knowledge-base.md (moment types for banks and lenders, bancassurance) · personas.md, VP of Mortgage Lending (measured on retention and new lending; trust trigger: a real rollout plan that separates go-live from adoption; won't sell the risk case internally) · competitive-landscape.md (implementation in weeks; backtests on the client's own data). Data points and weights on the cards are illustrative.
+Sourced from: positioning.md (Mortgage lending row) · knowledge-base.md (moment types for banks and lenders, bancassurance) · personas.md, Head of Mortgage Lending (measured on retention and new lending; trust trigger: a real rollout plan that separates go-live from adoption; won't sell the risk case internally) and Head of Retail Banking (owns renovation and green loans and insurance; trust trigger: advisors acting on it) · competitive-landscape.md (implementation in weeks; backtests on the client's own data). Data points and weights on the cards are illustrative.
 ```
 
 ## Why it's built this way

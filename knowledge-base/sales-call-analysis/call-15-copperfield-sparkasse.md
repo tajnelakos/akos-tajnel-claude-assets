@@ -1,7 +1,7 @@
 # Call Transcript — Copperfield Sparkasse
 
 **Date:** August 2026 · **Duration:** ~15 minutes · **Call type:** First call, warm inbound
-**Rep:** Anna Kowalski (Seekridge) · **Prospect:** Owen Marsh, Head of Advisory Network, Copperfield Sparkasse (small savings bank, DACH, ~82,000 customers, ~15 advisors)
+**Rep:** Anna Kowalski (Seekridge) · **Prospect:** Owen Marsh, Head of Retail Banking, Copperfield Sparkasse (small savings bank, DACH, ~82,000 customers, ~15 advisors)
 
 ---
 

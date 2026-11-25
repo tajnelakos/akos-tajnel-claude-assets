@@ -10,7 +10,7 @@ The tiering below is the quick reference. These are the underlying dimensions it
 |---|---|---|
 | Size of the customer base | Number of retail customers with an active current account — a proxy for how many opportunities sit in the base and for subscription size | Below ~100,000 active current-account customers, procurement overhead usually exceeds the deal's value to us (smaller banks are Tier 3) |
 | Ownership structure | Public bank, private bank, mutual/cooperative savings bank, or credit union | Mutuals and cooperatives often have slower, consensus-driven procurement — factor into sales cycle estimates, not a disqualifier |
-| Dedicated risk / model-governance function | Does a named person or team own model risk and data-use sign-off, separate from sales and lending ops | No dedicated risk function usually means no one is asking "why was this customer chosen" — the explainability wedge doesn't land |
+| A named owner of growth on the existing base | Is there a Head of Mortgage Lending or Head of Retail Banking with a target on retention, cross-sell or products per customer, and an advisor network to act on moments | No growth owner means no buyer: moments are only worth something to someone measured on what advisors do with them |
 | CRM / core system openness | Modern CRM with documented APIs (e.g. Salesforce, Dynamics) vs. legacy core system with batch-only exports | Drives implementation timeline more than company size does — moments have to land where advisors already work |
 | Data residency posture | Cloud-accepting vs. hard on-prem/data-residency requirement for customer data | See [`competitive-landscape.md`](./competitive-landscape.md)'s "Known gap working against us" — this alone can end an otherwise well-fit deal, and sharing transaction data makes it come up in almost every deal |
 | Existing approach to finding opportunities in the base | Another data/scoring vendor, rule-based CRM campaigns, or an in-house model | In-house-built is a longer, more skeptical sales cycle — see Anti-ICP below |
@@ -28,9 +28,9 @@ The tiering below is the quick reference. These are the underlying dimensions it
 | **Typical buying committee size** | 3–4 people | 5–8 people, often with a separate vendor-risk gate | 1–2 people |
 | **Expected first-year contract value** | Mid five figures to low six figures (subscription) | Low-to-mid six figures | Low five figures |
 
-Tier 1 is the focus for outbound and content strategy — best combination of pain intensity (a growth target on the existing base, plus a risk team asking how customers are chosen) and reachable buying committee size. Tier 2 converts at a similar rate but takes roughly 3x longer, so it's worth pursuing opportunistically (inbound, warm moment) rather than as the primary outbound target. Tier 3 is a lighter motion — one buyer (usually the Head of Advisory Network), the web app instead of a CRM integration, and adoption as the whole pitch.
+Tier 1 is the focus for outbound and content strategy — best combination of pain intensity (a growth target on the existing base, and advisors who need a reason to call) and reachable buying committee size. Tier 2 converts at a similar rate but takes roughly 3x longer, so it's worth pursuing opportunistically (inbound, warm moment) rather than as the primary outbound target. Tier 3 is a lighter motion — one buyer (usually the Head of Retail Banking), the web app instead of a CRM integration, and adoption as the whole pitch.
 
-Bancassurance is a newer use case: the fit criteria are the same, but there are fewer live reference customers, so expect a backtest on the bank's own book to carry more of the proof.
+Insurance sold through the bank (bancassurance) is owned by the Head of Retail Banking, alongside consumer loans and cards. It's a newer use case with fewer live reference customers, so expect a backtest on the bank's own customers to carry more of the proof.
 
 ## Regional nuances
 
@@ -46,15 +46,17 @@ Firmographic fit doesn't travel evenly across our three core regions — worth c
 
 | Role | Typical title | Stake |
 |---|---|---|
-| Economic buyer | VP of Mortgage Lending / Head of Retail Banking | Owns the growth and retention target on the existing base, and usually the budget |
-| Risk & model-governance owner | Chief Risk Officer / Head of Credit Risk | Signs off any model that decides which customers get an offer; often holds a veto and sometimes co-owns budget |
-| Technical evaluator | Data & CRM Lead / data team | Backtests moment quality on the bank's own data and validates CRM integration |
+| Buyer: mortgages | Head of Mortgage Lending | Owns retention at renewal, mortgages won from other banks and new mortgages; usually the entry point and the strongest champion |
+| Buyer: retail products | Head of Retail Banking | Owns consumer and green loans, cards and card upgrades, and insurance sold through the bank; holds the budget once Seekridge covers more than mortgages, and is often the only buyer at smaller banks |
 | End user | Mortgage advisor / relationship manager | Works the moments daily, cares about whether they're believable and fit the workflow |
+| Technical evaluator | Data & CRM Lead / data team | Backtests moment quality on the bank's own data and validates CRM integration |
+| Reviewer: risk and model governance | Head of Credit Risk / model-risk team | Reviews the scoring method and the evidence trail; signs off the lending criteria behind credit offers. Not a buyer |
+| Reviewer: data protection | Data Protection Officer | Confirms the purpose, legal basis and consent for using transaction data to target offers. Not a buyer |
 | IT/security reviewer | IT Security Lead / Infrastructure | Gates on data residency, customer-data sharing, access controls — usually only blocks, rarely champions (see [`competitive-landscape.md`](./competitive-landscape.md)'s on-prem gap) |
-| Procurement / compliance | Vendor risk / Compliance / Data protection officer | Gates the deal on data handling, SLAs, certifications — usually enters late |
-| Economic sponsor (Tier 2 only) | CFO or COO | At larger accounts, a second budget-holder above the lending or risk lead — usually silent unless contract value crosses an internal threshold |
+| Procurement / compliance | Vendor risk / Compliance | Gates the deal on data handling, SLAs, certifications — usually enters late |
+| Economic sponsor (Tier 2 only) | CFO or COO | At larger accounts, a second budget-holder above the retail banking lead — usually silent unless contract value crosses an internal threshold |
 
-When the deal is about bancassurance, the Head of Bancassurance takes the economic-buyer seat, and the bank's partner insurer often joins late for the quote-flow integration — the rest of the committee looks the same.
+**We market to the two buyers only.** Reviewers and gatekeepers are reached through the buyer, with prepared material (a data-protection pack, the method and evidence trail, security documentation), at the stage where they appear — never with outbound. When insurance is in scope, the bank's partner insurer often joins late for the quote-flow integration.
 
 A deal without early technical evaluator buy-in tends to stall at the procurement gate later, even if the economic buyer is enthusiastic — worth surfacing this in deck/outline prompts (see [`sales-deck-builder`](../sales-tools/sales-deck-builder)). At Tier 2 specifically, the IT/security reviewer and procurement stage are where deals actually die or stall — the product conversation is rarely the blocker once the economic buyer is convinced (see [`outdated-checker`](../knowledge-base/outdated-checker)'s general pattern of process gates outlasting product objections).
 
@@ -62,7 +64,7 @@ A deal without early technical evaluator buy-in tends to stall at the procuremen
 
 Fit criteria work better with explicit disqualifiers alongside them — a lead that superficially matches the tiering table but fails one of these is a poor use of a rep's time regardless of firmographic score.
 
-- **No dedicated risk or model-governance function.** If nobody owns the question "why was this customer chosen," there's no one to champion explainability internally — the core wedge has no owner on the buyer's side.
+- **No growth owner on the existing base.** If nobody is measured on retention, cross-sell or products per customer, nobody will act on moments — there is no buyer, however good the firmographic fit.
 - **Hard, non-negotiable on-prem requirement with no cloud-acceptance path.** Not every on-prem requirement is equally hard (see [`competitive-landscape.md`](./competitive-landscape.md) — some regulators accept a well-documented cloud architecture); but where it's genuinely non-negotiable, this is disqualifying today, not a longer sales cycle.
 - **Deep in-house build with organizational investment in it.** A bank that built its own propensity models in-house isn't buying better models — they're defending a decision. This is a different (and usually much longer, politically harder) sale than displacing a third-party vendor.
 - **Recently signed a multi-year contract with a competitor, with no trigger event.** Worth staying in [`competitor-monitoring`](../sales-tools/competitor-monitoring)'s peripheral vision, but not worth active pursuit until something changes — see the nurture pattern in the [sales-call-analysis rollup](../knowledge-base/sales-call-analysis/call-analysis-summary.html)'s Ironbridge Bank example.
@@ -76,7 +78,7 @@ A simple way to translate the above into a single ranking when several accounts 
 | Factor | Strong (+2) | Medium (+1) | Weak (0) |
 |---|---|---|---|
 | Tier | Tier 1 | Tier 2 | Tier 3 without a specific trigger |
-| Dedicated risk / model-governance function | Confirmed, named owner | Implied, not confirmed | Absent |
+| Named buyer with a growth target | Confirmed Head of Mortgage Lending or Head of Retail Banking | Implied, not confirmed | Absent |
 | Data residency | Cloud-accepting, confirmed | Unconfirmed | Hard on-prem, confirmed |
 | In-market moment (see below) | Strong | Medium | None yet |
 
@@ -87,7 +89,7 @@ Anything scoring 0 on data residency is a hold regardless of the total score —
 Use this moment-strength scale wherever accounts are scored, so scoring stays consistent across the repo.
 
 **Strong moments**
-- New Head of Credit Risk, Chief Risk Officer, or Head of Bancassurance hire within the last 2 quarters (frequently a mandate-holder for modernization)
+- New Head of Mortgage Lending or Head of Retail Banking hire within the last 2 quarters (frequently a mandate-holder for growth and modernization)
 - A recent adverse audit or compliance finding about how customer data or models were used in campaigns, or a public statement about an upcoming regulatory review
 - A job posting for a CRM analytics, customer-data, or model-governance role that names a specific legacy tool (moments dissatisfaction or planned migration)
 
@@ -119,7 +121,7 @@ The ICP for expanding within an existing customer is different from the new-logo
 
 Accounts already documented elsewhere in this repo, shown against the tiering above:
 
-- **[Nordkredit](../knowledge-base/sales-call-analysis/call-01-nordkredit.md)** — Tier 1: regional Nordic bank and lender, ~350,000 customers, a new Head of Credit Risk hire and a real audit finding driving urgency. A clean pattern match, which is why it's the primary example account throughout this repo.
+- **[Nordkredit](../knowledge-base/sales-call-analysis/call-01-nordkredit.md)** — Tier 1: regional Nordic bank and lender, ~350,000 customers, a new Head of Mortgage Lending and a real audit finding on a refinancing campaign driving urgency. A clean pattern match, which is why it's the primary example account throughout this repo.
 - **[Court Street Lending](../knowledge-base/sales-call-analysis/call-03-court-street-lending.md)** — Tier 2: national bank and lender, 2M+ customers. Longer cycle, more procurement layers, and a vendor-stability objection that doesn't come up at Tier 1 — consistent with the buying-committee table above.
 - **[Solvane Lending Group](../knowledge-base/sales-call-analysis/call-10-solvane-lending-group.md)** — a Tier 2 firmographic fit that hit the Anti-ICP on-prem disqualifier directly, mid-deal. A real instance of a fit score being overridden by a hard gate, not a hypothetical.
-- **[Thornfield Mutual](../knowledge-base/sales-call-analysis/call-14-thornfield-mutual.md)** — Tier 2 mutual savings bank (~1.2M customers), bought for bancassurance: a deal where the product case was already won and the only open variable was the vendor-risk queue.
+- **[Thornfield Mutual](../knowledge-base/sales-call-analysis/call-14-thornfield-mutual.md)** — Tier 2 mutual savings bank (~1.2M customers), bought by the Head of Retail Banking for insurance: a deal where the product case was already won and the only open variable was the vendor-risk queue.

@@ -34,14 +34,14 @@ It sits on top of the brand. Identity, palette, type and voice come from [`../br
 
 Every film, script and beat sheet runs in this order. It is the brand promise (*opportunities you can act on — and explain*) turned into a running order, and it comes before every other section.
 
-| Order | Question it answers | Example (VP of Mortgage Lending, DACH) | Share of a Moment story |
+| Order | Question it answers | Example (Head of Mortgage Lending, DACH) | Share of a Moment story |
 |---|---|---|---|
 | **1. Situation** | What is happening to one customer the bank already has? | *Customer 40-1187's fixed rate ends in four months.* | Opens the film |
 | **2. Moment** | What does Seekridge flag, and how high does it rank? | *Refinance risk. Ranked 3rd of 212 this week.* | Short, and always named in the product's word: *moment* |
 | **3. Evidence** | Which data points made the moment, and how much did each count? | *Rate gap 38%, salary split with another bank 27%, local offers 21%, fixed rate end 14%.* | The body of the film. The beat that makes this brand different |
 | **4. Action** | What does the advisor do now, and where is it recorded? | *On the advisor's list in the CRM, with the reasons. Logged.* | Closes the method, before the proof |
 
-- **Never show a moment without its evidence.** A frame with a moment and no evidence trail is a frame the Head of Credit Risk will stop the film on. If time is short, cut the action beat, never the evidence.
+- **Never show a moment without its evidence.** A frame with a moment and no evidence trail is a frame an advisor won't act on and a risk reviewer will stop the film on. If time is short, cut the action beat, never the evidence.
 - **Never lead with the model.** "AI-powered propensity scoring" is a mechanism in the situation slot. Rewrite it as what is happening to the customer.
 - **Evidence is data, not adjectives.** Each evidence row names its layer (customer, transactions, market), the data point, and its weight. "Strong moments from multiple sources" is not evidence.
 - **Walkthroughs** are feature-led by design, but open on the job (situation) before the first control: *An advisor needs to know why a customer was flagged.*
@@ -69,7 +69,7 @@ Every film shares the same type, grounds, panels and motion grammar. What change
 
 **Choosing:** if the viewer already has Seekridge and needs to *use* a feature, make a Walkthrough. If the viewer needs to *trust a moment enough to act on it*, make a Moment story. If the viewer needs to *notice one finding*, make a Statement.
 
-**One persona per film.** A Moment story is made for one of the four personas in [`../personas.md`](../personas.md) (VP of Mortgage Lending, Head of Credit Risk, Head of Bancassurance, Head of Advisory Network) and one use case. Never one film for everybody.
+**One persona per film.** A Moment story is made for one of the two buyers in [`../personas.md`](../personas.md) (Head of Mortgage Lending, Head of Retail Banking) and one use case. Reviewers (risk, model governance, the DPO) get the review pack and the method film, not a persona film. Never one film for everybody.
 
 ---
 
@@ -133,7 +133,7 @@ Headlines carry the film. Write them first, read them aloud, then design. Voice 
 | Punctuation | Moment stories and Statements end in a full stop. Walkthroughs don't | Exclamation marks, question marks as hooks ("Ready to grow?"), ellipses |
 | Voice | Second person to the professional (*your customers*, *your advisors*). Customers by ID on screen, *this customer* in the voice-over | *Users*, *leads*, *prospects*. Customer first names |
 | Precision | Name the data point. *Salary split with another bank for 2 of 3 months.* | *Rich customer insights.* *Powerful data.* |
-| Mechanism | Name it when the persona asks for it (Head of Credit Risk films), always as data and weight | *Proprietary AI*, *black box*, *magic*, *revolutionary* (all prohibited terms) |
+| Mechanism | Name it when the audience asks for it (the method film shared with reviewers), always as data and weight | *Proprietary AI*, *black box*, *magic*, *revolutionary* (all prohibited terms) |
 | Product words | Moment · evidence trail · audit log · customer base · transaction data, customer data, market data · CRM | Lead, insight, alert · explainability report · database · data lake |
 | Figures | One figure per beat, with what it measures and where it came from. Illustrative figures labelled *Illustrative* on screen | A figure without a source line; demo data presented as a result |
 | Currency | Code before the number: EUR 412,500 · CHF 1.2m · SEK 3.4m | € 412.5k; mixing formats in one film |
@@ -156,10 +156,9 @@ Headlines carry the film. Write them first, read them aloud, then design. Voice 
 
 | Persona | Hook names | Evidence beat leads with | Action beat shows |
 |---|---|---|---|
-| VP of Mortgage Lending | A customer about to leave or ready to borrow more | The rate and salary rows | The advisor's CRM list |
-| Head of Credit Risk | A decision someone will have to defend | Weights summing to 100, the method line | The audit log and export |
-| Head of Bancassurance | A customer paying premiums to another insurer | The premium-payment rows | The advisor's insurance task |
-| Head of Advisory Network | A customer quietly moving to another bank | Salary and transfer rows | The advisor's weekly list |
+| Head of Mortgage Lending | A customer about to leave or ready to borrow more | The rate and salary rows | The advisor's CRM list |
+| Head of Retail Banking | A customer buying elsewhere: a car loan, a renovation, insurance paid to another insurer | The payment rows behind the moment | The advisor's task with the offer |
+| Method film for reviewers (not a persona) | A decision someone will have to defend | Weights summing to 100, the method line | The audit log and export |
 
 ---
 
@@ -341,7 +340,7 @@ Design and time the 16:9 master first; cut the others from the same beats and vo
 
 ## 9. Template: Moment story (45–60 s)
 
-The default persona film. Reference: [`assets/Films/story-fixed-rate-dach-16x9.mp4`](./assets/Films/story-fixed-rate-dach-16x9.mp4) (VP of Mortgage Lending, DACH lender, 48 s, UK English master); the full brief → beat sheet → voice-over → captions run is [`example.md`](./example.md).
+The default persona film. Reference: [`assets/Films/story-fixed-rate-dach-16x9.mp4`](./assets/Films/story-fixed-rate-dach-16x9.mp4) (Head of Mortgage Lending, DACH lender, 48 s, UK English master); the full brief → beat sheet → voice-over → captions run is [`example.md`](./example.md).
 
 | Time | Beat | Headline | On screen | Chapter |
 |---|---|---|---|---|

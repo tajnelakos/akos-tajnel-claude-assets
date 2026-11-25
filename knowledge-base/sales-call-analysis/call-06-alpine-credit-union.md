@@ -1,7 +1,7 @@
 # Call Transcript — Alpine Credit Union
 
 **Date:** July 2026 · **Duration:** ~20 minutes · **Call type:** Third call, late-stage
-**Rep:** Marcus Webb (Seekridge) · **Prospect:** Heinrich Bauer, Head of Credit Risk, Alpine Credit Union (regional bank, DACH)
+**Rep:** Marcus Webb (Seekridge) · **Prospect:** Heinrich Bauer, Head of Retail Banking, Alpine Credit Union (regional bank, DACH)
 
 ---
 
