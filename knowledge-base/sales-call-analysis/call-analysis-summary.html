@@ -44,7 +44,7 @@
   code{ font-family:var(--font-mono); background:var(--surface-2); padding:1px 6px; border-radius:3px; font-size:.9em; }
 
   .masthead{ display:flex; flex-direction:column; gap:12px; border-bottom:2px solid var(--ink); padding-bottom:20px; }
-  .eyebrow{ font-family:var(--font-mono); font-size:11.5px; text-transform:uppercase; letter-spacing:.12em; color:var(--accent-deep); }
+  .eyebrow{ font-family:var(--font-body, 'IBM Plex Sans', system-ui, sans-serif); font-size:12.5px;;  color:var(--accent-deep); display:inline-flex; align-items:center; align-self:flex-start; padding:6px 13px; border-radius:999px; background:#1A3A5C; color:#fff; font-weight:500; box-shadow:0 2px 0 rgba(15,42,64,.45)}
   .masthead h1{ font-size:clamp(26px,4.4vw,38px); font-weight:800; }
   .meta-row{ display:flex; gap:24px; flex-wrap:wrap; font-family:var(--font-mono); font-size:12.5px; color:var(--ink-soft); }
   .meta-row b{ color:var(--ink); font-weight:500; }
@@ -78,7 +78,7 @@
   .findings{ display:flex; flex-direction:column; gap:0; }
   .finding{ display:grid; grid-template-columns:90px 1fr; gap:16px; padding:16px 0; border-top:1px solid var(--line); }
   .findings .finding:first-child{ border-top:none; }
-  .finding-tag{ font-family:var(--font-mono); font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; padding:4px 8px; border-radius:4px; height:fit-content; text-align:center; }
+  .finding-tag{ font-family:var(--font-body, 'IBM Plex Sans', system-ui, sans-serif); font-size:12.5px;;  padding:4px 8px; border-radius:4px; height:fit-content; text-align:center; }
   .tag-product{ background:var(--accent-bg); color:var(--accent-deep); }
   .tag-compliance{ background:var(--sig-risk-bg); color:var(--sig-risk); }
   .tag-data{ background:var(--sig-medium-bg); color:var(--sig-medium); }
@@ -92,8 +92,8 @@
   /* Call index table */
   table{ width:100%; border-collapse:collapse; font-size:13.5px; }
   th,td{ text-align:left; padding:9px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
-  th{ font-family:var(--font-mono); font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--ink-faint); font-weight:500; }
-  .sig-pill{ font-family:var(--font-mono); font-size:10.5px; text-transform:uppercase; padding:3px 8px; border-radius:20px; white-space:nowrap; }
+  th{ font-family:var(--font-body, 'IBM Plex Sans', system-ui, sans-serif); font-size:12.5px;;  color:var(--ink-faint); font-weight:500; }
+  .sig-pill{ font-family:var(--font-body, 'IBM Plex Sans', system-ui, sans-serif); font-size:12.5px;  padding:3px 8px; border-radius:20px; white-space:nowrap; }
   .sig-strong{ background:var(--sig-strong-bg); color:var(--sig-strong); }
   .sig-medium{ background:var(--sig-medium-bg); color:var(--sig-medium); }
   .sig-weak{ background:var(--sig-weak-bg); color:var(--sig-weak); }
@@ -129,7 +129,7 @@
         <p class="sr-mast__eyebrow">Sales Call Intelligence</p>
         <h1 class="sr-mast__title sr-mast__title--long">Call Analysis Rollup — 15 Calls, July–August 2026</h1>
         <p class="sr-mast__lede">Fifteen discovery and demo calls, each analysed with the same skill, then rolled up: the objections, competitors and buying moments that keep coming back.</p>
-        <div class="sr-facts"><span class="sr-fact">Calls analysed <b>15</b></span><span class="sr-fact">Segments <b>Bank/lender · Insurer · Brokerage</b></span><span class="sr-fact">Prepared <b>September 2026</b></span><span class="sr-fact">Method <b><a href="./skill.md">sales-call-analysis skill</a></b></span></div>
+        <div class="sr-facts"><span class="sr-fact">Calls analysed <b>15</b></span><span class="sr-fact">Segments <b>Bank/lender, insurer, brokerage</b></span><span class="sr-fact">Prepared <b>September 2026</b></span><span class="sr-fact">Method <b><a href="./skill.md">sales-call-analysis skill</a></b></span></div>
       </div>
       <figure class="sr-mast__art"><img src="../../knowledge-base/design-system/dotmap-tile.svg" alt=""></figure>
     </div>
