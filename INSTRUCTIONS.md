@@ -10,7 +10,7 @@ A working set of prompts, Claude Skills, and custom GPTs for recurring growth/pr
 
 - **[`knowledge-base/`](./knowledge-base)** — accumulated understanding, not a task tool. Holds the core reference docs (`knowledge-base.md`, `icp.md`, `personas.md`, `positioning.md`, `competitive-landscape.md`, `branding-guideline/` for voice and identity, `design-system/` for anything visual, `linkedin-carousels/` for LinkedIn carousels and image posts, `flyer-design-system/` for print, and `video-design-system/` for anything that moves — read the relevant one first when a task needs customer, competitor, or voice context) plus the analysis work that builds and maintains that understanding (`sales-call-analysis/`, `win-loss-analysis/`, `outdated-checker/`).
 - **[`sales-tools/`](./sales-tools)** — what a rep or sales-facing process actually uses: `competitor-monitoring/`, `battlecard/`, `abm-account-brief/`, `icp-buying-moment-monitor/`, `sales-deck-builder/`.
-- **[`marketing-assets/`](./marketing-assets)** — content marketing produces and ships: `personalized-outbound/`, `persona-email-sequence/`, `positioning-compliance/`.
+- **[`marketing-assets/`](./marketing-assets)** — content marketing produces and ships: `personalized-outbound/`, `persona-email-sequence/`, `positioning-compliance/`, `product-launch-process/`.
 
 Every folder inside these three holds a flat set of files — `README.md`, `skill.md` (and `gpt.md` where relevant), plus a worked example — no nested subfolders. The exceptions are the three design systems packaged in the Claude design system format — [`linkedin-carousels/`](./knowledge-base/linkedin-carousels), [`flyer-design-system/`](./knowledge-base/flyer-design-system) and [`video-design-system/`](./knowledge-base/video-design-system) — which keep that format's folders (`components/`, `assets/` and `fonts/`, plus `examples/` for flyers and `films/` for video).
 
@@ -40,6 +40,7 @@ Every folder inside these three holds a flat set of files — `README.md`, `skil
 | "Build a one-pager for [persona/segment]" | [`one-pager-builder`](./marketing-assets/one-pager-builder) |
 | "Write a blog post about [topic/argument]" | [`blog-post-builder`](./marketing-assets/blog-post-builder) |
 | "Write a LinkedIn/social post about [finding]" | [`social-media-post-builder`](./marketing-assets/social-media-post-builder) |
+| "Plan the launch of [product/feature/segment]" / "What do we need before we launch?" | [`product-launch-process`](./marketing-assets/product-launch-process) |
 | "Is [strategy doc] still accurate?" | [`outdated-checker`](./knowledge-base/outdated-checker) |
 
 If a request doesn't map cleanly to one row, say so rather than forcing it into the nearest folder. Note that `blog-post-builder` and `social-media-post-builder` still require a real, specific angle (a `positioning.md` point of view, a sourced finding) — "write me a blog post" with no argument behind it is a prompt to ask a clarifying question, not to route to a generic template.
@@ -68,6 +69,7 @@ This is here so an AI assistant (or a reader unfamiliar with the role) can see w
 - Spot-check whether the knowledge-base files themselves have drifted → [`outdated-checker`](./knowledge-base/outdated-checker) — this one runs on an actual monthly schedule rather than waiting to be remembered; see [`sweep-2026-09.md`](./knowledge-base/outdated-checker/sweep-2026-09.md) for the first real pass
 
 **Quarterly**
+- A product, feature or segment launch is coming up → [`product-launch-process`](./marketing-assets/product-launch-process) to build the launch plan, before any asset is made
 - Full win/loss analysis and infographic for the exec team → [`win-loss-analysis`](./knowledge-base/win-loss-analysis)
 - Revisit `positioning.md` and `personas.md` against what win/loss and call analysis surfaced that quarter (manual review — no dedicated tool for this on purpose, since positioning shifts deserve human judgment, not automated rewriting)
 
