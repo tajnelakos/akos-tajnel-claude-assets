@@ -20,4 +20,5 @@ One reference frame per pattern, taken from the reference films at the busiest m
 | `statement-claim` | StatementStage: claim and turn over the ridge band |
 | `statement-segments` | SegmentTriptych under a title |
 | `statement-figure` | FigureCard in a Statement |
+| `segment-open` · `segment-book-ridgefield` · `segment-layers` · `segment-moment-refinance` · `segment-moment-topup` · `segment-week-ranked` · `segment-endcard` | The short segment cut: open, the book with tagged moments, the layers, two moments with evidence, the ranked CRM queue, the end card |
 | `contact-sheet-*` | Each film's check sheet |
