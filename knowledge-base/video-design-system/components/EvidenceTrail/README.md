@@ -15,7 +15,7 @@ The signature component, and the brand promise on screen: every data point behin
 3. FocusMarks close on the top row; the other rows dim to 35%.
 4. Hold. The voice-over reads the top reason in plain words.
 
-**Copy.** Data points name the measure, not an adjective: *New monthly transfer out EUR 400*, *Income change, 3 months +18%*, *Savings-rate gap to other banks +1.1 pts*, *Investment products held none*.
+**Copy.** Data points name the measure, not an adjective: *New monthly transfer out EUR 400*, *Income change, 3 months +18%*, *Savings-rate gap +1.1 pts*, *Investment products held none*.
 
 **Provide.** 3–5 rows (layer, data point, value, weight), the model version line.
 

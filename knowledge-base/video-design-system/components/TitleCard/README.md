@@ -17,7 +17,7 @@ How Moment stories open: the customer's situation as a one-line hook on the Navy
 **Provide.** The hook (the customer's situation, 4–8 words, full stop), the eyebrow, the field angle if you want a different plan.
 
 **Rules**
-- The hook names a situation, never the product: *They just started sending money elsewhere.* Not *Meet Seekridge Moments.*
+- The hook names a situation, never the product: *Their savings just started to leave.* Not *Meet Seekridge Moments.*
 - Up to three words in gold-light are allowed, but the gold point already is the frame's gold: prefer no highlight.
 - Walkthroughs and Statements don't use a TitleCard.
 

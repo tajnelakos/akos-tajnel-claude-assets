@@ -348,7 +348,7 @@ The default persona film. Reference: [`assets/Films/story-outflow-dach-16x9.mp4`
 
 | Time | Beat | Headline | On screen | Chapter |
 |---|---|---|---|---|
-| 0.0–5.0 s | TitleCard | They just started sending money elsewhere. | Navy; the dot map moves in from the right, peaks rise, the gold point lands; lockup top-left; hook as `title` | — |
+| 0.0–5.0 s | TitleCard | Their savings just started to leave. | Navy; the dot map moves in from the right, peaks rise, the gold point lands; lockup top-left; hook as `title` | — |
 | 5.0–10.0 s | Tension | By the time anyone notices, **it's gone.** | Wipe to Paper; Timeline: First transfer out 2026-06-02 → Today → Balance moved elsewhere (dashed, marked) | Situation |
 | 10.0–16.0 s | Layers | Three layers. **One customer.** | LayerStack: transaction, customer, market rows draw in and resolve into one line | Situation |
 | 16.0–21.5 s | Moment | One moment, **ranked third.** | MomentCard: Money starting to leave · Customer 40-1187 · Rank 3 of 212 | Moment |
