@@ -107,7 +107,7 @@ A segment page (banks, insurers, brokerages) gets one Moment story built around 
 5. **Scale**: RidgeField.
 6. **Proof** and **EndCard**.
 
-**Short cut (35–45 s), value → benefit → feature.** When the page needs a punchier film, drop the governance and proof beats and run: the book as a RidgeField with its moments rising and tagged → the three layers (*your data, our data*) → customer one with the evidence trail → customer two, faster → the week's moments settling into a ranked CRM queue → EndCard. No ChapterRail. Headlines are bolder here: short, declarative, a claim per scene. Reference: [`assets/Films/segment-mortgage-lending-16x9.mp4`](./assets/Films/segment-mortgage-lending-16x9.mp4) (42 s), with its ElevenLabs-ready voice-over script beside it.
+**Short cut (35–45 s), value → benefit → feature.** When the page needs a punchier film, drop the governance and proof beats and run: the book as a RidgeField with its moments rising and tagged → the three layers (*your data, our data*) → customer one with the evidence trail → customer two, faster → the week's moments settling into a ranked CRM queue → a closing claim that answers the opening hook (EndCard, *Closing claim* variant). No ChapterRail. Headlines are bolder here: short, declarative, a claim per scene. Reference: [`assets/Films/segment-mortgage-lending-16x9.mp4`](./assets/Films/segment-mortgage-lending-16x9.mp4) (43.7 s, with a draft voice), with its ElevenLabs-ready voice-over script beside it.
 
 ### Statement (5–7 beats)
 
@@ -319,7 +319,7 @@ A Seekridge film must work fully muted: most are watched that way in a feed or o
 | Rule | Detail |
 |---|---|
 | Style | `caption` type (IBM Plex Sans 500, 44px at 1080p) in `caption-ink` on the `caption-band`, 10px corners, 32px horizontal padding. On Paper frames the band is navy with Paper text; on Navy frames it inverts to a Paper band with ink text, so it never disappears into the ground |
-| Position | Left-aligned at the margin (not centred), band bottom edge at `caption-bottom`; above the ChapterRail |
+| Position | Bottom centre, text centred, band bottom edge at `caption-bottom`; above the ChapterRail. Keep panels and headlines out of the band's area (about 780–920px down the frame) while a caption is on |
 | Length | Max 2 lines, max 42 characters a line; break at a phrase, never inside an ID, a figure or a currency amount |
 | Timing | Matches the spoken line; on screen 1.2 s minimum, 6 s maximum; fades in and out over 150ms, no movement |
 | Silence | No caption over the TitleCard's first 1.5 s or the last 2 s of the EndCard |
@@ -434,7 +434,7 @@ The Seekridge web app, screen by screen, and what each gives a film. The screens
 
 ## 13. Still open
 
-1. **Approved voices.** Choose and record the one synthetic voice per language (EN-GB, DE, NL, SV) and its licence, so every film uses the same voice. Until then, reference films ship silent with captions.
+1. **Approved voices.** Choose and record the one synthetic voice per language (EN-GB, DE, NL, SV) and its licence, so every film uses the same voice. The final English voice will come from ElevenLabs. Until then, `segment-mortgage-lending-16x9` carries a draft voice (the open-source Kokoro model, voice *bf_emma*, generated offline) as a timing placeholder, and the other reference films ship silent with captions.
 2. **Music.** No bed is cleared yet. Films ship voice-only (or silent) until one is licensed for commercial use.
 3. **Logo files.** The wordmark is live text in the SVGs; films embed Archivo so it renders, but outlined logo files are the next step (see [`../branding-guideline/README.md`](../branding-guideline/README.md)).
 4. **Localised references.** Only the UK English master of the reference films exists. A German cut of `story-fixed-rate-dach` is the next one to build, to test the re-timing rule.
