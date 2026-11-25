@@ -94,6 +94,13 @@
     .bar-row{ grid-template-columns:120px 1fr 34px; }
     table{ font-size:12px; }
   }
+  .kf{ list-style:none; padding:0; display:grid; grid-template-columns:repeat(2,1fr); gap:12px; margin:14px 0 0; }
+  .kf-item{ background:#fff; border:1px solid var(--line); border-radius:12px; padding:16px 18px; display:flex; flex-direction:column; gap:6px; }
+  .kf-stat{ font:800 26px/1.05 'Archivo', system-ui, sans-serif; letter-spacing:-.02em; color:#1A3A5C; }
+  .kf-item:first-child .kf-stat{ color:#B33A2E; }
+  .kf-item b{ font:700 15px/1.3 'Archivo', system-ui, sans-serif; color:var(--ink); }
+  .kf-item p{ margin:0; font-size:13.5px; line-height:1.45; color:var(--ink-soft); }
+  @media (max-width:760px){ .kf{ grid-template-columns:1fr; } }
 </style>
 <link rel="stylesheet" href="../../knowledge-base/design-system/report-theme.css">
 
@@ -128,24 +135,12 @@
   <div class="panel panel-highlight">
     <div class="eyebrow">Read this first</div>
     <h2>Key findings</h2>
-    <div class="findings">
-      <div class="finding">
-        <div class="finding-head">ValuAI: we won 1 of 8 head-to-head deals</div>
-        <div class="finding-body">Seven of the eight deals where ValuAI was the named competitor were lost — a small sample, but a stark one, and consistent with <a href="../../knowledge-base/positioning.md#how-this-positioning-needs-to-evolve">positioning.md</a>'s warning that the explainability wedge is narrowing faster than expected since ValuAI's July 2026 GA launch. Their average quoted price (€94,626) also came in below our average deal size in those deals (€103,344) — they are no longer only a capability threat, price is now part of their play too. This is the single most urgent finding in this analysis.</div>
-      </div>
-      <div class="finding">
-        <div class="finding-head">We lose the bigger deals more often than the smaller ones</div>
-        <div class="finding-body">Average lost-deal size (€88,435) is larger than average won-deal size (€72,464), and Tier 2 (larger, more procurement layers — see <a href="../icp.md">icp.md</a>) wins at only 33.3% against Tier 1's 37% and Tier 3's 52.8%. Deal size and procurement complexity appear to move together against us, not deal size alone.</div>
-      </div>
-      <div class="finding">
-        <div class="finding-head">Response time correlates with outcome; demo quality doesn't</div>
-        <div class="finding-body">Won deals averaged a 30.4-hour first response versus 37.1 hours for lost deals — a real, actionable gap. Demo quality scored identically for wins and losses (3.83 average either way), suggesting the demo itself isn't where deals are being decided — speed to engage is.</div>
-      </div>
-      <div class="finding">
-        <div class="finding-head">27.6% of losses have no product cause at all</div>
-        <div class="finding-body">The single largest loss-feedback category is process/relationship/timing related, not a missing feature or a lost technical comparison — see Product Feedback below. Worth remembering before assuming every loss is a product gap to close.</div>
-      </div>
-    </div>
+    <ul class="kf">
+      <li class="kf-item"><span class="kf-stat">1 of 8</span><b>ValuAI is beating us head to head</b><p>Seven of eight deals against ValuAI were lost, and their quotes ran about 8% below ours.</p></li>
+      <li class="kf-item"><span class="kf-stat">€88k vs €72k</span><b>We lose the bigger deals</b><p>Average lost deal against average won deal. Tier 2 wins only 33%, against 53% in Tier 3.</p></li>
+      <li class="kf-item"><span class="kf-stat">30h vs 37h</span><b>Faster first replies win</b><p>First response time, won against lost. Demo scores were the same either way (3.8).</p></li>
+      <li class="kf-item"><span class="kf-stat">28%</span><b>Many losses aren’t about product</b><p>The largest share of losses came down to process, relationship or timing.</p></li>
+    </ul>
   </div>
 
   <section class="panel">

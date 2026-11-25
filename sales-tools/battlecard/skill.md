@@ -1,6 +1,6 @@
 ---
 name: battlecard-generator
-description: Produces a rep-facing HTML battlecard for one named competitor (header info, company overview, positioning framework, value pillars, discovery questions, objection handlers, do-not-say list, optional feature matrix), sourced from competitive-landscape.md. Can also update just the changed sections of competitive-landscape.md's own deeper reference entry when new raw research comes in. Use for the field-ready, printable/openable card a rep skims before or during a call — not the analyst-maintained reference doc itself.
+description: Produces a rep-facing HTML battlecard for one named competitor (at a glance, their pitch and the quick dismiss, strengths and weaknesses with what to say, where we're weaker, landmines, buyer quotes, don't-say), sourced from competitive-landscape.md, the win/loss CRM export, the competitor analyses site and sales-call transcripts. Can also update just the changed sections of competitive-landscape.md's own deeper reference entry when new raw research comes in. Use for the field-ready, printable/openable card a rep skims before or during a call — not the analyst-maintained reference doc itself.
 ---
 
 # Battlecard Generator
@@ -16,15 +16,18 @@ Turn the deep, analyst-maintained competitor data in `competitive-landscape.md` 
 
 ## Instructions — rep-facing battlecard
 
-1. **Header info**: competitor name, last-updated date, and a named battlecard owner (the person responsible for keeping it current — a battlecard with no owner rots silently).
-2. **Company overview & strategy**: exactly 2 sentences — who they are, their target market, how they position against us. Not a company history.
-3. **Positioning framework ("land mines")**: use the transition formula *"They say X → The reality is Y → We're better because Z."* Pull "X" from their actual public messaging (see `competitive-landscape.md`'s Marketing & Positioning data), not a strawman. "Y" must be sourced, not invented. "Z" must map to a real differentiator, not a generic claim.
-4. **Value pillars & differentiators**: 3–5, each with a concrete proof point (a stat, a named capability, a win-rate figure) — never a bare adjective claim ("we're more reliable" without evidence doesn't count).
-5. **Discovery/landmine questions**: high-impact questions a rep can ask *before* the competitor comes up, designed to surface the competitor's actual weakness in the prospect's own words rather than the rep asserting it. Phrase them as something a rep would really say out loud, not a research prompt.
-6. **Objection handlers**: written as a rep would actually say them — natural sales language, not analysis. Pair each stated objection with the response.
-7. **Do-not-say list**: explicit guardrails — overclaims, unverified claims, or comparisons that would backfire if fact-checked by the prospect. Every entry should be something a rep would otherwise be tempted to say.
-8. **Feature matrix (optional)**: only if there are genuinely critical gaps worth a table (integrations, pricing model, compliance, deployment). Skip it if the prose above already covers the differentiators — a redundant table is worse than no table.
-9. **Match template depth to actual threat level.** A Low-threat competitor (see `competitive-landscape.md`'s Quick reference) gets a visibly shorter card, not a padded one forced into the same length as a High-threat competitor.
+Shorter beats complete. A rep should get the whole card in a minute; every line must be something they would say, ask or avoid on a call.
+
+1. **Header.** Competitor name, a one-sentence lede on how they compete right now, and three fact pills: threat level, last updated, and the head-to-head record. The pill that matters most for this competitor gets the highlight.
+2. **At a glance.** Eight facts in a grid. Lead with the two a rep needs most: the head-to-head record and their price against ours, both computed from the win/loss CRM export (`Competitor Faced`, `Outcome`, `Deal Size`, `Competitor Quoted Price`). Then founded, size or funding, who they target, how they sell, which buyer they reach, and reviews or recent moves.
+3. **What changed.** One line on the latest move from the competitor analyses site that changes what a rep can say. If a claim on an older card has become false, say so here.
+4. **Their pitch, and the quick dismiss.** Their actual public message, quoted, beside a two-sentence reality check that is sourced, not invented. Then one line on how we differ, written as a contrast a rep can repeat.
+5. **Where they're strong, and what to say. Where they're weak, and how to use it.** Three of each at most. Every point is paired with a line the rep can act on. Concede real strengths; don't argue with them.
+6. **Where we're weaker, and how to handle it.** The honest gaps (deployment, size, price), each with how to raise or answer it. A card without this section isn't trusted.
+7. **Landmines to lay.** Three questions a rep can ask before the competitor comes up, each with a short note on why it works. A real question invites the buyer to say something; it never leads the witness.
+8. **What buyers told us.** Up to three short quotes from the sales-call transcripts, each linked to its file. Only verbatim quotes, trimmed, never paraphrased into quotation marks.
+9. **Don't say.** Two or three lines a rep would be tempted to use, and why each would backfire. Update this list when a competitor ships something: an old "they don't have X" becomes a don't-say.
+10. **Match depth to threat.** A low-threat competitor gets fewer pairs and gaps, not padding.
 
 ## What to avoid
 
@@ -35,14 +38,15 @@ Turn the deep, analyst-maintained competitor data in `competitive-landscape.md` 
 ## Output format — rep-facing battlecard
 
 ```
-[Header] Competitor · Last updated · Owner
-[Company Overview & Strategy] — 2 sentences
-[Positioning Framework] They say X → Reality Y → We win because Z
-[Value Pillars] 3-5, each: headline + proof point
-[Discovery Questions] 3-5, phrased as spoken questions
-[Objection Handlers] objection → response, paired
-[Do-Not-Say List] explicit guardrails
-[Feature Matrix] (optional) — only critical gaps
+[Header] lede · threat · updated · head-to-head
+[At a glance] 8 facts; head-to-head and price first
+[What changed] one line, from the latest competitor analyses edition
+[Pitch and quick dismiss] they say (quoted) | reality (sourced) + one-line contrast
+[Strong / weak] up to 3 each, every point paired with what to say or do
+[Where we're weaker] honest gaps, each with how to handle it
+[Landmines] 3 spoken questions, each with why it works
+[What buyers told us] up to 3 verbatim quotes, linked to transcripts
+[Don't say] 2–3 tempting lines, and why not
 ```
 
 See [`bricklane-data.html`](./bricklane-data.html), [`estemate.html`](./estemate.html), [`valuai.html`](./valuai.html), and [`propiq.html`](./propiq.html) for this format applied to each tracked competitor.
