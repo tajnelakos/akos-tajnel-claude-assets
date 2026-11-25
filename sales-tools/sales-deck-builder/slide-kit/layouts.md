@@ -10,7 +10,7 @@ The reference deck, [`../deck-retail-banks.html`](../deck-retail-banks.html), us
 - **A mono eyebrow above every headline** names the section ("The challenge", "How it works"). It acts as the deck's chapter marker, so there's no separate agenda slide.
 - **Two grounds only: navy and paper.** Alternate them to pace the story. Put the big emotional beats on navy and the dense proof on paper.
 - **One gold element per slide:** the summit point, one card, one label or one highlighted row. Gold *text* only appears on navy.
-- **Benefit before feature.** The headline says what the lender gets. Feature names (Evidence Trail) go in the eyebrow or the body.
+- **Benefit before feature.** The headline says what the bank gets. Feature names (Evidence Trail) go in the eyebrow or the body.
 - **Every figure keeps its source line** (`.source`), or the word "illustrative".
 - **Speaker notes** go in `<aside class="notes">` on each slide. They're hidden when you view or print the deck.
 - **Footer** on every slide except the cover and the close: the lockup on the left, the page number on the right.
@@ -20,13 +20,13 @@ The reference deck, [`../deck-retail-banks.html`](../deck-retail-banks.html), us
 | # | Layout | Ground | Use it for | You provide |
 |---|---|---|---|---|
 | L1 | **Cover** | Navy | The opening promise | Eyebrow (who it's for), headline with a gold accent on the last words, one-line lead, meeting line in the footer |
-| L2 | **Quiet book** | Navy | The challenge: the opportunity exists but nobody sees it | Headline, a two-line lead, 3–5 muted moment labels with question marks on a low ridge |
-| L3 | **Four cards** | Paper | What the buyer gets: levers, use cases, benefits | Four short verb tags (Keep, Win, Lend, Insure), a headline per card, one sentence each. The first card is navy with the one gold icon |
+| L2 | **Quiet base** | Navy | The challenge: the opportunity exists but nobody sees it | Headline, a two-line lead, 3–5 muted moment labels with question marks on a low ridge |
+| L3 | **Four cards** | Paper | What the buyer gets: levers, use cases, benefits | Four short verb tags (Keep, Win, Grow, Lend), a headline per card, one sentence each. The first card is navy with the one gold icon |
 | L4 | **Statement** | Paper or navy | A single line to say slowly: why now, a point of view | One headline at 104 px, one lead, a ridge band along the bottom |
 | L5 | **Moments on the ridge** | Navy (paper variant) | The hero: moments rising out of the customer base | 3–5 peaks. Each label has a pill (what happens in the customer's life) and a line under it (the conversation it opens). The most urgent one is gold |
 | L6 | **Data layers** | Navy | How it works: three data sources converge into one moment | Three layer rows (icon, name, what's in it) and one moment card with one evidence point per layer |
 | L7 | **Split with product** | Paper with a navy panel | A differentiator shown in the product | Headline, lead, a one-line kicker, a product card on the navy panel (Evidence Trail with weights, a moment card) |
-| L8 | **Moment → product → owner** | Paper | How moments turn into sales | 3–5 rows: moment, product with its "Why:", and who acts (advisor, digital campaign, partner). One gold owner cell |
+| L8 | **Moment → product → owner** | Paper | How moments turn into sales | 3–5 rows: moment, product with its "Why:", and who acts (banker, advisor, digital campaign). One gold owner cell |
 | L9 | **Steps and product** | Navy | Implementation or workflow | Three numbered steps (a verb-first title and one line each) and a product list card |
 | L10 | **Benefits with outcome** | Navy | What changes, in three steps and the result | Three cards with a step label and one gold outcome card |
 | L11 | **Figure and plan** | Paper | Proof: one number and how to prove it on their data | One figure with what it measures and its source, and three pilot steps with timing |

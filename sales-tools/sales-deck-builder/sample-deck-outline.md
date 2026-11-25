@@ -6,7 +6,7 @@ Deal context and outline for [Seekridge](../../knowledge-base/knowledge-base.md)
 
 ## Input
 
-> Deal context: First substantive meeting with a regional bank's Head of Model Risk. They currently pick customers for refinancing offers with a legacy scoring tool, and a prior vendor (fictional "NexaScore") made explainability claims that reportedly fell apart under scrutiny. Buyer is risk-focused and skeptical of AI hype.
+> Deal context: First substantive meeting with a regional bank's Head of Model Risk. They currently pick customers for savings and investment offers with a legacy scoring tool, and a prior vendor (fictional "NexaScore") made explainability claims that reportedly fell apart under scrutiny. Buyer is risk-focused and skeptical of AI hype.
 
 ## Output
 
@@ -32,7 +32,7 @@ Persona: Head of Model Risk (risk/compliance buyer) · Stage: First substantive 
 
 5. What changes in your existing workflow
    Purpose: Risk buyers are also evaluating operational disruption, even if it's not their primary lens.
-   Key point: Minimal workflow disruption — moments land in the CRM advisors already use, with risk review built in, not a rip-and-replace.
+   Key point: Minimal workflow disruption — moments land in the CRM bankers already use, with risk review built in, not a rip-and-replace.
 
 6. What this looks like for your Q3 audit cycle
    Purpose: Ties directly to a real, time-bound stake for this buyer if one is known from discovery.

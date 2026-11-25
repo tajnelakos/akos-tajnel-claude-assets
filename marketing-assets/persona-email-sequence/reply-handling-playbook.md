@@ -38,22 +38,22 @@ This persona's `personas.md` entry: risk-averse by function, has usually been bu
 
 ## Head of Retail Banking
 
-This persona's `personas.md` entry: measured on growth and retention of the mortgage book, won't advocate internally for the risk/compliance case, wants a real implementation timeline rather than an "instant" claim.
+This persona's `personas.md` entry: measured on main-bank customers, products per customer and lending to existing customers, won't advocate internally for the risk/compliance case, wants a real implementation timeline rather than an "instant" claim.
 
-### "What's the actual retraining time for my advisors?"
+### "What's the actual retraining time for my bankers?"
 **Read:** A direct hit on this persona's stated common objection — answer with the real number, not a range that sounds better than it is.
 **Response guidance:** Give the honest figure, broken down by what's genuinely new versus what stays the same in the existing workflow. If the honest answer is "more than a day," say that — this persona's trust trigger is explicitly "a rep who separates 'the tool goes live' from 'my team actually adopts it.'"
 
-### "What's the real retention uplift, not the marketing number?"
-**Response guidance:** Point to a sourced, specific figure (the same one used in Email 1) rather than restating the calculator's theoretical output — and offer a reference call with an existing lending customer if one exists, since this persona's content preferences skew toward operational-metric case studies over slides.
+### "What's the real main-bank uplift, not the marketing number?"
+**Response guidance:** Point to a sourced, specific figure (the same one used in Email 1) rather than restating the calculator's theoretical output — and offer a reference call with an existing retail-bank customer if one exists, since this persona's content preferences skew toward operational-metric case studies over slides.
 
 ### "Can you send this to our risk lead / send a version for compliance?"
 **Read:** This is the single most important reply type for this persona — `personas.md` states directly that this buyer "won't sell this internally for them" on the risk side, so a request to loop in risk is the sequence working as intended, not a detour.
 **Response guidance:** Offer the joint walkthrough described in [`campaign-head-of-retail-banking.md`](./campaign-head-of-retail-banking.md)'s Email 5, and reach out to the risk contact directly rather than routing everything back through the VP — this removes exactly the internal-selling burden the persona profile flags as a trust breaker if left on them.
 
-### "We're not prioritizing this right now — retention is fine."
-**Read:** Possibly a genuine low-priority moment, but per `personas.md`'s pain language ("we find out a customer refinanced elsewhere when the redemption request arrives"), this can also mean the pain is real but not yet visible to this specific person.
-**Response guidance:** One light follow-up offering the advisor-action data point (Email 3's angle) is reasonable if it wasn't already covered — a downstream metric this persona may not be tracking yet. Don't push past a second soft no.
+### "We're not prioritizing this right now — our main-bank share is fine."
+**Read:** Possibly a genuine low-priority moment, but per `personas.md`'s pain language ("half our 'customers' get their salary somewhere else"), this can also mean the pain is real but not yet visible to this specific person.
+**Response guidance:** One light follow-up offering the banker-action data point (Email 3's angle) is reasonable if it wasn't already covered — a downstream metric this persona may not be tracking yet. Don't push past a second soft no.
 
 ### Hard no / unsubscribe
 **Response guidance:** Same as Head of Model Risk — honor immediately, no retention email.

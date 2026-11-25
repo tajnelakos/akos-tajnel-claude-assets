@@ -1,13 +1,13 @@
 ---
 name: linkedin-caption-builder
-description: Drafts a social media post (LinkedIn by default, given this ICP) built around one real, cited proof point — a win-loss-analysis stat, a competitor-monitoring finding, a case study result, or a positioning.md point of view — not a generic "check out our product" post. Use when the user wants a social post and can point to (or accept) a specific real finding as its angle.
+description: Drafts a LinkedIn caption, following the carousel system's caption rules, built around one real, cited proof point — a win-loss-analysis stat, a competitor-monitoring finding, a case study result, or a positioning.md point of view — not a generic "check out our product" post. Use when the user wants a social post and can point to (or accept) a specific real finding as its angle.
 ---
 
-# Social Media Post Builder
+# LinkedIn Caption Builder
 
 ## Purpose
 
-A social post with no real finding behind it is just an ad with a hashtag. This skill requires the same real angle [`blog-post-builder`](../blog-post-builder) does, compressed to platform length and mechanics.
+A social post with no real finding behind it is just an ad with a hashtag. This skill requires the same real angle [`blog-post-builder`](../blog-post-builder) does, compressed to a LinkedIn caption that follows [`captions.md`](../../knowledge-base/linkedin-carousels/captions.md).
 
 ## Instructions
 

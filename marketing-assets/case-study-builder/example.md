@@ -1,6 +1,6 @@
 # Sample output
 
-Nordkredit — the same account [`icp-buying-moment-monitor`](../../sales-tools/icp-buying-moment-monitor/example.md) flagged, [`abm-account-brief`](../../sales-tools/abm-account-brief/example.md) briefed, and [`personalized-outbound`](../personalized-outbound/example.md) reached out to. This case study is that thread's actual ending: [`sales-call-analysis/call-01-nordkredit.md`](../../knowledge-base/sales-call-analysis/call-01-nordkredit.md) is the resulting discovery call, and the deal closed won per [`win-loss-analysis/win-loss-crm-export.csv`](../../knowledge-base/win-loss-analysis/win-loss-crm-export.csv) (OPP-1001).
+Nordkredit — the account that runs through the rest of this repo. This case study is that thread's actual ending: [`sales-call-analysis/call-01-nordkredit.md`](../../knowledge-base/sales-call-analysis/call-01-nordkredit.md) is the resulting discovery call, and the deal closed won per [`win-loss-analysis/win-loss-crm-export.csv`](../../knowledge-base/win-loss-analysis/win-loss-crm-export.csv) (OPP-1001).
 
 ---
 
@@ -16,13 +16,13 @@ Nordkredit — the same account [`icp-buying-moment-monitor`](../../sales-tools/
 **Status:** Draft — pending Nordkredit's explicit sign-off before publishing named or quoting Lena Virtanen publicly
 
 **Title:** Nordkredit replaces a "score only" targeting tool ahead of a board audit
-**Snapshot:** Bank/Lender · Tier 1 · Nordics · ~€600M annual origination · Displaced: Conturo (incumbent) · Deal size: €56,924 ACV · Sales cycle: 65 days
+**Snapshot:** Retail bank · Tier 1 · Nordics · ~900,000 retail customers · Displaced: Conturo (incumbent) · Deal size: €56,924 ACV · Sales cycle: 65 days
 
 ### Challenge
-Nordkredit's newly hired Head of Model Risk inherited an internal audit finding on her first day: a refinancing campaign had been run off a customer score from the bank's existing data provider — a score and a generic methodology document, not the specific data points that put an individual customer on the list. When an auditor or internal risk committee asked "why this customer," the only honest answer was "the model said so" — not something the team wanted to repeat at an upcoming board audit.
+Nordkredit's newly hired Head of Model Risk inherited an internal audit finding on her first day: a savings-and-investment campaign had been run off a customer score from the bank's existing data provider — a score and a generic methodology document, not the specific data points that put an individual customer on the list. When an auditor or internal risk committee asked "why this customer," the only honest answer was "the model said so" — not something the team wanted to repeat at an upcoming board audit.
 
 ### Solution
-Rather than a prepared demo, Seekridge ran moments live on a pseudonymized sample of Nordkredit's own customers, at the prospect's request — showing the actual property, market, and CRM data points behind each moment and their weighting, not a templated walkthrough. Nordkredit had already used this same standard (push past the first demo, ask for a real breakdown) to evaluate and rule out another vendor earlier in its process.
+Rather than a prepared demo, Seekridge ran moments live on a pseudonymized sample of Nordkredit's own customers, at the prospect's request — showing the actual transaction, market, and CRM data points behind each moment and their weighting, not a templated walkthrough. Nordkredit had already used this same standard (push past the first demo, ask for a real breakdown) to evaluate and rule out another vendor earlier in its process.
 
 ### Results
 - Closed in 65 days — inside Nordkredit's own Tier 1 typical sales-cycle range (per `icp.md`: 2-4 months)

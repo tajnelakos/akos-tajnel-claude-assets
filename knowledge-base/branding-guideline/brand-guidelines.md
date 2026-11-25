@@ -207,7 +207,7 @@ One motif per surface, anchored to an edge and allowed to bleed off it, never be
 - **No stock photography.** Especially no generic finance-stock clichés (handshakes, skyline photos, people pointing at monitors). This audience recognizes stock photography instantly and it reads as substance-free.
 - **Prefer real product surfaces and data visualization** — an actual (or realistic mock) evidence-trail screenshot, a real moment-weighting chart — over any illustration standing in for the product.
 - **Where illustration is needed** (e.g. a concept with no literal screenshot, like "data residency"), use abstract geometric illustration consistent with the logomark's style — flat shapes, no gradients, no 3D renders, no isometric-office-life scenes.
-- **Icon style:** line icons only, 1.5–2px stroke weight, no fills, consistent corner radius. No skeuomorphic, glossy, or 3D icon sets. This matches the logomark's own construction (a stroked ridgeline on a baseline plus one solid gold summit point) — the icon system and the logo should look like they were drawn by the same hand. A starter set of 15 icons drawn to this rule (1.75px on a 24px grid) lives in [`../design-system/`](../design-system) as `icon-*.svg`: moment, evidence-trail, customer, property, valuation, market, coverage-map, lender, policy, crm-sync, data-residency, check, alert, arrow-right, search.
+- **Icon style:** line icons only, 1.5–2px stroke weight, no fills, consistent corner radius. No skeuomorphic, glossy, or 3D icon sets. This matches the logomark's own construction (a stroked ridgeline on a baseline plus one solid gold summit point) — the icon system and the logo should look like they were drawn by the same hand. A starter set of 16 icons drawn to this rule (1.75px on a 24px grid) lives in [`../design-system/`](../design-system) as `icon-*.svg`: moment, evidence-trail, customer, transaction, savings, market, coverage-map, bank, agent, compliance, crm-sync, data-residency, check, alert, arrow-right, search.
 - **Mock-ups:** realistic but clearly illustrative data. Customers appear by ID, never by a real name or address.
 
 ---
@@ -218,7 +218,7 @@ The voice rules live in [`skill.md`](./skill.md). The mechanics that sit underne
 
 - **Names:** Seekridge is one word, capital P only, no article. Feature names are literal and capitalized as names (Evidence Trail, Coverage Map), with no article in English.
 - **Case:** sentence case for every title, heading, button, label, cover, and caption. The mono eyebrow is the one all-caps element, set in CSS rather than typed in capitals.
-- **Numbers:** every figure says what it measures and where it came from ("68% of flagged customers moved money out within 6 months — backtest on the client's 2025 book"). Illustrative figures are labelled as illustrative.
+- **Numbers:** every figure says what it measures and where it came from ("68% of flagged customers moved money out within 6 months — backtest on the client's 2025 data"). Illustrative figures are labelled as illustrative.
 - **Currency:** the three-letter code before the number (EUR 412,500 · CHF 1.2m · SEK 3.4m), because the core markets use several currencies. Older files in this repo still use €; update them when they're next edited.
 - **Dates:** 24 November 2026 in prose; 2026-11-24 in tables, exports, and the audit log.
 - **Markets:** UK English (Oxford spelling). German uses „…“ and 412.500; Swiss German «…» and 412’500; the Nordics 412 500. German *Sie*, Dutch *u*, Nordic *du*.
