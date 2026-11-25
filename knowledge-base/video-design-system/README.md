@@ -4,7 +4,7 @@ How Seekridge shows its moments in motion: product walkthroughs, persona films f
 
 It sits on top of the brand. Identity, palette, type and voice come from [`../branding-guideline/brand-guidelines.md`](../branding-guideline/brand-guidelines.md); the build-ready web system is [`../design-system/`](../design-system). This folder adds what film needs and the brand file only covers in a paragraph: formats, beat structures, on-screen copy, frame layouts, a motion grammar, cast and sample data per market, sound, production specs and a component set, all drawn for the 1920 × 1080 master. [`../design-system/video-and-motion.md`](../design-system/video-and-motion.md) is the one-page summary of these rules.
 
-**Decisions locked on 24 November 2026:** Meridian Gold is the only accent, one gold per frame · flat grounds only, Paper or Navy, no gradients, glows, blur or shadows · square corners (4px max on panels) and hairlines, as in the product · every moment on screen carries its evidence · customers appear by ID, never by name · captions burnt into every cut · 16:9 is the master, 4:5 and 9:16 are cut from it · 30 fps · films are built in code from this system, never screen-recorded · no stock footage, no live action, no illustration of people.
+**Decisions locked on 24 November 2026:** Meridian Gold is the only accent, one gold per frame · flat grounds only, Paper or Navy, no gradients, glows, blur or shadows · rounded corners and hairlines, as in the product (16px on panels, 10px on buttons and bands, pills for badges and tags; updated 25 November 2026) · every moment on screen carries its evidence · customers appear by ID, never by name · captions burnt into every cut · 16:9 is the master, 4:5 and 9:16 are cut from it · 30 fps · films are built in code from this system, never screen-recorded · no stock footage, no live action, no illustration of people.
 
 **The idea in one line:** draw the ridge, then mark the point. Every beat starts from straight lines on a flat ground and ends with one thing marked in gold: the customer, the evidence, the figure, the action.
 
@@ -57,7 +57,7 @@ Every film shares the same type, grounds, panels and motion grammar. What change
 |---|---|---|---|
 | Job | Show how one feature works | Show what one moment does for one persona, end to end | Announce, open an event, state one finding |
 | Weighting | Product-heavy | Customer situation and evidence | One idea and one figure |
-| Reference film | `walkthrough-evidence-trail-16x9` | `story-fixed-rate-dach-16x9` | `statement-evidence-16x9` |
+| Reference film | `walkthrough-evidence-trail-16x9` | `story-fixed-rate-dach-16x9`; segment version `segment-mortgage-lending-16x9` | `statement-evidence-16x9` |
 | Length | 20–45 s | 45–60 s | 20–35 s |
 | Ground | Paper, map grid on | Navy open and close, Paper body | Navy throughout |
 | Framing | One panel, cropped to the control the beat is about | Split beats: headline left (5 columns), panel right (7 columns) | Type, the dot map and figures; at most one panel |
@@ -106,6 +106,8 @@ A segment page (banks, insurers, brokerages) gets one Moment story built around 
 4. **Governance beat**: AuditLog plus one line for risk and compliance. *Every moment, explained and logged.*
 5. **Scale**: RidgeField.
 6. **Proof** and **EndCard**.
+
+**Short cut (35–45 s), value → benefit → feature.** When the page needs a punchier film, drop the governance and proof beats and run: the book as a RidgeField with its moments rising and tagged → the three layers (*your data, our data*) → customer one with the evidence trail → customer two, faster → the week's moments settling into a ranked CRM queue → EndCard. No ChapterRail. Headlines are bolder here: short, declarative, a claim per scene. Reference: [`assets/Films/segment-mortgage-lending-16x9.mp4`](./assets/Films/segment-mortgage-lending-16x9.mp4) (42 s), with its ElevenLabs-ready voice-over script beside it.
 
 ### Statement (5–7 beats)
 
@@ -203,10 +205,10 @@ When a beat's point is a data point rather than a phrase, the gold moves into th
 ### Product UI in film
 
 - **Recreate, don't record.** Every panel is a cleaned rebuild of a real Seekridge screen (section 11), drawn in code from these tokens.
-- **Flat panels.** White surface, 1px `panel-line` border, 4px corners, no shadow. The border traces in before the content appears.
+- **Flat panels.** White surface, 1px `panel-line` border, 16px corners (`radius`), no shadow. The border traces in before the content appears.
 - **Crop to the component.** A panel fills 50–60% of the frame width in split beats, up to 85% in full beats. Never a whole app window with its navigation.
 - **Film density.** Rows are 72px, values 26px: twice the web app's size. Keep 4–6 rows per panel.
-- **Simplify.** One primary action visible at most, in navy, 4px corners. Remove nav, avatars, filters and secondary buttons that don't move the story.
+- **Simplify.** One primary action visible at most, in navy, 10px corners (`radius-control`). Remove nav, avatars, filters and secondary buttons that don't move the story.
 - **Evidence is always visible.** A MomentCard on screen shows at least its top two evidence rows. The full trail is its own beat.
 - **Status colours only inside panels**, with their ink and background pairs: *Synced to CRM* in good-ink on good-bg. Never on the ground, never for drama.
 - **Cursor** only when a click is the point (exporting the trail, opening the moment). One straight eased move, one click, no ripple.
@@ -316,7 +318,7 @@ A Seekridge film must work fully muted: most are watched that way in a feed or o
 
 | Rule | Detail |
 |---|---|
-| Style | `caption` type (IBM Plex Sans 500, 44px at 1080p) in `caption-ink` on the `caption-band`, square corners, 32px horizontal padding. On Paper frames the band is navy with Paper text; on Navy frames it inverts to a Paper band with ink text, so it never disappears into the ground |
+| Style | `caption` type (IBM Plex Sans 500, 44px at 1080p) in `caption-ink` on the `caption-band`, 10px corners, 32px horizontal padding. On Paper frames the band is navy with Paper text; on Navy frames it inverts to a Paper band with ink text, so it never disappears into the ground |
 | Position | Left-aligned at the margin (not centred), band bottom edge at `caption-bottom`; above the ChapterRail |
 | Length | Max 2 lines, max 42 characters a line; break at a phrase, never inside an ID, a figure or a currency amount |
 | Timing | Matches the spoken line; on screen 1.2 s minimum, 6 s maximum; fades in and out over 150ms, no movement |
@@ -417,7 +419,7 @@ The Seekridge web app, screen by screen, and what each gives a film. The screens
 | Show the evidence trail every time a moment is on screen | A moment badge with nothing behind it |
 | Draw lines, then fill the one gold point | Gold on more than one thing in a frame |
 | Keep grounds flat, panels white and hairlined | Gradients, glows, blur, drop shadows, glassy cards |
-| Square corners, 4px at most | Pills, rounded bubbles, 20px card corners |
+| Rounded corners from the scale: 16px panels, 10px controls and bands, 6px chips, pills for badges and tags | Sharp 0px panels, mixed radii in one panel, bubbly shapes beyond the scale |
 | Left-align headlines at the margin | Centred headlines over centred cards (except end cards) |
 | Dim to focus | Blur to focus |
 | Mono for every ID, date, weight and source | Data in the display face |

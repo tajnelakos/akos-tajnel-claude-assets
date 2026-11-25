@@ -106,7 +106,7 @@
 .pwv-lower-third {
   position: absolute; left: var(--pwv-margin); bottom: calc(var(--pwv-caption-bottom) + 120px);
   display: inline-flex; flex-direction: column; gap: 6px; padding: 18px 28px 20px;
-  background: var(--pwv-caption-band); color: var(--pwv-caption-ink);
+  background: var(--pwv-caption-band); color: var(--pwv-caption-ink); border-radius: var(--pwv-radius-control);
   border-top: var(--pwv-stroke) solid var(--pwv-lot);
 }
 .pwv-lower-third b { font: var(--pwv-text-lower-third); font-weight: 600; }
@@ -116,7 +116,7 @@
 .pwv-captions { position: absolute; left: var(--pwv-margin); right: var(--pwv-margin); bottom: var(--pwv-caption-bottom); height: 0; z-index: 40; }
 .pwv-captions p {
   position: absolute; left: 0; bottom: 0; margin: 0; max-width: 1180px;
-  padding: 12px 32px 14px; background: var(--pwv-caption-band); color: var(--pwv-caption-ink);
+  padding: 12px 32px 14px; border-radius: var(--pwv-radius-control); background: var(--pwv-caption-band); color: var(--pwv-caption-ink);
   font: var(--pwv-text-caption); visibility: hidden;
 }
 .pwv-captions p.is-static { visibility: visible; }
@@ -144,7 +144,7 @@
 .pwv-trace rect {
   width: calc(100% - 1px); height: calc(100% - 1px); fill: none;
   stroke: var(--pwv-rule); stroke-width: 1.5; stroke-opacity: calc(1 - var(--c, 1) * 0.82);
-  stroke-dasharray: 1 1; stroke-dashoffset: calc(1 - var(--p, 1)); rx: 4px;
+  stroke-dasharray: 1 1; stroke-dashoffset: calc(1 - var(--p, 1)); rx: 16px;
 }
 [data-ground="navy"] .pwv-trace rect { stroke: #F4F3EF; stroke-opacity: calc(1 - var(--c, 1)); }
 .pwv-panel-head {
@@ -167,7 +167,7 @@
 .pwv-row.is-head { min-height: 52px; background: var(--pwv-surface-sunken); }
 .pwv-panel-foot { padding: 18px var(--pwv-panel-pad) 20px; border-top: 1px solid var(--pwv-panel-line); font: 400 20px/28px var(--pwv-font-mono); color: var(--pwv-panel-muted); }
 .pwv-badge {
-  display: inline-flex; align-items: center; gap: 10px; padding: 6px 12px 7px; border-radius: 2px;
+  display: inline-flex; align-items: center; gap: 10px; padding: 6px 14px 7px; border-radius: var(--pwv-radius-pill);
   font: 500 20px/24px var(--pwv-font-ui); white-space: nowrap;
 }
 .pwv-badge::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: currentColor; }
@@ -176,7 +176,7 @@
 .pwv-badge.is-neutral { background: #EEF0F2; color: #3E4752; }
 .pwv-badge.is-neutral::before { background: #5B6470; }
 .pwv-btn {
-  display: inline-flex; align-items: center; gap: 12px; padding: 12px 22px; border-radius: var(--pwv-radius);
+  display: inline-flex; align-items: center; gap: 12px; padding: 12px 22px; border-radius: var(--pwv-radius-control);
   background: #1A3A5C; color: #fff; font: 600 22px/28px var(--pwv-font-ui);
 }
 .pwv-btn.is-secondary { background: transparent; color: #1A3A5C; box-shadow: inset 0 0 0 1.5px #1A3A5C; }
@@ -219,11 +219,11 @@
 .pwv-layer-band .pwv-layer { font-size: 20px; }
 .pwv-layer-band .pwv-layer .pwv-icon { width: 40px; height: 40px; }
 .pwv-chips { display: flex; gap: 16px; flex-wrap: nowrap; }
-.pwv-chip { padding: 12px 18px; border: 1px solid var(--pwv-panel-line); border-radius: 2px; background: var(--pwv-surface-sunken); font: 400 22px/28px var(--pwv-font-mono); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.pwv-chip { padding: 12px 18px; border: 1px solid var(--pwv-panel-line); border-radius: var(--pwv-radius-chip); background: var(--pwv-surface-sunken); font: 400 22px/28px var(--pwv-font-mono); white-space: nowrap; font-variant-numeric: tabular-nums; }
 .pwv-chip span { color: var(--pwv-panel-muted); margin-right: 10px; font-size: 18px; text-transform: uppercase; letter-spacing: 0.06em; }
 .pwv-connector { position: absolute; overflow: visible; }
 .pwv-connector path { fill: none; stroke: var(--pwv-rule); stroke-width: var(--pwv-stroke); stroke-linecap: square; }
-.pwv-node { position: absolute; display: flex; white-space: nowrap; align-items: center; gap: 18px; padding: 20px 26px; background: #1A3A5C; color: #F4F3EF; border-radius: 2px; font: 600 30px/36px var(--pwv-font-ui); }
+.pwv-node { position: absolute; display: flex; white-space: nowrap; align-items: center; gap: 18px; padding: 20px 26px; background: #1A3A5C; color: #F4F3EF; border-radius: var(--pwv-radius-control); font: 600 30px/36px var(--pwv-font-ui); }
 .pwv-node .pwv-label { color: #AEB8C3; }
 
 /* ---------- FigureCard ---------- */
@@ -252,7 +252,7 @@
 .pwv-tl-event { position: absolute; transform: translateX(-50%); text-align: center; }
 .pwv-tl-event .pwv-data { display: block; color: var(--pwv-ink-muted); font-size: 24px; }
 .pwv-tl-event b { display: block; margin-top: 8px; font: 600 32px/40px var(--pwv-font-ui); color: var(--pwv-ink); white-space: nowrap; }
-.pwv-tl-event.is-marked b { padding: 10px 18px; background: #1A3A5C; color: #F4F3EF; border-radius: 2px; }
+.pwv-tl-event.is-marked b { padding: 10px 18px; background: #1A3A5C; color: #F4F3EF; border-radius: var(--pwv-radius-control); }
 .pwv-tl-event.is-above { bottom: calc(100% - 0px); }
 
 /* ---------- SegmentTriptych ---------- */
@@ -267,3 +267,16 @@
 .pwv-cursor { position: absolute; left: 0; top: 0; width: 40px; height: 40px; z-index: 60;
   transform: translate(calc(var(--x0) + (var(--x1) - var(--x0)) * var(--p, 1)), calc(var(--y0) + (var(--y1) - var(--y0)) * var(--p, 1))); }
 .pwv-cursor path { fill: #1C1C1A; stroke: #FFFFFF; stroke-width: 2; stroke-linejoin: round; }
+
+/* ---------- Settle (the week's moments falling into rank) ----------
+ * A card starts offset by --dx/--dy and slides straight into its slot on the one curve.
+ * Use with data-fx="cue". No rotation, no overshoot. */
+.pwv-settle { transform: translate(calc(var(--dx, 0px) * (1 - var(--p, 1))), calc(var(--dy, 0px) * (1 - var(--p, 1)))); }
+.pwv-tag {
+  position: absolute; display: inline-flex; align-items: center; gap: 10px; padding: 8px 16px 9px;
+  border-radius: var(--pwv-radius-pill); background: var(--pwv-surface); color: var(--pwv-panel-ink);
+  box-shadow: inset 0 0 0 1px var(--pwv-panel-line); font: 500 22px/28px var(--pwv-font-ui); white-space: nowrap;
+  transform: translate(-50%, -100%);
+}
+.pwv-tag::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: #1A3A5C; }
+.pwv-tag.is-gold::before { background: var(--pwv-lot); }
