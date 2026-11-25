@@ -1,6 +1,6 @@
 # LayerStack
 
-How a customer's situation becomes data: three bands, one per layer, always in the order customer, property, market, each with two or three data chips; straight connectors meet in one navy node, the moment.
+How a customer's situation becomes data: three bands, one per layer, always in the order transactions, customer (or AI agent), market, each with two or three data chips; straight connectors meet in one navy node, the moment.
 
 **Anatomy**
 - Three flat white bands (980 × 132px), each a ProductPanel: layer icon + mono label, then data chips (mono 22px value, mono 18px uppercase key, sunken fill, 6px corners).
@@ -9,7 +9,7 @@ How a customer's situation becomes data: three bands, one per layer, always in t
 
 **Motion.** Bands trace in 600ms apart, chips fade in within each band; connectors draw (`draw`) once all three are in; the node fades in as they arrive. Total about 4 s; hold 1.5 s.
 
-**Use.** The *Situation into data* beat of a Moment story; Walkthrough openers about connecting data; Head of Credit Risk films to show what goes in.
+**Use.** The *Situation into data* beat of a Moment story; Walkthrough openers about connecting data; Head of Model Risk films to show what goes in.
 
 **Provide.** Two or three data points per layer with their values, the moment name.
 

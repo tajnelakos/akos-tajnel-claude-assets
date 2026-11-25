@@ -23,7 +23,7 @@ The formats (A4 trifold, A5 cards, panel-based insides) follow common B2B print 
 
 ## Content fundamentals
 
-- **One reader per piece.** Name them in the eyebrow ("For mortgage lenders", "For risk and compliance teams") and write everything else to them.
+- **One reader per piece.** Name them in the eyebrow ("For retail banking teams", "For risk and compliance teams") and write everything else to them.
 - **Lead with the reader's situation or the opportunity, then the proof.** The front states the outcome; the inside shows how it works and proves it with one moment and its evidence.
 - **Sentence case everywhere**, covers included. The mono eyebrow is the one all-caps element, set in CSS.
 - **Short, declarative claims.** One idea per line on the navy ground, up to 12 words on a trifold front and 8 on a postcard. No exclamation marks, no emoji.
@@ -61,7 +61,7 @@ The formats (A4 trifold, A5 cards, panel-based insides) follow common B2B print 
 
 - The Seekridge line icons: 24 grid, 1.75 stroke, square caps, no fills. Navy on paper (`-navy` files), Paper on navy (`-paper` files). `.pwf-icon` picks the right one from the ground.
 - Sizes: 6 mm beside a panel title, 9 mm above a benefit, 4 mm in evidence rows and chips.
-- The three data layers always use `customer`, `market` and `property`.
+- The three data layers always use `transaction`, `customer` and `market`.
 - Never fill, recolour, put an icon in a disc, or mix in another set.
 
 ## Logo
@@ -81,7 +81,7 @@ The formats (A4 trifold, A5 cards, panel-based insides) follow common B2B print 
 
 | Piece | HTML | PDF | Render |
 |---|---|---|---|
-| A4 trifold for mortgage lenders | `examples/trifold-mortgage-lenders.html` | `assets/Examples/trifold-mortgage-lenders.pdf` | `assets/Examples/trifold-outside.jpg`, `trifold-inside.jpg` |
+| A4 trifold for retail banks | `examples/trifold-retail-banks.html` | `assets/Examples/trifold-retail-banks.pdf` | `assets/Examples/trifold-outside.jpg`, `trifold-inside.jpg` |
 | A5 postcard on explainable moments | `examples/postcard-explainable-moments.html` | `assets/Examples/postcard-explainable-moments.pdf` | `assets/Examples/postcard-front.jpg`, `postcard-back.jpg` |
 | A4 one-pager for risk teams | `examples/one-pager-risk-teams.html` | `assets/Examples/one-pager-risk-teams.pdf` | `assets/Examples/one-pager.jpg` |
 

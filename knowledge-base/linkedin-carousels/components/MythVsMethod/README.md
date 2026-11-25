@@ -2,7 +2,7 @@
 
 Corrects a belief the market repeats: the correction as a cover, the belief in an outlined card, why it fails under scrutiny, what a defensible method looks like, and a close.
 
-**Use it for** thought leadership aimed at a sceptical reader, usually the Head of Credit Risk, a model-risk team or a Data & CRM Lead. It works because the brand's values (*defensible over impressive*, *respect the skeptic*) are the argument. 5 slides.
+**Use it for** thought leadership aimed at a sceptical reader, usually the Head of Model Risk, a model-risk team or a Data & CRM Lead. It works because the brand's values (*defensible over impressive*, *respect the skeptic*) are the argument. 5 slides.
 
 **You provide**
 - The correction as a cover line, stated as a fact, not a question ("Explainability can't be added after the model."). About 8 words.

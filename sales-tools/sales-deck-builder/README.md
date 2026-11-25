@@ -23,9 +23,9 @@ The kit's story shape and slide patterns come from two decks Akos built in a pre
   - [`layouts.md`](./slide-kit/layouts.md): the 15 layouts, the appendix variants and the rules every slide keeps
   - [`slides.css`](./slide-kit/slides.css): the kit's styles, built on the design-system tokens and fonts
   - [`ridge.py`](./slide-kit/ridge.py) and [`build-assets.py`](./slide-kit/build-assets.py): draw the ridge illustrations
-- [`deck-mortgage-lenders.html`](./deck-mortgage-lenders.html) ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/sales-deck-builder/deck-mortgage-lenders.html)) and [`deck-mortgage-lenders.pdf`](./deck-mortgage-lenders.pdf): the reference deck, a first meeting with a bank's VP of Mortgage Lending, 14 slides plus a 5-slide appendix
-- [`example-mortgage-lenders.md`](./example-mortgage-lenders.md): the input and outline behind that deck
-- [`sample-deck-outline.md`](./sample-deck-outline.md): an outline-only example for a Head of Credit Risk, showing how the order changes by persona
+- [`deck-retail-banks.html`](./deck-retail-banks.html) ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/sales-deck-builder/deck-retail-banks.html)) and [`deck-retail-banks.pdf`](./deck-retail-banks.pdf): the reference deck, a first meeting with a bank's Head of Retail Banking, 14 slides plus a 5-slide appendix
+- [`example-retail-banks.md`](./example-retail-banks.md): the input and outline behind that deck
+- [`sample-deck-outline.md`](./sample-deck-outline.md): an outline-only example for a Head of Model Risk, showing how the order changes by persona
 
 ## Current limitations
 

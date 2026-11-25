@@ -6,23 +6,23 @@ Deal context and outline for [Seekridge](../../knowledge-base/knowledge-base.md)
 
 ## Input
 
-> Deal context: First substantive meeting with a regional bank's Head of Credit Risk. They currently pick customers for refinancing offers with a legacy scoring tool, and a prior vendor (fictional "ValuAI") made explainability claims that reportedly fell apart under scrutiny. Buyer is risk-focused and skeptical of AI hype.
+> Deal context: First substantive meeting with a regional bank's Head of Model Risk. They currently pick customers for refinancing offers with a legacy scoring tool, and a prior vendor (fictional "NexaScore") made explainability claims that reportedly fell apart under scrutiny. Buyer is risk-focused and skeptical of AI hype.
 
 ## Output
 
 ```
-## Deck Outline — Regional bank, first meeting with Head of Credit Risk
-Persona: Head of Credit Risk (risk/compliance buyer) · Stage: First substantive meeting
+## Deck Outline — Regional bank, first meeting with Head of Model Risk
+Persona: Head of Model Risk (risk/compliance buyer) · Stage: First substantive meeting
 
 1. The real cost of an offer nobody can explain
    Purpose: Open on the buyer's actual pain (audit exposure), not on our product — this persona tunes out product-first openers.
    Key point: A customer your team contacted without being able to say why is a liability, however good the campaign's numbers look.
 
 2. What "explainable" means here, specifically
-   Purpose: Pre-empt the "we've heard this before" reaction, given the ValuAI history in this deal.
-   Key point: Show the actual evidence-trail structure (the property, market, and customer data points behind one moment, and their weighting) — concrete, not a claim.
+   Purpose: Pre-empt the "we've heard this before" reaction, given the NexaScore history in this deal.
+   Key point: Show the actual evidence-trail structure (the transaction, customer, and market data points behind one moment, and their weighting) — concrete, not a claim.
 
-3. Why we're naming this directly: the ValuAI comparison
+3. Why we're naming this directly: the NexaScore comparison
    Purpose: Named-objection slide — this deal has a specific prior disappointment in play; ignoring it reads as evasive.
    Key point: Invite the skepticism explicitly, then offer a live run on a sample of their own customers as the resolution, not more slides.
 

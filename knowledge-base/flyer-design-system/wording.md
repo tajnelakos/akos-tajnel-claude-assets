@@ -6,30 +6,30 @@ The voice rules are in [`../branding-guideline/skill.md`](../branding-guideline/
 
 | Slot | Length | Example |
 |---|---|---|
-| Eyebrow | 2–5 words, names the reader | For mortgage lenders |
+| Eyebrow | 2–5 words, names the reader | For retail banking teams |
 | Claim (trifold front) | Up to 12 words, one idea per line | Know which customers to call this month. And why. |
 | Statement (postcard front) | Up to 8 words | The moment you can explain. |
 | Supporting line | One sentence, up to 25 words | Seekridge shows which of your existing customers to talk to next, and why. |
-| Problem | Two short paragraphs in the reader's world | Fixed rates end, equity grows and a local lender cuts its two-year rate… |
+| Problem | Two short paragraphs in the reader's world | A salary goes up, a monthly transfer to another bank begins… |
 | Pillars | Title as the claim, body as its proof | Explainable by design · Every moment shows the data points behind it… |
 | Benefits | Up to 8 words each, written as outcomes | Risk signs off the method, not each list |
-| Steps | One verb, one sentence | Connect · Your CRM and loan book, through one secure export or API. |
-| Figure | Number, what it measures, source | 68% · of flagged customers refinanced within 6 months · Backtest on a lender's 2025 book · illustrative |
+| Steps | One verb, one sentence | Connect · Your CRM and transaction feed, through one secure export or API. |
+| Figure | Number, what it measures, source | 68% · of flagged customers moved money out within 6 months · Backtest on a bank's 2025 data · illustrative |
 | Action | What happens after the scan | Scan to book a backtest |
 
 ## Claims
 
 - State the outcome for the reader, in their words: "Know which customers to call this month." Not "AI-driven customer intelligence".
 - Gold goes on the words that carry the turn, up to three: "And why.", "explain."
-- Questions are fine as a front if the reader can't yet answer them: "Which of your customers will refinance elsewhere this year?"
+- Questions are fine as a front if the reader can't yet answer them: "Which of your customers are moving money out this year?"
 - Never claim speed or volume alone. If a claim is about more leads, it's the wrong claim.
 
 ## Proof
 
 - One moment with its evidence beats three adjectives. Every piece that mentions moments shows an `EvidenceStrip`.
 - Up to three figures a piece. Each one has a source line in mono: what the data was, whose it was, when, and "illustrative" if it is.
-- Backtests are on the client's own book. Say so: "Backtest on a lender's 2025 book".
-- Customers appear by ID. Policies by policy number. Never a real name, address or bank.
+- Backtests are on the client's own data. Say so: "Backtest on a bank's 2025 data".
+- Customers appear by ID. Never a real name, account number or bank.
 
 ## Actions
 

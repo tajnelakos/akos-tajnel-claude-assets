@@ -4,7 +4,7 @@ The HTML compositions of the reference films and the script that renders them. E
 
 | File | Renders to |
 |---|---|
-| `story-fixed-rate-dach-16x9.html` | `../assets/Films/story-fixed-rate-dach-16x9.mp4` |
+| `story-outflow-dach-16x9.html` | `../assets/Films/story-outflow-dach-16x9.mp4` |
 | `walkthrough-evidence-trail-16x9.html` | `../assets/Films/walkthrough-evidence-trail-16x9.mp4` |
 | `segment-mortgage-lending-16x9.html` | `../assets/Films/segment-mortgage-lending-16x9.mp4` |
 | `statement-evidence-16x9.html` | `../assets/Films/statement-evidence-16x9.mp4` |
@@ -15,9 +15,9 @@ The HTML compositions of the reference films and the script that renders them. E
 ```bash
 pip install playwright pillow && playwright install chromium   # once; ffmpeg must be on PATH
 # 1. check the busiest frame of each scene first
-python render-film.py story-fixed-rate-dach-16x9.html --stills 4.5,9.6,15.6,21.2,30.6,36.6,41.6,46.5 --out check.jpg
+python render-film.py story-outflow-dach-16x9.html --stills 4.5,9.6,15.6,21.2,30.6,36.6,41.6,46.5 --out check.jpg
 # 2. then render once
-python render-film.py story-fixed-rate-dach-16x9.html --out ../assets/Films/story-fixed-rate-dach-16x9.mp4
+python render-film.py story-outflow-dach-16x9.html --out ../assets/Films/story-outflow-dach-16x9.mp4
 ```
 
 Fonts are bundled in `../fonts/` and loaded by `../tokens.css`, so rendering works offline; `--font-css` is only needed to override them.

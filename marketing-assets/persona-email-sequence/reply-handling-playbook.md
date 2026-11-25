@@ -1,6 +1,6 @@
 # Reply-Handling Playbook
 
-Nurture sequences generate replies that don't fit "book a meeting" or "unsubscribe" — a technical objection, a request to loop in someone else, a polite non-answer. This playbook maps reply types to response guidance, per persona, so a rep or SDR triaging a shared inbox doesn't have to improvise a tone match on every reply. Pairs with [`campaign-head-of-credit-risk.md`](./campaign-head-of-credit-risk.md) and [`campaign-vp-mortgage-lending.md`](./campaign-vp-mortgage-lending.md); the reply categories are the same across personas, the right response isn't.
+Nurture sequences generate replies that don't fit "book a meeting" or "unsubscribe" — a technical objection, a request to loop in someone else, a polite non-answer. This playbook maps reply types to response guidance, per persona, so a rep or SDR triaging a shared inbox doesn't have to improvise a tone match on every reply. Pairs with [`campaign-head-of-model-risk.md`](./campaign-head-of-model-risk.md) and [`campaign-head-of-retail-banking.md`](./campaign-head-of-retail-banking.md); the reply categories are the same across personas, the right response isn't.
 
 ## General rules, both personas
 
@@ -11,7 +11,7 @@ Nurture sequences generate replies that don't fit "book a meeting" or "unsubscri
 
 ---
 
-## Head of Credit Risk
+## Head of Model Risk
 
 This persona's `personas.md` entry: risk-averse by function, has usually been burned by a prior vendor's explainability claim, distrusts anything that reads as a soft answer.
 
@@ -24,7 +24,7 @@ This persona's `personas.md` entry: risk-averse by function, has usually been bu
 **Response guidance:** Don't get defensive or imply the prior vendor was simply wrong. Ask what specifically fell apart (the method, a live test, an audit finding) and answer that specific failure mode directly — a generic "we're different" answer pattern-matches as exactly the claim they're already skeptical of.
 
 ### "I've forwarded this to our data/risk analyst to take a look."
-**Read:** A good sign, not a brush-off — per `personas.md`'s persona interaction map, the Data & CRM Lead is usually an ally if engaged early, and this Head of Credit Risk is routing correctly rather than rubber-stamping.
+**Read:** A good sign, not a brush-off — per `personas.md`'s persona interaction map, the Data & CRM Lead is usually an ally if engaged early, and this Head of Model Risk is routing correctly rather than rubber-stamping.
 **Response guidance:** Offer to loop in directly with the analyst rather than waiting for them to reach out — and treat the analyst's technical questions as legitimate scrutiny, not an obstacle, when they arrive.
 
 ### "Not the right time — we're mid-exam cycle / just renewed with our current vendor."
@@ -36,7 +36,7 @@ This persona's `personas.md` entry: risk-averse by function, has usually been bu
 
 ---
 
-## VP of Mortgage Lending
+## Head of Retail Banking
 
 This persona's `personas.md` entry: measured on growth and retention of the mortgage book, won't advocate internally for the risk/compliance case, wants a real implementation timeline rather than an "instant" claim.
 
@@ -49,11 +49,11 @@ This persona's `personas.md` entry: measured on growth and retention of the mort
 
 ### "Can you send this to our risk lead / send a version for compliance?"
 **Read:** This is the single most important reply type for this persona — `personas.md` states directly that this buyer "won't sell this internally for them" on the risk side, so a request to loop in risk is the sequence working as intended, not a detour.
-**Response guidance:** Offer the joint walkthrough described in [`campaign-vp-mortgage-lending.md`](./campaign-vp-mortgage-lending.md)'s Email 5, and reach out to the risk contact directly rather than routing everything back through the VP — this removes exactly the internal-selling burden the persona profile flags as a trust breaker if left on them.
+**Response guidance:** Offer the joint walkthrough described in [`campaign-head-of-retail-banking.md`](./campaign-head-of-retail-banking.md)'s Email 5, and reach out to the risk contact directly rather than routing everything back through the VP — this removes exactly the internal-selling burden the persona profile flags as a trust breaker if left on them.
 
 ### "We're not prioritizing this right now — retention is fine."
 **Read:** Possibly a genuine low-priority moment, but per `personas.md`'s pain language ("we find out a customer refinanced elsewhere when the redemption request arrives"), this can also mean the pain is real but not yet visible to this specific person.
 **Response guidance:** One light follow-up offering the advisor-action data point (Email 3's angle) is reasonable if it wasn't already covered — a downstream metric this persona may not be tracking yet. Don't push past a second soft no.
 
 ### Hard no / unsubscribe
-**Response guidance:** Same as Head of Credit Risk — honor immediately, no retention email.
+**Response guidance:** Same as Head of Model Risk — honor immediately, no retention email.

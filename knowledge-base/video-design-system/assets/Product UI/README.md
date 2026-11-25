@@ -10,7 +10,7 @@ The eight Seekridge web-app screens every film panel is rebuilt from (November 2
 | `04-coverage-map.png` | Postcode areas as lots, filled where moments cluster, one selected in gold | RidgeField, Statements |
 | `05-crm-sync.png` | Sync runs to CRM queues, with the one that needs attention | Action beat |
 | `06-audit-log.png` | Append-only record of every event on a moment | AuditLog |
-| `07-backtest-report.png` | Moment-rank deciles against the book average, with period and n | FigureCard, BacktestChart |
-| `08-data-layers.png` | Connected customer, property and market sources and their freshness | Walkthrough openers, governance beats |
+| `07-backtest-report.png` | Moment-rank deciles against the overall average, with period and n | FigureCard, BacktestChart |
+| `08-data-layers.png` | Connected transaction, customer, AI-agent and market sources and their freshness | Walkthrough openers, governance beats |
 
 The screens are drawn at web density (15px body). On film, panels double it (26px values, 72px rows) and keep only the rows a beat needs.

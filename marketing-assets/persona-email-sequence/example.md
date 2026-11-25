@@ -1,17 +1,17 @@
 # Sample output
 
-Sequence for the Head of Credit Risk persona ([`personas.md`](../../knowledge-base/personas.md)).
+Sequence for the Head of Model Risk persona ([`personas.md`](../../knowledge-base/personas.md)).
 
 ---
 
 ## Input
 
-> Persona: Head of Credit Risk. Trigger: downloaded our "Explainable Customer Moments in Regulated Banking" whitepaper from the site.
+> Persona: Head of Model Risk. Trigger: downloaded our "Explainable Customer Moments in Regulated Banking" whitepaper from the site.
 
 ## Output
 
 ```
-## Email Sequence — Head of Credit Risk — Trigger: whitepaper download
+## Email Sequence — Head of Model Risk — Trigger: whitepaper download
 
 ### Email 1 — "The part most 'explainable AI' claims skip" — Day 0
 You downloaded our piece on explainable customer moments, so you're probably already skeptical of the term — most vendors use it to mean "we show a feature-importance chart," not "we can show why this customer is on the list."

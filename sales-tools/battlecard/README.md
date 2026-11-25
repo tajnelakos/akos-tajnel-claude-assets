@@ -12,16 +12,16 @@ A skill that takes the data already in `competitive-landscape.md` (plus any new 
 
 Header info → company overview & strategy → positioning framework ("they say → reality → we win because") → value pillars with proof points → discovery/landmine questions → objection handlers → do-not-say list → an optional feature matrix, only where a real gap justifies one.
 
-Card depth matches actual threat level — the High-threat Bricklane Data card is not the same length as the Low-threat PropIQ card, on purpose.
+Card depth matches actual threat level — the High-threat Ledgerline card is not the same length as the Low-threat Pocketlens card, on purpose.
 
 ## Files
 
 - [`skill.md`](./skill.md) — the Claude Skill definition
 - [`example.md`](./example.md) — the targeted-update mode: a battlecard section updated from new raw notes, output as a diff against the existing entry rather than a full regeneration
-- [`bricklane-data.html`](./bricklane-data.html) — 🔴 High threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/bricklane-data.html))
-- [`estemate.html`](./estemate.html) — 🟡 Medium threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/estemate.html))
-- [`valuai.html`](./valuai.html) — 🟠 Medium-high threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/valuai.html)) — refreshed this cycle to reflect ValuAI's July 2026 audit-trail GA launch (see the Jul–Aug 2026 edition of [`competitor-analyses.html`](../competitor-monitoring/competitor-analyses.html))
-- [`propiq.html`](./propiq.html) — ⚪ Low threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/propiq.html)) — deliberately short
+- [`ledgerline.html`](./ledgerline.html) — 🔴 High threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/ledgerline.html))
+- [`conturo.html`](./conturo.html) — 🟡 Medium threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/conturo.html))
+- [`nexascore.html`](./nexascore.html) — 🟠 Medium-high threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/nexascore.html)) — refreshed this cycle to reflect NexaScore's July 2026 audit-trail GA launch (see the Jul–Aug 2026 edition of [`competitor-analyses.html`](../competitor-monitoring/competitor-analyses.html))
+- [`pocketlens.html`](./pocketlens.html) — ⚪ Low threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/pocketlens.html)) — deliberately short
 
 ## Current limitations
 
