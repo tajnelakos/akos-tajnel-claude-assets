@@ -8,9 +8,9 @@ This is distinct from [`competitor-monitoring`](../competitor-monitoring), which
 
 ## The approach
 
-A skill that takes the data already in `competitive-landscape.md` (plus any new raw research) and produces two things: a full rep-facing HTML battlecard per competitor, and, when new research warrants it, a targeted update to `competitive-landscape.md`'s own entry. Every battlecard follows the same structure so a rep who's used one can navigate any of them cold:
+A skill that takes the data already in `competitive-landscape.md`, the win/loss CRM export, the latest [competitor analyses](../competitor-monitoring/competitor-analyses.html) edition and the sales-call transcripts and produces two things: a full rep-facing HTML battlecard per competitor, and, when new research warrants it, a targeted update to `competitive-landscape.md`'s own entry. Every battlecard follows the same structure so a rep who's used one can navigate any of them cold:
 
-Header info → company overview & strategy → positioning framework ("they say → reality → we win because") → value pillars with proof points → discovery/landmine questions → objection handlers → do-not-say list → an optional feature matrix, only where a real gap justifies one.
+At a glance (head-to-head record and price first) → what changed → their pitch and the quick dismiss → where they're strong and what to say, where they're weak and how to use it → where we're weaker and how to handle it → landmines to lay → what buyers told us, quoted from real calls → don't say. Shorter than a classic battlecard on purpose: everything on it is something a rep would say, ask or avoid.
 
 Card depth matches actual threat level — the High-threat Bricklane Data card is not the same length as the Low-threat PropIQ card, on purpose.
 
@@ -18,10 +18,10 @@ Card depth matches actual threat level — the High-threat Bricklane Data card i
 
 - [`skill.md`](./skill.md) — the Claude Skill definition
 - [`example.md`](./example.md) — the targeted-update mode: a battlecard section updated from new raw notes, output as a diff against the existing entry rather than a full regeneration
-- [`bricklane-data.html`](./bricklane-data.html) — 🔴 High threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/bricklane-data.html))
-- [`estemate.html`](./estemate.html) — 🟡 Medium threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/estemate.html))
-- [`valuai.html`](./valuai.html) — 🟠 Medium-high threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/valuai.html)) — refreshed this cycle to reflect ValuAI's July 2026 audit-trail GA launch (see the Jul–Aug 2026 edition of [`competitor-analyses.html`](../competitor-monitoring/competitor-analyses.html))
-- [`propiq.html`](./propiq.html) — ⚪ Low threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/propiq.html)) — deliberately short
+- [`bricklane-data.html`](./bricklane-data.html) — 🔴 High threat; we won 6 of 14 ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/bricklane-data.html))
+- [`estemate.html`](./estemate.html) — 🟠 Medium-high threat; we won 3 of 11 ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/estemate.html))
+- [`valuai.html`](./valuai.html) — 🟠 Medium-high threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/valuai.html)) — we won 1 of 8; refreshed for ValuAI's July 2026 moment-explanation launch (see the Jul–Aug 2026 edition of [`competitor-analyses.html`](../competitor-monitoring/competitor-analyses.html))
+- [`propiq.html`](./propiq.html) — ⚪ Low threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/propiq.html)) — brokerage only, deliberately short
 
 ## Current limitations
 
