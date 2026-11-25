@@ -11,7 +11,7 @@ Two modes: a **repo-wide sweep** that checks every knowledge-base doc and releva
 ## Files
 
 - [`skill.md`](./skill.md) — the Claude Skill definition, covering both modes
-- [`sweep-2026-09.md`](./sweep-2026-09.md) — a real repo-wide sweep, run for real, with the fixes actually applied — see [`competitive-landscape.md`](../competitive-landscape.md), [`positioning.md`](../positioning.md), and the [ValuAI](../../sales-tools/battlecard/valuai.html) and [Estemate](../../sales-tools/battlecard/estemate.html) battlecards for the results
+- [`sweep-2026-09.md`](./sweep-2026-09.md) — a real repo-wide sweep, run for real, with the fixes actually applied — see [`competitive-landscape.md`](../competitive-landscape.md), [`positioning.md`](../positioning.md), and the [NexaScore](../../sales-tools/battlecard/nexascore.html) and [Conturo](../../sales-tools/battlecard/conturo.html) battlecards for the results
 - [`example.md`](./example.md) — the single-document mode, a smaller ad hoc check against pasted inputs
 
 ## How it actually runs

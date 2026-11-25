@@ -45,4 +45,4 @@ Turn the deep, analyst-maintained competitor data in `competitive-landscape.md` 
 [Feature Matrix] (optional) — only critical gaps
 ```
 
-See [`bricklane-data.html`](./bricklane-data.html), [`estemate.html`](./estemate.html), [`valuai.html`](./valuai.html), and [`propiq.html`](./propiq.html) for this format applied to each tracked competitor.
+See [`ledgerline.html`](./ledgerline.html), [`conturo.html`](./conturo.html), [`nexascore.html`](./nexascore.html), and [`pocketlens.html`](./pocketlens.html) for this format applied to each tracked competitor.

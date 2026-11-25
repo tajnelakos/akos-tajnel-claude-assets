@@ -8,11 +8,11 @@ The full brand system: who we are, how we sound, and how we look. For the detail
 
 ### Mission
 
-Show banks, insurers, and brokerages the opportunities already inside their customer base — with the evidence to act on them.
+Show retail banks the opportunities already inside their customer base — with the evidence to act on them.
 
 ### Vision
 
-A market where every automated customer decision — not just Seekridge's — can withstand scrutiny, so "the model said so" stops being an acceptable answer anywhere in banking and insurance.
+A market where every automated customer decision — not just Seekridge's — can withstand scrutiny, so "the model said so" stops being an acceptable answer anywhere in banking.
 
 ### Brand values
 
@@ -172,7 +172,7 @@ One motif per surface, anchored to an edge and allowed to bleed off it, never be
 
 - Default series in Navy; the one series or bar the chart is about in Gold; everything else in Slate or tints of Navy. Status colors are never categories.
 - Hairline gridlines, axis labels in IBM Plex Mono, a one-line takeaway as the title, and a source line under every chart.
-- When a chart supports a moment, label each data point with its layer — property, market, or customer.
+- When a chart supports a moment, label each data point with its layer — transaction, customer, or market.
 
 ### Accessibility
 
@@ -187,8 +187,8 @@ One motif per surface, anchored to an edge and allowed to bleed off it, never be
 
 ### Naming conventions
 
-- **Pricing tiers** (brokerage/seat-based product): **Base** (entry), **Ridge** (mid), **Summit** (enterprise): a climb theme that grows with the customer, used consistently and only for this purpose (not reused as a generic naming device elsewhere).
-- **Feature names:** literal and descriptive, never invented proper nouns or trademarked-sounding names. "Evidence Trail," not "TraceIQ™." "Coverage Map," not "SmartArea." This follows directly from the "precision, not hype" brand value — a cute feature name reads as marketing packaging on something that should read as infrastructure.
+- **Pricing tiers** (seat-based web app for credit unions and small banks): **Base** (entry), **Ridge** (mid), **Summit** (enterprise): a climb theme that grows with the customer, used consistently and only for this purpose (not reused as a generic naming device elsewhere).
+- **Feature names:** literal and descriptive, never invented proper nouns or trademarked-sounding names. "Evidence Trail," not "TraceIQ™." "Outflow Watch," not "FlowGuard." This follows directly from the "precision, not hype" brand value — a cute feature name reads as marketing packaging on something that should read as infrastructure.
 - **Product terminology (use consistently):**
 
 | Use this | Not this |
@@ -197,9 +197,9 @@ One motif per surface, anchored to an edge and allowed to bleed off it, never be
 | Evidence trail (the data points behind a moment) | Explainability report, transparency log |
 | Audit log (the record of what was done with a moment) | Activity feed, history |
 | Customer base | Database, leads |
-| Property data · market data · customer data (the three data layers) | Big data, data lake |
-| Valuation (as one data point inside a moment) | Appraisal, estimate |
-| Bank / lender / insurer / brokerage | Client (in product copy — "client" is fine in casual internal use) |
+| Transaction data · customer data · market data (the three data layers) | Big data, data lake, open-banking data |
+| Main bank / secondary bank (where a customer's financial life is centred) | Primacy, share of wallet (in customer-facing copy) |
+| Bank, savings bank, cooperative bank, credit union | Client (in product copy — "client" is fine in casual internal use) |
 | CRM | Sales tool, customer system |
 
 ### Image and icon style
@@ -218,11 +218,11 @@ The voice rules live in [`skill.md`](./skill.md). The mechanics that sit underne
 
 - **Names:** Seekridge is one word, capital P only, no article. Feature names are literal and capitalized as names (Evidence Trail, Coverage Map), with no article in English.
 - **Case:** sentence case for every title, heading, button, label, cover, and caption. The mono eyebrow is the one all-caps element, set in CSS rather than typed in capitals.
-- **Numbers:** every figure says what it measures and where it came from ("68% of flagged customers refinanced within 6 months — backtest on the client's 2025 book"). Illustrative figures are labelled as illustrative.
+- **Numbers:** every figure says what it measures and where it came from ("68% of flagged customers moved money out within 6 months — backtest on the client's 2025 book"). Illustrative figures are labelled as illustrative.
 - **Currency:** the three-letter code before the number (EUR 412,500 · CHF 1.2m · SEK 3.4m), because the core markets use several currencies. Older files in this repo still use €; update them when they're next edited.
 - **Dates:** 24 November 2026 in prose; 2026-11-24 in tables, exports, and the audit log.
 - **Markets:** UK English (Oxford spelling). German uses „…“ and 412.500; Swiss German «…» and 412’500; the Nordics 412 500. German *Sie*, Dutch *u*, Nordic *du*.
-- **Inclusive language:** *they / their* for generic people in English; neutral forms first in German (*Kundschaft*, *Mitarbeitende*). Never gender a generic advisor, customer, or policyholder.
+- **Inclusive language:** *they / their* for generic people in English; neutral forms first in German (*Kundschaft*, *Mitarbeitende*). Never gender a generic banker, advisor, or customer.
 
 ---
 

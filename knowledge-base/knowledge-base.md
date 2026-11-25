@@ -4,41 +4,44 @@ Master source of truth for every prompt, skill, and example in this repo. Every 
 
 ## Company
 
-**Seekridge** — B2B SaaS. An AI data analytics company built around customer moments that finds new business inside a client's existing customer base. It combines three data layers:
+**Seekridge** — B2B SaaS. An AI data analytics company for retail banks, built around customer moments. It reads the data a bank already has, spots what is changing in each customer's financial life, and tells the bank's own teams where the next piece of business is. It combines three data layers:
 
-1. **The client's own customer data** — shared securely from their CRM or core systems
-2. **Market data** — interest rates, prices, local market trends
-3. **External asset data** — for example property attributes and valuations, which matter for home-related products
+1. **The bank's transaction data** — the customer's main checking account and payment activity: salary and other income, card spend, bills and direct debits, transfers in and out, savings
+2. **Customer and interaction data** — the bank's CRM and product holdings, plus what customers ask the bank's AI agent (for example, a customer asking the assistant what mortgage they could afford)
+3. **Market data** — interest rates, including what other banks pay on savings, inflation, and local wage and price trends
 
-The platform turns these into **moments**: ranked, explained opportunities in customers the client already has. Delivered via API, CRM integration, and a web app, to banks and mortgage lenders, insurers, and real estate brokerages across Europe (core markets: DACH, Benelux, Nordics).
+The platform turns these into **moments**: ranked, explained business opportunities in customers the bank already has. Moments are **bank-facing** — they go to relationship managers, advisors, and the marketing and CRM teams, through CRM integration, API, and a web app, not into a customer-facing app. Seekridge sells to retail banks across Europe (core markets: DACH, Benelux, Nordics).
 
-What a moment looks like, by segment:
+The first question Seekridge answers about every customer is whether the bank is their **main bank or a secondary one**. Everything else builds on it. Moments fall into four families:
 
-- **Banks & mortgage lenders** — a customer whose fixed rate resets soon and is likely to refinance elsewhere; a homeowner with enough equity for a top-up or renovation loan; a customer likely to move and need a new mortgage; a homeowner planning an energy renovation, ready for a green loan; a customer who has just bought a property and needs home insurance.
-- **Insurers** — a home whose rebuild value has outgrown its sum insured; a policyholder with no contents cover; a policy at high risk of not renewing.
-- **Real estate brokerages** — a homeowner in the brokerage's own contact database who is likely to sell in the next 12 months.
+- **Main-bank moments** — the bank is a customer's secondary bank and could become the main one: salary landing at another bank, everyday card spend on another bank's card, bills paid from an account elsewhere; or a salary that has just switched in.
+- **Outflow moments** — money starting to leave: a new monthly transfer to a savings or investment account at another provider, balances drifting down, standing orders moving, a card going quiet. Sold as **Seekridge Outflow Watch**, the newest product (see the [launch plan](../marketing-assets/product-launch-process/go-to-market-outflow-watch.md)).
+- **Growth moments** — a customer ready for more: rising income, a steady saving habit, money starting to go to an outside investment account, a life event (a new job, a first child, a move), or a **mortgage-ready moment** — income up, savings building towards a deposit, rent paid on time, and questions to the bank's AI agent about what they could borrow.
+- **New-customer moments** — the first 90 days: a new customer whose salary hasn't switched yet, whose card is unused, or who hasn't set up a single bill.
 
-- **ICP**: mid-size regional banks and mortgage lenders with a large existing customer base and a growth or retention target on it; insurers with a home/property book; secondary ICP is real estate brokerages wanting listing leads from contacts they already have.
-- **Pricing**: platform subscription priced by the size of the customer base analysed, for banks and insurers; seat-based for the brokerage web app.
-- **Positioning**: "opportunities you can act on — and explain," i.e. every moment shows the customer and market data behind it, so advisors trust it and risk and compliance can sign off on it.
+A typical moment in one line: *income up 18% over three months, and EUR 400 a month now going to an outside investment account* → the bank's investment advisor calls with the bank's own savings and investment offer before the habit settles elsewhere.
+
+- **ICP**: mid-size regional retail banks, savings banks and cooperative banks with a large existing customer base and a growth, deposit or main-bank target on it; secondary ICP is credit unions and small cooperative banks using the Seekridge web app.
+- **Pricing**: platform subscription priced by the number of retail customers analysed; seat-based for the web app used by smaller banks and credit unions.
+- **Positioning**: "opportunities you can act on — and explain," i.e. every moment shows the transaction, customer and market data behind it, so bankers trust it and risk, compliance and data protection can sign off on it.
 
 ## Competitors
 
 | Competitor | Angle |
 |---|---|
-| **Bricklane Data** | Cheaper, faster property data and valuation API; no customer-data layer and no explanations — sells on speed and price, leaves the moment-building to the buyer |
-| **Estemate** | Legacy property-data incumbent, strong in France/Benelux, deep historical data, dated UI, slow release cycle |
-| **ValuAI** | Well-funded new entrant, leads with "AI-native" propensity scoring, thin on property data depth and regulatory controls |
-| **PropIQ** | Brokerage-focused seller-lead tool, doesn't really compete for bank/insurer deals but comes up in brokerage deals |
+| **Ledgerline** | Cheaper, faster transaction categorisation and enrichment API; no moments and no explanations — sells on speed and price, leaves the moment-building to the bank's own data team |
+| **Conturo** | Legacy banking-analytics and campaign-management incumbent, strong in France/Benelux, on-prem, deep installed base, dated UI, slow release cycle |
+| **NexaScore** | Well-funded new entrant, leads with "AI-native" next-best-action scoring, thin on regulatory controls and on data depth outside standard retail accounts |
+| **Pocketlens** | Customer-facing money-insights widget for banking apps; a different job (insights for the customer, not opportunities for the bank), comes up in digital-channel deals |
 
 Derived: full battlecards, positioning gaps, and objection handling → [`competitive-landscape.md`](./competitive-landscape.md)
 
 ## Buyer personas
 
-- **Head of Credit Risk** (bank risk and model-governance owner) — signs off any model that decides which customers get an offer. Cares about explainability, fair treatment, and audit trail. Skeptical of "black box AI" claims.
-- **VP of Mortgage Lending** (bank economic buyer) — cares about growing and retaining the mortgage book, and about integration effort.
-- **Head of Home Insurance** (insurer economic buyer) — cares about premium growth, renewal retention, and underinsurance in the book.
-- **Broker Team Lead** (brokerage buyer) — cares about agent adoption and how moments turn into listings.
+- **Head of Model Risk** (risk and model-governance owner) — signs off any model that decides which customers get an offer, and how transaction data may be used for it. Cares about explainability, fair treatment, purpose limitation, and audit trail. Skeptical of "black box AI" claims.
+- **Head of Retail Banking** (economic buyer) — owns the growth target on the existing base: main-bank customers, products per customer, lending to existing customers. Cares about business impact and integration effort.
+- **Head of Deposits & Savings** (economic buyer for Outflow Watch) — owns deposit balances and savings growth; cares about money leaving before anyone notices.
+- **Relationship Manager Lead** (end-user lead; buyer for the web app at smaller banks) — cares about adoption and whether moments turn into real conversations.
 
 Derived: full buying psychology, objections, content preferences → [`personas.md`](./personas.md)
 

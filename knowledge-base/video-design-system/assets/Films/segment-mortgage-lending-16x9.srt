@@ -6,16 +6,16 @@ Most of it goes unread.
 2
 00:00:06,100 --> 00:00:11,280
 Many of your customers already have plans:
-a move, an energy renovation, a new home.
+a first home, a bigger one, a better rate.
 
 3
 00:00:11,900 --> 00:00:17,590
-Seekridge reads your CRM and relevant
-client data, alongside live market data.
+Seekridge reads your transactions, savings
+and AI-agent chats, alongside market data.
 
 4
 00:00:18,000 --> 00:00:20,170
-This customer is planning a move.
+This customer is ready for a mortgage.
 
 5
 00:00:21,900 --> 00:00:25,610
@@ -24,13 +24,13 @@ with a mortgage offer, right on time.
 
 6
 00:00:26,500 --> 00:00:30,930
-This one is planning an energy renovation.
-Time to offer a green loan.
+This one pays a mortgage elsewhere.
+Time to offer to bring it home.
 
 7
 00:00:32,500 --> 00:00:36,970
-And this customer just bought a home:
-the moment for a home insurance offer.
+And this customer is saving for a home:
+the moment for a deposit savings plan.
 
 8
 00:00:38,500 --> 00:00:42,590

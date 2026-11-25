@@ -2,7 +2,7 @@
 
 The Seekridge sales deck slide kit. Every slide is a 1920 × 1080 HTML canvas, styled by [`slides.css`](./slides.css), which reads the brand tokens from [`../../../knowledge-base/design-system/tokens.css`](../../../knowledge-base/design-system/tokens.css) and loads Archivo, IBM Plex Sans and IBM Plex Mono from the repo's own font files. That way a PDF export renders the same offline.
 
-The reference deck, [`../deck-mortgage-lenders.html`](../deck-mortgage-lenders.html), uses every layout below. Copy a slide's `<section>` from it, then change the words.
+The reference deck, [`../deck-retail-banks.html`](../deck-retail-banks.html), uses every layout below. Copy a slide's `<section>` from it, then change the words.
 
 ## Rules every slide keeps
 

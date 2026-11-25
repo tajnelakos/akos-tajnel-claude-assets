@@ -72,8 +72,8 @@
         "assets/Films/segment-mortgage-lending-16x9.srt",
         "assets/Films/statement-evidence-16x9.mp4",
         "assets/Films/statement-evidence-16x9.srt",
-        "assets/Films/story-fixed-rate-dach-16x9.mp4",
-        "assets/Films/story-fixed-rate-dach-16x9.srt",
+        "assets/Films/story-outflow-dach-16x9.mp4",
+        "assets/Films/story-outflow-dach-16x9.srt",
         "assets/Films/walkthrough-evidence-trail-16x9.mp4",
         "assets/Films/walkthrough-evidence-trail-16x9.srt"
       ],
@@ -86,12 +86,12 @@
         "assets/Stills/contact-sheet-statement.jpg",
         "assets/Stills/contact-sheet-story.jpg",
         "assets/Stills/contact-sheet-walkthrough.jpg",
-        "assets/Stills/segment-book-ridgefield.jpg",
+        "assets/Stills/segment-customers-ridgefield.jpg",
         "assets/Stills/segment-endcard.jpg",
         "assets/Stills/segment-layers.jpg",
-        "assets/Stills/segment-moment-green-loan.jpg",
-        "assets/Stills/segment-moment-insurance.jpg",
-        "assets/Stills/segment-moment-move.jpg",
+        "assets/Stills/segment-moment-elsewhere.jpg",
+        "assets/Stills/segment-moment-saving.jpg",
+        "assets/Stills/segment-moment-ready.jpg",
         "assets/Stills/segment-open.jpg",
         "assets/Stills/segment-week-ranked.jpg",
         "assets/Stills/statement-claim.jpg",
@@ -119,7 +119,7 @@
     "films/render-film.py",
     "films/segment-mortgage-lending-16x9.html",
     "films/statement-evidence-16x9.html",
-    "films/story-fixed-rate-dach-16x9.html",
+    "films/story-outflow-dach-16x9.html",
     "films/walkthrough-evidence-trail-16x9.html"
   ],
   "components": [
@@ -224,7 +224,7 @@
     {
       "name": "BacktestChart",
       "group": "Data",
-      "summary": "How past moments performed on the client's own book: ten deciles in navy, the top decile in gold, the book average dashed.",
+      "summary": "How past moments performed on the client's own data: ten deciles in navy, the top decile in gold, the average dashed.",
       "readme": "components/BacktestChart/README.md",
       "preview": "components/BacktestChart/preview.html"
     },
@@ -245,7 +245,7 @@
     {
       "name": "SegmentTriptych",
       "group": "Data",
-      "summary": "Three segments side by side, each a moment with its top evidence: the same grammar for banks, insurers and brokerages.",
+      "summary": "Three moment families side by side, each a moment with its top evidence: the same grammar for main-bank, outflow and growth moments.",
       "readme": "components/SegmentTriptych/README.md",
       "preview": "components/SegmentTriptych/preview.html"
     }

@@ -16,17 +16,17 @@ The formats are examples of what works, not a rulebook. Every post is different,
 
 ## Content fundamentals
 
-**Voice.** Confident and specific, never hyped, written for a technically sceptical reader in banking or insurance who trusts precision over enthusiasm. UK English. The brand's voice rules are in [`../branding-guideline/skill.md`](../branding-guideline/skill.md); **Writing for carousels** ([`wording.md`](./wording.md)) applies them to a slide.
+**Voice.** Confident and specific, never hyped, written for a technically sceptical reader in banking who trusts precision over enthusiasm. UK English. The brand's voice rules are in [`../branding-guideline/skill.md`](../branding-guideline/skill.md); **Writing for carousels** ([`wording.md`](./wording.md)) applies them to a slide.
 
 - Write to *you* and *your customers*. Seekridge is *we* only on the close and in the caption. Seekridge is one word, capital P only, and never takes an article.
-- **Lead with the reader's situation, not the product.** The cover names a customer situation or a fact ("Which customers will refinance elsewhere?"). The product name arrives in the middle, once.
-- **Every claim names its mechanism, its data or its figure.** "Shows the rate reset, the equity and the market behind each moment", not "AI-powered insights". If a slide can't name the mechanism, it doesn't make the claim.
+- **Lead with the reader's situation, not the product.** The cover names a customer situation or a fact ("Which customers are moving money out?"). The product name arrives in the middle, once.
+- **Every claim names its mechanism, its data or its figure.** "Shows the transfers, the income and the market behind each moment", not "AI-powered insights". If a slide can't name the mechanism, it doesn't make the claim.
 - **Moments always carry their evidence.** Any slide that shows a moment shows the data points behind it and how much each counted. This is the brand promise in one picture; never show a moment without it.
-- Build the story as a sequence: **question → tension → method → proof → action.** For example: *"Which of your customers will refinance elsewhere this quarter?"* → *"Most scoring tools give you a list, not a reason."* → *"Seekridge shows the rate reset, the equity and the market behind each moment."* → a moment with its evidence → *"Run a backtest on your own book."*
+- Build the story as a sequence: **question → tension → method → proof → action.** For example: *"Which of your customers are moving money out this quarter?"* → *"Most scoring tools give you a list, not a reason."* → *"Seekridge shows the transfers, the income and the market behind each moment."* → a moment with its evidence → *"Run a backtest on your own data."*
 - **One idea per slide.** About 8 words for `title-cover`, 20 for `title-statement`, 30 for `title-long`, 40 for body copy or a white card.
 - **Emphasis carries meaning.** Up to 3 words a slide in `gold-light` on navy, or under a 6px gold rule on paper. Never a whole sentence.
 - **Sentence case, always**: every title, cover, heading, eyebrow, button, label and caption. The mono eyebrow is the one all-caps element, and it's set uppercase in CSS, typed in sentence case.
-- **Numbers are proof, so they carry their source.** Every figure says what it measures and where it came from, in a mono source line under it ("Backtest on a lender's 2025 book, n = 18,400"). Illustrative figures say "illustrative". Currencies are three-letter codes before the number (EUR 412,500 · CHF 1.2m · SEK 3.4m), never symbols.
+- **Numbers are proof, so they carry their source.** Every figure says what it measures and where it came from, in a mono source line under it ("Backtest on a bank's 2025 data, n = 18,400"). Illustrative figures say "illustrative". Currencies are three-letter codes before the number (EUR 412,500 · CHF 1.2m · SEK 3.4m), never symbols.
 - **Say what doesn't hold.** A Proof in numbers carousel has a *Limits* slide. Admitting the edge of a claim is what makes the rest of it believable to this reader.
 - No emoji, no hashtags, no links and no exclamation marks on slides. No urgency language ("don't miss", "act now"), no prohibited terms from the voice rules.
 - **Localise, don't translate.** German and Dutch run 20–30% longer: step down from `title-statement` to `title-long` rather than narrowing the margins. Market typography is in [`wording.md`](./wording.md).
@@ -76,7 +76,7 @@ The ridge map is the brand's one graphic idea: a dot map of the client base that
 
 - `ridge-lines` (640 × 640): covers only, anchored top-right, its gold point in the corner.
 - `ridge-strip` (1080 × 144): the top edge of a data slide; the eyebrow moves down to y 192.
-- `layer-stack` (560 × 440): the three data layers, property, market and customer, as three flat plans with the moment's gold point on top. The cover of a Moment explainer.
+- `layer-stack` (560 × 440): the three data layers, transaction, customer and market, as three flat plans with the moment's gold point on top. The cover of a Moment explainer.
 - `scale-bar` (402 × 24): a map scale, no gold, under a limits statement or beside a source line.
 
 One motif per slide, anchored to an edge, never behind text. A motif's gold point is that slide's gold element, so a slide with a motif has no highlighted words.
@@ -85,7 +85,7 @@ One motif per slide, anchored to an edge, never behind text. A motif's gold poin
 
 - Real product surfaces first: a moment with its evidence trail, a weighting chart, an audit log, cropped to the one panel that proves the point, in a white frame.
 - Mock-ups use skeleton bars (`line`) and clearly illustrative data. Customers appear by ID ("Customer 40-1187"), never by a name or an address.
-- Icons are the brand's line icons (1.75px on a 24px grid, scaled to 48–64px on the canvas), paper on navy and navy on paper or white. Property, market and customer always use the property, market and customer icons.
+- Icons are the brand's line icons (1.75px on a 24px grid, scaled to 48–64px on the canvas), paper on navy and navy on paper or white. Transaction, customer and market always use the transaction, customer and market icons.
 - Third-party marks (event organisers, award bodies, client logos) come from their official files and are never redrawn. Client logos need written approval.
 - No stock photography, no illustrations of people at screens, no 3D or isometric scenes. A speaker appears only as a real square headshot with 6px corners.
 
@@ -107,7 +107,7 @@ Never recolour, outline, stretch or add effects to the logo. Keep clear space eq
 | **MythVsMethod** | Correct a market belief | The correction as a cover · the belief in an outlined card · why it fails · what defensible looks like |
 | **ProofInNumbers** | One backtest or result | Figure cover · what it measures · a one-gold-bar chart · method · limits |
 | **FeatureLaunch** | A new capability | "New in Evidence Trail" cover · the problem · screenshot proof on paper |
-| **RegulationBrief** | What a rule means for lenders and insurers | The rule as a question · what it asks · what to prepare · where Seekridge fits |
+| **RegulationBrief** | What a rule means for banks | The rule as a question · what it asks · what to prepare · where Seekridge fits |
 | **EventInvite** | Meet the team or hear a talk | Centred question · the talk · the speaker · date, place and one button |
 | **FieldGuide** | Checks, steps or questions | Count cover · numeral + white card per item · checklist on paper |
 | **SlideKit** | Anything else | Mix-and-match archetypes: five covers, statements, beliefs, layers, figures, list items, evidence, screenshots, charts, tables, checklists, speaker, invite, closes |

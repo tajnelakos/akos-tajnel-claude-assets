@@ -32,7 +32,7 @@ The rendered one-pager: [`one-pager-retail-lending.html`](./one-pager-retail-len
 **CTA:** See the moments in your own customer base. → Book a live test.
 
 ---
-Sourced from: positioning.md (Mortgage lending row) · knowledge-base.md (moment types for banks and lenders, insurers) · personas.md, VP of Mortgage Lending (measured on retention and new lending; trust trigger: a real rollout plan that separates go-live from adoption; won't sell the risk case internally) · competitive-landscape.md (implementation in weeks; backtests on the client's own data). Data points and weights on the cards are illustrative.
+Sourced from: positioning.md (Mortgage lending row) · knowledge-base.md (moment types for banks and lenders, insurers) · personas.md, Head of Retail Banking (measured on retention and new lending; trust trigger: a real rollout plan that separates go-live from adoption; won't sell the risk case internally) · competitive-landscape.md (implementation in weeks; backtests on the client's own data). Data points and weights on the cards are illustrative.
 ```
 
 ## Why it's built this way

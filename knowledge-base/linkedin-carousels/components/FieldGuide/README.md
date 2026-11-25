@@ -5,7 +5,7 @@ A numbered list: a count-led cover, one slide per check, step or question, a che
 **Use it for** practical value a reader saves and forwards: checks before a vendor review, steps to prepare for a backtest, questions for a risk committee. The format invites saving, so every item must stand alone. 5–8 slides (3–5 items).
 
 **You provide**
-- The count and the promise for the cover ("3 checks before you trust a customer score") and who it's for ("For heads of credit risk.").
+- The count and the promise for the cover ("3 checks before you trust a customer score") and who it's for ("For heads of model risk.").
 - Per item: a headline of up to 7 words (`title-step`) that starts with a verb, and a white card of up to 40 words that says why it matters and what to ask.
 - A one-line version of each item for the checklist slide.
 - A close that turns the list into an action.

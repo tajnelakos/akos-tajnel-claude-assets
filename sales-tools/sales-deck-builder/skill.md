@@ -45,7 +45,7 @@ This is the arc both reference decks follow. Reorder it for the persona, but kee
 
 ## Stage 2: build the slides
 
-1. **Read [`slide-kit/layouts.md`](./slide-kit/layouts.md)** and start from [`deck-mortgage-lenders.html`](./deck-mortgage-lenders.html). Copy the `<section>` for each layout in the outline, then rewrite the words. Don't invent new layouts while a kit layout fits.
+1. **Read [`slide-kit/layouts.md`](./slide-kit/layouts.md)** and start from [`deck-retail-banks.html`](./deck-retail-banks.html). Copy the `<section>` for each layout in the outline, then rewrite the words. Don't invent new layouts while a kit layout fits.
 2. **Use the design system as it is:** navy and paper grounds, Archivo headlines, IBM Plex Sans body, IBM Plex Mono eyebrows and source lines, the design-system icons, and one gold element per slide. Never paste hex values that aren't already in the kit.
 3. **The illustration is the ridge** (the dot-map mountains), not stock imagery or icons of houses and people. To change the peaks, edit [`slide-kit/build-assets.py`](./slide-kit/build-assets.py) and place labels at the summit positions it prints.
 4. **Write to [`writing.md`](../../knowledge-base/design-system/writing.md):**

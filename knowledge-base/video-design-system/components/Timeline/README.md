@@ -1,6 +1,6 @@
 # Timeline
 
-Shows time in a customer's situation: the tension beat (*the rate ends, then they leave*), a policy's renewal window, a moment's journey from created to acted on.
+Shows time in a customer's situation: the tension beat (*the transfers start, then the balance leaves*), a new customer's first 90 days, a moment's journey from created to acted on.
 
 **Anatomy**
 - A 3px `rule` track: **solid for the past and now, dashed for expected** (the plan-drawing convention).
