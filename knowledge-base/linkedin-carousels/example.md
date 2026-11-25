@@ -39,4 +39,3 @@ A worked run of [`skill.md`](./skill.md). The rendered slides are in [`assets/Re
 > See a moment built on your own book: [link]
 
 Sources: none claimed; customer and weights are illustrative.
-Compliance: positioning-compliance pass (no unexplained AI claims, no prohibited terms, no competitor named).

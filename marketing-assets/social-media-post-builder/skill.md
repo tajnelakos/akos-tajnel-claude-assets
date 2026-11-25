@@ -17,7 +17,7 @@ A social post with no real finding behind it is just an ad with a hashtag. This 
 4. **Generalize competitive intelligence before it goes public** — the same rule as `blog-post-builder`. A specific competitor or named prospect account used freely internally (`competitive-landscape.md`, battlecards) needs to be anonymized in public social copy, and any draft that does name one gets flagged for legal/marketing-lead review before it posts.
 5. **Any stat used must be traceable to this repo's actual data** — don't round a number up to make the hook land harder.
 6. **Follow [`branding-guideline`](../../knowledge-base/branding-guideline/skill.md)'s voice rules** — social copy is the most likely place a rhetorical-question hook or manufactured urgency creeps back in, so check this explicitly rather than assuming platform norms override brand voice.
-7. **Run the finished draft through [`positioning-compliance`](../positioning-compliance) before publishing.**
+7. **Proofread the finished draft against the [`branding-guideline`](../../knowledge-base/branding-guideline) before publishing.**
 
 ## What to avoid
 

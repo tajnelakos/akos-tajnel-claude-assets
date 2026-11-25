@@ -59,4 +59,4 @@ The caption carries what the slides leave out: the detail, the method, the logis
 2. Is the feature named once, in block 2, as a benefit?
 3. Does every figure keep its source, its sample and "illustrative" where it applies?
 4. One link, no hashtags, at most one emoji, no exclamation marks?
-5. Does it pass [`positioning-compliance`](../../marketing-assets/positioning-compliance)?
+5. No unexplained AI claims, no prohibited terms, no competitor named?

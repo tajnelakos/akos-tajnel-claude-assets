@@ -16,7 +16,7 @@ Seekridge's wording rules ([`../design-system/writing.md`](../design-system/writ
 | Admit the limit | Proof carousels end on what the figure doesn't show | "The only figure that should convince you is a backtest on your own book." | Implying a result transfers to any bank |
 | One term per idea | Same word on every slide and in the caption | "moment" throughout | "moment", then "lead", then "alert" |
 | Precise CTAs | The close says what to do and what they get | "Run the same backtest on your book." | "Learn more" |
-| Check it twice | Review against these rules, then a colleague, then [`positioning-compliance`](../../marketing-assets/positioning-compliance) | | Publishing unchecked |
+| Check it twice | Review against these rules, then a colleague | | Publishing unchecked |
 
 ## Banned on slides
 

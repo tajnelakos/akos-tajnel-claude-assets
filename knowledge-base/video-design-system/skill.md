@@ -20,7 +20,7 @@ A product film fails the moment it shows a moment and moves on. The skill isn't 
 7. **Check stills before rendering**: `render-film.py <film>.html --stills <busiest moment of each scene> --out check.jpg`. Look at every frame at full size against section 12 (one gold, no overlap with the caption zone, evidence readable, nothing centred that should be left-aligned). Fix, re-check, then render once.
 8. **Render** with `render-film.py` (one MP4 per scene, joined without re-encoding), write the `.srt` from the same caption list, and name the file `<format>-<topic>-<market>-<ratio>.mp4`.
 9. **Cut-downs** (4:5, 9:16) come from the finished master's beats and timing (section 8), never designed first.
-10. **Before anything external ships**, run the script through [`../../marketing-assets/positioning-compliance`](../../marketing-assets/positioning-compliance).
+10. **Before anything external ships**, proofread the script against the [`branding-guideline`](../branding-guideline).
 
 ## What to avoid
 

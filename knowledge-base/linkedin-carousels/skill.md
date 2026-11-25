@@ -23,7 +23,7 @@ Read, in this order: [`README.md`](./README.md) (the system), the chosen format'
 6. **Build the slides in HTML.** One file, one `.pwc-slide` per slide at 1080 × 1350, linking `tokens.css` and `components/bundle.css`. Start from the format's `preview.html` and keep its positions; change copy, not geometry. Add `pwc-slide--paper` for paper slides. Use only `pwc-` classes and the token type classes; never paste hex values or add new colours, fonts, radii or shadows.
 7. **Render and export.** Render each slide at 1080 × 1350 with a headless browser (wait for the fonts to load), save a PNG per slide, and combine them into one PDF, one page per slide. A single post is one PNG.
 8. **Look at every slide** at full size and at phone size (about 360px wide). Check: nothing outside the 96px margin except a motif; no text under 28px; no line too long for its style; the footer row (counter, arrow, mark) clear of content; one logo and one gold element per slide; no arrow or counter on the last slide.
-9. **Run Before you publish** from the README, then [`positioning-compliance`](../../marketing-assets/positioning-compliance) on the slide copy and the caption together.
+9. **Run Before you publish** from the README on the slide copy and the caption together.
 10. **For a translation**, localise rather than translate: follow the market table in `wording.md`, step down to `title-long` where German or Dutch runs long, and re-render and re-check every slide.
 
 ## What to avoid
@@ -58,5 +58,4 @@ Caption ([n] words):
 Files: carousel.pdf · slide-01.png … slide-0n.png · carousel.html
 Sources: [each figure and where it came from]
 Illustrative: [what is illustrative]
-Compliance: positioning-compliance [pass / flags]
 ```

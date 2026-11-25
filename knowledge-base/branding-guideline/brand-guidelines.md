@@ -259,4 +259,4 @@ Summary rules: [`video-and-motion.md`](../design-system/video-and-motion.md). Th
 5. Square corners, hairlines, no shadows, gradients, or stock photos?
 6. One logo, the right file for the background, with its clear space?
 7. Figures real or labelled illustrative, formatted for the market, with a source? No real customer names or data?
-8. Proofread against these rules (or run the [`skill.md`](./skill.md) rewrite pass), then a second pair of eyes — and [`positioning-compliance`](../../marketing-assets/positioning-compliance) as the final check before anything external ships.
+8. Proofread against these rules (or run the [`skill.md`](./skill.md) rewrite pass), then a second pair of eyes as the final check before anything external ships.
