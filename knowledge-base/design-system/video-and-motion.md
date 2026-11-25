@@ -25,7 +25,7 @@ Rules for Seekridge product videos and UI motion: formats, story structure, key 
 - **Title card:** navy ground, `ridge-lines` motif bleeding off the right, Archivo 800 at 96–120px in Paper, lockup top-left.
 - **Product frame:** on Paper, the product rebuilt as a flat `surface` panel with a hairline border, cropped to the part that matters; focus on a detail with corner marks and dimming, never blur.
 - **Lower third:** navy band, 2px gold rule above it, Plex Sans 600 at 40px; at least `canvas-margin-caption` (160px) above the bottom edge.
-- **Captions:** Plex Sans 500 at 44px (master), left-aligned, Paper on a navy band (ink on a Paper band on Navy frames), 2 lines max, 42 characters a line, sentence case.
+- **Captions:** Plex Sans 500 at 44px (master), bottom centre, Paper on a navy band (ink on a Paper band on Navy frames), 2 lines max, 42 characters a line, sentence case.
 - **Figure card:** one number in Archivo 800 at 240px, the measure under it in Plex Sans, the source in Plex Mono.
 - **End card:** reversed lockup centred on navy, the line, the action, held 3 seconds.
 
