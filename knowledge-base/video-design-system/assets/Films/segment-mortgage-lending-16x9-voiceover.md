@@ -9,7 +9,7 @@ The script for [`segment-mortgage-lending-16x9.mp4`](./segment-mortgage-lending-
 | # | Scene (film time) | Starts | Draft length | Line, as spoken (paste this) | Delivery |
 |---|---|---|---|---|---|
 | 1 | Open (0–5.6 s) | 1.5 s | 3.6 s | Retention and new lending start with customers you already have. | Even and quiet. Nothing before 1.5 s |
-| 2 | The book (5.6–11.6 s) | 6.1 s | 4.2 s | Out of forty thousand customers, only a handful are about to make a move. | Short pause after "customers". Weight on "a handful" |
+| 2 | The book (5.6–11.6 s) | 6.1 s | 5.1 s | Many of your customers already have plans. A renovation, a bigger home, a better rate. | Pause after "plans", then list the three evenly, without lifting at the end |
 | 3 | Your data and ours (11.6–17.6 s) | 12.0 s | 4.7 s | Seekridge reads your CRM alongside live market and property data. | Say "C-R-M" as letters. Plain, not proud |
 | 4 | Moment one (17.6–25.6 s) | 18.0 s | 2.5 s | This customer's fixed rate ends in March. | Matter-of-fact. Land on "March" |
 | 5 | Moment one, evidence | 21.9 s | 3.0 s | Every reason is on screen, with how much it counted. | Slightly slower; this is the line that sells explainability |
@@ -17,12 +17,12 @@ The script for [`segment-mortgage-lending-16x9.mp4`](./segment-mortgage-lending-
 | 7 | Your week (31.6–37.1 s) | 32.0 s | 3.8 s | Every Monday, the week's moments arrive ranked, in your CRM. | Brief pause after "Monday" |
 | 8 | Closing claim (37.1–43.7 s) | 38.7 s | 2.9 s | Seekridge. Opportunities you can act on, and explain. | Beat after "Seekridge." Close softly. Nothing after 41.7 s |
 
-**Totals:** 78 words in about 27 s of speech, over a 43.7 s film (about 2.5 words a second while speaking), with the rest left as pauses.
+**Totals:** 79 words in about 28 s of speech, over a 43.7 s film (about 2.5 words a second while speaking), with the rest left as pauses.
 
 **If a line runs long.** Don't speed it up. Send the WAVs: the scene is lengthened to fit the line (and the caption re-timed), or the line is shortened in both the script and the captions together. Captions must keep matching what is said.
 
 **On screen at the same time (not to be read aloud):**
-- **Headlines:** *Your best leads are already yours.* · *40,000 customers. Only a few are about to move.* · *Your data. Our data. One clear moment.* · *Their rate ends in March. Know before they leave.* · *Equity built. Ready to borrow.* · *Call the right customers. Before anyone else does.* · *Now you know who. And why.*
+- **Headlines:** *Your best leads are already yours.* · *Your customers have plans. You just can't see them yet.* · *Your data. Our data. One clear moment.* · *Their rate ends in March. Know before they leave.* · *Equity built. Ready to borrow.* · *Call the right customers. Before anyone else does.* · *Now you know who. And why.*
 - **Action:** *Run a backtest on your own book*
 
 The voice-over never reads a headline word for word.
