@@ -1,101 +1,6 @@
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Battlecard: Pocketlens</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<style>
-  :root{
-    color-scheme: light;
-    --bg:#F3F5F4; --surface:#FFFFFF; --surface-2:#F7F8F7;
-    --ink:#111827; --ink-soft:#4B5563; --ink-faint:#9CA3AF; --line:#E1E4E2;
-    --accent:#5B6470; --accent-deep:#454C56; --accent-bg:#EEF0F2;
-    --win:#1F7A4D; --win-bg:#EAF5EE;
-    --caution:#B33A2E; --caution-bg:#FBEAE8;
-    --land:#C17F1A; --land-bg:#FCF3E3;
-    --font-display:'Archivo', system-ui, sans-serif;
-    --font-body:'IBM Plex Sans', system-ui, -apple-system, sans-serif;
-    --font-mono:'IBM Plex Mono', 'SF Mono', Consolas, monospace;
-  }
-  @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]){
-      color-scheme: dark;
-      --bg:#14171A; --surface:#1B1F23; --surface-2:#20252A;
-      --ink:#ECEFF2; --ink-soft:#AEB6BD; --ink-faint:#6B7480; --line:#2C3238;
-      --accent:#8A93A0; --accent-deep:#A5ADB8; --accent-bg:#22262B;
-      --win:#4CAF7D; --win-bg:#16261D;
-      --caution:#E0796C; --caution-bg:#2A1917;
-      --land:#E0A94A; --land-bg:#2A2015;
-    }
-  }
-  :root[data-theme="dark"]{
-    color-scheme: dark;
-    --bg:#14171A; --surface:#1B1F23; --surface-2:#20252A;
-    --ink:#ECEFF2; --ink-soft:#AEB6BD; --ink-faint:#6B7480; --line:#2C3238;
-    --accent:#8A93A0; --accent-deep:#A5ADB8; --accent-bg:#22262B;
-    --win:#4CAF7D; --win-bg:#16261D;
-    --caution:#E0796C; --caution-bg:#2A1917;
-    --land:#E0A94A; --land-bg:#2A2015;
-  }
-
-  *{ box-sizing:border-box; }
-  body{ background:var(--bg); color:var(--ink); font-family:var(--font-body); margin:0; padding:44px 20px 90px; -webkit-font-smoothing:antialiased; }
-  .card{ max-width:760px; margin:0 auto; display:flex; flex-direction:column; gap:28px; }
-  h1,h2,h3{ font-family:var(--font-display); text-wrap:balance; margin:0; }
-
-  .head{ background:var(--accent); color:#fff; padding:24px 28px; display:flex; flex-direction:column; gap:14px; }
-  .vs-row{ display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
-  .vs-name{ font-family:var(--font-display); font-weight:800; font-size:clamp(22px,4vw,30px); letter-spacing:-.01em; }
-  .vs-sep{ font-family:var(--font-mono); font-size:14px; opacity:.75; letter-spacing:.08em; }
-  .threat-pill{ font-family:var(--font-body, 'IBM Plex Sans', system-ui, sans-serif); font-size:12.5px;;  background:rgba(255,255,255,.16); padding:5px 12.5px; border-radius:20px; white-space:nowrap; }
-  .meta-row{ display:flex; gap:22px; flex-wrap:wrap; font-family:var(--font-mono); font-size:12.5px; opacity:.85; }
-  .meta-row b{ font-weight:500; opacity:1; }
-
-  .note{ font-size:13px; color:var(--ink-faint); font-style:italic; }
-
-  section{ display:flex; flex-direction:column; gap:14px; }
-  .eyebrow{ font-family:var(--font-body, 'IBM Plex Sans', system-ui, sans-serif); font-size:12.5px;;  color:var(--ink-faint); display:inline-flex; align-items:center; align-self:flex-start; padding:6px 13px; border-radius:999px; background:#1A3A5C; color:#fff; font-weight:500; box-shadow:0 2px 0 rgba(15,42,64,.45)}
-  .lede{ font-size:16px; line-height:1.6; color:var(--ink-soft); }
-
-  .framework{ display:flex; flex-direction:column; gap:2px; }
-  .fw-step{ display:grid; grid-template-columns:110px 1fr; gap:16px; padding:16px 18px; align-items:start; }
-  .fw-step + .fw-step{ border-top:1px solid var(--line); }
-  .fw-tag{ font-family:var(--font-body, 'IBM Plex Sans', system-ui, sans-serif); font-size:12.5px;;  padding-top:2px; }
-  .fw-they{ background:var(--surface-2); }
-  .fw-they .fw-tag{ color:var(--ink-faint); }
-  .fw-reality{ background:var(--land-bg); }
-  .fw-reality .fw-tag{ color:var(--land); }
-  .fw-win{ background:var(--win-bg); }
-  .fw-win .fw-tag{ color:var(--win); }
-  .fw-text{ font-size:15px; line-height:1.55; }
-
-  .pillars{ display:flex; flex-direction:column; gap:10px; }
-  .pillar{ display:grid; grid-template-columns:34px 1fr; gap:14px; background:var(--win-bg); padding:14px 16px; align-items:start; }
-  .pillar-num{ font-family:var(--font-display); font-weight:800; font-size:19px; color:var(--win); }
-  .pillar-head{ font-weight:600; font-size:15px; margin-bottom:3px; }
-  .pillar-proof{ font-size:13.5px; color:var(--ink-soft); }
-
-  .questions{ display:flex; flex-direction:column; gap:0; border:1px solid var(--line); }
-  .q{ padding:14px 18px; font-size:15px; line-height:1.5; }
-  .q::before{ content:"“"; color:var(--accent-deep); font-family:var(--font-display); font-weight:800; margin-right:2px; }
-  .q::after{ content:"”"; color:var(--accent-deep); font-family:var(--font-display); font-weight:800; margin-left:2px; }
-
-  .objections{ display:flex; flex-direction:column; gap:14px; }
-  .objection{ display:flex; flex-direction:column; gap:6px; }
-  .obj-said{ font-size:13.5px; color:var(--ink-faint); font-style:italic; }
-  .obj-said::before{ content:"OBJECTION — "; font-style:normal; font-family:var(--font-mono); font-size:10.5px; letter-spacing:.05em; }
-  .obj-resp{ background:var(--accent-bg); padding:13px 16px; font-size:15px; line-height:1.55; border-left:3px solid var(--accent); }
-
-  .donotsay{ background:var(--caution-bg); border:1px solid var(--caution); padding:18px 20px; display:flex; flex-direction:column; gap:10px; }
-  .donotsay h2{ color:var(--caution); font-size:17px; }
-  .donotsay ul{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:9px; }
-  .donotsay li{ font-size:14.5px; line-height:1.5; padding-left:20px; position:relative; }
-  .donotsay li::before{ content:"✕"; position:absolute; left:0; color:var(--caution); font-weight:600; font-size:12px; top:3px; }
-
-  footer{ border-top:1px solid var(--line); padding-top:16px; font-size:12px; color:var(--ink-faint); font-family:var(--font-mono); }
-
-  @media (max-width:520px){ .fw-step{ grid-template-columns:1fr; gap:4px; } .pillar{ grid-template-columns:26px 1fr; } }
-</style>
-<link rel="stylesheet" href="../../knowledge-base/design-system/report-theme.css">
-
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Battlecard: Pocketlens · Seekridge</title>
+<link rel="stylesheet" href="../../knowledge-base/design-system/report-theme.css"></head><body>
 <header class="sr-mast">
   <div class="sr-wrap">
     <div class="sr-mast__bar">
@@ -104,83 +9,23 @@
     </div>
     <div class="sr-mast__grid">
       <div class="sr-mast__hero">
-        <p class="sr-mast__eyebrow">Battlecard: Competitive intelligence</p>
+        <p class="sr-mast__eyebrow">Battlecard: competitive intelligence</p>
         <h1 class="sr-mast__title">Seekridge<span class="vs">vs</span>Pocketlens</h1>
-        <p class="sr-mast__lede">How to sell against Pocketlens: what they claim, what is actually true, and the questions that win the deal.</p>
-        <div class="sr-facts"><span class="sr-fact">Threat <b>Low</b></span><span class="sr-fact">Updated <b>September 2026</b></span><span class="sr-fact">Owner <b>PMM, competitive intel</b></span><span class="sr-fact">Source <b>competitive-landscape.md</b></span></div>
+        <p class="sr-mast__lede">A customer-facing money-insights widget for banking apps. Rarely in our bank deals, but a real rival at credit unions, where it is cheap, familiar and already installed.</p>
+        <div class="sr-facts"><span class="sr-fact">Threat <b>Low</b> outside credit unions</span><span class="sr-fact">Updated <b>November 2026</b></span><span class="sr-fact">Credit-union head-to-head <b>we won 7 of 15</b></span></div>
       </div>
       <figure class="sr-mast__art"><img src="../../knowledge-base/design-system/dotmap-tile.svg" alt=""></figure>
     </div>
   </div>
 </header>
-<div class="card sr-battle sr-lift">
 
-
-  <div class="note">Kept intentionally brief — Pocketlens does a different, customer-facing job and is rarely a genuine head-to-head competitor. See <code>competitive-landscape.md</code>'s note on priority before investing more here.</div>
-
-  <section>
-    <div class="eyebrow">Company Overview &amp; Strategy</div>
-    <div class="lede">Pocketlens sells a money-insights widget that banks embed in their app: spending summaries and tips for the customer. It comes up mostly at credit unions and when a bank's digital channel team runs its own evaluation — not as a head-to-head competitor for bank-facing moments.</div>
-  </section>
-
-  <section>
-    <div class="eyebrow">Positioning Framework</div>
-    <div class="framework">
-      <div class="fw-step fw-they">
-        <div class="fw-tag">They say</div>
-        <div class="fw-text">"Money insights your customers will love, inside your banking app."</div>
-      </div>
-      <div class="fw-step fw-reality">
-        <div class="fw-tag">Reality</div>
-        <div class="fw-text">Built for customers, not for bankers — nothing reaches the relationship manager or the CRM, no ranked opportunities, and no evidence trail a risk team can review.</div>
-      </div>
-      <div class="fw-step fw-win">
-        <div class="fw-tag">We win because</div>
-        <div class="fw-text">Insights for customers and opportunities for bankers are different jobs. Pocketlens can stay in the app; Seekridge tells your bankers who to call and why.</div>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="eyebrow">Value Pillars &amp; Differentiators</div>
-    <div class="pillars">
-      <div class="pillar">
-        <div class="pillar-num">01</div>
-        <div><div class="pillar-head">Bank-facing by design</div><div class="pillar-proof">Moments go to the banker who owns the relationship, inside the CRM.</div></div>
-      </div>
-      <div class="pillar">
-        <div class="pillar-num">02</div>
-        <div><div class="pillar-head">Compliance and audit capability by default</div><div class="pillar-proof">Every moment logged, with its evidence, for risk and data protection.</div></div>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="eyebrow">Discovery Question</div>
-    <div class="questions">
-      <div class="q">When a customer opens an insight in the app, does anyone at the bank see it — and does it ever turn into a conversation?</div>
-    </div>
-  </section>
-
-  <section>
-    <div class="eyebrow">Objection Handler</div>
-    <div class="objections">
-      <div class="objection">
-        <div class="obj-said">"We already have Pocketlens in our app."</div>
-        <div class="obj-resp">That's a different problem than the one we solve — no need to replace it if your customers like it. The question is whether your bankers know which customers to call this week, and why.</div>
-      </div>
-    </div>
-  </section>
-
-  <div class="donotsay">
-    <h2>Do-Not-Say List</h2>
-    <ul>
-      <li>Don't disparage Pocketlens's customer-facing product — we don't compete there, and doing so reads as reaching for a fight that isn't ours.</li>
-    </ul>
-  </div>
-
-  <footer>Generated from competitive-landscape.md · battlecard/skill.md · Seekridge</footer>
-
-</div>
-
-<footer class="sr-foot"><img src="../../knowledge-base/flyer-design-system/assets/Logos/pw-mark-paper.svg" alt=""><span>Seekridge is a fictional company; every figure is illustrative.</span><span>A portfolio by Akos Tajnel</span><span><a href="https://github.com/tajnelakos/akos-tajnel-claude-assets">See the whole repo</a></span></footer>
+<main class="bc sr-lift">
+<section class="bc-card"><h2 class="bc-h">At a glance</h2><dl class="bc-glance"><div class="is-key"><dt>Head-to-head</dt><dd>7 of 15 won<small>All credit-union deals, last 12 months</small></dd></div><div class="is-key"><dt>Their price</dt><dd>About the same<small>~2% above our web-app deal size</small></dd></div><div><dt>Founded</dt><dd>2019, Vienna</dd></div><div><dt>Funding</dt><dd>Bootstrapped</dd></div><div><dt>Targets</dt><dd>Credit unions and banks’ digital channel teams</dd></div><div><dt>Sells through</dt><dd>Per active app user, now with a 90-day paid pilot</dd></div><div><dt>Buyer they reach</dt><dd>Digital channel leads and credit-union managers</dd></div><div><dt>Recent moves</dt><dd>Switzerland launch, a savings-goals module and a digital-banking platform integration</dd></div></dl><p class="bc-note"><b>Changed Oct 2026</b><span>Pocketlens replaced its free tier with a 90-day paid pilot and launched in Switzerland. The “free tool” objection is going away.</span></p></section>
+<section class="bc-card"><h2 class="bc-h bc-h--gold">Their pitch, and the quick dismiss</h2><div class="bc-pitch"><div class="they"><span class="lbl">They say</span><p>“Money insights your members will love, inside your banking app.”</p></div><div class="dismiss"><span class="lbl">Quick dismiss</span><p>It works in the app, but <b>nothing reaches the banker</b>: buyers tell us most members open it twice and stop. It has no ranked opportunities, no evidence trail, and nothing lands in the CRM.</p></div></div><p class="bc-differ">Pocketlens gives members <span>a spending summary</span>. We give the bankers <span>the reason to call</span>, in the tools they already use.</p></section>
+<div class="bc-two"><section class="bc-card"><h2 class="bc-h">Where they’re strong, and what to say</h2><ul class="bc-pairs"><li><div class="pt">Already installed and familiar</div><div class="say"><b>Don’t attack it.</b> Ask how often members open it, and whether bankers ever see it.</div></li><li><div class="pt">Simple per-user pricing</div><div class="say"><b>Match on clarity, not price.</b> Show the cost per conversation that turns into a product, not per user.</div></li></ul></section><section class="bc-card"><h2 class="bc-h bc-h--gold">Where they’re weak, and how to use it</h2><ul class="bc-pairs"><li><div class="pt">Members stop opening it</div><div class="say">Offer a pilot measured on banker conversations, the result buyers care about.</div></li><li><div class="pt">Built for members, not bankers</div><div class="say">Insights for customers and opportunities for bankers are different jobs; Pocketlens can stay in the app.</div></li></ul></section></div>
+<section class="bc-card"><h2 class="bc-h bc-h--red">Where we’re weaker, and how to handle it</h2><ul class="bc-pairs"><li><div class="pt">Nothing customer-facing</div><div class="say">Don’t compete on app features. Compete on what bankers do with each moment and the reason behind it.</div></li></ul></section>
+<section class="bc-card"><h2 class="bc-h bc-h--gold">Landmines to lay</h2><ol class="bc-mines"><li>“How many members open the insights every week?”<small>Repeat use is the gap buyers already feel.</small></li><li>“When a member opens an insight, does a banker ever see it?”<small>Opens the bank-facing conversation.</small></li><li>“What would make a new tool stick with your bankers this time?”<small>Lets the buyer describe the pilot we should run.</small></li></ol></section>
+<section class="bc-card"><h2 class="bc-h">What buyers told us</h2><div class="bc-quotes"><figure><blockquote>Half my team barely uses our core system’s member view properly as it is.</blockquote><figcaption>Credit union with 60 bankers<br><a href="../../knowledge-base/sales-call-analysis/call-12-harborlight-credit-union.md">call-12-harborlight-credit-union.md</a></figcaption></figure><figure><blockquote>Most opened it twice and never came back.</blockquote><figcaption>Credit union, 40 bankers<br><a href="../../knowledge-base/sales-call-analysis/call-04-riverton-credit-union.md">call-04-riverton-credit-union.md</a></figcaption></figure><figure><blockquote>It’s not perfect, but it’s embedded — members know it.</blockquote><figcaption>Credit union with 60 bankers<br><a href="../../knowledge-base/sales-call-analysis/call-12-harborlight-credit-union.md">call-12-harborlight-credit-union.md</a></figcaption></figure></div></section>
+<section class="bc-card"><h2 class="bc-h bc-h--red">Don’t say</h2><ul class="bc-dont"><li><b>“Pocketlens is a bad product.”</b> Members like parts of it. We win on what bankers do, not on disparaging it.</li><li><b>“It’s free anyway.”</b> No longer true: the free tier became a 90-day paid pilot in October 2026.</li></ul></section>
+<p class="bc-src">Owner: Product Marketing, Competitive Intelligence. Sources: <a href="../../knowledge-base/competitive-landscape.md">competitive-landscape.md</a>, <a href="../../knowledge-base/win-loss-analysis/win-loss-detailed-analysis.html">win/loss deep dive</a>, <a href="../competitor-monitoring/competitor-analyses.html">competitor analyses</a>, <a href="../../knowledge-base/sales-call-analysis/call-04-riverton-credit-union.md">call-04-riverton-credit-union.md</a>, <a href="../../knowledge-base/sales-call-analysis/call-12-harborlight-credit-union.md">call-12-harborlight-credit-union.md</a>. Built with the <a href="./skill.md">battlecard skill</a></p>
+</main><footer class="sr-foot"><img src="../../knowledge-base/flyer-design-system/assets/Logos/pw-mark-paper.svg" alt=""><span>Seekridge is a fictional company; every figure is illustrative.</span><span>A portfolio by Akos Tajnel</span><span><a href="https://github.com/tajnelakos/akos-tajnel-claude-assets">See the whole repo</a></span></footer></body></html>
