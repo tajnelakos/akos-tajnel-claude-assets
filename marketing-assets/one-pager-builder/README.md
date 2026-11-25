@@ -11,9 +11,10 @@ A skill that builds a single-page, persona-specific piece of sales collateral �
 ## Files
 
 - [`skill.md`](./skill.md) — the Claude Skill definition
-- [`one-pager-head-of-credit-risk.html`](./one-pager-head-of-credit-risk.html) — the rendered one-pager ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/one-pager-builder/one-pager-head-of-credit-risk.html))
+- [`one-pager-vp-mortgage-lending.html`](./one-pager-vp-mortgage-lending.html) — the rendered one-pager for mortgage lending leaders ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/one-pager-builder/one-pager-vp-mortgage-lending.html))
+- [`peaks-mortgage.svg`](./peaks-mortgage.svg) — its illustration: the dot map with the three moments labelled as peaks
 - [`example.md`](./example.md) — the input/output behind it
 
 ## Current limitations
 
-Only one persona/segment combination is built out (Head of Credit Risk, Tier 1 Bank/Lender). A VP of Mortgage Lending, Head of Home Insurance, or Brokerage version needs its own pass with a different angle and proof set, not a find-and-replace on this one — see `skill.md`'s explicit rule against fitting two personas on one page.
+Only one persona/segment combination is built out (VP of Mortgage Lending, bank and lender segment). A Head of Credit Risk, Head of Home Insurance, or Brokerage version needs its own pass with a different angle and proof set, not a find-and-replace on this one — see `skill.md`'s explicit rule against fitting two personas on one page.
