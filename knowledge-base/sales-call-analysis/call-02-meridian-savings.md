@@ -1,7 +1,7 @@
 # Call Transcript — Meridian Savings
 
 **Date:** July 2026 · **Duration:** ~20 minutes · **Call type:** Second call, post-demo
-**Rep:** Marcus Webb (Seekridge) · **Prospect:** Julia Hoffmann, VP of Mortgage Lending, Meridian Savings (regional bank, DACH)
+**Rep:** Marcus Webb (Seekridge) · **Prospect:** Julia Hoffmann, Head of Mortgage Lending, Meridian Savings (regional bank, DACH)
 
 ---
 
@@ -55,4 +55,4 @@
 - Ledgerlight confirmed head-to-head, ~15% cheaper at this account's volume — matches `competitive-landscape.md`'s pricing entry almost exactly. Note the real comparison is Seekridge vs. Ledgerlight data plus an in-house build.
 - Ledgerlight's rep reportedly went thin on explainability specifics under direct questioning — consistent with the documented weakness, now independently corroborated by a live deal, not just a battlecard assumption.
 - Action: send build-and-defend cost framework by Thursday (open commitment).
-- Next step: combined call with VP Mortgage Lending + Head of Credit Risk + Head of Ops — three-stakeholder close, not two.
+- Next step: combined call with Head of Mortgage Lending + Head of Credit Risk + Head of Ops — three-stakeholder close, not two.

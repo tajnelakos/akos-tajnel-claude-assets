@@ -8,13 +8,13 @@ The rendered deck: [`deck-mortgage-lenders.html`](./deck-mortgage-lenders.html) 
 
 ## Input
 
-> Deal context: first meeting with a regional bank's VP of Mortgage Lending. The bank wants to grow and retain its mortgage book and loses customers to brokers at rate reset. No known competitor in the deal yet. Build the deck.
+> Deal context: first meeting with a regional bank's Head of Mortgage Lending. The bank wants to grow and retain its mortgage book and loses customers to brokers at rate reset. No known competitor in the deal yet. Build the deck.
 
 ## Stage 1 output: the outline
 
 ```
-## Deck Outline — Regional bank, first meeting with VP of Mortgage Lending
-Persona: VP of Mortgage Lending (lending/growth buyer) · Stage: First substantive meeting
+## Deck Outline — Regional bank, first meeting with Head of Mortgage Lending
+Persona: Head of Mortgage Lending (lending/growth buyer) · Stage: First substantive meeting
 
 1. Find the peaks in your mortgage book.   (L1 Cover)
    Purpose: Open on their book and the growth it hides, not on Seekridge.
@@ -85,4 +85,4 @@ What this deck shows about the kit:
 - **One gold element per slide.** The urgent moment, the first lever, the digital-campaign owner, the outcome card.
 - **Placeholders the rep fills in:** `[Bank]` and `[Month 2026]` on the cover, `[Rep name] · [email]` on the close.
 
-Compare with [`sample-deck-outline.md`](./sample-deck-outline.md): same product, a Head of Credit Risk in the room, and a different order. That deck leads with audit exposure and explainability instead of growth levers.
+Compare with [`sample-deck-outline.md`](./sample-deck-outline.md): same product, a Head of Retail Banking in the room, and a different order. That deck leads with what customers buy elsewhere and the advisor-adoption objection, not refinancing volume.

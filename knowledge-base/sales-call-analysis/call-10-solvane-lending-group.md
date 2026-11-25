@@ -1,7 +1,7 @@
 # Call Transcript — Solvane Lending Group
 
 **Date:** July 2026 · **Duration:** ~18 minutes · **Call type:** Third call, technical validation
-**Rep:** Marcus Webb (Seekridge) · **Prospect:** Karin Lindqvist, VP of Mortgage Lending, Solvane Lending Group (national lender); joined by Erik Voss, IT Security Lead
+**Rep:** Marcus Webb (Seekridge) · **Prospect:** Karin Lindqvist, Head of Mortgage Lending, Solvane Lending Group (national lender); joined by Erik Voss, IT Security Lead
 
 ---
 

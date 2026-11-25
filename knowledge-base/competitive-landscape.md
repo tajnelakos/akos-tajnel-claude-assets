@@ -85,7 +85,7 @@ The on-prem gap is real, not a competitor's weakness — flag it early with a pr
 
 **Weaknesses:** No CRM or product layer and no moments — the bank has to build and govern the targeting logic itself. Categories come with a confidence score only. No compliance/audit-log feature. *(Source: product comparison, unconfirmed independently — worth a live demo comparison before repeating as certain)*
 
-**How we win:** Reframe the conversation from price-per-call to the cost of building, running, and defending moments in-house. Works best once the Head of Credit Risk (not just procurement or the data team) is in the room — see [`personas.md`](./personas.md).
+**How we win:** Reframe the conversation from price-per-call to the cost of building, running, and defending moments in-house. Works best when the conversation is with the Head of Mortgage Lending or Head of Retail Banking, who owns the outcome, not only procurement or the data team who own the price — see [`personas.md`](./personas.md).
 
 **How we lose:** Deals that stay procurement- or data-team-led and never reach a real risk conversation; deals where price sensitivity dominates because the institution hasn't yet had a review of how it targets customers.
 
@@ -109,7 +109,7 @@ The on-prem gap is real, not a competitor's weakness — flag it early with a pr
 
 **Weaknesses:** Dated UI, slow release cadence, no live CRM integration (customer data goes in by batch file), publicly documented support responsiveness issues. *(Source: 2 public G2 reviews, confirmed — see [competitor-monitoring/example](../sales-tools/competitor-monitoring/weekly-brief-example.md))*
 
-**How we win:** Modern CRM integration and faster implementation timeline; strongest against Kontora when the buying committee includes someone frustrated with the current tool's UX or support, or a lending or bancassurance lead who wants moments in the advisors' CRM rather than a quarterly campaign list.
+**How we win:** Modern CRM integration and faster implementation timeline; strongest against Kontora when the buying committee includes someone frustrated with the current tool's UX or support, or a mortgage or retail banking lead who wants moments in the advisors' CRM rather than a quarterly campaign list.
 
 **How we lose:** Deeply entrenched relationships where switching cost (real or perceived) outweighs product gaps; risk-averse buyers who default to "nobody gets fired for choosing the incumbent"; any deal requiring on-prem deployment.
 

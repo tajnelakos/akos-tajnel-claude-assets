@@ -16,7 +16,7 @@ Produce a sequence that reads as if it understands how this specific persona act
 3. **Email 1** picks up directly from the trigger context (what they downloaded/did) — no generic "thanks for your interest" opener.
 4. **Each subsequent email must add new information relevant to a different decision criterion** — never just a softer rephrase of the previous email's point. If there isn't a genuinely new angle for a third email, write two and say why a third would be padding.
 5. **Match objection-handling to the persona's actual stated objections** (from `personas.md`) — don't invent generic objections to pre-empt.
-6. **Follow [`branding-guideline`](../../knowledge-base/branding-guideline/skill.md)'s voice rules** throughout — this especially rules out escalating urgency language in later emails ("last chance," "don't miss out") that would clash with a skeptical, risk-focused persona.
+6. **Follow [`branding-guideline`](../../knowledge-base/branding-guideline/skill.md)'s voice rules** throughout — this especially rules out escalating urgency language in later emails ("last chance," "don't miss out") that would clash with a sceptical buyer.
 7. **Each email keeps a single, low-friction next step** — don't stack multiple asks in one email.
 
 ## What to avoid
@@ -42,7 +42,7 @@ Decision criterion this advances: ...
 
 ## Deep-dive campaign mode
 
-The quick mode above produces sequence content only. Deep-dive mode is for when the user wants a full, run-ready campaign for a persona: more emails, A/B-tested subject lines, and the tracking/analysis/ops material a real send needs — see [`campaign-head-of-credit-risk.md`](./campaign-head-of-credit-risk.md) and [`campaign-vp-mortgage-lending.md`](./campaign-vp-mortgage-lending.md) for two full worked examples.
+The quick mode above produces sequence content only. Deep-dive mode is for when the user wants a full, run-ready campaign for a persona: more emails, A/B-tested subject lines, and the tracking/analysis/ops material a real send needs — see [`campaign-head-of-retail-banking.md`](./campaign-head-of-retail-banking.md) and [`campaign-head-of-mortgage-lending.md`](./campaign-head-of-mortgage-lending.md) for two full worked examples.
 
 Use deep-dive mode when the user asks to actually build out / launch / track a sequence for a persona, rather than just draft the email copy.
 

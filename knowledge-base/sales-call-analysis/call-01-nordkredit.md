@@ -1,7 +1,7 @@
 # Call Transcript — Nordkredit
 
 **Date:** July 2026 · **Duration:** ~18 minutes · **Call type:** First discovery call, following outbound
-**Rep:** Anna Kowalski (Seekridge) · **Prospect:** Lena Virtanen, Head of Credit Risk, Nordkredit (regional lender, Nordics, ~€600M annual origination)
+**Rep:** Anna Kowalski (Seekridge) · **Prospect:** Lena Virtanen, Head of Mortgage Lending, Nordkredit (regional lender, Nordics, ~€600M annual origination)
 
 *Context: Lena responded to an outbound email referencing her recent hire and Nordkredit's tooling migration.*
 
@@ -13,7 +13,7 @@
 
 **Anna:** Ha, good. So, high level — what pulled you into this migration? Was it something you inherited, or something you decided once you got in the seat?
 
-**Lena:** Bit of both. Last year our lending team ran a refinancing campaign off a customer score from our current data provider — literally, it gives you a list of customers and a score, and that's it. We had an internal audit finding afterwards, nothing catastrophic, but the auditor's note was basically "you couldn't explain why three of these customers were contacted if asked." That report was sitting on my desk my first day, and now any model that decides who gets an offer comes through me.
+**Lena:** Bit of both. Last year our lending team ran a refinancing campaign off a customer score from our current data provider — literally, it gives you a list of customers and a score, and that's it. We had an internal audit finding afterwards, nothing catastrophic, but the auditor's note was basically "you couldn't explain why three of these customers were contacted if asked." That report was sitting on my desk my first day, and the next refinancing campaign isn't going out until we can answer that question.
 
 **Anna:** That's about as clean a mandate as it gets. When you say "couldn't explain" — walk me through what happens today when someone does ask.
 

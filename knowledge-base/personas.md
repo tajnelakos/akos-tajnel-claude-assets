@@ -2,205 +2,145 @@
 
 Expands the persona list in [`knowledge-base.md`](./knowledge-base.md). Where [`icp.md`](./icp.md) names *which roles* sit on a buying committee and what's generally at stake for each, this document is what those roles actually think, say, and respond to — used by prompts/skills that need to tailor tone, structure, or emphasis to who's actually reading, not just confirm they exist. See [`sales-deck-builder`](../sales-tools/sales-deck-builder), [`persona-email-sequence`](../marketing-assets/persona-email-sequence), and [`sales-call-analysis`](./sales-call-analysis) for where this gets applied.
 
-## How this maps to the buying committee
+## Who we sell to, and who we meet later
 
-[`icp.md`](./icp.md)'s buying committee table names the roles. The ones with the deepest, most decision-shaping psychology get full persona treatment; the procurement role gets a shorter entry, since its behavior is more procedural than psychological — the content that would actually change a rep's approach is thinner.
+Seekridge creates opportunities, so we sell to the two people who own a growth target on the bank's existing customers. Everyone else on the committee either uses the product or can stop the deal, but none of them has a reason to buy it. Marketing, outbound and content go to the two buyers only. The others get prepared material, handed over through the buyer, at the stage where they appear.
 
-| Buying committee role (per `icp.md`) | Persona below | Depth |
+| Role | Persona below | Who reaches them |
 |---|---|---|
-| Risk & model-governance owner | [Head of Credit Risk](#head-of-credit-risk-risk-and-model-governance-owner-banklender-segment) | Full |
-| Economic buyer (bank/lender) | [VP of Mortgage Lending](#vp-of-mortgage-lending-economic-buyer-banklender-segment) | Full |
-| Economic buyer (bank-sold insurance) | [Head of Bancassurance](#head-of-bancassurance-economic-buyer-for-bank-sold-insurance) | Full |
-| End user / buyer at smaller banks | [Head of Advisory Network](#head-of-advisory-network-branch-and-advisor-lead-smaller-banks) | Full |
-| Technical evaluator | [Data & CRM Lead](#data--crm-lead-technical-evaluator) | Full |
-| IT/security reviewer | [IT Security Lead](#it-security-lead-infrastructure-gatekeeper) | Full |
-| Procurement / compliance | [Vendor Risk & Compliance Reviewer](#vendor-risk--compliance-reviewer) | Shorter — mostly procedural |
+| **Buyer:** mortgages and refinancing | [Head of Mortgage Lending](#head-of-mortgage-lending-buyer-mortgages-and-refinancing) | Marketing and outbound |
+| **Buyer:** every other loan, cards and insurance | [Head of Retail Banking](#head-of-retail-banking-buyer-consumer-loans-cards-and-insurance) | Marketing and outbound |
+| User | [Advisors and relationship managers](#advisors-and-relationship-managers-users) | Through the buyer, in the pilot |
+| Technical evaluator | [Data & CRM Lead](#data--crm-lead-technical-evaluator) | The rep, early, once a buyer is engaged |
+| Reviewer | [Risk, model governance and data protection](#risk-model-governance-and-data-protection-reviewers) | Prepared pack, through the buyer |
+| Gatekeeper | [IT Security Lead](#it-security-lead-infrastructure-gatekeeper) | The rep, when residency comes up |
+| Gatekeeper | [Vendor Risk & Compliance](#vendor-risk--compliance-reviewer) | Documentation, through the buyer |
+
+**How the two buyers relate.** In most banks the Head of Mortgage Lending reports to the Head of Retail Banking. Mortgages carry the biggest moments (refinancing from another bank, buying a home), so the Head of Mortgage Lending is usually the way in and the strongest champion. The Head of Retail Banking owns the budget once Seekridge covers more than mortgages, and at smaller banks is often the only buyer. Land with mortgages, expand into retail.
 
 ## Persona interaction map
 
-A deal rarely has one persona in the room — it has several, often with real tension between them, not just different priorities in parallel:
-
-- **Head of Credit Risk vs. VP of Mortgage Lending** is the most common live tension: lending wants more opportunities worked faster, risk wants to know why each customer was chosen, and neither will say the other's priority doesn't matter. The rep's job is to show the two aren't actually in conflict (a moment that shows its evidence *is* a moment advisors act on faster, and one risk can approve once instead of campaign by campaign), not to pick a side. See the [Meridian Savings call](../knowledge-base/sales-call-analysis/call-02-meridian-savings.md) for this playing out directly.
-- **Data & CRM Lead is usually an ally, not a gatekeeper**, if engaged early — they want to be the one who validated the tool properly, and a rep who treats them as a rubber stamp loses that alliance. See the [Meadowbrook Financial call](../knowledge-base/sales-call-analysis/call-13-meadowbrook-financial.md), where the data team's own evaluation rigor became the rep's strongest lever.
-- **IT Security Lead answers to a different, often invisible-until-late master**: a specific regulator or internal data-governance policy, not the deal's momentum. Because Seekridge works with the client's own customer data, they are the one persona here who can end a deal that every other stakeholder wants to close — see the [Solvane Lending Group call](../knowledge-base/sales-call-analysis/call-10-solvane-lending-group.md).
-- **Vendor Risk & Compliance moves on its own clock**, largely deaf to sales urgency, and reacts badly to being chased directly rather than through the internal champion — see the [Thornfield Mutual call](../knowledge-base/sales-call-analysis/call-14-thornfield-mutual.md).
-
----
-
-## Head of Credit Risk (risk and model-governance owner, bank/lender segment)
-
-**Buying psychology:** Risk-averse by function, not by personality — their job is to be the person in the room who asks "how do we defend this to a regulator." Any model that decides which customers get a lending offer lands on their desk for sign-off. Enthusiasm from other stakeholders makes them more skeptical, not less; they see their role as the check on that enthusiasm.
-
-**Measured on:** Audit outcomes, exam findings (or absence of them), and — increasingly — how defensible the institution's automated customer decisions are under regulatory scrutiny: fair treatment, purpose limitation on customer data, model governance. Not measured on loan volume; a campaign that grows the book but can't be explained is a mark against them, not a win.
-
-**Pain, in their language:** *"I can't tell the auditor 'the model picked them' — I need to be able to show why we contacted each customer."* *"Every vendor claims their AI is explainable. I've been burned by that claim before."* *"I don't need the cleverest model. I need the one I can defend two years from now, after whoever ran the campaign has left."*
-
-**Decision criteria, ranked:**
-1. Explainability of individual moments — which data points drove each one
-2. Moment quality, validated against a method they can scrutinize (not just a headline hit rate)
-3. Vendor stability and customer-data handling practices
-4. Integration effort (real, but secondary to the above)
-
-**Common objections:** "How is this different from [prior vendor]'s explainability claim that didn't hold up?" · "What happens to our customer data if we leave you?" · "Show me a moment that turned out wrong and how the evidence trail explained it."
-
-**Trust triggers:** A vendor who volunteers a live run on the bank's own data, unprompted. A vendor who says "we don't know, let me find out" rather than an immediate confident answer. A specific, named method detail rather than a general claim.
-
-**Trust breakers:** Any claim that sounds identical to a prior vendor's claim that didn't hold up — this persona has usually been burned once already and pattern-matches hard against repeat offenses. Overclaiming moment accuracy without a disclosed method. Being asked to just "trust the model."
-
-**Content preferences:** Method whitepapers, live runs on their own data over slides, peer references from similarly-regulated institutions. Actively distrusts case studies without a named, checkable source.
-
-**Where they spend time:** Risk/compliance-focused LinkedIn groups, industry risk conferences, trade publications — not general SaaS/martech content channels.
-
-**Seen in this repo:** [Nordkredit](../knowledge-base/sales-call-analysis/call-01-nordkredit.md) (Lena Virtanen — the clean, textbook version of this persona's mandate), [Court Street Lending](../knowledge-base/sales-call-analysis/call-03-court-street-lending.md) (David Okafor — the same psychology under a formal competitive bake-off), [Crestview Capital Bank](../knowledge-base/sales-call-analysis/call-11-crestview-capital-bank.md) (Ingrid Solberg — a regulatory-certification variant of the same core need for defensibility).
+- **Head of Mortgage Lending and Head of Retail Banking want the same thing at different scope.** The mortgage head wants refinancings kept and purchases won; the retail head wants every product line growing from the same customer base. A pilot on mortgage moments with a clear number is what earns the wider retail rollout. See the [Meridian Savings call](./sales-call-analysis/call-02-meridian-savings.md).
+- **Risk and data protection review, they don't buy.** A buyer who has to make the risk case alone stalls. The rep's job is to hand the buyer what reviewers need — the evidence trail, the method, the data-processing terms — so approval happens once, not campaign by campaign. Never reach out to a reviewer directly before the buyer is convinced.
+- **The Data & CRM Lead is usually an ally**, if engaged early — they want to be the one who validated the tool properly. See the [Meadowbrook Financial call](./sales-call-analysis/call-13-meadowbrook-financial.md).
+- **IT Security answers to a policy or regulator, not to the deal's momentum.** Because Seekridge works with the client's transaction data, this is the one role that can end a deal everyone else wants — see the [Solvane Lending Group call](./sales-call-analysis/call-10-solvane-lending-group.md).
+- **Vendor Risk & Compliance moves on its own clock**, and reacts badly to being chased directly — see the [Thornfield Mutual call](./sales-call-analysis/call-14-thornfield-mutual.md).
 
 ---
 
-## VP of Mortgage Lending (economic buyer, bank/lender segment)
+## Head of Mortgage Lending (buyer: mortgages and refinancing)
 
-**Buying psychology:** Measured against growth and retention of the mortgage book, not risk metrics — success looks like "more refinancings kept, more top-up loans written," not "audits passed." Will defer to the Head of Credit Risk on explainability but owns the growth and workflow conversation, and usually the budget.
+**Buying psychology:** Measured against growth and retention of the mortgage book. Success looks like "more refinancings kept, more purchases financed by us," not "audits passed." Owns the growth and workflow conversation and usually the mortgage budget; wants the risk team on board but won't make the risk case for them.
 
-**Measured on:** Retention at rate reset, new lending to existing customers, advisor productivity. A tool that's more defensible but produces fewer usable opportunities is, from this persona's KPIs alone, a regression — which is exactly why the tension with Head of Credit Risk (see the interaction map above) is real, not manufactured.
+**Measured on:** Retention at fixed-rate renewal, mortgages won from other banks, new mortgages to existing customers, advisor productivity.
 
-**Pain, in their language:** *"We find out a customer refinanced elsewhere when the redemption request arrives."* *"My advisors get lists every month and ignore half of them because nobody can say why a name is on there."* *"I need my risk team on board, but I'm not going to sell this internally for them."*
+**Pain, in their language:** *"We find out a customer refinanced elsewhere when the redemption request arrives."* *"Half our customers have their mortgage at another bank, and we only notice when they mention it."* *"My advisors get lists every month and ignore half of them because nobody can say why a name is on there."*
+
+**Moments they own:** refinancing elsewhere (a mortgage at another bank nearing its fixed-rate end), buying a home, rate reset on their own book.
 
 **Decision criteria, ranked:**
-1. Business impact — retained volume or new lending, ideally with a specific number from their own data
+1. Business impact: retained and new mortgage volume, ideally a number from their own data
 2. Fit with the advisors' existing CRM workflow (minimal new steps)
-3. Whether advisors will actually believe and act on the moments
-4. Alignment with what Credit Risk has already approved (won't fight that battle themselves)
+3. Whether advisors will believe and act on the moments
+4. A clear path through risk and data protection that doesn't depend on them arguing it
 
 **Common objections:** "Will my advisors need retraining, and how long does that take?" · "What's the actual uplift on our customers, not the theoretical one?"
 
-**Trust triggers:** A specific, credible implementation timeline broken into real steps, not a marketing "instant" claim. A rep who separates "the tool goes live" from "my advisors actually use it" — this persona has been burned by vendors conflating the two.
+**Trust triggers:** A specific implementation timeline broken into real steps. A rep who separates "the tool goes live" from "advisors actually use it." A backtest on last year's lost refinancings.
 
-**Trust breakers:** Being told competitor timelines are "instant" or "seamless" without qualification — this persona knows enough about their own workflow to smell an oversimplified claim. Being asked to advocate internally for the risk/compliance case themselves.
+**Trust breakers:** "Instant" or "seamless" claims without qualification. Being asked to advocate internally for the risk case themselves.
 
-**Content preferences:** Uplift and ROI calculators, workflow diagrams, short case studies focused on retention and conversion metrics.
+**Content preferences:** Uplift and ROI calculators, workflow diagrams, short case studies with retention and conversion numbers.
 
-**Where they spend time:** Mortgage/lending trade publications, LinkedIn, regional banking associations.
+**Where they spend time:** Mortgage and lending trade publications, LinkedIn, regional banking associations.
 
-**Seen in this repo:** [Meridian Savings](../knowledge-base/sales-call-analysis/call-02-meridian-savings.md) (Julia Hoffmann — the split-committee dynamic with Credit Risk, explicitly acknowledged mid-call), [Delta Mortgage Partners](../knowledge-base/sales-call-analysis/call-07-delta-mortgage-partners.md) (Sophie Larsen — the "instant vs. actually adopted" distinction surfacing directly against a Ledgerlight claim).
-
----
-
-## Head of Bancassurance (economic buyer for bank-sold insurance)
-
-**Buying psychology:** Owns the insurance the bank sells to its own customers (home, contents, car, payment protection), and knows most of those customers already buy cover somewhere else, often through a direct debit the bank processes every month. Pragmatic, numbers-led, and wary of "AI" pitches that turn advisors into insurance pushers.
-
-**Measured on:** Insurance attach rate per product (mortgage, car loan, current account), premiums written through the bank, advisor time spent on insurance, and complaints.
-
-**Pain, in their language:** *"We finance the car and the customer insures it somewhere else the same week."* *"We can see the premium leaving the account every month and do nothing with it."* *"Our advisors need a reason to raise insurance, not a quota."*
-
-**Decision criteria, ranked:**
-1. Evidence on their own book — a backtest showing which customers took cover when offered at the right moment
-2. Moments that fit how the bank sells insurance (advisor, digital journey, partner insurer)
-3. Consent and fair-treatment fit: insurance offers made because they fit, never because a score said so
-4. Integration with the partner insurer's quote flow
-
-**Common objections:** "We already send an insurance mailing with every new loan." · "Our partner insurer runs its own campaigns."
-
-**Trust triggers:** A rep who asks how the bank's insurance partnership works before pitching. Payment evidence shown per customer, not as a portfolio average.
-
-**Trust breakers:** Insurer-centric language ("underwriting," "loss ratio") — it signals the vendor sells to insurers, not banks. Pushing volume over fit.
-
-**Content preferences:** A backtest on a sample of their own customers, short case studies with attach-rate numbers, one-pagers for distribution leaders.
-
-**Where they spend time:** Banking and bancassurance trade events, national banking association groups, LinkedIn.
-
-**Seen in this repo:** [Thornfield Mutual](../knowledge-base/sales-call-analysis/call-14-thornfield-mutual.md) (Grace Almeida — product case won, deal waiting on the vendor-risk queue).
+**Seen in this repo:** [Nordkredit](./sales-call-analysis/call-01-nordkredit.md) (Lena Virtanen — a refinancing campaign that failed an internal audit, and a board audit ahead), [Meridian Savings](./sales-call-analysis/call-02-meridian-savings.md) (Julia Hoffmann — a lower competing quote, answered with the bank's own numbers), [Delta Mortgage Partners](./sales-call-analysis/call-07-delta-mortgage-partners.md) (Sophie Larsen — "instant" versus actually adopted), [Baltic Home Finance](./sales-call-analysis/call-05-baltic-home-finance.md) (Rasa Petraityte — a long-time incumbent and a market-data coverage question), [Ironbridge Bank](./sales-call-analysis/call-09-ironbridge-bank.md) (Fredrik Nilsson — a competitor rollout that underdelivered), [Solvane Lending Group](./sales-call-analysis/call-10-solvane-lending-group.md) (Karin Lindqvist — a won product case stopped by an on-prem rule), [Meadowbrook Financial](./sales-call-analysis/call-13-meadowbrook-financial.md) (Robert Yankov — evaluating with his data team).
 
 ---
 
-## Head of Advisory Network (branch and advisor lead, smaller banks)
+## Head of Retail Banking (buyer: consumer loans, cards and insurance)
 
-**Buying psychology:** Adoption-driven — the purchase only succeeds if advisors actually use it, so they weigh "will my advisors bother opening this" as heavily as feature fit. Usually the buyer at smaller savings banks and credit unions, where there's no separate lending or risk buyer.
+**Buying psychology:** Owns growth across everything a retail customer holds besides the mortgage: car and consumer loans, green and renovation loans, cards and card upgrades, and the insurance the bank sells (home, contents, car, payment protection). Thinks in products per customer and share of wallet. Pragmatic and numbers-led, and wary of tools that turn advisors into product pushers. At smaller savings banks and credit unions, this is usually the only buyer, and adoption is the whole question.
 
-**Measured on:** Advisor productivity, products per customer, and — quietly — whether their last few tool purchases actually got used. One who's been burned by low adoption before will interrogate onboarding harder than price.
+**Measured on:** Products per customer, consumer-lending and card volume, insurance attach rate, advisor productivity, complaints.
 
-**Pain, in their language:** *"I've bought advisor tools before that nobody used after month one."* *"I need something that tells advisors who to call this week, not another dashboard to check."* *"Half my advisors barely use what's in the CRM already."*
+**Pain, in their language:** *"We finance the car and the customer insures it somewhere else the same week."* *"We can see the premium leaving the account every month and do nothing with it."* *"I've bought advisor tools before that nobody used after month one."* *"Our advisors need a reason to call, not a quota."*
+
+**Moments they own:** a car purchase coming up, renovation and green loans, card upgrades, insured elsewhere, a new property with no home cover, salary moving away.
 
 **Decision criteria, ranked:**
-1. Advisor adoption / ease of use (value in the first session)
-2. A direct tie to conversations that end in a product (does a moment turn into an appointment)
-3. Price relative to the number of customers analysed
-4. Onboarding and support quality
+1. Evidence on their own customers: a backtest showing which customers took a product when offered at the right moment
+2. Advisor adoption: value in the first session, inside the tools advisors already use
+3. Fit with how each product is sold (advisor, digital journey, partner insurer)
+4. Fair-treatment and consent fit: offers made because they fit the customer, never because a score said so
 
-**Common objections:** "How is this different from the campaign lists our CRM already makes?" · "What's the learning curve for an advisor who isn't technical?"
+**Common objections:** "How is this different from the campaign lists our CRM already makes?" · "We already send an insurance mailing with every new loan." · "Our partner insurer runs its own campaigns."
 
-**Trust triggers:** A rep who asks about the advisors' actual tech-comfort spread rather than assuming uniform ease of adoption. A referral from another small bank with a specific, credible outcome (not a generic testimonial).
+**Trust triggers:** A rep who asks how each product line is sold before pitching. Evidence shown per customer, not as a portfolio average. A referral from a similar bank with a specific outcome.
 
-**Trust breakers:** A rep pushing a network-wide rollout before adoption risk has been addressed. Feature-first pitches that don't address who will actually open the tool.
+**Trust breakers:** Insurer-centric language ("underwriting," "loss ratio"). Pushing volume over fit. A network-wide rollout pitched before adoption risk is addressed.
 
-**Content preferences:** Short demo videos, advisor testimonials, simple one-pagers — not whitepapers.
+**Content preferences:** A live test on a sample of their own customers, short case studies with attach-rate and products-per-customer numbers, short demo videos, one-pagers.
 
-**Where they spend time:** Savings-bank and credit-union association events, LinkedIn groups, YouTube (product walkthroughs).
+**Where they spend time:** Retail-banking and savings-bank association events, banking trade press, LinkedIn.
 
-**Seen in this repo:** [Riverton Savings Bank](../knowledge-base/sales-call-analysis/call-04-riverton-savings-bank.md) (Tomas Reyes — adoption risk correctly identified as the real question, not the mobile feature gap itself), [Harborlight Credit Union](../knowledge-base/sales-call-analysis/call-12-harborlight-credit-union.md) (Dana Whitfield — a case where the rep correctly talked *out of* a low-value deal), [Copperfield Sparkasse](../knowledge-base/sales-call-analysis/call-15-copperfield-sparkasse.md) (Owen Marsh — a warm-referral case where adoption risk was already resolved by someone else's track record).
+**Seen in this repo:** [Court Street Lending](./sales-call-analysis/call-03-court-street-lending.md) (David Okafor — a formal three-vendor bake-off at a national bank), [Riverton Savings Bank](./sales-call-analysis/call-04-riverton-savings-bank.md) (Tomas Reyes — adoption risk as the real question), [Alpine Credit Union](./sales-call-analysis/call-06-alpine-credit-union.md) (Heinrich Bauer — vendor stability), [Fenwick & Oak Bank](./sales-call-analysis/call-08-fenwick-oak-bank.md) (Priya Chandra), [Crestview Capital Bank](./sales-call-analysis/call-11-crestview-capital-bank.md) (Ingrid Solberg — a national certification requirement), [Harborlight Credit Union](./sales-call-analysis/call-12-harborlight-credit-union.md) (Dana Whitfield — talked out of a low-value deal), [Thornfield Mutual](./sales-call-analysis/call-14-thornfield-mutual.md) (Grace Almeida — insurance case won, waiting on vendor risk), [Copperfield Sparkasse](./sales-call-analysis/call-15-copperfield-sparkasse.md) (Owen Marsh — a warm referral).
+
+---
+
+## Advisors and relationship managers (users)
+
+Not a buyer, but the people whose behavior decides whether the purchase pays off. They want a short list of customers worth calling this week, with a reason they can say out loud. They ignore lists without reasons, and they stop opening tools that add steps. Reach them through the buyer, in the pilot: measure who calls and what closes, and use their feedback as proof for the wider rollout.
 
 ---
 
 ## Data & CRM Lead (technical evaluator)
 
-**Buying psychology:** Wants to be the one who validated the tool properly — treating this persona as a rubber-stamp step rather than a real technical reviewer is the single most common way a rep loses their support. They are usually not the final decision-maker, but a deal without their early buy-in tends to stall later at the procurement gate even if the economic buyer is enthusiastic (see [`icp.md`](./icp.md)).
+**Buying psychology:** Wants to be the one who validated the tool properly — treating this persona as a rubber stamp is the most common way a rep loses their support. Not the decision-maker, but a deal without their early buy-in tends to stall at the procurement gate (see [`icp.md`](./icp.md)).
 
-**Pain, in their language:** *"I don't want to be the person who signed off on a model that fell apart in front of an examiner."* *"Every vendor's demo looks clean. I want to run it on our own customers and see where it breaks."*
+**Pain, in their language:** *"Every vendor's demo looks clean. I want to run it on our own customers and see where it breaks."*
 
 **Decision criteria, ranked:**
-1. Whether the evidence trail holds up under a live test on customer records they select, not a prepared demo
-2. A backtest on their own past data, with a method they can actually scrutinize
+1. Whether the evidence trail holds up on customer records they select, not a prepared demo
+2. A backtest on their own past data, with a method they can scrutinize
 3. Integration feasibility with the CRM and core systems they maintain
-4. Whether the vendor treats their scrutiny as legitimate rather than an obstacle
 
-**Common objections:** "Can we run this on customers we pick, not ones you've prepared?" · "What's the actual method, not the score?"
+**Trust triggers:** A rep who invites a harder test than the one being requested.
 
-**Trust triggers:** A rep who invites a harder test than the one being requested. Being asked what evidence bar *they* think is fair, rather than being told what the evidence is.
+**Seen in this repo:** [Meadowbrook Financial](./sales-call-analysis/call-13-meadowbrook-financial.md).
 
-**Trust breakers:** A rep who only offers prepared demo material when asked for something live. Any hint that their technical questions are an inconvenience.
+---
 
-**Seen in this repo:** [Meadowbrook Financial](../knowledge-base/sales-call-analysis/call-13-meadowbrook-financial.md) — the data team whose own evaluation rigor (noting they hadn't tested any vendor's evidence trail live yet) became the strongest argument in the room, once invited rather than resisted.
+## Risk, model governance and data protection (reviewers)
+
+**Who:** The Head of Credit Risk or model-risk team (any moment that leads to a credit offer, and any scoring model), and the Data Protection Officer (any use of transaction data to target offers). Not buyers: they have no target Seekridge helps them hit, and a pitch aimed at them reads as pressure.
+
+**What they need:** For data protection — the purpose and legal basis for using transaction data, consent handling, the data-processing agreement, retention and deletion. For model risk — the method, a backtest on the bank's own data, the evidence trail per moment (which data points, how much each counted), and the audit log. For credit offers — the lending criteria behind a moment, which credit risk signs off once.
+
+**How we reach them:** A prepared review pack the buyer takes inside, then a technical session with the rep if they ask for one. This is where "why this customer" earns its keep: it is the reason approval happens once instead of campaign by campaign.
 
 ---
 
 ## IT Security Lead (infrastructure gatekeeper)
 
-**Buying psychology:** Not swayed by product enthusiasm from other stakeholders — answers to a data-governance policy or regulator, not the deal's momentum. Genuinely willing to end a deal everyone else wants, and doesn't experience that as a loss. Sharing customer data with a vendor puts this persona at the center of every Seekridge deal.
-
-**Pain, in their language:** *"That's not a small gap for us — it's a hard requirement, not a nice-to-have."* *"I've had vendors dodge this question before, so directness helps."*
-
-**Decision criteria, ranked:**
-1. Where customer data is processed and stored, against a specific regulatory requirement
-2. Access control, pseudonymization, and audit-logging architecture
-3. Whether the vendor gives a direct yes/no rather than a deflection
+**Buying psychology:** Answers to a data-governance policy or regulator, not the deal's momentum. Willing to end a deal everyone else wants. Sharing transaction data with a vendor puts this role in every Seekridge deal.
 
 **Common objections:** "Does this support on-premises deployment?" · "Where specifically is our customer data processed and stored?"
 
-**Trust triggers:** An immediate, honest "no, we don't have that" when true, followed by a concrete next step (e.g. a compliance/infrastructure technical call) rather than a soft pivot.
+**Trust triggers:** An immediate, honest "no, we don't have that" when true, followed by a concrete next step.
 
-**Trust breakers:** Any vendor response that reframes a hard requirement as a soft preference. A generic "we take security seriously" non-answer.
-
-**Seen in this repo:** [Solvane Lending Group](../knowledge-base/sales-call-analysis/call-10-solvane-lending-group.md) (Erik Voss — a hard on-prem requirement stated plainly, handled honestly by the rep rather than talked around; see [`competitive-landscape.md`](./competitive-landscape.md)'s "Known gap working against us").
+**Seen in this repo:** [Solvane Lending Group](./sales-call-analysis/call-10-solvane-lending-group.md) (Erik Voss — a hard on-prem requirement, handled honestly; see [`competitive-landscape.md`](./competitive-landscape.md)'s "Known gap working against us").
 
 ---
 
 ## Vendor Risk & Compliance Reviewer
 
-**Buying psychology:** Operates on an internal review clock that has nothing to do with sales urgency — typically a queue-based process with its own timeline, largely independent of how convinced the economic buyer already is.
+Operates on an internal review clock that has nothing to do with sales urgency. Rarely objects directly — more often simply doesn't move. What helps: standard security and compliance documentation, including a data-processing agreement, handed to the champion rather than this reviewer directly, and patience calibrated to their stated timeline.
 
-**Pain, in their language:** *"New vendor approvals move slowly here — I don't have much ability to expedite it."*
-
-**Decision criteria, ranked:**
-1. Standard security/compliance documentation completeness, including a data-processing agreement
-2. Precedent — has a similar vendor been approved before
-3. Absence of direct pressure from the vendor (a vendor reaching out directly can read as pressure, not helpfulness)
-
-**Common objections:** Rarely objects directly — more often simply doesn't move, which reads as an objection if misdiagnosed as one.
-
-**What actually helps:** Pre-prepared standard documentation handed to the internal champion, not this reviewer directly. Patience calibrated to their actual stated timeline, not repeated check-ins.
-
-**Seen in this repo:** [Thornfield Mutual](../knowledge-base/sales-call-analysis/call-14-thornfield-mutual.md) — the champion (Grace Almeida) explicitly asked the rep not to contact compliance directly, and the deal's only open variable was this internal queue, not a product objection.
+**Seen in this repo:** [Thornfield Mutual](./sales-call-analysis/call-14-thornfield-mutual.md) — the champion asked the rep not to contact compliance directly.
 
 ---
 
 ## Using personas together on one deal
 
-Most real deals engage two or three of these personas at once, not one at a time — the practical skill is knowing which one is actually blocking progress at a given moment, since the answer changes across a deal's lifecycle: Data & CRM Lead early (technical validation), Head of Credit Risk and VP of Mortgage Lending (or Head of Bancassurance) in the middle (the substantive decision, often in tension with each other), then IT Security and Vendor Risk & Compliance late (gates that can kill an otherwise-won deal). Treating a late-stage IT Security objection as if it were a Head of Credit Risk objection — i.e., trying to win it on explainability — is a common, avoidable mismatch.
+A deal moves through the roles in order: a buyer first (Head of Mortgage Lending or Head of Retail Banking — the substantive decision), the Data & CRM Lead early in evaluation, risk and data protection once the buyer wants it, then IT Security and Vendor Risk & Compliance late (gates that can stop an otherwise-won deal). Treating a late IT Security objection as a product objection, or pitching a reviewer as if they were a buyer, are the two most common, avoidable mismatches.

@@ -6,7 +6,7 @@ Nordkredit — an account that runs through the rest of this repo. This case stu
 
 ## Input
 
-> Account: Nordkredit. Source: `win-loss-crm-export.csv` row OPP-1001 (Won, closed 2026-09-08, 65-day cycle, €56,924 ACV, competitor Kontora quoted €57,313, decision driver "Explainability / evidence trail", product feedback "Standout: customer-level evidence trail") + `sales-call-analysis/call-01-nordkredit.md` (discovery call with Lena Virtanen, Head of Credit Risk).
+> Account: Nordkredit. Source: `win-loss-crm-export.csv` row OPP-1001 (Won, closed 2026-09-08, 65-day cycle, €56,924 ACV, competitor Kontora quoted €57,313, decision driver "Explainability / evidence trail", product feedback "Standout: customer-level evidence trail") + `sales-call-analysis/call-01-nordkredit.md` (discovery call with Lena Virtanen, Head of Mortgage Lending).
 
 ## Output
 
@@ -19,7 +19,7 @@ Nordkredit — an account that runs through the rest of this repo. This case stu
 **Snapshot:** Bank/Lender · Tier 1 · Nordics · ~€600M annual origination · Displaced: Kontora (incumbent) · Deal size: €56,924 ACV · Sales cycle: 65 days
 
 ### Challenge
-Nordkredit's newly hired Head of Credit Risk inherited an internal audit finding on her first day: a refinancing campaign had been run off a customer score from the bank's existing data provider — a score and a generic methodology document, not the specific data points that put an individual customer on the list. When an auditor or internal risk committee asked "why this customer," the only honest answer was "the model said so" — not something the team wanted to repeat at an upcoming board audit.
+Nordkredit's newly hired Head of Mortgage Lending inherited a stalled refinancing programme and an internal audit finding on her first day: a refinancing campaign had been run off a customer score from the bank's existing data provider — a score and a generic methodology document, not the specific data points that put an individual customer on the list. When an auditor or internal risk committee asked "why this customer," the only honest answer was "the model said so" — and until that changed, the next campaign wasn't going out. An upcoming board audit made the deadline real.
 
 ### Solution
 Rather than a prepared demo, Seekridge ran moments live on a pseudonymized sample of Nordkredit's own customers, at the prospect's request — showing the actual transaction, market, and CRM data points behind each moment and their weighting, not a templated walkthrough. Nordkredit had already used this same standard (push past the first demo, ask for a real breakdown) to evaluate and rule out another vendor earlier in its process.

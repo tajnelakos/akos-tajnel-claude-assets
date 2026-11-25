@@ -37,11 +37,12 @@ Derived: full battlecards, positioning gaps, and objection handling → [`compet
 
 ## Buyer personas
 
-- **Head of Credit Risk** (bank risk and model-governance owner) — signs off any model that decides which customers get an offer. Cares about explainability, fair treatment, and audit trail. Skeptical of "black box AI" claims.
-- **VP of Mortgage Lending** (bank economic buyer) — cares about growing and retaining the mortgage book, and about integration effort.
-- **Head of Bancassurance** (bank economic buyer for insurance) — cares about insurance attach rates, premiums placed with other insurers, and advisor time.
-- **Data & CRM Lead** (technical evaluator) — cares about data access, integration effort and whether the method holds up.
-- **Head of Advisory Network** (buyer at smaller savings banks and credit unions) — cares about advisor adoption and whether moments turn into appointments.
+We sell to two buyers, both measured on growth from the bank's existing customers:
+
+- **Head of Mortgage Lending** — owns mortgages and refinancing: retention at fixed-rate renewal, mortgages won from other banks, new mortgages to existing customers. Usually the entry point.
+- **Head of Retail Banking** — owns every other product a retail customer holds: car and consumer loans, green and renovation loans, cards and card upgrades, and insurance sold through the bank. The budget owner once Seekridge covers more than mortgages, and often the only buyer at smaller banks.
+
+Others we meet during a deal but don't market to: advisors (the users), the Data & CRM Lead (technical evaluator), risk and model governance and the Data Protection Officer (reviewers), IT Security and Vendor Risk (gatekeepers). They get prepared material through the buyer.
 
 Derived: full buying psychology, objections, content preferences → [`personas.md`](./personas.md)
 

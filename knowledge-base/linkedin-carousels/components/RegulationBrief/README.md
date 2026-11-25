@@ -2,7 +2,7 @@
 
 Explains what a rule or supervisory change means for banks and lenders: the rule as a question, what it says, what it asks, what to prepare, where Seekridge fits, and a close.
 
-**Use it for** regulation, supervisory guidance and audit expectations that touch automated customer decisions: the EU AI Act, model-risk guidance, consumer-outcome rules. The reader is the Head of Credit Risk, Vendor Risk & Compliance or IT Security. 6 slides.
+**Use it for** regulation, supervisory guidance and audit expectations that touch automated customer decisions: the EU AI Act, model-risk guidance, consumer-outcome rules. The reader is the buyer who has to get a tool through review (Head of Mortgage Lending or Head of Retail Banking); it is written so they can forward it to risk, compliance or IT security. 6 slides.
 
 **You provide**
 - The rule's name and the relevant part, exactly as published ("EU AI Act · Annex III"), checked against the official text.

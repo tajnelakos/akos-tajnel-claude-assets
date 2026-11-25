@@ -1,7 +1,7 @@
 # Call Transcript — Harborlight Credit Union
 
 **Date:** August 2026 · **Duration:** ~13 minutes · **Call type:** First discovery call
-**Rep:** Marcus Webb (Seekridge) · **Prospect:** Dana Whitfield, Head of Advisory Network, Harborlight Credit Union (credit union, DACH, ~29,000 members, ~60 advisors)
+**Rep:** Marcus Webb (Seekridge) · **Prospect:** Dana Whitfield, Head of Retail Banking, Harborlight Credit Union (credit union, DACH, ~29,000 members, ~60 advisors)
 
 ---
 

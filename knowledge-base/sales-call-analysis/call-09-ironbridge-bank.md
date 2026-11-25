@@ -1,7 +1,7 @@
 # Call Transcript — Ironbridge Bank
 
 **Date:** July 2026 · **Duration:** ~14 minutes · **Call type:** First discovery call
-**Rep:** Anna Kowalski (Seekridge) · **Prospect:** Fredrik Nilsson, Head of Credit Risk, Ironbridge Bank (regional lender)
+**Rep:** Anna Kowalski (Seekridge) · **Prospect:** Fredrik Nilsson, Head of Mortgage Lending, Ironbridge Bank (regional lender)
 
 ---
 

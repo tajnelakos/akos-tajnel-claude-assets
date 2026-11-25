@@ -1,10 +1,10 @@
-# Deep-Dive Campaign — VP of Mortgage Lending
+# Deep-Dive Campaign — Head of Mortgage Lending
 
-A full 5-email, A/B-tested campaign for the bank's economic buyer, run against a 260-contact segment. Results: [`campaign-metrics.csv`](./campaign-metrics.csv) (raw sends) and [`campaign-performance-analysis.html`](./campaign-performance-analysis.html) (what the data actually says). See [`personas.md`](../../knowledge-base/personas.md#vp-of-mortgage-lending-economic-buyer-banklender-segment) for the persona this is built from.
+A full 5-email, A/B-tested campaign for the Head of Mortgage Lending, run against a 260-contact segment. Results: [`campaign-metrics.csv`](./campaign-metrics.csv) (raw sends) and [`campaign-performance-analysis.html`](./campaign-performance-analysis.html) (what the data actually says). See [`personas.md`](../../knowledge-base/personas.md#head-of-mortgage-lending-buyer-mortgages-and-refinancing) for the persona this is built from.
 
 **Trigger:** used the retention-uplift calculator on the site.
 
-**A/B design note:** same structure as the [Head of Credit Risk campaign](./campaign-head-of-credit-risk.md) — Variant A states the point declaratively with a specific number where one exists, Variant B leads with a direct question naming the cost of inaction. **Variant A won on every tracked metric for this persona** — the opposite result from the Head of Credit Risk campaign, where the question framing won. Don't read "provocative questions win" or "declarative numbers win" as a universal rule from either result in isolation — see the analysis for why the same technique cuts opposite ways for these two personas.
+**A/B design note:** same structure as the [Head of Retail Banking campaign](./campaign-head-of-retail-banking.md) — Variant A states the point declaratively with a specific number where one exists, Variant B leads with a direct question naming the cost of inaction. **Variant A won on every tracked metric for this persona** — the opposite result from the Head of Retail Banking campaign, where the question framing won. Don't read "provocative questions win" or "declarative numbers win" as a universal rule from either result in isolation — see the analysis for why the same technique cuts opposite ways for these two personas.
 
 ---
 
@@ -69,10 +69,10 @@ Last email in this sequence. One thing worth naming directly: this persona's `pe
 
 If it'd help, we can put together a short, joint walkthrough for you and whoever owns the risk side, so the evidence-trail conversation happens in the room with both of you rather than becoming a second sales cycle you have to run yourself.
 
-**Decision criterion advanced:** alignment with what Credit Risk has already approved (ranked #4) — closes the sequence by removing the one friction point this persona's own profile flags as most likely to stall the deal, without asking them to do the risk team's job.
+**Decision criterion advanced:** getting through risk review without running it themselves (ranked #4) — closes the sequence by removing the one friction point this persona's own profile flags as most likely to stall the deal, without asking them to do the reviewers' job: they get a prepared pack to forward.
 
 ---
 
 ## Reply handling for this campaign
 
-See [`reply-handling-playbook.md`](./reply-handling-playbook.md)'s VP of Mortgage Lending section for response templates by reply type (timeline pushback, "send this to my risk lead," retraining concern, hard no).
+See [`reply-handling-playbook.md`](./reply-handling-playbook.md)'s Head of Mortgage Lending section for response templates by reply type (timeline pushback, "send this to my risk lead," retraining concern, hard no).

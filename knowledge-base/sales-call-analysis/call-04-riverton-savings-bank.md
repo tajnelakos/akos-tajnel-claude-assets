@@ -1,7 +1,7 @@
 # Call Transcript — Riverton Savings Bank
 
 **Date:** July 2026 · **Duration:** ~16 minutes · **Call type:** First discovery call
-**Rep:** Marcus Webb (Seekridge) · **Prospect:** Tomas Reyes, Head of Advisory Network, Riverton Savings Bank (small savings bank, DACH, ~74,000 customers, ~40 advisors)
+**Rep:** Marcus Webb (Seekridge) · **Prospect:** Tomas Reyes, Head of Retail Banking, Riverton Savings Bank (small savings bank, DACH, ~74,000 customers, ~40 advisors)
 
 ---
 

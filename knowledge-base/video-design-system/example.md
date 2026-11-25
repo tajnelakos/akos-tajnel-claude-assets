@@ -11,7 +11,7 @@ The rendered film: [`assets/Films/story-fixed-rate-dach-16x9.mp4`](./assets/Film
 ## Output
 
 ```
-## Film — Moment story · VP of Mortgage Lending · DACH (UK English master)
+## Film — Moment story · Head of Mortgage Lending · DACH (UK English master)
 
 **Format and why:** Moment story. The viewer doesn't have Seekridge yet and needs to trust one
 moment enough to act on it, so not a Walkthrough; one persona and one situation, so not a Statement.
@@ -65,14 +65,14 @@ assets/Films/story-fixed-rate-dach-16x9.srt · assets/Stills/contact-sheet-story
 - Still open: no cleared voice or music, so the master ships silent with captions.
 
 ---
-Sourced from: personas.md (VP of Mortgage Lending: book growth and retention, integration effort) ·
+Sourced from: personas.md (Head of Mortgage Lending: book growth and retention, integration effort) ·
 knowledge-base.md (bank moment: fixed rate resets soon, likely to refinance elsewhere) ·
 positioning.md (the end-card line) · this system's section 9 template and section 6 sample data
 ```
 
 ## Why this shape
 
-- **The situation gets two beats before Seekridge is named.** The VP persona cares about the book leaking; the timeline makes the cost concrete without a single feature.
+- **The situation gets two beats before Seekridge is named.** The Head of Mortgage Lending cares about the book leaking; the timeline makes the cost concrete without a single feature.
 - **The evidence beat is the longest (9.5 s).** It is what separates Seekridge from a score: if the film had to lose 10 seconds, the layers beat would go, not this one.
 - **The proof is a backtest, not a customer quote**, and is labelled illustrative because the lender is a demo. A real cut needs an approved case and its source line.
 - **The German cut is re-timed, not shrunk**: German runs about 20% longer, so the evidence and action beats each gain a second and the layers beat loses two.
