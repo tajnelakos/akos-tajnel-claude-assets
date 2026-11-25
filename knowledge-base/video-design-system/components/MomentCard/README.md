@@ -11,7 +11,7 @@ One moment for one customer, as the product shows it in *Moments this week*: wha
 
 | Segment | Moments |
 |---|---|
-| Bank / mortgage lender | Refinance risk · Top-up potential · Likely to move · Rate reset ahead |
+| Bank / mortgage lender | Likely to move · Energy renovation · New homeowner (home insurance cross-sell) · Refinance risk · Top-up potential · Rate reset ahead |
 | Insurer | Underinsured home · No contents cover · Renewal risk |
 | Brokerage | Likely to sell · Ready to upsize |
 

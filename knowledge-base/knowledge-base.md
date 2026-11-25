@@ -14,7 +14,7 @@ The platform turns these into **moments**: ranked, explained opportunities in cu
 
 What a moment looks like, by segment:
 
-- **Banks & mortgage lenders** — a customer whose fixed rate resets soon and is likely to refinance elsewhere; a homeowner with enough equity for a top-up or renovation loan; a customer likely to move and need a new mortgage.
+- **Banks & mortgage lenders** — a customer whose fixed rate resets soon and is likely to refinance elsewhere; a homeowner with enough equity for a top-up or renovation loan; a customer likely to move and need a new mortgage; a homeowner planning an energy renovation, ready for a green loan; a customer who has just bought a property and needs home insurance.
 - **Insurers** — a home whose rebuild value has outgrown its sum insured; a policyholder with no contents cover; a policy at high risk of not renewing.
 - **Real estate brokerages** — a homeowner in the brokerage's own contact database who is likely to sell in the next 12 months.
 

@@ -4,9 +4,9 @@ Retention and new lending start
 with customers you already have.
 
 2
-00:00:06,100 --> 00:00:11,430
+00:00:06,100 --> 00:00:11,280
 Many of your customers already have plans:
-a renovation, a bigger home, a better rate.
+a move, an energy renovation, a new home.
 
 3
 00:00:12,000 --> 00:00:16,940
@@ -14,26 +14,31 @@ Seekridge reads your CRM alongside
 live market and property data.
 
 4
-00:00:18,000 --> 00:00:20,750
-This customer's fixed rate ends in March.
+00:00:18,000 --> 00:00:20,170
+This customer is planning a move.
 
 5
-00:00:21,900 --> 00:00:25,180
-Every reason is on screen,
-with how much it counted.
+00:00:21,900 --> 00:00:25,610
+It's your moment to reach out
+with a mortgage offer, right on time.
 
 6
-00:00:26,100 --> 00:00:29,000
-This one has the equity
-for a renovation loan.
+00:00:26,500 --> 00:00:30,930
+This one is planning an energy renovation.
+Time to offer a green loan.
 
 7
-00:00:32,000 --> 00:00:36,090
+00:00:32,500 --> 00:00:36,970
+And this customer just bought a home:
+the moment for a home insurance offer.
+
+8
+00:00:38,500 --> 00:00:42,590
 Every Monday, the week's moments
 arrive ranked, in your CRM.
 
-8
-00:00:38,700 --> 00:00:41,890
+9
+00:00:45,200 --> 00:00:48,390
 Seekridge. Opportunities
 you can act on, and explain.
 
