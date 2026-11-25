@@ -12,7 +12,8 @@ Takes a closed-won account's real CRM record and/or call transcript — not a re
 
 - [`skill.md`](./skill.md) — the Claude Skill definition
 - [`example.md`](./example.md) — Nordkredit, built from the actual win-loss CRM record and sales-call-analysis transcript already in this repo
-- [`case-study-nordkredit.html`](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/case-study-builder/case-study-nordkredit.html) — the same case study as a designed, publishable page in the Seekridge look
+- [`case-study-nordkredit.html`](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/case-study-builder/case-study-nordkredit.html) — the same Nordkredit draft as a designed page, with what is and isn't confirmed
+- [`case-study-alpenkreis-bank.html`](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/case-study-builder/case-study-alpenkreis-bank.html) — what a finished, customer-facing case study looks like once results are in: Alpenkreis Bank (the demo bank in the product screens) after six months. Front and back, with KPIs (customer records enriched, new opportunities found by type, closed business value), challenge / solution / results, a customer quote and the rollout. Every figure and the quote are illustrative, and labeled as such
 
 ## Why this account specifically
 
