@@ -115,7 +115,7 @@
 /* ---------- Captions ---------- */
 .pwv-captions { position: absolute; left: var(--pwv-margin); right: var(--pwv-margin); bottom: var(--pwv-caption-bottom); height: 0; z-index: 40; }
 .pwv-captions p {
-  position: absolute; left: 0; bottom: 0; margin: 0; max-width: 1180px;
+  position: absolute; left: 0; right: 0; bottom: 0; margin: 0 auto; width: fit-content; max-width: 1180px; text-align: center;
   padding: 12px 32px 14px; border-radius: var(--pwv-radius-control); background: var(--pwv-caption-band); color: var(--pwv-caption-ink);
   font: var(--pwv-text-caption); visibility: hidden;
 }

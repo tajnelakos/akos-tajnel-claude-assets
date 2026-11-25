@@ -245,7 +245,7 @@ Summary rules: [`video-and-motion.md`](../design-system/video-and-motion.md). Th
 
 - **Formats:** 1920 × 1080 master (45–75 s), 1080 × 1350 social cut (30–45 s), 1080 × 1920 vertical (15–30 s); 30 fps; one video per segment and persona.
 - **Structure:** hook (the customer situation) → tension (what goes wrong today) → method (product panels rebuilt in code from the real screens, through the three data layers, ending on a moment with its evidence trail) → proof (one backtest figure with its source) → end card (lockup, "Opportunities you can act on — and explain.", one action, held three seconds).
-- **Captions:** always burnt in, IBM Plex Sans 500 at 44px on a Navy band (a Paper band on Navy frames), left-aligned, two lines maximum, at least 160px above the bottom edge.
+- **Captions:** always burnt in, IBM Plex Sans 500 at 44px on a Navy band (a Paper band on Navy frames), bottom centre, two lines maximum, at least 160px above the bottom edge.
 - **Motion language:** calm and continuous — the dot map is always gently moving, never bouncing. Signature move: the map settles, a few peaks rise, then the gold point lands on the highest. One easing curve (`cubic-bezier(0.2, 0, 0, 1)`); 150ms for UI feedback, 250ms for panels, 500ms for video text, 800ms for line draws. No spins, 3D flips, glitch effects, or stock footage. UI motion respects `prefers-reduced-motion`.
 
 ---
