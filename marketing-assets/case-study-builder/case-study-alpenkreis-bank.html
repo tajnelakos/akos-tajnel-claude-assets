@@ -12,8 +12,7 @@
 *{ box-sizing:border-box; }
 body{ margin:0; padding:32px 16px; background:#E9E8E2; color:var(--ink); font-family:var(--body); -webkit-font-smoothing:antialiased; display:flex; flex-direction:column; gap:32px; }
 .sheet{ width:100%; max-width:860px; min-height:1216px; margin:0 auto; background:var(--paper); border:1px solid var(--line); border-radius:24px; overflow:hidden; display:flex; flex-direction:column; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
-.eyebrow{ margin:0 0 12px; font:500 12px/16px var(--mono); letter-spacing:.08em; text-transform:uppercase; color:var(--navy); display:flex; align-items:center; gap:8px; }
-.eyebrow::before{ content:""; width:8px; height:8px; border-radius:4px; background:var(--gold); }
+.eyebrow{ margin:0 0 12px; display:inline-flex; align-items:center; padding:6px 13px; border-radius:999px; background:var(--navy); color:#fff; font:500 13px/1 var(--body); box-shadow:0 2px 0 rgba(15,42,64,.45); }
 .big{ margin:0 0 10px; font:800 30px/1.08 var(--display); letter-spacing:-.025em; color:var(--ink); text-wrap:balance; }
 .big em{ font-style:normal; color:var(--gold); }
 .lead{ margin:0; font-size:15px; line-height:1.6; color:var(--ink-soft); }
@@ -24,11 +23,11 @@ body{ margin:0; padding:32px 16px; background:#E9E8E2; color:var(--ink); font-fa
 .bar{ display:flex; align-items:center; justify-content:space-between; gap:16px; }
 .co{ display:flex; align-items:center; gap:14px; }
 .co img{ height:28px; display:block; }
-.co .x{ font:400 18px/1 var(--mono); color:rgba(244,243,239,.5); }
+.co .x{ font:400 20px/1 var(--body); color:rgba(244,243,239,.5); }
 .co .ak{ font:700 19px/1 var(--display); letter-spacing:-.01em; color:#fff; display:flex; align-items:center; gap:8px; }
 .co .ak i{ width:22px; height:22px; border-radius:6px; background:#fff; display:grid; place-items:center; }
 .co .ak i::before{ content:""; width:0; height:0; border-left:6px solid transparent; border-right:6px solid transparent; border-bottom:10px solid var(--navy); }
-.kind{ font:400 12px/16px var(--mono); color:rgba(244,243,239,.86); border:1px solid rgba(244,243,239,.32); border-radius:999px; padding:7px 12px; white-space:nowrap; }
+.kind{ font:500 13px/1 var(--body); color:var(--navy-deep); background:var(--paper); border-radius:999px; padding:8px 14px; white-space:nowrap; box-shadow:0 2px 0 rgba(0,0,0,.28); }
 .hero-grid{ display:grid; grid-template-columns:minmax(0,1fr) 330px; gap:8px; align-items:center; margin-top:24px; }
 .hero h1{ margin:0 0 14px; font:800 40px/1.06 var(--display); letter-spacing:-.025em; color:#fff; text-wrap:balance; }
 .hero h1 em{ font-style:normal; color:var(--gold-light); }
@@ -39,7 +38,7 @@ body{ margin:0; padding:32px 16px; background:#E9E8E2; color:var(--ink); font-fa
 .fact{ display:flex; gap:10px; align-items:flex-start; padding-right:12px; }
 .fact + .fact{ border-left:1px solid rgba(244,243,239,.16); padding-left:16px; }
 .fact svg{ width:18px; height:18px; flex:none; stroke:var(--gold-light); fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; margin-top:1px; }
-.fact span{ display:block; font:500 10.5px/14px var(--mono); letter-spacing:.08em; text-transform:uppercase; color:rgba(244,243,239,.6); }
+.fact span{ display:block; font:500 12.5px/16px var(--body); color:rgba(244,243,239,.6); }
 .fact b{ display:block; margin-top:3px; font:500 13.5px/1.35 var(--body); color:#fff; }
 
 /* KPI band */
@@ -49,13 +48,13 @@ body{ margin:0; padding:32px 16px; background:#E9E8E2; color:var(--ink); font-fa
 .kpi.is-gold{ background:var(--navy); border-color:var(--navy); }
 .kpi.is-gold b{ color:var(--gold-light); } .kpi.is-gold span{ color:rgba(244,243,239,.82); } .kpi.is-gold small{ color:rgba(244,243,239,.55); }
 .kpi span{ font-size:13px; line-height:1.4; color:var(--ink-soft); }
-.kpi small{ margin-top:auto; font:400 11px/14px var(--mono); color:var(--slate); }
+.kpi small{ margin-top:auto; font:400 12px/14px var(--body); color:var(--slate); }
 
 /* Challenge / solution / results */
 .csr{ display:grid; grid-template-columns:1fr 1fr 1fr; border-radius:24px; overflow:hidden; background:var(--navy-deep); color:var(--paper); }
 .csr > div{ padding:22px 22px 24px; }
 .csr > div + div{ border-left:1px solid rgba(244,243,239,.12); }
-.csr h3{ margin:0 0 10px; font:500 11px/14px var(--mono); letter-spacing:.1em; text-transform:uppercase; color:var(--gold-light); }
+.csr h3{ margin:0 0 12px; display:inline-flex; padding:5px 12px; border-radius:999px; background:var(--gold-light); color:var(--navy-deep); font:600 13px/1 var(--body); }
 .csr p{ margin:0; font-size:13.8px; line-height:1.55; color:rgba(244,243,239,.88); }
 .csr ul{ margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:8px; }
 .csr li{ position:relative; padding-left:16px; font-size:13.5px; line-height:1.45; color:rgba(244,243,239,.9); }
@@ -79,15 +78,15 @@ body{ margin:0; padding:32px 16px; background:#E9E8E2; color:var(--ink); font-fa
 .type{ border-radius:20px; background:var(--surface); border:1px solid var(--line); overflow:hidden; display:flex; flex-direction:column; }
 .type-head{ padding:16px 18px 14px; background:var(--navy); color:#fff; }
 .type:first-child .type-head{ background:var(--ink); }
-.type-head span{ font:500 10.5px/14px var(--mono); letter-spacing:.08em; text-transform:uppercase; color:var(--gold-light); }
+.type-head span{ display:inline-flex; padding:4px 10px; border-radius:999px; background:rgba(244,243,239,.14); font:500 12px/1 var(--body); color:#fff; }
 .type-head b{ display:block; margin-top:6px; font:800 36px/1 var(--display); letter-spacing:-.03em; }
 .type-head small{ display:block; margin-top:4px; font-size:12.5px; color:rgba(244,243,239,.75); }
 .type-body{ padding:14px 18px 16px; display:flex; flex-direction:column; gap:10px; flex:1; }
 .split{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:6px; }
 .split li{ display:flex; justify-content:space-between; gap:8px; font-size:12.8px; color:var(--ink-soft); }
-.split li b{ font:500 12.5px/1.4 var(--mono); color:var(--ink); }
+.split li b{ font:600 13px/1.4 var(--body); color:var(--ink); }
 .closed{ margin-top:auto; border-top:1px solid var(--line); padding-top:10px; }
-.closed span{ display:block; font:500 10px/12px var(--mono); letter-spacing:.1em; text-transform:uppercase; color:var(--slate); }
+.closed span{ display:block; font:600 12.5px/14px var(--body); color:var(--slate); }
 .closed b{ display:block; margin-top:4px; font:800 22px/1.1 var(--display); letter-spacing:-.02em; color:var(--good); }
 .closed small{ font-size:12px; color:var(--ink-soft); }
 
@@ -96,7 +95,7 @@ body{ margin:0; padding:32px 16px; background:#E9E8E2; color:var(--ink); font-fa
 .fun{ display:grid; grid-template-columns:170px 1fr 120px; gap:14px; align-items:center; }
 .fun .lab{ font:600 13.5px/1.3 var(--body); color:var(--ink); }
 .fun .lab small{ display:block; font:400 12px/1.3 var(--body); color:var(--ink-soft); }
-.fun .bar{ height:34px; border-radius:10px; background:var(--navy); display:flex; align-items:center; padding:0 12px; font:500 12px/1 var(--mono); color:#fff; }
+.fun .bar{ height:34px; border-radius:10px; background:var(--navy); display:flex; align-items:center; padding:0 12px; font:600 12.5px/1 var(--body); color:#fff; }
 .fun:last-child .bar{ background:var(--gold-light); color:var(--navy-deep); }
 .fun .val{ font:800 22px/1 var(--display); letter-spacing:-.02em; color:var(--navy); text-align:right; }
 .fun:last-child .val{ color:var(--gold); }
@@ -107,7 +106,7 @@ body{ margin:0; padding:32px 16px; background:#E9E8E2; color:var(--ink); font-fa
 .road li::after{ content:""; position:absolute; right:-8px; top:50%; width:6px; height:6px; border-top:2px solid rgba(244,243,239,.4); border-right:2px solid rgba(244,243,239,.4); transform:translateY(-50%) rotate(45deg); }
 .road li:last-child::after{ display:none; }
 .road li:last-child{ background:var(--gold-light); border-color:var(--gold-light); }
-.road .w{ display:block; font:500 10.5px/14px var(--mono); letter-spacing:.06em; text-transform:uppercase; color:rgba(244,243,239,.6); }
+.road .w{ display:block; font:500 12.5px/16px var(--body); color:rgba(244,243,239,.65); }
 .road h4{ margin:6px 0 3px; font:700 16px/1.2 var(--display); color:#fff; }
 .road p{ margin:0; font-size:12.5px; line-height:1.4; color:rgba(244,243,239,.75); }
 .road li:last-child .w{ color:rgba(22,50,74,.7); } .road li:last-child h4{ color:var(--navy-deep); } .road li:last-child p{ color:rgba(22,50,74,.85); }
@@ -116,11 +115,11 @@ body{ margin:0; padding:32px 16px; background:#E9E8E2; color:var(--ink); font-fa
 .cta h2{ margin:0; font:800 26px/1.08 var(--display); letter-spacing:-.02em; }
 .cta p{ margin:6px 0 0; font-size:14px; line-height:1.5; color:rgba(22,50,74,.85); }
 .btn{ font:600 15px/20px var(--body); background:var(--navy-deep); color:#fff; border-radius:12px; padding:13px 18px; white-space:nowrap; text-decoration:none; }
-.btn::after{ content:" →"; color:var(--gold-light); }
-.note{ margin:0; font:400 11px/16px var(--mono); color:var(--slate); }
-.band{ margin-top:auto; background:var(--navy-deep); color:rgba(244,243,239,.78); padding:16px 44px; display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; font:400 12px/16px var(--mono); }
+
+.note{ margin:0; font:400 12px/16px var(--body); color:var(--slate); }
+.band{ margin-top:auto; background:var(--navy-deep); color:rgba(244,243,239,.78); padding:16px 44px; display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; font:400 13px/16px var(--body); }
 .band img{ height:20px; display:block; } .band b{ color:#fff; font-weight:500; }
-.pageno{ color:rgba(244,243,239,.5); font-size:11px; }
+.pageno{ color:rgba(244,243,239,.55); font-size:12px; }
 
 @page{ size:A4; margin:0; }
 @media print{ body{ background:none; padding:0; gap:0; } .sheet{ border:0; border-radius:0; max-width:none; min-height:297mm; break-after:page; } }
@@ -132,6 +131,7 @@ body{ margin:0; padding:32px 16px; background:#E9E8E2; color:var(--ink); font-fa
   .fun{ grid-template-columns:1fr 80px; } .fun .bar{ grid-column:1 / -1; grid-row:2; }
   .road{ grid-template-columns:1fr 1fr; } .road li::after{ display:none; } .bar, .co{ flex-wrap:wrap; }
 }
+.eyebrow::before{ content:""; width:16px; height:12px; margin-right:7px; background:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%2016%2012%27%3E%3Cpath%20d%3D%27M1%2011%20L5.5%204%20L8%207.5%20L11%202%20L15%2011%27%20fill%3D%27none%27%20stroke%3D%27%23FFFFFF%27%20stroke-width%3D%271.8%27%20stroke-linejoin%3D%27round%27%20stroke-linecap%3D%27round%27/%3E%3Ccircle%20cx%3D%2711%27%20cy%3D%272%27%20r%3D%271.9%27%20fill%3D%27%23D9A54B%27/%3E%3C/svg%3E") center/contain no-repeat; flex:none; }
 </style>
 </head>
 <body>
@@ -141,7 +141,7 @@ body{ margin:0; padding:32px 16px; background:#E9E8E2; color:var(--ink); font-fa
   <header class="hero">
     <div class="bar">
       <div class="co"><img src="../../knowledge-base/flyer-design-system/assets/Logos/pw-lockup-paper.svg" alt="Seekridge"><span class="x">×</span><span class="ak"><i></i>Alpenkreis Bank</span></div>
-      <span class="kind">Case study · Retail banking</span>
+      <span class="kind">Case study: retail banking</span>
     </div>
     <div class="hero-grid">
       <div>
@@ -154,7 +154,7 @@ body{ margin:0; padding:32px 16px; background:#E9E8E2; color:var(--ink); font-fa
       <div class="fact"><svg viewBox="0 0 24 24"><path d="M3 10l9-6 9 6"/><path d="M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18"/></svg><div><span>Customer</span><b>Alpenkreis Bank</b></div></div>
       <div class="fact"><svg viewBox="0 0 24 24"><path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.5"/></svg><div><span>Industry</span><b>Retail banking</b></div></div>
       <div class="fact"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.5"/></svg><div><span>Focus</span><b>Mortgage growth, cross-sell</b></div></div>
-      <div class="fact"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><div><span>Market</span><b>Germany · 14 branches</b></div></div>
+      <div class="fact"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><div><span>Market</span><b>Germany, 14 branches</b></div></div>
     </div>
   </header>
 
@@ -189,7 +189,7 @@ body{ margin:0; padding:32px 16px; background:#E9E8E2; color:var(--ink); font-fa
       </figure>
     </section>
   </main>
-  <div class="band"><img src="../../knowledge-base/flyer-design-system/assets/Logos/pw-lockup-paper.svg" alt="Seekridge"><span><b>seekridge.example</b> · hello@seekridge.example</span><span class="pageno">Seekridge and Alpenkreis Bank are fictional; all figures are illustrative · 1/2</span></div>
+  <div class="band"><img src="../../knowledge-base/flyer-design-system/assets/Logos/pw-lockup-paper.svg" alt="Seekridge"><span><b>seekridge.example</b>&nbsp;&nbsp;&nbsp;hello@seekridge.example</span><span class="pageno">Seekridge and Alpenkreis Bank are fictional; all figures are illustrative, page 1/2</span></div>
 </div>
 
 <!-- ===================== BACK ===================== -->
@@ -203,7 +203,7 @@ body{ margin:0; padding:32px 16px; background:#E9E8E2; color:var(--ink); font-fa
           <div class="type-head"><span>Mortgage</span><b>2,140</b><small>opportunities found</small></div>
           <div class="type-body">
             <ul class="split"><li>Refinancing from another bank<b>1,310</b></li><li>Buying a home<b>830</b></li></ul>
-            <div class="closed"><span>Closed</span><b>€31.4M</b><small>112 mortgages · avg €280k</small></div>
+            <div class="closed"><span>Closed</span><b>€31.4M</b><small>112 mortgages, average €280k</small></div>
           </div>
         </article>
         <article class="type">
@@ -217,7 +217,7 @@ body{ margin:0; padding:32px 16px; background:#E9E8E2; color:var(--ink); font-fa
           <div class="type-head"><span>Green &amp; renovation loans</span><b>1,200</b><small>opportunities found</small></div>
           <div class="type-body">
             <ul class="split"><li>Low energy rating, enough equity<b>740</b></li><li>Renovation activity nearby<b>460</b></li></ul>
-            <div class="closed"><span>Closed</span><b>€5.9M</b><small>236 loans · avg €25k</small></div>
+            <div class="closed"><span>Closed</span><b>€5.9M</b><small>236 loans, average €25k</small></div>
           </div>
         </article>
       </div>
@@ -249,7 +249,7 @@ body{ margin:0; padding:32px 16px; background:#E9E8E2; color:var(--ink); font-fa
       <a class="btn" href="#">Book a live test</a>
     </section>
   </main>
-  <div class="band"><img src="../../knowledge-base/flyer-design-system/assets/Logos/pw-lockup-paper.svg" alt="Seekridge"><span><b>seekridge.example</b> · hello@seekridge.example</span><span class="pageno">Seekridge and Alpenkreis Bank are fictional; all figures are illustrative · 2/2</span></div>
+  <div class="band"><img src="../../knowledge-base/flyer-design-system/assets/Logos/pw-lockup-paper.svg" alt="Seekridge"><span><b>seekridge.example</b>&nbsp;&nbsp;&nbsp;hello@seekridge.example</span><span class="pageno">Seekridge and Alpenkreis Bank are fictional; all figures are illustrative, page 2/2</span></div>
 </div>
 
 </body>
