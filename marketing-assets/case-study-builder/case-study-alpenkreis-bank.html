@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Case study: Alpenkreis Bank + Seekridge</title>
+<link rel="icon" href="../../knowledge-base/flyer-design-system/assets/Logos/pw-mark-navy.svg">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{ --navy:#1A3A5C; --navy-deep:#16324A; --gold:#C1892E; --gold-light:#D9A54B; --paper:#F4F3EF; --ink:#1C1C1A; --ink-soft:#5B6470; --slate:#8A8782; --line:#E1E0D9; --surface:#fff; --surface-2:#FAF9F6; --good:#1F7A4D;
+  --display:'Archivo',system-ui,sans-serif; --body:'IBM Plex Sans',system-ui,sans-serif; --mono:'IBM Plex Mono','SF Mono',Consolas,monospace; }
+*{ box-sizing:border-box; }
+body{ margin:0; padding:32px 16px; background:#E9E8E2; color:var(--ink); font-family:var(--body); -webkit-font-smoothing:antialiased; display:flex; flex-direction:column; gap:32px; }
+.sheet{ width:100%; max-width:860px; min-height:1216px; margin:0 auto; background:var(--paper); border:1px solid var(--line); border-radius:24px; overflow:hidden; display:flex; flex-direction:column; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+.eyebrow{ margin:0 0 12px; font:500 12px/16px var(--mono); letter-spacing:.08em; text-transform:uppercase; color:var(--navy); display:flex; align-items:center; gap:8px; }
+.eyebrow::before{ content:""; width:8px; height:8px; border-radius:4px; background:var(--gold); }
+.big{ margin:0 0 10px; font:800 30px/1.08 var(--display); letter-spacing:-.025em; color:var(--ink); text-wrap:balance; }
+.big em{ font-style:normal; color:var(--gold); }
+.lead{ margin:0; font-size:15px; line-height:1.6; color:var(--ink-soft); }
+.body{ padding:30px 44px 34px; display:flex; flex-direction:column; gap:30px; }
+
+/* Hero */
+.hero{ background:var(--navy); color:var(--paper); padding:28px 44px 34px; }
+.bar{ display:flex; align-items:center; justify-content:space-between; gap:16px; }
+.co{ display:flex; align-items:center; gap:14px; }
+.co img{ height:28px; display:block; }
+.co .x{ font:400 18px/1 var(--mono); color:rgba(244,243,239,.5); }
+.co .ak{ font:700 19px/1 var(--display); letter-spacing:-.01em; color:#fff; display:flex; align-items:center; gap:8px; }
+.co .ak i{ width:22px; height:22px; border-radius:6px; background:#fff; display:grid; place-items:center; }
+.co .ak i::before{ content:""; width:0; height:0; border-left:6px solid transparent; border-right:6px solid transparent; border-bottom:10px solid var(--navy); }
+.kind{ font:400 12px/16px var(--mono); color:rgba(244,243,239,.86); border:1px solid rgba(244,243,239,.32); border-radius:999px; padding:7px 12px; white-space:nowrap; }
+.hero-grid{ display:grid; grid-template-columns:minmax(0,1fr) 330px; gap:8px; align-items:center; margin-top:24px; }
+.hero h1{ margin:0 0 14px; font:800 40px/1.06 var(--display); letter-spacing:-.025em; color:#fff; text-wrap:balance; }
+.hero h1 em{ font-style:normal; color:var(--gold-light); }
+.hero .sub{ margin:0; font-size:15.5px; line-height:1.6; color:rgba(244,243,239,.84); max-width:50ch; }
+.art{ margin:0 -34px 0 0; -webkit-mask-image:radial-gradient(ellipse 80% 90% at 50% 45%, #000 60%, transparent 100%); mask-image:radial-gradient(ellipse 80% 90% at 50% 45%, #000 60%, transparent 100%); }
+.art img{ display:block; width:100%; }
+.facts{ display:grid; grid-template-columns:repeat(4,1fr); margin-top:24px; border-top:1px solid rgba(244,243,239,.16); padding-top:18px; }
+.fact{ display:flex; gap:10px; align-items:flex-start; padding-right:12px; }
+.fact + .fact{ border-left:1px solid rgba(244,243,239,.16); padding-left:16px; }
+.fact svg{ width:18px; height:18px; flex:none; stroke:var(--gold-light); fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; margin-top:1px; }
+.fact span{ display:block; font:500 10.5px/14px var(--mono); letter-spacing:.08em; text-transform:uppercase; color:rgba(244,243,239,.6); }
+.fact b{ display:block; margin-top:3px; font:500 13.5px/1.35 var(--body); color:#fff; }
+
+/* KPI band */
+.kpis{ display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-top:-2px; }
+.kpi{ background:var(--surface); border:1px solid var(--line); border-radius:18px; padding:18px 18px 16px; display:flex; flex-direction:column; gap:6px; }
+.kpi b{ font:800 34px/1 var(--display); letter-spacing:-.03em; color:var(--navy); }
+.kpi.is-gold{ background:var(--navy); border-color:var(--navy); }
+.kpi.is-gold b{ color:var(--gold-light); } .kpi.is-gold span{ color:rgba(244,243,239,.82); } .kpi.is-gold small{ color:rgba(244,243,239,.55); }
+.kpi span{ font-size:13px; line-height:1.4; color:var(--ink-soft); }
+.kpi small{ margin-top:auto; font:400 11px/14px var(--mono); color:var(--slate); }
+
+/* Challenge / solution / results */
+.csr{ display:grid; grid-template-columns:1fr 1fr 1fr; border-radius:24px; overflow:hidden; background:var(--navy-deep); color:var(--paper); }
+.csr > div{ padding:22px 22px 24px; }
+.csr > div + div{ border-left:1px solid rgba(244,243,239,.12); }
+.csr h3{ margin:0 0 10px; font:500 11px/14px var(--mono); letter-spacing:.1em; text-transform:uppercase; color:var(--gold-light); }
+.csr p{ margin:0; font-size:13.8px; line-height:1.55; color:rgba(244,243,239,.88); }
+.csr ul{ margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:8px; }
+.csr li{ position:relative; padding-left:16px; font-size:13.5px; line-height:1.45; color:rgba(244,243,239,.9); }
+.csr li::before{ content:"→"; position:absolute; left:0; color:var(--gold-light); }
+.csr li b{ color:#fff; }
+
+/* Context + quote */
+.ctx{ display:grid; grid-template-columns:minmax(0,1fr) 340px; gap:24px; align-items:start; }
+.quote{ position:relative; background:var(--surface); border:1px solid var(--line); border-radius:22px; padding:22px 22px 20px; }
+.quote .qi{ width:40px; height:40px; border-radius:12px; background:var(--gold-light); display:grid; place-items:center; margin-bottom:14px; font:800 34px/1 var(--display); color:var(--navy-deep); padding-top:12px; }
+.quote .qi svg{ width:18px; height:18px; stroke:var(--navy-deep); fill:none; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+.quote blockquote{ margin:0 0 14px; font:700 17px/1.4 var(--display); letter-spacing:-.01em; color:var(--ink); }
+.quote cite{ font-style:normal; display:block; font:600 13px/1.4 var(--body); color:var(--ink); }
+.quote cite span{ display:block; font:400 12px/1.4 var(--body); color:var(--ink-soft); }
+.stat-inline{ margin-top:16px; display:flex; gap:14px; align-items:center; background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:14px 16px; }
+.stat-inline b{ font:800 30px/1 var(--display); letter-spacing:-.03em; color:var(--gold); white-space:nowrap; }
+.stat-inline span{ font-size:13px; line-height:1.45; color:var(--ink-soft); }
+
+/* Page 2: opportunities by type */
+.types{ display:grid; grid-template-columns:repeat(3,1fr); gap:12px; }
+.type{ border-radius:20px; background:var(--surface); border:1px solid var(--line); overflow:hidden; display:flex; flex-direction:column; }
+.type-head{ padding:16px 18px 14px; background:var(--navy); color:#fff; }
+.type:first-child .type-head{ background:var(--ink); }
+.type-head span{ font:500 10.5px/14px var(--mono); letter-spacing:.08em; text-transform:uppercase; color:var(--gold-light); }
+.type-head b{ display:block; margin-top:6px; font:800 36px/1 var(--display); letter-spacing:-.03em; }
+.type-head small{ display:block; margin-top:4px; font-size:12.5px; color:rgba(244,243,239,.75); }
+.type-body{ padding:14px 18px 16px; display:flex; flex-direction:column; gap:10px; flex:1; }
+.split{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:6px; }
+.split li{ display:flex; justify-content:space-between; gap:8px; font-size:12.8px; color:var(--ink-soft); }
+.split li b{ font:500 12.5px/1.4 var(--mono); color:var(--ink); }
+.closed{ margin-top:auto; border-top:1px solid var(--line); padding-top:10px; }
+.closed span{ display:block; font:500 10px/12px var(--mono); letter-spacing:.1em; text-transform:uppercase; color:var(--slate); }
+.closed b{ display:block; margin-top:4px; font:800 22px/1.1 var(--display); letter-spacing:-.02em; color:var(--good); }
+.closed small{ font-size:12px; color:var(--ink-soft); }
+
+/* Funnel */
+.funnel{ display:flex; flex-direction:column; gap:8px; }
+.fun{ display:grid; grid-template-columns:170px 1fr 120px; gap:14px; align-items:center; }
+.fun .lab{ font:600 13.5px/1.3 var(--body); color:var(--ink); }
+.fun .lab small{ display:block; font:400 12px/1.3 var(--body); color:var(--ink-soft); }
+.fun .bar{ height:34px; border-radius:10px; background:var(--navy); display:flex; align-items:center; padding:0 12px; font:500 12px/1 var(--mono); color:#fff; }
+.fun:last-child .bar{ background:var(--gold-light); color:var(--navy-deep); }
+.fun .val{ font:800 22px/1 var(--display); letter-spacing:-.02em; color:var(--navy); text-align:right; }
+.fun:last-child .val{ color:var(--gold); }
+
+/* Rollout */
+.road{ list-style:none; margin:0; padding:22px 24px 22px; display:grid; grid-template-columns:repeat(4,1fr); position:relative; background:var(--navy); border-radius:22px; }
+.road::before{ content:""; position:absolute; left:31px; right:calc(25% - 4px); top:29px; height:2px; background:rgba(244,243,239,.25); }
+.road li{ position:relative; padding-top:24px; padding-right:10px; }
+.road li::before{ content:""; position:absolute; left:0; top:0; width:12px; height:12px; border-radius:50%; background:var(--navy); border:2px solid var(--paper); }
+.road li:last-child::before{ background:var(--gold-light); border-color:var(--gold-light); box-shadow:0 0 0 5px rgba(217,165,75,.25); }
+.road .w{ font:500 10.5px/14px var(--mono); letter-spacing:.06em; text-transform:uppercase; color:rgba(244,243,239,.6); }
+.road h4{ margin:4px 0 2px; font:700 14.5px/1.2 var(--display); color:#fff; }
+.road p{ margin:0; font-size:12px; line-height:1.4; color:rgba(244,243,239,.75); }
+
+.cta{ border-radius:22px; padding:24px 26px; background:var(--gold-light); color:var(--navy-deep); display:grid; grid-template-columns:minmax(0,1fr) auto; gap:20px; align-items:center; }
+.cta h2{ margin:0; font:800 26px/1.08 var(--display); letter-spacing:-.02em; }
+.cta p{ margin:6px 0 0; font-size:14px; line-height:1.5; color:rgba(22,50,74,.85); }
+.btn{ font:600 15px/20px var(--body); background:var(--navy-deep); color:#fff; border-radius:12px; padding:13px 18px; white-space:nowrap; text-decoration:none; }
+.btn::after{ content:" →"; color:var(--gold-light); }
+.note{ margin:0; font:400 11px/16px var(--mono); color:var(--slate); }
+.band{ margin-top:auto; background:var(--navy-deep); color:rgba(244,243,239,.78); padding:16px 44px; display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; font:400 12px/16px var(--mono); }
+.band img{ height:20px; display:block; } .band b{ color:#fff; font-weight:500; }
+.pageno{ color:rgba(244,243,239,.5); font-size:11px; }
+
+@page{ size:A4; margin:0; }
+@media print{ body{ background:none; padding:0; gap:0; } .sheet{ border:0; border-radius:0; max-width:none; min-height:297mm; break-after:page; } }
+@media (max-width:720px){
+  .hero, .body{ padding-left:22px; padding-right:22px; } .band{ padding:16px 22px; } .sheet{ min-height:0; }
+  .hero-grid, .ctx, .cta{ grid-template-columns:1fr; } .art{ max-width:320px; margin:0; } .hero h1{ font-size:32px; }
+  .facts, .kpis{ grid-template-columns:1fr 1fr; row-gap:14px; } .fact:nth-child(3){ border-left:0; padding-left:0; }
+  .csr, .types{ grid-template-columns:1fr; } .csr > div + div{ border-left:0; border-top:1px solid rgba(244,243,239,.12); }
+  .fun{ grid-template-columns:1fr 80px; } .fun .bar{ grid-column:1 / -1; grid-row:2; }
+  .road{ grid-template-columns:1fr 1fr; row-gap:16px; } .road::before{ display:none; } .bar, .co{ flex-wrap:wrap; }
+}
+</style>
+</head>
+<body>
+
+<!-- ===================== FRONT ===================== -->
+<div class="sheet">
+  <header class="hero">
+    <div class="bar">
+      <div class="co"><img src="../../knowledge-base/flyer-design-system/assets/Logos/pw-lockup-paper.svg" alt="Seekridge"><span class="x">×</span><span class="ak"><i></i>Alpenkreis Bank</span></div>
+      <span class="kind">Case study · Retail banking</span>
+    </div>
+    <div class="hero-grid">
+      <div>
+        <h1>How Alpenkreis Bank found <em>€37M of new lending</em> in its own customer base</h1>
+        <p class="sub">A regional bank with 40,000 customers used Seekridge to spot who was about to refinance, buy, renovate or move into a new home, and to put each opportunity in front of the right advisor at the right time.</p>
+      </div>
+      <figure class="art"><img src="../../knowledge-base/design-system/dotmap-tile.svg" alt=""></figure>
+    </div>
+    <div class="facts">
+      <div class="fact"><svg viewBox="0 0 24 24"><path d="M3 10l9-6 9 6"/><path d="M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18"/></svg><div><span>Customer</span><b>Alpenkreis Bank</b></div></div>
+      <div class="fact"><svg viewBox="0 0 24 24"><path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.5"/></svg><div><span>Industry</span><b>Retail banking</b></div></div>
+      <div class="fact"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.5"/></svg><div><span>Focus</span><b>Mortgage growth, cross-sell</b></div></div>
+      <div class="fact"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><div><span>Market</span><b>Germany · 14 branches</b></div></div>
+    </div>
+  </header>
+
+  <main class="body">
+    <section>
+      <p class="eyebrow">Results in the first six months</p>
+      <div class="kpis">
+        <div class="kpi is-gold"><b>€37.3M</b><span>New lending closed from Seekridge moments</span><small>Mortgages and green loans</small></div>
+        <div class="kpi"><b>4,860</b><span>New opportunities found in the existing base</span><small>Mortgage, insurance, green loan</small></div>
+        <div class="kpi"><b>31,200</b><span>Customer records enriched with property and market data</span><small>78% of all customers</small></div>
+        <div class="kpi"><b>610</b><span>Home insurance policies sold on newly found properties</span><small>€366k annual premium</small></div>
+      </div>
+    </section>
+
+    <section class="csr">
+      <div><h3>Challenge</h3><p>Alpenkreis knew its customers’ accounts, but not their homes. Mortgages held at other banks, planned purchases and renovations were invisible until a customer walked in, or walked away.</p></div>
+      <div><h3>Solution</h3><p>Seekridge joined the bank’s customer and transaction data with property, land-register and market data, and turned it into ranked moments, each with the reason attached, delivered as tasks in the advisors’ CRM.</p></div>
+      <div><h3>Results</h3><ul><li><b>€37.3M</b> new lending in six months</li><li><b>958</b> deals closed, from 4,860 moments</li><li><b>14 of 14</b> branches live by month six</li></ul></div>
+    </section>
+
+    <section class="ctx">
+      <div>
+        <p class="eyebrow">Context</p>
+        <h2 class="big">The best leads were already <em>customers.</em></h2>
+        <p class="lead">Like most regional banks, Alpenkreis grew its mortgage book by competing for new customers, while its own customers quietly refinanced, bought and renovated with other lenders. Advisors received monthly lists, but with no reason attached, most names went uncalled. The bank wanted to know who to call each week, and why, before a competitor did.</p>
+        <div class="stat-inline"><b>1 in 4</b><span>Alpenkreis customers turned out to own a property, or hold a mortgage, that the bank had no record of.</span></div>
+      </div>
+      <figure class="quote">
+        <div class="qi">“</div>
+        <blockquote>“We used to find out a customer had refinanced when the redemption request arrived. Now our advisors call months earlier, and they know exactly why.”</blockquote>
+        <cite>Katrin Albers<span>Head of Retail Lending, Alpenkreis Bank</span></cite>
+      </figure>
+    </section>
+  </main>
+  <div class="band"><img src="../../knowledge-base/flyer-design-system/assets/Logos/pw-lockup-paper.svg" alt="Seekridge"><span><b>seekridge.example</b> · hello@seekridge.example</span><span class="pageno">Seekridge and Alpenkreis Bank are fictional; all figures are illustrative · 1/2</span></div>
+</div>
+
+<!-- ===================== BACK ===================== -->
+<div class="sheet">
+  <main class="body" style="padding-top:40px">
+    <section>
+      <p class="eyebrow">New opportunities identified, by type</p>
+      <h2 class="big">4,860 moments in six months, <em>in customers the bank already had.</em></h2>
+      <div class="types" style="margin-top:16px">
+        <article class="type">
+          <div class="type-head"><span>Mortgage</span><b>2,140</b><small>opportunities found</small></div>
+          <div class="type-body">
+            <ul class="split"><li>Refinancing from another bank<b>1,310</b></li><li>Buying a home<b>830</b></li></ul>
+            <div class="closed"><span>Closed</span><b>€31.4M</b><small>112 mortgages · avg €280k</small></div>
+          </div>
+        </article>
+        <article class="type">
+          <div class="type-head"><span>Home insurance</span><b>1,520</b><small>opportunities found</small></div>
+          <div class="type-body">
+            <ul class="split"><li>New property in their name<b>1,060</b></li><li>Underinsured home<b>460</b></li></ul>
+            <div class="closed"><span>Closed</span><b>610 policies</b><small>€366k annual premium</small></div>
+          </div>
+        </article>
+        <article class="type">
+          <div class="type-head"><span>Green &amp; renovation loans</span><b>1,200</b><small>opportunities found</small></div>
+          <div class="type-body">
+            <ul class="split"><li>Low energy rating, enough equity<b>740</b></li><li>Renovation activity nearby<b>460</b></li></ul>
+            <div class="closed"><span>Closed</span><b>€5.9M</b><small>236 loans · avg €25k</small></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <p class="eyebrow">From moment to closed business</p>
+      <div class="funnel">
+        <div class="fun"><div class="lab">Moments found<small>Ranked, with the reason</small></div><div class="bar" style="width:100%">100%</div><div class="val">4,860</div></div>
+        <div class="fun"><div class="lab">Advisor contacted<small>Within two weeks</small></div><div class="bar" style="width:70%">70%</div><div class="val">3,410</div></div>
+        <div class="fun"><div class="lab">Offer made<small>Mortgage, policy or loan</small></div><div class="bar" style="width:38%">38%</div><div class="val">1,850</div></div>
+        <div class="fun"><div class="lab">Closed<small>€37.3M new lending</small></div><div class="bar" style="width:20%">20%</div><div class="val">958</div></div>
+      </div>
+      <p class="note" style="margin-top:10px">Closed value: €31.4M mortgages + €5.9M green loans = €37.3M new lending, plus €366k annual insurance premium.</p>
+    </section>
+
+    <section>
+      <p class="eyebrow">How the rollout went</p>
+      <ol class="road">
+        <li><span class="w">April</span><h4>Connect</h4><p>CRM, customer and transaction data linked</p></li>
+        <li><span class="w">May</span><h4>Backtest</h4><p>Moments checked against 2025 outcomes</p></li>
+        <li><span class="w">June – July</span><h4>Pilot</h4><p>Two Hamburg branches</p></li>
+        <li><span class="w">August – September</span><h4>All 14 branches</h4><p>Rolled out on the pilot’s numbers</p></li>
+      </ol>
+    </section>
+
+    <section class="cta">
+      <div><h2>Find the moments in your own customer base.</h2><p>Share a sample of your data. In 30 minutes, we’ll show you the opportunities in it, and the evidence behind each one.</p></div>
+      <a class="btn" href="#">Book a live test</a>
+    </section>
+  </main>
+  <div class="band"><img src="../../knowledge-base/flyer-design-system/assets/Logos/pw-lockup-paper.svg" alt="Seekridge"><span><b>seekridge.example</b> · hello@seekridge.example</span><span class="pageno">Seekridge and Alpenkreis Bank are fictional; all figures are illustrative · 2/2</span></div>
+</div>
+
+</body>
+</html>
