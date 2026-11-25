@@ -107,7 +107,7 @@ A segment page (banks, insurers, brokerages) gets one Moment story built around 
 5. **Scale**: RidgeField.
 6. **Proof** and **EndCard**.
 
-**Short cut (35–45 s), value → benefit → feature.** When the page needs a punchier film, drop the governance and proof beats and run: the book as a RidgeField with its moments rising and tagged → the three layers (*your data, our data*) → customer one with the evidence trail → customer two, faster → the week's moments settling into a ranked CRM queue → a closing claim that answers the opening hook (EndCard, *Closing claim* variant). No ChapterRail. Headlines are bolder here: short, declarative, a claim per scene. Reference: [`assets/Films/segment-mortgage-lending-16x9.mp4`](./assets/Films/segment-mortgage-lending-16x9.mp4) (43.7 s, with a draft voice), with its ElevenLabs-ready voice-over script beside it.
+**Short cut (35–45 s), value → benefit → feature.** When the page needs a punchier film, drop the governance and proof beats and run: the book as a RidgeField with its moments rising and tagged → the three layers (*your data, our data*) → customer one with the evidence trail → customers two and three, faster, each with the offer the moment opens → the week's moments settling into a ranked CRM queue → a closing claim that answers the opening hook (EndCard, *Closing claim* variant). No ChapterRail. Headlines are bolder here: short, declarative, a claim per scene. Reference: [`assets/Films/segment-mortgage-lending-16x9.mp4`](./assets/Films/segment-mortgage-lending-16x9.mp4) (43.7 s, with a draft voice), with its ElevenLabs-ready voice-over script beside it.
 
 ### Statement (5–7 beats)
 
