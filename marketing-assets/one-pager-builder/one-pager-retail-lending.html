@@ -58,18 +58,20 @@
   .tl .lbl.last{ transform:translateX(-100%); text-align:right; }
 
   /* ---------- 3. Product shot + rollout ---------- */
-  .shot{ display:grid; grid-template-columns:minmax(0,1fr) 340px; gap:28px; align-items:center; background:var(--navy-deep); border-radius:24px; padding:22px 26px; color:var(--paper); }
-  .shot .big{ color:#fff; font-size:28px; }
+  .shot{ background:var(--navy-deep); border-radius:24px; padding:24px 26px 26px; color:var(--paper); }
+  .shot-top{ display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:28px; align-items:end; margin-bottom:20px; }
+  .shot .big{ color:#fff; font-size:28px; margin:0; }
   .shot .big em{ color:var(--gold-light); }
-  .shot .lead{ color:rgba(244,243,239,.78); margin-bottom:18px; }
-  .road{ list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(4,1fr); position:relative; }
-  .road::before{ content:""; position:absolute; left:7px; right:calc(25% - 7px); top:7px; height:2px; background:rgba(244,243,239,.25); }
-  .road li{ position:relative; padding-top:26px; padding-right:8px; }
-  .road li::before{ content:""; position:absolute; left:0; top:0; width:12px; height:12px; border-radius:50%; background:var(--navy-deep); border:2px solid var(--paper); }
-  .road li:last-child::before{ background:var(--gold-light); border-color:var(--gold-light); box-shadow:0 0 0 5px rgba(217,165,75,.25); }
-  .road .w{ font:500 10.5px/14px var(--mono); letter-spacing:.06em; text-transform:uppercase; color:rgba(244,243,239,.6); }
-  .road h4{ margin:4px 0 2px; font:700 14.5px/1.2 var(--display); color:#fff; }
-  .road p{ margin:0; font-size:11.8px; line-height:1.4; color:rgba(244,243,239,.72); }
+  .shot .lead{ color:rgba(244,243,239,.78); margin:0; font-size:14px; }
+  .road{ list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(4,1fr); gap:10px; counter-reset:r; }
+  .road li{ counter-increment:r; position:relative; border-radius:16px; padding:14px 16px 16px; background:rgba(244,243,239,.06); border:1px solid rgba(244,243,239,.14); }
+  .road li::after{ content:""; position:absolute; right:-8px; top:50%; width:6px; height:6px; border-top:2px solid rgba(244,243,239,.4); border-right:2px solid rgba(244,243,239,.4); transform:translateY(-50%) rotate(45deg); }
+  .road li:last-child::after{ display:none; }
+  .road li:last-child{ background:var(--gold-light); border-color:var(--gold-light); }
+  .road .w{ display:block; font:500 10.5px/14px var(--mono); letter-spacing:.06em; text-transform:uppercase; color:rgba(244,243,239,.6); }
+  .road h4{ margin:6px 0 3px; font:700 16px/1.2 var(--display); color:#fff; }
+  .road p{ margin:0; font-size:12.5px; line-height:1.4; color:rgba(244,243,239,.75); }
+  .road li:last-child .w{ color:rgba(22,50,74,.7); } .road li:last-child h4{ color:var(--navy-deep); } .road li:last-child p{ color:rgba(22,50,74,.85); }
 
 
   /* ---------- Flow: what it does, at a glance ---------- */
@@ -188,7 +190,7 @@
     .big, .cta h2{ font-size:28px; }
     .tl{ height:auto; padding:20px; } .tl .axis, .tl .zone, .tl .node, .tl .tick{ display:none; }
     .tl .lbl, .tl .lbl.first, .tl .lbl.last{ position:static; transform:none; text-align:left; width:auto; margin-bottom:12px; }
-    .road{ grid-template-columns:1fr 1fr; row-gap:16px; } .road::before{ display:none; } .mcard{ transform:none; }
+    .road, .shot-top{ grid-template-columns:1fr 1fr; } .road li::after{ display:none; } .mcard{ transform:none; }
   }
 </style>
 </head>
@@ -305,16 +307,16 @@
     </section>
 
     <section class="shot">
-      <div>
-        <p class="eyebrow" style="color:var(--gold-light)">From signed to used</p>
+      <p class="eyebrow" style="color:var(--gold-light)">From signed to used</p>
+      <div class="shot-top">
         <h2 class="big">Live in weeks. <em>Used, not just installed.</em></h2>
-        <p class="lead">We roll out based on your pilot’s numbers, and report how many advisors act on the moments, not just a go-live date.</p>
+        <p class="lead">We scale up on your pilot’s results, and report how many advisors act on the moments, not just a go-live date.</p>
       </div>
       <ol class="road">
-        <li><span class="w">Wk 1–2</span><h4>Connect</h4><p>Your CRM and data</p></li>
-        <li><span class="w">Wk 3–4</span><h4>Backtest</h4><p>On last year’s data</p></li>
-        <li><span class="w">Wk 5–8</span><h4>Pilot</h4><p>One advisor team</p></li>
-        <li><span class="w">Then</span><h4>Every branch</h4><p>Based on the pilot</p></li>
+        <li><span class="w">Weeks 1–2</span><h4>Connect</h4><p>Your CRM and data</p></li>
+        <li><span class="w">Weeks 3–4</span><h4>Backtest</h4><p>On last year’s data</p></li>
+        <li><span class="w">Weeks 5–8</span><h4>Pilot</h4><p>One advisor team</p></li>
+        <li><span class="w">Week 9 onward</span><h4>All branches</h4><p>Scaled on the pilot’s results</p></li>
       </ol>
     </section>
 
