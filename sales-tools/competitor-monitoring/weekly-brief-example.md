@@ -13,7 +13,7 @@ Confidence: Confirmed (pricing page, archived snapshot comparison)
 So what: Two of our active bank deals (Meridian Savings, Nordkredit) are mid-negotiation and price-sensitive. Sales should get ahead of this with the build-it-yourself cost and explainability angle before procurement raises the comparison unprompted — not react to it after the fact.
 
 ### NexaScore
-**Announced "regulatory moment explanations" feature, in beta**
+**Announced "action explanations" feature, in beta**
 What changed: NexaScore's release notes mention a new feature explaining why a customer was flagged, described as "coming to select customers in beta."
 Confidence: Needs confirmation — beta scope and actual regulatory coverage unclear from release notes alone.
 So what: This has been our clearest differentiation point against NexaScore in credit-risk buyer conversations. Worth having a sales engineer request a demo of the beta (via a non-Seekridge contact) before we soften that talking point — right now we don't know if it's a real compliance feature or a feature-importance chart.

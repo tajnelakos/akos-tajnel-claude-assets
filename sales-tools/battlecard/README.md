@@ -20,8 +20,8 @@ Card depth matches actual threat level — the High-threat Ledgerline card is no
 - [`example.md`](./example.md) — the targeted-update mode: a battlecard section updated from new raw notes, output as a diff against the existing entry rather than a full regeneration
 - [`ledgerline.html`](./ledgerline.html) — 🔴 High threat; we won 6 of 14 ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/ledgerline.html))
 - [`conturo.html`](./conturo.html) — 🟠 Medium-high threat; we won 3 of 11 ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/conturo.html))
-- [`nexascore.html`](./nexascore.html) — 🟠 Medium-high threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/nexascore.html)) — we won 1 of 8; refreshed for NexaScore's July 2026 moment-explanation launch (see the Jul–Aug 2026 edition of [`competitor-analyses.html`](../competitor-monitoring/competitor-analyses.html))
-- [`pocketlens.html`](./pocketlens.html) — ⚪ Low threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/pocketlens.html)) — brokerage only, deliberately short
+- [`nexascore.html`](./nexascore.html) — 🟠 Medium-high threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/nexascore.html)) — we won 1 of 8; refreshed for NexaScore’s July 2026 “action explanations” launch (see the Jul–Aug 2026 edition of [`competitor-analyses.html`](../competitor-monitoring/competitor-analyses.html))
+- [`pocketlens.html`](./pocketlens.html) — ⚪ Low threat ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/battlecard/pocketlens.html)) — credit unions only, deliberately short
 
 ## Current limitations
 
