@@ -1,6 +1,6 @@
 # LayerStack
 
-How a customer's situation becomes data: three bands, one per layer, always in the order customer, property, market, each with two or three data chips; straight connectors meet in one navy node, the moment.
+How a customer's situation becomes data: three bands, one per layer, always in the order customer, transactions, market, each with two or three data chips; straight connectors meet in one navy node, the moment.
 
 **Anatomy**
 - Three flat white bands (980 × 132px), each a ProductPanel: layer icon + mono label, then data chips (mono 22px value, mono 18px uppercase key, sunken fill, 6px corners).

@@ -38,7 +38,7 @@ The reusable slide archetypes behind every format, grouped by job, for building 
 - Launch with proof: Cover · lockup + grid → Statement → Screenshot proof → Figure · ridge strip → Close.
 - Correction with evidence: Cover · lockup + grid → Belief → Statement → Evidence · panel → Close.
 - Event with a reason to come: Cover · centred question → Figure · ridge strip → Statement → Speaker → Event invite.
-- Insurer explainer: Cover · layers → Statement → Layers → Screenshot proof → Checklist → Close.
+- Bancassurance explainer: Cover · layers → Statement → Layers → Screenshot proof → Checklist → Close.
 
 **Rules that never change when mixing**
 - Flat `navy` or `paper` grounds only; most carousels run navy → paper (proof) → navy.

@@ -31,7 +31,7 @@
 
 **Erik:** I'd appreciate that. I've had vendors dodge this question before, so directness helps.
 
-**Karin:** If it doesn't work out, for what it's worth, I'd want to stay in touch for possible future fit — we're still not thrilled with Estemate, on-prem or not.
+**Karin:** If it doesn't work out, for what it's worth, I'd want to stay in touch for possible future fit — we're still not thrilled with Kontora, on-prem or not.
 
 **Marcus:** Understood, and I'll treat that separately regardless of how the infrastructure conversation goes. I'll get the technical call scheduled this week.
 
@@ -42,5 +42,5 @@
 - **Hard, confirmed blocker**: on-premises deployment requirement, tied to a board-level data governance policy, not a soft preference — matches the exact gap already documented in `competitive-landscape.md`'s "Known gap working against us." This is a real, live instance of that documented risk materializing, not a hypothetical.
 - Correctly did not oversell or imply a workaround that doesn't exist — directly acknowledged the gap and proposed a real, bounded next step (compliance/infrastructure technical call) rather than stringing the deal along.
 - Genuinely uncertain outcome: depends on whether Solvane's regulator accepts a well-documented cloud architecture — this is a fair test case for whether the on-prem gap is truly disqualifying everywhere, or only where cloud isn't independently justifiable. Worth tracking the outcome specifically to update `competitive-landscape.md`'s framing (currently states the gap "is a case for product, not something a battlecard talk track can talk around" — this call is a real test of that).
-- Estemate is the incumbent here too, and the prospect showed openness to switching regardless of this deal's outcome — worth a separate, lower-pressure follow-up track independent of the on-prem resolution.
+- Kontora is the incumbent here too, and the prospect showed openness to switching regardless of this deal's outcome — worth a separate, lower-pressure follow-up track independent of the on-prem resolution.
 - Escalate to product/leadership: this is now the second documented account (see also implied volume in `competitive-landscape.md`) where on-prem is a literal deal-blocker, not just a stated preference — worth prioritizing for a real roadmap conversation rather than continuing to treat it as a known-but-deprioritized gap.

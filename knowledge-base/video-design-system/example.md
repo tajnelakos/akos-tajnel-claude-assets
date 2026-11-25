@@ -21,7 +21,7 @@ moment enough to act on it, so not a Walkthrough; one persona and one situation,
 |-------------|-----------|-----------------------------------------------|---------------------------------------------------------------------------|-----------|
 | 0.0–5.0 s   | TitleCard | Their fixed rate ends in four months.         | Navy; the dot map moves in, peaks rise, gold point lands; lockup; eyebrow MORTGAGE LENDING · DACH | —   |
 | 5.0–10.0 s  | Tension   | By the time anyone notices, **they've moved.** | Wipe to Paper; Timeline: Today → Fixed rate ends 2027-03-31 → Refinanced elsewhere (marked) | Situation |
-| 10.0–16.0 s | Layers    | Three layers. **One customer.**               | LayerStack: customer, property, market chips → node "Refinance risk"      | Situation |
+| 10.0–16.0 s | Layers    | Three layers. **One customer.**               | LayerStack: customer, transactions, market chips → node "Refinance risk"      | Situation |
 | 16.0–21.5 s | Moment    | One moment, ranked **third.**                 | MomentCard: Refinance risk · 40-1187 · rank counts to 3 / 212 · two evidence rows | Moment |
 | 21.5–31.0 s | Evidence  | Here's why it ranks third.                    | EvidenceTrail, 4 rows, bars grow; FocusMarks on the top row, rest dims; gold top bar; lead "The rate gap counts most." | Evidence |
 | 31.0–37.0 s | Action    | On the advisor's list. **With the reasons.**  | CRM queue panel; synced row in focus; log line types: crm.synced …        | Action    |
@@ -31,10 +31,10 @@ moment enough to act on it, so not a Walkthrough; one persona and one situation,
 **Voice-over** (96 words, ~2.3 words/s over 42 s of speech)
 1. This customer's fixed rate ends in March.
 2. Without a moment, the first anyone hears is the redemption notice.
-3. Seekridge reads their customer data, the property and the market together.
+3. Seekridge reads their customer data, their transactions and the market together.
 4. Out of 40,000 customers, they're third on this week's list.
 5. The biggest reason: the market rate is 1.7 points above their contract.
-6. Equity, local offers and the reset date make up the rest, adding up to 100.
+6. The salary split, local offers and the reset date make up the rest, adding up to 100.
 7. The advisor gets the call in the CRM, with every reason attached.
 8. Tested on a past book first, so you know what the ranking is worth.
 9. See what your own book holds.
@@ -42,10 +42,10 @@ moment enough to act on it, so not a Walkthrough; one persona and one situation,
 **Captions** → assets/Films/story-fixed-rate-dach-16x9.srt
  1.6–4.8   This customer's fixed rate ends in March.
  5.4–9.6   Without a moment, the first anyone hears / is the redemption notice.
-10.4–15.6  Seekridge reads their customer data, / the property and the market together.
+10.4–15.6  Seekridge reads their customer data, / their transactions and the market together.
 16.4–21.0  Out of 40,000 customers, they're third / on this week's list.
 21.8–26.0  The biggest reason: the market rate / is 1.7 points above their contract.
-26.2–30.6  Equity, local offers and the reset date / make up the rest, adding up to 100.
+26.2–30.6  The salary split, local offers and the reset date / make up the rest, adding up to 100.
 31.4–36.6  The advisor gets the call in the CRM, / with every reason attached.
 37.6–41.6  Tested on a past book first, / so you know what the ranking is worth.
 42.4–45.8  See what your own book holds.

@@ -21,9 +21,9 @@ A skill that takes a single call transcript and extracts four things, every time
 
 ## Files — aggregate rollup across many calls
 
-Fifteen call transcripts (July–August 2026, a deliberate mix of bank/lender, insurer, and brokerage deals, competitors named and unnamed, strong moments and stalled ones) with a designed HTML rollup that surfaces the patterns a single-call analysis can't: which objections recur, which competitors actually come up, and — the part that matters most — specific new findings that aren't yet reflected anywhere else in this repo's knowledge base.
+Fifteen call transcripts (July–August 2026, a deliberate mix of regional banks, national lenders and smaller savings banks and credit unions, competitors named and unnamed, strong moments and stalled ones) with a designed HTML rollup that surfaces the patterns a single-call analysis can't: which objections recur, which competitors actually come up, and — the part that matters most — specific new findings that aren't yet reflected anywhere else in this repo's knowledge base.
 
-- [`call-01-nordkredit.md`](./call-01-nordkredit.md) through [`call-15-copperfield-estates.md`](./call-15-copperfield-estates.md) — the 15 transcripts
+- [`call-01-nordkredit.md`](./call-01-nordkredit.md) through [`call-15-copperfield-sparkasse.md`](./call-15-copperfield-sparkasse.md) — the 15 transcripts
 - [`call-analysis-summary.html`](./call-analysis-summary.html) — the aggregate rollup ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/knowledge-base/sales-call-analysis/call-analysis-summary.html))
 
 Three of the fifteen deliberately connect to prospects already established elsewhere in this repo — Nordkredit (whose closed-won ending is the [`case-study-builder`](../../marketing-assets/case-study-builder) example), Meridian Savings and Court Street Lending — so the calls read as one continuous account history rather than fifteen disconnected demos.

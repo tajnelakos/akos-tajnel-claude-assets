@@ -23,7 +23,7 @@ The caption carries what the slides leave out: the detail, the method, the logis
 - **Links:** one per caption, with UTM tags (utm_source=linkedin&utm_medium=social&utm_campaign=…&utm_content=…) or a short link. Never in the first comment as a workaround.
 - **Short paragraphs** separated by an empty line. Lists (session times, checks) one item per line, no bullets or emoji as bullets.
 - **Length:** keep the hook and block 2 inside LinkedIn's first ~210 characters before "…see more", and the whole caption under 1,300 characters.
-- **Language:** UK English with contractions; German *Sie*; Dutch *u* for banks and insurers, *je* for brokers; Nordic *du*. Follow each market's typography („…“ in German, «…» in Swiss German and Norwegian, ”…” in Swedish).
+- **Language:** UK English with contractions; German *Sie*; Dutch *u*; Nordic *du*. Follow each market's typography („…“ in German, «…» in Swiss German and Norwegian, ”…” in Swedish).
 - **No exclamation marks**, except one in a warm, local sign-off on an event post ("Bis bald!").
 
 ## Pairing caption and slides
@@ -39,7 +39,7 @@ The caption carries what the slides leave out: the detail, the method, the logis
 
 > Most fixed-rate customers decide where to refinance months before they call their bank.
 >
-> A Seekridge moment shows which customers are likely to move, and why: the rate end date from your CRM, the equity in the home, and what local lenders are offering. Each data point carries its weight, so an advisor can open the call with the reason.
+> A Seekridge moment shows which customers are likely to move, and why: the rate end date from your CRM, the salary now landing at another bank, and what local lenders are offering. Each data point carries its weight, so an advisor can open the call with the reason.
 >
 > The weights in this carousel are illustrative.
 >

@@ -49,4 +49,4 @@ Shorter beats complete. A rep should get the whole card in a minute; every line 
 [Don't say] 2–3 tempting lines, and why not
 ```
 
-See [`bricklane-data.html`](./bricklane-data.html), [`estemate.html`](./estemate.html), [`valuai.html`](./valuai.html), and [`propiq.html`](./propiq.html) for this format applied to each tracked competitor.
+See [`ledgerlight.html`](./ledgerlight.html), [`kontora.html`](./kontora.html), [`propensa.html`](./propensa.html), and [`nudgely.html`](./nudgely.html) for this format applied to each tracked competitor.

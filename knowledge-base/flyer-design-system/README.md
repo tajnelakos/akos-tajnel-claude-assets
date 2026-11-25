@@ -61,7 +61,7 @@ The formats (A4 trifold, A5 cards, panel-based insides) follow common B2B print 
 
 - The Seekridge line icons: 24 grid, 1.75 stroke, square caps, no fills. Navy on paper (`-navy` files), Paper on navy (`-paper` files). `.pwf-icon` picks the right one from the ground.
 - Sizes: 6 mm beside a panel title, 9 mm above a benefit, 4 mm in evidence rows and chips.
-- The three data layers always use `customer`, `market` and `property`.
+- The three data layers always use `transaction`, `customer` and `market`.
 - Never fill, recolour, put an icon in a disc, or mix in another set.
 
 ## Logo

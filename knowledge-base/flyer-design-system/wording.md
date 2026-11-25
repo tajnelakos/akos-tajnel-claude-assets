@@ -10,7 +10,7 @@ The voice rules are in [`../branding-guideline/skill.md`](../branding-guideline/
 | Claim (trifold front) | Up to 12 words, one idea per line | Know which customers to call this month. And why. |
 | Statement (postcard front) | Up to 8 words | The moment you can explain. |
 | Supporting line | One sentence, up to 25 words | Seekridge shows which of your existing customers to talk to next, and why. |
-| Problem | Two short paragraphs in the reader's world | Fixed rates end, equity grows and a local lender cuts its two-year rate… |
+| Problem | Two short paragraphs in the reader's world | Fixed rates end, salaries start landing at another bank and a local lender cuts its two-year rate… |
 | Pillars | Title as the claim, body as its proof | Explainable by design · Every moment shows the data points behind it… |
 | Benefits | Up to 8 words each, written as outcomes | Risk signs off the method, not each list |
 | Steps | One verb, one sentence | Connect · Your CRM and loan book, through one secure export or API. |

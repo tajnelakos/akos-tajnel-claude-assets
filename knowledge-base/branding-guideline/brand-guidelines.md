@@ -8,7 +8,7 @@ The full brand system: who we are, how we sound, and how we look. For the detail
 
 ### Mission
 
-Show banks, insurers, and brokerages the opportunities already inside their customer base — with the evidence to act on them.
+Show retail banks the opportunities already inside their customer base — with the evidence to act on them.
 
 ### Vision
 
@@ -172,7 +172,7 @@ One motif per surface, anchored to an edge and allowed to bleed off it, never be
 
 - Default series in Navy; the one series or bar the chart is about in Gold; everything else in Slate or tints of Navy. Status colors are never categories.
 - Hairline gridlines, axis labels in IBM Plex Mono, a one-line takeaway as the title, and a source line under every chart.
-- When a chart supports a moment, label each data point with its layer — property, market, or customer.
+- When a chart supports a moment, label each data point with its layer — transaction, customer or market.
 
 ### Accessibility
 
@@ -187,7 +187,7 @@ One motif per surface, anchored to an edge and allowed to bleed off it, never be
 
 ### Naming conventions
 
-- **Pricing tiers** (brokerage/seat-based product): **Base** (entry), **Ridge** (mid), **Summit** (enterprise): a climb theme that grows with the customer, used consistently and only for this purpose (not reused as a generic naming device elsewhere).
+- **Pricing tiers** (smaller banks only): **Base** (entry), **Ridge** (mid), **Summit** (enterprise): a climb theme that grows with the customer, used consistently and only for this purpose (not reused as a generic naming device elsewhere).
 - **Feature names:** literal and descriptive, never invented proper nouns or trademarked-sounding names. "Evidence Trail," not "TraceIQ™." "Coverage Map," not "SmartArea." This follows directly from the "precision, not hype" brand value — a cute feature name reads as marketing packaging on something that should read as infrastructure.
 - **Product terminology (use consistently):**
 
@@ -197,9 +197,9 @@ One motif per surface, anchored to an edge and allowed to bleed off it, never be
 | Evidence trail (the data points behind a moment) | Explainability report, transparency log |
 | Audit log (the record of what was done with a moment) | Activity feed, history |
 | Customer base | Database, leads |
-| Property data · market data · customer data (the three data layers) | Big data, data lake |
-| Valuation (as one data point inside a moment) | Appraisal, estimate |
-| Bank / lender / insurer / brokerage | Client (in product copy — "client" is fine in casual internal use) |
+| Transaction data · customer data · market data (the three data layers) | Big data, data lake |
+| Salary, payments, savings (name the data point) | Spending data, financial footprint |
+| Bank / lender | Client (in product copy — "client" is fine in casual internal use) |
 | CRM | Sales tool, customer system |
 
 ### Image and icon style
@@ -207,7 +207,7 @@ One motif per surface, anchored to an edge and allowed to bleed off it, never be
 - **No stock photography.** Especially no generic finance-stock clichés (handshakes, skyline photos, people pointing at monitors). This audience recognizes stock photography instantly and it reads as substance-free.
 - **Prefer real product surfaces and data visualization** — an actual (or realistic mock) evidence-trail screenshot, a real moment-weighting chart — over any illustration standing in for the product.
 - **Where illustration is needed** (e.g. a concept with no literal screenshot, like "data residency"), use abstract geometric illustration consistent with the logomark's style — flat shapes, no gradients, no 3D renders, no isometric-office-life scenes.
-- **Icon style:** line icons only, 1.5–2px stroke weight, no fills, consistent corner radius. No skeuomorphic, glossy, or 3D icon sets. This matches the logomark's own construction (a stroked ridgeline on a baseline plus one solid gold summit point) — the icon system and the logo should look like they were drawn by the same hand. A starter set of 15 icons drawn to this rule (1.75px on a 24px grid) lives in [`../design-system/`](../design-system) as `icon-*.svg`: moment, evidence-trail, customer, property, valuation, market, coverage-map, lender, policy, crm-sync, data-residency, check, alert, arrow-right, search.
+- **Icon style:** line icons only, 1.5–2px stroke weight, no fills, consistent corner radius. No skeuomorphic, glossy, or 3D icon sets. This matches the logomark's own construction (a stroked ridgeline on a baseline plus one solid gold summit point) — the icon system and the logo should look like they were drawn by the same hand. A starter set of 15 icons drawn to this rule (1.75px on a 24px grid) lives in [`../design-system/`](../design-system) as `icon-*.svg`: moment, evidence-trail, customer, transaction, savings, market, coverage-map, lender, policy, crm-sync, data-residency, check, alert, arrow-right, search.
 - **Mock-ups:** realistic but clearly illustrative data. Customers appear by ID, never by a real name or address.
 
 ---

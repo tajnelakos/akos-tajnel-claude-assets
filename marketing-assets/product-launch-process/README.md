@@ -18,7 +18,7 @@ One process that runs from shaping the product to measuring it, in five stages. 
 
 ### 1. Define
 
-- **Shape the product:** critique features with product and ground them in real use cases for banks, insurers and brokerages.
+- **Shape the product:** critique features with product and ground them in real use cases for retail banks.
 - **Write the messaging master:** one source document sets the tagline, core premise, stage headlines, outcomes and the main illustration that every asset reuses. Built from [`positioning.md`](../../knowledge-base/positioning.md).
 - **Name and position:** lock solution and feature names and apply the copy rules in [`writing.md`](../../knowledge-base/design-system/writing.md).
 - **Package and price:** set up the Base, Ridge and Summit tiers, market price lists and the CRM, plus an upsell path for existing customers (which upgrade or add-on the launch creates for them).
@@ -71,4 +71,4 @@ What comes back feeds the next round of shaping the product.
 
 ## Current limitations
 
-The process is shown without a worked example for a specific Seekridge launch. The planned go-to-market plan for Seekridge for insurers will be the first one run through it.
+The process is shown without a worked example for a specific Seekridge launch. The planned go-to-market plan for Seekridge for bancassurance will be the first one run through it.

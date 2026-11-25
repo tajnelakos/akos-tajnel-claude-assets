@@ -59,7 +59,7 @@
     {
       "name": "RegulationBrief",
       "group": "Carousels",
-      "summary": "What a rule means for lenders and insurers: what it asks, what to prepare, and where Seekridge fits."
+      "summary": "What a rule means for banks and lenders: what it asks, what to prepare, and where Seekridge fits."
     },
     {
       "name": "MomentExplainer",
@@ -163,12 +163,12 @@
         "customer-paper.svg",
         "evidence-trail-paper.svg",
         "market-paper.svg",
-        "property-paper.svg",
+        "transaction-paper.svg",
         "pin-paper.svg",
         "policy-paper.svg",
         "search-paper.svg",
         "moment-paper.svg",
-        "valuation-paper.svg",
+        "savings-paper.svg",
         "alert-navy.svg",
         "calendar-navy.svg",
         "check-navy.svg",
@@ -177,12 +177,12 @@
         "customer-navy.svg",
         "evidence-trail-navy.svg",
         "market-navy.svg",
-        "property-navy.svg",
+        "transaction-navy.svg",
         "pin-navy.svg",
         "policy-navy.svg",
         "search-navy.svg",
         "moment-navy.svg",
-        "valuation-navy.svg"
+        "savings-navy.svg"
       ],
       "files": [
         {
@@ -210,7 +210,7 @@
           "path": "assets/Icons/market-paper.svg"
         },
         {
-          "path": "assets/Icons/property-paper.svg"
+          "path": "assets/Icons/transaction-paper.svg"
         },
         {
           "path": "assets/Icons/pin-paper.svg"
@@ -225,7 +225,7 @@
           "path": "assets/Icons/moment-paper.svg"
         },
         {
-          "path": "assets/Icons/valuation-paper.svg"
+          "path": "assets/Icons/savings-paper.svg"
         },
         {
           "path": "assets/Icons/alert-navy.svg"
@@ -252,7 +252,7 @@
           "path": "assets/Icons/market-navy.svg"
         },
         {
-          "path": "assets/Icons/property-navy.svg"
+          "path": "assets/Icons/transaction-navy.svg"
         },
         {
           "path": "assets/Icons/pin-navy.svg"
@@ -267,7 +267,7 @@
           "path": "assets/Icons/moment-navy.svg"
         },
         {
-          "path": "assets/Icons/valuation-navy.svg"
+          "path": "assets/Icons/savings-navy.svg"
         }
       ]
     },

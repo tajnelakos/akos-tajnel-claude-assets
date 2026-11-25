@@ -11,9 +11,9 @@ One moment for one customer, as the product shows it in *Moments this week*: wha
 
 | Segment | Moments |
 |---|---|
-| Bank / mortgage lender | Likely to move · Energy renovation · New homeowner (home insurance cross-sell) · Refinance risk · Top-up potential · Rate reset ahead |
-| Insurer | Underinsured home · No contents cover · Renewal risk |
-| Brokerage | Likely to sell · Ready to upsize |
+| Bank / mortgage lender | Refinance risk · Rate reset ahead · Likely to move · Renovation planned |
+| Retail bank | Salary moving away · Savings building up · Income rising |
+| Bancassurance | Insured elsewhere · New loan, no cover |
 
 **Motion.** Frame traces in, content fades in, the rank counts up to its value (`count`), then the evidence rows populate. In the next beat the card can grow into a full EvidenceTrail (cut, not morph).
 
