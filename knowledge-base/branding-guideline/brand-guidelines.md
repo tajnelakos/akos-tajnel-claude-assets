@@ -18,7 +18,7 @@ A market where every automated customer decision — not just Seekridge's — ca
 
 1. **Defensible over impressive.** A claim that survives being questioned beats a claim that only sounds good in a demo.
 2. **Precision, not hype.** Say exactly what the product does. If we can't name the specific mechanism, we don't make the claim.
-3. **Transparency by default.** Show the work — the data points behind each moment, how much each counted, the method — rather than asking for trust.
+3. **Transparency by default.** Show the work — the data points behind each moment, in plain words, and the method — rather than asking for trust.
 4. **Respect the skeptic.** Our best-fit buyer is trained to distrust vendor claims. That skepticism is correct more often than not, and we build and write for it rather than around it.
 5. **Substance before speed.** Volume and speed are real value, but never the whole pitch — see [`positioning.md`](../positioning.md)'s "what this is not."
 
@@ -235,7 +235,7 @@ Full system: [`../linkedin-carousels/`](../linkedin-carousels) (formats, slide C
 - **Canvas:** 1080 × 1350 px (4:5), 96px safe margin, 4–8 slides (cover, 2–6 middle slides, one close). Minimum type on the canvas is 28px.
 - **Grounds:** flat Navy for covers, statements, and closes; flat Paper for proof slides with screenshots, tables, and charts. No gradients or glows.
 - **Furniture:** lockup on the cover and the close, the mark bottom-right on every other slide, a swipe arrow on every slide but the last, a mono eyebrow and a slide counter on middle slides. One dot-map motif at most per slide: the ridge-lines cut on covers, the ridge strip or layer stack on data and explainer slides.
-- **Story shape:** question → tension → method → proof → action. One gold element per slide: up to three highlighted words in `#D9A54B` on Navy, or a motif's gold point, or the top weight in an evidence trail.
+- **Story shape:** question → tension → method → proof → action. One gold element per slide: up to three highlighted words in `#D9A54B` on Navy, or a motif's gold point, or the lead row's edge in an evidence trail.
 - **Formats:** moment explainer, myth vs method, proof in numbers, feature launch, regulation brief, event invite, field guide, plus a slide kit for mixing them.
 - **Caption:** 50–110 words in four blocks — hook, what changes (as a benefit), proof or detail, one CTA with one link. No hashtags; at most one emoji, never on slides.
 

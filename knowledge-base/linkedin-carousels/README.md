@@ -21,7 +21,7 @@ The formats are examples of what works, not a rulebook. Every post is different,
 - Write to *you* and *your customers*. Seekridge is *we* only on the close and in the caption. Seekridge is one word, capital P only, and never takes an article.
 - **Lead with the reader's situation, not the product.** The cover names a customer situation or a fact ("Which customers are moving money out?"). The product name arrives in the middle, once.
 - **Every claim names its mechanism, its data or its figure.** "Shows the transfers, the income and the market behind each moment", not "AI-powered insights". If a slide can't name the mechanism, it doesn't make the claim.
-- **Moments always carry their evidence.** Any slide that shows a moment shows the data points behind it and how much each counted. This is the brand promise in one picture; never show a moment without it.
+- **Moments always carry their evidence.** Any slide that shows a moment shows the data points behind it, in plain words. This is the brand promise in one picture; never show a moment without it.
 - Build the story as a sequence: **question → tension → method → proof → action.** For example: *"Which of your customers are moving money out this quarter?"* → *"Most scoring tools give you a list, not a reason."* → *"Seekridge shows the transfers, the income and the market behind each moment."* → a moment with its evidence → *"Run a backtest on your own data."*
 - **One idea per slide.** About 8 words for `title-cover`, 20 for `title-statement`, 30 for `title-long`, 40 for body copy or a white card.
 - **Emphasis carries meaning.** Up to 3 words a slide in `gold-light` on navy, or under a 6px gold rule on paper. Never a whole sentence.
@@ -38,7 +38,7 @@ The formats are examples of what works, not a rulebook. Every post is different,
 - **Two grounds, both flat.** `navy` (#1A3A5C) for covers, statements, figures and closes; `paper` (#F4F3EF) for proof: screenshots, charts, tables and checklists. No gradients, glows, blurs or tints of navy as decoration. A typical carousel runs navy → paper → navy.
 - **On navy:** text in `paper`; the single supporting line under a title in `paper-72`; hairlines, motif lines and empty squares in `paper-35`; panels in `navy-deep`, always outlined in `paper-35` (navy-deep on navy is only 1.1:1).
 - **On paper:** headings, figures and numerals in `navy`; body in `ink`; secondary text and source lines in `ink-muted`; frame and card borders in `line`; inactive squares and outlines in `slate`.
-- **Gold is one element per slide.** On navy, `gold-light` (#D9A54B, 5.2:1): up to 3 highlighted words, *or* the gold point in a motif, *or* the top weight in an evidence trail. On paper, `gold` (#C1892E) as a shape only: the 6px underline, the focus bar in a chart, the top weight bar or a reason rule. Never gold text on paper (2.75:1). The gold point inside the logo doesn't count.
+- **Gold is one element per slide.** On navy, `gold-light` (#D9A54B, 5.2:1): up to 3 highlighted words, *or* the gold point in a motif, *or* the lead row in an evidence trail. On paper, `gold` (#C1892E) as a shape only: the 6px underline, the focus bar in a chart, the lead row's edge or a reason rule. Never gold text on paper (2.75:1). The gold point inside the logo doesn't count.
 - **Status colours never appear on slides.** Good, warning and critical belong to product UI. A chart's categories are navy, slate and one gold, never green and red.
 
 ### Typography
@@ -55,7 +55,7 @@ Three families, strict roles, all bundled in [`fonts/`](./fonts) (SIL Open Font 
 - Covers and closes run in Archivo ExtraBold; statements, headings and step headlines in Bold. There is no Regular-with-Bold-emphasis pattern: emphasis is gold, not weight.
 - Line height is about 104% of size for covers, 110% for statements and headings, and 135% for body. Never set titles tighter, and use `text-wrap: balance` on every title.
 - Figures are tabular (`font-variant-numeric: tabular-nums`) and never gold: the number is the proof, so it stays in the plain text colour. One `figure-hero` per slide.
-- Mono is for data only: eyebrows, source lines, weights, table headers, the counter and IDs. Never a sentence in mono.
+- Mono is for data only: eyebrows, source lines, IDs, table headers, the counter and IDs. Never a sentence in mono.
 - **Never use another face**, and never all-caps outside the eyebrow and mono labels.
 - Minimum size on the canvas: 28px.
 
@@ -83,7 +83,7 @@ One motif per slide, anchored to an edge, never behind text. A motif's gold poin
 
 ### Imagery
 
-- Real product surfaces first: a moment with its evidence trail, a weighting chart, an audit log, cropped to the one panel that proves the point, in a white frame.
+- Real product surfaces first: a moment with its evidence trail, an audit log, cropped to the one panel that proves the point, in a white frame.
 - Mock-ups use skeleton bars (`line`) and clearly illustrative data. Customers appear by ID ("Customer 40-1187"), never by a name or an address.
 - Icons are the brand's line icons (1.75px on a 24px grid, scaled to 48–64px on the canvas), paper on navy and navy on paper or white. Transaction, customer and market always use the transaction, customer and market icons.
 - Third-party marks (event organisers, award bodies, client logos) come from their official files and are never redrawn. Client logos need written approval.

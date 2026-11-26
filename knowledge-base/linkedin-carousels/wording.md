@@ -8,7 +8,7 @@ Seekridge's wording rules ([`../design-system/writing.md`](../design-system/writ
 |---|---|---|---|
 | Name one reader's situation | One persona per carousel; the cover names their situation or a fact | "Which customers are moving money out?" | "Discover the Seekridge platform" |
 | Mechanism, not adjective | Each slide names what the product does, checks or shows | "Shows the transfers, the income and the market behind each moment" | "Transparent, AI-powered insights" |
-| Explain any AI claim | Say what the model combines and that each weight is shown, or leave AI out | "Combines the transfers, the income and outside savings rates, and shows each weight" | "Powered by advanced AI" |
+| Explain any AI claim | Say what the model combines and that every data point is shown, or leave AI out | "Combines the transfers, the income and outside savings rates, and shows each data point" | "Powered by advanced AI" |
 | Benefit, then feature | The heading says what the reader can now do; the feature name goes in the eyebrow or the caption | Heading: "The reason, written from the evidence" · eyebrow: "Evidence Trail" | Heading: "Evidence Trail now has reason lines" |
 | One idea per slide | One claim, one figure or one screenshot | "One bank, one year, one moment type." | A claim, a figure and a screenshot on one slide |
 | Lead with the claim | The first words on a slide carry the point | "AI that picks your customers needs a reason." | "In today's regulatory landscape…" |
@@ -63,7 +63,7 @@ Sentence case, always, with no exceptions for covers, eyebrows or buttons: "New 
 - **Figures** in `figure-hero` are short: a percentage, a count or an amount, 6 characters at most ("68%", "18,400", "EUR 2.4m" drops to `figure`). What it measures goes underneath, in words.
 - **Source line**, in mono, under every figure, chart and table: what the data is, its period and its size where you have it ("Backtest on 18,400 retail customers, 2025"). Add "· illustrative" for anything that isn't a real, approved result.
 - **Dates**: "12–13 March 2027" on slides (en dash, no spaces); 2027-03-12 only in tables and screenshots.
-- **Weights** in an evidence trail are two decimals in mono (0.41), and the weights shown on one moment add up to 1.00.
+- **Evidence rows** list the data points in plain words. Don't show weights or percentages for how much a data point counted; percentages that are facts (*income up 16%*) are fine.
 
 ## Market typography
 

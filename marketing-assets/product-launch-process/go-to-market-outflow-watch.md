@@ -77,7 +77,7 @@ Built on the [message house](../../knowledge-base/positioning.md#message-house),
 
 - **Value:** keep the savings your customers already have with you.
 - **Benefit:** call the customers who are starting to move money out, weeks before the balance falls, with a reason they recognise.
-- **Feature:** outflow moments read from the bank's own transactions (new recurring transfers out, balance trends, card spend moving elsewhere), weighed against what other banks pay on savings, each with its evidence trail and logged for review.
+- **Feature:** outflow moments read from the bank's own transactions (new recurring transfers out, balance trends, card spend moving elsewhere), compared with what other banks pay on savings, each with its evidence trail and logged for review.
 
 **One line:** *See who's moving money out, and why, before the balance shows it.*
 
