@@ -191,15 +191,14 @@
 .pwv-rank b small { font: 500 30px/30px var(--pwv-font-mono); letter-spacing: 0; color: var(--pwv-panel-muted); margin-left: 6px; }
 
 /* ---------- EvidenceTrail ---------- */
-.pwv-evidence .pwv-row { grid-template-columns: 190px 1fr 180px 230px; }
+.pwv-evidence .pwv-row { grid-template-columns: 220px 1fr 280px; }
+.pwv-evidence .pwv-row > .pwv-data { text-align: right; }
+/* The first data point is the lead: a gold edge, the frame's one gold. No weights or percentages. */
+.pwv-row.is-lead::before { content: ""; position: absolute; left: 0; top: 16px; bottom: 16px; width: 6px; border-radius: 0 3px 3px 0; background: var(--pwv-lot); }
+.pwv-row.is-lead > span:nth-of-type(2) { font-weight: 600; }
 .pwv-evidence .pwv-row > span { white-space: nowrap; }
 .pwv-layer { display: inline-flex; align-items: center; gap: 14px; font: var(--pwv-text-panel-label); letter-spacing: var(--pwv-text-panel-label-tracking); text-transform: uppercase; color: var(--pwv-panel-muted); }
 .pwv-layer .pwv-icon { width: 30px; height: 30px; }
-.pwv-weight { display: grid; grid-template-columns: 1fr 72px; align-items: center; gap: 16px; }
-.pwv-bar { position: relative; height: 14px; background: var(--pwv-bar-track); }
-.pwv-bar i { position: absolute; left: 0; top: 0; bottom: 0; width: var(--w); background: var(--pwv-bar); transform: scaleX(var(--p, 1)); transform-origin: 0 50%; }
-.pwv-bar.is-top i { background: var(--pwv-lot); }
-.pwv-weight .pwv-data { text-align: right; }
 
 /* ---------- FocusMarks ---------- */
 .pwv-focus { position: absolute; inset: calc(-12px - (1 - var(--p, 1)) * 40px); opacity: var(--p, 1); pointer-events: none; z-index: 5; }
@@ -260,8 +259,8 @@
 .pwv-tri .pwv-panel { position: relative; }
 .pwv-tri .pwv-tri-body { padding: 26px var(--pwv-panel-pad) 30px; }
 .pwv-tri .pwv-tri-body h4 { margin: 8px 0 22px; font: 600 34px/42px var(--pwv-font-ui); }
-.pwv-tri .pwv-ev { display: grid; grid-template-columns: 1fr 64px; gap: 14px; align-items: center; margin-top: 12px; font: 500 22px/28px var(--pwv-font-ui); }
-.pwv-tri .pwv-ev .pwv-bar { grid-column: 1 / -1; height: 10px; }
+.pwv-tri .pwv-ev { display: flex; gap: 12px; align-items: center; margin-top: 14px; font: 500 22px/28px var(--pwv-font-ui); }
+.pwv-tri .pwv-ev::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: #1A3A5C; flex: none; }
 
 /* ---------- Cursor (only when a click is the point) ---------- */
 .pwv-cursor { position: absolute; left: 0; top: 0; width: 40px; height: 40px; z-index: 60;

@@ -1,17 +1,17 @@
 1
-00:00:01,500 --> 00:00:05,550
-Every customer leaves a trail of data.
-Most of it goes unread.
+00:00:01,400 --> 00:00:05,700
+Every customer leaves a trail to
+their next plan. Most banks miss it.
 
 2
-00:00:06,100 --> 00:00:10,870
-Their payments show it: a growing family,
-a new car, a renovation, savings leaving.
+00:00:06,800 --> 00:00:11,060
+A growing family. A new car.
+A renovation. Money moving out.
 
 3
-00:00:11,900 --> 00:00:17,380
-Seekridge reads your CRM and transaction
-data, alongside live market data.
+00:00:11,900 --> 00:00:16,840
+Seekridge combines transactions, AI chats,
+mortgage and rate data, and more.
 
 4
 00:00:17,900 --> 00:00:22,570
@@ -34,7 +34,7 @@ Another is renovating.
 Time to offer a green loan.
 
 8
-00:00:38,500 --> 00:00:43,250
+00:00:38,500 --> 00:00:42,740
 And this one is moving savings out.
 Call before the balance shows it.
 
