@@ -86,7 +86,7 @@ The on-prem gap is real, not a competitor's weakness — flag it early with a pr
 
 **Weaknesses:** No customer-data layer and no moments — the bank has to build and govern the targeting logic itself. Categories come with a confidence score only. No compliance/audit-log feature. *(Source: product comparison, unconfirmed independently — worth a live demo comparison before repeating as certain)*
 
-**How we win:** Reframe the conversation from price-per-call to the cost of building, running, and defending moments in-house. Works best once the Head of Model Risk (not just procurement or the data team) is in the room — see [`personas.md`](./personas.md).
+**How we win:** Reframe the conversation from price-per-call to the cost of building, running, and defending moments in-house. Works best once the buyer has forwarded the review pack, so model risk (not just procurement or the data team) has seen the method — see [`personas.md`](./personas.md).
 
 **How we lose:** Deals that stay procurement- or data-team-led and never reach a real risk conversation; deals where price sensitivity dominates because the bank hasn't yet had a review of how it targets customers.
 

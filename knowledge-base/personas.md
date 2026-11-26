@@ -2,72 +2,47 @@
 
 Expands the persona list in [`knowledge-base.md`](./knowledge-base.md). Where [`icp.md`](./icp.md) names *which roles* sit on a buying committee and what's generally at stake for each, this document is what those roles actually think, say, and respond to — used by prompts/skills that need to tailor tone, structure, or emphasis to who's actually reading, not just confirm they exist. See [`sales-deck-builder`](../sales-tools/sales-deck-builder), [`persona-email-sequence`](../marketing-assets/persona-email-sequence), [`one-pager-builder`](../marketing-assets/one-pager-builder), and [`sales-call-analysis`](./sales-call-analysis) for where this gets applied.
 
-## How this maps to the buying committee
+## Who we sell to, and who we meet later
 
-[`icp.md`](./icp.md)'s buying committee table names the roles. The ones with the deepest, most decision-shaping psychology get full persona treatment; the procurement role gets a shorter entry, since its behavior is more procedural than psychological — the content that would actually change a rep's approach is thinner.
+Seekridge creates opportunities, so we sell to the two people who own a growth or retention target on the bank's existing customers. Everyone else on the committee either uses the product or can stop the deal, but none of them has a reason to buy it. Marketing, outbound and content go to the two buyers only. The others get prepared material, handed over through the buyer, at the stage where they appear.
 
-| Buying committee role (per `icp.md`) | Persona below | Depth |
+| Role | Persona below | Who reaches them |
 |---|---|---|
-| Risk & model-governance owner | [Head of Model Risk](#head-of-model-risk-risk-and-model-governance-owner) | Full |
-| Economic buyer (growth on the base) | [Head of Retail Banking](#head-of-retail-banking-economic-buyer) | Full |
-| Economic buyer (Outflow Watch) | [Head of Deposits & Savings](#head-of-deposits--savings-economic-buyer-outflow-watch) | Full |
-| End user / Tier 3 buyer | [Relationship Manager Lead](#relationship-manager-lead-end-user-lead-tier-3-buyer) | Full |
-| Technical evaluator | [Data & CRM Lead](#data--crm-lead-technical-evaluator) | Full |
-| IT/security reviewer | [IT Security Lead](#it-security-lead-infrastructure-gatekeeper) | Full |
-| Procurement / compliance | [Vendor Risk & Compliance Reviewer](#vendor-risk--compliance-reviewer) | Shorter — mostly procedural |
+| **Buyer:** main bank and lending — mortgages, car and renovation loans | [Head of Retail Banking](#head-of-retail-banking-buyer-main-bank-and-lending) | Marketing and outbound |
+| **Buyer:** deposits and savings (Outflow Watch) | [Head of Deposits & Savings](#head-of-deposits--savings-buyer-deposits-and-savings) | Marketing and outbound |
+| User (and the buyer at Tier 3) | [Relationship Manager Lead](#relationship-manager-lead-user-and-tier-3-buyer) | Through the buyer, in the pilot; directly at credit unions |
+| Technical evaluator | [Data & CRM Lead](#data--crm-lead-technical-evaluator) | The rep, early, once a buyer is engaged |
+| Reviewer | [Head of Model Risk](#head-of-model-risk-reviewer-risk-model-governance-and-data-protection) | Prepared review pack, through the buyer |
+| Gatekeeper | [IT Security Lead](#it-security-lead-infrastructure-gatekeeper) | The rep, when residency comes up |
+| Gatekeeper | [Vendor Risk & Compliance](#vendor-risk--compliance-reviewer) | Documentation, through the buyer |
+
+**How the two buyers relate.** Both report into retail. The Head of Retail Banking owns growth: customers who make the bank their main bank, products per customer, and the big loans (mortgages, car loans, renovation loans) — so the main-bank, growth and new-customer moments are theirs. The Head of Deposits & Savings owns balances and their cost, so the outflow moments and Outflow Watch are theirs. Either can be the way in; a pilot with a clear number on one side is what earns the other. At credit unions and small cooperative banks one person usually holds both, often the Relationship Manager Lead.
 
 ## Persona interaction map
 
-A deal rarely has one persona in the room — it has several, often with real tension between them, not just different priorities in parallel:
-
-- **Head of Model Risk vs. Head of Retail Banking** is the most common live tension: retail wants more opportunities worked faster, risk wants to know why each customer was chosen and whether their transactions may be used that way, and neither will say the other's priority doesn't matter. The rep's job is to show the two aren't actually in conflict (a moment that shows its evidence *is* a moment bankers act on faster, and one risk can approve once instead of campaign by campaign), not to pick a side. See the [Meridian Savings call](../knowledge-base/sales-call-analysis/call-02-meridian-savings.md) for this playing out directly.
-- **Data & CRM Lead is usually an ally, not a gatekeeper**, if engaged early — they want to be the one who validated the tool properly, and a rep who treats them as a rubber stamp loses that alliance. See the [Meadowbrook Financial call](../knowledge-base/sales-call-analysis/call-13-meadowbrook-financial.md), where the data team's own evaluation rigor became the rep's strongest lever.
-- **IT Security Lead answers to a different, often invisible-until-late master**: a specific regulator or internal data-governance policy, not the deal's momentum. Because Seekridge works with the bank's own transaction data, they are the one persona here who can end a deal that every other stakeholder wants to close — see the [Solvane Bank Group call](../knowledge-base/sales-call-analysis/call-10-solvane-bank-group.md).
-- **Vendor Risk & Compliance moves on its own clock**, largely deaf to sales urgency, and reacts badly to being chased directly rather than through the internal champion — see the [Thornfield Mutual call](../knowledge-base/sales-call-analysis/call-14-thornfield-mutual.md).
-
----
-
-## Head of Model Risk (risk and model-governance owner)
-
-**Buying psychology:** Risk-averse by function, not by personality — their job is to be the person in the room who asks "how do we defend this to a regulator." Any model that decides which customers get an offer lands on their desk for sign-off, and so does any new use of customers' transaction data. Enthusiasm from other stakeholders makes them more skeptical, not less; they see their role as the check on that enthusiasm.
-
-**Measured on:** Audit outcomes, exam findings (or absence of them), and — increasingly — how defensible the bank's automated customer decisions are under regulatory scrutiny: fair treatment, purpose limitation on transaction data, profiling rules, model governance. Not measured on sales volume; a campaign that grows deposits but can't be explained is a mark against them, not a win.
-
-**Pain, in their language:** *"I can't tell the auditor 'the model picked them' — I need to be able to show why we contacted each customer, and which of their transactions we used."* *"Every vendor claims their AI is explainable. I've been burned by that claim before."* *"I don't need the cleverest model. I need the one I can defend two years from now, after whoever ran the campaign has left."*
-
-**Decision criteria, ranked:**
-1. Explainability of individual moments — which data points drove each one
-2. Moment quality, validated against a method they can scrutinize (not just a headline hit rate)
-3. Vendor stability and transaction-data handling practices
-4. Integration effort (real, but secondary to the above)
-
-**Common objections:** "Are you inferring anything sensitive from spending — a pregnancy, a health condition?" (No: moments only describe what has already happened, such as child benefit arriving or the customer telling the AI agent; see the family-growing moment in [`knowledge-base.md`](./knowledge-base.md)) · "How is this different from [prior vendor]'s explainability claim that didn't hold up?" · "What happens to our customers' transaction data if we leave you?" · "Show me a moment that turned out wrong and how the evidence trail explained it."
-
-**Trust triggers:** A vendor who volunteers a live run on the bank's own data, unprompted. A vendor who says "we don't know, let me find out" rather than an immediate confident answer. A specific, named method detail rather than a general claim.
-
-**Trust breakers:** Any claim that sounds identical to a prior vendor's claim that didn't hold up — this persona has usually been burned once already and pattern-matches hard against repeat offenses. Overclaiming moment accuracy without a disclosed method. Being asked to just "trust the model."
-
-**Content preferences:** Method whitepapers, live runs on their own data over slides, peer references from similarly-regulated banks. Actively distrusts case studies without a named, checkable source.
-
-**Where they spend time:** Risk/compliance-focused LinkedIn groups, industry risk conferences, trade publications — not general SaaS/martech content channels.
-
-**Seen in this repo:** [Nordkredit](../knowledge-base/sales-call-analysis/call-01-nordkredit.md) (Lena Virtanen — the clean, textbook version of this persona's mandate), [Court Street Bank](../knowledge-base/sales-call-analysis/call-03-court-street-bank.md) (David Okafor — the same psychology under a formal competitive bake-off), [Crestview Capital Bank](../knowledge-base/sales-call-analysis/call-11-crestview-capital-bank.md) (Ingrid Solberg — a regulatory-certification variant of the same core need for defensibility).
+- **The two buyers want the same thing at different scope.** Retail wants every product line growing from the same customer base; deposits wants the money to stay. A moment like "money starting to leave" can be a retention call (deposits) or an investment offer (retail): agree who owns which moment before the pilot. See the [Meridian Savings call](./sales-call-analysis/call-02-meridian-savings.md).
+- **Risk and data protection review, they don't buy.** A buyer who has to make the risk case alone stalls. The rep's job is to hand the buyer what reviewers need — the evidence trail, the method, the rule that moments only describe what has already happened, the data-processing terms — so approval happens once, not campaign by campaign. Never reach out to a reviewer directly before the buyer is convinced.
+- **The Data & CRM Lead is usually an ally**, if engaged early — they want to be the one who validated the tool properly. See the [Meadowbrook Financial call](./sales-call-analysis/call-13-meadowbrook-financial.md).
+- **IT Security answers to a policy or regulator, not to the deal's momentum.** Because Seekridge works with the bank's own transaction data, this is the one role that can end a deal everyone else wants — see the [Solvane Bank Group call](./sales-call-analysis/call-10-solvane-bank-group.md).
+- **Vendor Risk & Compliance moves on its own clock**, and reacts badly to being chased directly — see the [Thornfield Mutual call](./sales-call-analysis/call-14-thornfield-mutual.md).
 
 ---
 
-## Head of Retail Banking (economic buyer)
+## Head of Retail Banking (buyer: main bank and lending)
 
-**Buying psychology:** Measured against growth on the existing customer base, not risk metrics — success looks like "more customers who use us as their main bank, more products per customer, more lending to customers we already have," not "audits passed." Will defer to the Head of Model Risk on explainability but owns the growth and workflow conversation, and usually the budget.
+**Buying psychology:** Measured against growth on the existing customer base, not risk metrics — success looks like "more customers who use us as their main bank, more products per customer, more lending to customers we already have," not "audits passed." Owns the growth and workflow conversation and usually the budget; wants the risk team on board but won't make the risk case for them.
 
-**Measured on:** Main-bank customers (salary credited here), products per customer, lending and investment sales to existing customers — mortgages, car loans and renovation loans included — and banker productivity. A tool that's more defensible but produces fewer usable opportunities is, from this persona's KPIs alone, a regression — which is exactly why the tension with Head of Model Risk (see the interaction map above) is real, not manufactured.
+**Measured on:** Main-bank customers (salary credited here), products per customer, lending and investment sales to existing customers — mortgages, car loans and renovation loans included — and banker productivity.
 
 **Pain, in their language:** *"Half our 'customers' get their salary somewhere else — we're the account they keep for the mortgage."* *"We find out a customer took a mortgage elsewhere when the rent payments stop."* *"A family has a baby, buys a bigger car on the dealer's finance, and we never knew."* *"My bankers get lists every month and ignore half of them because nobody can say why a name is on there."* *"I need my risk team on board, but I'm not going to sell this internally for them."*
+
+**Moments they own:** salary landing elsewhere, salary just switched in, card going quiet, income rising, investing elsewhere, mortgage-ready, car purchase goal, family growing, and the first-90-days moments for new customers.
 
 **Decision criteria, ranked:**
 1. Business impact — main-bank conversions, products per customer or new lending, ideally with a specific number from their own data
 2. Fit with the bankers' existing CRM workflow (minimal new steps)
 3. Whether bankers will actually believe and act on the moments
-4. Alignment with what Model Risk has already approved (won't fight that battle themselves)
+4. A clear path through risk and data protection that doesn't depend on them arguing it
 
 **Common objections:** "Will my bankers need retraining, and how long does that take?" · "What's the actual uplift on our customers, not the theoretical one?"
 
@@ -83,13 +58,15 @@ A deal rarely has one persona in the room — it has several, often with real te
 
 ---
 
-## Head of Deposits & Savings (economic buyer, Outflow Watch)
+## Head of Deposits & Savings (buyer: deposits and savings)
 
 **Buying psychology:** Owns deposit balances and savings growth, and knows the money is quietly drifting: customers keep their checking account here but send a monthly amount to a better-paying savings account or an investment app elsewhere, and nobody calls. Pragmatic, numbers-led, and wary of "AI" pitches that ignore how small and gradual outflows really are.
 
 **Measured on:** Deposit balances and their cost, savings product growth, outflows to other providers, and retention of high-balance customers.
 
 **Pain, in their language:** *"We see the money leave when the balance is already gone."* *"It's never one big transfer. It's EUR 300 a month to someone paying a point more."* *"Matching every rate is ruinous — I need to know who to call, not raise the rate for everyone."*
+
+**Moments they own:** money starting to leave, balance drifting down, a savings-rate gap to other banks — the moments in Seekridge Outflow Watch.
 
 **Decision criteria, ranked:**
 1. Evidence on their own data — a backtest showing outflows the bank didn't see coming
@@ -111,9 +88,9 @@ A deal rarely has one persona in the room — it has several, often with real te
 
 ---
 
-## Relationship Manager Lead (end-user lead, Tier 3 buyer)
+## Relationship Manager Lead (user, and Tier 3 buyer)
 
-**Buying psychology:** Adoption-driven — at a credit union or small cooperative bank they hold the budget and the team that has to use the tool, so they weigh "will my bankers bother opening this" as heavily as feature fit.
+**Buying psychology:** At most banks the user, reached through the buyer during the pilot: their bankers are the ones who act on moments. At a credit union or small cooperative bank they hold the budget and the team that has to use the tool, so they weigh "will my bankers bother opening this" as heavily as feature fit.
 
 **Measured on:** Conversations that turn into products, member or customer retention, banker productivity, and — quietly — whether their last few tool purchases actually got used. A Relationship Manager Lead who's been burned by low adoption before will interrogate onboarding harder than price.
 
@@ -161,6 +138,36 @@ A deal rarely has one persona in the room — it has several, often with real te
 
 ---
 
+## Head of Model Risk (reviewer: risk, model governance and data protection)
+
+**Reviews, doesn't buy.** Reached with a prepared review pack, through the buyer, once the buyer is convinced — never as a marketing target. Data protection (the DPO) asks the same questions about purpose and profiling and gets the same pack.
+
+**Buying psychology:** Risk-averse by function, not by personality — their job is to be the person in the room who asks "how do we defend this to a regulator." Any model that decides which customers get an offer lands on their desk for sign-off, and so does any new use of customers' transaction data. Enthusiasm from other stakeholders makes them more skeptical, not less; they see their role as the check on that enthusiasm.
+
+**Measured on:** Audit outcomes, exam findings (or absence of them), and — increasingly — how defensible the bank's automated customer decisions are under regulatory scrutiny: fair treatment, purpose limitation on transaction data, profiling rules, model governance. Not measured on sales volume; a campaign that grows deposits but can't be explained is a mark against them, not a win.
+
+**Pain, in their language:** *"I can't tell the auditor 'the model picked them' — I need to be able to show why we contacted each customer, and which of their transactions we used."* *"Every vendor claims their AI is explainable. I've been burned by that claim before."* *"I don't need the cleverest model. I need the one I can defend two years from now, after whoever ran the campaign has left."*
+
+**Decision criteria, ranked:**
+1. Explainability of individual moments — which data points drove each one
+2. Moment quality, validated against a method they can scrutinize (not just a headline hit rate)
+3. Vendor stability and transaction-data handling practices
+4. Integration effort (real, but secondary to the above)
+
+**Common objections:** "Are you inferring anything sensitive from spending — a pregnancy, a health condition?" (No: moments only describe what has already happened, such as child benefit arriving or the customer telling the AI agent; see the family-growing moment in [`knowledge-base.md`](./knowledge-base.md)) · "How is this different from [prior vendor]'s explainability claim that didn't hold up?" · "What happens to our customers' transaction data if we leave you?" · "Show me a moment that turned out wrong and how the evidence trail explained it."
+
+**Trust triggers:** A vendor who volunteers a live run on the bank's own data, unprompted. A vendor who says "we don't know, let me find out" rather than an immediate confident answer. A specific, named method detail rather than a general claim.
+
+**Trust breakers:** Any claim that sounds identical to a prior vendor's claim that didn't hold up — this persona has usually been burned once already and pattern-matches hard against repeat offenses. Overclaiming moment accuracy without a disclosed method. Being asked to just "trust the model."
+
+**Content preferences:** The review pack (method note, evidence trail of a real moment, data-processing terms), live runs on their own data over slides, peer references from similarly-regulated banks. Actively distrusts case studies without a named, checkable source.
+
+**Where they spend time:** Risk/compliance-focused LinkedIn groups, industry risk conferences, trade publications — not general SaaS/martech content channels.
+
+**Seen in this repo:** [Nordkredit](../knowledge-base/sales-call-analysis/call-01-nordkredit.md) (Lena Virtanen — the clean, textbook version of this persona's mandate), [Court Street Bank](../knowledge-base/sales-call-analysis/call-03-court-street-bank.md) (David Okafor — the same psychology under a formal competitive bake-off), [Crestview Capital Bank](../knowledge-base/sales-call-analysis/call-11-crestview-capital-bank.md) (Ingrid Solberg — a regulatory-certification variant of the same core need for defensibility).
+
+---
+
 ## IT Security Lead (infrastructure gatekeeper)
 
 **Buying psychology:** Not swayed by product enthusiasm from other stakeholders — answers to a data-governance policy or regulator, not the deal's momentum. Genuinely willing to end a deal everyone else wants, and doesn't experience that as a loss. Sharing transaction data with a vendor puts this persona at the center of every Seekridge deal.
@@ -203,4 +210,4 @@ A deal rarely has one persona in the room — it has several, often with real te
 
 ## Using personas together on one deal
 
-Most real deals engage two or three of these personas at once, not one at a time — the practical skill is knowing which one is actually blocking progress at a given moment, since the answer changes across a deal's lifecycle: Data & CRM Lead early (technical validation), Head of Model Risk and Head of Retail Banking (or Head of Deposits & Savings) in the middle (the substantive decision, often in tension with each other), then IT Security and Vendor Risk & Compliance late (gates that can kill an otherwise-won deal). Treating a late-stage IT Security objection as if it were a Head of Model Risk objection — i.e., trying to win it on explainability — is a common, avoidable mismatch.
+Most real deals engage two or three of these personas at once, not one at a time — the practical skill is knowing which one is actually blocking progress at a given moment, since the answer changes across a deal's lifecycle: Data & CRM Lead early (technical validation), the buyer — Head of Retail Banking or Head of Deposits & Savings — in the middle (the substantive decision), with Head of Model Risk reviewing the pack the buyer forwards, then IT Security and Vendor Risk & Compliance late (gates that can kill an otherwise-won deal). Treating a late-stage IT Security objection as if it were a Head of Model Risk objection — i.e., trying to win it on explainability — is a common, avoidable mismatch.

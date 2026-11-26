@@ -10,7 +10,7 @@ The voice rules are in [`../branding-guideline/skill.md`](../branding-guideline/
 | Claim (trifold front) | Up to 12 words, one idea per line | Know which customers to call this month. And why. |
 | Supporting line | One sentence, up to 25 words | Seekridge shows which of your existing customers to talk to next, and why. |
 | Problem | Two short paragraphs in the reader's world | A salary goes up, a monthly transfer to another bank begins… |
-| Pillars | Title as the claim, body as its proof | Explainable by design · Every moment shows the data points behind it… |
+| Pillars | Title as the claim, body as its proof | Bankers act on it · Every moment shows the data points behind it… |
 | Benefits | Up to 8 words each, written as outcomes | Risk signs off the method, not each list |
 | Steps | One verb, one sentence | Connect · Your CRM and transaction feed, through one secure export or API. |
 | Figure | Number, what it measures, source | 68% · of flagged customers moved money out within 6 months · Backtest on a bank's 2025 data · illustrative |

@@ -1,10 +1,10 @@
 # Deep-Dive Campaign — Head of Retail Banking
 
-A full 5-email, A/B-tested campaign for the bank's economic buyer, run against a 260-contact segment. Results: [`campaign-metrics.csv`](./campaign-metrics.csv) (raw sends) and [`campaign-performance-analysis.html`](./campaign-performance-analysis.html) (what the data actually says). See [`personas.md`](../../knowledge-base/personas.md#head-of-retail-banking-economic-buyer) for the persona this is built from.
+A full 5-email, A/B-tested campaign for the bank's economic buyer, run against a 260-contact segment. Results: [`campaign-metrics.csv`](./campaign-metrics.csv) (raw sends) and [`campaign-performance-analysis.html`](./campaign-performance-analysis.html) (what the data actually says). See [`personas.md`](../../knowledge-base/personas.md#head-of-retail-banking-buyer-main-bank-and-lending) for the persona this is built from.
 
 **Trigger:** used the main-bank calculator on the site.
 
-**A/B design note:** same structure as the [Head of Model Risk campaign](./campaign-head-of-model-risk.md) — Variant A states the point declaratively with a specific number where one exists, Variant B leads with a direct question naming the cost of inaction. **Variant A won on every tracked metric for this persona** — the opposite result from the Head of Model Risk campaign, where the question framing won. Don't read "provocative questions win" or "declarative numbers win" as a universal rule from either result in isolation — see the analysis for why the same technique cuts opposite ways for these two personas.
+**A/B design note:** same structure as the [Head of Deposits & Savings campaign](./campaign-head-of-deposits-and-savings.md) — Variant A states the point declaratively with a specific number where one exists, Variant B leads with a direct question naming the cost of inaction. **Variant A won on every tracked metric for this persona** — the opposite result from the Head of Deposits & Savings campaign, where the question framing won. Don't read "provocative questions win" or "declarative numbers win" as a universal rule from either result in isolation — see the analysis for why the same technique cuts opposite ways for these two personas.
 
 ---
 
@@ -67,9 +67,9 @@ Here's the real week-by-week: data connection and backtest, a pilot cohort of ba
 
 Last email in this sequence. One thing worth naming directly: this persona's `personas.md` entry is explicit that this buyer won't advocate internally for the risk/compliance case themselves, and being asked to is a stated trust breaker — so this email doesn't ask that.
 
-If it'd help, we can put together a short, joint walkthrough for you and whoever owns the risk side, so the evidence-trail conversation happens in the room with both of you rather than becoming a second sales cycle you have to run yourself.
+If it'd help, we'll give you a short review pack to forward to whoever owns the risk and data-protection side — the method, a real evidence trail, the data-processing terms — and join a call with them if they want one, so the review doesn't become a second sales cycle you have to run yourself.
 
-**Decision criterion advanced:** alignment with what Model Risk has already approved (ranked #4) — closes the sequence by removing the one friction point this persona's own profile flags as most likely to stall the deal, without asking them to do the risk team's job.
+**Decision criterion advanced:** a clear path through risk and data protection that doesn't depend on them arguing it (ranked #4) — closes the sequence by removing the one friction point this persona's own profile flags as most likely to stall the deal, without asking them to do the risk team's job.
 
 ---
 

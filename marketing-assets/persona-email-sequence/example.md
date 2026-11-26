@@ -1,32 +1,32 @@
 # Sample output
 
-Sequence for the Head of Model Risk persona ([`personas.md`](../../knowledge-base/personas.md)).
+Sequence for the Head of Deposits & Savings persona ([`personas.md`](../../knowledge-base/personas.md)).
 
 ---
 
 ## Input
 
-> Persona: Head of Model Risk. Trigger: downloaded our "Explainable Customer Moments in Regulated Banking" whitepaper from the site.
+> Persona: Head of Deposits & Savings. Trigger: downloaded our "Where Savings Go: Small Monthly Outflows in Retail Banking" guide from the site.
 
 ## Output
 
 ```
-## Email Sequence — Head of Model Risk — Trigger: whitepaper download
+## Email Sequence — Head of Deposits & Savings — Trigger: guide download
 
-### Email 1 — "The part most 'explainable AI' claims skip" — Day 0
-You downloaded our piece on explainable customer moments, so you're probably already skeptical of the term — most vendors use it to mean "we show a feature-importance chart," not "we can show why this customer is on the list."
-The difference matters most in an audit, not a demo. If you want to see what a customer-level evidence trail actually looks like on a sample of your own customers (not a curated example), it takes about 15 minutes.
-Decision criterion this advances: explainability of individual moments (top-ranked criterion) — moves from the whitepaper's general argument to a concrete, inspectable example.
+### Email 1 — "Outflows start small, and early" — Day 0
+You downloaded our guide on small monthly outflows, so you already know the pattern: it's rarely one big transfer. It's EUR 300 a month to a provider paying a point more, and the balance only looks wrong months later.
+If you want to see which of your own customers started that pattern recently — with the transactions behind each one, not a churn score — it takes about 15 minutes on a sample of your data.
+Decision criterion this advances: evidence on their own data (top-ranked criterion) — moves from the guide's general argument to their own customers.
 
-### Email 2 — "How we validate moment quality (and how to check our work)" — Day 4
-Following up on explainability — the other question worth asking any vendor is how they validate their moments, and whether that method is something you can actually scrutinize or just a headline hit rate.
-We backtest on your own past outcomes and document the method, not just claim it. Worth a look if you're building a shortlist criteria doc for this evaluation.
-Decision criterion this advances: moment quality validated against a disclosed method (2nd-ranked criterion) — distinct from email 1's evidence-trail focus.
+### Email 2 — "Weeks before the balance falls" — Day 4
+Following up on outflows — the other question worth asking any vendor is how early a moment appears. A model that flags the customer once the balance has dropped is a report, not a warning.
+We backtest on your own past outflows and show how many weeks ahead each one was flagged, with the method documented.
+Decision criterion this advances: how early a moment appears (2nd-ranked criterion) — distinct from email 1's evidence focus.
 
-### Email 3 — "What changes (and what doesn't) if you switch" — Day 9
-Last thing worth covering before I stop filling your inbox: what actually changes operationally if you moved off your current tooling, and what stays the same.
-Integration effort is real but usually smaller than teams expect going in — happy to walk through what that'd look like for your setup specifically, no pressure if the timing isn't right.
-Decision criterion this advances: vendor stability / integration effort (3rd/4th-ranked criteria) — closes the loop on the remaining lower-ranked concerns without urgency tactics.
+### Email 3 — "From moment to the right call" — Day 9
+Last thing worth covering before I stop filling your inbox: who acts on an outflow moment. A list that stays at head office changes nothing.
+Each moment lands in the banker's CRM queue with its evidence, or in the savings team's retention queue — whichever owns that customer. Happy to walk through how that would work with your setup, no pressure if the timing isn't right.
+Decision criterion this advances: how moments reach bankers and the savings team (3rd-ranked criterion) — closes the loop without urgency tactics.
 ```
 
-Note: no 4th email pushing "last chance" urgency — this persona is described in `personas.md` as more skeptical, not less, of pressure tactics, so the sequence ends on a low-pressure, real-effort answer instead.
+Note: no 4th email pushing "last chance" urgency, and no rate-matching hook — this persona's `personas.md` entry flags a pitch that implies matching every competitor rate as a trust breaker, so the sequence ends on a low-pressure, real-effort answer instead.

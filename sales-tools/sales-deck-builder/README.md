@@ -25,7 +25,7 @@ The kit's story shape and slide patterns come from two decks Akos built in a pre
   - [`ridge.py`](./slide-kit/ridge.py) and [`build-assets.py`](./slide-kit/build-assets.py): draw the ridge illustrations
 - [`deck-retail-banks.html`](./deck-retail-banks.html) ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/sales-deck-builder/deck-retail-banks.html)) and [`deck-retail-banks.pdf`](./deck-retail-banks.pdf): the reference deck, a first meeting with a bank's Head of Retail Banking, 14 slides plus a 5-slide appendix
 - [`example-retail-banks.md`](./example-retail-banks.md): the input and outline behind that deck
-- [`sample-deck-outline.md`](./sample-deck-outline.md): an outline-only example for a Head of Model Risk, showing how the order changes by persona
+- [`sample-deck-outline.md`](./sample-deck-outline.md): an outline-only example for the other buyer, a Head of Deposits & Savings (Outflow Watch), showing how the order changes by persona
 
 ## Current limitations
 

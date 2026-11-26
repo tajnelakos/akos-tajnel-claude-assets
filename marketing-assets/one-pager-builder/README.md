@@ -19,4 +19,4 @@ A skill that builds a single-page, persona-specific piece of sales collateral �
 
 ## Current limitations
 
-Only one persona/segment combination is built out (retail banking leaders at retail and savings banks). A Head of Model Risk, Head of Deposits & Savings, or credit-union version needs its own pass with a different angle and proof set, not a find-and-replace on this one — see `skill.md`'s explicit rule against fitting two personas on one page.
+Only one persona/segment combination is built out (retail banking leaders at retail and savings banks). A Head of Deposits & Savings (Outflow Watch) or credit-union version needs its own pass (risk and data protection get the review pack in the flyer system, not a one-pager of their own) with a different angle and proof set, not a find-and-replace on this one — see `skill.md`'s explicit rule against fitting two personas on one page.

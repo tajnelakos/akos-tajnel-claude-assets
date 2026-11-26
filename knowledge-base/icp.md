@@ -46,8 +46,9 @@ Firmographic fit doesn't travel evenly across our three core regions — worth c
 
 | Role | Typical title | Stake |
 |---|---|---|
-| Economic buyer | Head of Retail Banking (or Head of Deposits & Savings, for Outflow Watch) | Owns the growth, deposit or main-bank target on the existing base, and usually the budget |
-| Risk & model-governance owner | Chief Risk Officer / Head of Model Risk | Signs off any model that decides which customers get an offer; often holds a veto and sometimes co-owns budget |
+| Buyer | Head of Retail Banking | Owns growth on the existing base — main bank, products per customer, mortgages, car and renovation loans — and usually the budget. Marketing and outbound go here |
+| Buyer | Head of Deposits & Savings | Owns deposit balances and their cost; the buyer for Outflow Watch. Marketing and outbound go here |
+| Reviewer | Chief Risk Officer / Head of Model Risk, with data protection | Reviews any model that decides which customers get an offer; can stop a deal but doesn't buy. Reached with a prepared review pack, through the buyer |
 | Technical evaluator | Data & CRM Lead / data team | Backtests moment quality on the bank's own data and validates the CRM and transaction-feed integration |
 | End user | Relationship manager / advisor | Works the moments daily, cares about whether they're believable and fit the workflow |
 | IT/security reviewer | IT Security Lead / Infrastructure | Gates on data residency, transaction-data sharing, access controls — usually only blocks, rarely champions (see [`competitive-landscape.md`](./competitive-landscape.md)'s on-prem gap) |

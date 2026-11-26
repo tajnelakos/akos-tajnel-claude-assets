@@ -85,4 +85,4 @@ What this deck shows about the kit:
 - **One gold element per slide.** The urgent moment, the first lever, the digital-campaign owner, the outcome card.
 - **Placeholders the rep fills in:** `[Bank]` and `[Month 2026]` on the cover, `[Rep name] · [email]` on the close.
 
-Compare with [`sample-deck-outline.md`](./sample-deck-outline.md): same product, a Head of Model Risk in the room, and a different order. That deck leads with audit exposure and explainability instead of growth levers.
+Compare with [`sample-deck-outline.md`](./sample-deck-outline.md): same product, the other buyer — a Head of Deposits & Savings, for Outflow Watch — and a different order. That deck leads with small monthly outflows and how early they show, instead of growth levers.
