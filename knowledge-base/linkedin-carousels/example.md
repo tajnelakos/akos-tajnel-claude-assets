@@ -15,7 +15,7 @@ A worked run of [`skill.md`](./skill.md). The rendered slides are in [`assets/Re
 | 1 | Cover · layers | navy | — | Which customers are moving money out? | How one outflow moment is built, and what it rests on. | the motif's gold point |
 | 2 | Statement | navy | Moment explainer | A score tells you who. It rarely tells you why. | A banker who can't explain the call won't make it, and a risk team won't approve it. | "why" |
 | 3 | Layers | navy | Three data layers | Every moment rests on three layers | Transaction data: salary, card spend, bills, transfers and savings. · Customer data: your CRM and products, plus questions to your AI agent. · Market data: rates, what other banks pay, local wages and prices. | none |
-| 4 | Screenshot proof | paper | Evidence trail | The evidence behind one moment | Customer 40-1187, money starting to leave: EUR 400 a month to an outside broker since June (0.41), income up 16% in three months (0.33), other banks pay 1.1 pts more on savings (0.26). Source: "Illustrative customer and weights". | the top weight bar |
+| 4 | Screenshot proof | paper | Evidence trail | The evidence behind one moment | Customer 40-1187, money starting to leave: EUR 400 a month to an outside broker since June (the lead), income up 16% in three months, other banks pay 1.1 pts more on savings. Source: "Illustrative customer and data". | the lead row's edge |
 | 5 | Statement + checklist | navy | What the banker does | Call with the reason in hand. | Open with what changed, not a product. · Offer your own savings or investment option before the habit settles elsewhere. · Log the outcome, so the next moment learns. | "reason" |
 | 6 | Close · CTA | navy | — | See a moment built on your own data. | Ask us for a backtest on your 2025 data. | none |
 
@@ -32,10 +32,10 @@ A worked run of [`skill.md`](./skill.md). The rendered slides are in [`assets/Re
 
 > Most customers start moving money out months before their balance shows it.
 >
-> A Seekridge moment shows which customers are starting to move money out, and why: the new monthly transfer, the change in income, and what other banks pay on savings. Each data point carries its weight, so a banker can open the call with the reason.
+> A Seekridge moment shows which customers are starting to move money out, and why: the new monthly transfer, the change in income, and what other banks pay on savings. Each data point is named, so a banker can open the call with the reason.
 >
 > The weights in this carousel are illustrative.
 >
 > See a moment built on your own data: [link]
 
-Sources: none claimed; customer and weights are illustrative.
+Sources: none claimed; customer and data are illustrative.

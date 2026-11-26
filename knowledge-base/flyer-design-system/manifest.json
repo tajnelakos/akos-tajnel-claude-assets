@@ -68,7 +68,7 @@
     {
       "name": "EvidenceStrip",
       "group": "Content",
-      "summary": "The brand promise on paper: one moment, the customer it points at (by ID), and the data points behind it with how much each counted. Every piece that shows a moment shows this."
+      "summary": "The brand promise on paper: one moment, the customer it points at (by ID), and the data points behind it, in plain words. Every piece that shows a moment shows this."
     },
     {
       "name": "FeaturePanel",

@@ -61,7 +61,7 @@ Each folder contains a `README.md` explaining the problem it solves, the actual 
 
 ## About the formats
 
-- **Claude Skill** — a `SKILL.md` file following [Claude's skill format](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) (YAML frontmatter + instructions), the same structure used in production.
+- **Claude Skill** — a `skill.md` file (rename it `SKILL.md` when you install it) following [Claude's skill format](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) (YAML frontmatter + instructions), the same structure used in production.
 - **Custom GPT** — the system instructions block as configured in ChatGPT's GPT builder.
 
 Some prompts are shown partially or with details generalized rather than as a finished, ready-to-run internal playbook — see [`ABOUT-THIS-REPO.md`](./ABOUT-THIS-REPO.md) for why.

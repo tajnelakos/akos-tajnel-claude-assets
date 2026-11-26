@@ -64,7 +64,7 @@
     {
       "name": "MomentExplainer",
       "group": "Carousels",
-      "summary": "Shows how one moment is built: three data layers, the evidence trail with its weights, and what the advisor does with it."
+      "summary": "Shows how one moment is built: three data layers, the evidence trail in plain words, and what the advisor does with it."
     },
     {
       "name": "SlideKit",
