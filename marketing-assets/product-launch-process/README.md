@@ -71,4 +71,4 @@ What comes back feeds the next round of shaping the product.
 
 ## Current limitations
 
-The process is shown without a worked example for a specific Seekridge launch. The planned go-to-market plan for Seekridge for bancassurance will be the first one run through it.
+The process is shown without a worked example for a specific Seekridge launch. The planned go-to-market plan for Seekridge's insurance use case (bancassurance, owned by the Head of Retail Banking) will be the first one run through it.

@@ -98,9 +98,9 @@ A beat is one headline plus one change on screen. Default length 5 s (`beat`), r
 
 ### Segment story (45–60 s, a Moment story for a whole segment page)
 
-A use-case page (lending, retail banking, bancassurance) gets one Moment story built around **two customers with two different moments**, so the page shows range without becoming a feature tour.
+A use-case page (mortgage lending or retail banking, with insurance under retail banking) gets one Moment story built around **two customers with two different moments**, so the page shows range without becoming a feature tour.
 
-1. **TitleCard**: the book in the segment's own word (*mortgage book*, *home book*, *contact database*). *Your mortgage book already holds next quarter's business.*
+1. **TitleCard**: the book in the segment's own word (*mortgage book*, *customer base*). *Your mortgage book already holds next quarter's business.*
 2. **Customer one**: situation → moment → evidence (2 rows only) → action.
 3. **Customer two**, a different moment type: same order, faster (the viewer has learned the grammar).
 4. **Governance beat**: AuditLog plus one line for risk and compliance. *Every moment, explained and logged.*
@@ -115,7 +115,7 @@ A use-case page (lending, retail banking, bancassurance) gets one Moment story b
 2. **The claim** as a `title`, up to three words in gold-light. *Most moments can't explain themselves.*
 3. **The turn**. *Ours show their evidence.*
 4. **One figure** with its source. *68% of flagged customers refinanced within six months.*
-5. **SegmentTriptych**: the same evidence grammar for lending, retail banking and bancassurance (optional).
+5. **SegmentTriptych**: the same evidence grammar for mortgage lending and retail banking, insurance included (optional).
 6. **EndCard**.
 
 ---
@@ -355,15 +355,16 @@ The default persona film. Reference: [`assets/Films/story-fixed-rate-dach-16x9.m
 
 A 30-second cut drops the layers beat and shortens the evidence to two rows.
 
-**Moment lines by segment (starting point, refine per page)**
+**Moment lines by owner (starting point, refine per page)**
 
-| Segment | Situation | Moment | Top evidence rows | Action |
+| Owner | Situation | Moment | Top evidence rows | Action |
 |---|---|---|---|---|
-| Bank / mortgage lender | Fixed rate ends in four months | Refinance risk | Rate gap to market · salary split with another bank · local competitor offers | Retention call from the advisor's CRM list |
-| Retail bank | Salary now split with another bank | Salary moving away | Salary split · transfers to another bank · fewer card payments | Relationship call before the account goes quiet |
-| Bancassurance | Home premium paid to another insurer | Insured elsewhere | Premium payments · mortgage with the bank · consent | Insurance offer from the advisor |
-| Retail bank | Cash building up in the current account | Savings building up | Balance trend · income rising · no savings product | Savings or investment conversation |
-| Bank / mortgage lender | Deposit saved, rent payments rising | Likely to move | Savings trend · rent payments · local rates | First mortgage conversation |
+| Mortgage lending | Fixed rate ends in four months | Refinance risk | Rate gap to market · salary split with another bank · local competitor offers | Retention call from the advisor's CRM list |
+| Mortgage lending | Deposit saved, rent payments rising | Buying a home | Savings trend · rent payments · local rates | First mortgage conversation |
+| Retail banking | Car purchase coming up | Buying a car | Savings drawn down · dealership visits paid by card · current car loan ending | Car loan offer from the advisor |
+| Retail banking | Payments to builders and DIY stores | Renovating | Builder payments · savings set aside · energy rating | Renovation or green loan conversation |
+| Retail banking | Home premium paid to another insurer | Insured elsewhere | Premium payments · mortgage with the bank · consent | Insurance offer from the advisor |
+| Retail banking | Income rising for a year | Card upgrade | Salary trend · card spend near the limit | Card upgrade offer |
 
 Moments are always shown as the result of named data, and the voice-over leads with the customer's situation, never the detection method.
 

@@ -12,17 +12,24 @@ Master source of truth for every prompt, skill, and example in this repo. Every 
 
 The platform turns these into **moments**: ranked, explained opportunities in customers the bank already has. Delivered via API, CRM integration, and a web app, to retail banks and mortgage lenders across Europe (core markets: DACH, Benelux, Nordics).
 
-What a moment looks like:
+What a moment looks like, grouped by the buyer who owns it:
 
-- **Keep the relationship** — a customer whose salary is now partly paid into another bank, on the way to making you their secondary bank; a customer whose fixed rate ends soon while market rates are lower, likely to refinance elsewhere.
-- **Win business held elsewhere** — a mortgage, savings or loan payment going to another provider every month, ready to be brought over.
-- **Grow with the customer** — income that has risen steadily, ready for a better account, card or credit line; cash building up in the current account, ready for savings or investment; deposits and rent payments that point to a first home purchase; payments to builders and hardware stores that point to a renovation loan.
-- **Insurance as a bank product (bancassurance)** — premiums paid to another insurer every month, or a newly financed car or home with no cover, ready for the bank's own insurance offer.
+**Mortgage lending (Head of Mortgage Lending)**
+- **Refinancing elsewhere** — a mortgage payment going to another lender every month, or a fixed rate ending soon while market rates are lower, ready to be brought over or kept.
+- **Buying a home** — deposits building up and rent payments that point to a first home purchase.
+
+**Retail banking (Head of Retail Banking)**
+- **Buying a car** — a car purchase coming up, ready for the bank's car loan before a dealer's finance offer.
+- **Renovating** — payments to builders and hardware stores, and savings set aside, ready for a renovation or green loan.
+- **Card upgrade** — income that has risen steadily, ready for a better card or credit line.
+- **Insured elsewhere (bancassurance)** — premiums paid to another insurer every month, or a newly financed car or home with no cover, ready for the bank's own insurance offer.
+- **Keep the relationship** — salary now partly paid into another bank, or cash building up with no savings product.
 - **Care moments** — overdraft use rising month on month: a customer to help early, before arrears (fair treatment, and good risk practice).
 
 - **ICP**: mid-size regional retail banks and mortgage lenders with a large existing customer base and a growth or retention target on it. Insurance is sold through the bank (bancassurance), not to insurers directly.
 - **Pricing**: platform subscription priced by the number of customers analysed.
-- **Positioning**: "opportunities you can act on — and explain," i.e. every moment shows the transaction, CRM and market data behind it, so advisors trust it and risk and compliance can sign off on it.
+- **Positioning**: growth from customers the bank already has — every moment shows the transaction, CRM and market data behind it, so advisors act on it, and the method is approved by risk and compliance once, not campaign by campaign.
+- **Buyers**: Head of Mortgage Lending (mortgages, refinancing) and Head of Retail Banking (car and green loans, card upgrades, insurance). Reviewers are reached through them — see [`personas.md`](./personas.md).
 
 ## Competitors
 

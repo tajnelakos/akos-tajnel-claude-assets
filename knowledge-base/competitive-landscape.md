@@ -6,7 +6,7 @@ Full battlecard reference. The summary table in [`knowledge-base.md`](./knowledg
 
 ## Executive summary
 
-Three real competitors in retail banking, none with a decisive product edge — deals are won or lost in the risk conversation, not the demo. Ledgerlight is the highest-frequency threat (price-led transaction categorisation, no explanations, leaves moment-building to the bank); Propensa is the fastest-moving one — its moment-explanation feature shipped in July 2026 and it's now competing on price too, and it won 7 of our 8 head-to-heads this period (small sample, but the clearest warning in the book); Kontora is fading but still wins on relationship tenure and on-prem support — and beats us in nearly three deals out of four (72.7% win rate for them when faced, across a larger sample of 11, per the [win-loss deep dive](./win-loss-analysis/win-loss-detailed-analysis.html)), which is worth remembering before assuming the flashier competitor is the bigger threat. Our two live vulnerabilities are price and the on-prem gap — see [Known gap working against us](#known-gap-working-against-us).
+Three real competitors in retail banking, none with a decisive product edge — deals are won or lost on whether the lending buyer believes advisors will act on the moments and that review will pass, not on the demo. Ledgerlight is the highest-frequency threat (price-led transaction categorisation, no explanations, leaves moment-building to the bank); Propensa is the fastest-moving one — its moment-explanation feature shipped in July 2026 and it's now competing on price too, and it won 7 of our 8 head-to-heads this period (small sample, but the clearest warning in the book); Kontora is fading but still wins on relationship tenure and on-prem support — and beats us in nearly three deals out of four (72.7% win rate for them when faced, across a larger sample of 11, per the [win-loss deep dive](./win-loss-analysis/win-loss-detailed-analysis.html)), which is worth remembering before assuming the flashier competitor is the bigger threat. Our two live vulnerabilities are price and the on-prem gap — see [Known gap working against us](#known-gap-working-against-us).
 
 ## Company profiles
 
@@ -87,7 +87,7 @@ The on-prem gap is real, not a competitor's weakness — flag it early with a pr
 
 **How we win:** Reframe the conversation from price-per-call to the cost of building, running, and defending moments in-house. Works best when the conversation is with the Head of Mortgage Lending or Head of Retail Banking, who owns the outcome, not only procurement or the data team who own the price — see [`personas.md`](./personas.md).
 
-**How we lose:** Deals that stay procurement- or data-team-led and never reach a real risk conversation; deals where price sensitivity dominates because the institution hasn't yet had a review of how it targets customers.
+**How we lose:** Deals that stay procurement- or data-team-led and never reach the mortgage or retail banking buyer; deals where price sensitivity dominates because the institution hasn't yet had a review of how it targets customers.
 
 **Objection handling:** "Ledgerlight is 15% cheaper" → don't price-match; quantify the build-and-govern cost of turning raw data into moments someone can explain, and offer a side-by-side on one real customer segment.
 
@@ -157,7 +157,7 @@ The on-prem gap is real, not a competitor's weakness — flag it early with a pr
 
 1. **No competitor has a credible, specific answer to "show me why this customer was flagged, on our data, not a demo"** — this is the single highest-leverage moment in a competitive deal (see [`positioning.md`](./positioning.md)).
 2. **Support responsiveness is a live, public weakness for Kontora** — usable in Benelux-specific battlecards without needing to fabricate anything, since it's evidenced in public reviews.
-3. **Ledgerlight's price-led positioning has no answer to a risk-framed objection** — reframing the conversation away from price is more effective than matching it.
+3. **Ledgerlight's price-led positioning has no answer to "what will advisors do with it, and how does it get through review?"** — reframing the conversation away from price is more effective than matching it.
 
 ## Known gap working against us
 

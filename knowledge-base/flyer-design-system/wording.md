@@ -11,8 +11,8 @@ The voice rules are in [`../branding-guideline/skill.md`](../branding-guideline/
 | Statement (postcard front) | Up to 8 words | The moment you can explain. |
 | Supporting line | One sentence, up to 25 words | Seekridge shows which of your existing customers to talk to next, and why. |
 | Problem | Two short paragraphs in the reader's world | Fixed rates end, salaries start landing at another bank and a local lender cuts its two-year rate… |
-| Pillars | Title as the claim, body as its proof | Explainable by design · Every moment shows the data points behind it… |
-| Benefits | Up to 8 words each, written as outcomes | Risk signs off the method, not each list |
+| Pillars | Title as the claim, body as its proof | Advisors act on it · Every moment shows the data points behind it… |
+| Benefits | Up to 8 words each, written as outcomes | Approved once, not list by list |
 | Steps | One verb, one sentence | Connect · Your CRM and loan book, through one secure export or API. |
 | Figure | Number, what it measures, source | 68% · of flagged customers refinanced within 6 months · Backtest on a lender's 2025 book · illustrative |
 | Action | What happens after the scan | Scan to book a backtest |

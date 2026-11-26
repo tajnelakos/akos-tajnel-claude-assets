@@ -1,6 +1,6 @@
 # OnePager
 
-The A4 portrait leave-behind (210 × 297 mm): one persona, one page, printed or sent as a PDF after a meeting.
+The A4 portrait leave-behind (210 × 297 mm): one reader, one page, printed or sent as a PDF after a meeting. The worked example is the review pack a buyer forwards to risk and data protection.
 
 **Top to bottom:** ridge-strip motif along the top edge (the page's one gold), lockup, eyebrow naming the reader, `page-title` (two lines at most), `page-lead` (up to three lines), a row of three figures (`FigurePanel`, `.pwf-figures--row`), two half-width columns (an `EvidenceStrip` and two `FeaturePanel`s), three steps in a row, and a footer with the `ContactBlock` on the left and the fictional-company line on the right, above a hairline.
 
