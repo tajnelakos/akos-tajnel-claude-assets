@@ -53,7 +53,11 @@ And this one is moving savings out.
 Call before the balance shows it.
 
 12
-00:00:50,300 --> 00:00:54,390
+00:00:50,100 --> 00:00:53,700
 Every Monday, the week's moments
-arrive ranked, in your CRM.
+arrive ranked in your CRM,
+
+13
+00:00:53,700 --> 00:00:55,900
+ready for your advisors to act on.
 
