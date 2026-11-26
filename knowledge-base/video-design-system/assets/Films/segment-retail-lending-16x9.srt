@@ -4,50 +4,54 @@ Every customer leaves a trail to
 their next plan. Most banks miss it.
 
 2
-00:00:06,800 --> 00:00:11,060
-A growing family. A new car.
-A renovation. Money moving out.
+00:00:06,100 --> 00:00:09,800
+Most often, it's a growing family,
+a new car, a home renovation,
 
 3
+00:00:09,800 --> 00:00:11,450
+or a move to a new area.
+
+4
 00:00:11,900 --> 00:00:16,300
 Seekridge combines transactions,
 market data, AI conversations,
 
-4
+5
 00:00:16,300 --> 00:00:18,600
 mortgage and client data, and more,
 
-5
+6
 00:00:18,850 --> 00:00:21,300
 to find the right moment
 for you to engage.
 
-6
+7
 00:00:21,900 --> 00:00:26,570
 This customer's family is growing.
 In most cases, that means moving home.
 
-7
+8
 00:00:26,600 --> 00:00:30,050
 It's your moment to act, with
 a mortgage offer at the right time.
 
-8
+9
 00:00:30,500 --> 00:00:35,100
 This one is about to buy a car. Offer your
 car loan before the dealer does.
 
-9
+10
 00:00:36,500 --> 00:00:39,970
 Another is renovating.
 Time to offer a green loan.
 
-10
+11
 00:00:42,500 --> 00:00:46,740
 And this one is moving savings out.
 Call before the balance shows it.
 
-11
+12
 00:00:48,500 --> 00:00:52,590
 Every Monday, the week's moments
 arrive ranked, in your CRM.

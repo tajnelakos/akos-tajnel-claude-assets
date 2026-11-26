@@ -9,7 +9,7 @@ The script for [`segment-retail-lending-16x9.mp4`](./segment-retail-lending-16x9
 | # | Scene (film time) | Starts | Draft length | Line, as spoken (paste this) | Delivery |
 |---|---|---|---|---|---|
 | 1 | Open (0–5.6 s) | 1.4 s | 4.0 s | Every customer leaves a trail to their next plan. Most banks miss it. | Even and quiet. Small pause after "plan". Nothing before 1.4 s |
-| 2 | Customers' plans (5.6–11.6 s) | 6.8 s | 4.0 s | A growing family. A new car. A renovation. Money moving out. | Four plans, evenly spaced, no lift at the end |
+| 2 | Customers' plans (5.6–11.6 s) | 6.1 s | 5.2 s | Most often, it's a growing family, a new car, a home renovation, or a move to a new area. | Easy, conversational list; small pause after "Most often", no lift at the end |
 | 3 | Your data, combined (11.6–21.6 s) | 11.9 s | 9.1 s | Seekridge combines transactions, market data, AI conversations, mortgage and client data, and more, to find the right moment for you to engage. | Say "A-I" as letters. A light, even list; small pause after "and more", then land on "right moment"
 | 4 | Growing family (21.6–30.1 s) | 21.9 s | 4.4 s | This customer's family is growing. In most cases, that means moving home. | Warm but matter-of-fact. Small pause after "growing" |
 | 5 | Growing family, the offer | 26.6 s | 3.2 s | It's your moment to act, with a mortgage offer at the right time. | The payoff of the first moment: land on "right time" |
@@ -19,7 +19,7 @@ The script for [`segment-retail-lending-16x9.mp4`](./segment-retail-lending-16x9
 | 9 | Your week (48.1–53.6 s) | 48.5 s | 3.8 s | Every Monday, the week's moments arrive ranked, in your CRM. | Brief pause after "Monday" |
 | 10 | Brand close (53.6–60.2 s) | 55.2 s | 2.2 s | Seekridge. Be first to their next plan. | Beat after "Seekridge." Land softly on "next plan". No caption: the slogan is on screen. Nothing after 58.2 s |
 
-**Totals:** 126 words in about 42 s of speech, over a 60.2 s film, with the rest left as pauses.
+**Totals:** 134 words in about 44 s of speech, over a 60.2 s film, with the rest left as pauses.
 
 **If a line runs long.** Don't speed it up. Send the WAVs: the scene is lengthened to fit the line (and the caption re-timed), or the line is shortened in both the script and the captions together. Captions must keep matching what is said.
 
