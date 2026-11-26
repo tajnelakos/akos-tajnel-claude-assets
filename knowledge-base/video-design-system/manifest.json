@@ -190,7 +190,7 @@
     {
       "name": "EvidenceTrail",
       "group": "Product UI",
-      "summary": "The signature component: every data point behind a moment, with its layer, value and weight, the top weight in gold.",
+      "summary": "The signature component: every data point behind a moment in plain words, with its layer and value; the first one marked in gold.",
       "readme": "components/EvidenceTrail/README.md",
       "preview": "components/EvidenceTrail/preview.html"
     },

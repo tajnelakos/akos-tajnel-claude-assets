@@ -2,7 +2,7 @@
 
 Proof of breadth for Statements and segment overviews: the same moment-plus-evidence grammar across the two buyers' products (mortgage lending; retail banking, including insurance), side by side.
 
-**Anatomy.** Three equal ProductPanels across columns 1–12 with 24px gutters. Each: mono `SEGMENT · DEMO` label, the moment name in Plex Sans 600 34px, two evidence lines with weights and bars (navy only: no gold here, the gold is in the headline).
+**Anatomy.** Three equal ProductPanels across columns 1–12 with 24px gutters. Each: mono `SEGMENT · DEMO` label, the moment name in Plex Sans 600 34px, two evidence lines as plain data points with a small navy bullet, no weights or bars (no gold here: the gold is in the headline).
 
 **Segment pairs** (from `../knowledge-base.md`): Mortgage lending → Refinance risk · Insurance (retail banking) → Insured elsewhere · Retail banking → Salary moving away.
 
