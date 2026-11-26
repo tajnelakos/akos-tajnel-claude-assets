@@ -67,13 +67,13 @@
     {
       "name": "Films",
       "files": [
-        "assets/Films/segment-mortgage-lending-16x9-voiceover.md",
-        "assets/Films/segment-mortgage-lending-16x9.mp4",
-        "assets/Films/segment-mortgage-lending-16x9.srt",
+        "assets/Films/segment-retail-lending-16x9-voiceover.md",
+        "assets/Films/segment-retail-lending-16x9.mp4",
+        "assets/Films/segment-retail-lending-16x9.srt",
         "assets/Films/statement-evidence-16x9.mp4",
         "assets/Films/statement-evidence-16x9.srt",
-        "assets/Films/story-fixed-rate-dach-16x9.mp4",
-        "assets/Films/story-fixed-rate-dach-16x9.srt",
+        "assets/Films/story-outflow-dach-16x9.mp4",
+        "assets/Films/story-outflow-dach-16x9.srt",
         "assets/Films/walkthrough-evidence-trail-16x9.mp4",
         "assets/Films/walkthrough-evidence-trail-16x9.srt"
       ],
@@ -82,17 +82,17 @@
     {
       "name": "Stills",
       "files": [
-        "assets/Stills/contact-sheet-segment-mortgage.jpg",
+        "assets/Stills/contact-sheet-segment-lending.jpg",
         "assets/Stills/contact-sheet-statement.jpg",
         "assets/Stills/contact-sheet-story.jpg",
         "assets/Stills/contact-sheet-walkthrough.jpg",
-        "assets/Stills/segment-book-ridgefield.jpg",
+        "assets/Stills/segment-customers-ridgefield.jpg",
         "assets/Stills/segment-endcard.jpg",
         "assets/Stills/segment-layers.jpg",
-        "assets/Stills/segment-moment-car.jpg",
         "assets/Stills/segment-moment-family.jpg",
-        "assets/Stills/segment-moment-new-home.jpg",
+        "assets/Stills/segment-moment-car.jpg",
         "assets/Stills/segment-moment-renovating.jpg",
+        "assets/Stills/segment-moment-outflow.jpg",
         "assets/Stills/segment-open.jpg",
         "assets/Stills/segment-week-ranked.jpg",
         "assets/Stills/statement-claim.jpg",
@@ -118,9 +118,9 @@
   "films": [
     "films/README.md",
     "films/render-film.py",
-    "films/segment-mortgage-lending-16x9.html",
+    "films/segment-retail-lending-16x9.html",
     "films/statement-evidence-16x9.html",
-    "films/story-fixed-rate-dach-16x9.html",
+    "films/story-outflow-dach-16x9.html",
     "films/walkthrough-evidence-trail-16x9.html"
   ],
   "components": [
@@ -225,7 +225,7 @@
     {
       "name": "BacktestChart",
       "group": "Data",
-      "summary": "How past moments performed on the client's own book: ten deciles in navy, the top decile in gold, the book average dashed.",
+      "summary": "How past moments performed on the client's own data: ten deciles in navy, the top decile in gold, the average dashed.",
       "readme": "components/BacktestChart/README.md",
       "preview": "components/BacktestChart/preview.html"
     },
@@ -246,7 +246,7 @@
     {
       "name": "SegmentTriptych",
       "group": "Data",
-      "summary": "Three segments side by side, each a moment with its top evidence: the same grammar for lending, retail banking and bancassurance.",
+      "summary": "Three moment families side by side, each a moment with its top evidence: the same grammar for main-bank, outflow and growth moments.",
       "readme": "components/SegmentTriptych/README.md",
       "preview": "components/SegmentTriptych/preview.html"
     }

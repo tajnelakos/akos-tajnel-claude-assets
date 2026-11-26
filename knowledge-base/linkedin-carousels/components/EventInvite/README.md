@@ -5,7 +5,7 @@ An invitation to meet the team or hear a talk: a centred question, the talk, the
 **Use it for** conferences, stands, webinars and roundtables. The question earns the swipe; the details close it. 4–5 slides.
 
 **You provide**
-- A cover question for one persona's situation, the topic of the talk or the stand ("Which of your customers are already shopping for a new rate?"). Up to 12 words.
+- A cover question for one persona's situation, the topic of the talk or the stand ("Which of your customers are already banking somewhere else?"). Up to 12 words.
 - The organiser's event mark as supplied artwork, in its version for dark backgrounds.
 - The talk in one statement and one supporting line: what the audience will see, not who we are.
 - The speaker: a real square headshot, name and role. Optional for a stand-only post.

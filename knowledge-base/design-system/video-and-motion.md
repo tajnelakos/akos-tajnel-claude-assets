@@ -10,15 +10,15 @@ Rules for Seekridge product videos and UI motion: formats, story structure, key 
 | Social | 1080 × 1350, 4:5 | 30–45 s | LinkedIn feed |
 | Vertical | 1080 × 1920, 9:16 | 15–30 s | Stories, event screens |
 
-30 fps, H.264, captions burnt in on every cut. One video per buyer and use case (Head of Mortgage Lending; Head of Retail Banking, including insurance), plus one method film the buyer can forward to risk and compliance: never one video for everybody.
+30 fps, H.264, captions burnt in on every cut. One video per segment and persona (retail banking, deposits and savings, retail lending, risk and compliance): never one video for everybody.
 
 ## Structure
 
-1. **Hook (0–5 s):** the persona's situation on a navy title card. "Your customer's fixed rate resets in four months."
-2. **Tension (5–15 s):** what goes wrong today. "By the time anyone notices, they've refinanced elsewhere."
-3. **Method (15–40 s):** the product, as panels rebuilt in code from the real screens (never screen-recorded), following the three layers: the customer record, then the transactions behind it, then the market and rates. The moment appears with its evidence trail and is pushed to the CRM.
+1. **Hook (0–5 s):** the persona's situation on a navy title card. "Your customer's salary just went up. So did their transfers out."
+2. **Tension (5–15 s):** what goes wrong today. "By the time anyone notices, the savings sit at another bank."
+3. **Method (15–40 s):** the product, as panels rebuilt in code from the real screens (never screen-recorded), following the three layers: the transactions, then the customer record and AI-agent questions, then the market and rates. The moment appears with its evidence trail and is pushed to the CRM.
 4. **Proof (40–55 s):** one backtest figure with its source line, or one customer outcome (approved, or labelled illustrative).
-5. **Close (last 4–5 s):** end card with the lockup, one line ("Opportunities you can act on — and explain.") and one action ("Run a backtest on your own book").
+5. **Close (last 4–5 s):** end card with the lockup, one line ("Opportunities you can act on — and explain.") and one action ("Run a backtest on your own customers").
 
 ## Frames
 

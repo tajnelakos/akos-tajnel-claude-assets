@@ -12,13 +12,13 @@ Product marketing runs on recurring problems, not one-off projects: tracking com
 
 ## About the company
 
-Everything here is built around **[Seekridge](./knowledge-base/knowledge-base.md)**, an AI data analytics company built around customer moments. It reads a bank's own transaction and CRM data alongside market data to flag new business opportunities, and early churn, inside the customer base the bank already has. It sells to retail banks and mortgage lenders across Europe. [`knowledge-base/`](./knowledge-base) describes the company, its market, and its customers in full.
+Everything here is built around **[Seekridge](./knowledge-base/knowledge-base.md)**, an AI data analytics company for retail banks, built around customer moments. It reads a bank's own transaction data — salaries, card spend, bills, transfers and savings — together with its CRM, its AI-agent conversations and market data, and flags new business inside the customer base the bank already has: who uses it as their main bank, whose money is starting to leave, who is ready for more. Moments go to the bank's own people, not into a customer app. It sells to retail, savings and cooperative banks across Europe. [`knowledge-base/`](./knowledge-base) describes the company, its market, and its customers in full.
 
 ## Three kinds of folder
 
 - **[`knowledge-base/`](./knowledge-base)** — accumulated understanding: the core reference docs (company, ICP, personas, positioning, voice, competitive landscape), plus the analysis work that builds and maintains that understanding (call analysis, win/loss analysis, outdated checker).
 - **[`sales-tools/`](./sales-tools)** — what a rep or sales-facing process actually uses: competitor monitoring, battlecards, deck building.
-- **[`marketing-assets/`](./marketing-assets)** — content marketing produces and ships: nurture sequences, case studies, one-pagers, blog posts, LinkedIn captions, and the product launch process.
+- **[`marketing-assets/`](./marketing-assets)** — content marketing produces and ships: nurture sequences, case studies, one-pagers, blog posts, LinkedIn captions, and the launch process with a go-to-market plan.
 
 ### `knowledge-base/`
 
@@ -44,7 +44,7 @@ Everything here is built around **[Seekridge](./knowledge-base/knowledge-base.md
 |---|---|---|
 | [`competitor-monitoring/`](./sales-tools/competitor-monitoring) | A structured weekly brief, plus a sourced, region-by-region [competitor analyses site](https://tajnelakos.github.io/akos-tajnel-claude-assets/sales-tools/competitor-monitoring/competitor-analyses.html) (DACH, Benelux, Nordics) | Claude Skill, Custom GPT |
 | [`battlecard/`](./sales-tools/battlecard) | A designed, rep-facing HTML battlecard per tracked competitor | Claude Skill |
-| [`sales-deck-builder/`](./sales-tools/sales-deck-builder) | Turns deal context into a persona-tailored outline, then designed slides from a Seekridge slide kit (HTML and PDF), with a reference deck for mortgage lenders | Claude Skill, Custom GPT, slide kit |
+| [`sales-deck-builder/`](./sales-tools/sales-deck-builder) | Turns deal context into a persona-tailored outline, then designed slides from a Seekridge slide kit (HTML and PDF), with a reference deck for retail banks | Claude Skill, Custom GPT, slide kit |
 
 ### `marketing-assets/`
 
@@ -54,10 +54,10 @@ Everything here is built around **[Seekridge](./knowledge-base/knowledge-base.md
 | [`case-study-builder/`](./marketing-assets/case-study-builder) | Builds a Challenge/Solution/Results case study from a real closed-won deal's CRM record and call transcript — never an invented result or quote, plus a finished, customer-facing [Alpenkreis Bank case study](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/case-study-builder/case-study-alpenkreis-bank.html) and the [designed Nordkredit case study](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/case-study-builder/case-study-nordkredit.html) | Claude Skill |
 | [`one-pager-builder/`](./marketing-assets/one-pager-builder) | Builds a single-page, persona-specific leave-behind — one angle, sourced proof points, an actual designed HTML page | Claude Skill |
 | [`blog-post-builder/`](./marketing-assets/blog-post-builder) | Drafts a blog post built around one real, sourced point of view or finding, not a generic SEO topic | Claude Skill |
-| [`linkedin-caption-builder/`](./marketing-assets/linkedin-caption-builder) | Writes a LinkedIn caption, for a carousel or a standalone post, around one real, cited finding, using the carousel design system's caption rules | Claude Skill |
-| [`product-launch-process/`](./marketing-assets/product-launch-process) | The five-stage launch process (define, prove, enable, launch, learn) with demo readiness per market and KPIs set before launch, as an [illustrated page](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/product-launch-process/launch-process.html), plus a skill that turns a launch brief into a launch plan | Claude Skill |
+| [`linkedin-caption-builder/`](./marketing-assets/linkedin-caption-builder) | Drafts a LinkedIn caption built around one real, cited proof point, using the carousel system's caption rules | Claude Skill |
+| [`product-launch-process/`](./marketing-assets/product-launch-process) | The five-stage launch process (define, prove, enable, launch, learn) with demo readiness per market and KPIs set before launch, as an [illustrated page](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/product-launch-process/launch-process.html), a skill that turns a launch brief into a launch plan, and the [go-to-market plan for Seekridge Outflow Watch](./marketing-assets/product-launch-process/go-to-market-outflow-watch.md) run through it | Claude Skill |
 
-Each folder contains a `README.md` explaining the problem it solves, the actual prompt/skill definition, and a sample output. Several of them share one fictional account, Nordkredit, so they read as one account history: [`sales-call-analysis`](./knowledge-base/sales-call-analysis) has its discovery call and [`case-study-builder`](./marketing-assets/case-study-builder) its closed-won ending.
+Each folder contains a `README.md` explaining the problem it solves, the actual prompt/skill definition, and a sample output. One account, Nordkredit, runs through the repo end to end — from the [first discovery call](./knowledge-base/sales-call-analysis/call-01-nordkredit.md) to the [designed case study](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/case-study-builder/case-study-nordkredit.html) — so the tools read as connected work rather than disconnected prompts.
 
 ## About the formats
 

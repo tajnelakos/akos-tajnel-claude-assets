@@ -1,13 +1,13 @@
 # Call Transcript — Crestview Capital Bank
 
 **Date:** August 2026 · **Duration:** ~19 minutes · **Call type:** Second call, technical discovery
-**Rep:** Anna Kowalski (Seekridge) · **Prospect:** Ingrid Solberg, Head of Retail Banking, Crestview Capital Bank (regional lender)
+**Rep:** Anna Kowalski (Seekridge) · **Prospect:** Ingrid Solberg, Head of Model Risk, Crestview Capital Bank (regional bank)
 
 ---
 
 **Anna:** Ingrid, good to continue from last time. You mentioned you wanted to go deeper on the technical and regulatory side today — where should we start?
 
-**Ingrid:** Our market has a specific local certification requirement for automated models used in customer decisions, including the scoring models feeding them — it's not universal across the region, just our specific national regulator. Any vendor we use needs to hold that certification, or be actively pursuing it with a credible timeline.
+**Ingrid:** Our market has a specific local certification requirement for automated models used in customer decisions, including the categorisation models feeding them — it's not universal across the region, just our specific national regulator. Any vendor we use needs to hold that certification, or be actively pursuing it with a credible timeline.
 
 **Anna:** I want to be accurate rather than reassuring here — I don't know off the top of my head whether we currently hold that specific certification. Can you tell me the exact name of it so I follow up precisely rather than guess?
 
@@ -19,7 +19,7 @@
 
 **Anna:** That's a useful distinction, and I'll make sure whatever I tell you reflects the actual state of things, not a hopeful spin on it. Separate from certification — walk me through what a model review looks like day to day for your team, so I understand the actual workflow this needs to fit into.
 
-**Ingrid:** Sure. Our lending team builds a campaign list each month, our risk analysts spot-check a sample of who's on it weekly, and anything flagged goes to a senior reviewer. The spot-check process is the most manual part — currently done by exporting to a spreadsheet and reviewing by hand.
+**Ingrid:** Sure. Our retail team builds a campaign list each month, our risk analysts spot-check a sample of who's on it weekly, and anything flagged goes to a senior reviewer. The spot-check process is the most manual part — currently done by exporting to a spreadsheet and reviewing by hand.
 
 **Anna:** That's useful — our platform has a review-queue feature that could replace the spreadsheet export step, flagging moments for review based on criteria your team sets, with the evidence trail already attached, rather than a blind weekly sample. Would that actually fit how your senior reviewers work, or would it change the process in a way that creates its own friction?
 
@@ -40,4 +40,4 @@
 - **New, specific requirement surfaced**: a named local regulatory certification for automated decision models, specific to this national regulator — not previously documented anywhere in `competitive-landscape.md` or `icp.md`. This needs escalation to compliance/product regardless of this specific deal's outcome, since it may recur with other prospects in the same market.
 - Correctly did not guess or reassure on the certification status — committed to a specific, honest follow-up within the prospect's stated timeline (a couple of weeks).
 - Prospect explicitly said "in progress with a credible timeline" would be acceptable, not just a binary yes/no — worth remembering as a workable answer if a genuine roadmap commitment can be made, rather than assuming this is an automatic disqualifier.
-- Positive discovery: review-queue/spot-check workflow gap identified organically (manual spreadsheet export) — real product fit opportunity, not just the certification question. Worth surfacing this workflow pain point as a discovery question for other Head of Retail Banking conversations going forward.
+- Positive discovery: review-queue/spot-check workflow gap identified organically (manual spreadsheet export) — real product fit opportunity, not just the certification question. Worth surfacing this workflow pain point as a discovery question for other Head of Model Risk conversations going forward.

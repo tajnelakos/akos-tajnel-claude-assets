@@ -1,6 +1,7 @@
 1
 00:00:00,600 --> 00:00:04,200
-Moment 3 of 212: Refinance risk, customer 40-1187.
+Moment 3 of 212: money starting to leave,
+customer 40-1187.
 
 2
 00:00:04,900 --> 00:00:08,400

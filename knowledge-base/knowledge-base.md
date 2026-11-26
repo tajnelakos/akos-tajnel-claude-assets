@@ -4,53 +4,52 @@ Master source of truth for every prompt, skill, and example in this repo. Every 
 
 ## Company
 
-**Seekridge** — B2B SaaS. An AI data analytics company for retail banks, built around customer moments: it finds new business and early churn inside a bank's existing customer base. It reads three data layers:
+**Seekridge** — B2B SaaS. An AI data analytics company for retail banks, built around customer moments. It reads the data a bank already has, spots what is changing in each customer's financial life, and tells the bank's own teams where the next piece of business is. It combines three data layers:
 
-1. **The bank's transaction data** — current-account and card activity: salary and other income coming in, standing orders and direct debits going out, saving habits, payments to other banks and providers
-2. **The bank's CRM and product data** — products held, loan and savings terms, contact history and consent
-3. **Market data** — interest rates, competitor offers and price trends
+1. **The bank's transaction data** — the customer's main checking account and payment activity: salary and other income, card spend, bills and direct debits, transfers in and out, savings
+2. **Customer and interaction data** — the bank's CRM and product holdings, plus what customers ask the bank's AI agent (for example, a customer asking the assistant what mortgage they could afford)
+3. **Market data** — interest rates, including what other banks pay on savings, inflation, and local wage and price trends
 
-The platform turns these into **moments**: ranked, explained opportunities in customers the bank already has. Delivered via API, CRM integration, and a web app, to retail banks and mortgage lenders across Europe (core markets: DACH, Benelux, Nordics).
+The platform turns these into **moments**: ranked, explained business opportunities in customers the bank already has. Moments are **bank-facing** — they go to relationship managers, advisors, and the marketing and CRM teams, through CRM integration, API, and a web app, not into a customer-facing app. Seekridge sells to retail banks across Europe (core markets: DACH, Benelux, Nordics).
 
-What a moment looks like, grouped by the buyer who owns it:
+The first question Seekridge answers about every customer is whether the bank is their **main bank or a secondary one**. Everything else builds on it. Moments fall into four families, each with an owner — one of the two people Seekridge sells to:
 
-**Mortgage lending (Head of Mortgage Lending)**
-- **Refinancing elsewhere** — a mortgage payment going to another lender every month, or a fixed rate ending soon while market rates are lower, ready to be brought over or kept.
-- **Buying a home** — deposits building up and rent payments that point to a first home purchase.
-- **Growing family** — child benefit payments starting, baby-store spending, mentions in chats with the bank's AI assistant, rent or space under strain: a larger home or a top-up ahead.
+- **Main-bank moments** *(owner: Head of Retail Banking)* — the bank is a customer's secondary bank and could become the main one: salary landing at another bank, everyday card spend on another bank's card, bills paid from an account elsewhere; or a salary that has just switched in.
+- **Outflow moments** *(owner: Head of Deposits & Savings)* — money starting to leave: a new monthly transfer to a savings or investment account at another provider, balances drifting down, standing orders moving, a card going quiet. Sold as **Seekridge Outflow Watch**, the newest product (see the [launch plan](../marketing-assets/product-launch-process/go-to-market-outflow-watch.md)).
+- **Growth moments** *(owner: Head of Retail Banking)* — a customer ready for more: rising income, a steady saving habit, money starting to go to an outside investment account, a life event (a new job, a move), or one of four bigger ones:
+  - **Mortgage-ready** — income up, savings building towards a deposit, rent paid on time, and questions to the bank's AI agent about what they could borrow.
+  - **Car purchase goal** — a savings pot growing towards a round target, a car loan elsewhere about to end, and questions to the AI agent about car financing or trade-in. Next step: the bank's car loan before the dealer's finance offer.
+  - **Family growing** — a child has arrived: child benefit landing in the account, new regular spend at baby and children's shops, nursery or childcare fees, and the customer telling the AI agent about parental leave or a new child. One moment, with one ranked next step: a **mortgage** for a bigger home (renting, rent taking a growing share of income, savings building), a **car loan** (car questions to the AI agent, an old car loan ending), or a **renovation loan** (already owns a home, spend at DIY and building suppliers).
+  - **Renovating** — builder and DIY payments, money set aside in savings, and energy prices rising in the market data. Next step: a green loan or renovation loan, timed to the work.
+- **New-customer moments** *(owner: Head of Retail Banking)* — the first 90 days: a new customer whose salary hasn't switched yet, whose card is unused, or who hasn't set up a single bill.
 
-**Retail banking (Head of Retail Banking)**
-- **Buying a car** — a car purchase coming up, ready for the bank's car loan before a dealer's finance offer.
-- **Renovating** — payments to builders and hardware stores, and savings set aside, ready for a renovation or green loan.
-- **Card upgrade** — income that has risen steadily, ready for a better card or credit line.
-- **Insured elsewhere (bancassurance)** — premiums paid to another insurer every month, or a newly financed car or home with no cover, ready for the bank's own insurance offer.
-- **Keep the relationship** — salary now partly paid into another bank, or cash building up with no savings product.
-- **Care moments** — overdraft use rising month on month: a customer to help early, before arrears (fair treatment, and good risk practice).
+**Moments only describe what has already happened.** Seekridge never predicts a pregnancy, a health condition or any other sensitive fact from spending. The family-growing moment fires only on evidence after a child has arrived (child benefit, childcare fees, children's spend) or on what the customer has told the bank's AI agent themselves — and, like every moment, it shows that evidence, so risk, compliance and data protection can see exactly why it fired.
 
-- **ICP**: mid-size regional retail banks and mortgage lenders with a large existing customer base and a growth or retention target on it. Insurance is sold through the bank (bancassurance), not to insurers directly.
-- **Pricing**: platform subscription priced by the number of customers analysed.
-- **Positioning**: growth from customers the bank already has — every moment shows the transaction, CRM and market data behind it, so advisors act on it, and the method is approved by risk and compliance once, not campaign by campaign.
-- **Buyers**: Head of Mortgage Lending (mortgages, refinancing) and Head of Retail Banking (car and green loans, card upgrades, insurance). Reviewers are reached through them — see [`personas.md`](./personas.md).
+A typical moment in one line: *income up 16% over three months, and EUR 400 a month now going to an outside investment account* → the bank's investment advisor calls with the bank's own savings and investment offer before the habit settles elsewhere.
+
+- **ICP**: mid-size regional retail banks, savings banks and cooperative banks with a large existing customer base and a growth, deposit or main-bank target on it; secondary ICP is credit unions and small cooperative banks using the Seekridge web app.
+- **Pricing**: platform subscription priced by the number of retail customers analysed; seat-based for the web app used by smaller banks and credit unions.
+- **Positioning**: "opportunities you can act on — and explain," i.e. every moment shows the transaction, customer and market data behind it, so bankers act on it, and risk, compliance and data protection can approve the method once, not campaign by campaign.
 
 ## Competitors
 
 | Competitor | Angle |
 |---|---|
-| **Ledgerlight** | Cheaper, faster transaction-categorisation and enrichment API; no moments and no explanations — sells on speed and price, leaves the moment-building to the bank |
-| **Kontora** | Legacy banking-analytics and campaign-management incumbent, strong in DACH and Benelux, deep core-banking integrations, dated UI, slow release cycle |
-| **Propensa** | Well-funded new entrant, leads with "AI-native" next-best-offer propensity scoring, thin on explanations and regulatory controls |
-| **Nudgely** | In-app money-insights widget sent straight to the bank's end customers; competes for the digital-banking budget rather than the advisor-led one, and comes up mainly in digital-first banks |
+| **Ledgerline** | Cheaper, faster transaction categorisation and enrichment API; no moments and no explanations — sells on speed and price, leaves the moment-building to the bank's own data team |
+| **Conturo** | Legacy banking-analytics and campaign-management incumbent, strong in France/Benelux, on-prem, deep installed base, dated UI, slow release cycle |
+| **NexaScore** | Well-funded new entrant, leads with "AI-native" next-best-action scoring, thin on regulatory controls and on data depth outside standard retail accounts |
+| **Pocketlens** | Customer-facing money-insights widget for banking apps; a different job (insights for the customer, not opportunities for the bank), comes up in digital-channel deals |
 
 Derived: full battlecards, positioning gaps, and objection handling → [`competitive-landscape.md`](./competitive-landscape.md)
 
 ## Buyer personas
 
-We sell to two buyers, both measured on growth from the bank's existing customers:
+Seekridge sells to two buyers; everyone else is reached through them.
 
-- **Head of Mortgage Lending** — owns mortgages and refinancing: retention at fixed-rate renewal, mortgages won from other banks, new mortgages to existing customers. Usually the entry point.
-- **Head of Retail Banking** — owns every other product a retail customer holds: car and consumer loans, green and renovation loans, cards and card upgrades, and insurance sold through the bank. The budget owner once Seekridge covers more than mortgages, and often the only buyer at smaller banks.
-
-Others we meet during a deal but don't market to: advisors (the users), the Data & CRM Lead (technical evaluator), risk and model governance and the Data Protection Officer (reviewers), IT Security and Vendor Risk (gatekeepers). They get prepared material through the buyer.
+- **Head of Retail Banking** (buyer) — owns growth on the existing base: main-bank customers, products per customer, and lending to existing customers (mortgages, car and renovation loans). Owns the main-bank, growth and new-customer moments. Cares about business impact and integration effort.
+- **Head of Deposits & Savings** (buyer, Outflow Watch) — owns deposit balances and savings growth; owns the outflow moments. Cares about money leaving before anyone notices.
+- **Relationship Manager Lead** (user; the buyer for the web app at credit unions and small cooperative banks) — cares about adoption and whether moments turn into real conversations.
+- **Head of Model Risk** (reviewer, with data protection) — reviews any model that decides which customers get an offer, and how transaction data may be used for it. Gets a prepared review pack through the buyer, never marketing. Cares about explainability, fair treatment, purpose limitation and audit trail.
 
 Derived: full buying psychology, objections, content preferences → [`personas.md`](./personas.md)
 

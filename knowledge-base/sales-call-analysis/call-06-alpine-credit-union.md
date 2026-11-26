@@ -1,7 +1,7 @@
 # Call Transcript — Alpine Credit Union
 
 **Date:** July 2026 · **Duration:** ~20 minutes · **Call type:** Third call, late-stage
-**Rep:** Marcus Webb (Seekridge) · **Prospect:** Heinrich Bauer, Head of Retail Banking, Alpine Credit Union (regional bank, DACH)
+**Rep:** Marcus Webb (Seekridge) · **Prospect:** Heinrich Bauer, Head of Model Risk, Alpine Credit Union (regional bank, DACH)
 
 ---
 
@@ -39,7 +39,7 @@
 
 ## Internal notes (rep-logged)
 
-- Strong, late-stage buying moment: product diligence complete, single remaining blocker is vendor stability/company size — a recurring theme at larger accounts (see Court Street Lending, [`call-03-court-street-lending.md`](./call-03-court-street-lending.md)), worth tracking as a pattern across Tier 1/Tier 2 deals rather than a one-off.
+- Strong, late-stage buying moment: product diligence complete, single remaining blocker is vendor stability/company size — a recurring theme at larger accounts (see Court Street Bank, [`call-03-court-street-bank.md`](./call-03-court-street-bank.md)), worth tracking as a pattern across Tier 1/Tier 2 deals rather than a one-off.
 - Good practice: didn't over-reassure on vendor risk — explicitly acknowledged "every vendor carries some risk," which the prospect responded well to. Worth reinforcing as the right posture for this specific objection.
 - Action: confirm exact similar-sized-customer count (not a vague "several") and send data portability contract terms in writing — both are open commitments blocking a contract conversation.
 - No competitor mentioned this call — this is a single-vendor evaluation at this stage, differs from the more common competitive-bake-off pattern seen elsewhere.

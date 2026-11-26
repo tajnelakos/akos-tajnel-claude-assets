@@ -1,12 +1,12 @@
 # RegulationBrief
 
-Explains what a rule or supervisory change means for banks and lenders: the rule as a question, what it says, what it asks, what to prepare, where Seekridge fits, and a close.
+Explains what a rule or supervisory change means for banks: the rule as a question, what it says, what it asks, what to prepare, where Seekridge fits, and a close.
 
-**Use it for** regulation, supervisory guidance and audit expectations that touch automated customer decisions: the EU AI Act, model-risk guidance, consumer-outcome rules. The reader is the buyer who has to get a tool through review (Head of Mortgage Lending or Head of Retail Banking); it is written so they can forward it to risk, compliance or IT security. 6 slides.
+**Use it for** regulation, supervisory guidance and audit expectations that touch automated customer decisions: the EU AI Act, model-risk guidance, consumer-outcome rules. The reader is the Head of Model Risk, Vendor Risk & Compliance or IT Security. 6 slides.
 
 **You provide**
-- The rule's name and the relevant part, exactly as published ("EU AI Act · Annex III"), checked against the official text.
-- The cover as a question the rule puts to the reader ("Credit scoring is high-risk AI. Can you explain yours?").
+- The rule's name and the relevant part, exactly as published ("EU AI Act · GDPR Art. 22"), checked against the official text.
+- The cover as a question the rule puts to the reader ("AI that picks your customers needs a reason. Can you show yours?").
 - What the rule says, in one sentence a non-lawyer can repeat, with up to 3 words highlighted.
 - Three obligations it brings, each a full sentence.
 - Three preparation steps, numbered, each starting with a verb.
@@ -18,7 +18,7 @@ Explains what a rule or supervisory change means for banks and lenders: the rule
 - Rule: the rule's reference in `data-label` mono above a `title-statement`, the key words in `gold-light`.
 - Obligations: a paper slide, `heading` plus a three-row checklist.
 - Preparation: navy, three `navy-deep` panels 32px apart, each with a mono number (01, 02, 03) as its label and a `body` line.
-- Fit: a paper slide with two white cards, each with a 64px icon (evidence-trail, policy), a `card-title` and one `card-body` line.
+- Fit: a paper slide with two white cards, each with a 64px icon (evidence-trail, compliance), a `card-title` and one `card-body` line.
 - Close: as every close; the not-legal-advice line goes in `body-lead`.
 
 **Don't**

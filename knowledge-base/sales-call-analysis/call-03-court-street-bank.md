@@ -1,0 +1,54 @@
+# Call Transcript — Court Street Bank
+
+**Date:** August 2026 · **Duration:** ~19 minutes · **Call type:** Second call, competitive evaluation
+**Rep:** Anna Kowalski (Seekridge) · **Prospect:** David Okafor, Head of Model Risk, Court Street Bank (national bank, 5M+ retail customers)
+
+*Context: flagged as a Tier 2 watch-list account after a senior risk hire; this is the resulting evaluation call, several months later.*
+
+---
+
+**Anna:** David, thanks for the time. Last we spoke, your team was early in scoping a refresh of how you find opportunities in your customer base — sounds like things have moved since then.
+
+**David:** They have. We shortlisted three vendors — you, NexaScore, and our current provider, who we're not planning to renew with. I'll be upfront: NexaScore's made the shortlist mainly because they just announced their action-explanation feature went fully live. That was the thing we were told to wait on before.
+
+**Anna:** That's a real development, and I'd rather engage with it directly than pretend it didn't happen. What have you seen of it so far — a demo, documentation, anything hands-on?
+
+**David:** A demo, and it looked reasonable. A breakdown of what drove each customer's score, similar to what you showed us. Their rep was confident it's production-ready.
+
+**Anna:** Okay. A few questions I'd genuinely want answered if I were in your seat, not because I doubt them reflexively, but because "just launched" and "production-proven" are different claims: how many customers are actually running it live today, not just have access to it? And is there a reference customer who'd speak specifically to the explanation feature — not to NexaScore generally?
+
+**David:** I hadn't pushed on that, no. Their rep mentioned "an enterprise customer" but didn't name one when I asked directly.
+
+**Anna:** That's worth noting, not as a gotcha, just as a data point. Our evidence trail's been in production at regulated banks for over a year at this point — it's not a claim that it exists, it's a track record of it holding up when an auditor actually pushes on it. I'd ask NexaScore the same question you'd ask us: can we see this run live, on customers your team picks, not rehearsed ones?
+
+**David:** That's fair. We hadn't done that with either of you yet, actually — we've seen curated demos from both.
+
+**Anna:** Then let's fix that on our side today, if you have a few extra minutes — do you have a pseudonymized customer record in front of you, from the test extract your data team shared?
+
+**David:** I can pull one up, give me a second... okay, I've got a sole trader — runs a small joinery business through her personal account, opened with us two years ago.
+
+**Anna:** *(runs live evidence trail)* ...so here's the moment — money starting to leave, an outflow moment — and the data points behind it: a new EUR 1,200 monthly transfer to a business account at another bank since May, business card spend moving with it, her product holdings from your CRM, and the rates other banks are paying on business savings, with how much each counted. All specific to this customer, not a template. Does this match what you'd need to show an auditor?
+
+**David:** Yes, actually, this is more specific than what I expected. Okay — I'll ask NexaScore for the same thing before we go further with them. That's a reasonable bar to hold both of you to.
+
+**Anna:** Appreciate you holding us to it too, for what it's worth — I'd rather earn this than win it by default because a competitor didn't get asked the same question.
+
+**David:** Separately — implementation. You're a smaller company than NexaScore. Board's going to ask about vendor stability at our size of relationship.
+
+**Anna:** That's a legitimate question at your scale, and I won't pretend company size doesn't matter to a board. What I'd point to: our audit-log format and integration approach were built around regulated banking from day one, not adapted from a general product after the fact — that's a different kind of stability question than headcount. Happy to provide references from institutions closer to your size and segment if that helps the board conversation specifically.
+
+**David:** That would help, yes. Okay — I think the honest next step is I go push NexaScore on the same live-demo ask, then we reconvene. I don't want to short-circuit our own process by deciding today.
+
+**Anna:** That's the right call, and I'd rather you run a fair process than rush it. Send me a time in a couple weeks once you've had that NexaScore conversation, and we can pick up from there.
+
+**David:** Will do. This was a more useful call than I expected going in.
+
+---
+
+## Internal notes (rep-logged)
+
+- NexaScore confirmed as active, named competitor at a Tier 2 account — first live confirmation that the July 2026 GA announcement is actually reaching deals, not just industry press (see the Jul–Aug 2026 edition of [`competitor-analyses.html`](../../sales-tools/competitor-monitoring/competitor-analyses.html)).
+- Important: NexaScore's rep could not name a reference customer for the explanation feature specifically when asked — matches the "1 named reference, unproven at scale" framing in [`battlecard/nexascore.html`](../../sales-tools/battlecard/nexascore.html); this is now a second independent data point for that claim, not just battlecard theory.
+- Objection surfaced: vendor stability / company size at a larger (Tier 2) account — not previously documented as a recurring objection; worth flagging to `competitive-landscape.md` as a pattern to watch at the higher tier.
+- Strong move: got a live evidence-trail demo run on a real customer record mid-call, which the prospect explicitly said exceeded expectations — worth encouraging as a standard tactic, not an improvisation.
+- Next step: prospect will run the same live-demo bar against NexaScore before reconvening — outcome of that conversation should be actively tracked.

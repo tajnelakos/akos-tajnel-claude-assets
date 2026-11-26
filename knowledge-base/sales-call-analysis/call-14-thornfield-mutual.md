@@ -1,13 +1,13 @@
 # Call Transcript — Thornfield Mutual
 
 **Date:** August 2026 · **Duration:** ~16 minutes · **Call type:** Second call, procurement-stage
-**Rep:** Marcus Webb (Seekridge) · **Prospect:** Grace Almeida, Head of Retail Banking, Thornfield Mutual (mutual savings bank, Benelux, ~1.2M customers)
+**Rep:** Marcus Webb (Seekridge) · **Prospect:** Grace Almeida, Head of Deposits & Savings, Thornfield Mutual (mutual savings bank, Benelux, ~3.4M savers)
 
 ---
 
 **Marcus:** Grace, good to reconnect. Last time the product conversation felt settled — what's the state of things now?
 
-**Grace:** Product-wise, nothing's changed, we're still convinced — the backtest on our customers found far more people paying premiums to other insurers than our own mailing lists ever picked up. The holdup is entirely internal — our compliance and vendor-risk team has a review queue, and new vendor approvals move slowly there. I want to set realistic expectations rather than let you think this is stalling for a bad reason.
+**Grace:** Product-wise, nothing's changed, we're still convinced — the Outflow Watch backtest on our own data found more savers moving money out than our own churn model did, and weeks earlier. The holdup is entirely internal — our compliance and vendor-risk team has a review queue, and new vendor approvals move slowly there. I want to set realistic expectations rather than let you think this is stalling for a bad reason.
 
 **Marcus:** I appreciate you framing it that way — helps me not misread internal process delay as fading interest. Do you know roughly where you are in that queue, or what's ahead of you?
 
@@ -41,7 +41,7 @@
 
 ## Internal notes (rep-logged)
 
-- First bancassurance deal at procurement stage. Product case won on a backtest of the bank's own customers (premiums paid to other insurers that the bank's mailing lists missed) — worth capturing for the bancassurance use case's thin reference base.
+- First Outflow Watch deal at procurement stage. Product case won on a backtest of the bank's own past outflows (savers moving money out that the internal churn model missed) — worth capturing for the new product's thin reference base.
 - Deal is real and product-approved — the only open variable is an internal vendor-risk/compliance review queue (6-10 week typical timeline), not a disguised objection. Correctly identified as procedural, not treated as a stall to push against.
 - Important process guidance surfaced: prospect explicitly asked the rep NOT to contact compliance/vendor-risk directly, as that can read as pressure and backfire — worth generalizing as a rule for any deal with a formal internal vendor-review gate: route everything through the internal champion, never around them.
 - Action: send existing security/compliance documentation packet (standard version) this week to help the prospect's internal review move faster — a genuinely useful, low-effort assist rather than empty relationship-building.

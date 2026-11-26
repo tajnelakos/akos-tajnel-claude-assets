@@ -37,7 +37,7 @@ The full scale (18 styles) is in [`../linkedin-carousels/tokens.json`](../linked
 
 - **Logo:** lockup top-left on the cover; the mark (56px) bottom-right on every middle slide; lockup centred at the bottom on the close. One per slide. Use the outlined, transparent carousel versions in [`../linkedin-carousels/assets/Logo/`](../linkedin-carousels/assets/Logo).
 - **Swipe cue:** a 160 × 48px arrow (4px line, open head), 32px left of the mark on middle slides and at the margin on the cover. Never on the last slide.
-- **Eyebrow:** the series or topic ("Evidence trail", "For bancassurance") top-left on middle slides.
+- **Eyebrow:** the series or topic ("Evidence trail", "Outflow Watch") top-left on middle slides.
 - **Slide counter** in mono, bottom-left, `02 / 06` beside a strip of squares, the current one filled.
 - **Motif:** one per slide, anchored to an edge: `ridge-lines` on covers, `ridge-strip` along the top of a data slide, `layer-stack` on a Moment explainer cover. A motif's gold point is the slide's one gold element.
 
@@ -45,7 +45,7 @@ The full scale (18 styles) is in [`../linkedin-carousels/tokens.json`](../linked
 
 | Format | Job | Slides |
 |---|---|---|
-| **Moment explainer** | Show how one moment is built | Question cover → tension → the three data layers → the evidence → what the advisor does → close |
+| **Moment explainer** | Show how one moment is built | Question cover → tension → the three data layers → the evidence → what the banker does → close |
 | **Myth vs method** | Correct a market belief | Correction → the belief → why it fails under scrutiny → what defensible looks like → close |
 | **Proof in numbers** | One backtest or result | Figure cover → what it measures → chart → method → limits → close |
 | **Feature launch** | A new capability | "New in Evidence Trail" cover → problem → screenshot proof ×1–2 → close |
@@ -57,7 +57,7 @@ Mix freely with the slide kit; keep one arrow style, one logo per slide and one 
 
 ## Story shape
 
-**Question → tension → method → proof → action.** For example: "Which of your customers will refinance elsewhere this quarter?" → "Most scoring tools give you a list, not a reason." → "Seekridge shows the rate reset, the salary moving and the market behind each moment." → screenshot of a moment with its evidence → "Run a backtest on your own book."
+**Question → tension → method → proof → action.** For example: "Which of your customers are moving money out this quarter?" → "Most scoring tools give you a list, not a reason." → "Seekridge shows the transfers, the income and the market behind each moment." → screenshot of a moment with its evidence → "Run a backtest on your own data."
 
 ## The caption (50–110 words)
 

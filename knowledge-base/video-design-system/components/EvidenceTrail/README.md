@@ -5,7 +5,7 @@ The signature component, and the brand promise on screen: every data point behin
 **Anatomy**
 - Header: `DEMO · <CLIENT>`, *Evidence trail*, and the customer and moment on the right in mono.
 - Column labels (mono 18px, texture): Layer · Data point · Value · Weight.
-- One row per data point, 72px, sorted by weight: the layer as icon + mono label (`MARKET`, `TRANSACTIONS`, `CUSTOMER`), the data point in Plex Sans, the value in mono, the weight as a bar on a track plus the figure.
+- One row per data point, 72px, sorted by weight: the layer as icon + mono label (`TRANSACTIONS`, `CUSTOMER`, `AI AGENT`, `MARKET`), the data point in Plex Sans, the value in mono, the weight as a bar on a track plus the figure.
 - **The top row's bar is gold**; the others navy. That bar is the frame's one gold, so the headline carries no highlight while it is on.
 - Footer in mono: *Weights sum to 100 · model v4.2, validated 2026-09-30*.
 
@@ -15,7 +15,7 @@ The signature component, and the brand promise on screen: every data point behin
 3. FocusMarks close on the top row; the other rows dim to 35%.
 4. Hold. The voice-over reads the top reason in plain words.
 
-**Copy.** Data points name the measure, not an adjective: *Rate gap to market +1.7 pts*, *Salary split with another bank 2 of 3 months*, *Competitor offers nearby 6 in 30 days*, *Fixed rate ends 2027-03-31*.
+**Copy.** Data points name the measure, not an adjective: *New monthly transfer out EUR 400*, *Income change, 3 months +16%*, *Savings-rate gap +1.1 pts*, *Investment products held none*.
 
 **Provide.** 3–5 rows (layer, data point, value, weight), the model version line.
 

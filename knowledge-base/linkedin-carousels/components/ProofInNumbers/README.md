@@ -6,11 +6,11 @@ One result told honestly: the figure on the cover, what it measures, a chart aga
 
 **You provide**
 - One figure, real and approved, or clearly labelled illustrative. 6 characters at most for `figure-hero` ("68%"); longer amounts use `figure`.
-- What it measures, in one sentence of plain words ("of flagged customers refinanced within six months").
-- The source: data, period and sample size ("Backtest on 18,400 mortgage customers, 2025").
+- What it measures, in one sentence of plain words ("of flagged customers moved money out within six months").
+- The source: data, period and sample size ("Backtest on 18,400 retail customers, 2025").
 - The baseline it's compared with, and one or two comparison values for the chart.
 - The method in three sentences: cut-off date, where the outcomes came from, who reviewed it.
-- The limits in one statement ("One lender, one year, one product.").
+- The limits in one statement ("One bank, one year, one moment type.").
 - A close that offers the same test on the reader's own data.
 
 **Build rules**

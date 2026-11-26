@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seekridge one-pager for retail banking leaders</title>
+<link rel="icon" href="../../knowledge-base/flyer-design-system/assets/Logos/pw-mark-navy.svg">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root{
+    --navy:#1A3A5C; --navy-deep:#16324A; --gold:#C1892E; --gold-light:#D9A54B; --paper:#F4F3EF;
+    --ink:#1C1C1A; --ink-soft:#5B6470; --slate:#8A8782; --line:#E1E0D9; --surface:#FFFFFF; --surface-2:#FAF9F6;
+    --good:#1F7A4D; --good-bg:#E9F5EE;
+    --display:'Archivo', system-ui, sans-serif; --body:'IBM Plex Sans', system-ui, sans-serif; --mono:'IBM Plex Mono', 'SF Mono', Consolas, monospace;
+  }
+  *{ box-sizing:border-box; }
+  body{ margin:0; padding:32px 16px; display:flex; flex-direction:column; gap:32px; background:#E9E8E2; color:var(--ink); font-family:var(--body); -webkit-font-smoothing:antialiased; }
+  .sheet{ width:100%; max-width:860px; min-height:1216px; display:flex; flex-direction:column; margin:0 auto; background:var(--paper); border:1px solid var(--line); border-radius:24px; overflow:hidden;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .eyebrow{ margin:0 0 14px; display:inline-flex; align-items:center; gap:7px; padding:6px 13px; border-radius:999px; background:var(--navy); color:#fff; font:500 13px/1 var(--body); box-shadow:0 2px 0 rgba(15,42,64,.45); }
+
+  /* Hero */
+  .hero{ background:var(--navy); color:var(--paper); padding:26px 44px 30px; }
+  .bar{ display:flex; justify-content:space-between; align-items:center; gap:16px; }
+  .bar img{ height:28px; display:block; }
+  .audience{ font:500 13px/1 var(--body); color:var(--navy-deep); background:var(--paper); border-radius:999px; padding:8px 14px; white-space:nowrap; box-shadow:0 2px 0 rgba(0,0,0,.28); }
+  .hero-grid{ display:grid; grid-template-columns:minmax(0,1fr) 400px; gap:8px; align-items:center; margin-top:26px; }
+  h1{ margin:0 0 12px; font:800 42px/1.04 var(--display); letter-spacing:-.025em; color:#fff; text-wrap:balance; }
+  h1 em{ font-style:normal; color:var(--gold-light); }
+  .sub{ margin:0; font-size:15.5px; line-height:1.55; color:rgba(244,243,239,.84); max-width:44ch; }
+  .sub b{ color:#fff; font-weight:600; }
+  .art{ margin:0 -30px 0 12px; -webkit-mask-image:radial-gradient(ellipse 85% 95% at 50% 45%, #000 70%, transparent 100%); mask-image:radial-gradient(ellipse 85% 95% at 50% 45%, #000 70%, transparent 100%); }
+  .art img{ display:block; width:100%; height:auto; }
+
+  .body{ padding:28px 44px 28px; display:flex; flex-direction:column; gap:26px; }
+
+  /* ---------- 1. The window: a timeline of one customer ---------- */
+  .window{ position:relative; }
+  .big{ margin:0 0 6px; font:800 29px/1.06 var(--display); letter-spacing:-.025em; color:var(--ink); text-wrap:balance; max-width:20ch; }
+  .big em{ font-style:normal; color:var(--gold); }
+  .lead{ margin:0 0 22px; font-size:15px; line-height:1.55; color:var(--ink-soft); max-width:56ch; }
+  .tl{ position:relative; height:248px; background:var(--surface); border:1px solid var(--line); border-radius:24px; overflow:hidden; }
+  .tl .axis{ position:absolute; left:36px; right:36px; top:150px; height:2px; background:var(--line); }
+  .tl .zone{ position:absolute; top:46px; height:104px; left:calc(36px + (100% - 72px) * .10); width:calc((100% - 72px) * .52);
+    background:linear-gradient(90deg, rgba(217,165,75,.22), rgba(217,165,75,.06)); border-left:2px solid var(--gold); border-radius:0 14px 0 0; }
+  .tl .zone span{ position:absolute; left:14px; top:12px; font:600 12.5px/14px var(--body); color:#9A6212; }
+  .tl .zone b{ position:absolute; left:14px; top:30px; font:800 26px/1 var(--display); letter-spacing:-.02em; color:var(--ink); }
+  .tl .tick{ position:absolute; top:158px; transform:translateX(-50%); font:400 11px/14px var(--mono); color:var(--slate); white-space:nowrap; }
+  .tl .node{ position:absolute; top:143px; width:16px; height:16px; margin-left:-8px; border-radius:50%; background:var(--surface); border:3px solid var(--navy); }
+  .tl .node.gold{ background:var(--gold); border-color:var(--gold); box-shadow:0 0 0 6px rgba(217,165,75,.25); }
+  .tl .node.late{ border-color:#B33A2E; }
+  .tl .lbl{ position:absolute; top:182px; transform:translateX(-50%); text-align:center; width:170px; }
+  .tl .lbl strong{ display:block; font:700 13.5px/1.25 var(--display); color:var(--ink); }
+  .tl .lbl small{ display:block; margin-top:3px; font-size:11.5px; line-height:1.35; color:var(--ink-soft); }
+  .tl .lbl.late strong{ color:#B33A2E; }
+  .tl .lbl.first{ transform:none; text-align:left; }
+  .tl .lbl.last{ transform:translateX(-100%); text-align:right; }
+
+  /* ---------- 3. Product shot + rollout ---------- */
+  .shot{ background:var(--navy-deep); border-radius:24px; padding:24px 26px 26px; color:var(--paper); }
+  .shot-top{ display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:28px; align-items:end; margin-bottom:20px; }
+  .shot .big{ color:#fff; font-size:28px; margin:0; }
+  .shot .big em{ color:var(--gold-light); }
+  .shot .lead{ color:rgba(244,243,239,.78); margin:0; font-size:14px; }
+  .road{ list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(4,1fr); gap:10px; counter-reset:r; }
+  .road li{ counter-increment:r; position:relative; border-radius:16px; padding:14px 16px 16px; background:rgba(244,243,239,.06); border:1px solid rgba(244,243,239,.14); }
+  .road li::after{ content:""; position:absolute; right:-8px; top:50%; width:6px; height:6px; border-top:2px solid rgba(244,243,239,.4); border-right:2px solid rgba(244,243,239,.4); transform:translateY(-50%) rotate(45deg); }
+  .road li:last-child::after{ display:none; }
+  .road li:last-child{ background:var(--gold-light); border-color:var(--gold-light); }
+  .road .w{ display:block; font:500 12.5px/16px var(--body); color:rgba(244,243,239,.65); }
+  .road h4{ margin:6px 0 3px; font:700 16px/1.2 var(--display); color:#fff; }
+  .road p{ margin:0; font-size:12.5px; line-height:1.4; color:rgba(244,243,239,.75); }
+  .road li:last-child .w{ color:rgba(22,50,74,.7); } .road li:last-child h4{ color:var(--navy-deep); } .road li:last-child p{ color:rgba(22,50,74,.85); }
+
+
+  /* ---------- Flow: what it does, at a glance ---------- */
+  .flow-sec .big{ margin-bottom:12px; }
+  .flow{ display:grid; grid-template-columns:200px 34px minmax(0,1fr) 34px 230px; align-items:center; }
+  .fl-in{ display:flex; flex-direction:column; gap:8px; }
+  .fl-in .k, .fl-out .k{ margin-bottom:2px; }
+  .chip{ display:flex; align-items:center; gap:10px; background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:7px 12px; font:500 13px/1.25 var(--body); color:var(--ink); }
+  .chip i{ width:26px; height:26px; flex:none; border-radius:8px; background:#EEF2F6; display:grid; place-items:center; }
+  .chip i svg{ width:15px; height:15px; stroke:var(--navy); fill:none; stroke-width:1.9; stroke-linecap:round; stroke-linejoin:round; }
+  .chip.ours i{ background:#FCF3E3; } .chip.ours i svg{ stroke:#9A6212; }
+  .arr{ position:relative; height:2px; background:var(--navy); margin:0 4px; }
+  .arr::after{ content:""; position:absolute; right:-2px; top:-5px; border:6px solid transparent; border-left:8px solid var(--navy); border-right:0; }
+  .engine{ background:var(--navy); border-radius:20px; padding:16px 16px 14px; color:#fff; text-align:center; position:relative; overflow:hidden; }
+  .engine img{ display:block; width:100%; height:auto; margin:4px 0 10px; }
+  .engine b{ display:block; font:800 17px/1.2 var(--display); letter-spacing:-.01em; }
+  .engine small{ display:block; margin-top:3px; font:400 12.5px/1.4 var(--body); color:rgba(244,243,239,.75); }
+  .crm{ background:var(--surface); border:1px solid var(--line); border-radius:16px; overflow:hidden; }
+  .crm-h{ display:flex; justify-content:space-between; align-items:center; padding:9px 12px; background:var(--surface-2); border-bottom:1px solid var(--line); font:600 12.5px/14px var(--body); color:var(--slate); }
+  .crm-h span{ color:var(--good); }
+  .crm ul{ list-style:none; margin:0; padding:4px 0; }
+  .crm li{ display:flex; align-items:center; gap:9px; padding:7px 12px; font:500 12.8px/1.25 var(--body); color:var(--ink); }
+  .crm li + li{ border-top:1px solid var(--line); }
+  .crm li::before{ content:""; width:8px; height:8px; flex:none; border-radius:50%; background:var(--navy); }
+  .crm li:first-child::before{ background:var(--gold); }
+  .crm li small{ margin-left:auto; font:600 12.5px/1 var(--body); color:var(--slate); }
+
+  /* ---------- Four moments: value, benefit, feature ---------- */
+  .intro{ display:flex; justify-content:space-between; align-items:flex-end; gap:24px; margin-bottom:12px; }
+  .intro > div{ flex:1; } .intro .big{ margin:0; }
+  .intro > p{ margin:0; max-width:34ch; font-size:14px; line-height:1.5; color:var(--ink-soft); }
+  .grid4{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  .mo{ border-radius:20px; overflow:hidden; background:var(--surface); border:1px solid var(--line); display:flex; flex-direction:column; }
+  .mo-head{ background:var(--navy); color:var(--paper); padding:18px 20px 18px; position:relative; }
+  .mo:first-child .mo-head{ background:var(--ink); }
+  .mo-top{ display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:12px; }
+  .mo-ico{ width:34px; height:34px; border-radius:10px; background:rgba(244,243,239,.12); display:grid; place-items:center; }
+  .mo-ico svg{ width:19px; height:19px; stroke:var(--paper); fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; }
+  .mo:first-child .mo-ico{ background:var(--gold-light); } .mo:first-child .mo-ico svg{ stroke:var(--navy-deep); }
+  .mo-tag{ display:inline-flex; padding:4px 10px; border-radius:999px; background:rgba(244,243,239,.14); font:500 12px/1 var(--body); color:#fff; }
+  .mo-moment{ font:500 13px/16px var(--body); color:rgba(244,243,239,.7); margin-bottom:4px; }
+  .mo-head h3{ margin:0; font:800 22px/1.1 var(--display); letter-spacing:-.02em; color:#fff; }
+  .mo-body{ padding:16px 20px 18px; display:flex; flex-direction:column; gap:12px; flex:1; }
+  .k{ display:block; font:600 12.5px/16px var(--body); color:var(--navy); margin-bottom:3px; }
+  .mo-ben{ font-size:13.5px; line-height:1.5; color:var(--ink); }
+  .mo-fea{ margin-top:auto; background:var(--surface-2); border:1px solid var(--line); border-radius:14px; padding:12px 14px; }
+  .mo-fea p{ margin:0 0 10px; font-size:12.8px; line-height:1.45; color:var(--ink-soft); }
+  .ev{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:7px; }
+  .ev li{ display:grid; grid-template-columns:1fr 32px; gap:8px; align-items:center; font-size:12px; line-height:1.3; color:var(--ink); }
+  .ev li span{ font:600 12px/1 var(--body); text-align:right; color:var(--ink-soft); }
+  .ev li i{ grid-column:1 / -1; display:block; height:4px; border-radius:999px; background:#EDECE7; overflow:hidden; margin-top:-2px; }
+  .ev li i b{ display:block; height:100%; border-radius:999px; background:var(--navy); }
+  .mo:first-child .ev li:first-child i b{ background:var(--gold); }
+  .note{ margin:12px 0 0; font:400 12px/16px var(--body); color:var(--slate); }
+
+  .grid4c{ display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
+.grid4c.grid5{ grid-template-columns:repeat(5,1fr); gap:8px; }
+  .mt{ border-radius:18px; overflow:hidden; background:var(--surface); border:1px solid var(--line); display:flex; flex-direction:column; }
+  .mt-head{ background:var(--navy); padding:13px 14px 14px; color:#fff; min-height:122px; }
+  .mt:first-child .mt-head{ background:var(--ink); }
+  .mt-head .mo-ico{ margin-bottom:10px; width:30px; height:30px; border-radius:9px; display:grid; place-items:center; background:rgba(244,243,239,.12); }
+  .mt-head .mo-ico svg{ width:17px; height:17px; stroke:var(--paper); fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; }
+  .mt:first-child .mo-tag{ background:var(--gold-light); color:var(--navy-deep); }
+  .mt:first-child .mo-ico{ background:var(--gold-light); } .mt:first-child .mo-ico svg{ stroke:var(--navy-deep); }
+  .mt-head .mo-tag{ display:table; margin:12px 0 0; }
+  .mt-head .mo-moment{ font:500 13px/16px var(--body); color:rgba(244,243,239,.72); margin:10px 0 6px; }
+  .mt-head h3{ margin:0; font:800 17px/1.12 var(--display); letter-spacing:-.015em; color:#fff; }
+  .mt-row{ padding:11px 14px; font-size:12.6px; line-height:1.45; color:var(--ink); }
+  .mt-fea{ background:var(--surface-2); border-top:1px solid var(--line); color:var(--ink-soft); flex:1; }
+
+  /* ---------- How it works ---------- */
+  .how{ display:grid; grid-template-columns:minmax(0,1fr) 360px; gap:28px; align-items:center; }
+  .steps3{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:16px; counter-reset:s; }
+  .steps3 li{ counter-increment:s; display:grid; grid-template-columns:44px 1fr; gap:14px; align-items:start; }
+  .steps3 li::before{ content:counter(s); width:44px; height:44px; border-radius:14px; background:var(--navy); color:#fff; display:grid; place-items:center; font:800 20px/1 var(--display); }
+  .steps3 li:first-child::before{ background:var(--gold-light); color:var(--navy-deep); }
+  .steps3 h4{ margin:2px 0 3px; font:700 16px/1.25 var(--display); color:var(--ink); }
+  .steps3 p{ margin:0; font-size:13.5px; line-height:1.5; color:var(--ink-soft); }
+  .browser{ position:relative; background:#fff; border-radius:16px; overflow:hidden; border:1px solid rgba(22,50,74,.18); box-shadow:0 30px 60px -28px rgba(22,50,74,.55); transform:rotate(-1.5deg); }
+  .browser .chrome{ height:28px; display:flex; align-items:center; gap:6px; padding:0 12px; background:#EDECE7; border-bottom:1px solid var(--line); }
+  .browser .chrome i{ width:9px; height:9px; border-radius:50%; background:#D5D3CC; }
+  .browser .chrome span{ margin-left:10px; font:400 11px/1 var(--mono); color:var(--slate); background:#fff; border-radius:999px; padding:5px 12px; }
+  .browser img{ display:block; width:100%; height:auto; }
+  .shotwrap{ position:relative; }
+  .pin{ position:absolute; right:-16px; top:-26px; z-index:3; background:var(--gold-light); color:var(--navy-deep); border-radius:14px; padding:10px 14px; font:700 13px/1.3 var(--display); box-shadow:0 14px 30px -16px rgba(22,50,74,.6); max-width:200px; }
+  .pin small{ display:block; font:400 12px/1.4 var(--body); opacity:.85; margin-top:2px; }
+
+  .mcard{ background:#fff; border:1px solid var(--line); border-radius:18px; padding:18px 18px 16px; transform:rotate(-1.5deg); box-shadow:0 30px 60px -28px rgba(22,50,74,.5); display:flex; flex-direction:column; gap:10px; }
+  .mc-top{ display:flex; justify-content:space-between; align-items:center; }
+  .mc-tag{ display:inline-flex; align-items:center; gap:6px; font:500 12px/16px var(--body); padding:3px 9px; border-radius:999px; background:#FCF3E3; color:#9A6212; }
+  .mc-tag::before{ content:""; width:7px; height:7px; border-radius:50%; background:currentColor; }
+  .mc-score{ font:400 11px/16px var(--mono); color:var(--slate); }
+  .mc-title{ font:800 20px/1.2 var(--display); letter-spacing:-.01em; color:var(--ink); }
+  .mc-who{ font:400 13px/16px var(--body); color:var(--slate); margin-top:-6px; padding-bottom:10px; border-bottom:1px solid var(--line); }
+  .mcard .ev li:first-child i b{ background:var(--gold); }
+  .mc-act{ background:var(--surface-2); border:1px solid var(--line); border-radius:12px; padding:10px 12px; font-size:13px; line-height:1.45; color:var(--ink); }
+  .mc-sync{ font:500 12.5px/16px var(--body); color:var(--good); display:flex; align-items:center; gap:6px; }
+  .mc-sync::before{ content:""; width:7px; height:7px; border-radius:50%; background:currentColor; }
+
+  /* ---------- CTA + contact band ---------- */
+  .cta{ position:relative; overflow:hidden; border-radius:24px; padding:24px 26px; background:var(--gold-light); color:var(--navy-deep); display:grid; grid-template-columns:minmax(0,1fr) auto; gap:24px; align-items:end; }
+  .cta h2{ margin:0; font:800 28px/1.06 var(--display); letter-spacing:-.025em; max-width:16ch; }
+  .cta p{ margin:10px 0 0; font-size:14.5px; line-height:1.5; max-width:44ch; color:rgba(22,50,74,.85); }
+  .btn{ font:600 15px/20px var(--body); background:var(--navy-deep); color:#fff; border-radius:12px; padding:14px 20px; white-space:nowrap; text-decoration:none; }
+  .btn::after{ content:""; color:var(--gold-light); }
+  .band{ margin-top:auto; background:var(--navy-deep); color:rgba(244,243,239,.78); padding:16px 44px; display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; font:400 13px/16px var(--body); }
+  .band img{ height:20px; display:block; }
+  .band span b{ color:#fff; font-weight:500; }
+  .pageno{ font:400 12px/16px var(--body); color:rgba(244,243,239,.55); }
+
+  @page{ size:A4; margin:0; }
+  @media print{ body{ background:none; padding:0; gap:0; display:block; } .sheet{ border:0; border-radius:0; width:860px; max-width:none; min-height:0; zoom:.86; break-after:page; } .browser, .pin{ box-shadow:none; } }
+  @media (max-width:700px){
+    .hero, .body{ padding-left:22px; padding-right:22px; } .band{ padding:16px 22px; } .sheet{ min-height:0; }
+    .hero-grid{ grid-template-columns:1fr; } .art{ max-width:360px; margin:0; } h1{ font-size:38px; }
+    .bar{ flex-direction:column; align-items:flex-start; } .audience{ white-space:normal; }
+    .grid4, .grid4c, .grid4c.grid5, .how, .shot, .cta, .flow{ grid-template-columns:1fr; } .mt-head{ min-height:0; } .arr{ width:2px; height:22px; margin:6px auto; } .arr::after{ right:-5px; top:auto; bottom:-4px; border:6px solid transparent; border-top:8px solid var(--navy); border-bottom:0; } .intro{ flex-direction:column; align-items:flex-start; }
+    .big, .cta h2{ font-size:28px; }
+    .tl{ height:auto; padding:20px; } .tl .axis, .tl .zone, .tl .node, .tl .tick{ display:none; }
+    .tl .lbl, .tl .lbl.first, .tl .lbl.last{ position:static; transform:none; text-align:left; width:auto; margin-bottom:12px; }
+    .road, .shot-top{ grid-template-columns:1fr 1fr; } .road li::after{ display:none; } .mcard{ transform:none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ===================== FRONT ===================== -->
+<div class="sheet">
+  <header class="hero">
+    <div class="bar">
+      <img src="../../knowledge-base/flyer-design-system/assets/Logos/pw-lockup-paper.svg" alt="Seekridge">
+      <span class="audience">For retail banking leaders at banks</span>
+    </div>
+    <div class="hero-grid">
+      <div>
+        <h1>Find the peaks in your <em>customer base.</em></h1>
+        <p class="sub">Every month, some of your customers move their salary, start sending savings elsewhere, save for a car or a home, or welcome a new child. Seekridge spots those moments in <b>your own data</b>, early, and puts each one in your bankers’ CRM with the reason attached.</p>
+      </div>
+      <figure class="art"><img src="peaks-moments.svg" alt="A moving dot map with four labeled peaks: money starting to leave, ready for a mortgage, salary landing elsewhere, investing elsewhere"></figure>
+    </div>
+  </header>
+
+  <main class="body">
+    <section class="flow-sec">
+      <p class="eyebrow">What Seekridge does</p>
+      <h2 class="big">Your data in. <em>The right moments out.</em></h2>
+      <div class="flow" role="img" aria-label="Your transactions, products, AI-agent questions and market data go into Seekridge, which ranks every customer and sends the moments as tasks to your bankers' CRM.">
+        <div class="fl-in"><span class="k">Your data, plus ours</span>
+          <div class="chip"><i><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c1-4 4-6 7-6s6 2 7 6"/></svg></i>Transactions and savings</div>
+          <div class="chip ours"><i><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg></i>Products and CRM</div>
+          <div class="chip ours"><i><svg viewBox="0 0 24 24"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/></svg></i>AI-agent questions</div>
+          <div class="chip ours"><i><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></i>Market and rates</div>
+        </div>
+        <div class="arr"></div>
+        <div class="engine"><img src="rank-illustration.svg" alt=""><b>Seekridge ranks every customer</b><small>Every week, with the reason for each moment</small></div>
+        <div class="arr"></div>
+        <div class="fl-out"><span class="k">In your bankers’ CRM</span>
+          <div class="crm"><div class="crm-h">This week<span>● Synced</span></div>
+            <ul><li>Money starting to leave<small>41</small></li><li>Ready for a mortgage<small>27</small></li><li>Salary landing elsewhere<small>23</small></li><li>Family growing<small>19</small></li><li>Car purchase goal<small>14</small></li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="intro">
+        <div><p class="eyebrow">Five moments, five opportunities</p><h2 class="big">Catch them <em>before another bank does.</em></h2></div>
+      </div>
+      <div class="grid4c grid5">
+        <article class="mt">
+          <div class="mt-head"><span class="mo-ico"><svg viewBox="0 0 24 24"><path d="M4 8h13l-3-3M20 16H7l3 3"/></svg></span><span class="mo-tag">Deposits</span><div class="mo-moment">Money starting to leave</div><h3>Keep the savings at home</h3></div>
+          <div class="mt-row"><span class="k">Benefit</span>Call when a monthly transfer to another provider begins, not when the balance is gone.</div>
+          <div class="mt-row mt-fea"><span class="k">Feature</span>Reads new recurring transfers, balance trends and what other banks pay.</div>
+        </article>
+        <article class="mt">
+          <div class="mt-head"><span class="mo-ico"><svg viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="4.5" rx="1.5"/><rect x="5" y="10" width="14" height="4.5" rx="1.5"/><rect x="5" y="16" width="14" height="4.5" rx="1.5"/></svg></span><span class="mo-tag">Mortgage</span><div class="mo-moment">Ready for a mortgage</div><h3>Be the first bank they ask for a mortgage</h3></div>
+          <div class="mt-row"><span class="k">Benefit</span>Reach them while they’re still saving, before another bank does.</div>
+          <div class="mt-row mt-fea"><span class="k">Feature</span>Combines savings growth, rising income and questions to your AI agent.</div>
+        </article>
+        <article class="mt">
+          <div class="mt-head"><span class="mo-ico"><svg viewBox="0 0 24 24"><path d="M3 9.5L12 4l9 5.5"/><path d="M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20.5h18"/></svg></span><span class="mo-tag">Main bank</span><div class="mo-moment">Salary landing elsewhere</div><h3>Become their main bank</h3></div>
+          <div class="mt-row"><span class="k">Benefit</span>Invite the salary over while the customer already banks with you.</div>
+          <div class="mt-row mt-fea"><span class="k">Feature</span>Spots salaries, card spend and bills paid through other banks.</div>
+        </article>
+        <article class="mt">
+          <div class="mt-head"><span class="mo-ico"><svg viewBox="0 0 24 24"><circle cx="8.5" cy="7" r="2.6"/><path d="M3.5 20v-3.5a5 5 0 0 1 10 0V20"/><circle cx="17" cy="11" r="2"/><path d="M13.8 20v-2a3.2 3.2 0 0 1 6.4 0v2"/></svg></span><span class="mo-tag">Family</span><div class="mo-moment">Family growing</div><h3>Be there for the next big step</h3></div>
+          <div class="mt-row"><span class="k">Benefit</span>One ranked offer: a mortgage if they rent, a car or renovation loan if they own.</div>
+          <div class="mt-row mt-fea"><span class="k">Feature</span>Reads child benefit, childcare fees and what the customer tells your AI agent.</div>
+        </article>
+        <article class="mt">
+          <div class="mt-head"><span class="mo-ico"><svg viewBox="0 0 24 24"><path d="M3.5 15.5v-3l2-4.5h13l2 4.5v3z"/><path d="M3.5 12.5h17"/><circle cx="7.5" cy="17" r="1.8"/><circle cx="16.5" cy="17" r="1.8"/></svg></span><span class="mo-tag">Car loan</span><div class="mo-moment">Car purchase goal</div><h3>Beat the dealer’s finance offer</h3></div>
+          <div class="mt-row"><span class="k">Benefit</span>Offer your car loan while they’re still saving, not after they sign at the dealer.</div>
+          <div class="mt-row mt-fea"><span class="k">Feature</span>Spots savings near a target, a car loan ending elsewhere and car questions to your AI agent.</div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <div class="band"><img src="../../knowledge-base/flyer-design-system/assets/Logos/pw-lockup-paper.svg" alt="Seekridge"><span><b>seekridge.example</b>&nbsp;&nbsp;&nbsp;hello@seekridge.example</span><span class="pageno">Fictional company, portfolio by Akos Tajnel, page 1/2</span></div>
+</div>
+
+<!-- ===================== BACK ===================== -->
+<div class="sheet">
+  <main class="body" style="padding-top:44px">
+    <section class="window">
+      <p class="eyebrow">One customer, saving for a first home</p>
+      <h2 class="big">Call before <em>another bank does.</em></h2>
+      <p class="lead" style="margin-bottom:14px">Most first-time buyers take the mortgage from the bank that reaches them first.</p>
+            <div class="tl" role="img" aria-label="Timeline: Seekridge flags the customer about five months before they choose a mortgage lender; without it, another bank makes the offer.">
+        <div class="zone"><span>Window to be their first call</span><b>~5 months</b></div>
+        <div class="axis"></div>
+        <div class="node gold" style="left:calc(36px + (100% - 72px) * .10)"></div>
+        <div class="node" style="left:calc(36px + (100% - 72px) * .62)"></div>
+        <div class="node late" style="left:calc(36px + (100% - 72px) * .95)"></div>
+        <div class="lbl first" style="left:calc(36px + (100% - 72px) * .10 - 10px)"><strong>Seekridge flags them</strong><small>With the reason attached</small></div>
+        <div class="lbl" style="left:calc(36px + (100% - 72px) * .62)"><strong>They choose a bank</strong><small>The mortgage is decided</small></div>
+        <div class="lbl late last" style="left:calc(36px + (100% - 72px) * .95 + 10px)"><strong>Without Seekridge</strong><small>Another bank makes the offer</small></div>
+      </div>
+    </section>
+
+    <section>
+      <p class="eyebrow">What a banker sees</p>
+      <div class="how">
+        <div class="seetext"><h2 class="big">Every moment <em>comes with its reason.</em></h2><p class="lead">Bankers see why each customer is on their list, and what to offer by when. The same evidence lets Model Risk approve the approach once, not campaign by campaign.</p></div>
+        <div class="shotwrap">
+          <article class="mcard">
+            <div class="mc-top"><span class="mc-tag">Ready for a mortgage</span></div>
+            <div class="mc-title">Customer 40-1187</div>
+            <div class="mc-who">Savings EUR 48,200, up EUR 14,800 in a year</div>
+            <ul class="ev">
+              <li>Savings towards a deposit, 12 months<span>36%</span><i><b style="width:72%"></b></i></li>
+              <li>Income up 16% in six months<span>30%</span><i><b style="width:60%"></b></i></li>
+              <li>Two questions to your AI agent on borrowing<span>18%</span><i><b style="width:36%"></b></i></li>
+            </ul>
+            <div class="mc-act"><span class="k">Suggested next step</span>Mortgage advisor call before 31 Jan 2027, with an affordability check.</div>
+            <div class="mc-sync">Synced to the Hamburg mortgage queue</div>
+          </article>
+          <div class="pin">Why this customer?<small>Every data point, with its weight</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="shot">
+      <p class="eyebrow" style="background:var(--paper);color:var(--navy-deep)">From signed to used</p>
+      <div class="shot-top">
+        <h2 class="big">Live in weeks. <em>Used, not just installed.</em></h2>
+        <p class="lead">We scale up on your pilot’s results, and report how many bankers act on the moments, not just a go-live date.</p>
+      </div>
+      <ol class="road">
+        <li><span class="w">Weeks 1–2</span><h4>Connect</h4><p>Your CRM and data</p></li>
+        <li><span class="w">Weeks 3–4</span><h4>Backtest</h4><p>On last year’s data</p></li>
+        <li><span class="w">Weeks 5–8</span><h4>Pilot</h4><p>One banker team</p></li>
+        <li><span class="w">Week 9 onward</span><h4>All branches</h4><p>Scaled on the pilot’s results</p></li>
+      </ol>
+    </section>
+
+    <section class="cta">
+      <div>
+        <h2>See the moments in your own customer base.</h2>
+        <p>Share a sample of your data. In 30 minutes, we’ll show you the opportunities in it, and the evidence behind each one.</p>
+      </div>
+      <a class="btn" href="#">Book a live test</a>
+    </section>
+  </main>
+  <div class="band"><img src="../../knowledge-base/flyer-design-system/assets/Logos/pw-lockup-paper.svg" alt="Seekridge"><span><b>seekridge.example</b>&nbsp;&nbsp;&nbsp;hello@seekridge.example</span><span class="pageno">Fictional company, portfolio by Akos Tajnel, page 2/2</span></div>
+</div>
+
+</body>
+</html>

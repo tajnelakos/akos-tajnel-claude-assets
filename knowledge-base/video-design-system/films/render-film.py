@@ -3,10 +3,10 @@
 Needs: Python 3.10+, Playwright for Python with a Chromium/Chrome, ffmpeg, Pillow (stills only).
 
   # check stills first: one frame per time, joined into a contact sheet
-  python render-film.py story-fixed-rate-dach-16x9.html --stills 4.5,9.5,15.5,21,30.5,36.5 --out ../assets/Stills/contact-story.jpg
+  python render-film.py story-outflow-dach-16x9.html --stills 4.5,9.5,15.5,21,30.5,36.5 --out ../assets/Stills/contact-story.jpg
 
   # full render: one MP4 per scene, joined without re-encoding
-  python render-film.py story-fixed-rate-dach-16x9.html --out ../assets/Films/story-fixed-rate-dach-16x9.mp4
+  python render-film.py story-outflow-dach-16x9.html --out ../assets/Films/story-outflow-dach-16x9.mp4
 
 Options:
   --fps 30           frame rate (the system's default)
