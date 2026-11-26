@@ -11,8 +11,8 @@ One moment for one customer, as the product shows it in *Moments this week*: wha
 
 | Owner | Moments |
 |---|---|
-| Mortgage lending | Refinance risk · Rate reset ahead · Buying a home |
-| Retail banking | Buying a car · Renovating · Card upgrade · Insured elsewhere · New loan, no cover · Salary moving away |
+| Mortgage lending | Refinance risk · Rate reset ahead · Buying a home · Growing family |
+| Retail banking | Buying a car · Renovating · Card upgrade · Insured elsewhere · New loan, no cover · New home, no cover · Salary moving away |
 
 **Motion.** Frame traces in, content fades in, the rank counts up to its value (`count`), then the evidence rows populate. In the next beat the card can grow into a full EvidenceTrail (cut, not morph).
 
