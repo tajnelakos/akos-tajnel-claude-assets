@@ -9,11 +9,10 @@ One moment for one customer, as the product shows it in *Moments this week*: wha
 
 **Moment names** (the product's own; never invent new ones):
 
-| Segment | Moments |
+| Owner | Moments |
 |---|---|
-| Bank / mortgage lender | Refinance risk · Rate reset ahead · Likely to move · Renovation planned |
-| Retail bank | Salary moving away · Savings building up · Income rising |
-| Bancassurance | Insured elsewhere · New loan, no cover |
+| Mortgage lending | Refinance risk · Rate reset ahead · Buying a home |
+| Retail banking | Buying a car · Renovating · Card upgrade · Insured elsewhere · New loan, no cover · Salary moving away |
 
 **Motion.** Frame traces in, content fades in, the rank counts up to its value (`count`), then the evidence rows populate. In the next beat the card can grow into a full EvidenceTrail (cut, not morph).
 

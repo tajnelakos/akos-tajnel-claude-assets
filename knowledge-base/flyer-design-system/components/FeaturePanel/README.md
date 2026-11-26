@@ -7,5 +7,5 @@ A white panel with a hairline on paper that pairs a line icon, a one-line title 
 **The consumer provides:** an icon from the Icons group, a title in sentence case and the copy.
 
 - Do stack panels `space-2` apart; a trifold panel holds three.
-- Do write the title as the claim ("Explainable by design"), and the copy as its proof.
+- Do write the title as the claim ("Advisors act on it"), and the copy as its proof.
 - Don't put feature panels on the navy ground; don't add a second icon or a coloured fill.
