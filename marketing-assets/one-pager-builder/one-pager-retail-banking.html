@@ -127,6 +127,7 @@
   .note{ margin:12px 0 0; font:400 12px/16px var(--body); color:var(--slate); }
 
   .grid4c{ display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
+.grid4c.grid5{ grid-template-columns:repeat(5,1fr); gap:8px; }
   .mt{ border-radius:18px; overflow:hidden; background:var(--surface); border:1px solid var(--line); display:flex; flex-direction:column; }
   .mt-head{ background:var(--navy); padding:13px 14px 14px; color:#fff; min-height:122px; }
   .mt:first-child .mt-head{ background:var(--ink); }
@@ -186,7 +187,7 @@
     .hero, .body{ padding-left:22px; padding-right:22px; } .band{ padding:16px 22px; } .sheet{ min-height:0; }
     .hero-grid{ grid-template-columns:1fr; } .art{ max-width:360px; margin:0; } h1{ font-size:38px; }
     .bar{ flex-direction:column; align-items:flex-start; } .audience{ white-space:normal; }
-    .grid4, .grid4c, .how, .shot, .cta, .flow{ grid-template-columns:1fr; } .mt-head{ min-height:0; } .arr{ width:2px; height:22px; margin:6px auto; } .arr::after{ right:-5px; top:auto; bottom:-4px; border:6px solid transparent; border-top:8px solid var(--navy); border-bottom:0; } .intro{ flex-direction:column; align-items:flex-start; }
+    .grid4, .grid4c, .grid4c.grid5, .how, .shot, .cta, .flow{ grid-template-columns:1fr; } .mt-head{ min-height:0; } .arr{ width:2px; height:22px; margin:6px auto; } .arr::after{ right:-5px; top:auto; bottom:-4px; border:6px solid transparent; border-top:8px solid var(--navy); border-bottom:0; } .intro{ flex-direction:column; align-items:flex-start; }
     .big, .cta h2{ font-size:28px; }
     .tl{ height:auto; padding:20px; } .tl .axis, .tl .zone, .tl .node, .tl .tick{ display:none; }
     .tl .lbl, .tl .lbl.first, .tl .lbl.last{ position:static; transform:none; text-align:left; width:auto; margin-bottom:12px; }
@@ -206,7 +207,7 @@
     <div class="hero-grid">
       <div>
         <h1>Find the peaks in your <em>customer base.</em></h1>
-        <p class="sub">Every month, some of your customers move their salary, start sending savings elsewhere, or get ready for a mortgage. Seekridge spots those moments in <b>your own data</b>, early, and puts each one in your bankers’ CRM with the reason attached.</p>
+        <p class="sub">Every month, some of your customers move their salary, start sending savings elsewhere, save for a car or a home, or welcome a new child. Seekridge spots those moments in <b>your own data</b>, early, and puts each one in your bankers’ CRM with the reason attached.</p>
       </div>
       <figure class="art"><img src="peaks-moments.svg" alt="A moving dot map with four labeled peaks: money starting to leave, ready for a mortgage, salary landing elsewhere, investing elsewhere"></figure>
     </div>
@@ -228,7 +229,7 @@
         <div class="arr"></div>
         <div class="fl-out"><span class="k">In your bankers’ CRM</span>
           <div class="crm"><div class="crm-h">This week<span>● Synced</span></div>
-            <ul><li>Money starting to leave<small>41</small></li><li>Ready for a mortgage<small>27</small></li><li>Salary landing elsewhere<small>23</small></li><li>Investing elsewhere<small>19</small></li></ul>
+            <ul><li>Money starting to leave<small>41</small></li><li>Ready for a mortgage<small>27</small></li><li>Salary landing elsewhere<small>23</small></li><li>Family growing<small>19</small></li><li>Car purchase goal<small>14</small></li></ul>
           </div>
         </div>
       </div>
@@ -236,9 +237,9 @@
 
     <section>
       <div class="intro">
-        <div><p class="eyebrow">Four moments, four opportunities</p><h2 class="big">Catch them <em>before another bank does.</em></h2></div>
+        <div><p class="eyebrow">Five moments, five opportunities</p><h2 class="big">Catch them <em>before another bank does.</em></h2></div>
       </div>
-      <div class="grid4c">
+      <div class="grid4c grid5">
         <article class="mt">
           <div class="mt-head"><span class="mo-ico"><svg viewBox="0 0 24 24"><path d="M4 8h13l-3-3M20 16H7l3 3"/></svg></span><span class="mo-tag">Deposits</span><div class="mo-moment">Money starting to leave</div><h3>Keep the savings at home</h3></div>
           <div class="mt-row"><span class="k">Benefit</span>Call when a monthly transfer to another provider begins, not when the balance is gone.</div>
@@ -255,9 +256,14 @@
           <div class="mt-row mt-fea"><span class="k">Feature</span>Spots salaries, card spend and bills paid through other banks.</div>
         </article>
         <article class="mt">
-          <div class="mt-head"><span class="mo-ico"><svg viewBox="0 0 24 24"><path d="M4 20V4M4 20h16"/><path d="M7.5 15.5l4-4.5 3 3 5-6"/></svg></span><span class="mo-tag">Investing</span><div class="mo-moment">Investing elsewhere</div><h3>Bring the investing home</h3></div>
-          <div class="mt-row"><span class="k">Benefit</span>Offer your own investment account when money starts going to a broker.</div>
-          <div class="mt-row mt-fea"><span class="k">Feature</span>Flags rising income and new transfers to investment apps.</div>
+          <div class="mt-head"><span class="mo-ico"><svg viewBox="0 0 24 24"><circle cx="8.5" cy="7" r="2.6"/><path d="M3.5 20v-3.5a5 5 0 0 1 10 0V20"/><circle cx="17" cy="11" r="2"/><path d="M13.8 20v-2a3.2 3.2 0 0 1 6.4 0v2"/></svg></span><span class="mo-tag">Family</span><div class="mo-moment">Family growing</div><h3>Be there for the next big step</h3></div>
+          <div class="mt-row"><span class="k">Benefit</span>One ranked offer: a mortgage if they rent, a car or renovation loan if they own.</div>
+          <div class="mt-row mt-fea"><span class="k">Feature</span>Reads child benefit, childcare fees and what the customer tells your AI agent.</div>
+        </article>
+        <article class="mt">
+          <div class="mt-head"><span class="mo-ico"><svg viewBox="0 0 24 24"><path d="M3.5 15.5v-3l2-4.5h13l2 4.5v3z"/><path d="M3.5 12.5h17"/><circle cx="7.5" cy="17" r="1.8"/><circle cx="16.5" cy="17" r="1.8"/></svg></span><span class="mo-tag">Car loan</span><div class="mo-moment">Car purchase goal</div><h3>Beat the dealer’s finance offer</h3></div>
+          <div class="mt-row"><span class="k">Benefit</span>Offer your car loan while they’re still saving, not after they sign at the dealer.</div>
+          <div class="mt-row mt-fea"><span class="k">Feature</span>Spots savings near a target, a car loan ending elsewhere and car questions to your AI agent.</div>
         </article>
       </div>
     </section>

@@ -6,26 +6,27 @@ The rendered one-pager: [`one-pager-retail-banking.html`](./one-pager-retail-ban
 
 ## Input
 
-> Build a one-pager for retail banking leaders at banks. Topic: four moments — customers moving savings out, customers getting ready for a mortgage, salaries landing at another bank, and customers starting to invest elsewhere.
+> Build a one-pager for retail banking leaders at banks. Topic: five moments — customers moving savings out, customers getting ready for a mortgage, salaries landing at another bank, a family growing, and customers saving for a car.
 
 ## Output
 
 ```
 ## One-Pager — Retail banking leaders, retail and savings banks
 
-**Positioning angle used:** positioning.md's Retail banking row ("Know which customers to call this month, and why — main-bank, growth and mortgage-ready moments before a competitor sees them"), widened to the four moments in knowledge-base.md.
+**Positioning angle used:** positioning.md's Retail banking row ("Know which customers to call this month, and why — main-bank and growth moments — mortgage-ready, car purchase goal, family growing — before a competitor sees them"), widened to the five moments in knowledge-base.md.
 
 **Headline:** Find the peaks in your customer base.
 **Subhead:** Every month, some of your customers move their salary, start sending savings elsewhere, or get ready for a mortgage. Seekridge spots those moments in your own data, early, and puts each one in your bankers' CRM with the reason attached.
-**Illustration:** the brand dot map with the four moments labeled as peaks; money starting to leave is the gold one.
+**Illustration:** the brand dot map with four of the moments labeled as peaks; money starting to leave is the gold one.
 
 **Front — what it does, at a glance:** a flow diagram (your transactions, products, AI-agent questions and market data → Seekridge ranks every customer → this week's moments in the bankers' CRM).
 
-**Front — four moments, four opportunities ("Catch them before another bank does"), each as value → benefit → feature:**
+**Front — five moments, five opportunities ("Catch them before another bank does"), each as value → benefit → feature:**
 1. Money starting to leave → Keep the savings at home → call when a monthly transfer to another provider begins → new recurring transfers, balance trends and what other banks pay.
 2. Ready for a mortgage → Be the first bank they ask for a mortgage → reach them while they're still saving → savings growth, rising income and questions to the bank's AI agent.
 3. Salary landing elsewhere → Become their main bank → invite the salary over → salaries, card spend and bills paid through other banks.
-4. Investing elsewhere → Bring the investing home → offer the bank's own investment account → rising income and new transfers to investment apps.
+4. Family growing → Be there for the next big step → one ranked offer: a mortgage if they rent, a car or renovation loan if they own → child benefit, childcare fees and what the customer tells the AI agent (only after the fact, never a prediction).
+5. Car purchase goal → Beat the dealer's finance offer → offer the car loan while they're still saving → savings near a target, a car loan ending elsewhere and car questions to the AI agent.
 
 **Back:** a timeline for the mortgage-ready moment ("Call before another bank does"), an example moment card as a banker sees it, the four-step rollout, and the CTA.
 **CTA:** See the moments in your own customer base. → Book a live test.

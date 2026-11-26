@@ -10,7 +10,7 @@ Rules for Seekridge product videos and UI motion: formats, story structure, key 
 | Social | 1080 × 1350, 4:5 | 30–45 s | LinkedIn feed |
 | Vertical | 1080 × 1920, 9:16 | 15–30 s | Stories, event screens |
 
-30 fps, H.264, captions burnt in on every cut. One video per segment and persona (retail banking, deposits and savings, mortgage lending, risk and compliance): never one video for everybody.
+30 fps, H.264, captions burnt in on every cut. One video per segment and persona (retail banking, deposits and savings, retail lending, risk and compliance): never one video for everybody.
 
 ## Structure
 
