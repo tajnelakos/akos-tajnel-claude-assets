@@ -12,7 +12,7 @@ Seekridge and every bank named here are fictional. Targets are plan targets, not
 
 ## Market and why now
 
-- **The problem, in the buyer's words:** *"We see the money leave when the balance is already gone. It's never one big transfer. It's EUR 300 a month to someone paying a point more."* (from the [Head of Deposits & Savings persona](../../knowledge-base/personas.md#head-of-deposits--savings-economic-buyer-outflow-watch)).
+- **The problem, in the buyer's words:** *"We see the money leave when the balance is already gone. It's never one big transfer. It's EUR 300 a month to someone paying a point more."* (from the [Head of Deposits & Savings persona](../../knowledge-base/personas.md#head-of-deposits--savings-buyer-deposits-and-savings)).
 - **Why now:** digital banks and savings marketplaces make it a two-minute job to open an account elsewhere, and customers now spread their money across several providers. Raising the savings rate for everyone is the expensive answer; knowing whom to call is the cheap one.
 - **Where it fits:** Outflow Watch is the fourth moment family alongside main-bank, growth and new-customer moments (see [`knowledge-base.md`](../../knowledge-base/knowledge-base.md)). It uses data the bank already shares with Seekridge, so for existing customers there is no new integration.
 

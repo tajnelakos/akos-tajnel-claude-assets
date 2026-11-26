@@ -29,13 +29,13 @@ One primary message, three pillars that support it, each with its own proof poin
 
 | Pillar | Claim | Proof point |
 |---|---|---|
-| Built on data you already own | Moments read your own transaction, customer and AI-agent data alongside market data, so they point at real customers, not cold leads | Every moment links to a named customer record in your CRM — see [`competitive-landscape.md`](./competitive-landscape.md)'s capability comparison |
-| Explainable by design | Every moment shows the specific transaction, customer and market data points behind it, and how much each counted | Inspectable evidence trail per moment, not a single score — available to technical evaluators on request, see the [Data & CRM Lead persona](./personas.md#data--crm-lead-technical-evaluator) |
-| Built for regulated banking, not retrofitted | Purpose limits on transaction data, consent rules, and the audit log were designed around banking compliance and data protection from inception | Distinct from a general marketing-AI product with a compliance feature added later |
+| Growth from customers you already have | Moments come from your own transaction, customer and AI-agent data plus market data: salaries landing elsewhere, savings starting to leave, mortgages, car loans, families growing | Every moment links to a named customer record in your CRM — see [`competitive-landscape.md`](./competitive-landscape.md)'s capability comparison |
+| Bankers act on it | Every moment shows the specific transaction, customer and market data points behind it, and how much each counted, so bankers know why they're calling | Inspectable evidence trail per moment, not a single score — available to technical evaluators on request, see the [Data & CRM Lead persona](./personas.md#data--crm-lead-technical-evaluator) |
+| Approved once, not campaign by campaign | The same evidence, the method and the consent handling go to risk and data protection as a ready review pack, so the buyer never has to make the risk case alone | Purpose limits on transaction data, consent rules and the audit log were designed around banking compliance from inception, not added later |
 
 ## Points of view that ladder to this
 
-1. **"A lead you can't explain is a liability, not an opportunity."** An offer only has value if the banker believes it and the decision to make it survives review later. A list that's twice as long but can't be explained to a risk committee or a data protection officer creates risk it doesn't remove.
+1. **"A lead you can't explain is a lead nobody calls."** An opportunity only turns into business if the banker believes it and the decision to make the offer survives review later. A list that's twice as long but comes without reasons gets ignored, then paused.
 2. **"Your bank may be a customer's second bank, and you'd be the last to know."** Account ownership isn't the relationship. Where the salary lands, which card pays for groceries and where the savings go decide it — and all of that is already in the transaction data.
 3. **"Explainability" needs a definition or it's marketing, not a capability.** Seekridge defines it concretely: the named data points behind each moment, how much each counted, and a reproducible record of what the moment said and what was done with it — not a general claim.
 
@@ -50,14 +50,15 @@ One primary message, three pillars that support it, each with its own proof poin
 
 ## Positioning by persona and tier
 
-Value proposition changes by who's buying; tier (see [`icp.md`](./icp.md)) changes how much proof the pitch needs to carry before it lands.
+Value proposition changes by who's buying — the two buyers first, then the Tier 3 buyer; tier (see [`icp.md`](./icp.md)) changes how much proof the pitch needs to carry before it lands.
 
 | Buyer | Pain | Value proposition | Tier-specific note |
 |---|---|---|---|
-| Risk, compliance & data protection | Can't explain why a customer was targeted with an offer, or show that transaction data was used within its purpose | Moments your risk team can sign off, because every one shows its evidence | Tier 1: the pain is often anticipatory (a coming review). Tier 2: frequently a *lived* pain — a specific past finding, which makes the pitch easier to land but the sales cycle longer regardless (more procurement layers) |
 | Retail banking | Looks like the main bank, isn't; growth targets on the existing base with no idea which customers to call | Know which customers to call this month, and why — main-bank and growth moments — mortgage-ready, car purchase goal, family growing — before a competitor sees them | Matters most at Tier 1, where retail and risk are both active, present stakeholders — see the [persona interaction map](./personas.md#persona-interaction-map) |
 | Deposits & savings | Money leaves in small monthly transfers; the bank notices when the balance is gone | See which customers are starting to move money out, with the evidence to call them first — **Seekridge Outflow Watch** | The newest product — fewer reference customers, so the pitch leans on a backtest on the bank's own past outflows |
 | Relationship managers (credit unions, small cooperative banks) | Bankers work from gut feel and old lists; a new tool nobody opens after month one | Moments that tell each banker which members to call this week, in a web app with no integration project | This is Tier 3's entire positioning — adoption and conversation value are the whole pitch; the risk conversation is lighter |
+
+**Reviewers are not buyers.** Risk, model governance and data protection never get a value proposition of their own: they get the review pack (method note, a real evidence trail, data-processing terms, the rule that moments only describe what has already happened), forwarded by the buyer. See [`personas.md`](./personas.md#who-we-sell-to-and-who-we-meet-later).
 
 ## Positioning against specific competitors — strategic framing
 
@@ -70,7 +71,7 @@ This is the strategic posture behind each competitor's tactical talk track in [`
 
 ## Elevator pitches
 
-- **One sentence:** "Seekridge reads the transaction data your bank already has and shows your bankers which customers to talk to next, and why — with evidence your risk team can sign off."
+- **One sentence:** "Seekridge reads the transaction data your bank already has and shows your bankers which customers to talk to next — money starting to leave, a salary landing elsewhere, ready for a mortgage or a car loan — with the reason attached so they act on it."
 - **One paragraph (customer-facing):** "Your customers' salaries, card payments and transfers tell you when your bank is about to become their main bank — or stop being it. Most tools give you a list and a score. If a banker or a risk committee asks why a customer is on that list, 'the model said so' isn't an answer — and increasingly, regulators are asking. Seekridge reads your transaction and customer data alongside market data, and every moment shows the specific data points behind it, so your team can act on an opportunity as confidently as it found it."
 - **Internal onboarding version:** "We don't win on producing the longest lead list — most credible vendors can generate volume. We win by being the one whose moments survive being questioned, by bankers who have to make the call and by the risk and data-protection teams that have to sign off, which matters more every year as scrutiny of automated customer decisions increases."
 
@@ -93,4 +94,4 @@ The adaptation already reflected in [`battlecard/nexascore.html`](../sales-tools
 
 ## What this is not
 
-Not a claim that Seekridge finds more opportunities than every competitor in every scenario — that claim is not reliably defensible and erodes credibility with a technically skeptical buyer (see the [Head of Model Risk persona](./personas.md#head-of-model-risk-risk-and-model-governance-owner)). Not a customer-facing money-management app either. The narrative wins on explainability, trust, and moments that reach the banker — not a race to the longest lead list.
+Not a claim that Seekridge finds more opportunities than every competitor in every scenario — that claim is not reliably defensible and erodes credibility with a technically skeptical buyer (see the [Head of Model Risk persona](./personas.md#head-of-model-risk-reviewer-risk-model-governance-and-data-protection)). Not a customer-facing money-management app either. The narrative wins on explainability, trust, and moments that reach the banker — not a race to the longest lead list.

@@ -23,7 +23,7 @@ The formats (A4 trifold, A5 cards, panel-based insides) follow common B2B print 
 
 ## Content fundamentals
 
-- **One reader per piece.** Name them in the eyebrow ("For retail banking teams", "For risk and compliance teams") and write everything else to them.
+- **One reader per piece.** Name them in the eyebrow ("For retail banking teams", "Review pack, forwarded by your retail team") and write everything else to them.
 - **Lead with the reader's situation or the opportunity, then the proof.** The front states the outcome; the inside shows how it works and proves it with one moment and its evidence.
 - **Sentence case everywhere**, covers included. The mono eyebrow is the one all-caps element, set in CSS.
 - **Short, declarative claims.** One idea per line on the navy ground, up to 12 words on a trifold front. No exclamation marks, no emoji.
@@ -82,7 +82,7 @@ The formats (A4 trifold, A5 cards, panel-based insides) follow common B2B print 
 | Piece | HTML | PDF | Render |
 |---|---|---|---|
 | A4 trifold for retail banks | `examples/trifold-retail-banks.html` | `assets/Examples/trifold-retail-banks.pdf` | `assets/Examples/trifold-outside.jpg`, `trifold-inside.jpg` |
-| A4 one-pager for risk teams | `examples/one-pager-risk-teams.html` | `assets/Examples/one-pager-risk-teams.pdf` | `assets/Examples/one-pager.jpg` |
+| A4 review-pack one-pager (the buyer forwards it to risk and data protection) | `examples/one-pager-review-pack.html` | `assets/Examples/one-pager-review-pack.pdf` | `assets/Examples/one-pager.jpg` |
 
 Seekridge is a fictional company and `seekridge.example` is a reserved example domain. Every figure, customer ID and weight in this folder is illustrative.
 

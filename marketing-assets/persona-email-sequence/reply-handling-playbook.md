@@ -1,6 +1,6 @@
 # Reply-Handling Playbook
 
-Nurture sequences generate replies that don't fit "book a meeting" or "unsubscribe" — a technical objection, a request to loop in someone else, a polite non-answer. This playbook maps reply types to response guidance, per persona, so a rep or SDR triaging a shared inbox doesn't have to improvise a tone match on every reply. Pairs with [`campaign-head-of-model-risk.md`](./campaign-head-of-model-risk.md) and [`campaign-head-of-retail-banking.md`](./campaign-head-of-retail-banking.md); the reply categories are the same across personas, the right response isn't.
+Nurture sequences generate replies that don't fit "book a meeting" or "unsubscribe" — a technical objection, a request to loop in someone else, a polite non-answer. This playbook maps reply types to response guidance, per persona, so a rep or SDR triaging a shared inbox doesn't have to improvise a tone match on every reply. Pairs with [`campaign-head-of-deposits-and-savings.md`](./campaign-head-of-deposits-and-savings.md) and [`campaign-head-of-retail-banking.md`](./campaign-head-of-retail-banking.md); the reply categories are the same across personas, the right response isn't.
 
 ## General rules, both personas
 
@@ -11,28 +11,28 @@ Nurture sequences generate replies that don't fit "book a meeting" or "unsubscri
 
 ---
 
-## Head of Model Risk
+## Head of Deposits & Savings
 
-This persona's `personas.md` entry: risk-averse by function, has usually been burned by a prior vendor's explainability claim, distrusts anything that reads as a soft answer.
+This persona's `personas.md` entry: owns deposit balances and their cost, sees outflows only once the balance has gone, numbers-led, wary of pitches that imply matching every competitor rate.
 
-### "Can you send me the methodology doc directly, not just describe it?"
-**Read:** A genuine technical evaluation step, not stalling — this is exactly the behavior the persona profile predicts ("actively distrusts case studies without a named, checkable source").
-**Response guidance:** Send the actual methodology documentation immediately, not a summary. If a live version doesn't exist yet, say so plainly and give a specific date it will, rather than a vague "I'll follow up." This persona's trust triggers explicitly reward "we don't know, let me find out" over a confident non-answer.
+### "We already have a churn model."
+**Read:** The most predictable objection for this persona — `personas.md` names it directly. Usually true, and usually a model that flags customers after the balance has fallen.
+**Response guidance:** Don't argue the model is bad. Ask how many weeks before the balance dropped it flagged last year's outflows, and offer a backtest that answers the same question for Seekridge on the same customers. Let the two numbers sit side by side.
 
-### "How is this different from [prior vendor]'s explainability claim that fell apart?"
-**Read:** The single most predictable objection for this persona — `personas.md` names it directly as a common objection.
-**Response guidance:** Don't get defensive or imply the prior vendor was simply wrong. Ask what specifically fell apart (the method, a live test, an audit finding) and answer that specific failure mode directly — a generic "we're different" answer pattern-matches as exactly the claim they're already skeptical of.
+### "Isn't this just a rate problem?"
+**Read:** A real belief, and partly right — which is why it needs a straight answer, not a pivot.
+**Response guidance:** Agree that rates matter, then point to what the persona already said: matching every rate is ruinous. The moment tells the savings team who to call and why, so a rate offer goes to the customers who are actually leaving, not to everyone.
 
-### "I've forwarded this to our data/risk analyst to take a look."
-**Read:** A good sign, not a brush-off — per `personas.md`'s persona interaction map, the Data & CRM Lead is usually an ally if engaged early, and this Head of Model Risk is routing correctly rather than rubber-stamping.
-**Response guidance:** Offer to loop in directly with the analyst rather than waiting for them to reach out — and treat the analyst's technical questions as legitimate scrutiny, not an obstacle, when they arrive.
+### "I've forwarded this to our risk / data-protection team."
+**Read:** The sequence working as intended — risk and data protection are reviewers, and the buyer routing them in is the right order.
+**Response guidance:** Send the buyer the review pack (method note, a real evidence trail, the data-processing terms, the rule that moments only describe what has already happened) to pass on, and offer to join a call if the reviewers want one. Don't contact the reviewers directly before the buyer asks you to.
 
-### "Not the right time — we're mid-exam cycle / just renewed with our current vendor."
-**Read:** Often a real, specific timing constraint for this persona, not a soft no — regulated institutions have exam calendars that genuinely gate vendor evaluation bandwidth.
-**Response guidance:** Ask for (or infer, if given) a specific re-engagement point rather than a generic "circle back in Q_" — then actually wait for it. Re-approaching before the stated timing reads as exactly the pressure this persona's profile flags as a trust breaker.
+### "Not the right time — we're mid-budget / just repriced our savings range."
+**Read:** Often a real, specific timing constraint, not a soft no.
+**Response guidance:** Ask for a specific re-engagement point rather than a generic "circle back in Q_" — then actually wait for it.
 
 ### Hard no / unsubscribe
-**Response guidance:** No reply needed beyond confirming the unsubscribe request is honored. Don't send a "sorry to see you go" retention email — this persona's profile suggests that reads as pressure, not warmth.
+**Response guidance:** No reply needed beyond confirming the unsubscribe request is honored. Don't send a "sorry to see you go" retention email.
 
 ---
 
@@ -49,11 +49,11 @@ This persona's `personas.md` entry: measured on main-bank customers, products pe
 
 ### "Can you send this to our risk lead / send a version for compliance?"
 **Read:** This is the single most important reply type for this persona — `personas.md` states directly that this buyer "won't sell this internally for them" on the risk side, so a request to loop in risk is the sequence working as intended, not a detour.
-**Response guidance:** Offer the joint walkthrough described in [`campaign-head-of-retail-banking.md`](./campaign-head-of-retail-banking.md)'s Email 5, and reach out to the risk contact directly rather than routing everything back through the VP — this removes exactly the internal-selling burden the persona profile flags as a trust breaker if left on them.
+**Response guidance:** Send the review pack described in [`campaign-head-of-retail-banking.md`](./campaign-head-of-retail-banking.md)'s Email 5 for the buyer to forward, and offer to join a call with the risk contact — this removes the internal-selling burden the persona profile flags as a trust breaker, without going around the buyer.
 
 ### "We're not prioritizing this right now — our main-bank share is fine."
 **Read:** Possibly a genuine low-priority moment, but per `personas.md`'s pain language ("half our 'customers' get their salary somewhere else"), this can also mean the pain is real but not yet visible to this specific person.
 **Response guidance:** One light follow-up offering the banker-action data point (Email 3's angle) is reasonable if it wasn't already covered — a downstream metric this persona may not be tracking yet. Don't push past a second soft no.
 
 ### Hard no / unsubscribe
-**Response guidance:** Same as Head of Model Risk — honor immediately, no retention email.
+**Response guidance:** Same as Head of Deposits & Savings — honor immediately, no retention email.

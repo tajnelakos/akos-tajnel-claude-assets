@@ -42,7 +42,7 @@ Decision criterion this advances: ...
 
 ## Deep-dive campaign mode
 
-The quick mode above produces sequence content only. Deep-dive mode is for when the user wants a full, run-ready campaign for a persona: more emails, A/B-tested subject lines, and the tracking/analysis/ops material a real send needs — see [`campaign-head-of-model-risk.md`](./campaign-head-of-model-risk.md) and [`campaign-head-of-retail-banking.md`](./campaign-head-of-retail-banking.md) for two full worked examples.
+The quick mode above produces sequence content only. Deep-dive mode is for when the user wants a full, run-ready campaign for a persona: more emails, A/B-tested subject lines, and the tracking/analysis/ops material a real send needs — see [`campaign-head-of-deposits-and-savings.md`](./campaign-head-of-deposits-and-savings.md) and [`campaign-head-of-retail-banking.md`](./campaign-head-of-retail-banking.md) for two full worked examples.
 
 Use deep-dive mode when the user asks to actually build out / launch / track a sequence for a persona, rather than just draft the email copy.
 

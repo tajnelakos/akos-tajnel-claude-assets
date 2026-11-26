@@ -34,7 +34,7 @@ Rather than a prepared demo, Seekridge ran moments live on a pseudonymized sampl
 No public-use quote available yet. Lena Virtanen's discovery-call comments about the "the model said so" problem are exactly the kind of language a real testimonial should use — but they were said on a sales call, not given as a public statement, so using them here requires her explicit sign-off first, not just because they exist in our call notes.
 
 ---
-Positioning tie-in: "Explainable by design" (positioning.md's message house) — the specific proof point this account decided on (named data points and weighting per customer, not a score) is exactly this pillar, not a generic lead-volume claim.
+Positioning tie-in: "Bankers act on it" (positioning.md's message house) — the specific proof point this account decided on (named data points and weighting per customer, not a score) is exactly this pillar, not a generic lead-volume claim.
 Sourced from: win-loss-crm-export.csv (OPP-1001) · sales-call-analysis/call-01-nordkredit.md
 What's not confirmed: whether Nordkredit's implementation was completed before their stated board-audit date (tentatively the second week of September, per the call transcript) — the CRM close date (2026-09-08) falls right around that window, but "deal closed" isn't the same claim as "audit passed," and the source material doesn't confirm the latter. This case study should not assert it did.
 ```
