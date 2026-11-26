@@ -16,8 +16,8 @@ The script for [`segment-retail-lending-16x9.mp4`](./segment-retail-lending-16x9
 | 6 | Buying a car (31.9–37.9 s) | 32.3 s | 4.3 s | This one is about to buy a car. Offer your car loan before the dealer does. | A little quicker: the viewer knows the pattern now. Stress "before the dealer" |
 | 7 | Renovating (37.9–43.9 s) | 38.3 s | 3.2 s | Another is renovating. Time to offer a green loan. | Short and light |
 | 8 | Money starting to leave (43.9–49.9 s) | 44.3 s | 4.0 s | And this one is moving savings out. Call before the balance shows it. | Small beat after "out" |
-| 9 | Your week (49.9–56.4 s) | 50.1 s | 5.7 s | Every Monday, the week's moments arrive ranked in your CRM, ready for your advisors to act on. | Brief pause after "Monday"; say "C-R-M" as letters; land on "act on" |
-| 10 | Brand close (56.4–63.0 s) | 57.8 s | 2.2 s | Seekridge. Be first to their next plan. | Natural short beat after "Seekridge." (no long pause). Land softly on "next plan". No caption: the slogan is on screen. Nothing after 60.5 s |
+| 9 | Your week (49.9–56.4 s) | 50.1 s | 5.7 s | Every Monday, the week's moments arrive ranked in your CRM, ready for your advisors to act on. | Brief pause after "Monday"; say "C-R-M" as letters; land on "act on". On screen, the queue shows each customer by name with the suggested action (*Call with a car loan offer*) |
+| 10 | Brand close (56.4–63.0 s) | 57.8 s | 3.4 s | Seekridge. Be first to their next plan. | Take a breath after "Seekridge." (about half a second, no longer). Land softly on "next plan". No caption: the slogan is on screen. Nothing after 61.5 s |
 
 **Totals:** 148 words in about 48 s of speech, over a 63.0 s film, with the rest left as pauses.
 
