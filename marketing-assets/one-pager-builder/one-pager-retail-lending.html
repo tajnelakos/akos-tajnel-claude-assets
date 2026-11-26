@@ -127,17 +127,17 @@
   .note{ margin:12px 0 0; font:400 12px/16px var(--body); color:var(--slate); }
 
   .grid4c{ display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
-  .groups{ display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+  .groups{ display:grid; grid-template-columns:2fr 3fr; gap:18px; }
   .grp{ display:flex; flex-direction:column; gap:10px; }
   .owner{ margin:0; font:600 13px/1.2 var(--body); color:var(--navy-deep); padding-left:2px; }
-  .grp-cards{ display:grid; grid-template-columns:1fr 1fr; gap:10px; flex:1; }
+  .grp-cards{ display:grid; grid-auto-flow:column; grid-auto-columns:1fr; gap:10px; flex:1; }
   .mt{ border-radius:18px; overflow:hidden; background:var(--surface); border:1px solid var(--line); display:flex; flex-direction:column; }
   .mt-head{ background:var(--navy); padding:13px 14px 14px; color:#fff; min-height:122px; }
-  .grp:first-child .mt:first-child .mt-head{ background:var(--ink); }
+  .mt--hl .mt-head{ background:var(--ink); }
   .mt-head .mo-ico{ margin-bottom:10px; width:30px; height:30px; border-radius:9px; display:grid; place-items:center; background:rgba(244,243,239,.12); }
   .mt-head .mo-ico svg{ width:17px; height:17px; stroke:var(--paper); fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; }
-  .grp:first-child .mt:first-child .mo-tag{ background:var(--gold-light); color:var(--navy-deep); }
-  .mt:first-child .mo-ico{ background:var(--gold-light); } .mt:first-child .mo-ico svg{ stroke:var(--navy-deep); }
+  .mt--hl .mo-tag{ background:var(--gold-light); color:var(--navy-deep); }
+  .mt--hl .mo-ico{ background:var(--gold-light); } .mt--hl .mo-ico svg{ stroke:var(--navy-deep); }
   .mt-head .mo-tag{ display:table; margin:12px 0 0; }
   .mt-head .mo-moment{ font:500 13px/16px var(--body); color:rgba(244,243,239,.72); margin:10px 0 6px; }
   .mt-head h3{ margin:0; font:800 17px/1.12 var(--display); letter-spacing:-.015em; color:#fff; }
@@ -169,6 +169,10 @@
   .mc-title{ font:800 20px/1.2 var(--display); letter-spacing:-.01em; color:var(--ink); }
   .mc-who{ font:400 13px/16px var(--body); color:var(--slate); margin-top:-6px; padding-bottom:10px; border-bottom:1px solid var(--line); }
   .mcard .ev li:first-child i b{ background:var(--gold); }
+  .also{ margin-top:16px; background:#fff; border:1px solid var(--line); border-radius:14px; padding:12px 14px; display:flex; flex-direction:column; gap:8px; }
+  .also-row{ display:flex; align-items:center; gap:10px; font:700 14px/1.2 var(--display); color:var(--ink); }
+  .mc-tag--navy{ background:#E8EDF3; color:var(--navy); }
+  .also-act{ margin:0; font-size:12.5px; line-height:1.4; color:var(--ink-soft); }
   .mc-act{ background:var(--surface-2); border:1px solid var(--line); border-radius:12px; padding:10px 12px; font-size:13px; line-height:1.45; color:var(--ink); }
   .mc-sync{ font:500 12.5px/16px var(--body); color:var(--good); display:flex; align-items:center; gap:6px; }
   .mc-sync::before{ content:""; width:7px; height:7px; border-radius:50%; background:currentColor; }
@@ -210,9 +214,9 @@
     <div class="hero-grid">
       <div>
         <h1>Find the peaks in your <em>customer base.</em></h1>
-        <p class="sub">Every month, some of your customers get ready to refinance, buy a home, renovate or move their insurance. Seekridge spots those moments in <b>your own data</b>, months ahead, and puts each one in your advisors’ CRM with the reason attached.</p>
+        <p class="sub">Every month, some of your customers get ready to buy a home, make room for a growing family, buy a car, renovate or move their insurance. Seekridge spots those moments in <b>your own data</b>, months ahead, and puts each one in your advisors’ CRM with the reason attached.</p>
       </div>
-      <figure class="art"><img src="peaks-moments.svg" alt="A moving dot map with four labeled peaks: refinance from another bank, buying a home, renovating, insured elsewhere"></figure>
+      <figure class="art"><img src="peaks-moments.svg" alt="A moving dot map with five labeled peaks: buying a home, growing family, buying a car, renovating, a new home to insure"></figure>
     </div>
   </header>
 
@@ -231,7 +235,7 @@
         <div class="arr"></div>
         <div class="fl-out"><span class="k">In your advisors’ CRM</span>
           <div class="crm"><div class="crm-h">This week<span>● Synced</span></div>
-            <ul><li>Refinancing elsewhere<small>41</small></li><li>Buying a home<small>27</small></li><li>Renovating<small>23</small></li><li>Insured elsewhere<small>19</small></li></ul>
+            <ul><li>Buying a car<small>41</small></li><li>Buying a home<small>27</small></li><li>Growing family<small>24</small></li><li>Renovating<small>23</small></li><li>Insured elsewhere<small>19</small></li></ul>
           </div>
         </div>
       </div>
@@ -239,22 +243,27 @@
 
     <section>
       <div class="intro">
-        <div><p class="eyebrow">Four moments, two owners</p><h2 class="big">Catch them <em>before another bank does.</em></h2></div>
+        <div><p class="eyebrow">Five moments, two owners</p><h2 class="big">Catch them <em>before another bank does.</em></h2></div>
       </div>
       <div class="groups">
         <div class="grp"><p class="owner">Owned by the Head of Mortgage Lending</p><div class="grp-cards">
-        <article class="mt">
-          <div class="mt-head"><span class="mo-ico"><svg viewBox="0 0 24 24"><path d="M4 8h13l-3-3M20 16H7l3 3"/></svg></span><span class="mo-tag">Mortgage</span><div class="mo-moment">Refinancing elsewhere</div><h3>Win the mortgages held at other banks</h3></div>
-          <div class="mt-row"><span class="k">Benefit</span>Call before their fixed rate ends at another bank, and bring the loan over.</div>
-          <div class="mt-row mt-fea"><span class="k">Feature</span>Spots mortgage payments to other lenders, and when the fixed period ends.</div>
-        </article>
         <article class="mt">
           <div class="mt-head"><span class="mo-ico"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><circle cx="12" cy="14.5" r="2"/></svg></span><span class="mo-tag">Mortgage</span><div class="mo-moment">Buying a home</div><h3>Be the first bank they ask for a mortgage</h3></div>
           <div class="mt-row"><span class="k">Benefit</span>Reach them while they’re still searching, before a broker does.</div>
           <div class="mt-row mt-fea"><span class="k">Feature</span>Reads purchase intent from savings, rent payments and the local market.</div>
         </article>
+        <article class="mt">
+          <div class="mt-head"><span class="mo-ico"><svg viewBox="0 0 24 24"><circle cx="8" cy="7" r="2.5"/><circle cx="16" cy="7" r="2.5"/><circle cx="12" cy="14" r="2"/><path d="M3 20c0-3 2.2-5 5-5M21 20c0-3-2.2-5-5-5M8.5 21c0-2 1.6-3.5 3.5-3.5s3.5 1.5 3.5 3.5"/></svg></span><span class="mo-tag">Mortgage</span><div class="mo-moment">Growing family</div><h3>Finance the bigger home they’ll need</h3></div>
+          <div class="mt-row"><span class="k">Benefit</span>Talk about a larger home, or a top-up, before they start viewing.</div>
+          <div class="mt-row mt-fea"><span class="k">Feature</span>Spots child benefit starting, baby-store spending and rent or space under strain.</div>
+        </article>
         </div></div>
         <div class="grp"><p class="owner">Owned by the Head of Retail Banking</p><div class="grp-cards">
+        <article class="mt mt--hl">
+          <div class="mt-head"><span class="mo-ico"><svg viewBox="0 0 24 24"><path d="M5 16V11l2-5h10l2 5v5"/><path d="M3 16h18v3H3z"/><circle cx="7.5" cy="13.5" r="1"/><circle cx="16.5" cy="13.5" r="1"/></svg></span><span class="mo-tag">Car loan</span><div class="mo-moment">Buying a car</div><h3>Finance the car before the dealer does</h3></div>
+          <div class="mt-row"><span class="k">Benefit</span>Offer a pre-approved car loan before they sign the dealer’s finance.</div>
+          <div class="mt-row mt-fea"><span class="k">Feature</span>Spots a car loan ending elsewhere, savings set aside and dealership payments.</div>
+        </article>
         <article class="mt">
           <div class="mt-head"><span class="mo-ico"><svg viewBox="0 0 24 24"><path d="M14.5 5.5a3.5 3.5 0 0 0 4.6 4.6L21 12l-8 8-3-3 8-8"/><path d="M3 21l6-6"/></svg></span><span class="mo-tag">Green loan</span><div class="mo-moment">Renovating</div><h3>Fund the renovation before it starts</h3></div>
           <div class="mt-row"><span class="k">Benefit</span>Offer a renovation or green loan while the work is being planned.</div>
@@ -276,37 +285,45 @@
 <div class="sheet">
   <main class="body" style="padding-top:44px">
     <section class="window">
-      <p class="eyebrow">One customer, one mortgage at another bank</p>
-      <h2 class="big">Call before <em>their bank does.</em></h2>
-      <p class="lead" style="margin-bottom:14px">When a fixed rate ends, most customers simply renew where they are.</p>
-            <div class="tl" role="img" aria-label="Timeline: Seekridge flags the customer about five months before their fixed rate ends at another bank; without it, they renew there.">
-        <div class="zone"><span>Window to win the loan</span><b>~5 months</b></div>
+      <p class="eyebrow">One customer, one car purchase coming up</p>
+      <h2 class="big">Call before <em>the dealer does.</em></h2>
+      <p class="lead" style="margin-bottom:14px">Most customers take the finance the dealer offers on the day they buy.</p>
+            <div class="tl" role="img" aria-label="Timeline: Seekridge flags the customer about three months before they buy a car; without it, they take the dealer’s finance.">
+        <div class="zone"><span>Window to win the loan</span><b>~3 months</b></div>
         <div class="axis"></div>
         <div class="node gold" style="left:calc(36px + (100% - 72px) * .10)"></div>
-        <div class="node" style="left:calc(36px + (100% - 72px) * .62)"></div>
+        <div class="node" style="left:calc(36px + (100% - 72px) * .55)"></div>
         <div class="node late" style="left:calc(36px + (100% - 72px) * .95)"></div>
         <div class="lbl first" style="left:calc(36px + (100% - 72px) * .10 - 10px)"><strong>Seekridge flags them</strong><small>With the reason attached</small></div>
-        <div class="lbl" style="left:calc(36px + (100% - 72px) * .62)"><strong>Their fixed rate ends</strong><small>The loan is free to move</small></div>
-        <div class="lbl late last" style="left:calc(36px + (100% - 72px) * .95 + 10px)"><strong>Without Seekridge</strong><small>They renew at their bank</small></div>
+        <div class="lbl" style="left:calc(36px + (100% - 72px) * .55)"><strong>They visit the dealer</strong><small>Finance decided on the day</small></div>
+        <div class="lbl late last" style="left:calc(36px + (100% - 72px) * .95 + 10px)"><strong>Without Seekridge</strong><small>They take the dealer’s finance</small></div>
       </div>
     </section>
 
     <section>
       <p class="eyebrow">What an advisor sees</p>
       <div class="how">
-        <div class="seetext"><h2 class="big">Every moment <em>comes with its reason.</em></h2><p class="lead">Advisors see why each customer is on their list, and what to offer by when. The same evidence takes the approach through risk review once, not campaign by campaign.</p></div>
+        <div class="seetext"><h2 class="big">Every moment <em>comes with its reason.</em></h2><p class="lead">Advisors see why each customer is on their list, and what to offer by when. The same evidence takes the approach through risk review once, not campaign by campaign.</p>
+          <div class="also"><span class="k">Also on this week’s list</span>
+            <div class="also-row"><span class="mc-tag mc-tag--navy">Growing family</span><b>Customer 40-0954</b></div>
+            <ul class="ev">
+              <li>Child benefit payments started in March<span>40%</span><i><b style="width:80%"></b></i></li>
+              <li>Rent now a third of income<span>27%</span><i><b style="width:54%"></b></i></li>
+            </ul>
+            <p class="also-act">Suggested next step: talk about a larger home before they start viewing.</p>
+          </div></div>
         <div class="shotwrap">
           <article class="mcard">
-            <div class="mc-top"><span class="mc-tag">Refinancing elsewhere</span></div>
-            <div class="mc-title">Customer 40-1187</div>
-            <div class="mc-who">Mortgage at another bank, about €310k</div>
+            <div class="mc-top"><span class="mc-tag">Buying a car</span></div>
+            <div class="mc-title">Customer 40-2218</div>
+            <div class="mc-who">Current account with you, car loan elsewhere</div>
             <ul class="ev">
-              <li>Monthly payment to another lender<span>36%</span><i><b style="width:72%"></b></i></li>
-              <li>Fixed period likely ends Mar 2027<span>30%</span><i><b style="width:60%"></b></i></li>
-              <li>Market rates below their contract rate<span>18%</span><i><b style="width:36%"></b></i></li>
+              <li>Car loan with another lender ends Feb 2027<span>36%</span><i><b style="width:72%"></b></i></li>
+              <li>About €9k set aside in savings<span>30%</span><i><b style="width:60%"></b></i></li>
+              <li>Card payments at car dealerships<span>18%</span><i><b style="width:36%"></b></i></li>
             </ul>
-            <div class="mc-act"><span class="k">Suggested next step</span>Call before 31 Jan 2027 with a switching offer.</div>
-            <div class="mc-sync">Synced to the Hamburg lending queue</div>
+            <div class="mc-act"><span class="k">Suggested next step</span>Call before 15 Jan 2027 with a pre-approved car loan.</div>
+            <div class="mc-sync">Synced to the Hamburg retail queue</div>
           </article>
           <div class="pin">Why this customer?<small>Every data point, with its weight</small></div>
         </div>

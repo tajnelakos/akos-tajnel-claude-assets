@@ -17,6 +17,7 @@ What a moment looks like, grouped by the buyer who owns it:
 **Mortgage lending (Head of Mortgage Lending)**
 - **Refinancing elsewhere** — a mortgage payment going to another lender every month, or a fixed rate ending soon while market rates are lower, ready to be brought over or kept.
 - **Buying a home** — deposits building up and rent payments that point to a first home purchase.
+- **Growing family** — child benefit payments starting, baby-store spending, rent or space under strain: a larger home or a top-up ahead.
 
 **Retail banking (Head of Retail Banking)**
 - **Buying a car** — a car purchase coming up, ready for the bank's car loan before a dealer's finance offer.
