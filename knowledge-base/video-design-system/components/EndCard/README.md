@@ -10,7 +10,7 @@ How every Moment story and Statement closes. Walkthroughs close on the two-line 
 
 **Variant: Walkthrough lockup.** Paper ground, two centred lines in `headline` (Archivo 700, 72px), line 1 ink, line 2 with the gold underline bar; the mark 48px bottom-right; no lockup. *Every moment. / Its reasons, on screen.*
 
-**Variant: Closing claim** (segment films). Navy, a RidgeField band along the bottom with no gold point, the reversed lockup small at the top (320px), and a two-line `title` that answers the film's opening hook: the action on line one, the payoff in gold-light on line two (opening *Your next deals are hiding in your client base.* → closing *Run a test on your own book. / See your next deals.*). The title is the action, so there's no separate button. The brand line is said in the voice-over and shown in the caption, not set on the card. Reference: the end of `segment-retail-lending-16x9`.
+**Variant: Brand close** (segment films). Navy, a RidgeField band along the bottom with no gold point. The reversed lockup is large (640px) and centred, with the slogan under it in one line of Archivo 800 at 96px, the second half in gold-light (*Be first to **their next plan.***). Nothing else on the card: no action line, no button. The lockup carries the name, so the slogan never repeats "Seekridge". The voice-over says the brand and slogan (*Seekridge. Be first to their next plan.*, with a breath after the name, about half a second). There's no caption on this beat, because the words are already on screen. Reference: the end of `segment-retail-lending-16x9`.
 
 **Motion.** Lockup fades in (0.2 s), the line rises (0.5 s), the action fades in (1.2 s). Then everything holds still for `end-hold` (3 s). No voice-over and no caption over the last 2 s.
 
