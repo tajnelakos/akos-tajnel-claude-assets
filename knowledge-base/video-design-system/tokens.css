@@ -1,4 +1,4 @@
-/* Parcelwise Video Design System: generated from tokens.json. Do not edit by hand. */
+/* Seekridge Video Design System: generated from tokens.json. Do not edit by hand. */
 /* Fonts are bundled in fonts/ (SIL Open Font License, see fonts/OFL.txt), so films render offline. */
 @font-face{font-family:Archivo;src:url(fonts/Archivo-SemiBold.woff2) format('woff2');font-weight:600;font-display:block}
 @font-face{font-family:Archivo;src:url(fonts/Archivo-Bold.woff2) format('woff2');font-weight:700;font-display:block}
@@ -14,7 +14,7 @@
   --pwv-ink: #1C1C1A; /* Headlines and figures on the ground. Paper: 15.4:1. Navy: 10.5:1. */
   --pwv-ink-muted: #5B6470; /* Second lines, measures under a figure, the end-card action. Paper: 5.4:1. Navy: 5.8:1. */
   --pwv-highlight: #C1892E; /* The one gold per frame. Paper: a 6px underline bar under up to three headline words (never gold text on Paper, 2.7:1). Navy: up to three headline words in gold-light text (5.2:1). */
-  --pwv-lot: #C1892E; /* The filled gold point of the ridge motif, the top evidence row's weight bar, the highlighted bar in a chart. Counts as the frame's one gold. */
+  --pwv-lot: #C1892E; /* The filled gold point of the ridge motif, the gold edge on the lead evidence row, the highlighted bar in a chart. Counts as the frame's one gold. */
   --pwv-survey-line: #1A3A5C; /* Ridge and plan lines that draw in. Used at full strength for drawings, at the opacity below for the motif field. */
   --pwv-survey-line-opacity: 0.18; /* Opacity of motif lines (motif lines; the dot map sets its own dot opacity). */
   --pwv-grid: #E1E0D9; /* The optional map grid behind Walkthrough frames: 1px hairlines every 96px. Texture only, never behind running text. */
@@ -24,8 +24,8 @@
   --pwv-panel-ink: #1C1C1A; /* Text inside panels. 17.1:1 on white. */
   --pwv-panel-muted: #5B6470; /* Labels and secondary values inside panels. 6.0:1 on white. */
   --pwv-panel-line: #E1E0D9; /* Hairlines inside panels and their outer border. */
-  --pwv-bar: #1A3A5C; /* Evidence weight bars and chart series. The one that matters is gold. */
-  --pwv-bar-track: #ECEBE5; /* Empty part of a weight bar. */
+  --pwv-bar: #1A3A5C; /* Chart series. The bar that matters is gold. Not used on evidence rows: they show no weights. */
+  --pwv-bar-track: #ECEBE5; /* Empty part of a chart bar. */
   --pwv-caption-band: rgba(26,58,92,0.94); /* Burnt-in caption band. Navy at 94% on Paper frames; inverted to Paper at 96% on Navy frames, because a navy band disappears on the Navy ground. Square corners. */
   --pwv-caption-ink: #F4F3EF; /* Caption text: Paper on the navy band (10:1), Ink on the Paper band on Navy frames (15:1). */
   --pwv-good: #0CA30C; /* Product UI only: the dot on 'Synced to CRM'. Never on the ground. */
@@ -85,7 +85,7 @@
   --pwv-text-panel-value-tracking: 0;
   --pwv-text-panel-label: 500 18px/24px var(--pwv-font-mono); /* Uppercase mono column labels in a panel. Texture: may be skimmed. */
   --pwv-text-panel-label-tracking: 0.06em;
-  --pwv-text-data: 400 26px/34px var(--pwv-font-mono); /* Figures, dates, IDs and weights inside panels. Tabular numerals. */
+  --pwv-text-data: 400 26px/34px var(--pwv-font-mono); /* Figures, dates, IDs and values inside panels. Tabular numerals. */
   --pwv-text-data-tracking: 0;
   --pwv-text-source: 400 22px/30px var(--pwv-font-mono); /* The source line under every figure and chart. */
   --pwv-text-source-tracking: 0;
@@ -127,7 +127,7 @@
   --pwv-frame-trace: 600ms; /* A panel's hairline border traces in, clockwise from top-left. */
   --pwv-content-in: 250ms; /* Panel content fades in once its frame is traced (brand --motion-base). */
   --pwv-row-stagger: 120ms; /* Rows populating a panel, top to bottom. */
-  --pwv-bar-grow: 500ms; /* A weight bar grows from the left to its exact value. */
+  --pwv-bar-grow: 500ms; /* A chart bar grows from the baseline to its exact value. Evidence rows have no bars. */
   --pwv-count: 800ms; /* A figure counts up and lands on the exact value. */
   --pwv-focus-in: 400ms; /* FocusMarks close in on the element from 40px outside it. */
   --pwv-dim: 0.35; /* Opacity of everything outside the focus while FocusMarks are on. Dimming replaces blur. */
