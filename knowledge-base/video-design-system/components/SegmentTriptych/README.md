@@ -6,7 +6,7 @@ Proof of breadth for Statements and segment overviews: the same moment-plus-evid
 
 **Family pairs** (from `../knowledge-base.md`): Main bank → Salary landing elsewhere · Outflow → Money starting to leave · Growth → Mortgage-ready.
 
-**Motion.** Panels trace in left to right 350ms apart; evidence lines and bars follow inside each. Hold 2 s.
+**Motion.** Panels trace in left to right 350ms apart; evidence lines follow inside each. Hold 2 s.
 
 **Provide.** Three moments and their top two evidence lines.
 

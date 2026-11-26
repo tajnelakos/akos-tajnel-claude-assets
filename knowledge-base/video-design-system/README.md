@@ -107,7 +107,7 @@ A product or segment page (retail banking, deposits and savings, retail lending)
 5. **Scale**: RidgeField.
 6. **Proof** and **EndCard**.
 
-**Short cut (35–45 s), value → benefit → feature.** When the page needs a punchier film, drop the governance and proof beats and run: the customer base as a RidgeField with its moments rising and tagged → the three layers (*your transactions, your customers, the market*) → customer one with the evidence trail → customers two and three, faster, each with the offer the moment opens → the week's moments settling into a ranked CRM queue → a closing title that turns the opening hook into the action (EndCard, *Closing claim* variant). No ChapterRail. Headlines are bolder here: short, declarative, a claim per scene. Reference: [`assets/Films/segment-retail-lending-16x9.mp4`](./assets/Films/segment-retail-lending-16x9.mp4) (50.2 s, silent with captions until the voice is re-recorded), with its ElevenLabs-ready voice-over script beside it.
+**Short cut (45–60 s), value → benefit → feature.** When the page needs a punchier film, drop the governance and proof beats and run: the customer base as a RidgeField with its moments rising and tagged → the combined data (*transactions, market data, AI conversations, mortgage and client data*) → customer one with the evidence trail → customers two and three, faster, each with the offer the moment opens → the week's moments settling into a ranked CRM queue, each row with the customer's name and the suggested action (*Call with a car loan offer*) → the brand close: a large centred logo, the slogan *Be first to their next plan.* (EndCard, *Brand close* variant). No ChapterRail. Headlines are bolder here: short, declarative, a claim per scene. Reference: [`assets/Films/segment-retail-lending-16x9.mp4`](./assets/Films/segment-retail-lending-16x9.mp4) (64.9 s, ElevenLabs voice and captions), with its ElevenLabs-ready voice-over script beside it.
 
 ### Statement (5–7 beats)
 
@@ -131,7 +131,7 @@ Headlines carry the film. Write them first, read them aloud, then design. Voice 
 | Highlight | Up to three words, the payoff, usually at the end. Gold-light text on Navy; a gold underline bar on Paper | Highlighting a verb mid-line, more than half a line, or two highlights in one frame |
 | Two-liners | Situation in ink, consequence or answer highlighted. *Their salary went up in March. / **So did their transfers out.*** | Two lines of equal weight |
 | Punctuation | Moment stories and Statements end in a full stop. Walkthroughs don't | Exclamation marks, question marks as hooks ("Ready to grow?"), ellipses |
-| Voice | Second person to the professional (*your customers*, *your bankers*). Customers by ID on screen, *this customer* in the voice-over | *Users*, *leads*, *prospects*. Customer first names |
+| Voice | Second person to the professional (*your customers*, *your bankers*). Customers on screen by an invented full name that fits the market (*Anna Becker*, *Jonas Weber*) or by ID in dense tables; *this customer* in the voice-over | *Users*, *leads*, *prospects*. First names alone, or the names of real people |
 | Precision | Name the data point. *Income up 16% in three months.* | *Rich customer insights.* *Powerful data.* |
 | Mechanism | Name it when the audience asks for it (the method film shared with reviewers), always as named data points, never as weights | *Proprietary AI*, *black box*, *magic*, *revolutionary* (all prohibited terms) |
 | Product words | Moment · evidence trail · audit log · customer base · transaction data, customer data, market data · CRM | Lead, insight, alert · explainability report · database · data lake |
@@ -276,6 +276,7 @@ The market is chosen per film and sets language, number format, currency, voice 
 | Demo savings bank | Ashcombe Mutual | Lindwurm Sparkasse | Dijkhuis Spaarbank | Ørsund Sparekasse |
 | Demo credit union | Kestrel Credit Union | Brandauer Raiffeisen | Kade Coöperatieve Bank | Strand Andelsbank |
 | Customer IDs | 40-1187, 40-2210, 52-0093 | same format | same format | same format |
+| Demo customer names | Emma Clarke, James Holt | Anna Becker, Jonas Weber, Miriam Schulz, Thomas Krüger | Sanne de Vries, Daan Jansen | Linnea Berg, Erik Lund |
 | Monthly transfer | EUR 400 | EUR 400 (CH: CHF 400) | EUR 400 | SEK 4 500 |
 | Balance | EUR 48,200 | EUR 48.200 (CH: CHF 48’200) | EUR 48.200 | SEK 482 000 |
 | Percentages | +11.2% | +11,2 % | +11,2% | +11,2 % |
@@ -436,7 +437,7 @@ The Seekridge web app, screen by screen, and what each gives a film. The screens
 
 ## 13. Still open
 
-1. **Approved voices.** Choose and record the one synthetic voice per language (EN-GB, DE, NL, SV) and its licence, so every film uses the same voice. The final English voice will come from ElevenLabs. Until then, `segment-retail-lending-16x9` carries a draft voice made offline with Kokoro (voice *bf_emma*), and the other reference films ship silent with captions.
+1. **Approved voices.** Choose and record the one synthetic voice per language (EN-GB, DE, NL, SV) and its licence, so every film uses the same voice. The English voice comes from ElevenLabs: `segment-retail-lending-16x9` carries it, and the other reference films ship silent with captions until they are voiced.
 2. **Music.** No bed is cleared yet. Films ship voice-only (or silent) until one is licensed for commercial use.
 3. **Logo files.** The wordmark is live text in the SVGs; films embed Archivo so it renders, but outlined logo files are the next step (see [`../branding-guideline/README.md`](../branding-guideline/README.md)).
 4. **Localised references.** Only the UK English master of the reference films exists. A German cut of `story-outflow-dach` is the next one to build, to test the re-timing rule.

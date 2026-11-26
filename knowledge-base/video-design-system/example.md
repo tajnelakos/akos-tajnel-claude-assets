@@ -56,7 +56,7 @@ assets/Films/story-outflow-dach-16x9.srt · assets/Stills/contact-sheet-story.jp
 **Checks:**
 - First rule ✓ — the customer's situation (0–10 s) comes before the product (10 s); a viewer can
   repeat the top reason ("a new transfer of EUR 400 a month").
-- One gold per frame ✓ — the gold point (title), highlight bars (Paper beats), the top evidence bar with
+- One gold per frame ✓ — the gold point (title), highlight bars (Paper beats), the gold edge on the lead evidence row with
   no headline highlight (evidence beat), gold-light words only on Navy.
 - Figures ✓ — 68% carries its source and *Illustrative*; evidence rows are plain data points, with no weights or percentages.
 - Captions ✓ — max 2 × 42 characters, none over the first 1.5 s or the last 2 s, never the
