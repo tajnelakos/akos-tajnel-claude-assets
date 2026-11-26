@@ -179,3 +179,7 @@ body.deck-view { background: #DCDAD3; font-family: var(--font-body); }
 .logo-tile { height: 160px; border-radius: 20px; background: #FFFFFF; border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; gap: 14px;
   font: 700 32px/1 var(--font-display); letter-spacing: -.01em; color: #3F4A55; }
 .logo-tile svg { width: 36px; height: 36px; }
+/* Five-row moment table: tighter rows so five moments fit above the footer. */
+.mtable--compact { margin-top: 36px; row-gap: 12px; }
+.mtable--compact .m { height: 80px; }
+.mtable--compact .p span { font-size: 20px; line-height: 26px; }

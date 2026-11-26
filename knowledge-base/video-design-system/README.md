@@ -57,7 +57,7 @@ Every film shares the same type, grounds, panels and motion grammar. What change
 |---|---|---|---|
 | Job | Show how one feature works | Show what one moment does for one persona, end to end | Announce, open an event, state one finding |
 | Weighting | Product-heavy | Customer situation and evidence | One idea and one figure |
-| Reference film | `walkthrough-evidence-trail-16x9` | `story-outflow-dach-16x9`; segment version `segment-mortgage-lending-16x9` | `statement-evidence-16x9` |
+| Reference film | `walkthrough-evidence-trail-16x9` | `story-outflow-dach-16x9`; segment version `segment-retail-lending-16x9` | `statement-evidence-16x9` |
 | Length | 20–45 s | 45–60 s | 20–35 s |
 | Ground | Paper, map grid on | Navy open and close, Paper body | Navy throughout |
 | Framing | One panel, cropped to the control the beat is about | Split beats: headline left (5 columns), panel right (7 columns) | Type, the dot map and figures; at most one panel |
@@ -98,7 +98,7 @@ A beat is one headline plus one change on screen. Default length 5 s (`beat`), r
 
 ### Segment story (45–60 s, a Moment story for a whole segment page)
 
-A product or segment page (retail banking, deposits and savings, mortgage lending) gets one Moment story built around **two customers with two different moments**, so the page shows range without becoming a feature tour.
+A product or segment page (retail banking, deposits and savings, retail lending) gets one Moment story built around **two customers with two different moments**, so the page shows range without becoming a feature tour.
 
 1. **TitleCard**: the customer base in the reader's own word (*customers*, *savers*, *members*). *Your customers' transactions already hold next quarter's business.*
 2. **Customer one**: situation → moment → evidence (2 rows only) → action.
@@ -107,7 +107,7 @@ A product or segment page (retail banking, deposits and savings, mortgage lendin
 5. **Scale**: RidgeField.
 6. **Proof** and **EndCard**.
 
-**Short cut (35–45 s), value → benefit → feature.** When the page needs a punchier film, drop the governance and proof beats and run: the customer base as a RidgeField with its moments rising and tagged → the three layers (*your transactions, your customers, the market*) → customer one with the evidence trail → customers two and three, faster, each with the offer the moment opens → the week's moments settling into a ranked CRM queue → a closing title that turns the opening hook into the action (EndCard, *Closing claim* variant). No ChapterRail. Headlines are bolder here: short, declarative, a claim per scene. Reference: [`assets/Films/segment-mortgage-lending-16x9.mp4`](./assets/Films/segment-mortgage-lending-16x9.mp4) (50.2 s, silent with captions until the voice is re-recorded), with its ElevenLabs-ready voice-over script beside it.
+**Short cut (35–45 s), value → benefit → feature.** When the page needs a punchier film, drop the governance and proof beats and run: the customer base as a RidgeField with its moments rising and tagged → the three layers (*your transactions, your customers, the market*) → customer one with the evidence trail → customers two and three, faster, each with the offer the moment opens → the week's moments settling into a ranked CRM queue → a closing title that turns the opening hook into the action (EndCard, *Closing claim* variant). No ChapterRail. Headlines are bolder here: short, declarative, a claim per scene. Reference: [`assets/Films/segment-retail-lending-16x9.mp4`](./assets/Films/segment-retail-lending-16x9.mp4) (50.2 s, silent with captions until the voice is re-recorded), with its ElevenLabs-ready voice-over script beside it.
 
 ### Statement (5–7 beats)
 
@@ -436,7 +436,7 @@ The Seekridge web app, screen by screen, and what each gives a film. The screens
 
 ## 13. Still open
 
-1. **Approved voices.** Choose and record the one synthetic voice per language (EN-GB, DE, NL, SV) and its licence, so every film uses the same voice. The final English voice will come from ElevenLabs. Until then, the reference films ship silent with captions; the earlier Kokoro draft voice on `segment-mortgage-lending-16x9` was removed when the film moved to transaction, savings and AI-agent data, and is re-recorded from the updated script.
+1. **Approved voices.** Choose and record the one synthetic voice per language (EN-GB, DE, NL, SV) and its licence, so every film uses the same voice. The final English voice will come from ElevenLabs. Until then, the reference films ship silent with captions; the earlier Kokoro draft voice on `segment-retail-lending-16x9` was removed when the film moved to transaction, savings and AI-agent data, and is re-recorded from the updated script.
 2. **Music.** No bed is cleared yet. Films ship voice-only (or silent) until one is licensed for commercial use.
 3. **Logo files.** The wordmark is live text in the SVGs; films embed Archivo so it renders, but outlined logo files are the next step (see [`../branding-guideline/README.md`](../branding-guideline/README.md)).
 4. **Localised references.** Only the UK English master of the reference films exists. A German cut of `story-outflow-dach` is the next one to build, to test the re-timing rule.

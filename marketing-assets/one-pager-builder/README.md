@@ -12,7 +12,7 @@ A skill that builds a single-page, persona-specific piece of sales collateral �
 
 - [`skill.md`](./skill.md) — the Claude Skill definition
 - [`one-pager-retail-banking.html`](./one-pager-retail-banking.html) — the rendered one-pager for retail banking leaders, front and back ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/one-pager-builder/one-pager-retail-banking.html))
-- [`peaks-moments.svg`](./peaks-moments.svg) — its illustration: the dot map with the four moments labeled as peaks
+- [`peaks-moments.svg`](./peaks-moments.svg) — its illustration: the dot map with four of the moments labeled as peaks
 - [`rank-illustration.svg`](./rank-illustration.svg) — the "ranks every customer" illustration in the flow diagram: a grid of customers, four highlighted and ranked
 - [`moment-detail-crop.png`](./moment-detail-crop.png) — a crop of the product UI, kept for reuse
 - [`example.md`](./example.md) — the input/output behind it
