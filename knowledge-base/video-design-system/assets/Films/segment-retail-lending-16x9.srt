@@ -52,8 +52,3 @@ Call before the balance shows it.
 Every Monday, the week's moments
 arrive ranked, in your CRM.
 
-12
-00:00:55,200 --> 00:00:58,390
-Seekridge. Opportunities
-you can act on, and explain.
-
