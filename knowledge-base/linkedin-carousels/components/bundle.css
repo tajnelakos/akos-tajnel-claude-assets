@@ -92,17 +92,13 @@
 
 /* Evidence trail: one row per data point, with its layer and its weight. The top weight is the slide's gold. */
 .pwc-evidence { display:flex; flex-direction:column; gap:32px; }
-.pwc-ev { display:grid; grid-template-columns:48px 1fr auto; column-gap:24px; row-gap:12px; align-items:start; }
+.pwc-ev { display:grid; grid-template-columns:48px 1fr; column-gap:24px; align-items:start; }
 .pwc-ev-ico { width:48px; height:48px; background:center/contain no-repeat; }
 .pwc-ev-text { font:400 36px/50px var(--font-body); }
-.pwc-ev-w { font:500 32px/50px var(--font-mono); font-variant-numeric:tabular-nums; color:var(--ink-muted); }
-.pwc-ev-bar { grid-column:2 / 4; height:12px; background:var(--line); border-radius:2px; overflow:hidden; }
-.pwc-ev-bar b { display:block; height:100%; background:var(--navy); }
-.pwc-ev--top .pwc-ev-bar b { background:var(--gold); }
-.pwc-panel .pwc-ev-w { color:var(--paper-72); }
-.pwc-panel .pwc-ev-bar { background:var(--paper-35); }
-.pwc-panel .pwc-ev-bar b { background:var(--paper); }
-.pwc-panel .pwc-ev--top .pwc-ev-bar b { background:var(--gold-light); }
+/* The lead data point: a 6px gold edge and the text in 600. No weights, no bars: evidence is listed in plain words. */
+.pwc-ev--top { border-left:6px solid var(--gold); padding-left:18px; margin-left:-24px; }
+.pwc-ev--top .pwc-ev-text { font-weight:600; }
+.pwc-panel .pwc-ev--top { border-left-color:var(--gold-light); }
 
 /* Layer icons (transaction, customer, market and the rest), paper on navy and navy on paper/white. */
 .pwc-ico { display:inline-block; width:64px; height:64px; background:center/contain no-repeat; vertical-align:middle; }
