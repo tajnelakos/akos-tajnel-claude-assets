@@ -143,7 +143,7 @@ So the product and marketing site read as one brand, not two:
 - **Forms:** labels above fields, not placeholder-only. Error state uses Status — critical with a text explanation, never color alone.
 - **Cards:** hairline border (`#E1E0D9`-equivalent) over drop shadows — shadows read as decorative, not this brand's register. Flat, bordered panels over "floating" elevated cards.
 - **Icons:** see Image and Icon Style below — the same line-weight rule applies inside the product UI, not just marketing.
-- **Moments always carry their evidence.** Wherever the product shows a moment, the data points behind it are visible with it, in plain words, not behind a click — the brand promise in UI form. See `MomentCard` in [`components.md`](../design-system/components.md).
+- **Moments always carry their evidence.** Wherever the product shows a moment, the data points behind it are visible with it, in plain words and without weights or percentages, not behind a click — the brand promise in UI form. See `MomentCard` in [`components.md`](../design-system/components.md).
 
 ### Spacing, radius, and lines
 
@@ -205,7 +205,7 @@ One motif per surface, anchored to an edge and allowed to bleed off it, never be
 ### Image and icon style
 
 - **No stock photography.** Especially no generic finance-stock clichés (handshakes, skyline photos, people pointing at monitors). This audience recognizes stock photography instantly and it reads as substance-free.
-- **Prefer real product surfaces and data visualization** — an actual (or realistic mock) evidence-trail screenshot, a real moment-ranking view — over any illustration standing in for the product.
+- **Prefer real product surfaces and data visualization** — an actual (or realistic mock) evidence-trail screenshot, a real backtest chart — over any illustration standing in for the product.
 - **Where illustration is needed** (e.g. a concept with no literal screenshot, like "data residency"), use abstract geometric illustration consistent with the logomark's style — flat shapes, no gradients, no 3D renders, no isometric-office-life scenes.
 - **Icon style:** line icons only, 1.5–2px stroke weight, no fills, consistent corner radius. No skeuomorphic, glossy, or 3D icon sets. This matches the logomark's own construction (a stroked ridgeline on a baseline plus one solid gold summit point) — the icon system and the logo should look like they were drawn by the same hand. A starter set of 16 icons drawn to this rule (1.75px on a 24px grid) lives in [`../design-system/`](../design-system) as `icon-*.svg`: moment, evidence-trail, customer, transaction, savings, market, coverage-map, bank, agent, compliance, crm-sync, data-residency, check, alert, arrow-right, search.
 - **Mock-ups:** realistic but clearly illustrative data. Customers appear by ID, never by a real name or address.
@@ -235,7 +235,7 @@ Full system: [`../linkedin-carousels/`](../linkedin-carousels) (formats, slide C
 - **Canvas:** 1080 × 1350 px (4:5), 96px safe margin, 4–8 slides (cover, 2–6 middle slides, one close). Minimum type on the canvas is 28px.
 - **Grounds:** flat Navy for covers, statements, and closes; flat Paper for proof slides with screenshots, tables, and charts. No gradients or glows.
 - **Furniture:** lockup on the cover and the close, the mark bottom-right on every other slide, a swipe arrow on every slide but the last, a mono eyebrow and a slide counter on middle slides. One dot-map motif at most per slide: the ridge-lines cut on covers, the ridge strip or layer stack on data and explainer slides.
-- **Story shape:** question → tension → method → proof → action. One gold element per slide: up to three highlighted words in `#D9A54B` on Navy, or a motif's gold point, or the top weight in an evidence trail.
+- **Story shape:** question → tension → method → proof → action. One gold element per slide: up to three highlighted words in `#D9A54B` on Navy, or a motif's gold point, or the lead row's edge in an evidence trail.
 - **Formats:** moment explainer, myth vs method, proof in numbers, feature launch, regulation brief, event invite, field guide, plus a slide kit for mixing them.
 - **Caption:** 50–110 words in four blocks — hook, what changes (as a benefit), proof or detail, one CTA with one link. No hashtags; at most one emoji, never on slides.
 

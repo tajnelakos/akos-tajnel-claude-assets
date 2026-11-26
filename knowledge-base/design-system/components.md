@@ -92,11 +92,11 @@ One figure with what it measures and where it comes from.
 
 The signature product surface: one moment, the customer it points at, and the evidence trail behind it.
 
-**You provide:** the segment and customer (by ID in demos), the moment in plain words ("Money starting to leave", "Salary landing at another bank", "Ready for a mortgage conversation"), the timing and strength, the top data points with their weights and which layer each comes from (transaction, customer, market), the actions, and the model version and timestamp.
+**You provide:** the segment and customer (by ID in demos), the moment in plain words ("Money starting to leave", "Salary landing at another bank", "Ready for a mortgage conversation"), the timing and strength, the top data points in plain words and which layer each comes from (transaction, customer, market), the actions, and the model version and timestamp.
 
 **Rules**
 - The evidence is always visible with the moment, never behind a click. This is the brand promise in UI form: opportunities you can act on, and explain.
-- Each data point is labelled with its layer in mono. The lead data point gets the one gold element (a gold edge); the other rows stay ink. Evidence rows list the data points in plain words. Don't show weights or percentages.
+- Each data point is labelled with its layer in mono. Evidence rows list the data points in plain words. Don't show weights or percentages. The first data point is the one gold element (a gold edge); the others have no marker.
 - Show limits next to the moment (a warning badge or Alert for thin evidence), not in a footnote.
 - Model version and timestamp in mono on every card: they make the moment reproducible for the audit log.
 

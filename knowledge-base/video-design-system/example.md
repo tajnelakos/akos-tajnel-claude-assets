@@ -23,7 +23,7 @@ moment enough to act on it, so not a Walkthrough; one persona and one situation,
 | 5.0–10.0 s  | Tension   | By the time anyone notices, **it's gone.**        | Wipe to Paper; Timeline: First transfer out 2026-06-02 → Today → Balance moved elsewhere (marked) | Situation |
 | 10.0–16.0 s | Layers    | Three layers. **One customer.**                   | LayerStack: transactions, customer, market chips → node "Money starting to leave" | Situation |
 | 16.0–21.5 s | Moment    | One moment, ranked **third.**                     | MomentCard: Money starting to leave · 40-1187 · rank counts to 3 / 212 · two evidence rows | Moment |
-| 21.5–31.0 s | Evidence  | Here's why it ranks third.                        | EvidenceTrail, 4 rows in plain words; FocusMarks on the lead row, rest dims; gold edge on the lead row; lead "The new transfer comes first." | Evidence |
+| 21.5–31.0 s | Evidence  | Here's why it ranks third.                        | EvidenceTrail, 4 rows in plain words; FocusMarks on the lead row, rest dims; gold edge on the lead; lead line "The new transfer comes first." | Evidence |
 | 31.0–37.0 s | Action    | On the banker's list. **With the reasons.**       | CRM queue panel; synced row in focus; log line types: crm.synced …        | Action    |
 | 37.0–42.0 s | Proof     | (figure)                                          | Wipe to Navy; 68% counts up; measure; source: backtest, demo bank's 2025 data (n = 1,940). Illustrative. | — |
 | 42.0–48.0 s | EndCard   | Opportunities you can act on — and explain.       | Reversed lockup, line, action "Run a backtest on your own data"; 3 s hold  | —         |
@@ -58,7 +58,7 @@ assets/Films/story-outflow-dach-16x9.srt · assets/Stills/contact-sheet-story.jp
   repeat the top reason ("a new transfer of EUR 400 a month").
 - One gold per frame ✓ — the gold point (title), highlight bars (Paper beats), the gold edge on the lead evidence row with
   no headline highlight (evidence beat), gold-light words only on Navy.
-- Figures ✓ — 68% carries its source and *Illustrative*; evidence rows show data points only, no weights or percentages.
+- Figures ✓ — 68% carries its source and *Illustrative*; evidence rows are plain data points, with no weights or percentages.
 - Captions ✓ — max 2 × 42 characters, none over the first 1.5 s or the last 2 s, never the
   headline word for word; inverted to a Paper band on Navy frames.
 - No names ✓ — customer 40-1187, *the banker*, demo bank Alpenkreis Bank.

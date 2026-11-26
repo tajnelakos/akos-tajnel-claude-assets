@@ -15,7 +15,7 @@ Launches a capability: a "New in …" cover, the problem it solves, one or two s
 **Build rules**
 - Cover: lockup top-left, `ridge-lines` motif top-right, `title-cover` "New in [feature]" plus one `body-lead` line, anchored 240px from the bottom. Arrow at the margin.
 - Problem: navy, eyebrow "The problem", `title-statement` with up to 3 words in `gold-light`.
-- Screenshots: paper slides. Eyebrow = the feature name; `heading` = the benefit; frame at the margins from y 392px, 690–760px tall, so the footer row stays clear. One gold element per slide: either a reason rule (6px gold left border on the new element) or the top weight bar, never both. Use skeleton bars for anything that isn't the point.
+- Screenshots: paper slides. Eyebrow = the feature name; `heading` = the benefit; frame at the margins from y 392px, 690–760px tall, so the footer row stays clear. One gold element per slide: either a reason rule (6px gold left border on the new element) or the lead row's edge in an evidence trail, never both. Use skeleton bars for anything that isn't the point.
 - Close: `title-cover` "See a sample moment." (or the right action) plus availability, lockup centred at the bottom.
 
 **Don't**

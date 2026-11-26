@@ -152,12 +152,10 @@
 .pwf-evidence__meta { color:var(--ink-muted); }
 .pwf-evidence__title { color:var(--ink); margin-top:1mm !important; }
 .pwf-evidence__rows { margin-top:var(--space-2); display:flex; flex-direction:column; gap:3mm; }
-.pwf-ev { display:grid; grid-template-columns:4mm 1fr auto; column-gap:2mm; row-gap:1.2mm; align-items:center; }
-.pwf-ev__bar { grid-column:2 / 4; height:1pt; background:var(--line); position:relative; }
-.pwf-ev__bar i { position:absolute; left:0; top:-0.5pt; height:2pt; background:var(--ink); width:var(--w); }
-.pwf-ev:first-child .pwf-ev__bar i { background:var(--accent); } /* the top data point is the strip's one gold mark */
-.pwf-evidence--plain .pwf-ev:first-child .pwf-ev__bar i { background:var(--ink); } /* when the page already has its gold */
-.pwf-ev__w { color:var(--ink); }
+.pwf-ev { display:grid; grid-template-columns:4mm 1fr; column-gap:2mm; align-items:center; }
+.pwf-ev:first-child { border-left:1.2mm solid var(--accent); padding-left:2mm; margin-left:-3.2mm; } /* the lead data point is the strip's one gold mark; no weights or bars */
+.pwf-ev:first-child .label { font-weight:600; }
+.pwf-evidence--plain .pwf-ev:first-child { border-left-color:var(--ink); } /* when the page already has its gold */
 .pwf-evidence .source { margin-top:var(--space-2); color:var(--ink-muted); }
 
 /* ContactBlock: QR on a white tile, one action, then web and email. No pills. */

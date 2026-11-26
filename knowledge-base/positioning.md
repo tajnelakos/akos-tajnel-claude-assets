@@ -30,14 +30,14 @@ One primary message, three pillars that support it, each with its own proof poin
 | Pillar | Claim | Proof point |
 |---|---|---|
 | Growth from customers you already have | Moments come from your own transaction, customer and AI-agent data plus market data: salaries landing elsewhere, savings starting to leave, mortgages, car loans, families growing | Every moment links to a named customer record in your CRM — see [`competitive-landscape.md`](./competitive-landscape.md)'s capability comparison |
-| Bankers act on it | Every moment shows the specific transaction, customer and market data points behind it, and how much each counted, so bankers know why they're calling | Inspectable evidence trail per moment, not a single score — available to technical evaluators on request, see the [Data & CRM Lead persona](./personas.md#data--crm-lead-technical-evaluator) |
+| Bankers act on it | Every moment shows the specific transaction, customer and market data points behind it, in plain words, so bankers know why they're calling | Inspectable evidence trail per moment, not a single score — available to technical evaluators on request, see the [Data & CRM Lead persona](./personas.md#data--crm-lead-technical-evaluator) |
 | Approved once, not campaign by campaign | The same evidence, the method and the consent handling go to risk and data protection as a ready review pack, so the buyer never has to make the risk case alone | Purpose limits on transaction data, consent rules and the audit log were designed around banking compliance from inception, not added later |
 
 ## Points of view that ladder to this
 
 1. **"A lead you can't explain is a lead nobody calls."** An opportunity only turns into business if the banker believes it and the decision to make the offer survives review later. A list that's twice as long but comes without reasons gets ignored, then paused.
 2. **"Your bank may be a customer's second bank, and you'd be the last to know."** Account ownership isn't the relationship. Where the salary lands, which card pays for groceries and where the savings go decide it — and all of that is already in the transaction data.
-3. **"Explainability" needs a definition or it's marketing, not a capability.** Seekridge defines it concretely: the named data points behind each moment, how much each counted, and a reproducible record of what the moment said and what was done with it — not a general claim.
+3. **"Explainability" needs a definition or it's marketing, not a capability.** Seekridge defines it concretely: the named data points behind each moment and a reproducible record of what the moment said and what was done with it — not a general claim.
 
 ## Differentiators, with proof points
 
