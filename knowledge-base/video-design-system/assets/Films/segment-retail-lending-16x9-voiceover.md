@@ -17,13 +17,13 @@ The script for [`segment-retail-lending-16x9.mp4`](./segment-retail-lending-16x9
 | 7 | Renovating (36.1–42.1 s) | 36.5 s | 3.2 s | Another is renovating. Time to offer a green loan. | Short and light |
 | 8 | Money starting to leave (42.1–48.1 s) | 42.5 s | 4.0 s | And this one is moving savings out. Call before the balance shows it. | Small beat after "out" |
 | 9 | Your week (48.1–53.6 s) | 48.5 s | 3.8 s | Every Monday, the week's moments arrive ranked, in your CRM. | Brief pause after "Monday" |
-| 10 | Brand close (53.6–60.2 s) | 55.2 s | 2.2 s | Seekridge. Be first to their next plan. | Beat after "Seekridge." Land softly on "next plan". No caption: the slogan is on screen. Nothing after 58.2 s |
+| 10 | Brand close (53.6–60.2 s) | 55.0 s | 4.0 s | Seekridge. … Be first to their next plan. | Say "Seekridge." on its own, then about a 1 s pause before the slogan. Land softly on "next plan". No caption: the slogan is on screen. Nothing after 59.2 s |
 
 **Totals:** 134 words in about 44 s of speech, over a 60.2 s film, with the rest left as pauses.
 
 **If a line runs long.** Don't speed it up. Send the WAVs: the scene is lengthened to fit the line (and the caption re-timed), or the line is shortened in both the script and the captions together. Captions must keep matching what is said.
 
 **On screen at the same time (not to be read aloud):**
-- **Headlines:** *Your next deals are hiding in your client base.* · *Your customers have plans. You just can't see them yet.* · *Your data. Our data. One clear moment.* · *Their family is growing. Be their first call.* · *A new car is coming. Offer the car loan.* · *Renovation ahead. Offer the green loan.* · *Their savings are leaving. Call them first.* · *Call the right customers. Before anyone else does.* · *Be first to their next plan.* (slogan, under the logo) · *Run a test on your own client base.* (small action line)
+- **Headlines:** *Your next deals are hiding in your client base.* · *Your customers have plans. You just can't see them yet.* · *Your data. Our data. One clear moment.* · *Their family is growing. Be their first call.* · *A new car is coming. Offer the car loan.* · *Renovation ahead. Offer the green loan.* · *Their savings are leaving. Call them first.* · *Call the right customers. Before anyone else does.* · *Be first to their next plan.* (slogan, under the logo)
 
 The voice-over never reads a headline word for word. The one exception is the slogan on the end card, which the voice says as the brand line.
