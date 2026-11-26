@@ -20,5 +20,5 @@ One reference frame per pattern, taken from the reference films at the busiest m
 | `statement-claim` | StatementStage: claim and turn over the ridge band |
 | `statement-segments` | SegmentTriptych under a title |
 | `statement-figure` | FigureCard in a Statement |
-| `segment-open` · `segment-customers-ridgefield` · `segment-layers` · `segment-moment-ready` · `segment-moment-family` · `segment-moment-car` · `segment-week-ranked` · `segment-endcard` | The short segment cut: open, customers' plans rising, the layers, three moments with their evidence (mortgage-ready → mortgage offer, family growing → a bigger home, car purchase goal → car loan before the dealer), the ranked CRM queue, the closing claim |
+| `segment-open` · `segment-customers-ridgefield` · `segment-layers` · `segment-moment-family` · `segment-moment-car` · `segment-moment-renovating` · `segment-moment-outflow` · `segment-week-ranked` · `segment-endcard` | The short segment cut: open, customers' plans rising, the layers, four moments with their evidence (growing family → mortgage, buying a car → car loan, renovating → green loan, money starting to leave → savings offer), the ranked CRM queue, the closing claim |
 | `contact-sheet-*` | Each film's check sheet |

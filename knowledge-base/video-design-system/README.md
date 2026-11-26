@@ -286,7 +286,7 @@ The market is chosen per film and sets language, number format, currency, voice 
 - **All brands and customers are fictional** and labelled *Demo* in the panel header. No real customer, bank or address ever appears, not even a street name.
 - **Customers are IDs.** In the voice-over: *this customer*, *one customer*, *a saver*. Never a first name, never an age, never a photo.
 - **Bankers** are roles (*your banker*, *the Hamburg branch team*), never people.
-- **Moment names** are the product's own (section 11): Salary landing elsewhere, Salary just switched in, Money starting to leave, Balance drifting down, Card going quiet, Income rising, Investing elsewhere, Mortgage-ready, Car purchase goal, Family growing, New customer not yet active.
+- **Moment names** are the product's own (section 11): Salary landing elsewhere, Salary just switched in, Money starting to leave, Balance drifting down, Card going quiet, Income rising, Investing elsewhere, Mortgage-ready, Car purchase goal, Family growing, Renovating, New customer not yet active.
 
 ---
 
@@ -369,6 +369,7 @@ A 30-second cut drops the layers beat and shortens the evidence to two rows.
 | Growth | Income up, savings building, questions to the AI agent about borrowing | Mortgage-ready | Income trend · savings towards a deposit · AI-agent questions · rate change | Mortgage advisor call |
 | Growth | Savings pot growing towards a round target, questions to the AI agent about car financing | Car purchase goal | Savings towards a target · car loan elsewhere ending · AI-agent questions | Car loan offer before the dealer's finance |
 | Growth | Child benefit arriving, new children's spend, the customer mentions parental leave to the AI agent | Family growing | Child benefit in · childcare fees · children's spend · AI-agent questions | One ranked next step: mortgage for a bigger home, car loan or renovation loan |
+| Growth | Builder and DIY payments, money set aside in savings, energy prices rising | Renovating | Builder payments · savings set aside · energy prices | Green loan or renovation loan, timed to the work |
 | New customer | Account opened six weeks ago, salary not switched | New customer not yet active | No salary in · card unused · no bills set up | Onboarding call from the branch |
 
 Moments are always shown as the result of named data, and the voice-over leads with the customer's situation, never the detection method.
@@ -436,7 +437,7 @@ The Seekridge web app, screen by screen, and what each gives a film. The screens
 
 ## 13. Still open
 
-1. **Approved voices.** Choose and record the one synthetic voice per language (EN-GB, DE, NL, SV) and its licence, so every film uses the same voice. The final English voice will come from ElevenLabs. Until then, the reference films ship silent with captions; the earlier Kokoro draft voice on `segment-retail-lending-16x9` was removed when the film moved to transaction, savings and AI-agent data, and is re-recorded from the updated script.
+1. **Approved voices.** Choose and record the one synthetic voice per language (EN-GB, DE, NL, SV) and its licence, so every film uses the same voice. The final English voice will come from ElevenLabs. Until then, `segment-retail-lending-16x9` carries a draft voice made offline with Kokoro (voice *bf_emma*), and the other reference films ship silent with captions.
 2. **Music.** No bed is cleared yet. Films ship voice-only (or silent) until one is licensed for commercial use.
 3. **Logo files.** The wordmark is live text in the SVGs; films embed Archivo so it renders, but outlined logo files are the next step (see [`../branding-guideline/README.md`](../branding-guideline/README.md)).
 4. **Localised references.** Only the UK English master of the reference films exists. A German cut of `story-outflow-dach` is the next one to build, to test the re-timing rule.
