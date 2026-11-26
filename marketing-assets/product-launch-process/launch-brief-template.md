@@ -1,63 +1,59 @@
 # Launch brief template
 
-Fill this in before any launch plan or asset is made, for every product update that will be communicated — from a small feature to a new product. The [launch-plan skill](./skill.md) starts from it, and the [Outflow Watch go-to-market plan](./go-to-market-outflow-watch.md#the-launch-brief) shows it filled in.
+One page, written before any launch plan or asset, for every change a customer or a prospect will hear about. The [launch-plan skill](./skill.md) starts from it, and the [Outflow Watch go-to-market plan](./go-to-market-outflow-watch.md#the-launch-brief) shows it filled in.
 
-- **Who fills it in:** product marketing, with the product manager in charge and any internal expert needed.
-- **Who signs it off:** the CPO, CMO and CSO. Each can delegate, but only if they decide to.
-- **Prioritise inside every list.** Segments, markets, pain points, benefits, features and differentiators are written in order of importance, most important first. A list without an order can't decide what goes on the first slide.
+The brief answers seven questions in order. If a question can't be answered yet, write **open** and who will answer it. A brief with open answers can still be shared; a plan built on guesses can't.
 
-## Sign-off
+## 1. What changes, for whom
 
-| CPO | CMO | CSO |
+- **In one sentence:** what a customer can do after this that they couldn't before.
+- **Who notices first:** the persona whose day changes (from [`personas.md`](../../knowledge-base/personas.md)).
+- **Existing customers:** does anything change for people already using Seekridge? If yes, customer success and support hear about it before customers do.
+
+## 2. Launch size
+
+Pick one. The size decides the launch kit in section 7, so a small improvement doesn't get a press release and a new product doesn't stop at a release note.
+
+| Size | Pick it when | Example |
 |---|---|---|
-| Yes / no | Yes / no | Yes / no |
+| **Note** | An improvement to something customers already have | A new filter in the moments queue |
+| **Spotlight** | A new capability inside an existing product, or a new moment type | The family-growing moment |
+| **Launch** | A new product, or anything that brings in a new buyer or a new price | Outflow Watch |
 
-## Announcement
+## 3. Who it's for
 
-| Field | Options | Notes |
-|---|---|---|
-| **Announcement category** | Feature / Module / Product / Suite | |
-| **Importance level** | Low / Medium / High / Maximum | Sets the channels (see the table below) |
-| **Announcement channels** | LinkedIn posts · Blog article · Press release · Web page · Spotlight on an existing page · Advertising · Internal Slack · Confluence page · Slide deck page · Newsletter · Dedicated mailing · Sales and CSM campaign · Event · Print material | Tick the ones that apply |
-| **Official naming** | | Literal and in sentence case, per [`writing.md`](../../knowledge-base/design-system/writing.md) |
-| **Target segments, in priority order** | Retail banks · Savings banks · Cooperative banks · Credit unions and small cooperative banks (web app) | |
-| **Communication markets, in priority order** | DACH (Germany, Austria, Switzerland) · Benelux · Nordics | Each market needs a READY demo before it's claimed |
-| **Key internal stakeholders** | Names | Product, sales, CSM, risk and data protection leads |
+- **Buyer:** Head of Retail Banking, Head of Deposits & Savings, or both.
+- **Segments, best fit first:** retail banks · savings banks · cooperative banks · credit unions and small cooperative banks (web app).
+- **Markets, best fit first:** DACH · Benelux · Nordics. A market only goes on the list if a demo there is rated READY.
 
-## Product
+## 4. The story
 
-| Field | Options | Notes |
-|---|---|---|
-| **Type of product** | Data / API / Software feature / Module / Solution | |
-| **Available via** | CRM integration · API · Seekridge web app | |
-| **Go-live date (expected)** | | |
-| **Type of go-live** | Restricted / Beta / Full launch | |
-| **Impact on existing users** | Yes / No | If yes, CSMs and support are told before customers are |
+- **Before:** how the buyer handles this today, in their own words.
+- **After:** what changes for them, and the one number that would prove it.
+- **Proof we can show:** the demo, backtest or customer result that backs the story up.
+- **The objection we'll hear first,** and the answer.
+- **Against the competition:** the one competitor most likely to come up ([`competitive-landscape.md`](../../knowledge-base/competitive-landscape.md)), and why we're different on this point.
 
-## Product pitch
+## 5. Name and words
 
-| Field | Notes |
-|---|---|
-| **Problem statement: pain points, in priority order** | In the buyer's words, from [`personas.md`](../../knowledge-base/personas.md) |
-| **Description of our solution** | Two or three sentences, no feature list |
-| **Main benefits, in priority order** | What changes for the bank, not what the product does |
-| **Key features, in priority order** | Each one demoable |
-| **Main differentiators, in priority order** | Against the named competitors in [`competitive-landscape.md`](../../knowledge-base/competitive-landscape.md) |
+- **Name:** literal and in sentence case, per [`writing.md`](../../knowledge-base/design-system/writing.md). Moments are named in the customer's words ("Money starting to leave").
+- **Words to use and words to avoid,** if this launch needs any beyond the [brand guideline](../../knowledge-base/branding-guideline/brand-guidelines.md).
 
-## Business model
+## 6. Commercials and timing
 
-| Field | Options | Notes |
-|---|---|---|
-| **Business model** | Free / Premium add-on / In a package / Stand-alone subscription | |
-| **Pricing** | | Platform price by retail customers analysed; seats for the web app (Base, Ridge, Summit) |
+- **How it's sold:** included for everyone · paid add-on · new subscription · inside a web-app tier (Base, Ridge, Summit).
+- **Price:** open until the pricing owner sets it.
+- **Rollout:** pilot with named customers → early access → available to everyone, with a target month for each step.
+- **Available through:** CRM integration · API · Seekridge web app.
 
-## Importance level → channels
+## 7. Launch kit and decision
 
-The importance level is what stops a small feature getting a press release, and a new product getting a Slack message. Start from this default and adjust in the notes.
+The size from section 2 sets the default kit. Add or remove items in a note, with the reason.
 
-| Importance | Typical announcement | Default channels |
-|---|---|---|
-| **Low** | A feature improvement | Internal Slack · Confluence page · Newsletter mention |
-| **Medium** | A new feature or module | Low, plus: LinkedIn post · Spotlight on an existing page · Slide deck page · Sales and CSM campaign |
-| **High** | A new product, or a module that opens a new segment | Medium, plus: Blog article · Web page · Dedicated mailing · Advertising |
-| **Maximum** | A new suite or a company-level launch | High, plus: Press release · Event · Print material |
+| Size | Internal | Customers | Market |
+|---|---|---|---|
+| **Note** | Release note, internal update | Product changelog, in-app note | — |
+| **Spotlight** | Plus: sales and customer-success briefing, a deck slide | Plus: customer email | LinkedIn post, a feature section on the website |
+| **Launch** | Plus: enablement session, battlecard update | Plus: dedicated campaign | Plus: launch page, blog post, paid promotion, event; a press release once a customer agrees to be named |
+
+**Decision:** one person decides that the brief is ready (usually the product lead); sales and marketing leads agree; customer success and support are informed. Write the names and the date of the decision at the bottom of the brief.

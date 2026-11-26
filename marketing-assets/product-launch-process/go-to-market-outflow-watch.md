@@ -8,50 +8,38 @@ Seekridge and every bank named here are fictional. Targets are plan targets, not
 
 ## The launch brief
 
-Filled in from the [launch brief template](./launch-brief-template.md) before the plan below was made. Sign-off is pending: the brief is a draft until the CPO, CMO and CSO (or the people they delegate to) each say yes.
+Filled in from the [launch brief template](./launch-brief-template.md) before the plan below was made. It stays a draft until the product lead decides it is ready.
 
-| CPO | CMO | CSO |
-|---|---|---|
-| Pending | Pending | Pending |
+**1. What changes, for whom**
+- **In one sentence:** a bank's savings team sees which customers are starting to move money to another provider, with the reason, weeks before the balance falls.
+- **Who notices first:** the Head of Deposits & Savings and their savings team.
+- **Existing customers:** yes. A new moment family arrives in the same CRM queue; no new integration. Customer success briefs current customers before the announcement.
 
-**Announcement**
+**2. Launch size:** Launch — a new product that brings in a second buyer.
 
-| Field | Outflow Watch |
-|---|---|
-| Announcement category | Product |
-| Importance level | High — a new product that opens a second buyer (Head of Deposits & Savings) |
-| Channels | LinkedIn posts · Blog article · Web page · Dedicated mailing · Advertising · Sales and CSM campaign · Event · Print material · Internal Slack · Confluence page · Slide deck page. Press release only at the pilot's end, once a customer agrees to be named |
-| Official naming | Seekridge Outflow Watch; moments *Money starting to leave*, *Balance drifting down*, *Card going quiet* |
-| Target segments | 1. Regional retail banks and savings banks · 2. Mutual and cooperative banks with a large saver base · 3. Credit unions on the web app (Ridge and Summit tiers) |
-| Communication markets | 1. DACH · 2. Benelux · 3. Nordics |
-| Key internal stakeholders | Product manager for moments · Head of Sales DACH · CSM lead · Data protection officer · Risk and compliance lead (names to fill in) |
+**3. Who it's for**
+- **Buyer:** Head of Deposits & Savings (Head of Retail Banking where one person owns both).
+- **Segments, best fit first:** regional retail banks and savings banks · mutual and cooperative banks with a large saver base · credit unions on the web app (Ridge and Summit).
+- **Markets, best fit first:** DACH · Benelux · Nordics.
 
-**Product**
+**4. The story**
+- **Before:** "We see the money leave when the balance is already gone, and raising the rate for everyone is ruinous."
+- **After:** the savings team calls the customers whose money has started to move, with the reason in front of them. Proof number: share of last year's outflows flagged before the balance fell.
+- **Proof we can show:** backtest on the customer's own 2025 data; the first pilot bank's results once it agrees to be named.
+- **First objection:** "We already have a churn model." Answer: put the two side by side on last year's outflows and compare how early each flagged them.
+- **Against the competition:** NexaScore scores customers without saying why; every Outflow Watch moment shows the transactions behind it.
 
-| Field | Outflow Watch |
-|---|---|
-| Type of product | Module |
-| Available via | CRM integration · API · Seekridge web app |
-| Go-live date (expected) | After the eight-week pilot (date to fill in) |
-| Type of go-live | Restricted (two pilot customers) → full launch |
-| Impact on existing users | Yes: a new moment family in the same CRM queue, no new integration |
+**5. Name and words:** Seekridge Outflow Watch. Moments: *Money starting to leave*, *Balance drifting down*, *Card going quiet*. Avoid "churn score" and "primacy".
 
-**Product pitch**
+**6. Commercials and timing**
+- **How it's sold:** paid add-on for platform customers · new subscription for new logos · inside Ridge and Summit for credit unions.
+- **Price:** open (pricing owner).
+- **Rollout:** pilot with two banks → early access → available to everyone; target months open.
+- **Available through:** CRM integration · API · Seekridge web app.
 
-| Field | Outflow Watch |
-|---|---|
-| Pain points | 1. Money leaves in small monthly amounts and is noticed when the balance is gone · 2. The churn model flags customers too late to act · 3. Raising the savings rate for everyone is expensive |
-| Our solution | Outflow moments show which customers are starting to move money to another provider, with the transaction evidence behind each one, sent to the savings team and the bankers who own the relationship. |
-| Main benefits | 1. Keep the savings customers already have · 2. Call weeks before the balance falls · 3. Spend retention offers only where money is moving |
-| Key features | 1. Outflow moments from the bank's own transactions · 2. Weighed against what other banks pay on savings · 3. Evidence trail on every moment · 4. Audit log and review pack for risk and data protection |
-| Main differentiators | 1. Earlier than a churn model: the first transfer, not the closed account · 2. Every moment explained, unlike NexaScore's scores · 3. Ranked and logged, unlike Ledgerline's Flow Alerts beta |
-
-**Business model**
-
-| Field | Outflow Watch |
-|---|---|
-| Business model | Premium add-on for platform customers · Stand-alone subscription for new logos · In a package (Ridge and Summit) for credit unions |
-| Pricing | By the number of savers analysed (price points to fill in) |
+**7. Launch kit and decision**
+- **Kit:** the Launch kit, minus the press release until a pilot customer agrees to be named.
+- **Decision:** product lead (open) decides; heads of sales and marketing agree; customer success and support informed. Date: open.
 
 ## Market and why now
 
@@ -154,4 +142,4 @@ What comes back feeds the next round of shaping the product: moment types banker
 
 ---
 
-**Open gaps for the user:** brief sign-off by the CPO, CMO and CSO; internal stakeholder names; pilot start dates; price points for the add-on and the stand-alone product; which CRM partner to approach; KPI baselines once the pilot runs.
+**Open gaps for the user:** who decides the brief is ready, and when; price; pilot start dates; price points for the add-on and the stand-alone product; which CRM partner to approach; KPI baselines once the pilot runs.
