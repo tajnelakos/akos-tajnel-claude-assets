@@ -8,7 +8,6 @@ The voice rules are in [`../branding-guideline/skill.md`](../branding-guideline/
 |---|---|---|
 | Eyebrow | 2–5 words, names the reader | For mortgage lenders |
 | Claim (trifold front) | Up to 12 words, one idea per line | Know which customers to call this month. And why. |
-| Statement (postcard front) | Up to 8 words | The moment you can explain. |
 | Supporting line | One sentence, up to 25 words | Seekridge shows which of your existing customers to talk to next, and why. |
 | Problem | Two short paragraphs in the reader's world | Fixed rates end, salaries start landing at another bank and a local lender cuts its two-year rate… |
 | Pillars | Title as the claim, body as its proof | Advisors act on it · Every moment shows the data points behind it… |

@@ -16,7 +16,7 @@
   font-family:var(--font-body); -webkit-print-color-adjust:exact; print-color-adjust:exact; text-rendering:geometricPrecision; }
 .pwf-sheet *, .pwf-sheet *::before, .pwf-sheet *::after { box-sizing:border-box; }
 .pwf-a4l { width:297mm; height:210mm; }       /* A4 landscape: trifold spreads */
-.pwf-a5l { width:210mm; height:148mm; }       /* A5 landscape: postcards and recto flyers */
+.pwf-a5l { width:210mm; height:148mm; }       /* A5 landscape: recto flyers */
 .pwf-a4p { width:210mm; height:297mm; }       /* A4 portrait: one-pager leave-behind */
 .pwf-trifold { display:flex; }
 .pwf-fold { position:relative; flex:none; width:var(--fold-panel); height:100%; padding:var(--space-4); display:flex; flex-direction:column; overflow:hidden; }
