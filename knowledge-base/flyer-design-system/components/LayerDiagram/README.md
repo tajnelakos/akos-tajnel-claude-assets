@@ -4,9 +4,9 @@ The flyer version of how a moment is built: three square layer chips on the left
 
 **Markup:** `.pwf-layers` › `.pwf-layers__chips` (three `.pwf-chip.label`) · `.pwf-layers__join` · `.pwf-layers__moment`. Works on paper and on navy.
 
-**The consumer provides:** the moment's name in plain words ("Likely to refinance within 6 months").
+**The consumer provides:** the moment's name in plain words ("Money starting to leave").
 
-- Do list the layers in this order: customer data (`.pwf-chip--own`, the client's own data, outlined strong), transaction data, market data.
-- Do use the layer icons only: `customer`, `transaction`, `market`.
+- Do list the layers in this order: transaction data and customer data (both `.pwf-chip--own`, the bank's own data, outlined strong), then market data.
+- Do use the layer icons only: `transaction`, `customer`, `market`.
 - Don't add a fourth layer, arrows, glows or a chip per data point; the evidence belongs in `EvidenceStrip`.
 - The moment box's gold square is the panel's one gold mark.

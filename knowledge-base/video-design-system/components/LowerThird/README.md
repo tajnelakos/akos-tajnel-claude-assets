@@ -6,7 +6,7 @@ Names who or what is on screen when the picture can't: a role, a team, a data so
 
 **Motion.** Fades in with the beat's first change, holds at least 3 s, fades out with the beat. No slide, no wipe.
 
-**Copy.** Label: *Retention team, Hamburg branch*, *Transaction data*, *Head of Retail Banking view*. Qualifier: *Demo · Alpenkreis Bank*, *Updated 2026-11-24*.
+**Copy.** Label: *Savings team, Hamburg branch*, *Transaction data*, *Head of Model Risk view*. Qualifier: *Demo · Alpenkreis Bank*, *Updated 2026-11-24*.
 
 **Provide.** The label and the qualifier.
 

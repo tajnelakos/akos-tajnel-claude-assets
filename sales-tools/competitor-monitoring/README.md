@@ -2,7 +2,7 @@
 
 ## The problem
 
-Competitive intel usually shows up as noise: a pricing page change someone notices by accident, a G2 review a sales rep forwards, a changelog nobody reads end to end. Without a system, it either doesn't get synthesized at all, or it eats an afternoon every time someone asks "what's Ledgerlight doing lately?"
+Competitive intel usually shows up as noise: a pricing page change someone notices by accident, a G2 review a sales rep forwards, a changelog nobody reads end to end. Without a system, it either doesn't get synthesized at all, or it eats an afternoon every time someone asks "what's Ledgerline doing lately?"
 
 ## The approach
 

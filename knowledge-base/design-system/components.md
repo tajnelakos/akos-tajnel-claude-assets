@@ -92,7 +92,7 @@ One figure with what it measures and where it comes from.
 
 The signature product surface: one moment, the customer it points at, and the evidence trail behind it.
 
-**You provide:** the segment and customer (by ID in demos), the moment in plain words ("Likely to refinance elsewhere", "Salary moving to another bank", "Premiums paid to another insurer"), the timing and strength, the top data points with their weights and which layer each comes from (transaction, customer, market), the actions, and the model version and timestamp.
+**You provide:** the segment and customer (by ID in demos), the moment in plain words ("Money starting to leave", "Salary landing at another bank", "Ready for a mortgage conversation"), the timing and strength, the top data points with their weights and which layer each comes from (transaction, customer, market), the actions, and the model version and timestamp.
 
 **Rules**
 - The evidence is always visible with the moment, never behind a click. This is the brand promise in UI form: opportunities you can act on, and explain.
@@ -102,14 +102,14 @@ The signature product surface: one moment, the customer it points at, and the ev
 
 ## PricingTier
 
-The three tiers for smaller banks, Base, Ridge and Summit, side by side.
+The three web-app tiers for credit unions and small banks, Base, Ridge and Summit, side by side.
 
 **You provide:** the tier name (only these three), who it's for and the billing basis in mono, 2–5 included items as literal feature names, and one action.
 
 **Rules**
-- Tier names are used only for pricing at smaller banks, never as a general naming device.
+- Tier names are used only for web-app pricing, never as a general naming device.
 - The recommended tier gets a 2px navy border, not a "Most popular" ribbon or a colour fill.
-- Regional and national banks pay a platform subscription priced by the number of customers analysed; it isn't shown as tiers.
+- Banks on the platform pay a subscription priced by the number of retail customers analysed; it isn't shown as tiers.
 
 ## CarouselSlide
 

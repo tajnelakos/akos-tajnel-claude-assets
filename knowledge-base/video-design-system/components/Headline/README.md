@@ -12,7 +12,7 @@ The headline that carries every beat. Left-aligned at the margin, mono eyebrow a
 
 **The highlight.** Wrap up to three words in `<mark>`. On Paper they stay ink and a 6px gold bar draws under them as their line lands. On Navy they turn gold-light. One highlight per frame, and none if a gold element is already on screen (the gold point, the top evidence bar).
 
-**Eyebrow.** IBM Plex Mono 500, 22px, +0.08em, uppercase in CSS, with a 48px 2px rule before it. It names the chapter or step: `EVIDENCE`, `STEP 2 / 5`, `MORTGAGE LENDING · DACH`.
+**Eyebrow.** IBM Plex Mono 500, 22px, +0.08em, uppercase in CSS, with a 48px 2px rule before it. It names the chapter or step: `EVIDENCE`, `STEP 2 / 5`, `DEPOSITS & SAVINGS · DACH`.
 
 **Lead.** One line of Plex Sans 36px in `ink-muted`, under the headline. Optional; never repeats the headline.
 

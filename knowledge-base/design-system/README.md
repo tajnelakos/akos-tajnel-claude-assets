@@ -28,7 +28,7 @@ The same system is published as a Claude design system, so Claude builds Seekrid
 | [`writing.md`](./writing.md) | Full wording rules: golden rules, names and terms, case, numbers and currency, market typography (DACH, Benelux, Nordics), inclusive language, product copy. |
 | [`social-and-carousels.md`](./social-and-carousels.md) | LinkedIn in one page; the full carousel system (formats, slide CSS, assets, wording, captions, skill) is [`../linkedin-carousels/`](../linkedin-carousels). Canvas, grounds, type sizes, logo and swipe furniture, seven carousel formats, story shape, caption anatomy, pre-post check. |
 | [`video-and-motion.md`](./video-and-motion.md) | Video formats and story structure, key frames, captions, motion tokens and easing, sound, production rules: the one-page summary of [`../video-design-system/`](../video-design-system), which holds the full film book, components and reference films. |
-| `icon-*.svg` | 15 line icons (moment, evidence-trail, customer, transaction, savings, market, coverage-map, lender, policy, crm-sync, data-residency, check, alert, arrow-right, search): 24px grid, 1.75px stroke, no fills, navy. |
+| `icon-*.svg` | 16 line icons (moment, evidence-trail, customer, transaction, savings, market, coverage-map, bank, agent, compliance, crm-sync, data-residency, check, alert, arrow-right, search): 24px grid, 1.75px stroke, no fills, navy. |
 | `motif-*.svg` | 3 dot-map motifs: `ridge-lines` (covers, title cards), `ridge-strip` (headers), `ridge-frame` (dividers). |
 
 Logos and the palette and logo-usage reference sheets stay in [`branding-guideline/`](../branding-guideline). Print pieces (trifold flyers, one-pagers) have their own system in [`flyer-design-system/`](../flyer-design-system).

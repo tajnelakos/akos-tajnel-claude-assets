@@ -6,10 +6,10 @@ The caption carries what the slides leave out: the detail, the method, the logis
 
 | Block | Job | Patterns that work |
 |---|---|---|
-| **1. Hook** (1–2 lines) | Stop the scroll with a situation or a fact the reader recognises. It must not repeat the cover word for word | Situation: "Most of your fixed-rate customers will decide where to refinance months before they call you." · Fact with source: "In a backtest on one lender's 2025 book, 68% of the customers we flagged refinanced within six months." · Rule: "The EU AI Act classes credit scoring as high-risk AI." |
+| **1. Hook** (1–2 lines) | Stop the scroll with a situation or a fact the reader recognises. It must not repeat the cover word for word | Situation: "Most of your customers start moving money out months before their balance shows it." · Fact with source: "In a backtest on one bank's 2025 data, 68% of the customers we flagged moved money out within six months." · Rule: "The EU AI Act classes credit scoring as high-risk AI." |
 | **2. What changes, as a benefit** (2–3 lines) | Name the feature once, then say what the reader can now *do* | "Evidence Trail now opens every moment with a one-line reason, written from the data points behind it, so an advisor can say why before they call." |
-| **3. Proof or detail** (1–2 lines) | The figure with its source, the method, or the logistics | "Moments were built on data up to 1 January 2025; outcomes came from the lender's own CRM six months later." · "Stockholm, 12–13 March, stand B14. Talk on 13 March at 11:30." |
-| **4. CTA + one link** (1 line) | A plain verb, what they get, then the link | "See a sample moment: [link]" · "Ask for a backtest on your own book: [link]" · "Book a slot at the stand: [link]" · "Read the full brief: [link]" |
+| **3. Proof or detail** (1–2 lines) | The figure with its source, the method, or the logistics | "Moments were built on data up to 1 January 2025; outcomes came from the bank's own transactions six months later." · "Stockholm, 12–13 March, stand B14. Talk on 13 March at 11:30." |
+| **4. CTA + one link** (1 line) | A plain verb, what they get, then the link | "See a sample moment: [link]" · "Ask for a backtest on your own data: [link]" · "Book a slot at the stand: [link]" · "Read the full brief: [link]" |
 
 ## Rules
 
@@ -23,7 +23,7 @@ The caption carries what the slides leave out: the detail, the method, the logis
 - **Links:** one per caption, with UTM tags (utm_source=linkedin&utm_medium=social&utm_campaign=…&utm_content=…) or a short link. Never in the first comment as a workaround.
 - **Short paragraphs** separated by an empty line. Lists (session times, checks) one item per line, no bullets or emoji as bullets.
 - **Length:** keep the hook and block 2 inside LinkedIn's first ~210 characters before "…see more", and the whole caption under 1,300 characters.
-- **Language:** UK English with contractions; German *Sie*; Dutch *u*; Nordic *du*. Follow each market's typography („…“ in German, «…» in Swiss German and Norwegian, ”…” in Swedish).
+- **Language:** UK English with contractions; German *Sie*; Dutch *u* for banks, *je* for digital banks; Nordic *du*. Follow each market's typography („…“ in German, «…» in Swiss German and Norwegian, ”…” in Swedish).
 - **No exclamation marks**, except one in a warm, local sign-off on an event post ("Bis bald!").
 
 ## Pairing caption and slides
@@ -37,21 +37,21 @@ The caption carries what the slides leave out: the detail, the method, the logis
 
 **Moment explainer** (82 words)
 
-> Most fixed-rate customers decide where to refinance months before they call their bank.
+> Most customers start moving money out months before their balance shows it.
 >
-> A Seekridge moment shows which customers are likely to move, and why: the rate end date from your CRM, the salary now landing at another bank, and what local lenders are offering. Each data point carries its weight, so an advisor can open the call with the reason.
+> A Seekridge moment shows which customers are starting to move money out, and why: the new monthly transfer, the change in income, and what other banks pay on savings. Each data point carries its weight, so a banker can open the call with the reason.
 >
 > The weights in this carousel are illustrative.
 >
-> See a moment built on your own book: [link]
+> See a moment built on your own data: [link]
 
 **Proof in numbers** (74 words)
 
-> In a backtest on one lender's 2025 book, 68% of the customers we flagged refinanced within six months. Of those we didn't flag, 9% did.
+> In a backtest on one bank's 2025 data, 68% of the customers we flagged moved money out within six months. Of those we didn't flag, 9% did.
 >
-> Moments were built on data up to 1 January 2025; outcomes came from the lender's own CRM six months later, and the method was documented for their model-risk team.
+> Moments were built on data up to 1 January 2025; outcomes came from the bank's own transactions six months later, and the method was documented for their model-risk team.
 >
-> One lender, one year, one product. Ask for the same backtest on your own book: [link]
+> One bank, one year, one moment type. Ask for the same backtest on your own data: [link]
 
 ## Before you post the caption
 

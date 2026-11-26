@@ -1,35 +1,35 @@
 # Call Transcript — Meridian Savings
 
 **Date:** July 2026 · **Duration:** ~20 minutes · **Call type:** Second call, post-demo
-**Rep:** Marcus Webb (Seekridge) · **Prospect:** Julia Hoffmann, Head of Mortgage Lending, Meridian Savings (regional bank, DACH)
+**Rep:** Marcus Webb (Seekridge) · **Prospect:** Julia Hoffmann, Head of Retail Banking, Meridian Savings (regional savings bank, DACH)
 
 ---
 
 **Marcus:** Julia, good to see you again. Last time we walked through the platform end to end — today I wanted to get into the specifics of what's actually blocking a decision, if anything is. Where's your head at?
 
-**Julia:** Honestly, the product looks good. My team liked the workflow, the CRM integration story is clean. The sticking point is Ledgerlight — we got a competing quote for their transaction-enrichment feed and it's meaningfully lower.
+**Julia:** Honestly, the product looks good. My team liked the workflow, the CRM integration story is clean. The sticking point is Ledgerline — we got a competing quote for their transaction-enrichment feed and it's meaningfully lower.
 
 **Marcus:** How much lower, roughly, if you can share?
 
-**Julia:** About 15%, give or take, at our expected volume. Our data team thinks they can build the refinancing model themselves on top of it.
+**Julia:** About 15%, give or take, at our expected volume. Our data team thinks they can build the main-bank model themselves on top of it.
 
-**Marcus:** Okay, that's real money at your volume, I'm not going to pretend it isn't. Can I ask what your team thinks Ledgerlight gives up to hit that price?
+**Marcus:** Okay, that's real money at your volume, I'm not going to pretend it isn't. Can I ask what your team thinks Ledgerline gives up to hit that price?
 
-**Julia:** That's actually the interesting part. Our risk team looked at what we'd actually get: categorised transactions with a confidence score. No moments, no breakdown — we'd have to build and explain the targeting ourselves. My advisors don't care about that day to day — they just want to know who to call. But our Head of Credit Risk cares a lot, and she's not in this call by accident.
+**Julia:** That's actually the interesting part. Our risk team looked at what we'd actually get: categorised transactions with a confidence score. No moments, no breakdown — we'd have to build and explain the targeting ourselves. My relationship managers don't care about that day to day — they just want to know who to call. But our Head of Model Risk cares a lot, and she's not in this call by accident.
 
-**Marcus:** So there's a real split inside the buying committee — lending wanting more opportunities worked faster, versus risk wanting to know why each customer was chosen.
+**Marcus:** So there's a real split inside the buying committee — retail wanting more opportunities worked faster, versus risk wanting to know why each customer was chosen.
 
-**Julia:** Exactly. And I'll be candid, from a pure lending perspective, if it were only up to me, the price difference is hard to ignore. What's your answer to that, beyond "we're better"?
+**Julia:** Exactly. And I'll be candid, from a pure retail perspective, if it were only up to me, the price difference is hard to ignore. What's your answer to that, beyond "we're better"?
 
-**Marcus:** Fair question, and I'll answer it directly rather than dodge it. We're not going to match Ledgerlight's price — if we did, we'd be making the same tradeoff they made to get there. What I'd ask you to do instead is quantify the other side of the ledger: what does it cost your team, in data-team hours to build the model and in risk exposure, the first time a campaign gets questioned and nobody can explain why a customer was contacted? That's not hypothetical for a bank your size — it's a when, not an if.
+**Marcus:** Fair question, and I'll answer it directly rather than dodge it. We're not going to match Ledgerline's price — if we did, we'd be making the same tradeoff they made to get there. What I'd ask you to do instead is quantify the other side of the ledger: what does it cost your team, in data-team hours to build the model and in risk exposure, the first time a campaign gets questioned and nobody can explain why a customer was contacted? That's not hypothetical for a bank your size — it's a when, not an if.
 
 **Julia:** We haven't formally costed that out, no.
 
 **Marcus:** Would it help if I sent over a rough framework your risk team could fill in themselves — build hours, review hours per campaign, frequency, cost per hour — so it's your numbers, not our sales pitch?
 
-**Julia:** Yes, that would actually help internally. My Head of Credit Risk would take that seriously coming from her own team's estimate rather than from you.
+**Julia:** Yes, that would actually help internally. My Head of Model Risk would take that seriously coming from her own team's estimate rather than from you.
 
-**Marcus:** I'll get that to you this week. Separately — has Ledgerlight shown you how you'd explain a targeting decision with their data, or just talked about pricing and speed?
+**Marcus:** I'll get that to you this week. Separately — has Ledgerline shown you how you'd explain a targeting decision with their data, or just talked about pricing and speed?
 
 **Julia:** Mostly pricing and speed, if I'm honest. Their rep was very good on the ROI numbers, less specific when my risk lead asked about explainability. I think that's when the temperature in the room changed a bit.
 
@@ -45,14 +45,14 @@
 
 **Julia:** Send times, I'll get it on the calendar. I think we're close here, honestly — this was the conversation I needed to have.
 
-**Marcus:** Appreciate you being direct about the Ledgerlight comparison rather than letting it sit unspoken. Talk this week.
+**Marcus:** Appreciate you being direct about the Ledgerline comparison rather than letting it sit unspoken. Talk this week.
 
 ---
 
 ## Internal notes (rep-logged)
 
-- Strong moment: buying committee split identified explicitly (lending/growth vs. risk/defensibility) — this is the deal's real shape, not a single-stakeholder sale.
-- Ledgerlight confirmed head-to-head, ~15% cheaper at this account's volume — matches `competitive-landscape.md`'s pricing entry almost exactly. Note the real comparison is Seekridge vs. Ledgerlight data plus an in-house build.
-- Ledgerlight's rep reportedly went thin on explainability specifics under direct questioning — consistent with the documented weakness, now independently corroborated by a live deal, not just a battlecard assumption.
+- Strong moment: buying committee split identified explicitly (retail growth vs. risk/defensibility) — this is the deal's real shape, not a single-stakeholder sale.
+- Ledgerline confirmed head-to-head, ~15% cheaper at this account's volume — matches `competitive-landscape.md`'s pricing entry almost exactly. Note the real comparison is Seekridge vs. Ledgerline data plus an in-house build.
+- Ledgerline's rep reportedly went thin on explainability specifics under direct questioning — consistent with the documented weakness, now independently corroborated by a live deal, not just a battlecard assumption.
 - Action: send build-and-defend cost framework by Thursday (open commitment).
-- Next step: combined call with Head of Mortgage Lending + Head of Credit Risk + Head of Ops — three-stakeholder close, not two.
+- Next step: combined call with Head of Retail Banking + Head of Model Risk + Head of Ops — three-stakeholder close, not two.

@@ -59,7 +59,7 @@
     {
       "name": "RegulationBrief",
       "group": "Carousels",
-      "summary": "What a rule means for banks and lenders: what it asks, what to prepare, and where Seekridge fits."
+      "summary": "What a rule means for banks: what it asks, what to prepare, and where Seekridge fits."
     },
     {
       "name": "MomentExplainer",
@@ -165,7 +165,8 @@
         "market-paper.svg",
         "transaction-paper.svg",
         "pin-paper.svg",
-        "policy-paper.svg",
+        "agent-paper.svg",
+        "compliance-paper.svg",
         "search-paper.svg",
         "moment-paper.svg",
         "savings-paper.svg",
@@ -179,7 +180,8 @@
         "market-navy.svg",
         "transaction-navy.svg",
         "pin-navy.svg",
-        "policy-navy.svg",
+        "agent-navy.svg",
+        "compliance-navy.svg",
         "search-navy.svg",
         "moment-navy.svg",
         "savings-navy.svg"
@@ -216,7 +218,10 @@
           "path": "assets/Icons/pin-paper.svg"
         },
         {
-          "path": "assets/Icons/policy-paper.svg"
+          "path": "assets/Icons/agent-paper.svg"
+        },
+        {
+          "path": "assets/Icons/compliance-paper.svg"
         },
         {
           "path": "assets/Icons/search-paper.svg"
@@ -258,7 +263,10 @@
           "path": "assets/Icons/pin-navy.svg"
         },
         {
-          "path": "assets/Icons/policy-navy.svg"
+          "path": "assets/Icons/agent-navy.svg"
+        },
+        {
+          "path": "assets/Icons/compliance-navy.svg"
         },
         {
           "path": "assets/Icons/search-navy.svg"

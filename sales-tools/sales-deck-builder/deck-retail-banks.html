@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seekridge for retail banks · first meeting deck</title>
+<link rel="stylesheet" href="slide-kit/slides.css">
+</head>
+<body class="deck-view">
+
+<!-- Icon sprite: design-system icons (24px grid, 1.75 stroke) plus two deck-only glyphs. -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="mark" viewBox="0 0 120 120"><g transform="translate(10,10)"><path d="M 4 92 L 30 50 L 46 68 L 70 26 L 96 92" fill="none" stroke="currentColor" stroke-width="10" stroke-linejoin="miter"/><path d="M 0 94 H 100" fill="none" stroke="currentColor" stroke-width="8"/><circle cx="70" cy="12" r="9" fill="#C1892E"/></g></symbol>
+  <symbol id="i-transfer" viewBox="0 0 24 24"><path d="M4 8.5h14l-3.5-3.5M20 15.5H6l3.5 3.5"/></symbol><symbol id="i-savings" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="4.5" rx="1.5"/><rect x="5" y="10" width="14" height="4.5" rx="1.5"/><rect x="5" y="16" width="14" height="4.5" rx="1.5"/></symbol><symbol id="i-car" viewBox="0 0 24 24"><path d="M3.5 15.5v-3l2-4.5h13l2 4.5v3z"/><path d="M3.5 12.5h17"/><circle cx="7.5" cy="17" r="1.8"/><circle cx="16.5" cy="17" r="1.8"/></symbol>
+<symbol id="i-family" viewBox="0 0 24 24"><circle cx="8.5" cy="7" r="2.6"/><path d="M3.5 20v-3.5a5 5 0 0 1 10 0V20"/><circle cx="17" cy="11" r="2"/><path d="M13.8 20v-2a3.2 3.2 0 0 1 6.4 0v2"/></symbol>
+<symbol id="i-card" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="1.5"/><path d="M3 10h18M7 14.5h4"/></symbol><symbol id="i-compliance" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></symbol>
+<symbol id="i-market" viewBox="0 0 24 24"><path d="M4 20V4M4 20h16"/><path d="M7.5 15.5l4-4.5 3 3 5-6"/></symbol>
+  <symbol id="i-customer" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1.5A5.5 5.5 0 0 1 9.5 14h5a5.5 5.5 0 0 1 5.5 5.5V21"/></symbol>
+  <symbol id="i-evidence" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="1.5"/><path d="M8.5 8h7M8.5 12h7M8.5 16h4"/></symbol>
+  <symbol id="i-residency" viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="1.5"/><path d="M8 10V7a4 4 0 0 1 8 0v3M12 14v3"/></symbol>
+  <symbol id="i-crm" viewBox="0 0 24 24"><rect x="3" y="4" width="8" height="16" rx="1.5"/><rect x="13" y="4" width="8" height="16" rx="1.5"/><path d="M6 9h2M16 15h2M9 12h6M13 10l2 2-2 2"/></symbol>
+  <symbol id="i-bank" viewBox="0 0 24 24"><path d="M3 9.5L12 4l9 5.5"/><path d="M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20.5h18"/></symbol>
+  <symbol id="i-moment" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1.5"/><path d="M3 10.5h18M13 3v7.5"/><circle cx="15" cy="16" r="1.5"/><path d="M11.5 19.5a5 5 0 0 1 0-7M18.5 12.5a5 5 0 0 1 0 7"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15M13.5 6.5L19 12l-5.5 5.5"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M4.5 12.5l5 5 10-11"/></symbol>
+</svg>
+
+<main class="deck">
+
+<!-- 01 · Cover -->
+<p class="slide-tag">01 · Cover</p>
+<div class="fit"><section class="slide slide--navy">
+  <div class="lockup lockup--lg"><svg><use href="#mark"/></svg>Seekridge</div>
+  <div style="margin-top:190px">
+    <p class="eyebrow">Seekridge for retail banks</p>
+    <h1 class="title title--xl" style="max-width:860px">Find the peaks in your <span class="accent">customer base.</span></h1>
+    <p class="lead" style="max-width:720px">Know which customers to call this month, and why, before a competitor does.</p>
+  </div>
+  <div class="ridge" style="left:880px;top:250px"><img src="slide-kit/assets/ridge-cover.svg" alt=""></div>
+  <div class="foot"><span>First meeting · [Bank] · [Month 2026]</span><span></span></div>
+  <aside class="notes">Open on their customers, not on Seekridge. Say: you already have the customers and their transactions. The question is which ones to call this month.</aside>
+</section></div>
+
+<!-- 02 · The challenge -->
+<p class="slide-tag">02 · The challenge · quiet base</p>
+<div class="fit"><section class="slide slide--navy">
+  <p class="eyebrow">The challenge</p>
+  <h2 class="title">Most of your customer base looks quiet.</h2>
+  <p class="lead">Your systems know the account: balance, products and last contact. They don't know whose salary lands elsewhere, who is moving money out, or who is ready for a mortgage.</p>
+  <div class="ridge" style="left:110px;top:470px"><img src="slide-kit/assets/ridge-quiet.svg" alt=""></div>
+  <div class="mlabel mlabel--quiet" style="left:411px;top:728px"><b>Moving money out?</b></div>
+  <div class="mlabel mlabel--quiet" style="left:824px;top:658px"><b>Ready for a mortgage?</b></div>
+  <div class="mlabel mlabel--quiet" style="left:1184px;top:765px"><b>Banking elsewhere?</b></div>
+  <div class="mlabel mlabel--quiet" style="left:1472px;top:685px"><b>Family growing?</b></div>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>02</span></div>
+  <aside class="notes">The flat field is the customer base as their systems see it. Every month a few customers start moving, and nobody on their side can see which ones. Say: you don't need more leads. You need to know which customers you already have are ready to talk.</aside>
+</section></div>
+
+<!-- 03 · Four ways the customer base grows -->
+<p class="slide-tag">03 · What you get · four cards</p>
+<div class="fit"><section class="slide">
+  <p class="eyebrow">What you get</p>
+  <h2 class="title">Four ways your customer base grows.</h2>
+  <div class="cards cards--4">
+    <div class="card card--navy"><div class="itile itile--gold"><svg><use href="#i-transfer"/></svg></div><span class="tag">Keep</span><h3>Keep the savings at home</h3><p>Call when money starts moving to another provider, before the habit settles.</p></div>
+    <div class="card"><div class="itile"><svg><use href="#i-bank"/></svg></div><span class="tag">Win</span><h3>Become the main bank</h3><p>Spot customers whose salary lands at another bank, and invite it over.</p></div>
+    <div class="card"><div class="itile"><svg><use href="#i-market"/></svg></div><span class="tag">Grow</span><h3>Grow with rising incomes</h3><p>Savings and investment offers for customers whose income is rising.</p></div>
+    <div class="card"><div class="itile"><svg><use href="#i-savings"/></svg></div><span class="tag">Lend</span><h3>Be first for the big loans</h3><p>Mortgages, car loans and renovations, when a customer is saving for a home or a car, or their family has grown.</p></div>
+  </div>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>03</span></div>
+  <aside class="notes">The promise before the mechanism. Four levers a head of retail banking recognises: keep, win, grow, lend. Everything after this slide shows how.</aside>
+</section></div>
+
+<!-- 04 · Statement -->
+<p class="slide-tag">04 · Why timing · statement</p>
+<div class="fit"><section class="slide">
+  <div style="margin-top:96px">
+    <p class="eyebrow">Why timing matters</p>
+    <h2 class="title title--xl" style="max-width:1500px">The bank that calls first usually keeps the customer.</h2>
+    <p class="lead" style="max-width:1100px">Customers don't announce that they're moving their money. By the time the balance drops, another bank has already made its offer.</p>
+  </div>
+  <div class="ridge" style="left:0;top:700px"><img src="slide-kit/assets/ridge-band-paper.svg" alt=""></div>
+  <div class="foot" style="bottom:40px"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>04</span></div>
+  <aside class="notes">One line, said slowly. Then ask how they find out today that a customer is moving money out.</aside>
+</section></div>
+
+<!-- 05 · Moments on the ridge -->
+<p class="slide-tag">05 · Moments that matter · ridge, navy</p>
+<div class="fit"><section class="slide slide--navy">
+  <p class="eyebrow">Moments that matter</p>
+  <h2 class="title">Every week, a few customers rise out of the base.</h2>
+  <div class="ridge" style="left:110px;top:400px"><img src="slide-kit/assets/ridge-moments.svg" alt=""></div>
+  <div class="mlabel" style="left:341px;top:658px"><b>Ready for a mortgage</b><span>A new mortgage, with you</span></div>
+  <div class="mlabel" style="left:755px;top:554px"><b>Salary landing elsewhere</b><span>Become their main bank</span></div>
+  <div class="mlabel is-gold" style="left:1068px;top:452px"><b>Money starting to leave</b><span>Keep the savings before a competitor does</span></div>
+  <div class="mlabel" style="left:1524px;top:625px"><b>Family growing</b><span>A bigger home, car or renovation</span></div>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>05</span></div>
+  <aside class="notes">Same customer base as slide 2, now through Seekridge. Most of it stays quiet; a few customers rise into peaks. Pill: what happens in the customer's life. Line under it: the conversation it opens for you. The gold one is the most urgent this week. Say: each moment is a reason to call, with the evidence attached.</aside>
+</section></div>
+
+<!-- 06 · Data layers -->
+<p class="slide-tag">06 · How it works · data layers</p>
+<div class="fit"><section class="slide slide--navy">
+  <p class="eyebrow">How it works</p>
+  <h2 class="title">Your data, plus ours, in one moment.</h2>
+  <svg class="ridge" style="left:0;top:0" width="1920" height="1080" aria-hidden="true">
+    <g fill="none" stroke="#F4F3EF" stroke-opacity=".35" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round">
+      <path d="M660 476 C 920 476 940 640 1150 640"/>
+      <path d="M660 616 C 900 616 940 640 1150 640"/>
+      <path d="M660 756 C 920 756 940 640 1150 640"/>
+    </g>
+    <circle cx="1150" cy="640" r="7" fill="#F4F3EF"/>
+  </svg>
+  <div class="stack" style="position:absolute;left:120px;top:420px">
+    <div class="layer"><div class="itile"><svg><use href="#i-transfer"/></svg></div><div><b>Your transaction data</b><span>Salary, card spend, bills, transfers and savings</span></div></div>
+    <div class="layer"><div class="itile"><svg><use href="#i-market"/></svg></div><div><b>Market data</b><span>Rates, what other banks pay, local wages and prices</span></div></div>
+    <div class="layer"><div class="itile"><svg><use href="#i-customer"/></svg></div><div><b>Your customer data</b><span>Products, CRM and questions to your AI agent</span></div></div>
+  </div>
+  <div class="ui" style="position:absolute;left:1180px;top:430px;width:620px">
+    <div class="ui-head"><span style="display:flex;align-items:center;gap:12px"><i class="dot dot--gold"></i>Money starting to leave</span><span class="badge">Rank 1 of 212</span></div>
+    <div class="ui-row"><svg class="icon"><use href="#i-transfer"/></svg><span class="grow">EUR 400 a month to another bank</span><span class="badge">Transactions</span></div>
+    <div class="ui-row"><svg class="icon"><use href="#i-market"/></svg><span class="grow">Other banks pay 1.1 pts more on savings</span><span class="badge">Market</span></div>
+    <div class="ui-row"><svg class="icon"><use href="#i-customer"/></svg><span class="grow">No savings or investment product with you</span><span class="badge">Customer</span></div>
+    <div class="ui-row" style="background:#FAF9F6"><span class="grow small" style="color:#5B6470">Anna K. · Banker: Lukas M.</span><span style="display:flex;align-items:center;gap:8px;font-weight:600;color:#1A3A5C">Open in CRM <svg class="icon" style="width:22px;height:22px"><use href="#i-arrow"/></svg></span></div>
+  </div>
+  <p class="source" style="bottom:110px">Customer, banker and figures are illustrative.</p>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>06</span></div>
+  <aside class="notes">Three layers around every customer. On their own, each is noise. Combined, one point from each layer makes a moment worth a call. Walk the card: their transactions show a new monthly transfer to another bank, the market says other banks pay more on savings, and their products show nothing that keeps the money here.</aside>
+</section></div>
+
+<!-- 07 · Evidence Trail -->
+<p class="slide-tag">07 · Evidence Trail · split with product</p>
+<div class="fit"><section class="slide">
+  <div class="panel-right"></div>
+  <div style="max-width:820px;margin-top:110px">
+    <p class="eyebrow">Evidence Trail</p>
+    <h2 class="title title--md">Every moment shows why, so bankers trust it and risk can sign it off.</h2>
+    <p class="lead">Each moment lists the data points behind it and how much each counted. The same record goes into the audit log.</p>
+    <p class="kicker">No score without a reason.</p>
+  </div>
+  <div class="ui" style="position:absolute;left:1140px;top:250px;width:660px">
+    <div class="ui-head"><span>Why Anna K. is on this week's list</span><span class="small">Evidence Trail</span></div>
+    <div class="ui-row"><span class="grow">EUR 400 a month to another bank</span><span class="bar"><i class="gold" style="width:76%"></i></span><span class="num">38%</span></div>
+    <div class="ui-row"><span class="grow">Income up 16% in three months</span><span class="bar"><i style="width:54%"></i></span><span class="num">27%</span></div>
+    <div class="ui-row"><span class="grow">Other banks pay 1.1 pts more</span><span class="bar"><i style="width:38%"></i></span><span class="num">19%</span></div>
+    <div class="ui-row"><span class="grow">No investment product with you</span><span class="bar"><i style="width:32%"></i></span><span class="num">16%</span></div>
+    <div class="ui-row" style="background:#FAF9F6"><svg class="icon" style="color:#1F7A4D"><use href="#i-check"/></svg><span class="grow small" style="color:#5B6470">Logged · model v3.2 · reviewed by risk</span></div>
+  </div>
+  <p class="source">Weights are illustrative.</p>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>07</span></div>
+  <aside class="notes">The differentiator. Every tool can produce a list; this one shows why each customer is on it. For a head of retail banking: bankers call with a reason, so they actually use the list. Risk can review the same record. Don't go deep on method unless asked; offer the technical session.</aside>
+</section></div>
+
+<!-- 08 · Moment → product → owner -->
+<p class="slide-tag">08 · From moment to sale · table</p>
+<div class="fit"><section class="slide">
+  <p class="eyebrow">From moment to sale</p>
+  <h2 class="title">Every moment, matched to a product and an owner.</h2>
+  <div class="mtable mtable--compact">
+    <span class="th">Moment</span><span class="th">Product, and why</span><span class="th">Who acts</span>
+    <div class="m"><svg class="icon"><use href="#i-transfer"/></svg>Money starting to leave</div>
+    <div class="p"><b>Savings or investment offer</b><span>Why: EUR 400 a month to another bank, other banks pay more</span></div>
+    <div class="o o--team">Your banker</div>
+    <div class="m"><svg class="icon"><use href="#i-savings"/></svg>Ready for a mortgage</div>
+    <div class="p"><b>New mortgage</b><span>Why: savings building, income up, two questions to your AI agent on borrowing</span></div>
+    <div class="o o--team">Your mortgage advisor</div>
+    <div class="m"><svg class="icon"><use href="#i-card"/></svg>Salary landing elsewhere</div>
+    <div class="p"><b>Salary-switch offer</b><span>Why: salary paid in at another bank, everyday card elsewhere</span></div>
+    <div class="o o--digital">Digital campaign</div>
+    <div class="m"><svg class="icon"><use href="#i-car"/></svg>Car purchase goal</div>
+    <div class="p"><b>Car loan, before the dealer's finance</b><span>Why: savings near a target, old car loan ending, car questions to your AI agent</span></div>
+    <div class="o o--digital">Digital campaign</div>
+    <div class="m"><svg class="icon"><use href="#i-family"/></svg>Family growing</div>
+    <div class="p"><b>Mortgage, car loan or renovation loan</b><span>Why: child benefit, childcare fees. One next step: mortgage if renting, else car or renovation</span></div>
+    <div class="o o--team">Your banker</div>
+  </div>
+  <p class="kicker" style="font-size:26px;margin-top:36px">You choose, product by product: your bankers, your advisors or a digital campaign.</p>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>08</span></div>
+  <aside class="notes">Five moments, each with its product and the reason. Family growing fires only after the fact (child benefit, childcare fees, or the customer telling the AI agent), never as a prediction, and it gives one ranked next step, not three offers. The right column is their choice, product by product: bankers, advisors or a digital campaign. The right column is their choice: bankers and advisors for high-value conversations, a digital campaign where a nudge is enough.</aside>
+</section></div>
+
+<!-- 09 · In the CRM -->
+<p class="slide-tag">09 · In your CRM · steps and product</p>
+<div class="fit"><section class="slide slide--navy">
+  <p class="eyebrow">In your CRM</p>
+  <h2 class="title" style="max-width:800px">Ranked in the CRM your bankers already use.</h2>
+  <div style="position:absolute;left:120px;top:470px;width:760px" class="stack">
+    <div style="display:flex;gap:24px"><span class="num-dot">1</span><div><b style="font:700 28px/34px var(--font-display)">Connect once</b><p class="small" style="margin:6px 0 0">Share transaction and customer data from your core system and CRM, by API or secure upload.</p></div></div>
+    <div style="display:flex;gap:24px"><span class="num-dot">2</span><div><b style="font:700 28px/34px var(--font-display)">Ranked every week</b><p class="small" style="margin:6px 0 0">Seekridge adds market data and ranks every customer.</p></div></div>
+    <div style="display:flex;gap:24px"><span class="num-dot">3</span><div><b style="font:700 28px/34px var(--font-display)">Call with the reason</b><p class="small" style="margin:6px 0 0">Each moment lands in the banker's queue with its evidence attached.</p></div></div>
+  </div>
+  <div class="ui" style="position:absolute;left:1000px;top:300px;width:800px">
+    <div class="ui-head"><span>This week · 212 moments</span><span class="badge badge--good">Synced</span></div>
+    <div class="ui-row is-top"><span class="num">01</span><span class="grow">Anna K.</span><span class="badge badge--gold">Money starting to leave</span><span class="bar" style="width:140px"><i class="gold" style="width:92%"></i></span></div>
+    <div class="ui-row"><span class="num">02</span><span class="grow">Jonas W.</span><span class="badge">Ready for a mortgage</span><span class="bar" style="width:140px"><i style="width:84%"></i></span></div>
+    <div class="ui-row"><span class="num">03</span><span class="grow">Maria S.</span><span class="badge">Salary landing elsewhere</span><span class="bar" style="width:140px"><i style="width:79%"></i></span></div>
+    <div class="ui-row"><span class="num">04</span><span class="grow">Peter H.</span><span class="badge">Family growing</span><span class="bar" style="width:140px"><i style="width:71%"></i></span></div>
+    <div class="ui-row"><span class="num">05</span><span class="grow">Lea B.</span><span class="badge">Money starting to leave</span><span class="bar" style="width:140px"><i style="width:66%"></i></span></div>
+    <div class="ui-row"><span class="num">06</span><span class="grow">Tomas R.</span><span class="badge">Car purchase goal</span><span class="bar" style="width:140px"><i style="width:60%"></i></span></div>
+  </div>
+  <p class="source" style="left:1000px">Customers and ranks are illustrative.</p>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>09</span></div>
+  <aside class="notes">Nothing new for bankers to learn. The list appears where they already work, ranked, with the reason one click away. If IT is in the room, offer the integration session here.</aside>
+</section></div>
+
+<!-- 10 · Benefits -->
+<p class="slide-tag">10 · What changes · benefits with outcome</p>
+<div class="fit"><section class="slide slide--navy">
+  <p class="eyebrow">What changes</p>
+  <h2 class="title">Your customer base, working for you.</h2>
+  <div class="cards cards--4" style="margin-top:80px">
+    <div class="card"><div class="itile"><svg><use href="#i-customer"/></svg></div><p class="step" style="margin-top:28px">Data</p><h3 style="margin-top:12px">More on every customer</h3><p>Your transactions, your customer data and market data, combined per customer.</p></div>
+    <div class="card"><div class="itile"><svg><use href="#i-moment"/></svg></div><p class="step" style="margin-top:28px">Ranking</p><h3 style="margin-top:12px">The right customers, every week</h3><p>Hundreds to call, not 40,000. Each with its reason.</p></div>
+    <div class="card"><div class="itile"><svg><use href="#i-crm"/></svg></div><p class="step" style="margin-top:28px">Action</p><h3 style="margin-top:12px">Moments in your CRM</h3><p>Matched to your products and ready for your bankers.</p></div>
+    <div class="card card--gold"><div class="itile"><svg><use href="#i-check"/></svg></div><p class="step" style="margin-top:28px">The outcome</p><h3 style="margin-top:12px">Customers who stay, and grow with you</h3><p>Their salary, savings and next mortgage stay with you.</p></div>
+  </div>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>10</span></div>
+  <aside class="notes">Three steps and the result they add up to. The gold card is the only one that matters to this buyer; the first three are how you get there.</aside>
+</section></div>
+
+<!-- 11 · Proof -->
+<p class="slide-tag">11 · Proof on your own data · figure and steps</p>
+<div class="fit"><section class="slide">
+  <p class="eyebrow">Proof on your own data</p>
+  <h2 class="title">We prove it on your customers before go-live.</h2>
+  <div style="position:absolute;left:120px;top:430px;width:780px">
+    <div class="figure">68<small>%</small></div>
+    <p style="margin:20px 0 0;font:600 32px/42px var(--font-body);max-width:640px">of flagged customers moved money out within 6 months.</p>
+    <p class="mono small" style="margin-top:20px">Backtest on a bank's 2025 data · illustrative</p>
+  </div>
+  <div class="stack" style="position:absolute;left:980px;top:410px;width:820px">
+    <div class="card" style="padding:30px 36px"><p class="step">Weeks 1–2</p><h3 style="margin-top:10px;font-size:30px">Share a sample of your customers</h3></div>
+    <div class="card" style="padding:30px 36px"><p class="step">Weeks 3–4</p><h3 style="margin-top:10px;font-size:30px">We backtest against your past outcomes</h3></div>
+    <div class="card card--navy" style="padding:30px 36px"><p class="step">Week 5</p><h3 style="margin-top:10px;font-size:30px">Review the moments with your team</h3></div>
+  </div>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>11</span></div>
+  <aside class="notes">One bank, one year, one moment type: say so. The figure that should convince them is a backtest on their own data, which is the next step.</aside>
+</section></div>
+
+<!-- 12 · Security and compliance -->
+<p class="slide-tag">12 · Security and compliance · three cards</p>
+<div class="fit"><section class="slide">
+  <p class="eyebrow">Security and compliance</p>
+  <h2 class="title">Built for regulated banks from day one.</h2>
+  <div class="cards cards--3" style="margin-top:80px">
+    <div class="card card--navy"><div class="itile"><svg><use href="#i-residency"/></svg></div><h3>Your data stays in the EU</h3><p>Transactions are pseudonymised, hosted in the EU and encrypted at rest and in transit. Never used to train models for anyone else.</p></div>
+    <div class="card card--navy"><div class="itile"><svg><use href="#i-evidence"/></svg></div><h3>An audit log for every moment</h3><p>What each moment said, who saw it and what was done with it, kept for review.</p></div>
+    <div class="card card--navy"><div class="itile"><svg><use href="#i-compliance"/></svg></div><h3>Consent rules built in</h3><p>Transaction data is used only for the purposes you approve, and only customers who can be contacted for an offer are ranked, channel by channel.</p></div>
+  </div>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>12</span></div>
+  <aside class="notes">Keep it short with a head of retail banking; offer the full security pack and a session with their risk, data-protection and IT teams.</aside>
+</section></div>
+
+<!-- 13 · Customers -->
+<p class="slide-tag">13 · Banks like yours · logo wall</p>
+<div class="fit"><section class="slide">
+  <p class="eyebrow">Banks like yours</p>
+  <h2 class="title">Already finding moments for banks across Europe.</h2>
+  <div class="logos">
+    <div class="logo-tile"><svg class="icon"><use href="#i-bank"/></svg>Nordkredit</div>
+    <div class="logo-tile"><svg class="icon"><use href="#i-bank"/></svg>Alpenkreis Bank</div>
+    <div class="logo-tile"><svg class="icon"><use href="#i-bank"/></svg>Court Street Bank</div>
+    <div class="logo-tile"><svg class="icon"><use href="#i-bank"/></svg>Havnstad Sparebank</div>
+    <div class="logo-tile"><svg class="icon"><use href="#i-bank"/></svg>Lindmark Sparbank</div>
+    <div class="logo-tile"><svg class="icon"><use href="#i-bank"/></svg>Rheintal Sparkasse</div>
+    <div class="logo-tile"><svg class="icon"><use href="#i-bank"/></svg>IJsselbank</div>
+    <div class="logo-tile"><svg class="icon"><use href="#i-bank"/></svg>Fjordbank</div>
+  </div>
+  <p class="source">All customer names are fictional. Use real logos only with each customer's approval.</p>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>13</span></div>
+  <aside class="notes">Pick the two names closest to their market and mention what those banks use Seekridge for. Case studies: Nordkredit and Alpenkreis Bank.</aside>
+</section></div>
+
+<!-- 14 · Close -->
+<p class="slide-tag">14 · Next step · close</p>
+<div class="fit"><section class="slide slide--navy">
+  <div class="lockup lockup--lg"><svg><use href="#mark"/></svg>Seekridge</div>
+  <div style="margin-top:170px">
+    <p class="eyebrow">Next step</p>
+    <h2 class="title title--xl" style="max-width:860px">Let's find the first peaks in <span class="accent">your customer base.</span></h2>
+    <p class="lead" style="max-width:740px">A backtest on a sample of your customers: five weeks, your data, your past outcomes.</p>
+    <p style="margin-top:44px"><span class="pill">Who joins: retail, risk and IT</span></p>
+  </div>
+  <div class="ridge" style="left:880px;top:280px"><img src="slide-kit/assets/ridge-close.svg" alt=""></div>
+  <div class="foot"><span>[Rep name] · [email]</span><span>14</span></div>
+  <aside class="notes">Agree the backtest and who joins from their side before the meeting ends. Book the date in the room.</aside>
+</section></div>
+
+<!-- 15 · Appendix divider -->
+<p class="slide-tag">15 · Appendix · divider</p>
+<div class="fit"><section class="slide slide--navy">
+  <div style="margin-top:260px">
+    <p class="eyebrow">Appendix</p>
+    <h2 class="title title--xl">Alternative slides</h2>
+    <p class="lead">Other versions of the key visuals. Swap one into the main flow when it suits the room.</p>
+  </div>
+  <div class="ridge" style="left:0;top:700px"><img src="slide-kit/assets/ridge-band-navy.svg" alt=""></div>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>15</span></div>
+  <aside class="notes">Start of the appendix.</aside>
+</section></div>
+
+<!-- 16 · Variant: ranked statement -->
+<p class="slide-tag">16 · Variant of 05 · ranked statement</p>
+<div class="fit"><section class="slide">
+  <div style="margin-top:60px">
+    <p class="eyebrow">This week</p>
+    <h2 class="title title--xl" style="max-width:1500px">212 customers to call.<br>Not 40,000.</h2>
+    <p class="lead">Seekridge ranks your whole customer base every week and brings up the few who matter now.</p>
+  </div>
+  <div class="ridge" style="left:0;top:700px"><img src="slide-kit/assets/ridge-band-paper.svg" alt=""></div>
+  <p class="source" style="left:auto;right:120px;bottom:300px;text-align:right">Illustrative figures.</p>
+  <div class="foot" style="bottom:40px"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>16</span></div>
+  <aside class="notes">Use instead of slide 05 for a numbers-first room (a CFO or a head of distribution). The figure is the whole slide.</aside>
+</section></div>
+
+<!-- 17 · Variant: moments on paper -->
+<p class="slide-tag">17 · Variant of 05 · ridge, paper ground</p>
+<div class="fit"><section class="slide">
+  <p class="eyebrow">Moments that matter</p>
+  <h2 class="title">Every week, a few customers rise out of the base.</h2>
+  <div class="ridge" style="left:110px;top:400px"><img src="slide-kit/assets/ridge-moments-paper.svg" alt=""></div>
+  <div class="mlabel" style="left:341px;top:658px"><b>Ready for a mortgage</b><span>A new mortgage, with you</span></div>
+  <div class="mlabel" style="left:755px;top:554px"><b>Salary landing elsewhere</b><span>Become their main bank</span></div>
+  <div class="mlabel is-gold" style="left:1068px;top:452px"><b>Money starting to leave</b><span>Keep the savings before a competitor does</span></div>
+  <div class="mlabel" style="left:1524px;top:625px"><b>Family growing</b><span>A bigger home, car or renovation</span></div>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>17</span></div>
+  <aside class="notes">The light version of slide 05, for printed handouts or a bright room.</aside>
+</section></div>
+
+<!-- 18 · Variant: moments forming -->
+<p class="slide-tag">18 · Variant · moments forming</p>
+<div class="fit"><section class="slide slide--navy">
+  <p class="eyebrow">Moments forming</p>
+  <h2 class="title">The next moments are already forming.</h2>
+  <p class="lead">Most moments show early signs. Seekridge sees them building, so your bankers are ready before the customer calls anyone.</p>
+  <div class="ridge" style="left:110px;top:470px"><img src="slide-kit/assets/ridge-forming.svg" alt=""></div>
+  <div class="mlabel mlabel--ring" style="left:363px;top:780px"><b>Transfers out creeping up</b><span>Money leaving, next quarter</span></div>
+  <div class="mlabel mlabel--ring" style="left:776px;top:695px"><b>Savings growing fast</b><span>Ready for a mortgage</span></div>
+  <div class="mlabel mlabel--ring" style="left:1132px;top:797px"><b>Card spend moving elsewhere</b><span>Salary landing elsewhere</span></div>
+  <div class="mlabel mlabel--ring" style="left:1462px;top:709px"><b>Income up two quarters running</b><span>Investing, with you</span></div>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>18</span></div>
+  <aside class="notes">Dashed markers are moments still forming: the early sign in the pill, the moment it usually becomes underneath. Use after slide 05 for a planning-minded audience.</aside>
+</section></div>
+
+<!-- 19 · Variant: three layers, one moment -->
+<p class="slide-tag">19 · Variant of 06 · layers into one moment</p>
+<div class="fit"><section class="slide">
+  <p class="eyebrow">How it works</p>
+  <h2 class="title">Three layers. One moment.</h2>
+  <div class="cards cards--3" style="margin-top:110px">
+    <div class="layer" style="width:auto"><div class="itile"><svg><use href="#i-transfer"/></svg></div><div><b>Your transaction data</b><span>EUR 400 a month to another bank</span></div></div>
+    <div class="layer" style="width:auto"><div class="itile"><svg><use href="#i-market"/></svg></div><div><b>Market data</b><span>Other banks pay 1.1 pts more</span></div></div>
+    <div class="layer" style="width:auto"><div class="itile"><svg><use href="#i-customer"/></svg></div><div><b>Your customer data</b><span>No investment product with you</span></div></div>
+  </div>
+  <svg class="ridge" style="left:0;top:0" width="1920" height="1080" aria-hidden="true">
+    <g fill="none" stroke="#1A3A5C" stroke-opacity=".45" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round">
+      <path d="M392 500 C 392 640 960 600 960 720"/><path d="M960 500 L 960 720"/><path d="M1528 500 C 1528 640 960 600 960 720"/>
+    </g>
+  </svg>
+  <div class="card card--navy" style="position:absolute;left:560px;top:720px;width:800px;padding:36px 44px;display:flex;align-items:center;gap:28px">
+    <div class="itile itile--gold"><svg><use href="#i-transfer"/></svg></div>
+    <div><p class="step">Moment · rank 1 of 212</p><h3 style="margin-top:10px">Anna K. is starting to move money out</h3></div>
+  </div>
+  <p class="source">Customer and figures are illustrative.</p>
+  <div class="foot"><span class="lockup"><svg><use href="#mark"/></svg>Seekridge</span><span>19</span></div>
+  <aside class="notes">A simpler, light version of slide 06: one data point from each layer, combined into one moment.</aside>
+</section></div>
+
+</main>
+
+<style>.notes{display:none}</style>
+<script>
+  function fit(){document.querySelectorAll('.fit').forEach(f=>{const s=f.firstElementChild;s.style.transform='scale('+(f.clientWidth/1920)+')';});}
+  addEventListener('resize',fit); fit();
+  matchMedia('print').addEventListener('change',fit);
+</script>
+</body>
+</html>

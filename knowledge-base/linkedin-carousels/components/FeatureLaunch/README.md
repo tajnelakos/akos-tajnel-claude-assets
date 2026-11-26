@@ -6,8 +6,8 @@ Launches a capability: a "New in …" cover, the problem it solves, one or two s
 
 **You provide**
 - The feature or area name, literal and capitalised (Evidence Trail, Coverage Map), for the cover: "New in Evidence Trail".
-- One `body-lead` line that says what the reader can now do ("Every moment now opens with a one-line reason your advisors can say out loud.").
-- The problem in one statement, from the user's side ("Advisors read four data points, then improvise the opening line.").
+- One `body-lead` line that says what the reader can now do ("Every moment now opens with a one-line reason your bankers can say out loud.").
+- The problem in one statement, from the user's side ("Bankers read four data points, then improvise the opening line.").
 - One or two real screenshots, cropped to the one panel that proves the point, with illustrative data and customer IDs only.
 - A benefit heading for each screenshot, in the reader's words.
 - Availability in plain words for the close ("Available now in Evidence Trail, at no extra cost."), checked with product marketing.

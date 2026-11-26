@@ -15,15 +15,15 @@ A one-pager fails the moment it tries to say everything. The actual skill isn't 
 2. **Select exactly one positioning angle** from [`positioning.md`](../../knowledge-base/positioning.md)'s per-segment value proposition table — not the general pitch, and not two angles hedging against each other.
 3. **Enforce the budget: one headline (under 10 words), one subhead, 3-4 proof points, one CTA.** If the source material suggests more is relevant, cut — don't compress the type to fit more in. A one-pager that needs a second page is a different document.
 4. **Every proof point must be a specific, checkable claim** from `positioning.md`'s differentiators table or a real case study (see [`case-study-builder`](../case-study-builder)) — not an adjective standing in for evidence.
-5. **Match the target persona's actual content preferences** from `personas.md` — e.g. the Head of Retail Banking persona prefers short case studies with attach-rate and products-per-customer numbers, so a proof point citing a customer result needs a named, checkable source, so a proof point citing a customer result needs the same sourcing discipline `case-study-builder` requires, not an invented stat.
+5. **Match the target persona's actual content preferences** from `personas.md` — e.g. the Head of Model Risk persona explicitly distrusts case studies without a named, checkable source, so a proof point citing a customer result needs the same sourcing discipline `case-study-builder` requires, not an invented stat.
 6. **Follow [`branding-guideline`](../../knowledge-base/branding-guideline/skill.md)'s full visual system** (color palette, typography, card/button rules), not just its voice rules — unlike this repo's text-only skills, a one-pager is a designed artifact.
 7. **Proofread the finished draft against the [`branding-guideline`](../../knowledge-base/branding-guideline) before treating it as ready to send or print.**
 
 ## What to avoid
 
-- Don't write "for [persona]" and keep the generic company pitch underneath unchanged — the angle itself has to change per persona/segment.
+- Don't write "for [persona]" and keep the generic company pitch underneath unchanged — the angle itself has to change per persona/segment, the same way [`persona-email-sequence`](../persona-email-sequence) already requires for each persona's emails.
 - Don't cite a customer stat that hasn't been sourced through `case-study-builder`'s discipline or an equivalent real citation.
-- Don't blend two personas' angles on one page. If one page serves both buyers, keep a single angle and show which part each buyer owns (as the retail lending example does); otherwise build two one-pagers.
+- Don't try to fit two personas on one page — build two one-pagers instead.
 
 ## Output format
 

@@ -8,10 +8,10 @@ The brand dot map in several shapes, one per document, so pages with the same na
 | `dotmap-campaigns.svg` | Campaign performance | Two peaks, one per campaign |
 | `dotmap-call-analysis.svg` | Call analysis summary | Five small peaks (many calls) |
 | `dotmap-competitor-analyses.svg` | Competitor analyses | Three peaks (three regions) |
-| `dotmap-battlecard-kontora.svg` | Kontora battlecard | One tall peak on the left |
-| `dotmap-battlecard-ledgerlight.svg` | Ledgerlight battlecard | One centre peak, two low ones |
-| `dotmap-battlecard-nudgely.svg` | Nudgely battlecard | One wide, low hill |
-| `dotmap-battlecard-propensa.svg` | Propensa battlecard | One tall peak on the right |
+| `dotmap-battlecard-conturo.svg` | Conturo battlecard | One tall peak on the left |
+| `dotmap-battlecard-ledgerline.svg` | Ledgerline battlecard | One centre peak, two low ones |
+| `dotmap-battlecard-pocketlens.svg` | Pocketlens battlecard | One wide, low hill |
+| `dotmap-battlecard-nexascore.svg` | NexaScore battlecard | One tall peak on the right |
 | `dotmap-case-nordkredit.svg` | Nordkredit case study | One tall peak, one small |
 | `dotmap-case-alpenkreis.svg` | Alpenkreis case study | Three peaks rising left to right |
 | `dotmap-launch-process.svg` | Launch process | Four peaks stepping up |
