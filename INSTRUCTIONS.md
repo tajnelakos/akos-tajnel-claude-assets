@@ -27,7 +27,7 @@ Every folder inside these three holds a flat set of files — `README.md`, `skil
 | "Make a LinkedIn carousel or image post about [angle]" / "Which carousel format fits this?" | [`linkedin-carousels`](./knowledge-base/linkedin-carousels) (start with its README, then the format's README in `components/`, then `skill.md`) |
 | "Design a slide, page, or video frame" / "What color, font, or size should this be?" | [`design-system`](./knowledge-base/design-system) (start with its README, then `tokens.css` and `components.md`) |
 | "Design a slide, page, carousel, or video frame" / "What color, font, or size should this be?" | [`design-system`](./knowledge-base/design-system) (start with its README, then `tokens.css` and `components.md`) |
-| "Make a flyer, postcard, leaflet or one-pager to print" | [`flyer-design-system`](./knowledge-base/flyer-design-system) (start with its README, then copy the closest file in `examples/`) |
+| "Make a flyer, leaflet or one-pager to print" | [`flyer-design-system`](./knowledge-base/flyer-design-system) (start with its README, then copy the closest file in `examples/`) |
 | "Make a product video" / "Write the script or beat sheet for a film" / "Check this cut" | [`video-design-system`](./knowledge-base/video-design-system) (start with its README, the film book; build with `skill.md`) |
 | "Build a deck (or just an outline) for [meeting/persona]" | [`sales-deck-builder`](./sales-tools/sales-deck-builder) |
 | "Build a nurture sequence for [persona]" | [`persona-email-sequence`](./marketing-assets/persona-email-sequence) |
