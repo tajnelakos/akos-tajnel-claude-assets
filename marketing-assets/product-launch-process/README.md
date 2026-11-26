@@ -6,7 +6,9 @@ Most product launches are run as a list of assets: a deck, a web page, a press r
 
 ## The approach
 
-One process that runs from shaping the product to measuring it, in five stages. Each step produces something the next step depends on:
+It starts with a **launch brief** that the CPO, CMO and CSO sign off, then one process runs from shaping the product to measuring it, in five stages. Each step produces something the next step depends on:
+
+- **The launch brief** settles the category, the importance level (which decides the channels), the official name, segments and markets in priority order, the pitch and the business model, before anyone plans.
 
 - **One messaging master** feeds every asset, so the website, deck, carousel and press release say the same thing.
 - **Demos are rated READY, PARTIAL or NOT READY per market and segment**, so sales only shows and claims what actually works on local data.
@@ -15,6 +17,10 @@ One process that runs from shaping the product to measuring it, in five stages. 
 [View the illustrated launch flow ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/product-launch-process/launch-process.html)
 
 ## The process
+
+### Before the stages: the launch brief
+
+Every product update that will be communicated starts with the [launch brief](./launch-brief-template.md), filled in by product marketing with the product manager in charge and signed off by the CPO, CMO and CSO. Its importance level (Low, Medium, High, Maximum) sets the default channels, so a small feature gets a Slack message and a newsletter line, and a new product gets a web page, a mailing and an event.
 
 ### 1. Define
 
@@ -61,11 +67,14 @@ What comes back feeds the next round of shaping the product.
 ## Files
 
 - [`launch-process.html`](./launch-process.html) — the process as an illustrated page: the five stages, the demo readiness grid and the feedback loop ([view live ↗](https://tajnelakos.github.io/akos-tajnel-claude-assets/marketing-assets/product-launch-process/launch-process.html))
-- [`skill.md`](./skill.md) — the Claude Skill that turns a launch brief into a launch plan following this process
-- [`go-to-market-outflow-watch.md`](./go-to-market-outflow-watch.md) — the go-to-market plan for Seekridge Outflow Watch, the newest product, run through all five stages
+- [`launch-brief-template.md`](./launch-brief-template.md) — the launch brief every communicated product update starts from, with the importance-to-channels table
+- [`skill.md`](./skill.md) — the Claude Skill that fills in the brief, then turns it into a launch plan following this process
+- [`go-to-market-outflow-watch.md`](./go-to-market-outflow-watch.md) — the go-to-market plan for Seekridge Outflow Watch, the newest product: its filled-in launch brief, then all five stages
 
 ## Decisions worth knowing
 
+- **Channels follow the importance level, not habit.** The brief's importance level gives a default channel list; the team adjusts it in the notes rather than starting from a blank page every time.
+- **Lists are ranked.** Segments, markets, pain points, benefits, features and differentiators are always written most important first, so the brief decides what leads the deck and the web page.
 - **Timing is left out on purpose.** How long each stage takes depends on the product: a new product launch and a feature release don't share a calendar. The order of the steps is what stays fixed.
 - **Demo readiness is checked after the demo is built, not before.** You only know whether a market can be demoed once you've tried it on that market's data.
 - **The pilot is a test, not a source of quotes.** Its job is to find out whether the product, use cases and messaging hold up with a real customer before launch.
