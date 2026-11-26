@@ -11,15 +11,15 @@ The script for [`segment-mortgage-lending-16x9.mp4`](./segment-mortgage-lending-
 | 1 | Open (0–5.6 s) | 1.5 s | 3.8 s | Every customer leaves a trail of data. Most of it goes unread. | Even and quiet. Pause after "data". Nothing before 1.5 s |
 | 2 | Customers' plans (5.6–11.6 s) | 6.1 s | 4.5 s | Their payments show it. A growing family, a new car, a renovation, a new home. | Pause after "show it", then the four plans evenly, no lift at the end |
 | 3 | Your data and ours (11.6–17.6 s) | 11.9 s | 5.2 s | Seekridge reads your CRM and transaction data, alongside live market data. | Say "C-R-M" as letters. Plain, not proud |
-| 4 | Growing family (17.6–26.1 s) | 18.0 s | 2.1 s | This customer's family is growing. | Warm but matter-of-fact. Land on "growing" |
-| 5 | Growing family, the offer | 21.6 s | 3.7 s | It's your moment to offer a mortgage for a bigger home, right on time. | This is the payoff of the first moment |
+| 4 | Growing family (17.6–26.1 s) | 17.9 s | 4.4 s | This customer's family is growing. In most cases, that means moving home. | Warm but matter-of-fact. Small pause after "growing" |
+| 5 | Growing family, the offer | 22.6 s | 3.2 s | It's your moment to act, with a mortgage offer at the right time. | The payoff of the first moment: land on "right time" |
 | 6 | Buying a car (26.1–32.1 s) | 26.5 s | 4.3 s | This one is about to buy a car. Offer your car loan before the dealer does. | A little quicker: the viewer knows the pattern now. Weight on "before the dealer" |
 | 7 | Renovating (32.1–38.1 s) | 32.5 s | 3.2 s | Another is renovating. Time to offer a green loan. | Short and light |
 | 8 | New home, no cover (38.1–44.1 s) | 38.5 s | 4.5 s | And this one just bought a home, with no cover. Time for a home insurance offer. | Small beat after "no cover" |
 | 9 | Your week (44.1–49.6 s) | 44.5 s | 3.8 s | Every Monday, the week's moments arrive ranked, in your CRM. | Brief pause after "Monday" |
 | 10 | Closing (49.6–56.2 s) | 51.2 s | 2.9 s | Seekridge. Opportunities you can act on, and explain. | Beat after "Seekridge." Close softly. Nothing after 54.2 s |
 
-**Totals:** 116 words in about 38 s of speech, over a 56.2 s film, with the rest left as pauses.
+**Totals:** 122 words in about 40 s of speech, over a 56.2 s film, with the rest left as pauses.
 
 **If a line runs long.** Don't speed it up. Send the WAVs: the scene is lengthened to fit the line (and the caption re-timed), or the line is shortened in both the script and the captions together. Captions must keep matching what is said.
 

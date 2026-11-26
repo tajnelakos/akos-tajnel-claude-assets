@@ -14,13 +14,14 @@ Seekridge reads your CRM and transaction
 data, alongside live market data.
 
 4
-00:00:18,000 --> 00:00:20,320
+00:00:17,900 --> 00:00:22,570
 This customer's family is growing.
+In most cases, that means moving home.
 
 5
-00:00:21,600 --> 00:00:25,560
-It's your moment to offer a mortgage
-for a bigger home, right on time.
+00:00:22,600 --> 00:00:26,050
+It's your moment to act, with
+a mortgage offer at the right time.
 
 6
 00:00:26,500 --> 00:00:31,100
