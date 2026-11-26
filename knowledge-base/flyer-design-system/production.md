@@ -7,7 +7,7 @@ Values a printer will ask for, and the checks to run before a file leaves the bu
 | Piece | Trim | Folded | Panels | Margin |
 |---|---|---|---|---|
 | Trifold (roll fold) | 297 × 210 mm | 100 × 210 mm | Outside: 97 · 100 · 100 mm. Inside: 100 · 100 · 97 mm | 8 mm from every fold and trim |
-| Postcard / recto flyer | 210 × 148 mm (A5) | — | Front and back | 12 mm |
+| Recto flyer | 210 × 148 mm (A5) | — | Front only | 12 mm |
 | One-pager | 210 × 297 mm (A4) | — | One or two sides | 12 mm sides and foot; 19 mm top for the motif band |
 
 The trifold's inner flap is 3 mm narrower so it folds in without buckling. Check the printer's fold allowance: some ask for 98 mm on 170 gsm and heavier.
@@ -38,7 +38,6 @@ CMYK values are mathematical conversions. Before a run, ask the printer to conve
 ## Paper
 
 - Trifold: 170 gsm silk or uncoated, scored before folding.
-- Postcards: 350 gsm uncoated or silk; matt laminate on the navy side if it will be posted.
 - One-pager: 120–150 gsm uncoated, so it can be written on.
 
 Navy on uncoated stock prints darker and duller; check the proof against the screen render.
