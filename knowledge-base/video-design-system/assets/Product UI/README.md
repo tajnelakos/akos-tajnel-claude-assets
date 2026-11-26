@@ -5,7 +5,7 @@ The eight Seekridge web-app screens every film panel is rebuilt from (November 2
 | File | Screen | Film use |
 |---|---|---|
 | `01-moments-this-week.png` | Ranked moments for the week, with top layer and top reason | Moment beat, FocusMarks on one row, scale beat |
-| `02-moment-detail.png` | One moment: evidence trail with weights summing to 100, the customer, the suggested action | MomentCard, EvidenceTrail |
+| `02-moment-detail.png` | One moment: evidence trail with the data points in plain words (no weights), the customer, the suggested action | MomentCard, EvidenceTrail |
 | `03-customer-record.png` | The three layers for one customer, side by side, with each source's freshness | LayerStack |
 | `04-coverage-map.png` | Postcode areas as lots, filled where moments cluster, one selected in gold | RidgeField, Statements |
 | `05-crm-sync.png` | Sync runs to CRM queues, with the one that needs attention | Action beat |
