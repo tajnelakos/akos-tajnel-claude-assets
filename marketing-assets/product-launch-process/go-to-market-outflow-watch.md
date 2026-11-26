@@ -1,14 +1,57 @@
 # Go-to-market plan: Seekridge Outflow Watch
 
-The newest Seekridge product, run through the five-stage [launch process](./README.md) (define, prove, enable, launch, learn). Built with the [launch-plan skill](./skill.md) from the brief below, then filled in by hand where the skill leaves gaps for a person to decide.
+The newest Seekridge product, run through the five-stage [launch process](./README.md) (define, prove, enable, launch, learn). Built with the [launch-plan skill](./skill.md) from the launch brief below, then filled in by hand where the skill leaves gaps for a person to decide.
 
 Seekridge and every bank named here are fictional. Targets are plan targets, not results; there is no launch data yet.
 
 ---
 
-## The brief
+## The launch brief
 
-> Launch Seekridge Outflow Watch: outflow moments that show which customers are starting to move money to another provider, with the transaction evidence behind each one, sent to the savings team and the bankers who own the relationship. Sold to existing Seekridge customers as an add-on and to new retail and savings banks on its own. Markets: DACH first, then Benelux and the Nordics.
+Filled in from the [launch brief template](./launch-brief-template.md) before the plan below was made. Sign-off is pending: the brief is a draft until the CPO, CMO and CSO (or the people they delegate to) each say yes.
+
+| CPO | CMO | CSO |
+|---|---|---|
+| Pending | Pending | Pending |
+
+**Announcement**
+
+| Field | Outflow Watch |
+|---|---|
+| Announcement category | Product |
+| Importance level | High — a new product that opens a second buyer (Head of Deposits & Savings) |
+| Channels | LinkedIn posts · Blog article · Web page · Dedicated mailing · Advertising · Sales and CSM campaign · Event · Print material · Internal Slack · Confluence page · Slide deck page. Press release only at the pilot's end, once a customer agrees to be named |
+| Official naming | Seekridge Outflow Watch; moments *Money starting to leave*, *Balance drifting down*, *Card going quiet* |
+| Target segments | 1. Regional retail banks and savings banks · 2. Mutual and cooperative banks with a large saver base · 3. Credit unions on the web app (Ridge and Summit tiers) |
+| Communication markets | 1. DACH · 2. Benelux · 3. Nordics |
+| Key internal stakeholders | Product manager for moments · Head of Sales DACH · CSM lead · Data protection officer · Risk and compliance lead (names to fill in) |
+
+**Product**
+
+| Field | Outflow Watch |
+|---|---|
+| Type of product | Module |
+| Available via | CRM integration · API · Seekridge web app |
+| Go-live date (expected) | After the eight-week pilot (date to fill in) |
+| Type of go-live | Restricted (two pilot customers) → full launch |
+| Impact on existing users | Yes: a new moment family in the same CRM queue, no new integration |
+
+**Product pitch**
+
+| Field | Outflow Watch |
+|---|---|
+| Pain points | 1. Money leaves in small monthly amounts and is noticed when the balance is gone · 2. The churn model flags customers too late to act · 3. Raising the savings rate for everyone is expensive |
+| Our solution | Outflow moments show which customers are starting to move money to another provider, with the transaction evidence behind each one, sent to the savings team and the bankers who own the relationship. |
+| Main benefits | 1. Keep the savings customers already have · 2. Call weeks before the balance falls · 3. Spend retention offers only where money is moving |
+| Key features | 1. Outflow moments from the bank's own transactions · 2. Weighed against what other banks pay on savings · 3. Evidence trail on every moment · 4. Audit log and review pack for risk and data protection |
+| Main differentiators | 1. Earlier than a churn model: the first transfer, not the closed account · 2. Every moment explained, unlike NexaScore's scores · 3. Ranked and logged, unlike Ledgerline's Flow Alerts beta |
+
+**Business model**
+
+| Field | Outflow Watch |
+|---|---|
+| Business model | Premium add-on for platform customers · Stand-alone subscription for new logos · In a package (Ridge and Summit) for credit unions |
+| Pricing | By the number of savers analysed (price points to fill in) |
 
 ## Market and why now
 
@@ -21,8 +64,8 @@ Seekridge and every bank named here are fictional. Targets are plan targets, not
 | | Primary | Secondary |
 |---|---|---|
 | **Segment** | Regional retail banks and savings banks (Tier 1, see [`icp.md`](../../knowledge-base/icp.md)) | Mutual and cooperative banks with a large saver base (Tier 1–2) |
-| **Economic buyer** | Head of Deposits & Savings | Head of Retail Banking |
-| **Sign-off** | Head of Model Risk, data protection officer | Vendor risk and compliance |
+| **Buyer** | Head of Deposits & Savings | Head of Retail Banking |
+| **Reviewers** (via the review pack) | Head of Model Risk, data protection officer | Vendor risk and compliance |
 | **Users** | Savings team, relationship managers | Branch advisors |
 | **Fit signals** | Visible deposit-rate fight in the bank's market; a churn model the team doesn't trust; savings growth targets | A new Head of Deposits hire; a CRM migration underway |
 
@@ -111,4 +154,4 @@ What comes back feeds the next round of shaping the product: moment types banker
 
 ---
 
-**Open gaps for the user:** pilot start dates; price points for the add-on and the stand-alone product; which CRM partner to approach; KPI baselines once the pilot runs.
+**Open gaps for the user:** brief sign-off by the CPO, CMO and CSO; internal stakeholder names; pilot start dates; price points for the add-on and the stand-alone product; which CRM partner to approach; KPI baselines once the pilot runs.
