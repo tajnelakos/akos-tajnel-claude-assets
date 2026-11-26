@@ -10,7 +10,7 @@ Open it, and the evidence trail is already there.
 3
 00:00:08,900 --> 00:00:12,600
 Four data points, from three layers,
-each with its weight.
+each in plain words.
 
 4
 00:00:13,300 --> 00:00:19,600

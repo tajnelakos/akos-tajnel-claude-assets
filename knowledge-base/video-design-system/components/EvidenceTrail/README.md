@@ -1,22 +1,24 @@
 # EvidenceTrail
 
-The signature component, and the brand promise on screen: every data point behind a moment, which layer it came from, its value, and how much it counted. The weights sum to 100.
+The signature component, and the brand promise on screen: every data point behind a moment, in plain words, with the layer it came from and its value.
+
+**Evidence rows list the data points in plain words. Don't show weights or percentages.** Viewers read weights as probabilities or as shares of income, so there are no weight bars, no "38%", no decimals and no "adds up to 100". Percentages that are facts about the customer or the market stay (*income up 16%*, *market rates +1.7 pts*).
 
 **Anatomy**
 - Header: `DEMO · <CLIENT>`, *Evidence trail*, and the customer and moment on the right in mono.
-- Column labels (mono 18px, texture): Layer · Data point · Value · Weight.
-- One row per data point, 72px, sorted by weight: the layer as icon + mono label (`TRANSACTIONS`, `CUSTOMER`, `AI AGENT`, `MARKET`), the data point in Plex Sans, the value in mono, the weight as a bar on a track plus the figure.
-- **The top row's bar is gold**; the others navy. That bar is the frame's one gold, so the headline carries no highlight while it is on.
-- Footer in mono: *Weights sum to 100 · model v4.2, validated 2026-09-30*.
+- Column labels (mono 18px, texture): Layer · Data point · Value. Optional: drop them when the panel needs the height.
+- One row per data point, 72px: the layer as icon + mono label (`TRANSACTIONS`, `CUSTOMER`, `AI AGENT`, `MARKET`), the data point in Plex Sans, the value in mono, right-aligned.
+- **The first data point is the lead**: a 6px gold edge on its left and the data point in 600 weight (`.is-lead`). That edge is the frame's one gold, so the headline carries no highlight while it is on. The other rows have no marker.
+- Optional footer in mono: *Model v4.2, validated 2026-09-30*.
 
 **Motion** (the longest beat in a film, 7–10 s)
 1. Frame traces in, content fades in.
-2. Rows populate every 450ms; each bar grows to its weight (`bar-grow`) while its figure counts.
-3. FocusMarks close on the top row; the other rows dim to 35%.
-4. Hold. The voice-over reads the top reason in plain words.
+2. Rows populate every 450ms, top to bottom.
+3. FocusMarks close on the lead row; the other rows dim to 35%.
+4. Hold. The voice-over says what the data shows, in plain words.
 
-**Copy.** Data points name the measure, not an adjective: *New monthly transfer out EUR 400*, *Income change, 3 months +16%*, *Savings-rate gap +1.1 pts*, *Investment products held none*.
+**Copy.** Data points name the measure, not an adjective: *New monthly transfer out EUR 400*, *Income change, 3 months +16%*, *Savings-rate gap +1.1 pts*, *Investment products held none*. The voice-over never talks about how much a data point counted.
 
-**Provide.** 3–5 rows (layer, data point, value, weight), the model version line.
+**Provide.** 3–5 rows (layer, data point, value), with the lead first; the model version line if the film needs it.
 
-**Avoid.** Weights that don't add to 100, colour per layer, an evidence trail behind a click or a tooltip, rounding that hides the order.
+**Avoid.** Weights, scores, bars or percentages next to a data point; colour per layer; an evidence trail behind a click or a tooltip.

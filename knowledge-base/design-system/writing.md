@@ -20,7 +20,7 @@ Confident and specific, never hyped. The audience is technically skeptical and r
 |---|---|---|
 | Name the persona's problem | "Which of your customers are moving money out this quarter?" | "Discover our new platform" |
 | Mechanism, not adjective | "Every moment shows the 6 data points behind it and how much each counted" | "Robust, transparent insights" |
-| Explain any AI claim | "The model combines the new transfer out, the income change and other banks' savings rates, and shows each weight" | "Powered by advanced AI" |
+| Explain any AI claim | "The model combines the new transfer out, the income change and other banks' savings rates, and shows each data point behind the moment" | "Powered by advanced AI" |
 | Benefit, then feature | "Know which customers to call this month, and why" | "Moment scoring with Evidence Trail" |
 | One term per idea | "moments" throughout | "moments", then "leads", then "alerts" |
 | Precise CTAs | "Run a backtest on your own customer base" | "Learn more" |
