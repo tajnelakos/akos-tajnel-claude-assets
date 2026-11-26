@@ -1,4 +1,4 @@
-# Voice-over: Segment story · Retail banking (60.2 s)
+# Voice-over: Segment story · Retail banking (62.0 s)
 
 The script for [`segment-retail-lending-16x9.mp4`](./segment-retail-lending-16x9.mp4), ready to paste into ElevenLabs. The film currently carries a **draft voice** generated offline with the open-source Kokoro model (voice *bf_emma*), timed and mixed to −16 LUFS, with the same lines burnt in as captions (and in the `.srt`). It's a placeholder: "Starts" and "Draft length" are measured from it. Once the ElevenLabs audio exists, the scenes are re-timed to the measured lines and the track is added with `-c:v copy` (film book, sections 7 and 10).
 
@@ -8,18 +8,18 @@ The script for [`segment-retail-lending-16x9.mp4`](./segment-retail-lending-16x9
 
 | # | Scene (film time) | Starts | Draft length | Line, as spoken (paste this) | Delivery |
 |---|---|---|---|---|---|
-| 1 | Open (0–5.6 s) | 1.4 s | 4.0 s | Every customer leaves a trail to their next plan. Most banks miss it. | Even and quiet. Small pause after "plan". Nothing before 1.4 s |
-| 2 | Customers' plans (5.6–11.6 s) | 6.1 s | 5.2 s | Most often, it's a growing family, a new car, a home renovation, or a move to a new area. | Easy, conversational list; small pause after "Most often", no lift at the end |
-| 3 | Your data, combined (11.6–21.6 s) | 11.9 s | 9.1 s | Seekridge combines transactions, market data, AI conversations, mortgage and client data, and more, to find the right moment for you to engage. | Say "A-I" as letters. A light, even list; small pause after "and more", then land on "right moment"
-| 4 | Growing family (21.6–30.1 s) | 21.9 s | 4.4 s | This customer's family is growing. In most cases, that means moving home. | Warm but matter-of-fact. Small pause after "growing" |
-| 5 | Growing family, the offer | 26.6 s | 3.2 s | It's your moment to act, with a mortgage offer at the right time. | The payoff of the first moment: land on "right time" |
-| 6 | Buying a car (30.1–36.1 s) | 30.5 s | 4.3 s | This one is about to buy a car. Offer your car loan before the dealer does. | A little quicker: the viewer knows the pattern now. Stress "before the dealer" |
-| 7 | Renovating (36.1–42.1 s) | 36.5 s | 3.2 s | Another is renovating. Time to offer a green loan. | Short and light |
-| 8 | Money starting to leave (42.1–48.1 s) | 42.5 s | 4.0 s | And this one is moving savings out. Call before the balance shows it. | Small beat after "out" |
-| 9 | Your week (48.1–53.6 s) | 48.5 s | 3.8 s | Every Monday, the week's moments arrive ranked, in your CRM. | Brief pause after "Monday" |
-| 10 | Brand close (53.6–60.2 s) | 55.0 s | 4.0 s | Seekridge. … Be first to their next plan. | Say "Seekridge." on its own, then about a 1 s pause before the slogan. Land softly on "next plan". No caption: the slogan is on screen. Nothing after 59.2 s |
+| 1 | Open (0–5.6 s) | 1.4 s | 3.8 s | Most of your customers know their next plan. You just can't see it yet. | Even and quiet. Small pause after "next plan". Nothing before 1.4 s |
+| 2 | Customers' plans (5.6–13.4 s) | 6 s | 6.9 s | The good news? They leave a trail in your data: a car purchase, a home renovation, a growing family, a move to a new area. | Lift slightly on "The good news?", a pause after "your data", then the four plans as an even list, no lift at the end |
+| 3 | Your data, combined (13.4–23.4 s) | 13.7 s | 9.1 s | Seekridge combines transactions, market data, AI conversations, mortgage and client data, and more, to find the right moment for you to engage. | Say "A-I" as letters. A light, even list; small pause after "and more", then land on "right moment"
+| 4 | Growing family (23.4–31.9 s) | 23.7 s | 4.4 s | This customer's family is growing. In most cases, that means moving home. | Warm but matter-of-fact. Small pause after "growing" |
+| 5 | Growing family, the offer | 28.4 s | 3.2 s | It's your moment to act, with a mortgage offer at the right time. | The payoff of the first moment: land on "right time" |
+| 6 | Buying a car (31.9–37.9 s) | 32.3 s | 4.3 s | This one is about to buy a car. Offer your car loan before the dealer does. | A little quicker: the viewer knows the pattern now. Stress "before the dealer" |
+| 7 | Renovating (37.9–43.9 s) | 38.3 s | 3.2 s | Another is renovating. Time to offer a green loan. | Short and light |
+| 8 | Money starting to leave (43.9–49.9 s) | 44.3 s | 4.0 s | And this one is moving savings out. Call before the balance shows it. | Small beat after "out" |
+| 9 | Your week (49.9–55.4 s) | 50.3 s | 3.8 s | Every Monday, the week's moments arrive ranked, in your CRM. | Brief pause after "Monday" |
+| 10 | Brand close (55.4–62.0 s) | 56.8 s | 4.0 s | Seekridge. … Be first to their next plan. | Say "Seekridge." on its own, then about a 1 s pause before the slogan. Land softly on "next plan". No caption: the slogan is on screen. Nothing after 60.8 s |
 
-**Totals:** 134 words in about 44 s of speech, over a 60.2 s film, with the rest left as pauses.
+**Totals:** 141 words in about 47 s of speech, over a 62.0 s film, with the rest left as pauses.
 
 **If a line runs long.** Don't speed it up. Send the WAVs: the scene is lengthened to fit the line (and the caption re-timed), or the line is shortened in both the script and the captions together. Captions must keep matching what is said.
 
