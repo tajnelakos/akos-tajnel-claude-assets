@@ -45,7 +45,7 @@ The reusable slide archetypes behind every format, grouped by job, for building 
 - Exactly one logo per slide: the lockup on the cover and the close, the mark bottom-right everywhere else.
 - One arrow style, 32px left of the mark on middle slides, at the margin on the cover, never on the last slide. The counter on every middle slide.
 - One title style per slide, plus at most one supporting style. Archivo for titles and figures, Plex Sans for reading, Plex Mono for data.
-- One gold element per slide: up to 3 words, or a motif's gold point, or the top weight, or the focus bar.
+- One gold element per slide: up to 3 words, or a motif's gold point, or the lead evidence row's edge, or the focus bar.
 - One motif per slide, anchored to an edge, never behind text.
 - Every moment carries its evidence; every figure carries a source line.
 

@@ -1,1 +1,1 @@
-Every format rendered slide by slide from its `preview.html`, in posting order, with illustrative copy written to the wording rules. Use them to check a new carousel against the system. Customers, weights, figures, the event and the speaker are invented for the examples.
+Every format rendered slide by slide from its `preview.html`, in posting order, with illustrative copy written to the wording rules. Use them to check a new carousel against the system. Customers, figures, the event and the speaker are invented for the examples.

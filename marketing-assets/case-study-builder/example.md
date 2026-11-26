@@ -22,7 +22,7 @@ Nordkredit — the account that runs through the rest of this repo. This case st
 Nordkredit's newly hired Head of Model Risk inherited an internal audit finding on her first day: a savings-and-investment campaign had been run off a customer score from the bank's existing data provider — a score and a generic methodology document, not the specific data points that put an individual customer on the list. When an auditor or internal risk committee asked "why this customer," the only honest answer was "the model said so" — not something the team wanted to repeat at an upcoming board audit.
 
 ### Solution
-Rather than a prepared demo, Seekridge ran moments live on a pseudonymized sample of Nordkredit's own customers, at the prospect's request — showing the actual transaction, market, and CRM data points behind each moment and their weighting, not a templated walkthrough. Nordkredit had already used this same standard (push past the first demo, ask for a real breakdown) to evaluate and rule out another vendor earlier in its process.
+Rather than a prepared demo, Seekridge ran moments live on a pseudonymized sample of Nordkredit's own customers, at the prospect's request — showing the actual transaction, market, and CRM data points behind each moment, in plain words, not a templated walkthrough. Nordkredit had already used this same standard (push past the first demo, ask for a real breakdown) to evaluate and rule out another vendor earlier in its process.
 
 ### Results
 - Closed in 65 days — inside Nordkredit's own Tier 1 typical sales-cycle range (per `icp.md`: 2-4 months)
@@ -34,7 +34,7 @@ Rather than a prepared demo, Seekridge ran moments live on a pseudonymized sampl
 No public-use quote available yet. Lena Virtanen's discovery-call comments about the "the model said so" problem are exactly the kind of language a real testimonial should use — but they were said on a sales call, not given as a public statement, so using them here requires her explicit sign-off first, not just because they exist in our call notes.
 
 ---
-Positioning tie-in: "Bankers act on it" (positioning.md's message house) — the specific proof point this account decided on (named data points and weighting per customer, not a score) is exactly this pillar, not a generic lead-volume claim.
+Positioning tie-in: "Bankers act on it" (positioning.md's message house) — the specific proof point this account decided on (named data points per customer, not a score) is exactly this pillar, not a generic lead-volume claim.
 Sourced from: win-loss-crm-export.csv (OPP-1001) · sales-call-analysis/call-01-nordkredit.md
 What's not confirmed: whether Nordkredit's implementation was completed before their stated board-audit date (tentatively the second week of September, per the call transcript) — the CRM close date (2026-09-08) falls right around that window, but "deal closed" isn't the same claim as "audit passed," and the source material doesn't confirm the latter. This case study should not assert it did.
 ```

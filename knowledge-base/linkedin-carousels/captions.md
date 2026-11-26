@@ -39,7 +39,7 @@ The caption carries what the slides leave out: the detail, the method, the logis
 
 > Most customers start moving money out months before their balance shows it.
 >
-> A Seekridge moment shows which customers are starting to move money out, and why: the new monthly transfer, the change in income, and what other banks pay on savings. Each data point carries its weight, so a banker can open the call with the reason.
+> A Seekridge moment shows which customers are starting to move money out, and why: the new monthly transfer, the change in income, and what other banks pay on savings. Each data point is named, so a banker can open the call with the reason.
 >
 > The weights in this carousel are illustrative.
 >
