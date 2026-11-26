@@ -9,4 +9,4 @@ The reference films, one per format plus a short segment cut, built in code from
 | `walkthrough-evidence-trail-16x9.mp4` | Walkthrough | 30 s | The Evidence Trail feature in four steps: open, every reason in plain words, export for model risk, audit log; two-line lockup |
 | `statement-evidence-16x9.mp4` | Statement | 26.5 s | *Most moments can't explain themselves. Ours show their evidence.* The segment triptych, the figure, the end card |
 
-All figures are labelled illustrative on screen; the bank, customer IDs and data are fictional.
+All figures are labelled illustrative on screen; the bank, customer names and IDs, and data are fictional.
