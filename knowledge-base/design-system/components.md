@@ -96,7 +96,7 @@ The signature product surface: one moment, the customer it points at, and the ev
 
 **Rules**
 - The evidence is always visible with the moment, never behind a click. This is the brand promise in UI form: opportunities you can act on, and explain.
-- Each data point is labelled with its layer in mono. The largest-weight data point is the one gold element; other bars are navy.
+- Each data point is labelled with its layer in mono. Evidence rows list the data points in plain words. Don't show weights or percentages. The first data point is the one gold element (a gold edge); the others have no marker.
 - Show limits next to the moment (a warning badge or Alert for thin evidence), not in a footnote.
 - Model version and timestamp in mono on every card: they make the moment reproducible for the audit log.
 
