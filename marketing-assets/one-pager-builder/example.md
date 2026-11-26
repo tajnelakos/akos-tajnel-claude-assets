@@ -32,7 +32,7 @@ The rendered one-pager: [`one-pager-retail-banking.html`](./one-pager-retail-ban
 **CTA:** See the moments in your own customer base. → Book a live test.
 
 ---
-Sourced from: positioning.md (Retail banking row) · knowledge-base.md (the four moment families) · personas.md, Head of Retail Banking (measured on main-bank customers, products per customer and lending to existing customers; trust trigger: a real rollout plan that separates go-live from adoption; won't sell the risk case internally) · competitive-landscape.md (implementation in weeks; backtests on the client's own data). Data points and weights on the cards are illustrative.
+Sourced from: positioning.md (Retail banking row) · knowledge-base.md (the four moment families) · personas.md, Head of Retail Banking (measured on main-bank customers, products per customer and lending to existing customers; trust trigger: a real rollout plan that separates go-live from adoption; won't sell the risk case internally) · competitive-landscape.md (implementation in weeks; backtests on the client's own data). Data points on the cards are illustrative.
 ```
 
 ## Why it's built this way

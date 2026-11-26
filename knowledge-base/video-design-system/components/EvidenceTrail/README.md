@@ -7,7 +7,7 @@ The signature component, and the brand promise on screen: every data point behin
 **Anatomy**
 - Header: `DEMO · <CLIENT>`, *Evidence trail*, and the customer and moment on the right in mono.
 - Column labels (mono 18px, texture): Layer · Data point · Value. Optional: drop them when the panel needs the height.
-- One row per data point, 72px: the layer as icon + mono label (`CRM`, `TRANSACTIONS`, `MARKET`), the data point in Plex Sans, the value in mono, right-aligned.
+- One row per data point, 72px: the layer as icon + mono label (`TRANSACTIONS`, `CUSTOMER`, `AI AGENT`, `MARKET`), the data point in Plex Sans, the value in mono, right-aligned.
 - **The first data point is the lead**: a 6px gold edge on its left and the data point in 600 weight (`.is-lead`). That edge is the frame's one gold, so the headline carries no highlight while it is on. The other rows have no marker.
 - Optional footer in mono: *Model v4.2, validated 2026-09-30*.
 
@@ -17,7 +17,7 @@ The signature component, and the brand promise on screen: every data point behin
 3. FocusMarks close on the lead row; the other rows dim to 35%.
 4. Hold. The voice-over says what the data shows, in plain words.
 
-**Copy.** Data points name the measure, not an adjective: *Fixed rate ends in 7 months*, *Salary split with another bank*, *Competitor offers nearby, 6 in 30 days*, *Baby-related purchases, 9 in 60 days*. The voice-over never talks about how much a data point counted.
+**Copy.** Data points name the measure, not an adjective: *New monthly transfer out EUR 400*, *Income change, 3 months +16%*, *Savings-rate gap +1.1 pts*, *Investment products held none*. The voice-over never talks about how much a data point counted.
 
 **Provide.** 3–5 rows (layer, data point, value), with the lead first; the model version line if the film needs it.
 

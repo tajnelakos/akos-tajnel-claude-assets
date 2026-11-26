@@ -190,7 +190,7 @@
     {
       "name": "EvidenceTrail",
       "group": "Product UI",
-      "summary": "The signature component: every data point behind a moment, with its layer and value in plain words, the lead row marked gold. No weights or percentages.",
+      "summary": "The signature component: every data point behind a moment in plain words, with its layer and value; the first one marked in gold.",
       "readme": "components/EvidenceTrail/README.md",
       "preview": "components/EvidenceTrail/preview.html"
     },

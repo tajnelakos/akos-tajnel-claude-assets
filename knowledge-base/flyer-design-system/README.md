@@ -38,7 +38,7 @@ The formats (A4 trifold, A5 cards, panel-based insides) follow common B2B print 
 - *Navy ground* (`.pwf-navy`, `data-theme="dark"`): flat `navy`, Paper type, `navy-text` for supporting lines, the reversed logo. Trifold front and back, recto flyers.
 - *Paper* (default): `paper` ground with white panels and a 0.5pt hairline. Navy headings and figures, Ink body, `grey-text` for secondary text. The inside of every piece, card backs, the one-pager.
 
-**Colour.** Navy and Paper do the work. Gold is a highlight, not a colour scheme: **one gold element per trifold panel, per card side, or per one-pager**. It is the motif's gold point, the moment box's gold square, the top evidence bar, one figure's rule, or up to three words of a claim on navy (`gold-light`). The logo's own gold point doesn't count. Status colours never appear in print.
+**Colour.** Navy and Paper do the work. Gold is a highlight, not a colour scheme: **one gold element per trifold panel, per card side, or per one-pager**. It is the motif's gold point, the moment box's gold square, the lead evidence row's edge, one figure's rule, or up to three words of a claim on navy (`gold-light`). The logo's own gold point doesn't count. Status colours never appear in print.
 
 **No gradients, glows, tints or shadows.** Much B2B fintech print uses a gradient and a glowing hero object; Seekridge uses flat grounds and the dot-map motif instead, and a square diagram of its method in place of the glowing object.
 
@@ -84,7 +84,7 @@ The formats (A4 trifold, A5 cards, panel-based insides) follow common B2B print 
 | A4 trifold for retail banks | `examples/trifold-retail-banks.html` | `assets/Examples/trifold-retail-banks.pdf` | `assets/Examples/trifold-outside.jpg`, `trifold-inside.jpg` |
 | A4 review-pack one-pager (the buyer forwards it to risk and data protection) | `examples/one-pager-review-pack.html` | `assets/Examples/one-pager-review-pack.pdf` | `assets/Examples/one-pager.jpg` |
 
-Seekridge is a fictional company and `seekridge.example` is a reserved example domain. Every figure, customer ID and weight in this folder is illustrative.
+Seekridge is a fictional company and `seekridge.example` is a reserved example domain. Every figure and customer ID in this folder is illustrative.
 
 ## Current limitations
 

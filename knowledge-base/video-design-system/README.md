@@ -38,12 +38,12 @@ Every film, script and beat sheet runs in this order. It is the brand promise (*
 |---|---|---|---|
 | **1. Situation** | What is happening to one customer the bank already has? | *Customer 40-1187 just started sending EUR 400 a month to another bank.* | Opens the film |
 | **2. Moment** | What does Seekridge flag, and how high does it rank? | *Money starting to leave. Ranked 3rd of 212 this week.* | Short, and always named in the product's word: *moment* |
-| **3. Evidence** | Which data points made the moment, and how much did each count? | *New transfer out 38%, income up 27%, savings-rate gap 21%, products held 14%.* | The body of the film. The beat that makes this brand different |
+| **3. Evidence** | Which data points made the moment, in plain words? | *A new EUR 400 transfer out each month, income up 16%, other banks paying 1.1 points more, no investment products with us.* | The body of the film. The beat that makes this brand different |
 | **4. Action** | What does the banker do now, and where is it recorded? | *On the banker's list in the CRM, with the reasons. Logged.* | Closes the method, before the proof |
 
 - **Never show a moment without its evidence.** A frame with a moment and no evidence trail is a frame the Head of Model Risk will stop the film on. If time is short, cut the action beat, never the evidence.
 - **Never lead with the model.** "AI-powered propensity scoring" is a mechanism in the situation slot. Rewrite it as what is happening to the customer.
-- **Evidence is data, not adjectives.** Each evidence row names its layer (transaction, customer, market) and the data point, in plain words. Evidence rows list the data points in plain words. Don't show weights or percentages. "Strong moments from multiple sources" is not evidence.
+- **Evidence is data, not adjectives.** Each evidence row names its layer (transaction, customer, market) and the data point. Evidence rows list the data points in plain words. Don't show weights or percentages. "Strong moments from multiple sources" is not evidence.
 - **Walkthroughs** are feature-led by design, but open on the job (situation) before the first control: *A banker needs to know why a customer was flagged.*
 - **Check it first:** read the voice-over aloud. If a viewer would learn what Seekridge *is* before they see one customer's situation, the order is wrong. If they could repeat the moment but not one reason behind it, the evidence beat is too thin.
 
@@ -80,7 +80,7 @@ A beat is one headline plus one change on screen. Default length 5 s (`beat`), r
 ### Walkthrough (5–8 beats)
 
 1. **Frame the job** in the user's words. *An advisor needs to know why.*
-2. **3–5 action beats**, one control each, in the order a user would do them. *Open the moment. Every data point is listed. Every reason in plain words. Sort by layer. Export the trail.*
+2. **3–5 action beats**, one control each, in the order a user would do them. *Open the moment. Every data point is listed. Every reason, in plain words. Sort by layer. Export the trail.*
 3. **Reassure** where governance matters. *Every view is in the audit log*
 4. **Lockup**, two lines, Paper ground, the mark bottom-right. *Every moment. / Its reasons, on screen.*
 
@@ -90,7 +90,7 @@ A beat is one headline plus one change on screen. Default length 5 s (`beat`), r
 2. **Tension**, 1 beat. What happens today without the moment, on a Timeline. *By the time anyone notices, the savings have gone.*
 3. **Situation into data**, 1 beat. The LayerStack builds: transaction, customer, market. *Three layers, one customer.*
 4. **Moment**, 1 beat. The MomentCard lands with the rank. *One moment, ranked third this week.*
-5. **Evidence**, 2–3 beats. The EvidenceTrail populates; FocusMarks close on the lead row, marked gold. *Here's why it ranks third. / The new transfer comes first.*
+5. **Evidence**, 2–3 beats. The EvidenceTrail populates; FocusMarks close on the lead row. *Here's why it ranks third. / The new transfer comes first.*
 6. **Action**, 1–2 beats. The moment arrives in the CRM; the AuditLog writes the line. *On the banker's list, with the reasons. / And on the record.*
 7. **Scale**, optional, 1 beat. RidgeField: the whole customer base as a moving dot map, the week's moments rising as peaks. *212 customers to call this week. Not 40,000.*
 8. **Proof**, 1 beat, Navy. FigureCard with its source line. *68% moved money out within six months.*
@@ -133,7 +133,7 @@ Headlines carry the film. Write them first, read them aloud, then design. Voice 
 | Punctuation | Moment stories and Statements end in a full stop. Walkthroughs don't | Exclamation marks, question marks as hooks ("Ready to grow?"), ellipses |
 | Voice | Second person to the professional (*your customers*, *your bankers*). Customers on screen by an invented full name that fits the market (*Anna Becker*, *Jonas Weber*) or by ID in dense tables; *this customer* in the voice-over | *Users*, *leads*, *prospects*. First names alone, or the names of real people |
 | Precision | Name the data point. *Income up 16% in three months.* | *Rich customer insights.* *Powerful data.* |
-| Mechanism | Name it when the persona asks for it (Head of Model Risk films), always as plain data points | *Proprietary AI*, *black box*, *magic*, *revolutionary* (all prohibited terms) |
+| Mechanism | Name it when the audience asks for it (the method film shared with reviewers), always as named data points, never as weights | *Proprietary AI*, *black box*, *magic*, *revolutionary* (all prohibited terms) |
 | Product words | Moment · evidence trail · audit log · customer base · transaction data, customer data, market data · CRM | Lead, insight, alert · explainability report · database · data lake |
 | Figures | One figure per beat, with what it measures and where it came from. Illustrative figures labelled *Illustrative* on screen | A figure without a source line; demo data presented as a result |
 | Currency | Code before the number: EUR 412,500 · CHF 1.2m · SEK 3.4m | € 412.5k; mixing formats in one film |
@@ -157,7 +157,7 @@ Headlines carry the film. Write them first, read them aloud, then design. Voice 
 | Persona | Hook names | Evidence beat leads with | Action beat shows |
 |---|---|---|---|
 | Head of Retail Banking | A customer banking mainly elsewhere, or ready for a mortgage | The salary and card-spend rows | The banker's CRM list |
-| Head of Model Risk | A decision someone will have to defend | Every data point in plain words, the method line | The audit log and export |
+| Method film for reviewers (not a persona) | A decision someone will have to defend | Every data point in plain words, the method line | The audit log and export |
 | Head of Deposits & Savings | A saver starting to move money out | The transfer-out and savings-rate rows | The savings team's call list |
 | Relationship Manager Lead | A member worth a call this week | The change that triggered it (income, transfers) | The banker's weekly list |
 
@@ -187,7 +187,7 @@ Headlines carry the film. Write them first, read them aloud, then design. Voice 
 
 - **Archivo** for anything on the ground: titles 800, headlines 700, figures 800.
 - **IBM Plex Sans** for panels, captions and lower thirds: values 500, titles 600.
-- **IBM Plex Mono** for every eyebrow, ID, date, source line and the ChapterRail. If it is data, it is mono.
+- **IBM Plex Mono** for every eyebrow, ID, date, value, source line and the ChapterRail. If it is data, it is mono.
 - Headlines track tight (−0.025em); mono eyebrows track open (+0.08em) and are the only all-caps.
 - The smallest size a viewer must read is `panel-value` (26px). Anything smaller (column labels at 18px) is texture: it can be in shot but must never carry the message.
 
@@ -224,7 +224,7 @@ The brand palette has no categorical hues, so films never colour-code the data l
 | Customer data | `CUSTOMER` | `icon-customer` | Products held, tenure, contact history, questions to the bank's AI agent (`icon-agent`) |
 | Market data | `MARKET` | `icon-market` | What other banks pay on savings, rate changes, local wage and price trends |
 
-Evidence rows list the data points in plain words. Don't show weights or percentages. The lead row gets a gold edge (`.is-lead`); the other rows stay ink on Paper.
+Evidence rows list the data points in plain words. Don't show weights or percentages. The first data point is the lead: it gets a gold edge (the frame's one gold); the others have no marker. Percentages that are facts (income up 16%, a rate gap) stay.
 
 ### Drawings
 
@@ -352,7 +352,7 @@ The default persona film. Reference: [`assets/Films/story-outflow-dach-16x9.mp4`
 | 5.0–10.0 s | Tension | By the time anyone notices, **it's gone.** | Wipe to Paper; Timeline: First transfer out 2026-06-02 → Today → Balance moved elsewhere (dashed, marked) | Situation |
 | 10.0–16.0 s | Layers | Three layers. **One customer.** | LayerStack: transaction, customer, market rows draw in and resolve into one line | Situation |
 | 16.0–21.5 s | Moment | One moment, **ranked third.** | MomentCard: Money starting to leave · Customer 40-1187 · Rank 3 of 212 | Moment |
-| 21.5–31.0 s | Evidence | Here's why it **ranks third.** | EvidenceTrail: four rows with layer, data point and value; FocusMarks close on the lead row; gold edge on it | Evidence |
+| 21.5–31.0 s | Evidence | Here's why it **ranks third.** | EvidenceTrail: four rows with layer, data point and value; FocusMarks close on the lead row, which has the gold edge | Evidence |
 | 31.0–37.0 s | Action | On the banker's list. **With the reasons.** | CRM panel: task row lands with *Synced to CRM*; AuditLog line types in | Action |
 | 37.0–42.0 s | Proof | (the figure is the headline) | Wipe to Navy; FigureCard counts to 68%; source line: *Backtest, demo bank's 2025 data. Illustrative.* | — |
 | 42.0–48.0 s | EndCard | Opportunities you can act on — and explain. | Reversed lockup centred, the line, the action *Run a backtest on your own data*; 3 s hold, silent last 2 s | — |
@@ -400,7 +400,7 @@ The Seekridge web app, screen by screen, and what each gives a film. The screens
 | Area | Screen | What it proves | Film use |
 |---|---|---|---|
 | Moments | 01 Moments this week | Moments ranked for one bank's customer base, with moment type, customer ID, rank and top reason | Moment beat; scale beat |
-| Moments | 02 Moment detail | One moment with its full evidence trail: layer, data point and value in plain words (no weights) | MomentCard, EvidenceTrail |
+| Moments | 02 Moment detail | One moment with its full evidence trail: layer, data point and value, in plain words | MomentCard, EvidenceTrail |
 | Customer | 03 Customer record | The three layers for one customer side by side | LayerStack |
 | Coverage | 04 Coverage Map | Where in the customer base moments cluster, by branch region | RidgeField, Statement |
 | Action | 05 CRM sync | Which moments went to which team's CRM queue, and when | Action beat |
@@ -425,7 +425,7 @@ The Seekridge web app, screen by screen, and what each gives a film. The screens
 | Rounded corners from the scale: 16px panels, 10px controls and bands, 6px chips, pills for badges and tags | Sharp 0px panels, mixed radii in one panel, bubbly shapes beyond the scale |
 | Left-align headlines at the margin | Centred headlines over centred cards (except end cards) |
 | Dim to focus | Blur to focus |
-| Mono for every ID, date and source | Data in the display face |
+| Mono for every ID, date, value and source | Data in the display face |
 | Customers as IDs, advisors as roles | Names, faces, illustrated people, hands holding phones |
 | Label illustrative figures on screen, with a source line | Demo figures presented as results |
 | Cut a beat to fit; keep the evidence | Speeding up the evidence beat to fit a slot |
