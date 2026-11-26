@@ -18,7 +18,6 @@
     "components/Logo/README.md",
     "components/NavyGround/README.md",
     "components/OnePager/README.md",
-    "components/Postcard/README.md",
     "components/Step/README.md",
     "components/Trifold/README.md",
     "components/bundle.css",
@@ -42,11 +41,6 @@
       "summary": "The A4 portrait leave-behind (210 × 297 mm): one persona, one page, printed or sent as a PDF after a meeting."
     },
     {
-      "name": "Postcard",
-      "group": "Formats",
-      "summary": "The A5 landscape card (210 × 148 mm) for mailings, conference tables and recto flyers. A recto flyer is the front alone, with the `ContactBlock` added at its foot."
-    },
-    {
       "name": "Trifold",
       "group": "Formats",
       "summary": "The A4 roll-fold leaflet (297 × 210 mm, folded to 100 × 210 mm): the main piece for events, branch drops and the post-meeting leave-behind."
@@ -59,7 +53,7 @@
     {
       "name": "NavyGround",
       "group": "Surfaces",
-      "summary": "Flat Seekridge Navy is the brand's front-of-piece surface: every trifold front and back, every postcard front and recto flyer. Paper carries everything with detail."
+      "summary": "Flat Seekridge Navy is the brand's front-of-piece surface: every trifold front and back, and every recto flyer. Paper carries everything with detail."
     },
     {
       "name": "Benefit",

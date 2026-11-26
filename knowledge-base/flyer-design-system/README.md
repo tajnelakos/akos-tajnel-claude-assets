@@ -1,4 +1,4 @@
-Seekridge in print: claims in Paper on flat Navy, the evidence on Paper, and one gold point that marks the thing that matters. Use this system for the A4 trifold, A5 postcards and recto flyers, the A4 one-pager leave-behind, and any event handout that has to sit beside them.
+Seekridge in print: claims in Paper on flat Navy, the evidence on Paper, and one gold point that marks the thing that matters. Use this system for the A4 trifold (the flyer), the A4 one-pager leave-behind, and any event handout that has to sit beside them.
 
 It applies the Seekridge brand guideline ([`../branding-guideline/`](../branding-guideline)) and design system ([`../design-system/`](../design-system)) to print. Where those files and this one disagree, the brand guideline wins.
 
@@ -14,7 +14,7 @@ The formats (A4 trifold, A5 cards, panel-based insides) follow common B2B print 
 |---|---|
 | `tokens.json` · `tokens.css` | Colour (Paper and Navy ground themes), type for three formats, spacing, radius, line weights and print production values. Sizes are stored in px at 96 dpi so the CSS and the Claude design-system page read them; each usage note opens with the print value in pt or mm. Each token has a usage note; contrast ratios are in `meta.contrast`. |
 | `components/bundle.css` | The `pwf-` print primitives, with logos, icons, motifs and the sample QR inlined. |
-| `components/*/` | A README and a live preview for each component: 3 formats (Trifold, Postcard, OnePager), 2 surfaces (NavyGround, Logo), 7 content blocks (FeaturePanel, Benefit, FigurePanel, Step, LayerDiagram, EvidenceStrip, ContactBlock). |
+| `components/*/` | A README and a live preview for each component: 2 formats (Trifold, OnePager), 2 surfaces (NavyGround, Logo), 7 content blocks (FeaturePanel, Benefit, FigurePanel, Step, LayerDiagram, EvidenceStrip, ContactBlock). |
 | `wording.md` | How flyer copy is written: claims, CTAs, figures, market formats, words to avoid. |
 | `production.md` | Trim, bleed, safe zones, folds, colour, paper, PDF export and the pre-press checklist. |
 | `examples/` | Three finished pieces as HTML that prints at true size, plus PDFs and JPG renders in `assets/Examples/`. |
@@ -26,7 +26,7 @@ The formats (A4 trifold, A5 cards, panel-based insides) follow common B2B print 
 - **One reader per piece.** Name them in the eyebrow ("For retail banking teams", "For risk and compliance teams") and write everything else to them.
 - **Lead with the reader's situation or the opportunity, then the proof.** The front states the outcome; the inside shows how it works and proves it with one moment and its evidence.
 - **Sentence case everywhere**, covers included. The mono eyebrow is the one all-caps element, set in CSS.
-- **Short, declarative claims.** One idea per line on the navy ground, up to 12 words on a trifold front and 8 on a postcard. No exclamation marks, no emoji.
+- **Short, declarative claims.** One idea per line on the navy ground, up to 12 words on a trifold front. No exclamation marks, no emoji.
 - **Every figure says what it measures and where it came from**, in a source line under it. Illustrative figures say "illustrative".
 - **Customers appear by ID** ("Customer 40-1187"), never by a name or an address.
 - **Close with one action** that says what happens next ("Scan to book a backtest"), never "Learn more".
@@ -35,7 +35,7 @@ The formats (A4 trifold, A5 cards, panel-based insides) follow common B2B print 
 ## Visual foundations
 
 **Two grounds, never mixed in one panel.**
-- *Navy ground* (`.pwf-navy`, `data-theme="dark"`): flat `navy`, Paper type, `navy-text` for supporting lines, the reversed logo. Trifold front and back, postcard fronts, recto flyers.
+- *Navy ground* (`.pwf-navy`, `data-theme="dark"`): flat `navy`, Paper type, `navy-text` for supporting lines, the reversed logo. Trifold front and back, recto flyers.
 - *Paper* (default): `paper` ground with white panels and a 0.5pt hairline. Navy headings and figures, Ink body, `grey-text` for secondary text. The inside of every piece, card backs, the one-pager.
 
 **Colour.** Navy and Paper do the work. Gold is a highlight, not a colour scheme: **one gold element per trifold panel, per card side, or per one-pager**. It is the motif's gold point, the moment box's gold square, the top evidence bar, one figure's rule, or up to three words of a claim on navy (`gold-light`). The logo's own gold point doesn't count. Status colours never appear in print.
@@ -66,7 +66,7 @@ The formats (A4 trifold, A5 cards, panel-based insides) follow common B2B print 
 
 ## Logo
 
-- The lockup goes top-left on fronts and on the one-pager (40 mm, or 32 mm on a trifold panel); the mark (10 mm) only on a side that carries no lockup, such as a postcard back.
+- The lockup goes top-left on fronts and on the one-pager (40 mm, or 32 mm on a trifold panel); the mark (10 mm) only on a side that carries no lockup, such as the back of a one-pager.
 - One logo per side. Clear space equals the mark's height. Outlined files only in print.
 
 ## How to build a piece
@@ -82,7 +82,6 @@ The formats (A4 trifold, A5 cards, panel-based insides) follow common B2B print 
 | Piece | HTML | PDF | Render |
 |---|---|---|---|
 | A4 trifold for retail banks | `examples/trifold-retail-banks.html` | `assets/Examples/trifold-retail-banks.pdf` | `assets/Examples/trifold-outside.jpg`, `trifold-inside.jpg` |
-| A5 postcard on explainable moments | `examples/postcard-explainable-moments.html` | `assets/Examples/postcard-explainable-moments.pdf` | `assets/Examples/postcard-front.jpg`, `postcard-back.jpg` |
 | A4 one-pager for risk teams | `examples/one-pager-risk-teams.html` | `assets/Examples/one-pager-risk-teams.pdf` | `assets/Examples/one-pager.jpg` |
 
 Seekridge is a fictional company and `seekridge.example` is a reserved example domain. Every figure, customer ID and weight in this folder is illustrative.

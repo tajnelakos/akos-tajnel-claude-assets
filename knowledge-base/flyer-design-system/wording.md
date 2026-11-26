@@ -8,7 +8,6 @@ The voice rules are in [`../branding-guideline/skill.md`](../branding-guideline/
 |---|---|---|
 | Eyebrow | 2–5 words, names the reader | For retail banking teams |
 | Claim (trifold front) | Up to 12 words, one idea per line | Know which customers to call this month. And why. |
-| Statement (postcard front) | Up to 8 words | The moment you can explain. |
 | Supporting line | One sentence, up to 25 words | Seekridge shows which of your existing customers to talk to next, and why. |
 | Problem | Two short paragraphs in the reader's world | A salary goes up, a monthly transfer to another bank begins… |
 | Pillars | Title as the claim, body as its proof | Explainable by design · Every moment shows the data points behind it… |
