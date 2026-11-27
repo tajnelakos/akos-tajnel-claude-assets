@@ -33,8 +33,10 @@ p { margin: 0; }
 .btn--accent:hover { background: var(--accent-ink); border-color: var(--accent-ink); }
 
 /* Nav */
-.nav { position: sticky; top: 0; z-index: 20; background: rgba(255,255,255,.88); backdrop-filter: blur(10px); border-bottom: 1px solid transparent; transition: border-color .2s; }
-.nav.is-scrolled { border-bottom-color: var(--line); }
+.nav { position: sticky; top: 0; z-index: 20; background: rgba(241,245,249,.94); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); transition: box-shadow .2s; }
+.nav.is-scrolled { box-shadow: 0 4px 18px rgba(15,23,42,.06); }
+.nav__links .btn--line { background: #fff; }
+.nav__links .btn--line:hover { background: #fff; border-color: var(--accent); color: var(--accent-ink); }
 .nav__in { display: flex; align-items: center; justify-content: space-between; height: 72px; }
 .brand { font-weight: 700; color: var(--ink); text-decoration: none; font-size: 18px; letter-spacing: -0.01em; display: inline-flex; align-items: center; gap: 10px; }
 .brand i { width: 9px; height: 9px; border-radius: 50%; background: var(--accent); display: inline-block; }
