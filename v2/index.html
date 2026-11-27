@@ -427,7 +427,7 @@ p { margin: 0; }
     </div>
     <div class="modal__body" id="m-body"></div>
     <div class="modal__links" id="m-links"></div>
-    <div class="modal__nav"><button type="button" id="m-prev">← Previous<span></span></button><button type="button" id="m-next" style="text-align:right">Next →<span></span></button></div>
+    <div class="modal__nav"><button type="button" id="m-prev" style="text-align:left">← Previous<span></span></button><button type="button" id="m-next" style="text-align:right">Next →<span></span></button></div>
   </div>
 </div>
 
@@ -483,9 +483,11 @@ var FILM = "https://akostajnel.com/knowledge-base/video-design-system/assets/Fil
     $('#m-body').innerHTML = body;
     $('#m-links').innerHTML = p.links.map(function (l, k) { return '<a class="btn ' + (k === 0 ? 'btn--solid' : 'btn--line') + '" href="' + l[1] + '" target="_blank" rel="noopener">' + l[0] + '</a>'; }).join('');
     var vis = visible(), at = vis.indexOf(i);
-    var pi = vis[(at - 1 + vis.length) % vis.length], ni = vis[(at + 1) % vis.length];
-    $('#m-prev span').textContent = PROJECTS[pi].title; $('#m-prev').setAttribute('data-i', pi);
-    $('#m-next span').textContent = PROJECTS[ni].title; $('#m-next').setAttribute('data-i', ni);
+    var pi = vis[at - 1], ni = vis[at + 1];
+    $('#m-prev').style.visibility = pi === undefined ? 'hidden' : 'visible';
+    $('#m-next').style.visibility = ni === undefined ? 'hidden' : 'visible';
+    if (pi !== undefined) { $('#m-prev span').textContent = PROJECTS[pi].title; $('#m-prev').setAttribute('data-i', pi); }
+    if (ni !== undefined) { $('#m-next span').textContent = PROJECTS[ni].title; $('#m-next').setAttribute('data-i', ni); }
     wire();
     if (modal.hidden) { lastFocus = document.activeElement; modal.hidden = false; document.body.style.overflow = 'hidden'; }
     modal.scrollTop = 0; $('.modal__close').focus();
@@ -525,7 +527,7 @@ var FILM = "https://akostajnel.com/knowledge-base/video-design-system/assets/Fil
 
   document.addEventListener('keydown', function (e) {
     if (!box.hidden) { if (e.key === 'Escape') lbClose(); if (e.key === 'ArrowLeft') show(k - 1); if (e.key === 'ArrowRight') show(k + 1); return; }
-    if (!modal.hidden) { if (e.key === 'Escape') close(); if (e.key === 'ArrowLeft') $('#m-prev').click(); if (e.key === 'ArrowRight') $('#m-next').click(); }
+    if (!modal.hidden) { if (e.key === 'Escape') close(); if (e.key === 'ArrowLeft' && $('#m-prev').style.visibility !== 'hidden') $('#m-prev').click(); if (e.key === 'ArrowRight' && $('#m-next').style.visibility !== 'hidden') $('#m-next').click(); }
   });
 })();
 </script>
