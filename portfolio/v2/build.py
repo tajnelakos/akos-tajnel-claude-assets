@@ -51,7 +51,7 @@ html = f"""<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Akos Tajnel — Product marketing</title>
-<meta name="description" content="Akos Tajnel, product marketer in B2B SaaS since 2018: launches, customer insight, competitive intelligence and sales enablement, with the AI workflows behind them.">
+<meta name="description" content="Akos Tajnel, B2B SaaS professional since 2018 and product marketing lead: launches, customer insight, competitive intelligence and sales enablement, with the AI workflows behind them.">
 <meta name="robots" content="noindex">
 <link rel="icon" href="{photo}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
