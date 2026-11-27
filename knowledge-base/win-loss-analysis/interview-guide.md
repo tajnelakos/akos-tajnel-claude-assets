@@ -39,20 +39,34 @@ The decision-maker, not the champion or an end user. For a loss, the person who 
 
 ## The questions
 
-Open with the decision, then go back to the start. Keep the order loose; follow what they bring up.
+**The one rule: no leading questions.** "Why didn't you choose us?" puts the buyer on the defensive. "Walk me through how you evaluated the options" gets the same answer without the bias. Ask the same questions for wins and losses, keep the order loose, and follow what the buyer brings up.
 
-1. In a sentence, why did you choose the way you did?
-2. What made you start looking in the first place? What was going on at the bank?
-3. Who else was involved in the decision, and what did each of them care about most?
-4. Which other options did you look at, and how did you narrow the list?
-5. What did the other vendor do better than us? Where were we stronger?
-6. Was there a moment when the decision was made, before the paperwork? What happened then?
-7. How did price and contract terms weigh in, compared with everything else?
-8. What was missing or worried you about our product? Was any of it a deal-breaker?
-9. How was working with our team: speed of replies, the demo, the follow-up?
-10. If you could change one thing about how we sold to you, what would it be?
+**How the search started**
 
-For wins, add: *What almost made you go another way?*
+1. What made the bank start looking for something like this? *(What triggered the search.)*
+2. How did you put together the first list of vendors? *(Where buyers find us and our competitors.)*
+3. Who was involved in the decision, and how did their priorities differ? *(The buying committee: lending, deposits, model risk, the DPO, procurement.)*
+
+**What mattered**
+
+4. What were your top three requirements? *(The criteria that actually decide.)*
+5. How did you weigh price against the product, support and how easy it would be to roll out? *(The order of trade-offs, not a flat list.)*
+6. Was there anything that would have ruled a vendor out? *(Must-haves versus nice-to-haves, e.g. on-prem or a certification.)*
+
+**How we compared**
+
+7. Which other options did you look at, and how did they compare on those requirements? *(Competitive intelligence in the buyer's words; feeds the battlecards.)*
+8. Did anyone else offer something you wished we had? *(Product gaps backed by real demand; feeds the roadmap.)*
+
+**What decided it**
+
+9. What was the biggest single factor in the final decision? *(The real driver, not the logged one.)*
+10. Was there a moment in the evaluation that tipped it — a demo, a backtest, a reference call, a pricing conversation? *(The interaction that mattered.)*
+
+**How we came across**
+
+11. How did your first impression of us change as the evaluation went on? *(Whether marketing and sales tell the same story; feeds positioning.)*
+12. If you could change one thing about working with our team, what would it be? *(Process and experience, beyond the product; feeds sales training.)*
 
 ## What to write up
 

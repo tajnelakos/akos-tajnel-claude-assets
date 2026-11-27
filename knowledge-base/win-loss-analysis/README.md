@@ -23,7 +23,7 @@ Two related outputs, for two different needs:
 
 CRM fields capture what reps think happened. Win/loss interviews tell you what buyers actually experienced. Product marketing interviews the decision-maker within two to four weeks of the close, for wins and losses alike (15–20 interviews a quarter, from a pipeline of 50–60 invited deals), and compares the buyer's reason with the one the rep logged. In the sample, rep and buyer fully agreed in only 2 of 8 deals.
 
-- [`interview-guide.md`](./interview-guide.md) — who runs it, which deals, timing, consent, the ten questions and the write-up fields
+- [`interview-guide.md`](./interview-guide.md) — who runs it, which deals, timing, consent, the twelve open questions and the write-up fields
 - [`buyer-interviews.md`](./buyer-interviews.md) — eight fictional interview summaries, joined to the CRM export by Opportunity ID
 
 Every finding goes to one of four places: battlecards, the product roadmap, sales training, or positioning.
