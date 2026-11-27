@@ -89,9 +89,11 @@ p { margin: 0; }
 .about__cols { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 28px; }
 .about__cols p + p { margin-top: 14px; }
 .skills__label { font-size: 14px; font-weight: 600; color: var(--accent-ink); margin: 56px 0 20px; }
-.skills { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px 40px; }
+.skills { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.skills > div { background: var(--soft); border: 1px solid var(--line); border-radius: 16px; padding: 22px 24px 24px; box-shadow: 0 1px 2px rgba(15,23,42,.04), 0 8px 22px rgba(15,23,42,.06); transition: transform .2s ease, box-shadow .2s ease; }
+.skills > div:hover { transform: translateY(-2px); box-shadow: 0 2px 4px rgba(15,23,42,.05), 0 14px 30px rgba(15,23,42,.09); }
 .skills h3 { font-size: 17px; font-weight: 700; margin-bottom: 6px; letter-spacing: -0.01em; }
-.skills p { font-size: 15px; color: var(--muted); line-height: 1.5; }
+.skills p { font-size: 15px; color: var(--text); line-height: 1.5; }
 
 /* Facts inside About */
 .facts { margin-top: 48px; padding-top: 28px; border-top: 1px solid var(--line); }
@@ -240,7 +242,7 @@ p { margin: 0; }
   .hero { padding: 40px 0 72px; }
   .sec { padding: 72px 0; }
   .cards { grid-template-columns: 1fr; }
-  .about__cols, .skills { grid-template-columns: 1fr; gap: 20px; }
+  .about__cols, .skills { grid-template-columns: 1fr; gap: 16px; }
   .steps { grid-template-columns: 1fr; }
   .results__head { flex-direction: column; gap: 4px; }
   .modal { padding: 0; }
