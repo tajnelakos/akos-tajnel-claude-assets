@@ -1,4 +1,4 @@
-"""Build portfolio version 2 (v2/index.html, served at akostajnel.com/v2/) as one self-contained file.
+"""Build the portfolio front page (index.html, served at akostajnel.com) as one self-contained file.
 Uses the same projects and screenshots as v1 (portfolio/work.py, portfolio/shots), with its own look.
 Run from the repo root: python portfolio/v2/build.py"""
 import base64, html as h, json, pathlib, sys
@@ -52,7 +52,6 @@ html = f"""<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Akos Tajnel — Product marketing</title>
 <meta name="description" content="Akos Tajnel, B2B SaaS professional since 2018 and product marketing lead: launches, customer insight, competitive intelligence and sales enablement, with the AI workflows behind them.">
-<meta name="robots" content="noindex">
 <link rel="icon" href="{photo}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -65,7 +64,6 @@ html = f"""<!DOCTYPE html>
 </body>
 </html>
 """
-out = ROOT / "v2/index.html"
-out.parent.mkdir(exist_ok=True)
+out = ROOT / "index.html"
 out.write_text(html)
 print(out.relative_to(ROOT), len(html) // 1024, "KB")

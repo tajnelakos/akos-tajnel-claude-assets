@@ -1,4 +1,4 @@
-"""Build the portfolio front page (index.html) as one self-contained file:
+"""Build the previous portfolio design (v1/index.html, kept for reference at akostajnel.com/v1/) as one self-contained file:
 theme CSS and page CSS inlined, photo embedded, all links absolute.
 Run from the repo root: python portfolio/build-index.py"""
 import base64, pathlib, html as h, sys
@@ -43,6 +43,7 @@ html = f"""<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
 <title>Akos Tajnel — Product marketing</title>
 <meta name="description" content="Akos Tajnel, B2B SaaS professional since 2018 and product marketing lead: launch process, customer insight, competitive intelligence and sales enablement, with the AI workflows behind them.">
 <link rel="icon" href="{photo}">
@@ -56,5 +57,6 @@ html = f"""<!DOCTYPE html>
 </body>
 </html>
 """
-(ROOT / "index.html").write_text(html)
-print("index.html", len(html) // 1024, "KB")
+(ROOT / "v1").mkdir(exist_ok=True)
+(ROOT / "v1/index.html").write_text(html)
+print("v1/index.html", len(html) // 1024, "KB")
