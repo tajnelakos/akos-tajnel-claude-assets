@@ -28,6 +28,8 @@ CRM fields capture what reps think happened. Win/loss interviews tell you what b
 
 Every finding goes to one of four places: battlecards, the product roadmap, sales training, or positioning.
 
+The CRO or Head of Sales owns the discipline. If sales leadership treats win/loss as optional, reps stop logging real reasons and handing over buyer contacts, and the program stalls.
+
 ## Files — deep-dive analysis
 
 - [`skill.md`](./skill.md)'s "Deep-dive mode" section — the same skill file, extended for this mode

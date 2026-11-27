@@ -6,6 +6,16 @@ CRM fields capture what reps think happened. Win/loss interviews tell you what b
 
 Product marketing runs the interview, not the rep who worked the deal. Buyers are more open with someone who wasn't in the room. They won't defend the rep, and they won't soften the reason to be polite. The rep gets the summary afterwards.
 
+## Who owns it
+
+Product marketing runs the interviews, but the CRO or Head of Sales has to own the discipline. A request from product marketing or ops is easy for reps to ignore; a rule from their sales leader isn't. When leadership treats win/loss as optional, reps deprioritise it, and the pipeline dries up within a quarter.
+
+What the sales leader enforces:
+
+- Close-reason fields filled in properly before a deal can be marked won or lost.
+- The decision-maker's contact handed to product marketing within a week of the close, with a warm intro from the rep.
+- Win/loss findings reviewed in the regular pipeline or forecast meeting, so reps see the results of their effort.
+
 ## The pipeline
 
 Win/loss is an interview program, not a report on CRM fields. You have to talk to buyers.

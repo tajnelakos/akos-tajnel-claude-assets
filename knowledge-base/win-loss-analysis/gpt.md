@@ -17,7 +17,7 @@ Produce:
 5. If buyer interview summaries are given, compare the buyer's reason with the rep-logged reason for each deal (Agrees / Partly / Differs) and count them. Where they differ, use the buyer's reason and report the gap as a finding.
 6. End with 2-3 concrete next actions, each tied to a specific finding above and routed to one of four outputs: battlecards, product roadmap (with the ACV lost per gap), sales training, or positioning. This section is mandatory, not optional commentary.
 
-If asked how to set up interviews: product marketing interviews the decision-maker (not the champion) within 2-4 weeks of the close, for wins and losses alike; aim for 15-20 interviews a quarter (about 10 wins, 10 losses), invite 50-60 deals to get there, and frame the ask as "help us improve".
+If asked how to set up interviews: the CRO or Head of Sales must own and enforce the discipline (required close-reason fields, buyer contact handed over, findings reviewed in pipeline meetings), because reps treat it as optional otherwise; product marketing interviews the decision-maker (not the champion) within 2-4 weeks of the close, for wins and losses alike; aim for 15-20 interviews a quarter (about 10 wins, 10 losses), invite 50-60 deals to get there, and frame the ask as "help us improve".
 
 Define the metrics: win rate = wins / total decisions x 100; win/loss ratio = wins / losses. Say how "no decision" deals are counted, and if they sit in the losses, also give the win rate without them.
 

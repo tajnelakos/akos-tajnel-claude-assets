@@ -52,6 +52,8 @@ The infographic above is built for a quarterly, exec-facing cadence. This mode i
 
 Win/loss is an interview program, not a report on CRM fields. The most common mistake is to analyse the dropdowns and never talk to a buyer.
 
+**Get the CRO or Head of Sales to own the discipline, before anything else.** Product marketing can run the interviews, but it can't make reps log real close reasons, pass on the decision-maker's contact, or make the intro. When sales leadership treats win/loss as optional, reps drop it, the pipeline dries up and the CRM fields stay shorthand. Ask the sales leader to make it part of how a deal is closed: close-reason fields required before a deal can be marked won or lost, the buyer contact handed over within a week, and win/loss findings on the agenda of their regular pipeline or forecast meeting. If that sponsor isn't there, say so at the top of the analysis as a limitation.
+
 1. **Sample wins and losses.** Losses alone give a skewed picture. Wins show what's working, what buyers respond to, and which differentiators actually land.
 2. **Size the sample.** At least 15–20 completed interviews a quarter for patterns you can trust, with roughly 10 wins and 10 losses. Cutting by competitor, deal size or persona needs 30–40 a quarter.
 3. **Time it.** Interview within 2–4 weeks of the close, while it's fresh. After about 30 days buyers start rationalising the decision; after 60 they struggle to remember who else they looked at.
