@@ -101,6 +101,19 @@
   .kf-item b{ font:700 15px/1.3 'Archivo', system-ui, sans-serif; color:var(--ink); }
   .kf-item p{ margin:0; font-size:13.5px; line-height:1.45; color:var(--ink-soft); }
   @media (max-width:760px){ .kf{ grid-template-columns:1fr; } }
+  .metric-note{ margin:-8px 0 0; font-size:13px; line-height:1.5; color:var(--ink-soft); }
+  .match{ display:inline-block; padding:2px 9px; border-radius:999px; font-size:12px; font-weight:600; white-space:nowrap; }
+  .match--agree{ background:var(--win-bg); color:var(--win); }
+  .match--partly{ background:var(--accent-bg); color:var(--accent-deep); }
+  .match--differs{ background:var(--lose-bg); color:var(--lose); }
+  .routes{ list-style:none; padding:0; margin:0; display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
+  .routes li{ background:#fff; border:1px solid var(--line); border-top:3px solid #1A3A5C; border-radius:10px; padding:14px 16px; display:flex; flex-direction:column; gap:6px; }
+  .routes b{ font:700 15px/1.3 'Archivo', system-ui, sans-serif; color:var(--ink); }
+  .routes .owner{ font-size:11.5px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:.06em; }
+  .routes p{ margin:0; font-size:13px; line-height:1.45; color:var(--ink-soft); }
+  .page.sr-lift .kpis{ grid-template-columns:repeat(auto-fit, minmax(148px,1fr)); }
+  @media (max-width:900px){ .routes{ grid-template-columns:1fr 1fr; } }
+  @media (max-width:560px){ .routes{ grid-template-columns:1fr; } }
 </style>
 <link rel="stylesheet" href="../../knowledge-base/design-system/report-theme.css">
 
@@ -115,7 +128,7 @@
         <p class="sr-mast__eyebrow">Win/Loss Analysis</p>
         <h1 class="sr-mast__title sr-mast__title--long">Win/Loss Deep Dive — Trailing 12 Months</h1>
         <p class="sr-mast__lede">One hundred closed deals over twelve months: where we win, where we lose, against whom, and why buyers say they decided.</p>
-        <div class="sr-facts"><span class="sr-fact">Period <b>Oct 2025 – Sep 2026</b></span><span class="sr-fact">Deals analyzed <b>100</b></span><span class="sr-fact">Prepared <b>September 2026</b></span><span class="sr-fact">Sources <b><a href="./win-loss-crm-export.csv">CRM export</a> + <a href="../sales-call-analysis">sales-call-analysis</a></b></span></div>
+        <div class="sr-facts"><span class="sr-fact">Period <b>Oct 2025 – Sep 2026</b></span><span class="sr-fact">Deals analyzed <b>100</b></span><span class="sr-fact">Prepared <b>September 2026</b></span><span class="sr-fact">Sources <b><a href="./win-loss-crm-export.csv">CRM export</a> + <a href="../sales-call-analysis">call analysis</a> + <a href="./buyer-interviews.md">buyer interviews</a></b></span></div>
       </div>
       <figure class="sr-mast__art"><img src="../../knowledge-base/design-system/dotmaps/dotmap-win-loss.svg" alt=""></figure>
     </div>
@@ -126,11 +139,13 @@
 
   <div class="kpis">
     <div class="kpi"><div class="kpi-value">42%</div><div class="kpi-label">Overall win rate</div></div>
+    <div class="kpi"><div class="kpi-value">0.72</div><div class="kpi-label">Win/loss ratio (42 ÷ 58)</div></div>
     <div class="kpi"><div class="kpi-value">€3.04M</div><div class="kpi-label">Total won ACV</div></div>
     <div class="kpi"><div class="kpi-value">95d</div><div class="kpi-label">Avg. sales cycle, won deals</div></div>
     <div class="kpi"><div class="kpi-value">13%</div><div class="kpi-label">Win rate vs. NexaScore (1 of 8)</div></div>
     <div class="kpi"><div class="kpi-value">31%</div><div class="kpi-label">Losses citing price</div></div>
   </div>
+  <p class="metric-note"><b>How these are counted.</b> Win rate = wins ÷ total decisions × 100 (42 ÷ 100 = 42%). Win/loss ratio = wins ÷ losses (42 ÷ 58 = 0.72). The 58 losses include 6 “no decision” deals that stalled rather than went to a competitor; without them the win rate is 44.7% (42 of 94) and the ratio 0.81 (42 ÷ 52).</p>
 
   <div class="panel panel-highlight">
     <div class="eyebrow">Read this first</div>
@@ -198,7 +213,7 @@
     <div class="sub">Which competitor we faced, their quoted price, and our win rate against them</div>
     <table>
       <tr><th>Competitor</th><th>Deals faced</th><th>Win rate</th><th>Avg. their quote</th><th>Avg. our deal</th><th>Perceived strength cited</th></tr>
-      <tr><td>NexaScore</td><td class="num">8</td><td class="num lose-txt">0.0%</td><td class="num">€94,626</td><td class="num">€103,344</td><td>Post-launch explanation claim; increasingly price-competitive too</td></tr>
+      <tr><td>NexaScore</td><td class="num">8</td><td class="num lose-txt">12.5%</td><td class="num">€94,626</td><td class="num">€103,344</td><td>Post-launch explanation claim; increasingly price-competitive too</td></tr>
       <tr><td>Conturo</td><td class="num">11</td><td class="num lose-txt">27.3%</td><td class="num">€126,750</td><td class="num">€121,832</td><td>Incumbency, relationship tenure, on-prem capability</td></tr>
       <tr><td>Ledgerline</td><td class="num">14</td><td class="num">42.9%</td><td class="num">€95,992</td><td class="num">€101,803</td><td>Price and implementation speed</td></tr>
       <tr><td>Pocketlens</td><td class="num">15</td><td class="num win-txt">46.7%</td><td class="num">€20,420</td><td class="num">€19,998</td><td>Already embedded in the member app; a different job, so often a complement rather than a rival</td></tr>
@@ -255,8 +270,43 @@
     <div class="sub" style="margin-top:14px;">Lead source performance (win rate): Event 66.7% (n=15) · Outbound 44.0% (n=25) · Referral 36.0% (n=25) · Inbound 35.0% (n=20) · Partner 33.3% (n=15). Event-sourced leads convert notably better than any other channel; partner-sourced leads underperform expectations and are worth investigating rather than assumed healthy by default.</div>
   </section>
 
+  <section class="panel">
+    <div class="eyebrow">Third Data Source</div>
+    <h2>What buyers said vs what reps logged</h2>
+    <div class="sub">Eight buyer interviews, run by product marketing two to four weeks after the decision. CRM fields capture what reps think happened; interviews show what buyers actually experienced.</div>
+    <table>
+      <tr><th>Deal</th><th>Outcome</th><th>Rep logged</th><th>Buyer said</th><th>Match</th></tr>
+      <tr><td>OPP-1003 Court Street Bank</td><td>Lost · NexaScore</td><td>Price</td><td>No reference customer at our size</td><td><span class="match match--differs">Differs</span></td></tr>
+      <tr><td>OPP-1020 Ravensworth Bank Group</td><td>Lost · NexaScore</td><td>Data coverage gap</td><td>A regulatory certification we don’t hold</td><td><span class="match match--differs">Differs</span></td></tr>
+      <tr><td>OPP-1005 Baltic Savings Bank</td><td>Lost · Conturo</td><td>Data coverage gap</td><td>Our answer took three weeks; they renewed Conturo</td><td><span class="match match--differs">Differs</span></td></tr>
+      <tr><td>OPP-1012 Harborlight Credit Union</td><td>Lost · Pocketlens</td><td>Incumbent inertia</td><td>Not a top-three problem, and per-seat cost for 60 bankers</td><td><span class="match match--partly">Partly</span></td></tr>
+      <tr><td>OPP-1010 Solvane Bank Group</td><td>Lost · Conturo</td><td>No on-prem option</td><td>No on-prem option</td><td><span class="match match--agree">Agrees</span></td></tr>
+      <tr><td>OPP-1007 Delta Direct Bank</td><td>No decision</td><td>Internal bandwidth</td><td>Core banking migration took every team</td><td><span class="match match--agree">Agrees</span></td></tr>
+      <tr><td>OPP-1001 Nordkredit</td><td>Won · Conturo</td><td>Explainability</td><td>The backtest on their own customers</td><td><span class="match match--differs">Differs</span></td></tr>
+      <tr><td>OPP-1002 Meridian Savings</td><td>Won · Ledgerline</td><td>Explainability</td><td>Evidence model risk could sign off in one meeting</td><td><span class="match match--partly">Partly</span></td></tr>
+    </table>
+    <div class="stat-compare">
+      <div class="stat-box won"><div class="stat-box-label">Rep and buyer agree</div><div class="stat-box-value">2 of 8</div></div>
+      <div class="stat-box"><div class="stat-box-label">Partly agree</div><div class="stat-box-value">2 of 8</div></div>
+      <div class="stat-box lost"><div class="stat-box-label">Different reason</div><div class="stat-box-value">4 of 8</div></div>
+      <div class="stat-box lost"><div class="stat-box-label">Lost ACV where reasons differed</div><div class="stat-box-value">€330k</div></div>
+    </div>
+    <div class="sub" style="margin-top:6px;">Three losses logged as price or data coverage came down to something else in the buyer’s words: a missing reference, a missing certification, and a slow answer before a renewal date. Eight interviews is below the 15–20 a quarter the program aims for, so treat this as a strong hint, not a rate. Reaching that target needs the Head of Sales to make buyer hand-offs part of closing a deal. Full summaries: <a href="./buyer-interviews.md">buyer-interviews.md</a> · method: <a href="./interview-guide.md">interview-guide.md</a>.</div>
+  </section>
+
+  <section class="panel">
+    <div class="eyebrow">So What</div>
+    <h2>Where the findings go</h2>
+    <ul class="routes">
+      <li><span class="owner">Sales enablement</span><b>Battlecards</b><p>NexaScore leads with references and its certification, not only price. Against Conturo, find the renewal date in the first call.</p></li>
+      <li><span class="owner">Product</span><b>Roadmap</b><p>Two gaps with real lost ACV behind them: the regulatory certification (€126k, OPP-1020) and on-prem (€193k, OPP-1010).</p></li>
+      <li><span class="owner">Sales enablement</span><b>Sales training</b><p>Coach two scenarios: answering “who else our size uses this?”, and getting a blocking question answered within a week.</p></li>
+      <li><span class="owner">Product marketing</span><b>Positioning</b><p>Winning buyers talk about a backtest on their own data and a one-meeting model-risk sign-off. Say that, not “explainability”.</p></li>
+    </ul>
+  </section>
+
   <footer>
-    <div><b>Data sources:</b> <a href="./win-loss-crm-export.csv">win-loss-crm-export.csv</a> (100-record CRM export, internal deal data — deal size, sales cycle, lead source, assigned rep) and <a href="../sales-call-analysis">sales-call-analysis</a> (qualitative detail on 15 of these deals).</div>
+    <div><b>Data sources:</b> <a href="./win-loss-crm-export.csv">win-loss-crm-export.csv</a> (100-record CRM export, internal deal data — deal size, sales cycle, lead source, assigned rep) <a href="../sales-call-analysis">sales-call-analysis</a> (qualitative detail on 15 of these deals) and <a href="./buyer-interviews.md">buyer-interviews.md</a> (eight buyer interviews, joined by Opportunity ID).</div>
     <div style="margin-top:4px;">See also: <a href="./win-loss-infographic.svg">win-loss-infographic.svg</a> — the quarterly exec-readable snapshot; this is the deeper, full-period analysis behind it.</div>
   </footer>
 
