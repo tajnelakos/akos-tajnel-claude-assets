@@ -31,19 +31,20 @@ for num, name, sub, rows in GROUPS:
         note = f'<span>{h.escape(r["stat_note"])}</span>' if r["stat_note"] else ""
         cards.append(
             f'<button class="card rv" type="button" data-i="{i}" data-g="{num}" aria-label="Open {h.escape(r["title"])}">'
-            f'<span class="card__cover{tall}" style="--tint:{TINTS[num]}"><img data-k="{cover}" alt="">{play}</span>'
+            f'<span class="card__cover ui-card{tall}"><img data-k="{cover}" alt="">{play}</span>'
             f'<span class="card__cat">{h.escape(name)}</span>'
             f'<span class="card__title">{h.escape(r["title"])}</span>'
             f'<span class="card__line">{h.escape(r["line"])}</span>'
             f'<span class="card__stat"><b>{h.escape(r["stat"])}</b>{note}</span></button>')
 
 photo = uri(ROOT / "portfolio/akos-tajnel.jpg")
+hero = "data:image/webp;base64," + base64.b64encode((HERE / "hero-placeholder.webp").read_bytes()).decode()
 css = (HERE / "v2.css").read_text()
 safe = lambda o: json.dumps(o, ensure_ascii=False).replace("</", "<\\/")
 body = ((HERE / "body.html").read_text()
         .replace("{FILTERS}", "".join(filters)).replace("{CARDS}", "\n        ".join(cards))
         .replace("{IMG}", safe(img)).replace("{PROJECTS}", safe(projects))
-        .replace("{PHOTO}", photo).replace("{P}", P).replace("{G}", G))
+        .replace("{PHOTO}", photo).replace("{HERO}", hero).replace("{P}", P).replace("{G}", G))
 html = f"""<!DOCTYPE html>
 <html lang="en-GB">
 <head>
@@ -54,7 +55,7 @@ html = f"""<!DOCTYPE html>
 <meta name="robots" content="noindex">
 <link rel="icon" href="{photo}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 {css}
 </style>
