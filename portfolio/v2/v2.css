@@ -91,6 +91,16 @@ p { margin: 0; }
 .skills h3 { font-size: 17px; font-weight: 700; margin-bottom: 6px; letter-spacing: -0.01em; }
 .skills p { font-size: 15px; color: var(--muted); line-height: 1.5; }
 
+/* Facts inside About */
+.facts { margin-top: 48px; padding-top: 28px; border-top: 1px solid var(--line); }
+.facts__label { font-size: 14px; font-weight: 600; color: var(--accent-ink); margin-bottom: 18px; }
+.facts__label span { color: var(--muted); font-weight: 500; }
+.facts__row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 28px; }
+.facts__row b { display: block; font-size: 44px; font-weight: 800; color: var(--ink); letter-spacing: -0.03em; line-height: 1; margin-bottom: 8px; }
+.facts__row div:first-child b { color: var(--accent); }
+.facts__row span { font-size: 15px; color: var(--text); line-height: 1.4; display: block; max-width: 15em; }
+@media (max-width: 980px) { .facts__row { grid-template-columns: repeat(2, 1fr); } }
+
 /* Fiction note */
 .fiction { margin-top: 28px; padding: 18px 22px; border-radius: 14px; background: var(--accent-soft); color: var(--text); font-size: 15.5px; border: 1px solid #F8D9C4; }
 .fiction b { color: var(--ink); }
@@ -240,3 +250,5 @@ p { margin: 0; }
   .lb { padding: 20px; }
   .repo { padding: 28px 22px; }
 }
+
+.sec--about { padding-top: 24px; }
