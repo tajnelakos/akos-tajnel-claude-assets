@@ -81,7 +81,14 @@
   .pbs li::before { content: ""; position: absolute; left: 0; top: .6em; width: 6px; height: 6px; border-radius: 2px; background: var(--gold); }
   .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
   .item__video { margin-top: 18px; border-radius: var(--r-md); overflow: hidden; background: #0F1E2C; max-width: 720px; }
-  .item__video video { width: 100%; aspect-ratio: 16 / 9; }
+  .item__video { position: relative; }
+  .item__video video { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+  .video-play { position: absolute; inset: 0; margin: auto; width: 84px; height: 84px; border: 0; border-radius: 50%; background: rgba(255,255,255,.94); color: #1B3A5C; cursor: pointer; display: grid; place-items: center; box-shadow: 0 8px 28px rgba(15,30,44,.35); transition: transform .15s ease, background .15s ease; }
+  .video-play svg { width: 34px; height: 34px; fill: currentColor; margin-left: 5px; }
+  .video-play:hover { transform: scale(1.07); background: #fff; }
+  .video-play:focus-visible { outline: 3px solid #C9A227; outline-offset: 4px; }
+  .item__video.is-playing .video-play { display: none; }
+  @media (max-width: 760px) { .video-play { width: 64px; height: 64px; } .video-play svg { width: 26px; height: 26px; } }
 
   /* How I work with AI */
   .flow4 { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; counter-reset: f; }

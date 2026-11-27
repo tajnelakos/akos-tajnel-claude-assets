@@ -26,7 +26,7 @@ def work_html():
                        f'<span class="item__more"><span class="c">Show</span><span class="o">Close</span></span></summary>')
             out.append('        <div class="item__body">')
             if r.get("video"):
-                out.append('          <div class="item__video"><video src="{P}knowledge-base/video-design-system/assets/Films/segment-retail-lending-16x9.mp4" poster="{POSTER}" controls preload="none" playsinline aria-label="Seekridge mortgage lending film"></video></div>')
+                out.append('          <div class="item__video"><video src="{P}knowledge-base/video-design-system/assets/Films/segment-retail-lending-16x9.mp4" poster="{POSTER}" preload="metadata" playsinline aria-label="Seekridge retail banking film"></video><button class="video-play" type="button" aria-label="Play the film"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg></button></div>')
             if r["shots"]:
                 cls = "gallery gallery--tall" if r.get("tall") else "gallery"
                 imgs = "".join(f'<img src="{b64(ROOT / "portfolio/shots" / (f + ".jpg"))}" alt="{h.escape(a)}" loading="lazy">' for f, a in r["shots"])

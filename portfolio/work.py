@@ -12,7 +12,7 @@ GROUPS = [
          shots=[("launch-1", "Launch process: overview"), ("launch-2", "Five stages, each feeding the next"), ("launch-3", "Demo readiness, checked per market"), ("launch-4", "Learn: results against the KPIs")],
          links=[("Open the full page ↗", P + "marketing-assets/product-launch-process/launch-process.html"), ("Read the skill ↗", G + "/blob/main/marketing-assets/product-launch-process/skill.md")]),
     dict(title="Launch video", line='"Your next deals are hiding in your client base." Made with Claude, from our own video system.',
-         stat="65 sec", stat_note="", open=True, video=True,
+         stat="64 sec", stat_note="", open=True, video=True,
          note="Built scene by scene from the video design system with Claude, then rendered to video. No agency, no video editor.",
          shots=[], links=[("See the video system ↗", P + "knowledge-base/video-design-system/preview.html")]),
   ]),

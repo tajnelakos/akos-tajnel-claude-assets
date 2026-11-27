@@ -128,4 +128,5 @@
     box.addEventListener('click', function (e) { if (e.target === box) close(); });
     document.addEventListener('keydown', function (e) { if (box.hidden) return; if (e.key === 'Escape') close(); if (e.key === 'ArrowLeft') show(i - 1); if (e.key === 'ArrowRight') show(i + 1); });
   })();
+document.querySelectorAll('.item__video').forEach(function(w){var v=w.querySelector('video'),b=w.querySelector('.video-play');if(!v||!b)return;b.addEventListener('click',function(){v.controls=true;w.classList.add('is-playing');v.play();});v.addEventListener('play',function(){v.controls=true;w.classList.add('is-playing');});});
 </script>
